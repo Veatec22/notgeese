@@ -1,0 +1,56 @@
+LABYRINTH OF THE DEMON KING PL 0.1 — WERSJA TESTOWA
+
+1120 z 1120 wpisów lokalizacji: menu, ustawienia, sterowanie, dialogi,
+samouczki, notatki, opisy przedmiotów, mapy, osiągnięcia i komunikaty.
+Nazwy własne, oznaczenia kontrolerów i część odgłosów celowo pozostają bez zmian.
+Zakres nie obejmuje napisów w teksturach, nagrań głosowych ani tekstów sklepu.
+
+INSTALACJA
+Przy zamkniętej grze wypakuj zawartość ZIP do katalogu z Shinigami.exe.
+W Shinigami/Content/Paks pojawią się trzy pliki pakchunk99-notgeesePL_P:
+.pak, .utoc i .ucas. Wszystkie trzy są potrzebne.
+Uruchom grę normalnie i wybierz Polski na ekranie wyboru języka.
+Nie trzeba ustawiać parametru Culture ani zastępować angielskiego.
+Aktualizacja: zastąp te same trzy pliki. Własne zapisy gry zostają bez zmian.
+
+USUNIĘCIE
+Przy zamkniętej grze usuń wyłącznie te trzy pliki pakchunk99-notgeesePL_P.
+Nie usuwaj oryginalnych pakchunk0 ani global. Oryginały nie są podmieniane.
+Jeżeli używasz innych modów, pozostaw ich pliki na miejscu.
+
+CO ZAWIERA PACZKA
+PAK: nasz plik Localization/Game/pl/Game.locres, tylko przetłumaczone wpisy.
+IoStore: minimalny nośnik lokalizacji UI_LanguageSlot (około 24 KB) z dopisanym
+pl -> Polski oraz nagłówek kontenera i indeks. Widżet odpowiada za etykiety
+i obsługę pozycji języków. Zachowano wszystkie jego dotychczasowe etykiety.
+Ten istniejący widżet jest wymaganym nośnikiem osobnego języka, nie naszym
+autorskim zasobem. Paczka nie zawiera innych blueprintów, scen, modeli,
+tekstur, dźwięków, fontów, plików wykonywalnych ani bibliotek gry.
+Wykorzystuje fonty już zainstalowane z grą.
+
+ZGODNOŚĆ I STAN TESTÓW
+Zbudowane z kopii GOG, buildId 59111742023178281, Unreal Engine 4.27.
+To informacja o bazie testowej, nie blokada wersji. Łatka nie sprawdza sumy
+kontrolnej gry przy starcie. Zgodność po aktualizacji nie została sprawdzona;
+szczególnie struktura widżetu może wymagać ponownego przygotowania.
+Nowe wpisy, których nie ma w locres, pozostają w języku źródłowym.
+Zwykły PAK nie implementuje logowania braków znanego z pluginów BepInEx.
+Użytkownik potwierdził działanie verticala: Polski w selektorze, przełączanie,
+zapamiętanie wyboru, polskie znaki i teksty w grze. Sprawdzono pliki i archiwum
+pełnego przekładu; nie wykonano pełnego przejścia kampanii po polsku.
+
+POZOSTAŁY PRZEGLĄD W GRZE
+Sprawdź dłuższe dialogi, opisy piekieł, wskazówki zagadek i nazwy na mapach.
+Zwróć uwagę na przycięcia, niepasującą odmianę w komunikatach o przedmiotach
+i rodzaj gramatyczny w kwestiach postaci. Zgłaszaj przykład ze screenem lub
+identyfikatorem wpisu. Agent nie uruchamia gry za użytkownika.
+
+KOREKTA
+Repozytorium: games/labyrinth-of-the-demon-king/translations/en-pl-review.json
+zawiera angielski oryginał i polski przekład obok siebie, a docs/decisions.md
+terminologię. Uwagi przy wpisach wskazują teksty do oceny w grze.
+
+AKTUALIZACJA ZE STARSZEJ PACZKI
+Starsze wydania nazywały pliki inaczej (poprzednia nazwa projektu). Przed
+wypakowaniem usuń z Shinigami/Content/Paks trzy pliki pakchunk99-NieGesiPL_P
+(.pak, .utoc, .ucas). Inaczej gra wczyta obie wersje i starsza może przesłonić nowszą.

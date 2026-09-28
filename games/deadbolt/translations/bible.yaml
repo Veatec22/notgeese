@@ -1,0 +1,175 @@
+sources:
+  - id: strg
+    description: Strings from the STRG chunk of data.win (work/candidates.json, number = candidate order).
+  - id: fp
+    description: dia_fp.json; missions, verses and flame conversations; node path in the key.
+  - id: dia
+    description: Other dia_*.json; safes, notes, the finale conversation.
+  - id: direction
+    description: docs/decisions.md; sample before the vertical, four topics settled by the user 2026-09-25.
+
+style:
+  tone: >-
+    Dark noir with the undead. The reaper's dry matter-of-fact voice in mission descriptions,
+    an oracle in verse, gangster jabs from enemies, broken drugged monologues on the tapes.
+    No added humor; developer jokes stay untouched.
+  adaptation: >-
+    Mission and achievement titles with wordplay are adapted; Latin and foreign quotes stay.
+    The original's inconsistency (1st/2nd person narration) is not evened out.
+  technical: >-
+    Game fonts have no „ ” and no en dash: quotes " or ', dash -.
+    Appended names and numbers: colon form ("Zabij: Puff", "Liczba zgonów: 5.").
+    Key hints in caps, imperative; apostrophes and tags &y& &!& # unchanged.
+  source: user
+  note: >-
+    User 2026-09-25 accepted the sample's direction: rhymed verses with a fixed refrain,
+    "żniwiarz", gangs in English. Tape swearing stronger than proposed: "jebany" for
+    "fucking" (rejected "pieprzony"). No added vulgarity where EN has none.
+
+characters:
+  - id: reaper
+    name: żniwiarz
+    gender: m
+    register: >-
+      Matter-of-fact, cold, short first-person sentences ("Znajdę, co ukrywają.").
+      Calls his client "mój pracodawca".
+    declension: żniwiarza, żniwiarzu (vocative), żniwiarzem
+    source: [fp, strg, direction]
+    note: >-
+      Masculine: fireplace "A man of light… his time" (fp map_mission7/map_lamp),
+      enemies "He's... coming..." (strg 446). "reaper" lower-case as in EN;
+      "grim reaper" = "ponury żniwiarz". Rejected: "kosiarz" (jokey), "Kostucha" (feminine).
+    examples:
+      - key: strg 73
+        en: Not bad, reaper.
+        pl: Nieźle, żniwiarzu.
+        source: user
+  - id: flames
+    name: płomienie / kominek
+    gender: m   # of itself: "Pomyślałem", "Nie spodziewałem się gości"; tapes call it "he"; the noun "płomienie" is plural
+    addresses_player: ty ("przyjacielu")
+    register: >-
+      Oracle: verse only. Rhyme and rhythm beat literalness (user 2026-09-25, after the
+      review): imagery may shift, the mission's meaning, &y&/&b& highlights and the refrain stay;
+      outside quotes ("spoke the fireplace") short, warm, solemn sentences.
+    source: [fp, direction]
+    note: >-
+      Refrain always "…nie może przy mnie żyć" / "…nie mogą przy mnie żyć"
+      (EN "cannot live with me", 8 occurrences). A verse about knocking keeps "zapukaj":
+      it's a game mechanic. Rejected: free verse.
+    examples:
+      - key: fp map_mission4/Description
+        en: '"No moment to flee -# he should not be here.#&y&A man with a heart&!&,#cannot live with me."'
+        pl: '„Nie ma dokąd zbiec -# on nie powinien tu być.#&y&Człowiek, co ma serce&!&,#nie może przy mnie żyć.”'
+        source: user
+      - key: fp map_mission1/Description
+        en: '"My Candles tell me tales,#&y&Undead&!& form and blossom#Find their abode and knock,#And free them from their jails." ##The flames never spoke in prose.'
+        pl: '„Świece szepczą mi wieści:#&y&Nieumarli&!& wciąż się mnożą.#Znajdź ich dom i zapukaj,#niech ich cele się otworzą.” ##Płomienie nigdy nie mówiły prozą.'
+        source: user
+  - id: tapes
+    name: narratorzy kaset
+    gender: '?'
+    register: broken short sentences; swearing rare, at moments of collapse
+    source: [strg, direction]
+    note: >-
+      Each tape has a different narrator (zombie, vampire, skeleton…); gender from the tape's
+      content ("My husband agrees" = a woman). "fucking" -> "jebany" (user decision).
+    examples:
+      - key: strg 165
+        en: My heart drops through the fucking floor and I lose it, forever.
+        pl: Serce spada mi przez jebaną podłogę i puszczają mi nerwy. Na dobre.
+        source: user
+
+terms:
+  - en: reaper
+    pl: żniwiarz
+    forms: [żniwiar]
+    source: user
+  - en: Candles?
+    pl: Świece
+    forms: [świec]
+    source: decision
+    note: the flames' informants; capitalized as in EN
+  - en: this Place
+    pl: to Miejsce
+    forms: [miejsc]
+    source: decision
+    note: capitalized as in EN
+  - en: undead
+    pl: nieumarli
+    forms: [nieumar]
+    source: decision
+  - en: ash
+    pl: popiół
+    forms: [popi, popioł]
+    source: decision
+    note: drug and portal fuel; "ash totems" = totemy z popiołu, "ash caches" = skrytki z popiołem
+  - en: souls?
+    pl: dusze
+    forms: [dusz]
+    source: decision
+  - en: Hellhounds?
+    pl: piekielne ogary
+    forms: [ogar]
+    source: decision
+  - en: phylacter(y|ies)
+    pl: filakteria
+    forms: [filakteri]
+    source: decision
+  - en: harvest
+    pl: żniwa
+    forms: [żniw]
+    source: decision
+    note: echoes "żniwiarz"; intended in PL, as reaper/harvest link in EN
+  - en: employer
+    pl: pracodawca
+    forms: [pracodaw]
+    source: decision
+  - en: flames
+    pl: płomienie
+    forms: [płomie, płomien]
+    source: decision
+  - en: fireplace
+    pl: kominek
+    forms: [komin]
+    source: decision
+  - en: bouncer
+    pl: bramkarz
+    forms: [bramkar]
+    source: decision
+    note: enemy type (the Bouncer) and in mission descriptions
+  - en: knock
+    pl: pukać / zapukaj
+    forms: [puk]
+    source: decision
+    note: game mechanic, also in the flames' verses
+
+keep_english:
+  - Zombie Kingz
+  - 1000 Year Royals
+  - The Dredged
+  - Charon
+  - Lux in Tenebris
+  - Le Sniper Du Cœur
+  - Quid Pro Quo
+  - Baba Yaga
+
+settings:
+  max_line: 0   # unknown; fontTiny is very small, check in game
+
+ignore:
+  - check: typography
+    key: '.*'
+    reason: game fonts have no „ ” and no en dash; straight quotes and hyphen are deliberate (style.technical)
+  - check: missing
+    key: '^s1724$'
+    reason: "' Souls' after the number deliberately empty; the unit is in the header 'NAGRODA W DUSZACH: '"
+  - check: english
+    key: 'map_portal/Name$'
+    reason: '"portal" is also a Polish word'
+  - check: terms
+    key: 'map_mission5/Description$'
+    reason: flames' verse; "piekielne psy" as a poetic variant of the term
+  - check: terms
+    key: 'map_mission22/Description$'
+    reason: flames' verse; "zapomnianych trupów rój" to rhyme with "twój"

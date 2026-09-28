@@ -1,0 +1,74 @@
+sources:
+  - id: files
+    description: MenuText.txt and Phrases.txt from the game; keys, character-limit comments, FR/ES/DE/IT versions
+  - id: game
+    description: Hyper Light Drifter mechanics; the game text has no dialogue, only menus, settings and hints
+
+characters: []   # the game has no spoken or written lines; it tells its story through images
+
+terms:
+  - en: dash
+    pl: zryw
+    forms: [zryw]
+    source: decision
+    note: short (4 chars in an 11-char field), conveys the quick lunge; "unik" would suggest defense only
+  - en: gun
+    pl: broń palna
+    forms: [broń, broni]
+    source: [files]
+    note: the game separates the gun charged by slashing from the sword, like German "Schusswaffe" and Italian "arma da fuoco"
+  - en: gear
+    pl: wyposażenie
+    forms: [wyposaż, sprzęt]
+    source: decision
+  - en: warp
+    pl: teleportować się
+    forms: [teleport]
+    source: [files]
+    note: FR/ES/DE also translate "warp" as teleporting
+  - en: Newcomer
+    pl: Nowicjusz
+    forms: [nowicjusz]
+    source: decision
+    note: mode name; in sentences "w trybie Nowicjusz", name not declined
+  - en: Boss Rush
+    pl: Maraton bossów
+    forms: [maraton]
+    source: decision
+    note: descriptive and natural; "boss" stays in Polish games
+  - en: Fully Loaded
+    pl: Pełny zestaw
+    forms: [pełny zestaw]
+    source: decision
+  - en: Mid-Range
+    pl: Średni zestaw
+    forms: [średni]
+    source: decision
+    note: in game it's a loadout, not a range; FR/ES/DE translated it as "medium range" and it made no sense
+  - en: Naked
+    pl: Na golasa
+    forms: [golasa]
+    source: decision
+    note: as casual as the original; the description below says plainly "Nic poza pistoletem"
+  - en: achievement
+    pl: osiągnięcie
+    forms: [osiągnię]
+    source: decision
+    note: Polish Steam term
+  - en: co-op
+    pl: kooperacja
+    forms: [kooperac]
+    source: decision
+
+keep_english:
+  - Alt
+  - Drifter
+  - DLC
+  - Xbox
+  - DVR
+  - Windows
+  - HUD
+  - VSYNC
+  - FPS
+  - PLAYSTATION
+  - Heart Machine

@@ -1,0 +1,32 @@
+NOT A HERO PL — wersja 0.1 (testowa)
+
+Pełne spolszczenie, jeszcze nieprzetestowane w całości w uruchomionej grze.
+Przygotowane z instalacji GOG (NOT A HERO.exe: FileVersion 1.0.0.0).
+Wersja wydania w GOG Galaxy pozostaje nieustalona. Aplikator rozpoznaje
+oryginalne pliki po sumach kontrolnych i odmawia pracy na innych plikach.
+
+INSTALACJA
+1. Zamknij grę. Wypakuj zawartość ZIP-a do katalogu z NOT A HERO.exe.
+2. Uruchom Not-A-Hero-PL-0.1.exe. Nakłada łatki i zachowuje oryginały
+   jako pliki z dopiskiem .przed-spolszczeniem.
+3. Uruchom grę i wybierz polską flagę (zajmuje miejsce angielskiej).
+
+ZAKRES
+Odprawy i omówienia BunnyLorda, kwestie w poziomach, nazwy misji, cele
+i wyzwania, podpowiedzi, menu (w tym wybór misji, karty postaci, postęp
+wyborów, reset, pauza), tablice samouczka i napisy HUD. 21 fontów gry
+dostaje polskie litery. Tabliczki EXIT w poziomach zostają po angielsku.
+
+BRAK DŹWIĘKU W MENU?
+To błąd samej gry, nie spolszczenia: przy pierwszym uruchomieniu głośność
+muzyki i efektów startuje od zera. Ustaw ją w OPCJE > DŹWIĘK.
+
+PRZYWRÓCENIE
+Zamknij grę. Uruchom ponownie Not-A-Hero-PL-0.1.exe i wybierz przywrócenie.
+Przed usunięciem aplikatora i łatek przywróć oryginały. Nie kasuj kopii
+.przed-spolszczeniem, dopóki chcesz móc cofnąć instalację.
+
+Paczka zawiera wyłącznie łatki różnicowe, aplikator i tę instrukcję.
+Zmieniane pliki: NOT A HERO.exe (tylko napisy interfejsu), Assets.dat,
+Src/talk.ini, Src/ENDS.ini, Src/chat.ini, Src/LEVELS/SETTINGS.ini.
+Nie zawiera pełnych plików ani obrazów gry; wynik powstaje lokalnie z Twojej kopii.

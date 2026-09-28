@@ -1,0 +1,33 @@
+# SPRAWL: groups for the review workspace.
+# Format: docs/workspace.md.
+#
+# Dialogue subtitles (Dialogue_Subs) have hash keys and file order is the game asset's order,
+# not the conversation's, so no sequences.
+
+format: 1
+
+groups:
+  - id: settings
+    name: Ustawienia i sterowanie
+  - id: menu
+    name: Menu, poziomy i interfejs
+  - id: tutorials
+    name: Samouczki
+  - id: dialogue
+    name: Dialogi (napisy)
+  - id: codex
+    name: Kodeks
+  - id: names
+    name: Przeciwnicy, broń i świat
+
+rules:
+  - {group: settings, namespace: UIStringTable, match: '^(SETTINGS|CONTROL|DLSS|QUALITY|WINDOWMODE|DIFFICULTY)'}
+  - {group: menu, namespace: UIStringTable, match: '.'}
+  - {group: menu, match: '.'}
+  - {group: tutorials, namespace: Tutorials, match: '.'}
+  - {group: dialogue, namespace: Dialogue_Subs, match: '.'}
+  - {group: dialogue, namespace: Dialogue_Update_Subs, match: '.'}
+  - {group: codex, namespace: CODEX, match: '.'}
+  - {group: names, namespace: EnemyNames, match: '.'}
+  - {group: names, namespace: WeaponNames, match: '.'}
+  - {group: names, namespace: World_String_Table, match: '.'}

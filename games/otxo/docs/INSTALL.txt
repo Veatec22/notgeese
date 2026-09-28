@@ -1,0 +1,38 @@
+OTXO - POLSKIE TLUMACZENIE 0.1 (wersja testowa, 1364 wpisy)
+
+1. Zamknij gre.
+2. Otworz katalog gry (GOG Galaxy: Zarzadzaj > Pokaz folder).
+3. Zrob kopie pliku OTXO_script_english_zho-CN.ini gdzies poza katalogiem gry.
+4. Skopiuj OTXO_script_english_zho-CN.ini z tej paczki do katalogu gry i potwierdz zastapienie.
+5. Uruchom gre i w opcjach wybierz jezyk pod CHINSKA FLAGA.
+
+Zadnych skryptow, instalatora ani mod loadera.
+
+DLACZEGO CHINSKA FLAGA
+OTXO to GameMaker skompilowany do kodu natywnego. Siedem jezykow - nazwy ich plikow
+i sekcji - to literaly zaszyte w OTXO_Release.exe. Osmego slotu nie ma i nie da sie
+go dolozyc bez latania kodu maszynowego, wiec polski przejmuje jeden z istniejacych.
+Padlo na chinski, bo wiekszosc czcionek gry jest wypalona w data.win i ma tylko
+ASCII z Latin-1 - narysuje "o z kreska", ale juz nie "e z ogonkiem". Chinski jest
+jedynym slotem, ktory dogrywa czcionke z pliku yahei.ttf, a ta ma komplet polskich
+znakow. Flaga w menu pozostaje chinska - to kosmetyka, nie blad.
+
+PRZYWRACANIE
+Wgraj z powrotem swoja kopie OTXO_script_english_zho-CN.ini. Mozna tez zweryfikowac
+pliki gry w GOG Galaxy.
+
+ZAKRES
+1364 wpisy, czyli caly tekst gry: menu i ustawienia, samouczek, 102 trunki, dialogi
+wszystkich postaci z plazy, Pismo Bekatuy, caly dziennik bohatera, nazwy broni,
+porady i ekran statystyk. Pozostale 104 klucze sa w oryginale puste lub symboliczne
+i zostaja nietkniete.
+
+UWAGA - CO TEN MOD NAPRAWDE ROBI
+To nie jest dolozenie osmego jezyka, tylko PODMIANA LOKALIZACJI CHINSKIEJ. Po
+instalacji gra nie ma juz chinskiego - pod chinska flaga jest polski. Jesli
+instalujesz polskie tlumaczenie, strata jest zerowa, ale lepiej wiedziec o tym
+przed podmiana pliku. Oryginal wraca przez przywrocenie kopii zapasowej.
+
+ZGODNOSC
+Zbudowane wzgledem wydania GOG z 2026-09. Narzedzie przypina script_english.ini
+suma SHA-256 i odmawia pracy z inna wersja gry.

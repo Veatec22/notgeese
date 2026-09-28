@@ -1,0 +1,24 @@
+slug: shotgun-cop-man
+title: Shotgun Cop Man
+version: "0.1"
+entries: { done: 485, total: 485 }
+tested: confirmed
+engine: Unity 2022.3.47f1
+approach: Plugin dokłada jedenasty język do tabeli I2 w czasie działania gry. Żaden plik gry nie jest podmieniany.
+scope: menu, sterowanie, samouczek, dialogi, edytor poziomów, osiągnięcia
+tested_on:
+  - store: steam
+    version: "1.0.4"
+year: 2025
+steam_appid: 2966850
+stores:
+  steam: https://store.steampowered.com/app/2966850/
+quote:
+  text:
+  source:
+download:
+  kind: zip
+  file: Shotgun-Cop-Man-PL-0.1.zip
+  bytes: 653748
+gallery: [1, 2, 3, 4, 5]
+test_notes: Language selection and texts confirmed in game (Steam 1.0.4). Full playthrough pending.

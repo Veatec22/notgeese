@@ -1,0 +1,38 @@
+# Neon Abyss: groups for the review workspace.
+# Format: docs/workspace.md.
+
+format: 1
+
+groups:
+  - id: menu
+    name: Menu i interfejs
+  - id: characters
+    name: Postacie, dialogi i drzewo rozwoju
+  - id: items
+    name: Przedmioty — nazwy i opisy
+  - id: bosses
+    name: Bossowie
+  - id: tips
+    name: Porady
+  - id: seeds
+    name: Ziarna i odblokowania
+  - id: cheats
+    name: Kody
+  - id: deaths
+    name: Przyczyny śmierci
+  - id: achievements
+    name: Osiągnięcia
+  - id: platform
+    name: Sterowanie, wersja demo i Xbox
+
+rules:
+  - {group: items, match: '^PuName'}
+  - {group: bosses, match: '^Boss'}
+  - {group: tips, match: '^Tips'}
+  - {group: cheats, match: '^CheatCode'}
+  - {group: characters, match: '^(Character|Dialogue|Tree)'}
+  - {group: seeds, match: '^(Seed|UnlockSubTitle)'}
+  - {group: deaths, match: '^Dead'}
+  - {group: achievements, match: '^Achieve'}
+  - {group: platform, match: '^(RewiredActions|Demo|XboxOne)'}
+  - {group: menu, match: '^UI'}

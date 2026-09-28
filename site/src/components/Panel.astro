@@ -1,0 +1,211 @@
+---
+import { getCollection } from 'astro:content';
+import PanelBody from './PanelBody.astro';
+import Icon from './Icon.astro';
+import type { Game } from '../lib/games';
+import { HOME_TITLE } from '../lib/seo';
+
+interface Props {
+  games: Game[];
+  /** Game slug on the /<slug>/ page: the panel is open in the HTML and holds only this game. */
+  active?: string;
+}
+
+const { games, active } = Astro.props;
+// On a game page, other games in a hidden panel would only blur what the page is about;
+// their tiles then simply link to their own pages.
+const bodies = active ? games.filter((game) => game.slug === active) : games;
+const docs = await getCollection('gameDocs');
+---
+
+<div class="ng-scrim" data-scrim hidden={!active}></div>
+
+<aside
+  class="ng-panel"
+  data-panel
+  data-active={active}
+  data-open={active ? 'true' : undefined}
+  data-home-title={HOME_TITLE}
+  aria-label="Szczegóły spolszczenia"
+  aria-modal={active ? 'true' : undefined}
+  hidden={!active}
+>
+  <div class="ng-panel-handle" aria-hidden="true"></div>
+  <button class="ng-panel-close" type="button" data-panel-close aria-label="Zamknij panel">
+    <Icon name="x" />
+  </button>
+  {bodies.map((game) => <PanelBody game={game} doc={docs.find((doc) => doc.id === game.id)} active={game.slug === active} />)}
+</aside>
+
+<script>
+  import { withBase } from '../lib/url';
+
+  const panel = document.querySelector<HTMLElement>('[data-panel]');
+  const scrim = document.querySelector<HTMLElement>('[data-scrim]');
+  const closeButton = document.querySelector<HTMLButtonElement>('[data-panel-close]');
+  const cards = Array.from(document.querySelectorAll<HTMLAnchorElement>('[data-card]'));
+
+  if (panel && scrim && closeButton) {
+    const bodies = Array.from(panel.querySelectorAll<HTMLElement>('[data-game]'));
+    // The panel always covers the page (drawer on phones, overlay above), so it is always
+    // modal: focus stays in the panel, the page underneath does not scroll.
+    const isDrawer = () => window.matchMedia('(max-width: 699px)').matches;
+    let current: string | null = null;
+    // Whether the panel pushed a history entry. If so, closing goes back instead of pushing
+    // another, so "Back" after closing does not reopen the panel.
+    let pushed = false;
+
+    // Panel images are loading="lazy", so without this they start only after opening,
+    // and later carousel slides only on scroll. Switching to eager makes the browser
+    // fetch them now; it still picks AVIF or WebP from <picture>.
+    function warm(slug: string, count = Infinity) {
+      const body = bodies.find((body) => body.dataset.game === slug);
+      body?.querySelectorAll<HTMLImageElement>('.ng-carousel img[loading="lazy"]').forEach((img, index) => {
+        if (index < count) img.loading = 'eager';
+      });
+    }
+
+    function open(slug: string, push: boolean) {
+      const target = bodies.find((body) => body.dataset.game === slug);
+      if (!target) return;
+      warm(slug);
+
+      bodies.forEach((body) => (body.hidden = body !== target));
+      cards.forEach((card) => card.setAttribute('aria-current', String(card.dataset.card === slug)));
+
+      panel!.hidden = false;
+      scrim!.hidden = false;
+      // Two frames so the transition starts from the closed position.
+      requestAnimationFrame(() => {
+        panel!.dataset.open = 'true';
+        document.body.dataset.panelOpen = 'true';
+      });
+
+      panel!.setAttribute('aria-modal', 'true');
+      document.body.style.overflow = 'hidden';
+      target.scrollTop = 0;
+
+      if (push) history.pushState({ slug }, '', withBase(`/${slug}/`));
+      document.title = target.dataset.pageTitle ?? document.title;
+      pushed = push;
+
+      current = slug;
+      closeButton!.focus();
+    }
+
+    function close(fromPopstate: boolean) {
+      if (!current) return;
+      panel!.dataset.open = 'false';
+      delete document.body.dataset.panelOpen;
+      document.body.style.overflow = '';
+      cards.forEach((card) => card.setAttribute('aria-current', 'false'));
+
+      const returnTo = cards.find((card) => card.dataset.card === current);
+      current = null;
+
+      window.setTimeout(() => {
+        if (!current) {
+          panel!.hidden = true;
+          scrim!.hidden = true;
+        }
+      }, 260);
+
+      if (!fromPopstate) {
+        if (pushed) history.back();
+        else history.replaceState({}, '', withBase('/')); // landed directly on a game page
+      }
+      document.title = panel!.dataset.homeTitle ?? document.title;
+      pushed = false;
+      returnTo?.focus();
+    }
+
+    cards.forEach((card) => {
+      // Intent to open: pointer resting on a tile, focus or touch. The first two slides
+      // are prefetched; sweeping the pointer across the grid triggers nothing.
+      let intent: number | undefined;
+      const slug = card.dataset.card;
+      if (slug) {
+        card.addEventListener('pointerenter', () => (intent = window.setTimeout(() => warm(slug, 2), 80)));
+        card.addEventListener('pointerleave', () => window.clearTimeout(intent));
+        card.addEventListener('focus', () => warm(slug, 2));
+        card.addEventListener('touchstart', () => warm(slug, 2), { passive: true });
+      }
+
+      card.addEventListener('click', (event) => {
+        // Leave modifiers to the browser: new tab, new window, save.
+        if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || event.button !== 0) return;
+        const slug = card.dataset.card;
+        // This game's panel is on the page: open it in place. If not (another game's
+        // page), the link simply goes to the game page.
+        if (!slug || !bodies.some((body) => body.dataset.game === slug)) return;
+        event.preventDefault();
+        open(slug, true);
+      });
+    });
+
+    closeButton.addEventListener('click', () => close(false));
+    scrim.addEventListener('click', () => close(false));
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && current) close(false);
+      if (event.key !== 'Tab' || !current) return;
+
+      const focusable = panel!.querySelectorAll<HTMLElement>(
+        'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])',
+      );
+      const visible = Array.from(focusable).filter((element) => element.offsetParent !== null);
+      if (visible.length === 0) return;
+
+      const first = visible[0]!;
+      const last = visible[visible.length - 1]!;
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
+    });
+
+    window.addEventListener('popstate', (event) => {
+      const slug = (event.state as { slug?: string } | null)?.slug;
+      if (slug) open(slug, false);
+      else close(true);
+    });
+
+    // Drawer: swipe down to close.
+    let startY: number | null = null;
+    panel.addEventListener(
+      'touchstart',
+      (event) => {
+        startY = isDrawer() ? event.touches[0]!.clientY : null;
+      },
+      { passive: true },
+    );
+    panel.addEventListener(
+      'touchend',
+      (event) => {
+        if (startY === null) return;
+        const delta = event.changedTouches[0]!.clientY - startY;
+        startY = null;
+        if (delta > 90) close(false);
+      },
+      { passive: true },
+    );
+
+    // A /<slug>/ game page arrives with the panel open in the HTML; the script only takes over state.
+    const active = panel.dataset.active;
+    if (active) {
+      current = active;
+      history.replaceState({ slug: active }, '');
+      document.body.dataset.panelOpen = 'true';
+      document.body.style.overflow = 'hidden';
+      cards.forEach((card) => card.setAttribute('aria-current', String(card.dataset.card === active)));
+      warm(active);
+    }
+
+    // Old /?gra=slug links go to the game page.
+    const requested = new URLSearchParams(window.location.search).get('gra');
+    if (requested) window.location.replace(withBase(`/${requested}/`));
+  }
+</script>

@@ -1,0 +1,141 @@
+sources:
+  - id: bank
+    description: Game text bank (StringLanguageBank en), keys in the review
+  - id: code
+    description: Game code (Assembly-CSharp); how texts are glued together
+  - id: ref
+    description: Other-language tables of the game (de, fr, es…) in work/bank-*.json
+
+style:
+  tone: bombastic action-movie parody; shouted caps, puns on "bro", country-name parodies
+  adaptation: >
+    Region descriptions on the map (WORLD_*) and cutscene captions (CUTSCENE_*) in caps: Hudson and
+    04B fonts are caps-only and Polish letters substituted by Windows would come out lower-case.
+    Map orders in the infinitive ("UZIEMIĆ ICH!"), military style; avoids "ty/wy" toward
+    Broforce. Country parodies stay parodies: Kambodium/KamBROdium, Twukraina/Naszkraina,
+    Wietman, Irakistan, Jalpin, Mookgolia, Afreeka, Arstotzka.
+  source: decision
+
+terms:
+  - en: bro
+    pl: bro
+    forms: [bro]
+    source: decision
+    note: indeclinable ("jednego BRO", "wszystkich bro"); core of the game and its puns; Polish slang knows "bro"
+  - en: Broforce
+    pl: Broforce
+    forms: [broforce]
+    source: decision
+    note: proper name; vocative also "Broforce"
+  - en: IRONBRO
+    pl: IRONBRO
+    forms: [ironbro, iron bro]
+    source: decision
+    note: mode name, kept as in game ("tryb IRONBRO")
+  - en: Brotality
+    pl: brotalność
+    forms: [brotaln]
+    source: decision
+    note: pun brutality -> brutalność kept
+  - en: rescue
+    pl: uratowanie
+    forms: [uratowa, uratuj]
+    source: code
+    note: LevelOverScreen glues "{n} {MORE} {RESCUE|RESCUES} {UNTIL NEXT UNLOCK}", form depends only on n==1; Polish is "4 DO URATOWANIA I NOWY BRO ODBLOKOWANY!", no noun needing three forms
+  - en: threat level
+    pl: poziom zagrożenia
+    forms: [poziom zagrożenia]
+    source: decision
+  - en: Veetman
+    pl: Wietman
+    forms: [wietman]
+    source: decision
+    note: country parodies stay parodies in Polish spelling (Veetman -> Wietman)
+  - en: dash
+    pl: sprint
+    forms: [sprint]
+    source: decision
+    note: in Broforce dash is a faster run, not a dodge
+  - en: fire
+    pl: strzał
+    forms: [strzał]
+    source: decision
+    note: button name ("NACIŚNIJ STRZAŁ")
+  - en: Brodown
+    pl: brojedynek
+    forms: [brojedyn]
+    source: decision
+    note: versus tie-breaker; showdown -> pojedynek, with "bro" as in the original. Contest name "Weekend Workshop Brodown" stays
+  - en: Covert Operation
+    pl: tajna operacja
+    forms: [tajna operacj, tajnej operacj]
+    source: decision
+  - en: Workshop
+    pl: Warsztat
+    forms: [warszta]
+    source: decision
+    note: official Polish name of Steam Workshop in the Steam client
+  - en: Deathmatch
+    pl: deathmatch
+    forms: [deathmatch]
+    source: decision
+    note: mode name established in Polish games
+  - en: race
+    pl: wyścig
+    forms: [wyścig]
+    source: decision
+  - en: custom map
+    pl: mapa gracza
+    forms: [mapa gracza, mapach graczy, własn]
+    source: decision
+    note: main menu "WŁASNE KAMPANIE", hard mode and errors "mapy graczy"
+  - en: gyming
+    pl: koksowanie
+    forms: [koksowani]
+    source: decision
+    note: Bruiser/Executioners boss captions; Polish gym slang instead of literal "technologia siłowni"
+
+characters:
+  - id: president
+    name: Prezydent
+    gender: m
+    key: '^CUTSCENE_PRESIDENT_'
+    addresses_player: ty
+    register: pompous, solemn; "Panowie" (PRESIDENT_5–6) is plural to the whole team
+    source: decision
+  - id: jesus
+    name: Jezus (finał)
+    gender: m
+    key: '^CUTSCENE_JESUS_'
+    addresses_player: ty
+    register: gentle, solemn; "Hello, friend" = singular
+    source: [bank]
+
+keep_english:
+  - Broforce
+  - IRONBRO
+  - IRON BRO
+  - FNET
+  - VSYNC
+  - VERSUS
+  - AFK
+  - OK
+  - DEATHMATCH
+  - HOST
+  - TOP
+  - Offline
+  - WWB
+  - BLRRGGGGG
+  - WHAT IS LOVE?
+  - Weekend Workshop Brodown
+  - Afreeka
+  - Arstotzka
+  - Val Verde
+  - Ellen Ripbro
+  - MacBrover
+  - Time Bro
+
+ignore:
+  - check: terms
+    key: 'CUSTOM_CAMPAIGN_DESCRIPTION_6'
+    reason: contest name Weekend Workshop Brodown stays in the original

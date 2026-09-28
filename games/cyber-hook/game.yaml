@@ -1,0 +1,27 @@
+slug: cyber-hook
+title: Cyber Hook
+version: "0.1"
+entries: { done: 702, total: 702 }
+tested: partial
+engine: Unity 2019.4.28f1 (Mono)
+approach: Plugin BepInEx 5 podstawia polskie teksty w miejsce angielskich w czasie działania gry; na liście języków „English” zmienia się w „Polski”. Brakujące polskie litery składa z liter tego samego fontu. Żaden plik gry nie jest podmieniany.
+scope: Całość — menu, opcje i sterowanie, samouczek, rozmowy z Dronem i Numero między światami, nazwy światów i poziomów, tryb maratonu, zakończenie i dodatek Lost Numbers.
+stores:
+  gog: https://www.gog.com/en/game/cyber_hook
+  steam: https://store.steampowered.com/app/1130410/
+download:
+  kind: zip
+  file: Cyber-Hook-PL-0.1.zip
+  bytes: 667026
+build_input:
+  store: gog
+  gog_build_id: '55931336877424935'
+  version: 1.2.1
+  unity: 2019.4.28f1
+tested_on:
+  - store: gog
+    version: "1.2.1"
+test_notes: Vertical confirmed in game (menu, options, intro and tutorial with runtime-composed Polish letters). Full translation built and installed; later worlds, ending and DLC pending.
+steam_appid: 1130410
+gallery: [1, 5, 3, 6, 8]
+year: 2020

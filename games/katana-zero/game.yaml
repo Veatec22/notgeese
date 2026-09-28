@@ -1,0 +1,28 @@
+slug: katana-zero
+title: Katana ZERO
+version: "0.1"
+entries: { done: 2851, total: 2851 }
+tested: partial
+engine: GameMaker Studio 2 (YYC, x86)
+approach: Polski zajmuje miejsce rosyjskiego w tablicy dziesięciu języków. Napisy siedzą w nowej sekcji exe, a brakujące polskie litery fontów, złożone z liter samej gry, na dodatkowych stronach tekstur w data.win. Dostarczane jako łatki różnicowe obu plików.
+scope: Całość — menu i ustawienia, ekrany startowe, komunikaty interfejsu, teczki celów, wszystkie dialogi, wiadomości w telewizji i napisy końcowe.
+steam_appid: 460950
+stores:
+  steam: https://store.steampowered.com/app/460950/
+  gog: https://www.gog.com/en/game/katana_zero
+build_input:
+  store: gog
+  version: '1.0.5'
+tested_on:
+  - store: gog
+    version: "1.0.5"
+test_notes: Vertical confirmed in game - menus, options, warning, first dialogue and Polish letters. Full translation built, verified from files and installed; full playthrough pending.
+download:
+  kind: patch
+  file: Katana-ZERO-PL-0.1-latka.zip
+  bytes: 148091
+quote:
+  text:
+  source:
+gallery: [1, 2, 3, 4, 5]
+year: 2019

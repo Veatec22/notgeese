@@ -1,0 +1,25 @@
+slug: otxo
+title: OTXO
+version: "0.1"
+entries: { done: 1364, total: 1364 }
+tested: confirmed
+engine: GameMaker (kod natywny)
+approach: Brak wolnego slotu, polski przejmuje chiński — jedyny, który dogrywa czcionkę z pliku i umie ogonki.
+scope: menu, ustawienia, samouczek, 102 trunki, dialogi, lore, dziennik, statystyki
+tested_on:
+  - store: gog
+    version: "1.106"
+year: 2023
+steam_appid: 1608640
+stores:
+  steam: https://store.steampowered.com/app/1608640/
+  gog: https://www.gog.com/en/game/otxo
+quote:
+  text:
+  source:
+download:
+  kind: zip
+  file: OTXO-PL-0.1.zip
+  bytes: 30873
+gallery: [1, 2, 3, 4, 5]
+test_notes: Menus and Polish letters confirmed in game on the Chinese slot; full run pending. 104 keys are empty in the original and stay untouched.

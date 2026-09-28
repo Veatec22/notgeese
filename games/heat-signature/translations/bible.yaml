@@ -1,0 +1,135 @@
+sources:
+  - id: exe
+    description: Literals of the local Heat_Signature.exe (Steam build 6124596) with their GML function, tools/extract_strings.py -> work/strings.json.
+  - id: dialog
+    description: The game's Dialog/*.txt (13 files); markup [Block], #reply, {Target}, =continuation, <Token>.
+  - id: scenarios
+    description: Scenarios/*.dat; daily challenge characters, item names, mission descriptions.
+  - id: log
+    description: notgeese/LogOutput.log from the user's session (vertical); strings actually drawn, work/run-0.1.2.log.
+  - id: tvtropes
+    description: A search engine summarizes TV Tropes (page unavailable, 403); Breaker "he", Geneva "she", Mirfak "they". Unconfirmed.
+    url: https://tvtropes.org/pmwiki/pmwiki.php/Characters/HeatSignature
+
+style:
+  tone: UI and instructions short, direct, second person. Item descriptions matter-of-fact; tagline quotes (faction ad slogans) with dry dark humor. Dialogue with dry humor, no added memes.
+  adaptation: 'Keep the action and conditions of instructions; never write keys next to control icons. Numbers from holes stay digits; sentences with a number avoid declension ("Zabójstwa: 3").'
+  source: decision
+  note: Smoothing the terminal is a separate user ruling; it does not mean softening swearing in other dialogue.
+  item_names: The game builds names from adjectives and a noun ("Rechargeable High Capacity Swapper"). In Polish the noun first, adjectives after it in reverse order agreeing in gender, phrases "o dużej pojemności"/"dalekiego zasięgu" at the end; when "..." truncates, the key word survives. item-* entries in translations/en-pl-review.json.
+
+characters:
+  - id: player
+    name: losowa postać gracza
+    gender: '?'
+    addresses_player: '-'
+    register: Comebacks in dialogue replies; no gender-revealing forms (present tense, impersonal).
+    source: decision
+    note: 'Characters are random (Female/Male in the EXE). Exception: in TutorialEnd the player is Fiasco.'
+  - id: terminal
+    name: Terminal treningowy
+    gender: n
+    addresses_player: ty
+    register: Correct grammar, caps and machine enthusiasm.
+    source: user
+    note: User chose "smooth it anyway". Rejected deliberate errors "TRENING SIĘ ZACZĄĆ" and "ROBIĆ PRZEMOC".
+    examples:
+      - en: PRACTICE IS START
+        pl: TRENING ROZPOCZĘTY
+        source: user
+      - en: EXCELLENT VIOLENCE!
+        pl: ŚWIETNA WALKA!
+        source: decision
+  - id: fiasco
+    name: Sader Fiasco
+    gender: f
+    addresses_player: ty
+    register: Tired pro after forty years of spying; short dry remarks, blunt vocabulary.
+    source: [dialog]
+    note: 'Breaker about Fiasco: "she ain''t saying", "she killed their commander", "this white haired woman walks into my local" (BartenderDialogueFoundry.txt). The vertical wrongly used masculine forms ("wyobrażałem", "Dostałem"); fixed in the full translation.'
+    examples:
+      - en: This is not how I pictured my retirement.
+        pl: Nie tak wyobrażałam sobie emeryturę.
+        source: dialog
+  - id: breaker
+    name: Breaker Gemini
+    gender: '?'
+    addresses_player: ty
+    register: Casual, chatty, ironic; ex-Foundry engineer, bartender.
+    source: [dialog, tvtropes]
+    note: Gender unconfirmed in game files; lines avoid gender-revealing forms. Name indeclinable ("z Breaker").
+  - id: asli
+    name: Asli Sixty
+    gender: f
+    addresses_player: ty
+    register: Enthusiastic, childishly cheerful, gruesome details delivered with a smile.
+    source: [dialog]
+    note: 'About her first version: "She knew that when she pressed the button" (BartenderDialogueGlitchers.txt).'
+  - id: geneva
+    name: Geneva Stonelock
+    gender: '?'
+    addresses_player: ty
+    register: Dry Offworld head of security, laconic, uncompromising.
+    source: [dialog, tvtropes]
+    note: Gender unconfirmed in files; neutral lines. TV Tropes summary says "she".
+  - id: mirfak
+    name: Mirfak Lagrange
+    gender: '?'
+    addresses_player: ty
+    register: Warm, chatty, loves conspiracy theories; ex-Sovereign cryptographer.
+    source: [dialog, tvtropes]
+    note: Gender unconfirmed; neutral lines (present tense instead of "zostałem/zostałam").
+
+terms:
+  - {en: pod, pl: kapsuła, forms: [kapsuł], source: decision}
+  - {en: station, pl: stacja, forms: [stacj], source: decision}
+  - {en: stronghold, pl: twierdza, forms: [twierdz], source: decision}
+  - {en: liberat, pl: wyzwolić / wyzwolenie, forms: [wyzwol, wyzwal], source: decision}
+  - {en: glory, pl: chwała, forms: [chwał], source: decision}
+  - {en: clause, pl: klauzula, forms: [klauzul], source: decision}
+  - {en: vow, pl: przysięga, forms: [przysięg], source: decision}
+  - {en: defector, pl: dezerter, forms: [dezert], source: decision, note: 'A character switching to our side; "Defection" -> dezercja.'}
+  - {en: contractor, pl: najemnik, forms: [najemni], source: decision}
+  - {en: keycard, pl: karta dostępu, forms: [kart], source: decision}
+  - {en: heat sensor, pl: czujnik ciepła, forms: [czujnik], source: decision}
+  - {en: stash, pl: schowek, forms: [schow], source: decision}
+  - {en: glitch, pl: glitch / glitchować, forms: [glitch], source: decision, note: 'Glitchers'' teleport slang; kept as a loanword.'}
+  - {en: crash, pl: zawiesić / zawieszenie, forms: [zawies, zawiesz], source: decision, note: 'Disabling electronics; Crashbeam -> Zawieszacz.'}
+  - {en: subvert, pl: przeprogramować, forms: [przeprogram], source: decision, note: 'Subverter -> Przeprogramator.'}
+  - {en: Swapper, pl: Zamieniacz, forms: [zamieniacz], source: decision}
+  - {en: Visitor, pl: Wizytator, forms: [wizytator], source: decision, note: 'Teleports back after 2 s: a "visit".'}
+  - {en: Sidewinder, pl: Omijacz, forms: [omijacz], source: decision, note: 'Teleports the long way round.'}
+  - {en: Slipstream, pl: Poślizg, forms: [poślizg], source: decision}
+  - {en: Key Cloner, pl: Kopiarka kart, forms: [kopiark], source: decision}
+  - {en: Longblade, pl: Długie ostrze, forms: [ostrz], source: decision}
+  - {en: Shortblade, pl: Krótkie ostrze, forms: [ostrz], source: decision}
+  - {en: Wrench, pl: klucz francuski, forms: [klucz], source: decision, note: 'A melee tool; keep apart from the keycard.'}
+  - {en: tutorial, pl: samouczek, forms: [samoucz], source: decision}
+  - {en: inventory, pl: ekwipunek, forms: [ekwipun], source: decision}
+  - {en: Facebreaker, pl: Gębołamacz, forms: [gębołamacz], source: decision, note: 'Short, blunt name of Fiasco''s kinetic weapon.'}
+  - {en: Drift, pl: Dryf, forms: [dryf], source: decision, note: 'Name of the nebula "the Drift"; a telling name.'}
+  - {en: Voidmother, pl: Matka Pustki, forms: [matk], source: decision}
+
+keep_english: [Fiasco, Breaker, Breacher, Heat Signature, Foundry, Sovereign, Glitchers, Glitcher, Offworld, Offworld Security, Castor's Rest, Coldfire, Asli, Mirfak, Geneva, Sader, Caeli]
+
+user_decisions:
+  - en: Yep. (player reply)
+    pl: No tak.
+    source: user
+    note: Rejected "No.", easily read as a negation.
+  - en: Holy shit you're alive.
+    pl: Jasna cholera, żyjesz.
+    source: user
+    note: Rejected "O kurwa, żyjesz." as stronger than the original.
+  - en: PACIFIST / Liberator
+    pl: PACYFIZM / Wyzwolenie
+    source: user
+    note: Rejected masculine "PACYFISTA", "Wyzwoliciel" for random-gender characters.
+  - en: Shiplocked
+    pl: pokładowy / Sprzęt pokładowy
+    source: user
+    note: Rejected "przypisany do statku" (ambiguous before "dalekiego zasięgu").
+  - en: missions board / jobs board / Job Listings / Mission Listings
+    pl: tablica zleceń / Oferty zleceń
+    source: user
+    note: The reviewer proposed "tablica misji"; the user chose "zlecenia".

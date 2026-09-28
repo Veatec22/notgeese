@@ -1,0 +1,55 @@
+KATANA ZERO PL 0.1 - PELNE TLUMACZENIE (latka roznicowa)
+
+Caly tekst gry, 2851 wpisow: menu i ustawienia, ekrany startowe, komunikaty
+interfejsu, teczki celow, wszystkie dialogi (sesje u psychiatry, rozmowy
+w poziomach, dziewczynka, zakonczenie), wiadomosci w telewizji i napisy koncowe.
+Tytuly piosenek i nazwy wlasne zostaja w oryginale.
+
+Fonty gry nie maja polskich cudzyslowow, wiec w tekstach sa zwykle "...".
+
+DLACZEGO LATKA, A NIE GOTOWY PLIK
+Katana ZERO nie ma plikow z tekstami - kazda kwestia jest wkompilowana w kod
+gry (Katana ZERO.exe), a litery fontow leza w data.win. Oba pliki to w calosci
+cudza zawartosc (28 MB i 95 MB), wiec ich nie rozpowszechniamy. Paczka niesie
+tylko roznice: polskie napisy, polskie litery fontow i poprawione adresy.
+Reszte aplikator sklada z plikow, ktore juz masz na dysku.
+
+CO BEDZIE POTRZEBNE
+Nic. Latke naklada Katana-ZERO-PL-0.1.exe z tej paczki: jeden maly program, bez
+instalacji, korzysta z .NET Framework wbudowanego w Windows.
+
+INSTALACJA (przy zamknietej grze)
+1. Wypakuj cala paczke do katalogu gry - tam, gdzie lezy Katana ZERO.exe.
+2. Uruchom Katana-ZERO-PL-0.1.exe dwuklikiem.
+
+   Program naklada obie latki: na Katana ZERO.exe i na data.win. Najpierw
+   sprawdza sumy kontrolne i odmawia pracy, jesli gra jest w innej wersji.
+   Przed podmiana odklada oryginaly obok, z dopiskiem ".przed-spolszczeniem".
+   Bledny plik nigdy nie powstaje.
+
+   Windows moze ostrzec przed nieznanym programem ("Wiecej informacji" ->
+   "Uruchom mimo to") - aplikator nie ma podpisu cyfrowego.
+3. Uruchom gre i w wyborze jezyka (Language) wybierz "Polski"
+   (miejsce na liscie, na ktorym byl rosyjski).
+
+PRZYWRACANIE
+Uruchom Katana-ZERO-PL-0.1.exe jeszcze raz. Gdy zobaczy wgrane spolszczenie, zapyta,
+czy przywrocic oryginal, i wgra odlozone kopie obu plikow.
+Mozna tez zweryfikowac pliki gry w GOG Galaxy.
+
+JAK TO DZIALA
+Gra ma dziesiec jezykow w sztywnej tablicy i nie ma miejsca na jedenasty.
+Polski zajmuje wiec miejsce rosyjskiego: w exe dochodzi nowa sekcja z polskimi
+napisami, a odwolania do rosyjskich napisow wskazuja polskie. Wybor jezyka
+"Polski" korzysta z tych samych fontow co rosyjski - maja pelna lacine,
+a brakujace polskie litery sa zlozone z liter samej gry (kreska z "e",
+ogonek z cedylli "c") i dolozone na osobnej stronie tekstury w data.win.
+Pozostale jezyki dzialaja bez zmian; rosyjskiego w tej wersji nie ma.
+
+ZGODNOSC
+Zbudowane na wydaniu GOG 1.0.5. Latka jest przypieta do tej wersji plikow -
+aplikator powie wprost, jesli pliki sa inne, zamiast cokolwiek nadpisac.
+Wydanie Steam nie bylo sprawdzane.
+
+LICENCJA
+Spolszczenie: MIT. Latka zawiera wylacznie roznice wobec oryginalnych plikow gry.

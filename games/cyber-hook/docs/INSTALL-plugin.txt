@@ -1,0 +1,46 @@
+CYBER HOOK — Not Geese PL 0.1 (PEŁNE TŁUMACZENIE, WERSJA TESTOWA)
+
+Przetłumaczone są wszystkie teksty gry: menu, opcje i sterowanie, samouczek,
+rozmowy z Dronem i Numero między światami, nazwy światów i poziomów, tryb
+maratonu, zakończenie oraz dodatek Lost Numbers. Brakujące w fontach gry polskie
+litery plugin składa w czasie działania z liter tego samego fontu.
+
+Paczka NIE PODMIENIA żadnego pliku gry. Polski zajmuje w grze miejsce angielskiego:
+w opcjach, w miejscu „English”, pojawia się „Polski”. Pozostałe języki działają
+jak dotąd.
+
+INSTALACJA (przy zamkniętej grze)
+1. Wypakuj całą zawartość archiwum do katalogu gry — tego, w którym leży
+   „CyberHook.exe”. W GOG Galaxy: Zarządzaj instalacją > Pokaż folder.
+   W Steamie: Zarządzaj > Przeglądaj pliki lokalne.
+2. Uruchom grę normalnie. Pierwsze uruchomienie trwa dłużej.
+3. Jeśli gra nie jest po polsku, wejdź w Options > Gameplay > Language
+   i wybierz „English” (po zmianie podpisane jako „Polski”).
+
+USUNIĘCIE
+Skasuj z katalogu gry: winhttp.dll, doorstop_config.ini, .doorstop_version,
+BepInEx-LICENSE.txt, READ-ME.txt oraz cały katalog BepInEx.
+Plików gry nie ruszamy, więc nie ma czego przywracać.
+
+WERSJE GRY
+Przygotowane na wydaniu z GOG 1.2.1, Unity 2019.4.28f1, 64-bitowym.
+Spolszczenie nie jest przypięte do wersji gry — wpina się w system języków
+po nazwach. Nowe kwestie po aktualizacji zostaną po angielsku.
+
+JEŚLI COŚ NIE DZIAŁA
+Log leży w BepInEx/LogOutput.log. Powinny w nim być linie „Loaded … entries”
+oraz „TMP font "…": composed …”. Prześlij ten plik razem ze zrzutem ekranu.
+
+CO JEST W PACZCE
+BepInEx 5.4.23.5 — otwarta dokładka uruchamiająca modyfikacje w grach Unity.
+BepInEx/plugins/notgeeseCyberHook — nasz plugin i pl.tsv z tekstami.
+
+LICENCJE
+Spolszczenie i plugin: MIT, BepInEx/plugins/notgeeseCyberHook/LICENSE-notgeese.txt
+BepInEx: LGPL-2.1, BepInEx-LICENSE.txt. Źródła tej wersji leżą obok paczki
+i na https://github.com/BepInEx/BepInEx/releases/tag/v5.4.23.5
+
+AKTUALIZACJA ZE STARSZEJ PACZKI
+Starsze wydania instalowały plugin w folderze BepInEx/plugins/NieGesiCyberHook
+(poprzednia nazwa projektu). Usuń ten folder przed wypakowaniem nowej paczki.
+Jeśli zostanie, BepInEx uruchomi starą wersję, a nową pominie.

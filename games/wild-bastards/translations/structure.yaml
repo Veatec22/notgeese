@@ -1,0 +1,37 @@
+# Wild Bastards: groups for the review workspace.
+# Format: docs/workspace.md.
+#
+# Key is the I2 term <category>/<entry>; groups follow the category.
+
+format: 1
+
+groups:
+  - id: menu
+    name: Menu, opcje i interfejs
+  - id: outlaws
+    name: Banici — imiona, talenty, cechy i sztuczki
+  - id: weapons
+    name: Broń i obrażenia
+  - id: items
+    name: Przedmioty i zasoby
+  - id: world
+    name: Planety, lokacje i wydarzenia
+  - id: enemies
+    name: Przeciwnicy (AI)
+  - id: dialogue
+    name: Dialogi i sceny
+  - id: tutorial
+    name: Samouczek, podpowiedzi i powiadomienia
+  - id: achievements
+    name: Osiągnięcia, wyzwania i modyfikatory
+
+rules:
+  - {group: dialogue, match: '^(Dialog|Scene|Introduction|IntroductionDesc|QuestDescription)/'}
+  - {group: outlaws, match: '^(Talent\w*|Trait\w*|Outlaw\w*|Stunt\w*|Name|Helped|Crit|Resolve|Behavior|State)/'}
+  - {group: weapons, match: '^(Weapon\w*|DamageType)/'}
+  - {group: items, match: '^(Item\w*|Resource|AIDescItem)/'}
+  - {group: enemies, match: '^(AI|AIMany|AIDesc|AIShortDesc)/'}
+  - {group: world, match: '^(Location|LocDesc|LocationShortDesc|LocSelect|Planet\w*|SectorName|Event\w*|Interaction\w*|Map|Activity|Agent)/'}
+  - {group: tutorial, match: '^(Tutorial\w*|Hint|Notification|Prompt|Mission)/'}
+  - {group: achievements, match: '^(Ach|Challenge|Mutator|DifficultyDesc)/'}
+  - {group: menu, match: '.'}

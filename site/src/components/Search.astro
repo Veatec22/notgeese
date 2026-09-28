@@ -1,0 +1,180 @@
+---
+import Icon from './Icon.astro';
+import Dropdown from './Dropdown.astro';
+import type { Status } from '../lib/games';
+
+interface Props {
+  count: number;
+  /** Statuses with at least one game; an empty filter option would only confuse. */
+  statuses: (Status & { count: number })[];
+}
+
+const { count, statuses } = Astro.props;
+---
+
+<div class="ng-search">
+  <label class="ng-visually-hidden" for="szukaj">Szukaj gry po tytule</label>
+  <div class="ng-search-row">
+    <div class="ng-search-field">
+      <Icon name="search" size={18} class="ng-search-icon" />
+      <input
+        id="szukaj"
+        type="search"
+        data-search-input
+        placeholder="tytuł gry…"
+        autocomplete="off"
+        spellcheck="false"
+      />
+    </div>
+    <div data-status-filter>
+      <Dropdown
+        id="status"
+        label="Status"
+        icon="filter"
+        options={[
+          { value: '', label: 'wszystkie', count },
+          ...statuses.map((status) => ({ value: status.id, label: status.label, count: status.count })),
+        ]}
+      />
+    </div>
+    <div data-sort>
+      <Dropdown
+        id="sortowanie"
+        label="Kolejność"
+        icon="sort"
+        options={[
+          { value: 'newest', label: 'najnowsze' },
+          { value: 'oldest', label: 'najstarsze' },
+          { value: 'az', label: 'A–Z' },
+          { value: 'za', label: 'Z–A' },
+        ]}
+      />
+    </div>
+  </div>
+  <p class="ng-visually-hidden" data-search-count aria-live="polite">{count} gier</p>
+</div>
+
+<script>
+  const input = document.querySelector<HTMLInputElement>('[data-search-input]');
+  // Dropdown roots (Dropdown.astro): choice in data-value, change as a "change" event.
+  const filter = document.querySelector<HTMLElement>('[data-status-filter] [data-dropdown]');
+  const sorter = document.querySelector<HTMLElement>('[data-sort] [data-dropdown]');
+  const counter = document.querySelector<HTMLElement>('[data-search-count]');
+  const empty = document.querySelector<HTMLElement>('[data-search-empty]');
+  const cards = Array.from(document.querySelectorAll<HTMLAnchorElement>('[data-card]'));
+
+  function fold(value: string) {
+    return value
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/[̀-ͯ]/g, '')
+      .replace(/ł/g, 'l');
+  }
+
+  function plural(count: number) {
+    if (count === 1) return '1 gra';
+    const rest = count % 10;
+    const teens = count % 100;
+    if (rest >= 2 && rest <= 4 && (teens < 12 || teens > 14)) return `${count} gry`;
+    return `${count} gier`;
+  }
+
+  // Tile order: we reorder the same grid elements, nothing is re-rendered.
+  const byTitle = (a: HTMLElement, b: HTMLElement) => (a.dataset.title ?? '').localeCompare(b.dataset.title ?? '', 'pl');
+  const byAdded = (a: HTMLElement, b: HTMLElement) => (a.dataset.added ?? '').localeCompare(b.dataset.added ?? '');
+  const orders: Record<string, (a: HTMLElement, b: HTMLElement) => number> = {
+    newest: (a, b) => byAdded(b, a) || byTitle(a, b),
+    oldest: (a, b) => byAdded(a, b) || byTitle(a, b),
+    az: byTitle,
+    za: (a, b) => byTitle(b, a),
+  };
+
+  // Pagination: all tiles are in the HTML, the script shows only the current page
+  // of matches. Without JS the whole list is visible.
+  const PAGE_SIZE = 12;
+  const grid = cards[0]?.parentElement;
+  const section = document.getElementById('gry');
+  const pager = document.querySelector<HTMLElement>('[data-pager]');
+  const pagerPages = pager?.querySelector<HTMLElement>('[data-pager-pages]');
+  const pagerPrev = pager?.querySelector<HTMLButtonElement>('[data-pager-prev]');
+  const pagerNext = pager?.querySelector<HTMLButtonElement>('[data-pager-next]');
+  let page = 0;
+
+  function matches(card: HTMLElement) {
+    const query = fold(input?.value.trim() ?? '');
+    const status = filter?.dataset.value ?? '';
+    return (
+      (query === '' || (card.dataset.search ?? '').includes(query)) &&
+      (status === '' || card.dataset.status === status)
+    );
+  }
+
+  function render() {
+    if (!grid) return;
+    const ordered = Array.from(grid.querySelectorAll<HTMLElement>('[data-card]'));
+    const matching = ordered.filter(matches);
+    const pages = Math.max(1, Math.ceil(matching.length / PAGE_SIZE));
+    page = Math.min(page, pages - 1);
+    const shown = new Set(matching.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE));
+    cards.forEach((card) => (card.hidden = !shown.has(card)));
+
+    const narrowed = (input?.value.trim() ?? '') !== '' || (filter?.dataset.value ?? '') !== '';
+    if (counter) counter.textContent = narrowed ? `${plural(matching.length)} z ${cards.length}` : plural(cards.length);
+    if (empty) empty.hidden = matching.length > 0;
+
+    if (pager && pagerPages && pagerPrev && pagerNext) {
+      pager.hidden = pages < 2;
+      pagerPrev.disabled = page === 0;
+      pagerNext.disabled = page === pages - 1;
+      pagerPages.replaceChildren(
+        ...Array.from({ length: pages }, (_, index) => {
+          const button = document.createElement('button');
+          button.type = 'button';
+          button.className = 'ng-pager-button';
+          button.textContent = String(index + 1);
+          button.setAttribute('aria-label', `Strona ${index + 1}`);
+          if (index === page) button.setAttribute('aria-current', 'page');
+          button.addEventListener('click', () => goTo(index));
+          return button;
+        }),
+      );
+    }
+  }
+
+  function goTo(index: number) {
+    if (index === page) return;
+    page = index;
+    render();
+    const smooth = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    section?.scrollIntoView({ behavior: smooth ? 'smooth' : 'auto' });
+  }
+
+  // Any change of search, filter or sort goes back to the first page.
+  const restart = () => {
+    page = 0;
+    render();
+  };
+
+  pagerPrev?.addEventListener('click', () => goTo(page - 1));
+  pagerNext?.addEventListener('click', () => goTo(page + 1));
+
+  sorter?.addEventListener('change', () => {
+    const compare = orders[sorter!.dataset.value ?? ''] ?? orders.newest!;
+    [...cards].sort(compare).forEach((card) => grid?.appendChild(card));
+    restart();
+  });
+
+  input?.addEventListener('input', restart);
+  filter?.addEventListener('change', restart);
+
+  input?.addEventListener('keydown', (event) => {
+    // Escape clears the field, but only while the panel is closed; there Escape closes it.
+    if (event.key === 'Escape' && !document.body.dataset.panelOpen && input!.value !== '') {
+      event.stopPropagation();
+      input!.value = '';
+      input!.dispatchEvent(new Event('input'));
+    }
+  });
+
+  render();
+</script>

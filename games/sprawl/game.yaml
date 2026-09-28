@@ -1,0 +1,25 @@
+slug: sprawl
+title: SPRAWL
+version: "0.1"
+entries: { done: 717, total: 717 }
+tested: confirmed
+engine: Unreal Engine 4.27
+approach: Nakładkowy pak Unreala z osobnym polskim językiem i flagą. Żaden plik gry nie jest podmieniany.
+scope: menu, HUD, dialogi, kodeks, samouczki, interakcje, nazwy i opisy poziomów
+tested_on:
+  - store: gog
+    version: "1.7"
+year: 2023
+steam_appid: 1549690
+stores:
+  steam: https://store.steampowered.com/app/1549690/
+  gog: https://www.gog.com/en/game/sprawl
+quote:
+  text:
+  source:
+download:
+  kind: zip
+  file: SPRAWL-PL-0.1.zip
+  bytes: 58582
+gallery: [1, 2, 3, 4, 5]
+test_notes: Selector, saved choice and a gameplay sample confirmed in game; full campaign pending.

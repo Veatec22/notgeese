@@ -1,0 +1,1987 @@
+[
+  {
+    "key": "BRO",
+    "english": "BRO {0}",
+    "polish": "BRO {0}"
+  },
+  {
+    "key": "CAMPAIGN_SECONDS_LEFT",
+    "english": "{0} SECONDS LEFT",
+    "polish": "POZOSTAŁO SEKUND: {0}"
+  },
+  {
+    "key": "CHAT_HAS_JOINED",
+    "english": "[HAS JOINED]",
+    "polish": "[DOŁĄCZA]"
+  },
+  {
+    "key": "CHAT_HOST_RESTART",
+    "english": "Requesting Host Restart",
+    "polish": "Prośba o restart do hosta"
+  },
+  {
+    "key": "CHAT_IS_HOSTING",
+    "english": "[IS HOSTING NOW]",
+    "polish": "[JEST TERAZ HOSTEM]"
+  },
+  {
+    "key": "CUSTOM_CAMPAIGN_BEST",
+    "english": "BEST",
+    "polish": "NAJLEPSZE"
+  },
+  {
+    "key": "CUSTOM_CAMPAIGN_BROTAL",
+    "english": "BROTAL",
+    "polish": "BROTALNY"
+  },
+  {
+    "key": "CUSTOM_CAMPAIGN_CHALLENGING",
+    "english": "CHALLENGING",
+    "polish": "WYMAGAJĄCY"
+  },
+  {
+    "key": "CUSTOM_CAMPAIGN_DESCRIPTION_1",
+    "english": "Hot off the presses!",
+    "polish": "Świeżutkie, prosto z pieca!"
+  },
+  {
+    "key": "CUSTOM_CAMPAIGN_DESCRIPTION_2",
+    "english": "The Best of the Best!",
+    "polish": "Najlepsze z najlepszych!"
+  },
+  {
+    "key": "CUSTOM_CAMPAIGN_DESCRIPTION_3",
+    "english": "Hippest Map Around",
+    "polish": "Najmodniejsze mapy w okolicy"
+  },
+  {
+    "key": "CUSTOM_CAMPAIGN_DESCRIPTION_4",
+    "english": "You just Can’t Get Enough Of these guys, can you?",
+    "polish": "Nie masz ich dość, co?"
+  },
+  {
+    "key": "CUSTOM_CAMPAIGN_DESCRIPTION_5",
+    "english": "Suppose you have to play these maps...",
+    "polish": "No dobra, chyba trzeba w to zagrać..."
+  },
+  {
+    "key": "CUSTOM_CAMPAIGN_DESCRIPTION_6",
+    "english": "Weekend Workshop Brodown Competition Winners",
+    "polish": "Zwycięzcy konkursu Weekend Workshop Brodown"
+  },
+  {
+    "key": "CUSTOM_CAMPAIGN_DESCRIPTION_7",
+    "english": "Unpublished and Locally Saved Maps",
+    "polish": "Mapy nieopublikowane i zapisane lokalnie"
+  },
+  {
+    "key": "CUSTOM_CAMPAIGN_DOWNLOADING",
+    "english": "DOWNLOADING",
+    "polish": "POBIERANIE"
+  },
+  {
+    "key": "CUSTOM_CAMPAIGN_NODESCRIP",
+    "english": "No Description Provided",
+    "polish": "Brak opisu"
+  },
+  {
+    "key": "CUSTOM_CAMPAIGN_TRENDING",
+    "english": "TRENDING",
+    "polish": "NA CZASIE"
+  },
+  {
+    "key": "CUSTOM_CAMPAIGN_VOTES",
+    "english": "VOTES",
+    "polish": "GŁOSY"
+  },
+  {
+    "key": "CUTSCENE_ACIDCRAWLER",
+    "english": "BLRRGGGGG",
+    "polish": "BLRRGGGGG"
+  },
+  {
+    "key": "CUTSCENE_BONEWURM",
+    "english": "TORQUED FOR TERROR",
+    "polish": "NAKRĘCONY NA TERROR"
+  },
+  {
+    "key": "CUTSCENE_BOOMER",
+    "english": "TACO HELL",
+    "polish": "TACO Z PIEKŁA RODEM"
+  },
+  {
+    "key": "CUTSCENE_BRO_UNLOCK",
+    "english": "JOINS THE BATTLE",
+    "polish": "DOŁĄCZA DO WALKI"
+  },
+  {
+    "key": "CUTSCENE_BRUISER",
+    "english": "THE PINNACLE OF TERRORIST GYMING TECHNOLOGY",
+    "polish": "SZCZYTOWE OSIĄGNIĘCIE TERRORYSTYCZNEGO KOKSOWANIA"
+  },
+  {
+    "key": "CUTSCENE_DEATHFIELD",
+    "english": "A FORCEFIELD, BUT DEATHLIER",
+    "polish": "POLE SIŁOWE, TYLKO ZABÓJCZE"
+  },
+  {
+    "key": "CUTSCENE_EXECUTIONERS",
+    "english": "THE PINNACLE OF UNDEAD GYMING TECHNOLOGY",
+    "polish": "SZCZYTOWE OSIĄGNIĘCIE NIEUMARŁEGO KOKSOWANIA"
+  },
+  {
+    "key": "CUTSCENE_GR666",
+    "english": "DO YOU HEAR ME?",
+    "polish": "SŁYSZYSZ MNIE?"
+  },
+  {
+    "key": "CUTSCENE_HEART_OF_HIVE",
+    "english": "THE WEAK SPOT DEEP IN THE INFESTED CAVES",
+    "polish": "SŁABY PUNKT GŁĘBOKO W ZARAŻONYCH JASKINIACH"
+  },
+  {
+    "key": "CUTSCENE_HUMONGOCRAWLER",
+    "english": "BAD BREATH",
+    "polish": "NIEŚWIEŻY ODDECH"
+  },
+  {
+    "key": "CUTSCENE_JESUS_1",
+    "english": "Broforce, before you go, I want to\nintroduce you to someone...",
+    "polish": "BROFORCE, ZANIM ODEJDZIESZ, CHCĘ CI\nKOGOŚ PRZEDSTAWIĆ..."
+  },
+  {
+    "key": "CUTSCENE_JESUS_2",
+    "english": "Hello, friend. I must ask one last thing of you.",
+    "polish": "WITAJ, PRZYJACIELU. MUSZĘ CIĘ PROSIĆ O JESZCZE JEDNO."
+  },
+  {
+    "key": "CUTSCENE_JESUS_3",
+    "english": "The Earth is now free of terrorism, \nand finally at peace.",
+    "polish": "ZIEMIA JEST WOLNA OD TERRORYZMU \nI WRESZCIE ZAZNAŁA POKOJU."
+  },
+  {
+    "key": "CUTSCENE_JESUS_4",
+    "english": "An American fast food restaurant is on every\nstreet corner, and American is spoken everywhere --",
+    "polish": "NA KAŻDYM ROGU ULICY STOI AMERYKAŃSKI\nFAST FOOD, A WSZĘDZIE MÓWI SIĘ PO AMERYKAŃSKU --"
+  },
+  {
+    "key": "CUTSCENE_JESUS_5",
+    "english": "-- even in England.",
+    "polish": "-- NAWET W ANGLII."
+  },
+  {
+    "key": "CUTSCENE_JESUS_6",
+    "english": "There is nothing left to do here for a soldier.",
+    "polish": "ŻOŁNIERZ NIE MA JUŻ TU NIC DO ROBOTY."
+  },
+  {
+    "key": "CUTSCENE_JESUS_7",
+    "english": "Come with me, and live in peace...",
+    "polish": "CHODŹ ZE MNĄ I ŻYJ W POKOJU..."
+  },
+  {
+    "key": "CUTSCENE_JESUS_8",
+    "english": "...in Texas.",
+    "polish": "...W TEKSASIE."
+  },
+  {
+    "key": "CUTSCENE_MEGACOCKTER",
+    "english": "OVERCOMPENSATE MUCH?",
+    "polish": "COŚ SOBIE REKOMPENSUJEMY?"
+  },
+  {
+    "key": "CUTSCENE_PRESIDENT_1",
+    "english": "Ah, Broforce. You have done the impossible.",
+    "polish": "ACH, BROFORCE. DOKONAŁEŚ NIEMOŻLIWEGO."
+  },
+  {
+    "key": "CUTSCENE_PRESIDENT_2",
+    "english": "You have brought liberty, and justice,\nand peace to the world.",
+    "polish": "PRZYNIOSŁEŚ ŚWIATU WOLNOŚĆ,\nSPRAWIEDLIWOŚĆ I POKÓJ."
+  },
+  {
+    "key": "CUTSCENE_PRESIDENT_3",
+    "english": "After all you have done, I have but one \nmore request. High five me, Bro!",
+    "polish": "PO TYM WSZYSTKIM MAM DO CIEBIE \nJESZCZE JEDNĄ PROŚBĘ. PRZYBIJ PIĄTKĘ, BRO!"
+  },
+  {
+    "key": "CUTSCENE_PRESIDENT_4",
+    "english": "World leaders have voted unanimously\nto elect you grand emperor of the world!",
+    "polish": "PRZYWÓDCY ŚWIATA JEDNOGŁOŚNIE\nOBRALI CIĘ WIELKIM CESARZEM ŚWIATA!"
+  },
+  {
+    "key": "CUTSCENE_PRESIDENT_5",
+    "english": "Gentlemen, a ceremony held in your honor awaits!",
+    "polish": "PANOWIE, CZEKA NA WAS UROCZYSTOŚĆ NA WASZĄ CZEŚĆ!"
+  },
+  {
+    "key": "CUTSCENE_PRESIDENT_6",
+    "english": "How did you know that was a lizardman imposter!?\nThanks all the same!",
+    "polish": "SKĄD WIEDZIELIŚCIE, ŻE TO JASZCZUROCZŁEK-OSZUST!?\nTAK CZY INACZEJ, DZIĘKI!"
+  },
+  {
+    "key": "CUTSCENE_RAILFORTRESS",
+    "english": "DEATH FROM EVERYWHERE",
+    "polish": "ŚMIERĆ ZEWSZĄD"
+  },
+  {
+    "key": "CUTSCENE_SATAN",
+    "english": "LORD OF TERROR",
+    "polish": "PAN TERRORU"
+  },
+  {
+    "key": "CUTSCENE_SKYFORTRESS",
+    "english": "DEATH FROM ABOVE",
+    "polish": "ŚMIERĆ Z NIEBA"
+  },
+  {
+    "key": "CUTSCENE_STEALTHTANK",
+    "english": "SURPRIZE!",
+    "polish": "NIESPODZIANKA!"
+  },
+  {
+    "key": "CUTSCENE_TERRORBOT",
+    "english": "WHAT IS LOVE?",
+    "polish": "WHAT IS LOVE?"
+  },
+  {
+    "key": "CUTSCENE_TERRORKANNON",
+    "english": "TAKING TERRORISM TO NEW HEIGHTS",
+    "polish": "TERRORYZM NA NOWYCH WYŻYNACH"
+  },
+  {
+    "key": "CUTSCENE_TERRORKOPTER",
+    "english": "AIR SUPERIORITY TECHNOLOGY",
+    "polish": "TECHNOLOGIA PANOWANIA W POWIETRZU"
+  },
+  {
+    "key": "CUTSCENE_TERRORKRAWLER",
+    "english": "THE CULMINATION OF BOTH TERROR AND ALIEN THREATS",
+    "polish": "UKORONOWANIE ZAGROŻENIA TERRORYSTYCZNEGO I KOSMICZNEGO"
+  },
+  {
+    "key": "DAISY_WHEEL_LEGEND_BACKSPACE",
+    "english": "BACKSPACE",
+    "polish": "COFNIJ"
+  },
+  {
+    "key": "DAISY_WHEEL_LEGEND_CLOSE",
+    "english": "CLOSE",
+    "polish": "ZAMKNIJ"
+  },
+  {
+    "key": "DAISY_WHEEL_LEGEND_NUMBERS",
+    "english": "NUMBERS",
+    "polish": "CYFRY"
+  },
+  {
+    "key": "DAISY_WHEEL_LEGEND_SEND",
+    "english": "SEND",
+    "polish": "WYŚLIJ"
+  },
+  {
+    "key": "DAISY_WHEEL_LEGEND_SPACE",
+    "english": "SPACE",
+    "polish": "SPACJA"
+  },
+  {
+    "key": "DOOM_METER",
+    "english": "DOOM METER",
+    "polish": "WSKAŹNIK ZAGŁADY"
+  },
+  {
+    "key": "ERROR_CONNECTION_FAILED",
+    "english": "Connection Failed",
+    "polish": "Nie udało się połączyć"
+  },
+  {
+    "key": "ERROR_KICKEDBY",
+    "english": "Kicked By",
+    "polish": "Wyrzucony przez"
+  },
+  {
+    "key": "ERROR_KICKEDFROMGAME",
+    "english": "You Were Kicked From The Game",
+    "polish": "Wyrzucono cię z gry"
+  },
+  {
+    "key": "ERROR_MISSING_KEY",
+    "english": "Missing Key",
+    "polish": "Brak klucza"
+  },
+  {
+    "key": "ERROR_NETWORK_DISCONNECT",
+    "english": "A network error occurred.\nYou got disconnected.",
+    "polish": "Wystąpił błąd sieci.\nPołączenie zostało przerwane."
+  },
+  {
+    "key": "ERROR_NETWORK_DISCONNECT_INVITE",
+    "english": "A network disconnection occurred while you were trying to join a game you were invited to.",
+    "polish": "Połączenie zostało przerwane podczas dołączania do gry, do której cię zaproszono."
+  },
+  {
+    "key": "ERROR_NO_PRIMARY_PLAYER",
+    "english": "The system was unable to find a valid user bound to your controller.",
+    "polish": "System nie znalazł użytkownika przypisanego do twojego kontrolera."
+  },
+  {
+    "key": "ERROR_NON_ENGLISH_CHARACTERS",
+    "english": "Have you got non english characters in your PC name? This can cause an issue with the server",
+    "polish": "Czy nazwa twojego komputera zawiera znaki spoza alfabetu angielskiego? Może to powodować problemy z serwerem"
+  },
+  {
+    "key": "ERROR_ONLINE_NOT_AVAILABLE",
+    "english": "Online Not Available",
+    "polish": "Gra online niedostępna"
+  },
+  {
+    "key": "ERROR_PATCH_REQUIRED",
+    "english": "You must update the application to use network features.",
+    "polish": "Zaktualizuj aplikację, aby korzystać z funkcji sieciowych."
+  },
+  {
+    "key": "ERROR_PS_SESSION_FULL",
+    "english": "The session you tried to join is full.",
+    "polish": "Sesja, do której próbujesz dołączyć, jest pełna."
+  },
+  {
+    "key": "ERROR_PS_SESSION_INVITE_PROBLEM",
+    "english": "There was a problem with the\"PlayStation 4\" system session that you were invited to.",
+    "polish": "Wystąpił problem z sesją systemu „PlayStation 4”, do której cię zaproszono."
+  },
+  {
+    "key": "ERROR_VERSION_MISMATCH_NEWER",
+    "english": "VERSION MISMATCH. THIS PLAYER HAS A NEWER BUILD.",
+    "polish": "NIEZGODNE WERSJE. TEN GRACZ MA NOWSZĄ WERSJĘ GRY."
+  },
+  {
+    "key": "ERROR_VERSION_MISMATCH_OLDER",
+    "english": "VERSION MISMATCH. THIS PLAYER HAS AN OLDER BUILD.",
+    "polish": "NIEZGODNE WERSJE. TEN GRACZ MA STARSZĄ WERSJĘ GRY."
+  },
+  {
+    "key": "ERROR_XBONE_MISSING_PRIVILEGE",
+    "english": "An Xbox Live account setting prevents this.",
+    "polish": "Nie pozwala na to ustawienie konta Xbox Live."
+  },
+  {
+    "key": "ERROR_CUSTOM_GAME_UNAVAILABLE",
+    "english": "You are not allowed to play custom games.",
+    "polish": "Nie możesz grać na mapach graczy."
+  },
+  {
+    "key": "GEN_MESSAGE_JOINING",
+    "english": "JOINING...",
+    "polish": "DOŁĄCZANIE..."
+  },
+  {
+    "key": "GEN_MESSAGE_WAIT",
+    "english": "Please wait...",
+    "polish": "Proszę czekać..."
+  },
+  {
+    "key": "GEN_MESSAGE_WAITINGHOST",
+    "english": "WAITING FOR HOST...",
+    "polish": "CZEKAM NA HOSTA..."
+  },
+  {
+    "key": "INFESTATION_METER",
+    "english": "INFESTATION METER",
+    "polish": "WSKAŹNIK ZARAŻENIA"
+  },
+  {
+    "key": "JOIN_SESSION_FAILED",
+    "english": "FAILED TO JOIN SESSION. SESSION NO LONGER EXISTS.",
+    "polish": "NIE UDAŁO SIĘ DOŁĄCZYĆ. SESJA JUŻ NIE ISTNIEJE."
+  },
+  {
+    "key": "JOINSCREEN_DROPOUT",
+    "english": "DROP OUT",
+    "polish": "ODŁĄCZ SIĘ"
+  },
+  {
+    "key": "JOINSCREEN_INVITEFRIEND",
+    "english": "INVITE FRIEND",
+    "polish": "ZAPROŚ ZNAJOMEGO"
+  },
+  {
+    "key": "JOINSCREEN_JOIN",
+    "english": "JOIN",
+    "polish": "DOŁĄCZ"
+  },
+  {
+    "key": "JOINSCREEN_JOINGAME_TITLE",
+    "english": "JOIN GAME",
+    "polish": "DOŁĄCZ DO GRY"
+  },
+  {
+    "key": "JOINSCREEN_PLAYERCANDROPIN",
+    "english": "PLAYERS CAN ALSO DROP IN DURING THE GAME",
+    "polish": "GRACZE MOGĄ TEŻ DOŁĄCZAĆ W TRAKCIE GRY"
+  },
+  {
+    "key": "JOINSCREEN_PRESSENTERTOCHAT",
+    "english": "PRESS [ENTER] OR GAMEPAD [BACK] BUTTON TO CHAT",
+    "polish": "NACIŚNIJ [ENTER] ALBO [BACK] NA PADZIE, BY PISAĆ NA CZACIE"
+  },
+  {
+    "key": "JOINSCREEN_TOJOINGAME",
+    "english": "TO JOIN GAME",
+    "polish": "BY DOŁĄCZYĆ DO GRY"
+  },
+  {
+    "key": "LOBBY_ARCADE",
+    "english": "ARCADE",
+    "polish": "ARKADA"
+  },
+  {
+    "key": "LOBBY_CUSTOM_MAP",
+    "english": "CUSTOM MAP",
+    "polish": "MAPA GRACZA"
+  },
+  {
+    "key": "LOBBY_MISSION",
+    "english": "MISSION",
+    "polish": "MISJA"
+  },
+  {
+    "key": "LOBBY_N_A",
+    "english": "N/A",
+    "polish": "B/D"
+  },
+  {
+    "key": "LOBBY_NO_GAMES_AVAILABLE",
+    "english": "NO GAMES AVAILABLE",
+    "polish": "BRAK DOSTĘPNYCH GIER"
+  },
+  {
+    "key": "LOBBY_WORLD_CAMPAIGN",
+    "english": "WORLD CAMPAIGN",
+    "polish": "KAMPANIA ŚWIATOWA"
+  },
+  {
+    "key": "LOC_AUTOSAVE_PS4",
+    "english": "This game saves data automatically at certain points.\n\nDo not turn off your \"PlayStation®4\" system while\nthe following icon is displayed on screen.",
+    "polish": "Gra automatycznie zapisuje postęp w określonych momentach.\n\nNie wyłączaj systemu „PlayStation®4”, gdy\nna ekranie widać tę ikonę."
+  },
+  {
+    "key": "LOC_AUTOSAVE_SWITCH",
+    "english": "This game saves data automatically at certain points.\n\nDo not turn off your console while\nthe following icon is displayed on screen.",
+    "polish": "Gra automatycznie zapisuje postęp w określonych momentach.\n\nNie wyłączaj konsoli, gdy\nna ekranie widać tę ikonę."
+  },
+  {
+    "key": "LOC_CHAT_RESTRICTION",
+    "english": "Chat is disabled on your Sony Entertainment Network account due to chat restrictions.",
+    "polish": "Czat na twoim koncie Sony Entertainment Network jest wyłączony z powodu ograniczeń czatu."
+  },
+  {
+    "key": "LOC_CTRL_DISC_PS4",
+    "english": "Please reconnect the wireless controller",
+    "polish": "Podłącz ponownie kontroler bezprzewodowy"
+  },
+  {
+    "key": "LOC_GRAVEYARD_PRESSFIRERESPECT",
+    "english": "PRESS FIRE TO PAY RESPECTS",
+    "polish": "NACIŚNIJ STRZAŁ, BY ODDAĆ HOŁD"
+  },
+  {
+    "key": "LOC_GRAVEYARD_RESPECT",
+    "english": "TO PAY RESPECTS",
+    "polish": "BY ODDAĆ HOŁD"
+  },
+  {
+    "key": "LOC_HOST_TYPE_FRIENDS",
+    "english": "Friends",
+    "polish": "Znajomi"
+  },
+  {
+    "key": "LOC_HOST_TYPE_PRIVATE",
+    "english": "Private",
+    "polish": "Prywatna"
+  },
+  {
+    "key": "LOC_HOST_TYPE_PUBLIC",
+    "english": "Public",
+    "polish": "Publiczna"
+  },
+  {
+    "key": "LOC_HOST_TYPE_TITLE",
+    "english": "Game type:",
+    "polish": "Typ gry:"
+  },
+  {
+    "key": "LOC_HUD_AFK",
+    "english": "AFK.  YOU ARE NOW SPECTATING.",
+    "polish": "AFK. TERAZ TYLKO OGLĄDASZ."
+  },
+  {
+    "key": "LOC_HUD_DISCONNECTED",
+    "english": "DISCONNECTED",
+    "polish": "ROZŁĄCZONO"
+  },
+  {
+    "key": "LOC_HUD_GAMEFULL",
+    "english": "GAME IS FULL. YOU ARE SPECTATING.",
+    "polish": "GRA JEST PEŁNA. TYLKO OGLĄDASZ."
+  },
+  {
+    "key": "LOC_HUD_LIVES",
+    "english": "LIVES",
+    "polish": "ŻYCIA"
+  },
+  {
+    "key": "LOC_HUD_PRESSTOJOIN",
+    "english": "PRESS FIRE TO JOIN GAME",
+    "polish": "NACIŚNIJ STRZAŁ, BY DOŁĄCZYĆ"
+  },
+  {
+    "key": "LOC_HUD_PRESSTOJOIN_SWITCH",
+    "english": "PRESS [L]+[R] TO JOIN GAME",
+    "polish": "NACIŚNIJ [L]+[R], BY DOŁĄCZYĆ"
+  },
+  {
+    "key": "LOC_HUD_WAITING_FOR_PLAYERS",
+    "english": "Waiting for other players",
+    "polish": "Czekamy na pozostałych graczy"
+  },
+  {
+    "key": "LOC_HUD_WINS",
+    "english": "WINS",
+    "polish": "WYGRANE"
+  },
+  {
+    "key": "LOC_INVITE_MSG",
+    "english": "Let's play Broforce!",
+    "polish": "Zagrajmy w Broforce!"
+  },
+  {
+    "key": "LOC_NEW_CHAT",
+    "english": "CHAT",
+    "polish": "CZAT"
+  },
+  {
+    "key": "LOC_NEW_JOIN_PLAYERS",
+    "english": "PLAYERS",
+    "polish": "GRACZE"
+  },
+  {
+    "key": "LOC_PARENTAL_CTRL",
+    "english": "Online service is disabled on your Sony Entertainment Network account due to parental control settings.",
+    "polish": "Usługi online na twoim koncie Sony Entertainment Network są wyłączone przez kontrolę rodzicielską."
+  },
+  {
+    "key": "LOC_PARENTAL_CTRL_FAIL",
+    "english": "Failed to join game session due to parental control settings.",
+    "polish": "Nie udało się dołączyć do sesji z powodu ustawień kontroli rodzicielskiej."
+  },
+  {
+    "key": "LOC_PS_PLUS",
+    "english": "You need to have \"PlayStation Plus\" to use this online feature.",
+    "polish": "Do tej funkcji online potrzebujesz „PlayStation Plus”."
+  },
+  {
+    "key": "LOC_PSN_CONNECT",
+    "english": "Please connect to \"PlayStation Network\" to access this feature",
+    "polish": "Połącz się z „PlayStation Network”, aby korzystać z tej funkcji"
+  },
+  {
+    "key": "LOC_PSN_SIGN_IN",
+    "english": "You have been signed out of \"PlayStation Network\". Online features will not be available until you sign in.",
+    "polish": "Wylogowano cię z „PlayStation Network”. Funkcje online będą niedostępne, dopóki się nie zalogujesz."
+  },
+  {
+    "key": "MENU_ARCADE_MODE",
+    "english": "ARCADE MODE",
+    "polish": "TRYB ARKADOWY"
+  },
+  {
+    "key": "MENU_AUDIO_ANNOUNCER",
+    "english": "ANNOUNCER: {0}",
+    "polish": "KOMENTATOR: {0}"
+  },
+  {
+    "key": "MENU_AUDIO_MASTER_VOLUME",
+    "english": "MASTER VOLUME: {0} %",
+    "polish": "GŁOŚNOŚĆ OGÓLNA: {0} %"
+  },
+  {
+    "key": "MENU_AUDIO_MUSIC_VOLUME",
+    "english": "MUSIC VOLUME: {0} %",
+    "polish": "GŁOŚNOŚĆ MUZYKI: {0} %"
+  },
+  {
+    "key": "MENU_BACK",
+    "english": "BACK",
+    "polish": "WSTECZ"
+  },
+  {
+    "key": "MENU_CLEAR_DATA_WARNING",
+    "english": "Are you sure you want to clear the data ?",
+    "polish": "Na pewno chcesz usunąć dane?"
+  },
+  {
+    "key": "MENU_CONTINUE_CAMPAIGN",
+    "english": "CONTINUE CAMPAIGN",
+    "polish": "KONTYNUUJ KAMPANIĘ"
+  },
+  {
+    "key": "MENU_CONTROLS_CLEAR",
+    "english": "CLEAR",
+    "polish": "WYCZYŚĆ"
+  },
+  {
+    "key": "MENU_CONTROLS_DASH",
+    "english": "DASH: {0}",
+    "polish": "SPRINT: {0}"
+  },
+  {
+    "key": "MENU_CONTROLS_DOWN",
+    "english": "DOWN: {0}",
+    "polish": "DÓŁ: {0}"
+  },
+  {
+    "key": "MENU_CONTROLS_FIRE",
+    "english": "FIRE: {0}",
+    "polish": "STRZAŁ: {0}"
+  },
+  {
+    "key": "MENU_CONTROLS_GAMEPAD",
+    "english": "SETUP GAMEPAD",
+    "polish": "USTAW PADA"
+  },
+  {
+    "key": "MENU_CONTROLS_GAMEPAD_1",
+    "english": "SETUP GAMEPAD 1",
+    "polish": "USTAW PADA 1"
+  },
+  {
+    "key": "MENU_CONTROLS_GAMEPAD_2",
+    "english": "SETUP GAMEPAD 2",
+    "polish": "USTAW PADA 2"
+  },
+  {
+    "key": "MENU_CONTROLS_GAMEPAD_3",
+    "english": "SETUP GAMEPAD 3",
+    "polish": "USTAW PADA 3"
+  },
+  {
+    "key": "MENU_CONTROLS_GAMEPAD_4",
+    "english": "SETUP GAMEPAD 4",
+    "polish": "USTAW PADA 4"
+  },
+  {
+    "key": "MENU_CONTROLS_GESTURE",
+    "english": "GESTURE: {0}",
+    "polish": "GEST: {0}"
+  },
+  {
+    "key": "MENU_CONTROLS_HIGHFIVE",
+    "english": "HIGH FIVE/MELEE/USE: {0}",
+    "polish": "PIĄTKA/WALKA WRĘCZ/UŻYJ: {0}"
+  },
+  {
+    "key": "MENU_CONTROLS_JUMP",
+    "english": "JUMP: {0}",
+    "polish": "SKOK: {0}"
+  },
+  {
+    "key": "MENU_CONTROLS_JUMP_KB",
+    "english": "JUMP (CAN USE SAME KEY AS UP): {0}",
+    "polish": "SKOK (MOŻE BYĆ POD TYM SAMYM KLAWISZEM CO GÓRA): {0}"
+  },
+  {
+    "key": "MENU_CONTROLS_KEYBOARD_1",
+    "english": "SETUP KEYBOARD 1",
+    "polish": "USTAW KLAWIATURĘ 1"
+  },
+  {
+    "key": "MENU_CONTROLS_KEYBOARD_2",
+    "english": "SETUP KEYBOARD 2",
+    "polish": "USTAW KLAWIATURĘ 2"
+  },
+  {
+    "key": "MENU_CONTROLS_KEYBOARD_3",
+    "english": "SETUP KEYBOARD 3",
+    "polish": "USTAW KLAWIATURĘ 3"
+  },
+  {
+    "key": "MENU_CONTROLS_KEYBOARD_4",
+    "english": "SETUP KEYBOARD 4",
+    "polish": "USTAW KLAWIATURĘ 4"
+  },
+  {
+    "key": "MENU_CONTROLS_LEFT",
+    "english": "LEFT: {0}",
+    "polish": "LEWO: {0}"
+  },
+  {
+    "key": "MENU_CONTROLS_NONE",
+    "english": "NONE",
+    "polish": "BRAK"
+  },
+  {
+    "key": "MENU_CONTROLS_PRESSKEY",
+    "english": "PRESS KEY",
+    "polish": "NACIŚNIJ KLAWISZ"
+  },
+  {
+    "key": "MENU_CONTROLS_RIGHT",
+    "english": "RIGHT: {0}",
+    "polish": "PRAWO: {0}"
+  },
+  {
+    "key": "MENU_CONTROLS_SPECIAL",
+    "english": "SPECIAL: {0}",
+    "polish": "SPECJALNY: {0}"
+  },
+  {
+    "key": "MENU_CONTROLS_START",
+    "english": "PAUSE: {0}",
+    "polish": "PAUZA: {0}"
+  },
+  {
+    "key": "MENU_CONTROLS_UP",
+    "english": "UP: {0}",
+    "polish": "GÓRA: {0}"
+  },
+  {
+    "key": "MENU_CUSTOM_GAME_ENTER_PASSWORD",
+    "english": "Enter Password:",
+    "polish": "Podaj hasło:"
+  },
+  {
+    "key": "MENU_DIFFICULTY_HARD",
+    "english": "HARD",
+    "polish": "TRUDNY"
+  },
+  {
+    "key": "MENU_DIFFICULTY_NORMAL",
+    "english": "NORMAL",
+    "polish": "NORMALNY"
+  },
+  {
+    "key": "MENU_ENDGAME_PRESS",
+    "english": "PRESS",
+    "polish": "NACIŚNIJ"
+  },
+  {
+    "key": "MENU_ENDGAME_TO_CONTINUE",
+    "english": "TO CONTINUE",
+    "polish": "ABY KONTYNUOWAĆ"
+  },
+  {
+    "key": "MENU_EXPLANATION_ARCADE",
+    "english": "PLAY THROUGH ALL THE LEVELS WITHOUT BEING BURDENED BY OUR OVERBEARING NARRATIVE!",
+    "polish": "PRZEJDŹ WSZYSTKIE POZIOMY BEZ BALASTU NASZEJ PRZYTŁACZAJĄCEJ FABUŁY!"
+  },
+  {
+    "key": "MENU_EXPLANATION_HARD",
+    "english": "HARD IS BRUTAL! WE RECOMMEND YOU TRY PLAYING ON NORMAL FIRST!",
+    "polish": "TRUDNY TO RZEŹNIA! RADZIMY NAJPIERW ZAGRAĆ NA NORMALNYM!"
+  },
+  {
+    "key": "MENU_EXPLANATION_HARD_IRONBRO",
+    "english": "IRONBRO ON HARD IS NOT EVEN REMOTELY FAIR AND WAS NOT DESIGNED TO BE BEATABLE.\nPLAY AT YOUR OWN RISK!",
+    "polish": "IRONBRO NA TRUDNYM NIE JEST ANI TROCHĘ UCZCIWY I NIKT GO NIE PROJEKTOWAŁ Z MYŚLĄ O WYGRANEJ.\nGRASZ NA WŁASNE RYZYKO!"
+  },
+  {
+    "key": "MENU_EXPLANATION_IRONBRO",
+    "english": "EACH BRO CAN ONLY DIE ONCE! LOSE ALL BROS AND YOU LOSE! SINGLE PLAYER ONLY",
+    "polish": "KAŻDY BRO GINIE TYLKO RAZ! STRACISZ WSZYSTKICH – PRZEGRYWASZ! TYLKO DLA JEDNEGO GRACZA"
+  },
+  {
+    "key": "MENU_EXPLANATION_IRONBRO_MOREUNLOCKS",
+    "english": "You need to unlock more bros to unlock IRONBRO Mode!",
+    "polish": "Odblokuj więcej bro, żeby odblokować tryb IRONBRO!"
+  },
+  {
+    "key": "MENU_EXPLANATION_IRONBRO_ONEMOREUNLOCK",
+    "english": "UNLOCK ONE MORE BRO TO UNLOCK IRONBRO MODE!",
+    "polish": "ODBLOKUJ JESZCZE JEDNEGO BRO, ŻEBY ODBLOKOWAĆ TRYB IRONBRO!"
+  },
+  {
+    "key": "MENU_HOST_GAME_PASSWORD",
+    "english": "PASSWORD:",
+    "polish": "HASŁO:"
+  },
+  {
+    "key": "MENU_HOST_ONLINE_HOST",
+    "english": "HOST!",
+    "polish": "ZAŁÓŻ!"
+  },
+  {
+    "key": "MENU_HOST_ONLINE_ID",
+    "english": "ONLINE ID:",
+    "polish": "ID ONLINE:"
+  },
+  {
+    "key": "MENU_HOST_ONLINE_LIMIT",
+    "english": "PLAYER LIMIT:",
+    "polish": "LIMIT GRACZY:"
+  },
+  {
+    "key": "MENU_HOST_ONLINE_NAME",
+    "english": "GAME NAME:",
+    "polish": "NAZWA GRY:"
+  },
+  {
+    "key": "MENU_HOST_ONLINE_NONAME",
+    "english": "NO NAME",
+    "polish": "BEZ NAZWY"
+  },
+  {
+    "key": "MENU_HOST_ONLINE_PLAYER_NAME",
+    "english": "Name:",
+    "polish": "Nazwa:"
+  },
+  {
+    "key": "MENU_HOST_ONLINE_PRIVATE",
+    "english": "PRIVATE",
+    "polish": "PRYWATNA"
+  },
+  {
+    "key": "MENU_HOST_ONLINE_PUBLIC",
+    "english": "PUBLIC",
+    "polish": "PUBLICZNA"
+  },
+  {
+    "key": "MENU_HOST_ONLINE_TYPE",
+    "english": "GAME TYPE",
+    "polish": "TYP GRY"
+  },
+  {
+    "key": "MENU_JOIN_ONLINE_CAUTION",
+    "english": "CAUTION, AREAS HAVE BEEN LIBERATED THAT YOU HAVE YET TO VISIT",
+    "polish": "UWAGA: WYZWOLONO JUŻ OBSZARY, W KTÓRYCH JESZCZE CIĘ NIE BYŁO"
+  },
+  {
+    "key": "MENU_JOIN_ONLINE_FAIL_TIMEOUT",
+    "english": "FAILED TO JOIN, CONNECTION TIMED OUT",
+    "polish": "NIE UDAŁO SIĘ DOŁĄCZYĆ, UPŁYNĄŁ CZAS POŁĄCZENIA"
+  },
+  {
+    "key": "MENU_JOIN_ONLINE_FAIL_UNRESPONSIVE",
+    "english": "FAILED TO JOIN, HOST UNRESPONSIVE",
+    "polish": "NIE UDAŁO SIĘ DOŁĄCZYĆ, HOST NIE ODPOWIADA"
+  },
+  {
+    "key": "MENU_JOIN_ONLINE_HEADER_GAME",
+    "english": "GAME",
+    "polish": "GRA"
+  },
+  {
+    "key": "MENU_JOIN_ONLINE_HEADER_HOST",
+    "english": "HOST",
+    "polish": "HOST"
+  },
+  {
+    "key": "MENU_JOIN_ONLINE_HEADER_MAP",
+    "english": "MAP",
+    "polish": "MAPA"
+  },
+  {
+    "key": "MENU_JOIN_ONLINE_HEADER_MODE",
+    "english": "MODE",
+    "polish": "TRYB"
+  },
+  {
+    "key": "MENU_JOIN_ONLINE_HEADER_PROGRESS",
+    "english": "PROGRESS",
+    "polish": "POSTĘP"
+  },
+  {
+    "key": "MENU_JOIN_ONLINE_JOINING",
+    "english": "JOINING",
+    "polish": "DOŁĄCZANIE"
+  },
+  {
+    "key": "MENU_JOIN_ONLINE_NO_SAVE",
+    "english": "CONTINUE WITHOUT SAVING",
+    "polish": "GRAJ BEZ ZAPISYWANIA"
+  },
+  {
+    "key": "MENU_JOIN_ONLINE_OPEN_SLOTS",
+    "english": "OPEN SLOTS",
+    "polish": "WOLNE MIEJSCA"
+  },
+  {
+    "key": "MENU_JOIN_ONLINE_OVERWRITE",
+    "english": "OVERWRITE MY PROGRESS",
+    "polish": "NADPISZ MÓJ POSTĘP"
+  },
+  {
+    "key": "MENU_JOIN_ONLINE_REFRESH",
+    "english": "REFRESH",
+    "polish": "ODŚWIEŻ"
+  },
+  {
+    "key": "MENU_JOIN_ONLINE_REFRESHING",
+    "english": "REFRESHING",
+    "polish": "ODŚWIEŻANIE"
+  },
+  {
+    "key": "MENU_JOIN_ONLINE_SORT_BY",
+    "english": "SORT BY:",
+    "polish": "SORTUJ:"
+  },
+  {
+    "key": "MENU_MAIN_CUSTOM_CAMPAIGN",
+    "english": "CUSTOM CAMPAIGN ^",
+    "polish": "WŁASNE KAMPANIE ^"
+  },
+  {
+    "key": "MENU_MAIN_CUSTOM_CAMPAIGN_HEADER",
+    "english": "CUSTOM CAMPAIGN",
+    "polish": "WŁASNE KAMPANIE"
+  },
+  {
+    "key": "MENU_MAIN_DAILY",
+    "english": "DAILY CHALLENGE",
+    "polish": "WYZWANIE DNIA"
+  },
+  {
+    "key": "MENU_MAIN_EXIT",
+    "english": "EXIT",
+    "polish": "WYJŚCIE"
+  },
+  {
+    "key": "MENU_MAIN_JOIN_LOCAL",
+    "english": "JOIN LOCAL",
+    "polish": "DOŁĄCZ LOKALNIE"
+  },
+  {
+    "key": "MENU_MAIN_JOIN_ONLINE",
+    "english": "JOIN ONLINE ^",
+    "polish": "DOŁĄCZ ONLINE ^"
+  },
+  {
+    "key": "MENU_MAIN_LEVEL_EDITOR",
+    "english": "LEVEL EDITOR",
+    "polish": "EDYTOR POZIOMÓW"
+  },
+  {
+    "key": "MENU_MAIN_OPTIONS",
+    "english": "OPTIONS",
+    "polish": "OPCJE"
+  },
+  {
+    "key": "MENU_MAIN_START",
+    "english": "START",
+    "polish": "GRAJ"
+  },
+  {
+    "key": "MENU_MAIN_VERSUS",
+    "english": "VERSUS",
+    "polish": "VERSUS"
+  },
+  {
+    "key": "MENU_MODE_IRONBRO",
+    "english": "IRON BRO",
+    "polish": "IRON BRO"
+  },
+  {
+    "key": "MENU_ONOFFLINE_ONLINE_NOT_SUP",
+    "english": "ONLINE NOT SUPPORTED",
+    "polish": "GRA ONLINE NIEDOSTĘPNA"
+  },
+  {
+    "key": "MENU_ONOFFLINE_PLAY_LOCAL",
+    "english": "HOST LOCAL",
+    "polish": "ZAŁÓŻ GRĘ LOKALNĄ"
+  },
+  {
+    "key": "MENU_ONOFFLINE_PLAY_OFFLINE",
+    "english": "PLAY OFFLINE",
+    "polish": "GRAJ OFFLINE"
+  },
+  {
+    "key": "MENU_ONOFFLINE_PLAY_ONLINE",
+    "english": "HOST ONLINE",
+    "polish": "ZAŁÓŻ GRĘ ONLINE"
+  },
+  {
+    "key": "MENU_OPTIONS_AUDIO",
+    "english": "AUDIO OPTIONS",
+    "polish": "OPCJE DŹWIĘKU"
+  },
+  {
+    "key": "MENU_OPTIONS_CAMERA_SHAKE",
+    "english": "CAMERA SHAKE: {0} %",
+    "polish": "WSTRZĄSY KAMERY: {0} %"
+  },
+  {
+    "key": "MENU_OPTIONS_CLEAR_ARCADE",
+    "english": "CLEAR ARCADE PROGRESS",
+    "polish": "WYCZYŚĆ POSTĘP ARKADY"
+  },
+  {
+    "key": "MENU_OPTIONS_CLEAR_UNLOCKS",
+    "english": "CLEAR UNLOCKS",
+    "polish": "WYCZYŚĆ ODBLOKOWANIA"
+  },
+  {
+    "key": "MENU_OPTIONS_CONFIGURE_CONTROLS",
+    "english": "CONFIGURE CONTROLS",
+    "polish": "USTAW STEROWANIE"
+  },
+  {
+    "key": "MENU_OPTIONS_DISABLE_DAISYWHEEL",
+    "english": "DAISY WHEEL: {0}",
+    "polish": "KOŁO LITER: {0}"
+  },
+  {
+    "key": "MENU_OPTIONS_DISABLED",
+    "english": "OFF",
+    "polish": "WYŁ."
+  },
+  {
+    "key": "MENU_OPTIONS_ENABLED",
+    "english": "ON",
+    "polish": "WŁ."
+  },
+  {
+    "key": "MENU_OPTIONS_FORCE_HARDMODE",
+    "english": "FORCE HARD MODE IN CUSTOM LEVELS: {0}",
+    "polish": "WYMUŚ TRUDNY NA MAPACH GRACZY: {0}"
+  },
+  {
+    "key": "MENU_OPTIONS_FULLSCREEN",
+    "english": "FULLSCREEN",
+    "polish": "PEŁNY EKRAN"
+  },
+  {
+    "key": "MENU_OPTIONS_GERMAN_KEYBOARD",
+    "english": "GERMAN KEY LAYOUT: {0}",
+    "polish": "NIEMIECKI UKŁAD KLAWISZY: {0}"
+  },
+  {
+    "key": "MENU_OPTIONS_GIF_SAVING",
+    "english": "[CPU INTENSIVE] SAVE GIFS OF GAMEPLAY: {0}",
+    "polish": "[OBCIĄŻA PROCESOR] ZAPISUJ GIFY Z ROZGRYWKI: {0}"
+  },
+  {
+    "key": "MENU_OPTIONS_LANGUAGE",
+    "english": "LANGUAGE",
+    "polish": "JĘZYK"
+  },
+  {
+    "key": "MENU_OPTIONS_PLAY_WITH_FNET",
+    "english": "PLAY ONLINE WITH FNET: {0}",
+    "polish": "GRAJ ONLINE PRZEZ FNET: {0}"
+  },
+  {
+    "key": "MENU_OPTIONS_PLAYER_BUBBLES",
+    "english": "ALWAYS SHOW PLAYER BUBBLES: {0}",
+    "polish": "ZAWSZE POKAZUJ DYMKI GRACZY: {0}"
+  },
+  {
+    "key": "MENU_OPTIONS_PLAYER_NAME",
+    "english": "PLAYER NAME: {0}",
+    "polish": "NAZWA GRACZA: {0}"
+  },
+  {
+    "key": "MENU_OPTIONS_POSTFX",
+    "english": "POST FX: {0}",
+    "polish": "EFEKTY OBRAZU: {0}"
+  },
+  {
+    "key": "MENU_OPTIONS_QUALITY_HIGH",
+    "english": "HIGH",
+    "polish": "WYSOKIE"
+  },
+  {
+    "key": "MENU_OPTIONS_QUALITY_LOW",
+    "english": "LOW",
+    "polish": "NISKIE"
+  },
+  {
+    "key": "MENU_OPTIONS_QUALITY_OFF",
+    "english": "OFF",
+    "polish": "WYŁ."
+  },
+  {
+    "key": "MENU_OPTIONS_RESET_TO_DEFAULT",
+    "english": "RESET TO DEFAULT",
+    "polish": "PRZYWRÓĆ DOMYŚLNE"
+  },
+  {
+    "key": "MENU_OPTIONS_RUMBLE",
+    "english": "CONTROLLER RUMBLE: {0}",
+    "polish": "WIBRACJE PADA: {0}"
+  },
+  {
+    "key": "MENU_OPTIONS_RUMBLE_PS4",
+    "english": "VIBRATION FUNCTION: {0}",
+    "polish": "FUNKCJA WIBRACJI: {0}"
+  },
+  {
+    "key": "MENU_OPTIONS_SET_RESOLUTION",
+    "english": "SET RESOLUTION",
+    "polish": "USTAW ROZDZIELCZOŚĆ"
+  },
+  {
+    "key": "MENU_OPTIONS_VSYNC",
+    "english": "VSYNC: {0}",
+    "polish": "VSYNC: {0}"
+  },
+  {
+    "key": "MENU_OVERWRITE_SAVE_DATA_NO",
+    "english": "NO",
+    "polish": "NIE"
+  },
+  {
+    "key": "MENU_OVERWRITE_SAVE_DATA_WARNING",
+    "english": "Continuing will overwrite current save data. \nContinue?",
+    "polish": "Dalsza gra nadpisze obecny zapis. \nKontynuować?"
+  },
+  {
+    "key": "MENU_OVERWRITE_SAVE_DATA_YES",
+    "english": "YES",
+    "polish": "TAK"
+  },
+  {
+    "key": "MENU_OK",
+    "english": "OK",
+    "polish": "OK"
+  },
+  {
+    "key": "MENU_CANCEL",
+    "english": "CANCEL",
+    "polish": "ANULUJ"
+  },
+  {
+    "key": "MENU_PAUSE_ARE_YOU_SURE",
+    "english": "Are you sure?",
+    "polish": "Na pewno?"
+  },
+  {
+    "key": "MENU_PAUSE_DROPOUT",
+    "english": "DROP OUT",
+    "polish": "ODŁĄCZ SIĘ"
+  },
+  {
+    "key": "MENU_PAUSE_INVITE_FRIEND",
+    "english": "INVITE FRIEND",
+    "polish": "ZAPROŚ ZNAJOMEGO"
+  },
+  {
+    "key": "MENU_PAUSE_KICK_PLAYER",
+    "english": "KICK PLAYER",
+    "polish": "WYRZUĆ GRACZA"
+  },
+  {
+    "key": "MENU_PAUSE_REASSIGN_CONTROLLERS",
+    "english": "REASSIGN CONTROLLERS",
+    "polish": "PRZYPISZ KONTROLERY"
+  },
+  {
+    "key": "MENU_PAUSE_RESTART_LEVEL",
+    "english": "RESTART LEVEL",
+    "polish": "ZACZNIJ POZIOM OD NOWA"
+  },
+  {
+    "key": "MENU_PAUSE_RESUME",
+    "english": "RESUME GAME",
+    "polish": "WRÓĆ DO GRY"
+  },
+  {
+    "key": "MENU_PAUSE_RETURN_TO_EDITING",
+    "english": "RETURN TO EDITING",
+    "polish": "WRÓĆ DO EDYCJI"
+  },
+  {
+    "key": "MENU_PAUSE_RETURN_TO_MAP",
+    "english": "RETURN TO MAP",
+    "polish": "WRÓĆ NA MAPĘ"
+  },
+  {
+    "key": "MENU_PAUSE_RETURN_TO_MENU",
+    "english": "RETURN TO MENU",
+    "polish": "WRÓĆ DO MENU"
+  },
+  {
+    "key": "MENU_SAVE_SLOT",
+    "english": "SELECT A SAVE SLOT",
+    "polish": "WYBIERZ MIEJSCE ZAPISU"
+  },
+  {
+    "key": "MENU_SAVE_SLOT_EMPTY",
+    "english": "EMPTY",
+    "polish": "PUSTE"
+  },
+  {
+    "key": "MENU_SELECT_START_LEVEL",
+    "english": "CONTINUE FROM LEVEL:",
+    "polish": "KONTYNUUJ OD POZIOMU:"
+  },
+  {
+    "key": "MENU_START_CAMPAIGN",
+    "english": "START NEW CAMPAIGN",
+    "polish": "NOWA KAMPANIA"
+  },
+  {
+    "key": "MENU_START_IRONBRO",
+    "english": "START NEW CAMPAIGN (IRONBRO MODE)",
+    "polish": "NOWA KAMPANIA (TRYB IRONBRO)"
+  },
+  {
+    "key": "MENU_VERSUS_DEATHMATCH",
+    "english": "Default Deathmatch campaign",
+    "polish": "Domyślna kampania deathmatch"
+  },
+  {
+    "key": "MENU_VERSUS_DEFAULT",
+    "english": "Play default campaigns",
+    "polish": "Graj w domyślne kampanie"
+  },
+  {
+    "key": "MENU_VERSUS_PLAYLIST",
+    "english": "Create playlist from local campaigns",
+    "polish": "Utwórz playlistę z lokalnych kampanii"
+  },
+  {
+    "key": "MENU_VERSUS_RACE",
+    "english": "Default Race Campaign",
+    "polish": "Domyślna kampania wyścigowa"
+  },
+  {
+    "key": "MENU_VERSUS_WORKSHOP",
+    "english": "Best of workshop rotation",
+    "polish": "Najlepsze z Warsztatu na zmianę"
+  },
+  {
+    "key": "PAUSE_MENU_LOST_PROGRESS_CONF",
+    "english": "PROGRESS WILL BE LOST. ARE YOU SURE?",
+    "polish": "POSTĘP ZOSTANIE UTRACONY. NA PEWNO?"
+  },
+  {
+    "key": "PLAYER",
+    "english": "PLAYER {0}",
+    "polish": "GRACZ {0}"
+  },
+  {
+    "key": "PLAYER_COLOR_BLUE",
+    "english": "<color=#0089ff>BLUE</color>",
+    "polish": "<color=#0089ff>NIEBIESKI</color>"
+  },
+  {
+    "key": "PLAYER_COLOR_ORANGE",
+    "english": "<color=#ff6c00>ORANGE</color>",
+    "polish": "<color=#ff6c00>POMARAŃCZOWY</color>"
+  },
+  {
+    "key": "PLAYER_COLOR_PURPLE",
+    "english": "<color=#8845e0>PURPLE</color>",
+    "polish": "<color=#8845e0>FIOLETOWY</color>"
+  },
+  {
+    "key": "PLAYER_COLOR_RED",
+    "english": "<color=#f00>RED</color>",
+    "polish": "<color=#f00>CZERWONY</color>"
+  },
+  {
+    "key": "PRESENCE_ARCADE",
+    "english": "ARCADE MODE: LEVEL - ",
+    "polish": "TRYB ARKADOWY: POZIOM - "
+  },
+  {
+    "key": "PRESENCE_CAMPAIGN",
+    "english": "CAMPAIGN MISSION: ",
+    "polish": "MISJA KAMPANII: "
+  },
+  {
+    "key": "PRESENCE_COVERT",
+    "english": "ON A COVERT OPERATION",
+    "polish": "NA TAJNEJ OPERACJI"
+  },
+  {
+    "key": "PRESENCE_DEATHMATCH",
+    "english": "DEATHMATCH",
+    "polish": "DEATHMATCH"
+  },
+  {
+    "key": "PRESENCE_PLAYING",
+    "english": "PLAYING BROFORCE",
+    "polish": "GRA W BROFORCE"
+  },
+  {
+    "key": "PRESENCE_SEARCHING",
+    "english": "SEARCHING FOR ENEMIES",
+    "polish": "SZUKA WROGÓW"
+  },
+  {
+    "key": "PRESENCE_WAITING",
+    "english": "WAITING FOR BROS",
+    "polish": "CZEKA NA BRO"
+  },
+  {
+    "key": "READY",
+    "english": "READY",
+    "polish": "GOTOWY"
+  },
+  {
+    "key": "RESULT_BRODOWN_PLAYERS",
+    "english": "PLAYERS IN BRODOWN:",
+    "polish": "GRACZE W BROJEDYNKU:"
+  },
+  {
+    "key": "RESULT_BROTALITY_SCORE",
+    "english": "Brotality Score",
+    "polish": "Brotalność"
+  },
+  {
+    "key": "RESULT_BROTEAM_FAIL",
+    "english": "BRO TEAM FAIL!",
+    "polish": "BRO-EKIPA DAŁA PLAMĘ!"
+  },
+  {
+    "key": "RESULT_DRAW",
+    "english": "DRAW!",
+    "polish": "REMIS!"
+  },
+  {
+    "key": "RESULT_FASTER_THAN",
+    "english": "FASTER THAN {0}",
+    "polish": "SZYBCIEJ NIŻ {0}"
+  },
+  {
+    "key": "RESULT_MISSION_FAILED",
+    "english": "MISSION FAILED",
+    "polish": "MISJA NIEUDANA"
+  },
+  {
+    "key": "RESULT_PLAYER_WINS",
+    "english": "PLAYER {0} WINS!",
+    "polish": "GRACZ {0} WYGRYWA!"
+  },
+  {
+    "key": "RESULT_PLAYER_WINS_MATCH",
+    "english": "PLAYER {0} WINS THE MATCH!",
+    "polish": "GRACZ {0} WYGRYWA MECZ!"
+  },
+  {
+    "key": "RESULT_PLAYER_WINS_RACE",
+    "english": "PLAYER {0} WINS THE RACE!",
+    "polish": "GRACZ {0} WYGRYWA WYŚCIG!"
+  },
+  {
+    "key": "RESULT_PLAYER_WINS_ROUND",
+    "english": "PLAYER {0} WINS THE ROUND!",
+    "polish": "GRACZ {0} WYGRYWA RUNDĘ!"
+  },
+  {
+    "key": "RESULT_STEALTH",
+    "english": "STEALTH",
+    "polish": "SKRYTOŚĆ"
+  },
+  {
+    "key": "RESULT_TIED",
+    "english": "TIED!",
+    "polish": "REMIS!"
+  },
+  {
+    "key": "RESULT_TIED_BRODOWN",
+    "english": "TIED! PREPARE FOR BRODOWN!",
+    "polish": "REMIS! SZYKUJ SIĘ NA BROJEDYNEK!"
+  },
+  {
+    "key": "RESULT_TOP",
+    "english": "TOP {0}",
+    "polish": "TOP {0}"
+  },
+  {
+    "key": "RESULT_UNLOCK_BROS_0",
+    "english": "MORE",
+    "polish": "DO"
+  },
+  {
+    "key": "RESULT_UNLOCK_BROS_1_A",
+    "english": "RESCUE",
+    "polish": "URATOWANIA"
+  },
+  {
+    "key": "RESULT_UNLOCK_BROS_1_B",
+    "english": "RESCUES",
+    "polish": "URATOWANIA"
+  },
+  {
+    "key": "RESULT_UNLOCK_BROS_2",
+    "english": "UNTIL\nNEXT UNLOCK!",
+    "polish": "I NOWY BRO\nODBLOKOWANY!"
+  },
+  {
+    "key": "RESULT_WINS_INAROW",
+    "english": "{0} WINS IN A ROW!",
+    "polish": "ZWYCIĘSTWA Z RZĘDU: {0}!"
+  },
+  {
+    "key": "STEAM_WORKSHOP_AUTHOR",
+    "english": "Author",
+    "polish": "Autor"
+  },
+  {
+    "key": "STEAM_WORKSHOP_CHALLENGE",
+    "english": "Challenge",
+    "polish": "Wyzwania"
+  },
+  {
+    "key": "STEAM_WORKSHOP_CONTINUE",
+    "english": "CONTINUE",
+    "polish": "DALEJ"
+  },
+  {
+    "key": "STEAM_WORKSHOP_DIFFICULTY",
+    "english": "Difficulty",
+    "polish": "Trudność"
+  },
+  {
+    "key": "STEAM_WORKSHOP_EXPERIMENTAL",
+    "english": "Experimental",
+    "polish": "Eksperymentalne"
+  },
+  {
+    "key": "STEAM_WORKSHOP_FILTERMAPS",
+    "english": "FILTER MAPS",
+    "polish": "FILTRUJ MAPY"
+  },
+  {
+    "key": "STEAM_WORKSHOP_FRIENDS",
+    "english": "Friends",
+    "polish": "Znajomi"
+  },
+  {
+    "key": "STEAM_WORKSHOP_GAMEPLAY",
+    "english": "Gameplay",
+    "polish": "Rozgrywka"
+  },
+  {
+    "key": "STEAM_WORKSHOP_MAP",
+    "english": "Map",
+    "polish": "Mapa"
+  },
+  {
+    "key": "STEAM_WORKSHOP_MAPDETAILS",
+    "english": "Map Details",
+    "polish": "Szczegóły mapy"
+  },
+  {
+    "key": "STEAM_WORKSHOP_NEW",
+    "english": "New",
+    "polish": "Nowe"
+  },
+  {
+    "key": "STEAM_WORKSHOP_OFFLINE",
+    "english": "Offline",
+    "polish": "Offline"
+  },
+  {
+    "key": "STEAM_WORKSHOP_PLAYAGAIN",
+    "english": "PLAY AGAIN!",
+    "polish": "ZAGRAJ JESZCZE RAZ!"
+  },
+  {
+    "key": "STEAM_WORKSHOP_PUZZLE",
+    "english": "Puzzle",
+    "polish": "Łamigłówki"
+  },
+  {
+    "key": "STEAM_WORKSHOP_RATE",
+    "english": "RATE",
+    "polish": "OCEŃ"
+  },
+  {
+    "key": "STEAM_WORKSHOP_RATECAMPAIGN",
+    "english": "RATE THIS CAMPAIGN!",
+    "polish": "OCEŃ TĘ KAMPANIĘ!"
+  },
+  {
+    "key": "STEAM_WORKSHOP_RATING",
+    "english": "Rating",
+    "polish": "Ocena"
+  },
+  {
+    "key": "STEAM_WORKSHOP_SAVELOCAL",
+    "english": "SAVE LOCALLY",
+    "polish": "ZAPISZ LOKALNIE"
+  },
+  {
+    "key": "STEAM_WORKSHOP_SEARCH",
+    "english": "Search",
+    "polish": "Szukaj"
+  },
+  {
+    "key": "STEAM_WORKSHOP_SELECTMODE",
+    "english": "SELECT FROM DEATHMATCH AND RACE CAMPAIGNS YOU HAVE SAVED LOCALLY",
+    "polish": "WYBIERZ SPOŚRÓD ZAPISANYCH LOKALNIE KAMPANII DEATHMATCH I WYŚCIGÓW"
+  },
+  {
+    "key": "STEAM_WORKSHOP_STANDARD",
+    "english": "Standard",
+    "polish": "Standardowe"
+  },
+  {
+    "key": "STEAM_WORKSHOP_STORY",
+    "english": "Story",
+    "polish": "Fabularne"
+  },
+  {
+    "key": "STEAM_WORKSHOP_SUBSCRIBE",
+    "english": "SUBSCRIBE",
+    "polish": "SUBSKRYBUJ"
+  },
+  {
+    "key": "STEAM_WORKSHOP_SUBSCRIBED",
+    "english": "Subscribed",
+    "polish": "Subskrybowane"
+  },
+  {
+    "key": "STEAM_WORKSHOP_THUMBSDOWN",
+    "english": "THUMBS DOWN :(",
+    "polish": "KCIUK W DÓŁ :("
+  },
+  {
+    "key": "STEAM_WORKSHOP_THUMBSUP",
+    "english": "THUMBS UP!",
+    "polish": "KCIUK W GÓRĘ!"
+  },
+  {
+    "key": "STEAM_WORKSHOP_TIME",
+    "english": "TIME",
+    "polish": "CZAS"
+  },
+  {
+    "key": "STEAM_WORKSHOP_TRANDING",
+    "english": "Best Trending",
+    "polish": "Najpopularniejsze"
+  },
+  {
+    "key": "STEAM_WORKSHOP_VIEWWORKSHOP",
+    "english": "VIEW WORKSHOP PAGE",
+    "polish": "OTWÓRZ STRONĘ W WARSZTACIE"
+  },
+  {
+    "key": "STEAM_WORKSHOP_WWB",
+    "english": "WWB",
+    "polish": "WWB"
+  },
+  {
+    "key": "TERROR_METER",
+    "english": "TERROR METER",
+    "polish": "WSKAŹNIK TERRORU"
+  },
+  {
+    "key": "THREAT_LEVEL",
+    "english": "THREAT LEVEL",
+    "polish": "POZIOM ZAGROŻENIA"
+  },
+  {
+    "key": "TUTORIAL_DASH_CHALLENGE",
+    "english": "DOUBLE TAP DIRECTION TO DASH!",
+    "polish": "KIERUNEK DWA RAZY = SPRINT!"
+  },
+  {
+    "key": "TUTORIAL_DASH_CHALLENGE_PS4",
+    "english": "PRESS AND HOLD [L1] TO DASH!",
+    "polish": "PRZYTRZYMAJ [L1] = SPRINT!"
+  },
+  {
+    "key": "TUTORIAL_DASH_CHALLENGE_SWITCH",
+    "english": "PRESS AND HOLD [L] TO DASH!",
+    "polish": "PRZYTRZYMAJ [L] = SPRINT!"
+  },
+  {
+    "key": "VERSUS_DEATHMATCH",
+    "english": "DEATHMATCH",
+    "polish": "DEATHMATCH"
+  },
+  {
+    "key": "VERSUS_DEATHMATCH_TITLE",
+    "english": "DEATHMATCH",
+    "polish": "DEATHMATCH"
+  },
+  {
+    "key": "VERSUS_RACE",
+    "english": "RACE",
+    "polish": "WYŚCIG"
+  },
+  {
+    "key": "VERSUS_RACE_TITLE",
+    "english": "RACE",
+    "polish": "WYŚCIG"
+  },
+  {
+    "key": "VERSUS_SELECTYOURBRO",
+    "english": "SELECT YOUR BRO",
+    "polish": "WYBIERZ SWOJEGO BRO"
+  },
+  {
+    "key": "WORLD_COLOR_AMAZON",
+    "english": "<color=#8845e0>Elderberry</color>",
+    "polish": "<color=#8845e0>CZARNY BEZ</color>"
+  },
+  {
+    "key": "WORLD_COLOR_AMMOCHALLENGE",
+    "english": "<color=#ff6c00>Orange</color>",
+    "polish": "<color=#ff6c00>POMARAŃCZOWY</color>"
+  },
+  {
+    "key": "WORLD_COLOR_BOMBARDCHALLENGE",
+    "english": "<color=#ff6c00>Marmalade</color>",
+    "polish": "<color=#ff6c00>MARMOLADA</color>"
+  },
+  {
+    "key": "WORLD_COLOR_CAMBODIA",
+    "english": "<color=#ffe400>Yellow</color>",
+    "polish": "<color=#ffe400>ŻÓŁTY</color>"
+  },
+  {
+    "key": "WORLD_COLOR_CONGO",
+    "english": "<color=#8845e0>Ultraviolet</color>",
+    "polish": "<color=#8845e0>ULTRAFIOLET</color>"
+  },
+  {
+    "key": "WORLD_COLOR_DASHCHALLENGE",
+    "english": "<color=#ff6c00>Apricot</color>",
+    "polish": "<color=#ff6c00>MORELA</color>"
+  },
+  {
+    "key": "WORLD_COLOR_ELLENCHALLENGE",
+    "english": "<color=#ff6c00>Cheddar</color>",
+    "polish": "<color=#ff6c00>CHEDDAR</color>"
+  },
+  {
+    "key": "WORLD_COLOR_HAWAII",
+    "english": "<color=#8845e0>Eggplant</color>",
+    "polish": "<color=#8845e0>BAKŁAŻAN</color>"
+  },
+  {
+    "key": "WORLD_COLOR_HELL",
+    "english": "<color=#f00>Infinite</color>",
+    "polish": "<color=#f00>NIESKOŃCZONY</color>"
+  },
+  {
+    "key": "WORLD_COLOR_HONGKONG",
+    "english": "<color=#f00>Red</color>",
+    "polish": "<color=#f00>CZERWONY</color>"
+  },
+  {
+    "key": "WORLD_COLOR_INDIA",
+    "english": "<color=#eb133e>Crimson</color>",
+    "polish": "<color=#eb133e>KARMAZYNOWY</color>"
+  },
+  {
+    "key": "WORLD_COLOR_INDONESIA",
+    "english": "<color=#ffbb00>Amber</color>",
+    "polish": "<color=#ffbb00>BURSZTYNOWY</color>"
+  },
+  {
+    "key": "WORLD_COLOR_KAZAKHSTAN",
+    "english": "<color=#c00030>Burgundy</color>",
+    "polish": "<color=#c00030>BORDOWY</color>"
+  },
+  {
+    "key": "WORLD_COLOR_MACBROVERCHALLENGE",
+    "english": "<color=#ff6c00>Tangerine</color>",
+    "polish": "<color=#ff6c00>MANDARYNKA</color>"
+  },
+  {
+    "key": "WORLD_COLOR_MECHCHALLENGE",
+    "english": "<color=#ff6c00>Cantaloupe</color>",
+    "polish": "<color=#ff6c00>KANTALUPA</color>"
+  },
+  {
+    "key": "WORLD_COLOR_NEWGUINEA",
+    "english": "<color=#b1001d>Cherry</color>",
+    "polish": "<color=#b1001d>WIŚNIA</color>"
+  },
+  {
+    "key": "WORLD_COLOR_PANAMA",
+    "english": "<color=#8845e0>Purple</color>",
+    "polish": "<color=#8845e0>FIOLETOWY</color>"
+  },
+  {
+    "key": "WORLD_COLOR_PHILIPPINES",
+    "english": "<color=#9b111e>Ruby</color>",
+    "polish": "<color=#9b111e>RUBINOWY</color>"
+  },
+  {
+    "key": "WORLD_COLOR_SOUTHKOREA",
+    "english": "<color=#bf0002>Maroon</color>",
+    "polish": "<color=#bf0002>KASZTANOWY</color>"
+  },
+  {
+    "key": "WORLD_COLOR_TIMEBROCHALLENGE",
+    "english": "<color=#ff6c00>Yam</color>",
+    "polish": "<color=#ff6c00>BATAT</color>"
+  },
+  {
+    "key": "WORLD_COLOR_UKRAINE",
+    "english": "<color=#ff717e>Salmon</color>",
+    "polish": "<color=#ff717e>ŁOSOSIOWY</color>"
+  },
+  {
+    "key": "WORLD_COLOR_VIETNAM",
+    "english": "<color=#0089ff>Blue</color>",
+    "polish": "<color=#0089ff>NIEBIESKI</color>"
+  },
+  {
+    "key": "WORLD_DESCRIPT_AMAZON",
+    "english": "This is the <color=#900>Amazone</color>. Extraterrestrial extremists have been sighted in the deep forests! <color=#900><i>Terrestrialize them!</i></color>",
+    "polish": "TO <color=#900>AMAZONA</color>. W GŁĘBI LASÓW WIDZIANO POZAZIEMSKICH EKSTREMISTÓW! <color=#900><i>UZIEMIĆ ICH!</i></color>"
+  },
+  {
+    "key": "WORLD_DESCRIPT_AMMOCHALLENGE",
+    "english": "This is a <COLOR=#990000>Covert Operation</COLOR>. A lone bro must <COLOR=#ff6c00>recapture</COLOR> the supply drops that have fallen into terrorist hands.",
+    "polish": "TO <COLOR=#990000>TAJNA OPERACJA</COLOR>. SAMOTNY BRO MUSI <COLOR=#ff6c00>ODBIĆ</COLOR> ZRZUTY ZAOPATRZENIA, KTÓRE WPADŁY W RĘCE TERRORYSTÓW."
+  },
+  {
+    "key": "WORLD_DESCRIPT_BOMBARDCHALLENGE",
+    "english": "This is a <COLOR=#990000>Covert Operation</COLOR>. A lone bro must <COLOR=#ff6c00>survive</COLOR> the terrorist bombardment and <COLOR=#ff6c00>assassinate</COLOR> their leader. ",
+    "polish": "TO <COLOR=#990000>TAJNA OPERACJA</COLOR>. SAMOTNY BRO MUSI <COLOR=#ff6c00>PRZETRWAĆ</COLOR> BOMBARDOWANIE TERRORYSTÓW I <COLOR=#ff6c00>ZLIKWIDOWAĆ</COLOR> ICH PRZYWÓDCĘ. "
+  },
+  {
+    "key": "WORLD_DESCRIPT_CAMBODIA",
+    "english": "This is <color=#900>Cambodium</color> - soon to be Cam<i>BRO</i>dium. <color=#900><i>Get to work!</i></color>",
+    "polish": "TO <color=#900>KAMBODIUM</color> – WKRÓTCE KAM<i>BRO</i>DIUM. <color=#900><i>DO ROBOTY!</i></color>"
+  },
+  {
+    "key": "WORLD_DESCRIPT_CONGO",
+    "english": "The mysterious land of <color=#900>Afreeka</color> has reported sightings of extra-terrestrial illegal aliens. <color=#900><i>Freedominate them!</i></color>",
+    "polish": "Z TAJEMNICZEJ KRAINY <color=#900>AFREEKA</color> DONOSZĄ O NIELEGALNYCH IMIGRANTACH Z KOSMOSU. <color=#900><i>ZDOMINOWAĆ ICH WOLNOŚCIĄ!</i></color>"
+  },
+  {
+    "key": "WORLD_DESCRIPT_DASHCHALLENGE",
+    "english": "This is a <COLOR=#990000>Covert Operation</COLOR>. A lone bro must use agility to <COLOR=#ff6c00>penetrate</COLOR> the terrorist defences and <COLOR=#ff6c00>assassinate</COLOR> their leader.",
+    "polish": "TO <COLOR=#990000>TAJNA OPERACJA</COLOR>. SAMOTNY BRO MUSI ZWINNIE <COLOR=#ff6c00>PRZENIKNĄĆ</COLOR> PRZEZ OBRONĘ TERRORYSTÓW I <COLOR=#ff6c00>ZLIKWIDOWAĆ</COLOR> ICH PRZYWÓDCĘ."
+  },
+  {
+    "key": "WORLD_DESCRIPT_ELLENCHALLENGE",
+    "english": "This is a <COLOR=#990000>Covert Operation</COLOR>. Ellen Ripbro is deep in alien territory, on a mission to <COLOR=#ff6c00>purge</COLOR> the alien hive. ",
+    "polish": "TO <COLOR=#990000>TAJNA OPERACJA</COLOR>. ELLEN RIPBRO JEST GŁĘBOKO NA TERYTORIUM OBCYCH, Z MISJĄ <COLOR=#ff6c00>WYPLENIENIA</COLOR> ICH ROJU. "
+  },
+  {
+    "key": "WORLD_DESCRIPT_HAWAII",
+    "english": "This is <color=#900>Hawaii</color>. Aliens have invaded here on American borders! <color=#900><i>De-alienate them!</i></color>",
+    "polish": "TO <color=#900>HAWAJE</color>. OBCY NAJECHALI AMERYKAŃSKIE GRANICE! <color=#900><i>ODOBCOWIĆ ICH!</i></color>"
+  },
+  {
+    "key": "WORLD_DESCRIPT_HELL",
+    "english": "This is <color=#900>The United States of America</color>. Strange reports of demons and massive evil have flooded in. <color=#900><i>Humanize them!</i></color>",
+    "polish": "TO <color=#900>STANY ZJEDNOCZONE AMERYKI</color>. NAPŁYWAJĄ DZIWNE DONIESIENIA O DEMONACH I OGROMNYM ZLE. <color=#900><i>UCZŁOWIECZYĆ ICH!</i></color>"
+  },
+  {
+    "key": "WORLD_DESCRIPT_HONGKONG",
+    "english": "The people from this country look, speak and act differently to us. <color=#900><i>Let's move fast, Bros!</i></color>",
+    "polish": "LUDZIE Z TEGO KRAJU WYGLĄDAJĄ, MÓWIĄ I ZACHOWUJĄ SIĘ INACZEJ NIŻ MY. <color=#900><i>SZYBKO, BRACHY!</i></color>"
+  },
+  {
+    "key": "WORLD_DESCRIPT_INDIA",
+    "english": "No time to explain! <color=#900><i>You know what to do, Broforce!</i></color>",
+    "polish": "NIE MA CZASU NA WYJAŚNIENIA! <color=#900><i>WIESZ, CO ROBIĆ, BROFORCE!</i></color>"
+  },
+  {
+    "key": "WORLD_DESCRIPT_INDONESIA",
+    "english": "This is <color=#900>Arstotzka</color>. Sources claim that it is, in fact, a country. <color=#900><i>Let's move out!</i></color>",
+    "polish": "TO <color=#900>ARSTOTZKA</color>. ŹRÓDŁA TWIERDZĄ, ŻE TO NAPRAWDĘ JEST KRAJ. <color=#900><i>WYMARSZ!</i></color>"
+  },
+  {
+    "key": "WORLD_DESCRIPT_KAZAKHSTAN",
+    "english": "This is <color=#900>Irakistan</color> - and they said we wouldn't be able to find it on a map!",
+    "polish": "TO <color=#900>IRAKISTAN</color> – A MÓWILI, ŻE NIE ZNAJDZIEMY GO NA MAPIE!"
+  },
+  {
+    "key": "WORLD_DESCRIPT_MACBROVERCHALLENGE",
+    "english": "This is a <COLOR=#990000>Covert Operation</COLOR>. MacBrover is deep in enemy territory, on a mission to <COLOR=#ff6c00>actually murder</COLOR> the terrorist leader. ",
+    "polish": "TO <COLOR=#990000>TAJNA OPERACJA</COLOR>. MACBROVER JEST GŁĘBOKO NA TERYTORIUM WROGA, Z MISJĄ, BY <COLOR=#ff6c00>NAPRAWDĘ ZAMORDOWAĆ</COLOR> PRZYWÓDCĘ TERRORYSTÓW. "
+  },
+  {
+    "key": "WORLD_DESCRIPT_MECHCHALLENGE",
+    "english": "This is a <COLOR=#990000>Covert Operation</COLOR>. A lone bro must <COLOR=#ff6c00>appropriate</COLOR> the terrorist's own weaponry and <COLOR=#ff6c00>assassinate</COLOR> their leader. ",
+    "polish": "TO <COLOR=#990000>TAJNA OPERACJA</COLOR>. SAMOTNY BRO MUSI <COLOR=#ff6c00>PRZEJĄĆ</COLOR> BROŃ TERRORYSTÓW I <COLOR=#ff6c00>ZLIKWIDOWAĆ</COLOR> ICH PRZYWÓDCĘ. "
+  },
+  {
+    "key": "WORLD_DESCRIPT_NEWGUINEA",
+    "english": "Something something bipartisan something something unilateral military intervention. <color=#900><i>Let's go!</i></color>",
+    "polish": "COŚTAM COŚTAM PONADPARTYJNIE COŚTAM COŚTAM JEDNOSTRONNA INTERWENCJA ZBROJNA. <color=#900><i>JAZDA!</i></color>"
+  },
+  {
+    "key": "WORLD_DESCRIPT_PANAMA",
+    "english": "This is <color=#900>Val Verde</color>. Time to stabilize the region with our overwhelming firepower! <color=#900><i>GO GO GO!</i></color>",
+    "polish": "TO <color=#900>VAL VERDE</color>. CZAS USTABILIZOWAĆ REGION NASZĄ MIAŻDŻĄCĄ SIŁĄ OGNIA! <color=#900><i>NAPRZÓD, NAPRZÓD, NAPRZÓD!</i></color>"
+  },
+  {
+    "key": "WORLD_DESCRIPT_PHILIPPINES",
+    "english": "Unconfirmed reports of WMD's in <color=#900>Jalpin</COLOR> have necessitated a pre-emptive strike. <color=#900><i>Keep on your toes, Broforce!</i></color>",
+    "polish": "NIEPOTWIERDZONE DONIESIENIA O BRONI MASOWEGO RAŻENIA W <color=#900>JALPINIE</COLOR> WYMUSIŁY UDERZENIE WYPRZEDZAJĄCE. <color=#900><i>BĄDŹ CZUJNY, BROFORCE!</i></color>"
+  },
+  {
+    "key": "WORLD_DESCRIPT_SOUTHKOREA",
+    "english": "This country really, really hates liberty. Probably. <color=#900><i>Show them why they are wrong!</i></color>",
+    "polish": "TEN KRAJ NAPRAWDĘ, ALE TO NAPRAWDĘ NIENAWIDZI WOLNOŚCI. CHYBA. <color=#900><i>POKAZAĆ IM, JAK BARDZO SIĘ MYLĄ!</i></color>"
+  },
+  {
+    "key": "WORLD_DESCRIPT_TIMEBROCHALLENGE",
+    "english": "This is a <COLOR=#990000>Covert Operation</COLOR>. Time Bro is deep in enemy territory, on a mission to <COLOR=#ff6c00>assassinate</COLOR> the terrorist leader. ",
+    "polish": "TO <COLOR=#990000>TAJNA OPERACJA</COLOR>. TIME BRO JEST GŁĘBOKO NA TERYTORIUM WROGA, Z MISJĄ <COLOR=#ff6c00>ZLIKWIDOWANIA</COLOR> PRZYWÓDCY TERRORYSTÓW. "
+  },
+  {
+    "key": "WORLD_DESCRIPT_UKRAINE",
+    "english": "<color=#900>Youkraine</color>? More like our kraine! <color=#900><i>Claim it for freeeeeedom!</i></color>",
+    "polish": "<color=#900>TWUKRAINA</color>? RACZEJ NASZKRAINA! <color=#900><i>ZAJĄĆ JĄ W IMIĘ WOOOOOLNOŚCI!</i></color>"
+  },
+  {
+    "key": "WORLD_DESCRIPT_VIETNAM",
+    "english": "POWs have been stranded in <color=#900>Veetman</color> for 25 years now. Find them and <color=#900><i>save them!</i></color>",
+    "polish": "JEŃCY WOJENNI TKWIĄ W <color=#900>WIETMANIE</color> OD 25 LAT. ODNALEŹĆ ICH I <color=#900><i>URATOWAĆ!</i></color>"
+  },
+  {
+    "key": "WORLD_DESCRIPT_WHITEHOUSE",
+    "english": "This is the White House, 'Murica! <color=#900><i>Time to party on taxpayer dollars!</i></color>",
+    "polish": "TO BIAŁY DOM, MERYKA! <color=#900><i>CZAS NA IMPREZĘ ZA PIENIĄDZE PODATNIKÓW!</i></color>"
+  },
+  {
+    "key": "WORLD_DESCRIPT_MUSCLETEMPLE1",
+    "english": "A mysterious signal has been detected in <COLOR=#990000>Mookgolia</COLOR>. <COLOR=#990000><I>GET LIBERATING BROFORCE!</I></COLOR>",
+    "polish": "W <COLOR=#990000>MOOKGOLII</COLOR> WYKRYTO TAJEMNICZY SYGNAŁ. <COLOR=#990000><I>WYZWALAĆ, BROFORCE!</I></COLOR>"
+  },
+  {
+    "key": "WORLD_DESCRIPT_MUSCLETEMPLE2",
+    "english": "This is <COLOR=#990000>Austria</COLOR>, birthplace of Arnold Schwarzeneggar. Ancient secrets lie here. <COLOR=#990000><I>DESTROY THEM!</I></COLOR>",
+    "polish": "TO <COLOR=#990000>AUSTRIA</COLOR>, MIEJSCE URODZENIA ARNOLDA SCHWARZENEGGERA. KRYJĄ SIĘ TU PRASTARE SEKRETY. <COLOR=#990000><I>ZNISZCZYĆ JE!</I></COLOR>"
+  },
+  {
+    "key": "WORLD_DESCRIPT_MUSCLETEMPLE3",
+    "english": "We've detected ruins of a once \"great\" civilization. <COLOR=#990000><I>SHOW THEM THAT ONLY AMERICA IS GREAT!</I></COLOR>",
+    "polish": "WYKRYLIŚMY RUINY NIEGDYŚ „WIELKIEJ” CYWILIZACJI. <COLOR=#990000><I>POKAZAĆ IM, ŻE WIELKA JEST TYLKO AMERYKA!</I></COLOR>"
+  },
+  {
+    "key": "WORLD_DESCRIPT_MUSCLETEMPLE4",
+    "english": "The terrorists are doing science here without our permission! <COLOR=#990000><I>SHOW THEM WHO'S SMARTEST!</I></COLOR>",
+    "polish": "TERRORYŚCI UPRAWIAJĄ TU NAUKĘ BEZ NASZEGO POZWOLENIA! <COLOR=#990000><I>POKAZAĆ IM, KTO TU JEST NAJMĄDRZEJSZY!</I></COLOR>"
+  },
+  {
+    "key": "WORLD_COLOR_MUSCLETEMPLE1",
+    "english": "<color=#cd731b>BRONZED</color>",
+    "polish": "<color=#cd731b>BRĄZOWA OPALENIZNA</color>"
+  },
+  {
+    "key": "WORLD_COLOR_MUSCLETEMPLE2",
+    "english": "<color=#ad5208>SELF TAN</color>",
+    "polish": "<color=#ad5208>SAMOOPALACZ</color>"
+  },
+  {
+    "key": "WORLD_COLOR_MUSCLETEMPLE3",
+    "english": "<color=#7b380b>COCOA BUTTER</color>",
+    "polish": "<color=#7b380b>MASŁO KAKAOWE</color>"
+  },
+  {
+    "key": "WORLD_COLOR_MUSCLETEMPLE4",
+    "english": "<color=#777777>PUMPED IRON</color>",
+    "polish": "<color=#777777>NAPOMPOWANE ŻELAZO</color>"
+  },
+  {
+    "key": "LOC_PROFILE_SWITCHER_XBOX",
+    "english": "Change Profile",
+    "polish": "Zmień profil"
+  },
+  {
+    "key": "LOC_PLAY_OFFLINE_TITLE_XBOX",
+    "english": "No User Profile Selected",
+    "polish": "Nie wybrano profilu użytkownika"
+  },
+  {
+    "key": "LOC_PLAY_OFFLINE_CONTEXT_XBOX",
+    "english": "No user profile has been selected. Your progress will not be saved.",
+    "polish": "Nie wybrano profilu użytkownika. Postęp nie zostanie zapisany."
+  },
+  {
+    "key": "LOC_CONTROLLER_DISCONNECTED_XBOX",
+    "english": "Controller Disconnected",
+    "polish": "Kontroler odłączony"
+  },
+  {
+    "key": "LOC_USER_CONTROLLER_DISCONNECTED",
+    "english": "Controller for user \"{0}\" was disconnected.",
+    "polish": "Kontroler użytkownika „{0}” został odłączony."
+  },
+  {
+    "key": "LOC_CONTROLLER_RECONNECT_PROMPT_XBOX",
+    "english": "Please reconnect and press {0} to continue or {1} to return to the Title Screen",
+    "polish": "Podłącz go ponownie i naciśnij {0}, aby kontynuować, lub {1}, aby wrócić do ekranu tytułowego"
+  },
+  {
+    "key": "LOC_XBOX_LIVE_GOLD",
+    "english": "You need to have \"Xbox Live Gold\" to use this online feature.",
+    "polish": "Do tej funkcji online potrzebujesz „Xbox Live Gold”."
+  },
+  {
+    "key": "LOC_XBOX_LIVE_GOLD_CONNECT",
+    "english": "Please connect to \"Xbox Live Gold\" to access this feature.",
+    "polish": "Połącz się z „Xbox Live Gold”, aby korzystać z tej funkcji."
+  },
+  {
+    "key": "LOC_XBOX_LIVE_GOLD_SIGN_IN",
+    "english": "You have been signed out of \"Xbox Live Gold\". Online features will not be available until you sign in.",
+    "polish": "Wylogowano cię z „Xbox Live Gold”. Funkcje online będą niedostępne, dopóki się nie zalogujesz."
+  },
+  {
+    "key": "LOC_XBOX_MP_PRIVACY_SETTINGS_FAILURE",
+    "english": "Your current privacy settings do not allow online multiplayer games.",
+    "polish": "Twoje obecne ustawienia prywatności nie pozwalają na grę wieloosobową online."
+  },
+  {
+    "key": "LOC_XBOX_MP_USER_AUTHENTICATION_FAILED",
+    "english": "Failed to authenticate the user for multiplayer games. Please check your internet connection.",
+    "polish": "Nie udało się uwierzytelnić użytkownika do gry wieloosobowej. Sprawdź połączenie z internetem."
+  },
+  {
+    "key": "LOC_XBOX_MP_PERMISSIONS",
+    "english": "Your account does not have the required permissions.",
+    "polish": "Twoje konto nie ma wymaganych uprawnień."
+  },
+  {
+    "key": "LOC_XBOX_MP_PARENTAL_CONTROL",
+    "english": "Your parental control settings do not allow you to access this feature.",
+    "polish": "Ustawienia kontroli rodzicielskiej nie pozwalają na korzystanie z tej funkcji."
+  },
+  {
+    "key": "LOC_ERROR_XBOX_SESSION_FULL",
+    "english": "The session you tried to join is full.",
+    "polish": "Sesja, do której próbujesz dołączyć, jest pełna."
+  },
+  {
+    "key": "LOC_ERROR_XBOX_SESSION_INVITE_PROBLEM",
+    "english": "There was a problem with the console session that you were invited to.",
+    "polish": "Wystąpił problem z sesją konsoli, do której cię zaproszono."
+  },
+  {
+    "key": "LOC_AUTOSAVE_XBOX",
+    "english": "This game saves data automatically at certain points.\n\nDo not turn off your console while\nthe following icon is displayed on screen.",
+    "polish": "Gra automatycznie zapisuje postęp w określonych momentach.\n\nNie wyłączaj konsoli, gdy\nna ekranie widać tę ikonę."
+  },
+  {
+    "key": "LOC_XBOX_WARN_PRESS_RETURN_TITLE_SCREEN",
+    "english": "Press {0} to return to the title screen and select a new user.",
+    "polish": "Naciśnij {0}, aby wrócić do ekranu tytułowego i wybrać innego użytkownika."
+  },
+  {
+    "key": "LOC_XBOX_WARN_PRESS_TO_OPEN_PICKER",
+    "english": "Press {0} to open the user picker and sign user \"{1}\" in to continue.",
+    "polish": "Naciśnij {0}, aby otworzyć wybór użytkownika i zalogować „{1}”, by kontynuować."
+  },
+  {
+    "key": "LOC_XBOX_WARN_SELECTING_USER_OTHER_BACK_TO_TITLE",
+    "english": "Selecting a user other than \"{0}\" will send you back to the title screen.",
+    "polish": "Wybranie innego użytkownika niż „{0}” przeniesie cię do ekranu tytułowego."
+  },
+  {
+    "key": "LOC_XBOX_WARN_HOST_ENDED_GAME_RETURN_MAIN_MENU",
+    "english": "Host has ended the game. Returning to main menu.",
+    "polish": "Host zakończył grę. Powrót do menu głównego."
+  },
+  {
+    "key": "LOC_LOCAL_DISC_XBOX",
+    "english": "Please reconnect the controller for user {0}. Alternatively, press {1} to continue playing or {2} to return to the Title Screen.",
+    "polish": "Podłącz ponownie kontroler użytkownika {0}. Możesz też nacisnąć {1}, aby grać dalej, lub {2}, aby wrócić do ekranu tytułowego."
+  }
+]

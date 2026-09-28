@@ -1,0 +1,3606 @@
+[
+  {
+    "key": "hello_world",
+    "english": "Hello world",
+    "polish": "Witaj, świecie"
+  },
+  {
+    "key": "Cyberhook",
+    "english": "Cyberhook",
+    "polish": "Cyberhook"
+  },
+  {
+    "key": "press_any",
+    "english": "Press - Any Key -",
+    "polish": "Naciśnij - Dowolny klawisz -"
+  },
+  {
+    "key": "clear",
+    "english": "Clear !",
+    "polish": "Ukończono!"
+  },
+  {
+    "key": "pb_number",
+    "english": "PB: {0}",
+    "polish": "Rekord: {0}"
+  },
+  {
+    "key": "play",
+    "english": "Play",
+    "polish": "Graj"
+  },
+  {
+    "key": "restart",
+    "english": "Restart",
+    "polish": "Od nowa"
+  },
+  {
+    "key": "restart_marathon",
+    "english": "Restart Marathon",
+    "polish": "Maraton od nowa"
+  },
+  {
+    "key": "replays",
+    "english": "Replays",
+    "polish": "Powtórki"
+  },
+  {
+    "key": "options",
+    "english": "Options",
+    "polish": "Opcje"
+  },
+  {
+    "key": "quit",
+    "english": "Exit",
+    "polish": "Wyjdź"
+  },
+  {
+    "key": "personnal_best",
+    "english": "Personnal Best",
+    "polish": "Rekord osobisty"
+  },
+  {
+    "key": "no_replay",
+    "english": "- No replay found -",
+    "polish": "- Brak powtórek -"
+  },
+  {
+    "key": "best_plays_stored_here",
+    "english": "Your best plays will be stored here",
+    "polish": "Tu trafią twoje najlepsze przejścia"
+  },
+  {
+    "key": "view_replay",
+    "english": "View",
+    "polish": "Obejrzyj"
+  },
+  {
+    "key": "level_select",
+    "english": "Level Select",
+    "polish": "Wybór poziomu"
+  },
+  {
+    "key": "vsync",
+    "english": "Vsync",
+    "polish": "V-Sync"
+  },
+  {
+    "key": "max_fps",
+    "english": "Max FPS",
+    "polish": "Maks. FPS"
+  },
+  {
+    "key": "screen_space_reflexions",
+    "english": "Screen space reflexions",
+    "polish": "Odbicia w przestrzeni ekranu"
+  },
+  {
+    "key": "motion_blur",
+    "english": "Motion blur",
+    "polish": "Rozmycie ruchu"
+  },
+  {
+    "key": "anti_aliasing",
+    "english": "Anti Aliasing",
+    "polish": "Wygładzanie krawędzi"
+  },
+  {
+    "key": "full_screen",
+    "english": "Full screen",
+    "polish": "Pełny ekran"
+  },
+  {
+    "key": "resolution",
+    "english": "Resolution",
+    "polish": "Rozdzielczość"
+  },
+  {
+    "key": "clear_all_replays",
+    "english": "Clear all replays",
+    "polish": "Usuń wszystkie powtórki"
+  },
+  {
+    "key": "player_name",
+    "english": "Player name",
+    "polish": "Nazwa gracza"
+  },
+  {
+    "key": "apply_changes",
+    "english": "Apply changes",
+    "polish": "Zastosuj zmiany"
+  },
+  {
+    "key": "vertical_mouse_sensitivity",
+    "english": "Vertical mouse sensitivity",
+    "polish": "Czułość myszy w pionie"
+  },
+  {
+    "key": "horizontal_mouse_sensitivity",
+    "english": "Horizontal mouse sensitivity",
+    "polish": "Czułość myszy w poziomie"
+  },
+  {
+    "key": "edit_controls",
+    "english": "Edit Controls",
+    "polish": "Zmień sterowanie"
+  },
+  {
+    "key": "game_is_under_construction",
+    "english": "This game is still under developpement <br>Bugs and glitches ahead !<br><size=6>If you find anything, please contact <size=12><color=#00AAFF>@BlazingStick</color></size> on twittos</size>",
+    "polish": "Gra jest wciąż w budowie <br>Uwaga na błędy i usterki!<br><size=6>Jeśli coś znajdziesz, napisz do <size=12><color=#00AAFF>@BlazingStick</color></size> na Twitterze</size>"
+  },
+  {
+    "key": "master_volume",
+    "english": "Master volume",
+    "polish": "Głośność ogólna"
+  },
+  {
+    "key": "music_volume",
+    "english": "Music",
+    "polish": "Muzyka"
+  },
+  {
+    "key": "sfx_volume",
+    "english": "Sound effects",
+    "polish": "Efekty dźwiękowe"
+  },
+  {
+    "key": "invert_vertical_axis",
+    "english": "Invert vertical axis",
+    "polish": "Odwróć oś pionową"
+  },
+  {
+    "key": "sound",
+    "english": "Sound",
+    "polish": "Dźwięk"
+  },
+  {
+    "key": "apply",
+    "english": "Apply",
+    "polish": "Zastosuj"
+  },
+  {
+    "key": "gameplay",
+    "english": "Gameplay",
+    "polish": "Rozgrywka"
+  },
+  {
+    "key": "return",
+    "english": "Return",
+    "polish": "Wróć"
+  },
+  {
+    "key": "leaderboards",
+    "english": "Leaderboards",
+    "polish": "Rankingi"
+  },
+  {
+    "key": "leaderboard_fullview",
+    "english": "Full View",
+    "polish": "Pełny widok"
+  },
+  {
+    "key": "personnal_best_short",
+    "english": "PB",
+    "polish": "Rekord"
+  },
+  {
+    "key": "clear_selection",
+    "english": "Clear",
+    "polish": "Wyczyść"
+  },
+  {
+    "key": "public",
+    "english": "Public",
+    "polish": "Publiczne"
+  },
+  {
+    "key": "tutorial",
+    "english": "Tutorial",
+    "polish": "Samouczek"
+  },
+  {
+    "key": "graphics",
+    "english": "Graphics",
+    "polish": "Grafika"
+  },
+  {
+    "key": "controls",
+    "english": "Controls",
+    "polish": "Sterowanie"
+  },
+  {
+    "key": "public_records",
+    "english": "Public Replay",
+    "polish": "Publiczne powtórki"
+  },
+  {
+    "key": "level_name",
+    "english": "Level Name",
+    "polish": "Nazwa poziomu"
+  },
+  {
+    "key": "first_time_clear",
+    "english": "First Time Cleared !",
+    "polish": "Pierwsze ukończenie!"
+  },
+  {
+    "key": "personnal_best_clear",
+    "english": "Personnal Best !",
+    "polish": "Nowy rekord!"
+  },
+  {
+    "key": "saved_replay_to",
+    "english": "Replay saved to: {0}",
+    "polish": "Zapisano powtórkę w: {0}"
+  },
+  {
+    "key": "save_replay",
+    "english": "Save Replay",
+    "polish": "Zapisz powtórkę"
+  },
+  {
+    "key": "next_level",
+    "english": "Next Level",
+    "polish": "Następny poziom"
+  },
+  {
+    "key": "return_to_main_menu",
+    "english": "Main Menu",
+    "polish": "Menu główne"
+  },
+  {
+    "key": "resume_game",
+    "english": "Resume",
+    "polish": "Wznów"
+  },
+  {
+    "key": "pause_title",
+    "english": "PAUSE",
+    "polish": "PAUZA"
+  },
+  {
+    "key": "loading",
+    "english": "Loading",
+    "polish": "Wczytywanie"
+  },
+  {
+    "key": "secret_congratulation",
+    "english": "Congratulation !",
+    "polish": "Gratulacje!"
+  },
+  {
+    "key": "found_a_secret",
+    "english": "You found a secret !",
+    "polish": "Znaleziono sekret!"
+  },
+  {
+    "key": "secret_is_just_for_show",
+    "english": "Maybe there will be more to it later, but now it's just for show :)",
+    "polish": "Może kiedyś będzie z tego coś więcej, ale na razie to tylko ozdoba :)"
+  },
+  {
+    "key": "locked",
+    "english": "#LOCKED#",
+    "polish": "#ZABLOKOWANE#"
+  },
+  {
+    "key": "world_number",
+    "english": "World {0}",
+    "polish": "Świat {0}"
+  },
+  {
+    "key": "vsync_off",
+    "english": "off",
+    "polish": "wył."
+  },
+  {
+    "key": "vsync_every_frame",
+    "english": "Every frame",
+    "polish": "Co klatkę"
+  },
+  {
+    "key": "vsync_every_second_frame",
+    "english": "Every 2nd frame",
+    "polish": "Co 2. klatkę"
+  },
+  {
+    "key": "vsync_desc",
+    "english": "Vertical Synchronisation (Vsync) waits for the monitor to be ready before rendering the next frame.<br>This prevents tearing effects from happening but caps the frame rate.",
+    "polish": "Synchronizacja pionowa (V-Sync) czeka, aż monitor będzie gotowy, zanim pokaże kolejną klatkę.<br>Zapobiega rwaniu obrazu, ale ogranicza liczbę klatek."
+  },
+  {
+    "key": "anti_aliasing_desc",
+    "english": "Antialiasing smoothes jagged edge in the world.",
+    "polish": "Wygładza poszarpane krawędzie w świecie gry."
+  },
+  {
+    "key": "apply_changes_desc",
+    "english": "Apply graphical changes.",
+    "polish": "Zastosuj zmiany w grafice."
+  },
+  {
+    "key": "clear_replay_data_desc",
+    "english": "Remove all the replays in the game files.<br><br>(Progression is kept.)",
+    "polish": "Usuwa wszystkie powtórki z plików gry.<br><br>(Postępy zostają)."
+  },
+  {
+    "key": "edit_controls_desc",
+    "english": "This part is still under work.<br>We will offer you to change any keyboard controls and remap <size=4>(hopefully)</size> any gamepad.",
+    "polish": "Ta część jest jeszcze w budowie.<br>Pozwolimy ci zmienić każdy klawisz i przypisać od nowa <size=4>(miejmy nadzieję)</size> każdy pad."
+  },
+  {
+    "key": "full_screen_desc",
+    "english": "Should the game be rendered fullscreen or windowed?",
+    "polish": "Czy gra ma działać na pełnym ekranie, czy w oknie?"
+  },
+  {
+    "key": "invert_vertical_axis_desc",
+    "english": "Invert the vertical rotation ingame.",
+    "polish": "Odwraca pionowy obrót kamery w grze."
+  },
+  {
+    "key": "master_volume_desc",
+    "english": "The main game volume.<br>This will affect everything you hear.",
+    "polish": "Główna głośność gry.<br>Wpływa na wszystko, co słychać."
+  },
+  {
+    "key": "sfx_volume_desc",
+    "english": "Sound effects volume.<br><br>This will affect one-shot sounds ingame.<br><size=4>(it's all the \"whooshes\",\"piou pious\" and \"booms\")</size>",
+    "polish": "Głośność efektów dźwiękowych.<br><br>Dotyczy pojedynczych dźwięków w grze.<br><size=4>(czyli wszystkich „wziuum”, „piu piu” i „bum”)</size>"
+  },
+  {
+    "key": "music_volume_desc",
+    "english": "Music volume.<br>This will only affect background music.<br><br><size=4>(Set this to 0 to make some MLG montage with your own music)</size>",
+    "polish": "Głośność muzyki.<br>Dotyczy tylko muzyki w tle.<br><br><size=4>(Ustaw 0, żeby zrobić montaż MLG z własną muzyką)</size>"
+  },
+  {
+    "key": "max_fps_desc",
+    "english": "The maximum FPS the game will be allowed to render.<br>This is capped by your monitor's frequency.",
+    "polish": "Największa liczba klatek na sekundę, jaką gra może wyświetlić.<br>Ogranicza ją częstotliwość monitora."
+  },
+  {
+    "key": "motion_blur_desc",
+    "english": "Motion blur... blurs the screen when a quick movement is detected.",
+    "polish": "Rozmycie ruchu... rozmywa obraz przy szybkim ruchu."
+  },
+  {
+    "key": "player_name_desc",
+    "english": "Player name displayed on the replays.<br><br>You can use <color=\"red\">rich</color> <size=20><color=#00bbff>text</color></size> to spice it up.",
+    "polish": "Nazwa gracza wyświetlana przy powtórkach.<br><br>Możesz użyć <color=\"red\">formatowania</color> <size=20><color=#00bbff>tekstu</color></size>, żeby dodać jej pazura."
+  },
+  {
+    "key": "resolution_desc",
+    "english": "Screen resolution.<br><br>Decrease it to increase performances.",
+    "polish": "Rozdzielczość ekranu.<br><br>Zmniejsz ją, żeby poprawić wydajność."
+  },
+  {
+    "key": "screen_space_reflexions_desc",
+    "english": "Screen space reflexion uses screen data to calculate reflexions in the world.",
+    "polish": "Odbicia w przestrzeni ekranu liczą odbicia w świecie na podstawie tego, co widać na ekranie."
+  },
+  {
+    "key": "horizontal_mouse_sensitivity_desc",
+    "english": "Horizontal mouse sensitivity.",
+    "polish": "Czułość myszy w poziomie."
+  },
+  {
+    "key": "vertical_mouse_sensitivity_desc",
+    "english": "Vertical mouse sensitivity.",
+    "polish": "Czułość myszy w pionie."
+  },
+  {
+    "key": "replay_download",
+    "english": "Download",
+    "polish": "Pobierz"
+  },
+  {
+    "key": "replay_delete_confirm",
+    "english": "Delete ?",
+    "polish": "Usunąć?"
+  },
+  {
+    "key": "leaderboard",
+    "english": "Leaderboard",
+    "polish": "Ranking"
+  },
+  {
+    "key": "leaderboard_beat_dev_time",
+    "english": "Beat the <color=#00CCCC>devs</color> to display leaderboard !",
+    "polish": "Pobij czas <color=#00CCCC>twórców</color>, żeby zobaczyć ranking!"
+  },
+  {
+    "key": "leaderboard_own_time",
+    "english": "Your time",
+    "polish": "Twój czas"
+  },
+  {
+    "key": "leaderboard_world",
+    "english": "World",
+    "polish": "Świat"
+  },
+  {
+    "key": "leaderboard_country",
+    "english": "Country",
+    "polish": "Kraj"
+  },
+  {
+    "key": "leaderboard_friend",
+    "english": "Friends",
+    "polish": "Znajomi"
+  },
+  {
+    "key": "replay_play_level",
+    "english": "Play Level",
+    "polish": "Zagraj poziom"
+  },
+  {
+    "key": "replay_watch_again",
+    "english": "Rewatch replay",
+    "polish": "Obejrzyj ponownie"
+  },
+  {
+    "key": "replay_saved",
+    "english": "Saved replay",
+    "polish": "Zapisana powtórka"
+  },
+  {
+    "key": "feedback",
+    "english": "Feedback",
+    "polish": "Opinie"
+  },
+  {
+    "key": "send",
+    "english": "Send",
+    "polish": "Wyślij"
+  },
+  {
+    "key": "mail_here",
+    "english": "Your Mail Here…",
+    "polish": "Twój e-mail…"
+  },
+  {
+    "key": "enter_text",
+    "english": "Enter text…",
+    "polish": "Wpisz tekst…"
+  },
+  {
+    "key": "mail_sending",
+    "english": "Sending mail",
+    "polish": "Wysyłanie wiadomości"
+  },
+  {
+    "key": "mail_sent",
+    "english": "Mail Sent",
+    "polish": "Wiadomość wysłana"
+  },
+  {
+    "key": "mail_sent_thank",
+    "english": "Thank you!  :)",
+    "polish": "Dziękujemy!  :)"
+  },
+  {
+    "key": "mail_send_error",
+    "english": "Error sending Mail",
+    "polish": "Błąd wysyłania wiadomości"
+  },
+  {
+    "key": "bug",
+    "english": "Bug",
+    "polish": "Błąd"
+  },
+  {
+    "key": "contact",
+    "english": "Contact",
+    "polish": "Kontakt"
+  },
+  {
+    "key": "request",
+    "english": "Request",
+    "polish": "Prośba"
+  },
+  {
+    "key": "success_mail_send",
+    "english": "Mail Sent",
+    "polish": "Wiadomość wysłana"
+  },
+  {
+    "key": "error_mail_send",
+    "english": "Error sending mail",
+    "polish": "Błąd wysyłania wiadomości"
+  },
+  {
+    "key": "thank_you",
+    "english": "Thank you !",
+    "polish": "Dziękujemy!"
+  },
+  {
+    "key": "menu_replay_saved",
+    "english": "Saved Replays",
+    "polish": "Zapisane powtórki"
+  },
+  {
+    "key": "menu_best_time",
+    "english": "Best Times",
+    "polish": "Najlepsze czasy"
+  },
+  {
+    "key": "delete_question",
+    "english": "Delete ?",
+    "polish": "Usunąć?"
+  },
+  {
+    "key": "error",
+    "english": "Error",
+    "polish": "Błąd"
+  },
+  {
+    "key": "load_more",
+    "english": "Load more",
+    "polish": "Wczytaj więcej"
+  },
+  {
+    "key": "world_name_debug",
+    "english": "World Debug",
+    "polish": "Świat testowy"
+  },
+  {
+    "key": "world_name_tutorial",
+    "english": "Tutorial",
+    "polish": "Samouczek"
+  },
+  {
+    "key": "world_name_easy",
+    "english": "Easy Trials",
+    "polish": "Łatwe próby"
+  },
+  {
+    "key": "world_name_medium",
+    "english": "Intermediate Trials",
+    "polish": "Średnie próby"
+  },
+  {
+    "key": "world_name_hard",
+    "english": "Hardcore Trials",
+    "polish": "Mordercze próby"
+  },
+  {
+    "key": "level_name_steppie_steps",
+    "english": "Steppie steps",
+    "polish": "Kroczki"
+  },
+  {
+    "key": "level_name_harder_walkies",
+    "english": "Harder Walkies",
+    "polish": "Trudniejsze spacerki"
+  },
+  {
+    "key": "level_name_start_game",
+    "english": "Start Game",
+    "polish": "Start gry"
+  },
+  {
+    "key": "level_name_learn_2_move",
+    "english": "Learn 2 Move",
+    "polish": "Naucz się ruszać"
+  },
+  {
+    "key": "level_name_wall_climb",
+    "english": "Wall Climb",
+    "polish": "Po ścianie"
+  },
+  {
+    "key": "level_name_mini_recap",
+    "english": "Mini recap",
+    "polish": "Mała powtórka"
+  },
+  {
+    "key": "level_name_get_shooting",
+    "english": "Get Shooting !",
+    "polish": "Do strzału!"
+  },
+  {
+    "key": "level_name_warping_time",
+    "english": "Warping Time",
+    "polish": "Zakrzywianie czasu"
+  },
+  {
+    "key": "level_name_full_tutorial",
+    "english": "Full Tutorial",
+    "polish": "Pełny samouczek"
+  },
+  {
+    "key": "level_name_tower",
+    "english": "The Tower",
+    "polish": "Wieża"
+  },
+  {
+    "key": "level_name_too_hard_for_polygon",
+    "english": "Too hard for polygon",
+    "polish": "Za trudne dla Polygonu"
+  },
+  {
+    "key": "level_name_wall_jump",
+    "english": "Wall Jump",
+    "polish": "Odbicie od ściany"
+  },
+  {
+    "key": "level_name_cube_cloud",
+    "english": "Cube cloud",
+    "polish": "Chmura sześcianów"
+  },
+  {
+    "key": "level_name_ramp",
+    "english": "Ramp",
+    "polish": "Rampa"
+  },
+  {
+    "key": "level_name_equilibrium",
+    "english": "Equilibrium",
+    "polish": "Równowaga"
+  },
+  {
+    "key": "level_name_pull_and_shoot",
+    "english": "Pull & Shoot",
+    "polish": "Przyciągnij i strzel"
+  },
+  {
+    "key": "level_name_precision",
+    "english": "Precision",
+    "polish": "Precyzja"
+  },
+  {
+    "key": "level_name_find_a_name_later",
+    "english": "Find a name later",
+    "polish": "Nazwę się wymyśli"
+  },
+  {
+    "key": "level_name_no_touching",
+    "english": "No touching",
+    "polish": "Nie dotykać"
+  },
+  {
+    "key": "level_name_slippery",
+    "english": "Slippery",
+    "polish": "Ślisko"
+  },
+  {
+    "key": "level_name_fazer",
+    "english": "Fazer",
+    "polish": "Fazer"
+  },
+  {
+    "key": "level_name_supah_swing",
+    "english": "Supah Swing",
+    "polish": "Superhuśtawka"
+  },
+  {
+    "key": "level_name_zartan",
+    "english": "Zartan",
+    "polish": "Zartan"
+  },
+  {
+    "key": "level_name_building_blocks",
+    "english": "Building Blocks",
+    "polish": "Klocki"
+  },
+  {
+    "key": "level_name_red_is_ded",
+    "english": "Red is DED !",
+    "polish": "Czerwone to zgon!"
+  },
+  {
+    "key": "level_name_propulzone",
+    "english": "PropulZone",
+    "polish": "PropulZone"
+  },
+  {
+    "key": "level_name_baby_steps",
+    "english": "Baby steps",
+    "polish": "Pierwsze kroki"
+  },
+  {
+    "key": "level_name_death_tower",
+    "english": "Death Tower",
+    "polish": "Wieża śmierci"
+  },
+  {
+    "key": "level_name_blasting_off",
+    "english": "Blasting Off",
+    "polish": "Odpalamy"
+  },
+  {
+    "key": "level_name_pressing_buttons",
+    "english": "Pressing Buttons",
+    "polish": "Wciskanie guzików"
+  },
+  {
+    "key": "level_training_01",
+    "english": "Sweet discovery",
+    "polish": "Słodkie odkrycie"
+  },
+  {
+    "key": "level_training_02",
+    "english": "Tubes of speed",
+    "polish": "Rury prędkości"
+  },
+  {
+    "key": "level_training_03",
+    "english": "Cubes of despair",
+    "polish": "Sześciany rozpaczy"
+  },
+  {
+    "key": "Level_Convention_01",
+    "english": "Sweet discovery",
+    "polish": "Słodkie odkrycie"
+  },
+  {
+    "key": "Level_Convention_02",
+    "english": "Tubes of speed",
+    "polish": "Rury prędkości"
+  },
+  {
+    "key": "Level_Convention_03",
+    "english": "Cubes of despair",
+    "polish": "Sześciany rozpaczy"
+  },
+  {
+    "key": "Level_Convention_LD_01",
+    "english": "Gotta go play",
+    "polish": "Lecimy grać"
+  },
+  {
+    "key": "Level_Convention_LD_02",
+    "english": "Swing Swing Tower",
+    "polish": "Huśtawkowa wieża"
+  },
+  {
+    "key": "Level_Conv_Extra_01",
+    "english": "Eagle",
+    "polish": "Orzeł"
+  },
+  {
+    "key": "Level_Conv_Extra_02",
+    "english": "Take off",
+    "polish": "Odlot"
+  },
+  {
+    "key": "Level_Conv_Extra_03",
+    "english": "Purple veins",
+    "polish": "Fioletowe żyły"
+  },
+  {
+    "key": "level_a0",
+    "english": "Tunnel",
+    "polish": "Tunel",
+    "context": "Tunnel"
+  },
+  {
+    "key": "level_a1",
+    "english": "Speedy Luke",
+    "polish": "Speedy Luke",
+    "context": "Speedy Luke"
+  },
+  {
+    "key": "level_a2",
+    "english": "Vortex",
+    "polish": "Wir",
+    "context": "Tourbillon"
+  },
+  {
+    "key": "level_a3",
+    "english": "Bridge",
+    "polish": "Most",
+    "context": "Pont"
+  },
+  {
+    "key": "level_a4",
+    "english": "Eagle",
+    "polish": "Orzeł",
+    "context": "Aigle"
+  },
+  {
+    "key": "level_a5",
+    "english": "Trail",
+    "polish": "Szlak",
+    "context": "Piste"
+  },
+  {
+    "key": "level_a6",
+    "english": "On The Run",
+    "polish": "W biegu",
+    "context": "Cavale"
+  },
+  {
+    "key": "level_a7",
+    "english": "Take Off",
+    "polish": "Odlot",
+    "context": "Piste de decollage"
+  },
+  {
+    "key": "level_a8",
+    "english": "Pilgrimage",
+    "polish": "Pielgrzymka",
+    "context": "Pelerinage"
+  },
+  {
+    "key": "level_a9",
+    "english": "Walk !",
+    "polish": "Idź!",
+    "context": "Marche !"
+  },
+  {
+    "key": "level_a10",
+    "english": "Jump !",
+    "polish": "Skacz!",
+    "context": "Saute !"
+  },
+  {
+    "key": "level_a11",
+    "english": "Hook !",
+    "polish": "Hak!",
+    "context": "Grappin !"
+  },
+  {
+    "key": "level_a12",
+    "english": "Spaaace !",
+    "polish": "Kosmooos!",
+    "context": "Espaaace !"
+  },
+  {
+    "key": "level_a13",
+    "english": "Thinking with Timers",
+    "polish": "Myśl zegarami",
+    "context": "Penser avec des timers"
+  },
+  {
+    "key": "level_a14",
+    "english": "Big Bank",
+    "polish": "Big Bank",
+    "context": "Big Bank"
+  },
+  {
+    "key": "level_a15",
+    "english": "Thinking with Buttons",
+    "polish": "Myśl przyciskami",
+    "context": "Penser avec des boutons"
+  },
+  {
+    "key": "level_a16",
+    "english": "Wasteland",
+    "polish": "Pustkowie",
+    "context": "Terrain abandonné"
+  },
+  {
+    "key": "level_a17",
+    "english": "Purple Veins",
+    "polish": "Fioletowe żyły",
+    "context": "Ligne Rouge"
+  },
+  {
+    "key": "level_a18",
+    "english": "Bark",
+    "polish": "Kora",
+    "context": "Ecorce"
+  },
+  {
+    "key": "level_a19",
+    "english": "Shooty Cuby",
+    "polish": "Pif-paf kostka",
+    "context": "PanPan CuCube"
+  },
+  {
+    "key": "level_a20",
+    "english": "Thinking with Hooks",
+    "polish": "Myśl hakami",
+    "context": "Penser avec un grappin"
+  },
+  {
+    "key": "level_a21",
+    "english": "Master AirBender",
+    "polish": "Mistrz powietrza",
+    "context": "Maitre de l'air"
+  },
+  {
+    "key": "level_a22",
+    "english": "Building Blocks",
+    "polish": "Klocki",
+    "context": "Blocks de construction"
+  },
+  {
+    "key": "level_a23",
+    "english": "Red is DED !",
+    "polish": "Czerwone to zgon!",
+    "context": "Le Rouge c'est la Mourt"
+  },
+  {
+    "key": "level_a24",
+    "english": "Baby steps",
+    "polish": "Pierwsze kroki",
+    "context": "Premiers pas"
+  },
+  {
+    "key": "level_a25",
+    "english": "Navigation",
+    "polish": "Nawigacja",
+    "context": "Navigation"
+  },
+  {
+    "key": "level_a26",
+    "english": "Foliage",
+    "polish": "Listowie",
+    "context": "Feuillages"
+  },
+  {
+    "key": "level_a27",
+    "english": "DNA",
+    "polish": "DNA",
+    "context": "ADN"
+  },
+  {
+    "key": "level_a28",
+    "english": "Inertia",
+    "polish": "Bezwładność",
+    "context": "Inertie"
+  },
+  {
+    "key": "level_a29",
+    "english": "Learn to Fly",
+    "polish": "Naucz się latać",
+    "context": "Apprendre à voler"
+  },
+  {
+    "key": "level_a30",
+    "english": "Wall Jump",
+    "polish": "Odbicie od ściany",
+    "context": "Wall Jump"
+  },
+  {
+    "key": "level_a31",
+    "english": "Ascent",
+    "polish": "Wspinaczka",
+    "context": "Ascension"
+  },
+  {
+    "key": "level_a32",
+    "english": "Urban Jungle",
+    "polish": "Miejska dżungla",
+    "context": "Jungle Urbaine"
+  },
+  {
+    "key": "level_a33",
+    "english": "Try Harder",
+    "polish": "Staraj się",
+    "context": "Try Harder"
+  },
+  {
+    "key": "level_a34",
+    "english": "One More Time",
+    "polish": "Jeszcze raz",
+    "context": "Encore une fois"
+  },
+  {
+    "key": "level_a35",
+    "english": "Gotta go play",
+    "polish": "Lecimy grać",
+    "context": "Faut jouer"
+  },
+  {
+    "key": "level_a36",
+    "english": "Swing Swing Tower",
+    "polish": "Huśtawkowa wieża",
+    "context": "Swing Swing Tower"
+  },
+  {
+    "key": "level_a37",
+    "english": "Aftermath",
+    "polish": "Pokłosie",
+    "context": "Contrecoup"
+  },
+  {
+    "key": "level_a38",
+    "english": "Emulsion",
+    "polish": "Emulsja",
+    "context": "Émulsion"
+  },
+  {
+    "key": "level_a39",
+    "english": "Control Yourself",
+    "polish": "Opanuj się",
+    "context": "Contrôle Toi"
+  },
+  {
+    "key": "level_a40",
+    "english": "Surf",
+    "polish": "Surfing",
+    "context": "Surf"
+  },
+  {
+    "key": "level_a41",
+    "english": "Globular Ranch",
+    "polish": "Kuliste ranczo"
+  },
+  {
+    "key": "level_a42",
+    "english": "Finger Game",
+    "polish": "Zabawa palcami",
+    "context": "Jeu de Doigts"
+  },
+  {
+    "key": "level_a43",
+    "english": "La Grange",
+    "polish": "La Grange",
+    "context": "La Grange"
+  },
+  {
+    "key": "level_a44",
+    "english": "Cube of Death",
+    "polish": "Sześcian śmierci",
+    "context": "Cube de la Mort"
+  },
+  {
+    "key": "level_a45",
+    "english": "Workout",
+    "polish": "Trening",
+    "context": "Entraînement"
+  },
+  {
+    "key": "level_a46",
+    "english": "Ride",
+    "polish": "Przejażdżka",
+    "context": "Ride"
+  },
+  {
+    "key": "level_a47",
+    "english": "Lacking Strength",
+    "polish": "Brak sił",
+    "context": "Manque de Force"
+  },
+  {
+    "key": "level_a48",
+    "english": "Koma",
+    "polish": "Koma",
+    "context": "Koma"
+  },
+  {
+    "key": "level_a49",
+    "english": "Pull up",
+    "polish": "Podciąganie",
+    "context": "Pull Up"
+  },
+  {
+    "key": "level_a50",
+    "english": "Speed it up",
+    "polish": "Przyspiesz",
+    "context": "Accélère"
+  },
+  {
+    "key": "level_a51",
+    "english": "Apura",
+    "polish": "Apura",
+    "context": "Apura"
+  },
+  {
+    "key": "level_a52",
+    "english": "Sneaked",
+    "polish": "Ukradkiem",
+    "context": "Faufilé"
+  },
+  {
+    "key": "level_a53",
+    "english": "Run - Gun - Grapple",
+    "polish": "Bieg - Strzał - Hak",
+    "context": "Run - Gun - Grappin"
+  },
+  {
+    "key": "level_a54",
+    "english": "Athlete",
+    "polish": "Atleta",
+    "context": "Athlète"
+  },
+  {
+    "key": "level_a55",
+    "english": "You're burning",
+    "polish": "Gorąco, gorąco",
+    "context": "Tu brûles"
+  },
+  {
+    "key": "level_a56",
+    "english": "Klonk",
+    "polish": "Klonk",
+    "context": "Klonk"
+  },
+  {
+    "key": "level_a57",
+    "english": "Yo-Yo",
+    "polish": "Jo-jo",
+    "context": "Yo-Yo"
+  },
+  {
+    "key": "level_a58",
+    "english": "Neo",
+    "polish": "Neo",
+    "context": "Neo"
+  },
+  {
+    "key": "level_a59",
+    "english": "Rabator",
+    "polish": "Rabator",
+    "context": "Rabator"
+  },
+  {
+    "key": "level_a60",
+    "english": "The Game",
+    "polish": "Gra",
+    "context": "The Game"
+  },
+  {
+    "key": "level_a61",
+    "english": "Capital",
+    "polish": "Stolica",
+    "context": "Capitale"
+  },
+  {
+    "key": "level_a62",
+    "english": "Fun Fair",
+    "polish": "Wesołe miasteczko",
+    "context": "Fête Foraine"
+  },
+  {
+    "key": "level_a63",
+    "english": "Catacomb",
+    "polish": "Katakumby",
+    "context": "Catacombes"
+  },
+  {
+    "key": "level_a64",
+    "english": "Wool",
+    "polish": "Wełna",
+    "context": "Laine"
+  },
+  {
+    "key": "level_a65",
+    "english": "Trial of execution",
+    "polish": "Próba egzekucji",
+    "context": "Jugement d'exécution"
+  },
+  {
+    "key": "level_a66",
+    "english": "Hawk",
+    "polish": "Jastrząb",
+    "context": "Faucon"
+  },
+  {
+    "key": "level_a67",
+    "english": "Field",
+    "polish": "Pole",
+    "context": "Champ"
+  },
+  {
+    "key": "level_a68",
+    "english": "Mist",
+    "polish": "Mgła",
+    "context": "Brume"
+  },
+  {
+    "key": "level_a69",
+    "english": "Xitra",
+    "polish": "Xitra",
+    "context": "Xitra"
+  },
+  {
+    "key": "level_a69_bis",
+    "english": "Rotato",
+    "polish": "Rotato"
+  },
+  {
+    "key": "level_a70",
+    "english": "Lerap",
+    "polish": "Lerap",
+    "context": "Lerap"
+  },
+  {
+    "key": "level_a70_phoenix",
+    "english": "Phoenix",
+    "polish": "Feniks"
+  },
+  {
+    "key": "level_a71",
+    "english": "Aggressive",
+    "polish": "Agresja",
+    "context": "Offensif"
+  },
+  {
+    "key": "level_a72",
+    "english": "Parangon",
+    "polish": "Parangon",
+    "context": "Parangon"
+  },
+  {
+    "key": "level_a73",
+    "english": "Eazywi",
+    "polish": "Eazywi",
+    "context": "Eazywi"
+  },
+  {
+    "key": "level_a74",
+    "english": "Climbing",
+    "polish": "Wspinanie",
+    "context": "Escalade"
+  },
+  {
+    "key": "level_a75",
+    "english": "Open Jail",
+    "polish": "Otwarte więzienie"
+  },
+  {
+    "key": "level_a77",
+    "english": "Skeleton path",
+    "polish": "Ścieżka szkieletów"
+  },
+  {
+    "key": "level_a78",
+    "english": "Cluster",
+    "polish": "Skupisko"
+  },
+  {
+    "key": "level_a79",
+    "english": "Carpenter",
+    "polish": "Cieśla"
+  },
+  {
+    "key": "level_a82",
+    "english": "Dron Gang",
+    "polish": "Gang Drona"
+  },
+  {
+    "key": "level_a83",
+    "english": "Shifter Pro",
+    "polish": "Shifter Pro"
+  },
+  {
+    "key": "level_m1",
+    "english": "Evacuation",
+    "polish": "Ewakuacja",
+    "context": "Evacuation"
+  },
+  {
+    "key": "level_m2",
+    "english": "High Classic Jump",
+    "polish": "Klasyczny skok wzwyż",
+    "context": "Grand saut classique"
+  },
+  {
+    "key": "level_m3",
+    "english": "Relay",
+    "polish": "Sztafeta",
+    "context": "Relai"
+  },
+  {
+    "key": "level_m4",
+    "english": "Hover",
+    "polish": "Zawis"
+  },
+  {
+    "key": "level_f02",
+    "english": "Tobledrone",
+    "polish": "Tobledrone"
+  },
+  {
+    "key": "level_f03",
+    "english": "Hang'em High",
+    "polish": "Powieś go wyżej"
+  },
+  {
+    "key": "level_f04",
+    "english": "Metropolis X",
+    "polish": "Metropolis X"
+  },
+  {
+    "key": "level_f05",
+    "english": "Ring Ring",
+    "polish": "Ring Ring"
+  },
+  {
+    "key": "level_f06",
+    "english": "Rural Jungle",
+    "polish": "Wiejska dżungla"
+  },
+  {
+    "key": "level_f08",
+    "english": "Data Corruptor",
+    "polish": "Niszczyciel danych"
+  },
+  {
+    "key": "level_f09",
+    "english": "Beginner Air Blender",
+    "polish": "Młody mikser powietrza"
+  },
+  {
+    "key": "level_f10",
+    "english": "Line Thirteen",
+    "polish": "Linia trzynasta"
+  },
+  {
+    "key": "level_f11",
+    "english": "Grinder",
+    "polish": "Młynek"
+  },
+  {
+    "key": "level_f12",
+    "english": "Canopy",
+    "polish": "Korony drzew"
+  },
+  {
+    "key": "level_f13",
+    "english": "Fast Paced Society",
+    "polish": "Społeczeństwo w biegu"
+  },
+  {
+    "key": "level_f14",
+    "english": "Box Box Box",
+    "polish": "Pudło pudło pudło"
+  },
+  {
+    "key": "level_f15",
+    "english": "Hook Wars",
+    "polish": "Wojny haków"
+  },
+  {
+    "key": "level_f16",
+    "english": "Residue Processing",
+    "polish": "Przetwarzanie odpadów"
+  },
+  {
+    "key": "level_f17",
+    "english": "Captain Hook",
+    "polish": "Kapitan Hak"
+  },
+  {
+    "key": "level_f18",
+    "english": "Momentum Driver",
+    "polish": "Siła rozpędu"
+  },
+  {
+    "key": "level_f19",
+    "english": "At The Gates",
+    "polish": "U bram"
+  },
+  {
+    "key": "level_f20",
+    "english": "Biggest Ben",
+    "polish": "Największy Ben"
+  },
+  {
+    "key": "level_f21",
+    "english": "Metal Hook",
+    "polish": "Metalowy hak"
+  },
+  {
+    "key": "level_f22",
+    "english": "Castle Trashers",
+    "polish": "Castle Trashers"
+  },
+  {
+    "key": "level_f23",
+    "english": "Beagle",
+    "polish": "Beagle"
+  },
+  {
+    "key": "level_f24",
+    "english": "cORE",
+    "polish": "cORE"
+  },
+  {
+    "key": "level_f25",
+    "english": "Korridor",
+    "polish": "Korridor"
+  },
+  {
+    "key": "level_f26",
+    "english": "Physics Factory",
+    "polish": "Fabryka fizyki"
+  },
+  {
+    "key": "level_f28",
+    "english": "White Walls",
+    "polish": "Białe ściany"
+  },
+  {
+    "key": "level_f29",
+    "english": "Twisty",
+    "polish": "Kręciołek"
+  },
+  {
+    "key": "level_f30",
+    "english": "Three 6",
+    "polish": "Three 6"
+  },
+  {
+    "key": "level_f31",
+    "english": "Converger",
+    "polish": "Converger"
+  },
+  {
+    "key": "level_f32",
+    "english": "Slipgate",
+    "polish": "Slipgate"
+  },
+  {
+    "key": "level_f33",
+    "english": "Skorpion",
+    "polish": "Skorpion"
+  },
+  {
+    "key": "level_f34",
+    "english": "JCVD",
+    "polish": "JCVD"
+  },
+  {
+    "key": "level_boss_phase_01",
+    "english": "NUMERO",
+    "polish": "NUMERO"
+  },
+  {
+    "key": "PAX_Line_01_00_line_00",
+    "english": "Initializing subject",
+    "polish": "Inicjalizacja obiektu"
+  },
+  {
+    "key": "PAX_Line_01_00_line_01",
+    "english": "...",
+    "polish": "..."
+  },
+  {
+    "key": "PAX_Line_01_00_line_02",
+    "english": "Runner detected",
+    "polish": "Wykryto biegacza"
+  },
+  {
+    "key": "PAX_Line_01_00_line_02_01",
+    "english": "Gathering name...",
+    "polish": "Pobieranie nazwy..."
+  },
+  {
+    "key": "PAX_Line_01_00_line_02_02",
+    "english": "Name found = <link=\"Pause(1)\"></link><color=\"red\">{0}</color>",
+    "polish": "Znaleziono nazwę = <link=\"Pause(1)\"></link><color=\"red\">{0}</color>"
+  },
+  {
+    "key": "PAX_Line_01_00_line_03",
+    "english": "Potential... <link=\"Pause(1)\"></link><color=\"red\">abnormal!</color>",
+    "polish": "Potencjał... <link=\"Pause(1)\"></link><color=\"red\">nienormalny!</color>"
+  },
+  {
+    "key": "PAX_Line_01_00_line_04",
+    "english": "<color=\"red\">Threat to <color=green>Numero</color> detected!</color>",
+    "polish": "<color=\"red\">Wykryto zagrożenie dla <color=green>Numero</color>!</color>"
+  },
+  {
+    "key": "PAX_Line_01_00_line_05",
+    "english": "Uninstalling:",
+    "polish": "Odinstalowywanie:"
+  },
+  {
+    "key": "PAX_Line_01_00_line_06",
+    "english": "Map Knowledge... <link=\"Pause(1f)\"></link>Done",
+    "polish": "Znajomość map... <link=\"Pause(1f)\"></link>Gotowe"
+  },
+  {
+    "key": "PAX_Line_01_00_line_07",
+    "english": "Hook Mastery... <link=\"Pause(1f)\"></link>Done",
+    "polish": "Opanowanie haka... <link=\"Pause(1f)\"></link>Gotowe"
+  },
+  {
+    "key": "PAX_Line_01_00_line_08",
+    "english": "Speedrun strats... <link=\"Pause(1f)\"></link>Done",
+    "polish": "Speedrunowe triki... <link=\"Pause(1f)\"></link>Gotowe"
+  },
+  {
+    "key": "PAX_Line_01_00_line_09",
+    "english": "Pro gamer skills... <link=\"Pause(0.5f)\"></link><color=\"red\">Not found</color>",
+    "polish": "Umiejętności progamera... <link=\"Pause(0.5f)\"></link><color=\"red\">Nie znaleziono</color>"
+  },
+  {
+    "key": "PAX_Line_01_00_line_10",
+    "english": "Consciousness...<link=\"Pause(1.2f)\"></link> <link=\"BoxShake(ErrorShake)\"></link><link=\"TypingSound(1,0.08f)\"></link><color=\"red\">!!! ERROR !!!</color>",
+    "polish": "Świadomość...<link=\"Pause(1.2f)\"></link> <link=\"BoxShake(ErrorShake)\"></link><link=\"TypingSound(1,0.08f)\"></link><color=\"red\">!!! BŁĄD !!!</color>"
+  },
+  {
+    "key": "PAX_Line_01_00_line_11",
+    "english": "<link=\"TypingSound(1,0.08f)\"></link><color=\"red\">Could not uninstall consciouness</color>",
+    "polish": "<link=\"TypingSound(1,0.08f)\"></link><color=\"red\">Nie można odinstalować świadomości</color>"
+  },
+  {
+    "key": "PAX_Line_01_01_line_00",
+    "english": "<link=\"TypingSound(1,0.08f) + EventTrigger(Glitch)\"></link><size=150%>Unauthorised access detected !</size>",
+    "polish": "<link=\"TypingSound(1,0.08f) + EventTrigger(Glitch)\"></link><size=150%>Wykryto nieautoryzowany dostęp!</size>"
+  },
+  {
+    "key": "PAX_Line_01_01_line_01",
+    "english": "<link=\"BoxShake(BigErrorShake)\"></link><color=\"red\"><size=150%><link=\"TypingSound(1,0.08f)\"></link>ERROR</size></color>",
+    "polish": "<link=\"BoxShake(BigErrorShake)\"></link><color=\"red\"><size=150%><link=\"TypingSound(1,0.08f)\"></link>BŁĄD</size></color>"
+  },
+  {
+    "key": "PAX_Line_01_01_line_02",
+    "english": "<link=\"TypingSound(1,0.08f)\"></link><size=150%><color=\"red\">Protocol breach detected!</color></size>",
+    "polish": "<link=\"TypingSound(1,0.08f)\"></link><size=150%><color=\"red\">Wykryto naruszenie protokołu!</color></size>"
+  },
+  {
+    "key": "PAX_Line_01_01_line_03",
+    "english": "<link=\"TypingSound(1,0.08f)\"></link><color=\"red\"><size=150%>JETTISON CARGO <link=\"EventTrigger(DropPlayer)\"></link>MOTHER F</size></color>",
+    "polish": "<link=\"TypingSound(1,0.08f)\"></link><color=\"red\"><size=150%>ZRZUCIĆ ŁADUNEK <link=\"EventTrigger(DropPlayer)\"></link>SKUR</size></color>"
+  },
+  {
+    "key": "PAX_Line_01_02_line_00",
+    "english": "Oh!",
+    "polish": "O!"
+  },
+  {
+    "key": "PAX_Line_01_02_line_01",
+    "english": "Hello there!",
+    "polish": "No cześć!"
+  },
+  {
+    "key": "PAX_Line_01_02_line_02",
+    "english": "I'm <color=#0FF>Dron</color>, nice to meet you!",
+    "polish": "Jestem <color=#0FF>Dron</color>, miło cię poznać!"
+  },
+  {
+    "key": "PAX_Line_01_02_line_03",
+    "english": "You must be the latest runner caught in the game.",
+    "polish": "Pewnie jesteś najnowszym biegaczem złapanym w tę grę."
+  },
+  {
+    "key": "PAX_Line_01_02_line_04",
+    "english": "Well you managed to walk to me, so it looks like the hack worked.",
+    "polish": "Skoro udało ci się do mnie dojść, to chyba hakowanie zadziałało."
+  },
+  {
+    "key": "PAX_Line_01_02_line_05",
+    "english": "But I don't think you want me to pour out the story of this place.",
+    "polish": "Ale raczej nie chcesz, żebym opowiadał całą historię tego miejsca."
+  },
+  {
+    "key": "PAX_Line_01_02_line_06",
+    "english": "So grab your hook and let's get right into it!",
+    "polish": "Więc łap za hak i do dzieła!"
+  },
+  {
+    "key": "PAX_Line_01_03_line_00",
+    "english": "Here is your <link=\"Floating(0.1f,0.1f) + Rainbow()\">CYBER HOOK!</link>",
+    "polish": "Oto twój <link=\"Floating(0.1f,0.1f) + Rainbow()\">CYBER HOOK!</link>"
+  },
+  {
+    "key": "PAX_Line_01_03_line_01",
+    "english": "It's your main way of moving around.",
+    "polish": "To twój główny sposób poruszania się."
+  },
+  {
+    "key": "PAX_Line_01_03_line_02",
+    "english": "Grab, pull, swing, twist, you name it! <link=\"Pause(0.5f)\"></link>It can do it!",
+    "polish": "Łapie, przyciąga, huśta, kręci, co tylko chcesz! <link=\"Pause(0.5f)\"></link>Wszystko potrafi!"
+  },
+  {
+    "key": "PAX_Line_01_03_line_03",
+    "english": "Conditions may apply...",
+    "polish": "Obowiązują warunki promocji..."
+  },
+  {
+    "key": "PAX_Line_01_03_line_04",
+    "english": "So go ahead!<link=\"Pause(0.5f)\"></link> Shoot this <color=#0FF>blue cube</color> by pressing <sprite name=\"Hook\">",
+    "polish": "No dalej!<link=\"Pause(0.5f)\"></link> Strzel w ten <color=#0FF>niebieski sześcian</color>, naciskając <sprite name=\"Hook\">"
+  },
+  {
+    "key": "PAX_Line_01_04_mocking miss_line_00",
+    "english": "...",
+    "polish": "..."
+  },
+  {
+    "key": "PAX_Line_01_04_mocking miss_line_01",
+    "english": "Did you manage to miss that 3 times ?",
+    "polish": "Serio, trzy razy pudło?"
+  },
+  {
+    "key": "PAX_Line_01_04_mocking miss_line_02",
+    "english": "Just don't move and shoot pretty please",
+    "polish": "Po prostu stój i strzelaj, bardzo proszę"
+  },
+  {
+    "key": "PAX_Line_01_05_line_00",
+    "english": "Nice,",
+    "polish": "Nieźle,"
+  },
+  {
+    "key": "PAX_Line_01_05_line_01",
+    "english": "Now just <link=\"Floating()\">Hold</link> <sprite name=\"Hook\"> to pull yourself to it.",
+    "polish": "Teraz po prostu <link=\"Floating()\">przytrzymaj</link> <sprite name=\"Hook\">, żeby się do niego przyciągnąć."
+  },
+  {
+    "key": "PAX_Line_01_06_line_00",
+    "english": "And finally just press <link=\"Floating()\"><sprite name=\"Jump\"></link> to release the hook.",
+    "polish": "A na koniec naciśnij <link=\"Floating()\"><sprite name=\"Jump\"></link>, żeby puścić hak."
+  },
+  {
+    "key": "PAX_Line_01_07_line_00",
+    "english": "Alright!",
+    "polish": "Dobra!"
+  },
+  {
+    "key": "PAX_Line_01_07_line_01",
+    "english": "It seems the hack left you pretty much operational.",
+    "polish": "Wygląda na to, że po hakowaniu jesteś w całkiem niezłej formie."
+  },
+  {
+    "key": "PAX_Line_01_07_line_02",
+    "english": "Ah! Before you go!",
+    "polish": "A! Zanim pójdziesz!"
+  },
+  {
+    "key": "PAX_Line_01_07_line_03",
+    "english": "Give me a little <link=\"Floating()\">double jump</link> just to be safe.",
+    "polish": "Zrób mi mały <link=\"Floating()\">podwójny skok</link>, tak na wszelki wypadek."
+  },
+  {
+    "key": "PAX_Line_01_07_line_04",
+    "english": "Just press <link=\"Floating()\"><sprite name=\"Jump\"></link> to jump and <link=\"Floating()\">another time in the air.</link>",
+    "polish": "Naciśnij <link=\"Floating()\"><sprite name=\"Jump\"></link>, żeby skoczyć, i <link=\"Floating()\">jeszcze raz w powietrzu.</link>"
+  },
+  {
+    "key": "PAX_Line_01_08_line_00",
+    "english": "And there we go!",
+    "polish": "No i proszę!"
+  },
+  {
+    "key": "PAX_Line_01_08_line_01",
+    "english": "You know all the basics for surviving in here.",
+    "polish": "Znasz już wszystkie podstawy przetrwania w tym miejscu."
+  },
+  {
+    "key": "PAX_Line_01_08_line_02",
+    "english": "The rest is just a little bit of <link=\"Rainbow()\">practice!</link>",
+    "polish": "Reszta to kwestia odrobiny <link=\"Rainbow()\">praktyki!</link>"
+  },
+  {
+    "key": "PAX_Line_01_08_line_03",
+    "english": "When you are ready <link=\"EventTrigger(LookAtDoor)\"></link>enter <link=\"Floating() + Rainbow()\">this portal</link> <link=\"Pause(1)\"></link>and you'll start actually having fun.",
+    "polish": "Kiedy poczujesz się na siłach, <link=\"EventTrigger(LookAtDoor)\"></link>wejdź do <link=\"Floating() + Rainbow()\">tego portalu</link> <link=\"Pause(1)\"></link>i zacznie się prawdziwa zabawa."
+  },
+  {
+    "key": "PAX_Line_02_00_line_00",
+    "english": "Ah!",
+    "polish": "A!"
+  },
+  {
+    "key": "PAX_Line_02_00_line_01",
+    "english": "You're back!",
+    "polish": "Jesteś z powrotem!"
+  },
+  {
+    "key": "PAX_Line_02_00_line_02",
+    "english": "<link=\"EventTrigger(LookSide)\"></link>Let's see how well you did...",
+    "polish": "<link=\"EventTrigger(LookSide)\"></link>Zobaczmy, jak ci poszło..."
+  },
+  {
+    "key": "PAX_Line_02_01_bad_line_00",
+    "english": "...",
+    "polish": "..."
+  },
+  {
+    "key": "PAX_Line_02_01_bad_line_01",
+    "english": "Hum...",
+    "polish": "Hmm..."
+  },
+  {
+    "key": "PAX_Line_02_01_bad_line_02",
+    "english": "<link=\"EventTrigger(LookSide)\"></link>I'm sure you'll get better with time...",
+    "polish": "<link=\"EventTrigger(LookSide)\"></link>Na pewno z czasem pójdzie ci lepiej..."
+  },
+  {
+    "key": "PAX_Line_02_01_good_line_00",
+    "english": "Oh wow!",
+    "polish": "Ojej!"
+  },
+  {
+    "key": "PAX_Line_02_01_good_line_01",
+    "english": "<link=\"EventTrigger(LookSide)\"></link>This is quite impressive!",
+    "polish": "<link=\"EventTrigger(LookSide)\"></link>Robi wrażenie!"
+  },
+  {
+    "key": "PAX_Line_02_01_good_line_02",
+    "english": "You definitely will be able to help!",
+    "polish": "Z tobą na pewno damy radę!"
+  },
+  {
+    "key": "PAX_Line_02_01_normal_line_00",
+    "english": "Hum...",
+    "polish": "Hmm..."
+  },
+  {
+    "key": "PAX_Line_02_01_normal_line_01",
+    "english": "<link=\"EventTrigger(LookSide)\"></link>That's pretty good.",
+    "polish": "<link=\"EventTrigger(LookSide)\"></link>Całkiem nieźle."
+  },
+  {
+    "key": "PAX_Line_02_01_normal_line_02",
+    "english": "And I'm sure you'll get even better with some new techniques.",
+    "polish": "A z paroma nowymi technikami pójdzie ci jeszcze lepiej."
+  },
+  {
+    "key": "PAX_Line_02_02_line_00",
+    "english": "Anyway,",
+    "polish": "W każdym razie,"
+  },
+  {
+    "key": "PAX_Line_02_02_line_01",
+    "english": "Come over there.",
+    "polish": "Chodź tutaj."
+  },
+  {
+    "key": "PAX_Line_02_02_line_02",
+    "english": "I'll show you how to <link=\"Floating() + Rainbow()\">BEND TIME!</link>",
+    "polish": "Pokażę ci, jak <link=\"Floating() + Rainbow()\">ZAGINAĆ CZAS!</link>"
+  },
+  {
+    "key": "PAX_Line_02_03_line_00",
+    "english": "Sooo...",
+    "polish": "Nooo..."
+  },
+  {
+    "key": "PAX_Line_02_03_line_01",
+    "english": "Yeah, you can <link=\"Floating(0.75f,0.2f)\"><color=#0FF>slow down time</color></link> by pressing <sprite name=\"Timewarp\">",
+    "polish": "Tak, możesz <link=\"Floating(0.75f,0.2f)\"><color=#0FF>spowolnić czas</color></link>, naciskając <sprite name=\"Timewarp\">"
+  },
+  {
+    "key": "PAX_Line_02_03_line_02",
+    "english": "I <link=\"Floating()\">could</link> explain the science behind it.",
+    "polish": "<link=\"Floating()\">Mógłbym</link> wyjaśnić, jak to działa naukowo."
+  },
+  {
+    "key": "PAX_Line_02_03_line_03",
+    "english": "But I think neither of us really care.",
+    "polish": "Ale chyba żadnego z nas to nie obchodzi."
+  },
+  {
+    "key": "PAX_Line_02_03_line_04",
+    "english": "So go ahead! Press <link=\"Floating()\"><sprite name=\"Timewarp\"></link>",
+    "polish": "No dalej! Naciśnij <link=\"Floating()\"><sprite name=\"Timewarp\"></link>"
+  },
+  {
+    "key": "PAX_Line_02_04_line_00",
+    "english": "Pretty cool huh?!",
+    "polish": "Fajne, co?!"
+  },
+  {
+    "key": "PAX_Line_02_04_line_01",
+    "english": "It will help you recover from your mistakes and even give you a <color=\"yellow\">small range increase</color> under the hood.",
+    "polish": "Pomoże ci naprawiać błędy, a przy okazji daje <color=\"yellow\">odrobinę większy zasięg</color>."
+  },
+  {
+    "key": "PAX_Line_02_04_line_02",
+    "english": "You can practice here,",
+    "polish": "Możesz tu poćwiczyć,"
+  },
+  {
+    "key": "PAX_Line_02_04_line_03",
+    "english": "Just go through that glowing cannon and use the <link=\"Rainbow()\">Timewarp</link> in the air to grab the blue platform below you.<link=\"EventTrigger(LookAtDoor)\"></link>",
+    "polish": "Przeleć przez tę świecącą armatę i użyj w powietrzu <link=\"Rainbow()\">spowolnienia</link>, żeby złapać niebieską platformę pod sobą.<link=\"EventTrigger(LookAtDoor)\"></link>"
+  },
+  {
+    "key": "PAX_Line_03_00_line_00",
+    "english": "...",
+    "polish": "..."
+  },
+  {
+    "key": "PAX_Line_03_00_line_01",
+    "english": "Come over there and I'll show you the last thing before you're prepared for the real deal.",
+    "polish": "Chodź tutaj, pokażę ci ostatnią rzecz, zanim ruszysz na poważnie."
+  },
+  {
+    "key": "PAX_Line_03_01_line_00",
+    "english": "...",
+    "polish": "..."
+  },
+  {
+    "key": "PAX_Line_03_01_line_01",
+    "english": "Yeah, they are tracking you down.",
+    "polish": "No tak, namierzają cię."
+  },
+  {
+    "key": "PAX_Line_03_01_line_02",
+    "english": "These green cubes are coming from someone else...",
+    "polish": "Te zielone sześciany wysyła ktoś inny..."
+  },
+  {
+    "key": "PAX_Line_03_01_line_03",
+    "english": "I don't have time to explain much,",
+    "polish": "Nie mam czasu dużo tłumaczyć,"
+  },
+  {
+    "key": "PAX_Line_03_01_line_04",
+    "english": "But just know that these green cubes will block your path.",
+    "polish": "Ale wiedz, że te zielone sześciany będą ci blokować drogę."
+  },
+  {
+    "key": "PAX_Line_03_01_line_05",
+    "english": "Problem is, I don't really have a way to <link=\"Shake()\">destroy</link> those...",
+    "polish": "Kłopot w tym, że nie bardzo mam jak je <link=\"Shake()\">zniszczyć</link>..."
+  },
+  {
+    "key": "PAX_Line_03_01_line_06",
+    "english": "Try pressing some random button like <link=\"Floating()\"><sprite name=\"Shoot\"></link>",
+    "polish": "Spróbuj nacisnąć jakiś przypadkowy przycisk, na przykład <link=\"Floating()\"><sprite name=\"Shoot\"></link>"
+  },
+  {
+    "key": "PAX_Line_03_02_line_00",
+    "english": "oooh...<link=\"Block()\">kay</link>",
+    "polish": "nooo...<link=\"Block()\">dobra</link>"
+  },
+  {
+    "key": "PAX_Line_03_02_line_01",
+    "english": "I mean, it does the job.",
+    "polish": "To znaczy, spełnia swoje zadanie."
+  },
+  {
+    "key": "PAX_Line_03_02_line_02",
+    "english": "That will definitely help you go through levels.",
+    "polish": "Na pewno pomoże ci przechodzić poziomy."
+  },
+  {
+    "key": "PAX_Line_03_02_line_03",
+    "english": "Well, just go over that wall in the back<link=\"EventTrigger(LookAtDoor) + Pause(1)\"></link> and you are good to go.",
+    "polish": "Dobra, przejdź tylko przez tamtą ścianę z tyłu<link=\"EventTrigger(LookAtDoor) + Pause(1)\"></link> i możesz ruszać."
+  },
+  {
+    "key": "PAX_Line_04_00_line_00",
+    "english": "Oh!",
+    "polish": "O!"
+  },
+  {
+    "key": "PAX_Line_04_00_line_01",
+    "english": "Yes! You made it this far!",
+    "polish": "Tak! Udało ci się dotrzeć aż tutaj!"
+  },
+  {
+    "key": "PAX_Line_04_00_line_02",
+    "english": "Unfortunately that's all I can show you right now.",
+    "polish": "Niestety to wszystko, co mogę ci teraz pokazać."
+  },
+  {
+    "key": "PAX_Line_04_00_line_03",
+    "english": "Mainly because that's just a demo of the full game...",
+    "polish": "Głównie dlatego, że to tylko demo pełnej gry..."
+  },
+  {
+    "key": "PAX_Line_04_00_line_04",
+    "english": "But you can <link=\"Rainbow() + Floating()\">wishlist Cyber Hook on Steam</link> if you are a really nice person :)",
+    "polish": "Ale możesz <link=\"Rainbow() + Floating()\">dodać Cyber Hook do listy życzeń na Steamie</link>, jeśli jesteś naprawdę miłą osobą :)"
+  },
+  {
+    "key": "PAX_Line_04_00_line_05",
+    "english": "And boom goes the fourth wall...",
+    "polish": "I tak oto pada czwarta ściana..."
+  },
+  {
+    "key": "PAX_Line_04_00_line_06",
+    "english": "Yeah sorry about that, but you can still have fun in the level or go back to the main menu by finding the portal hidden in this hub!",
+    "polish": "No sorry, ale dalej możesz się bawić na tym poziomie albo wrócić do menu głównego, znajdując portal ukryty w tym centrum!"
+  },
+  {
+    "key": "PAX_Line_04_00_line_07",
+    "english": "Thank you very much for playing!",
+    "polish": "Wielkie dzięki za grę!"
+  },
+  {
+    "key": "PAX_Line_04_00_line_08",
+    "english": "Hope you enjoyed the game :)",
+    "polish": "Mam nadzieję, że się podobało :)"
+  },
+  {
+    "key": "ask_apply_settings",
+    "english": "Apply changes ?",
+    "polish": "Zastosować zmiany?"
+  },
+  {
+    "key": "cancel",
+    "english": "Cancel",
+    "polish": "Anuluj"
+  },
+  {
+    "key": "option_camera_max_angle",
+    "english": "Camera max angle",
+    "polish": "Maks. kąt kamery"
+  },
+  {
+    "key": "option_camera_max_angle_desc",
+    "english": "How high or low should the camera be allowed to go",
+    "polish": "Jak wysoko i jak nisko może się obracać kamera"
+  },
+  {
+    "key": "option_reset_to_default",
+    "english": "Reset to default",
+    "polish": "Przywróć domyślne"
+  },
+  {
+    "key": "option_reset_to_default_button",
+    "english": "Reset",
+    "polish": "Przywróć"
+  },
+  {
+    "key": "option_autorelease_hook",
+    "english": "Auto release Hook",
+    "polish": "Autopuszczanie haka"
+  },
+  {
+    "key": "option_autorelease_hook_desc",
+    "english": "Should the hook be released when you release the button ?",
+    "polish": "Czy hak ma się odczepiać, gdy puścisz przycisk?"
+  },
+  {
+    "key": "option_shadows_active",
+    "english": "Display Shadows",
+    "polish": "Cienie"
+  },
+  {
+    "key": "option_shadows_active_desc",
+    "english": "Should the game display dynamic shadows at close range?",
+    "polish": "Czy gra ma wyświetlać dynamiczne cienie z bliska?"
+  },
+  {
+    "key": "option_anti_aliasing",
+    "english": "Anti Aliasing",
+    "polish": "Wygładzanie krawędzi"
+  },
+  {
+    "key": "option_anti_aliasing_desc",
+    "english": "Smoothes the rendered image to reduce jagged edges.",
+    "polish": "Wygładza obraz, żeby zmniejszyć poszarpane krawędzie."
+  },
+  {
+    "key": "option_button_Controls",
+    "english": "Controls",
+    "polish": "Sterowanie"
+  },
+  {
+    "key": "option_button_Gameplay",
+    "english": "Gameplay",
+    "polish": "Rozgrywka"
+  },
+  {
+    "key": "option_button_Speedrun",
+    "english": "Speedrun",
+    "polish": "Speedrun"
+  },
+  {
+    "key": "option_button_Graphics",
+    "english": "Graphics",
+    "polish": "Grafika"
+  },
+  {
+    "key": "option_button_Audio",
+    "english": "Audio",
+    "polish": "Dźwięk"
+  },
+  {
+    "key": "option_crosshair_size",
+    "english": "Crosshair size",
+    "polish": "Rozmiar celownika"
+  },
+  {
+    "key": "option_crosshair_size_desc",
+    "english": "Changes the size of the ingame crosshair.",
+    "polish": "Zmienia rozmiar celownika w grze."
+  },
+  {
+    "key": "option_desc_airdash",
+    "english": "Second in-air jump",
+    "polish": "Drugi skok w powietrzu"
+  },
+  {
+    "key": "option_desc_hook",
+    "english": "Use your CyberHook!<br>The most important button in the game!",
+    "polish": "Użyj swojego CyberHooka!<br>Najważniejszy przycisk w grze!"
+  },
+  {
+    "key": "option_desc_jump",
+    "english": "Get your lazy b*tt off the ground",
+    "polish": "Rusz swoje leniwe cztery litery"
+  },
+  {
+    "key": "option_desc_move_x_negative",
+    "english": "Increase your speed in the negative X space relative to your camera horizontal rotation.<br><br><br>Or just move left",
+    "polish": "Zwiększa prędkość w ujemnym kierunku osi X względem poziomego obrotu kamery.<br><br><br>Albo po prostu idziesz w lewo."
+  },
+  {
+    "key": "option_desc_move_x_positive",
+    "english": "Increase your speed in the positive X space relative to your camera horizontal rotation.<br><br><br>Or just move right.",
+    "polish": "Zwiększa prędkość w dodatnim kierunku osi X względem poziomego obrotu kamery.<br><br><br>Albo po prostu idziesz w prawo."
+  },
+  {
+    "key": "option_desc_move_y_negative",
+    "english": "Increase your speed in the negative Z space relative to your camera horizontal rotation.<br><br><br>Or just move back.",
+    "polish": "Zwiększa prędkość w ujemnym kierunku osi Z względem poziomego obrotu kamery.<br><br><br>Albo po prostu idziesz do tyłu."
+  },
+  {
+    "key": "option_desc_move_y_positive",
+    "english": "Increase your speed in the positive Z space relative to your camera horizontal rotation.<br><br><br>Or just move forward.",
+    "polish": "Zwiększa prędkość w dodatnim kierunku osi Z względem poziomego obrotu kamery.<br><br><br>Albo po prostu idziesz do przodu."
+  },
+  {
+    "key": "option_desc_pull",
+    "english": "Pull on your hook and nothing else...",
+    "polish": "Przyciąga cię na haku i nic więcej..."
+  },
+  {
+    "key": "option_desc_reset",
+    "english": "Restart the level if you are feeling down :(",
+    "polish": "Zacznij poziom od nowa, jeśli masz doła :("
+  },
+  {
+    "key": "option_desc_retract",
+    "english": "Release the hook while keeping the beast inside you.",
+    "polish": "Puszcza hak, ale bestia zostaje w tobie."
+  },
+  {
+    "key": "option_desc_shoot",
+    "english": "Zap'em with your lazer finger gunz.",
+    "polish": "Popraw im laserowymi paluchami."
+  },
+  {
+    "key": "option_desc_timewarp",
+    "english": "Slow down time to get a small range advantage and totally not because you missed that last shot.",
+    "polish": "Spowalnia czas, żeby dać ci trochę większy zasięg, a wcale nie dlatego, że ostatni strzał poszedł w pudło."
+  },
+  {
+    "key": "option_everyframe",
+    "english": "Sync every frame",
+    "polish": "Synchronizuj co klatkę"
+  },
+  {
+    "key": "option_everysecondframe",
+    "english": "Sync every second frame",
+    "polish": "Synchronizuj co drugą klatkę"
+  },
+  {
+    "key": "option_uncapped",
+    "english": "Unlimited",
+    "polish": "Bez limitu"
+  },
+  {
+    "key": "option_fps_144",
+    "english": "144 FPS",
+    "polish": "144 FPS"
+  },
+  {
+    "key": "option_fps_30",
+    "english": "30 FPS",
+    "polish": "30 FPS"
+  },
+  {
+    "key": "option_fps_60",
+    "english": "60 FPS",
+    "polish": "60 FPS"
+  },
+  {
+    "key": "option_fullscreen",
+    "english": "Fullscreen",
+    "polish": "Pełny ekran"
+  },
+  {
+    "key": "option_fullscreen_desc",
+    "english": "Display the game fullscreen or windowed mode",
+    "polish": "Gra na pełnym ekranie albo w oknie"
+  },
+  {
+    "key": "option_ground_reflexion_quality",
+    "english": "Ground reflexion quality",
+    "polish": "Jakość odbić na podłożu"
+  },
+  {
+    "key": "option_ground_reflexion_quality_desc",
+    "english": "The size of the rendered reflexion texture.",
+    "polish": "Rozmiar tekstury, w której liczone są odbicia."
+  },
+  {
+    "key": "option_ground_reflexions",
+    "english": "Reflexions",
+    "polish": "Odbicia"
+  },
+  {
+    "key": "option_ground_reflexions_desc",
+    "english": "Render the reflexions in the world.",
+    "polish": "Wyświetla odbicia w świecie gry."
+  },
+  {
+    "key": "option_groundrefexion_1024",
+    "english": "1024x1024",
+    "polish": "1024x1024"
+  },
+  {
+    "key": "option_groundrefexion_2048",
+    "english": "2048x2048",
+    "polish": "2048x2048"
+  },
+  {
+    "key": "option_groundrefexion_256",
+    "english": "256x256",
+    "polish": "256x256"
+  },
+  {
+    "key": "option_groundrefexion_512",
+    "english": "512x512",
+    "polish": "512x512"
+  },
+  {
+    "key": "option_look_inversion",
+    "english": "Vertical look inversion",
+    "polish": "Odwrócenie osi pionowej"
+  },
+  {
+    "key": "option_look_inversion_desc",
+    "english": "Invert the vertical view axis, only use this if you're a mad lad!",
+    "polish": "Odwraca pionową oś widoku. Tylko dla prawdziwych wariatów!"
+  },
+  {
+    "key": "option_max_fps",
+    "english": "Maximum FPS",
+    "polish": "Maks. FPS"
+  },
+  {
+    "key": "option_max_fps_desc",
+    "english": "The maximum Frame Per Seconds rendered by the game.<br>This doesn't boost the game but just limits how many frame can be rendered to avoid unnecessary power usage.",
+    "polish": "Największa liczba klatek na sekundę wyświetlanych przez grę.<br>Nie przyspiesza gry, tylko ogranicza liczbę klatek, żeby nie zużywać niepotrzebnie energii."
+  },
+  {
+    "key": "option_motion_blur",
+    "english": "Motion blur",
+    "polish": "Rozmycie ruchu"
+  },
+  {
+    "key": "option_motion_blur_desc",
+    "english": "Blurs the image when quick movement is detected.<br>Try to shake your head like an idiot to experience real life motion blur.",
+    "polish": "Rozmywa obraz przy szybkim ruchu.<br>Pokręć głową jak wariat, żeby poczuć rozmycie ruchu w prawdziwym życiu."
+  },
+  {
+    "key": "option_nosync",
+    "english": "No Sync",
+    "polish": "Wyłączona"
+  },
+  {
+    "key": "option_player_name",
+    "english": "Player name",
+    "polish": "Nazwa gracza"
+  },
+  {
+    "key": "option_player_name_desc",
+    "english": "This will be displayed in the leaderboard.",
+    "polish": "Będzie widoczna w rankingu."
+  },
+  {
+    "key": "option_resolution",
+    "english": "Resolution",
+    "polish": "Rozdzielczość"
+  },
+  {
+    "key": "option_resolution_1280x720",
+    "english": "1280x720",
+    "polish": "1280x720"
+  },
+  {
+    "key": "option_resolution_1600x900",
+    "english": "1600x900",
+    "polish": "1600x900"
+  },
+  {
+    "key": "option_resolution_1920x1080",
+    "english": "1920x1080",
+    "polish": "1920x1080"
+  },
+  {
+    "key": "option_resolution_2560x1440",
+    "english": "2560x1440",
+    "polish": "2560x1440"
+  },
+  {
+    "key": "option_resolution_3840x2160",
+    "english": "3840x2160",
+    "polish": "3840x2160"
+  },
+  {
+    "key": "option_resolution_800x600",
+    "english": "800x600",
+    "polish": "800x600"
+  },
+  {
+    "key": "option_resolution_desc",
+    "english": "Changes the size of the final screen texture.<br>Bigger is prettier but slower to render.",
+    "polish": "Zmienia rozmiar końcowej tekstury obrazu.<br>Większa jest ładniejsza, ale wolniej się renderuje."
+  },
+  {
+    "key": "option_sensitivity_x",
+    "english": "Horizontal sensitivity",
+    "polish": "Czułość w poziomie"
+  },
+  {
+    "key": "option_sensitivity_x_desc",
+    "english": "Horizontal look speed mulitplier.",
+    "polish": "Mnożnik szybkości rozglądania się w poziomie."
+  },
+  {
+    "key": "option_sensitivity_y",
+    "english": "Vertical sensitivity",
+    "polish": "Czułość w pionie"
+  },
+  {
+    "key": "option_sensitivity_y_desc",
+    "english": "Vertical look speed multiplier",
+    "polish": "Mnożnik szybkości rozglądania się w pionie"
+  },
+  {
+    "key": "option_title_airdash",
+    "english": "Airdash",
+    "polish": "Skok w powietrzu"
+  },
+  {
+    "key": "option_title_hook",
+    "english": "Hook",
+    "polish": "Hak"
+  },
+  {
+    "key": "option_title_jump",
+    "english": "Jump",
+    "polish": "Skok"
+  },
+  {
+    "key": "option_title_move_x_negative",
+    "english": "Left",
+    "polish": "W lewo"
+  },
+  {
+    "key": "option_title_move_x_positive",
+    "english": "Right",
+    "polish": "W prawo"
+  },
+  {
+    "key": "option_title_move_y_negative",
+    "english": "Back",
+    "polish": "Do tyłu"
+  },
+  {
+    "key": "option_title_move_y_positive",
+    "english": "Forward",
+    "polish": "Do przodu"
+  },
+  {
+    "key": "option_title_pull",
+    "english": "Pull",
+    "polish": "Przyciąganie"
+  },
+  {
+    "key": "option_title_reset",
+    "english": "Restart",
+    "polish": "Od nowa"
+  },
+  {
+    "key": "option_title_retract",
+    "english": "Retract",
+    "polish": "Zwolnienie haka"
+  },
+  {
+    "key": "option_title_shoot",
+    "english": "Shoot",
+    "polish": "Strzał"
+  },
+  {
+    "key": "option_title_timewarp",
+    "english": "Timewarp",
+    "polish": "Spowolnienie"
+  },
+  {
+    "key": "option_vertical_sync",
+    "english": "Vertical Sync",
+    "polish": "Synchronizacja pionowa"
+  },
+  {
+    "key": "option_vertical_sync_desc",
+    "english": "The game will make sure to wait for your monitor to be ready before rendering an image.<br>It will prevent what's called tearing\".",
+    "polish": "Gra poczeka, aż monitor będzie gotowy, zanim wyświetli obraz.<br>Zapobiega tak zwanemu „rwaniu obrazu”."
+  },
+  {
+    "key": "option_volume_master",
+    "english": "Master Volume",
+    "polish": "Głośność ogólna"
+  },
+  {
+    "key": "option_volume_master_desc",
+    "english": "Volume of everything ingame.",
+    "polish": "Głośność wszystkiego w grze."
+  },
+  {
+    "key": "option_volume_music",
+    "english": "Music Volume",
+    "polish": "Głośność muzyki"
+  },
+  {
+    "key": "option_volume_music_desc",
+    "english": "Volume of the musics only.<br>Does not affect the sound effects.",
+    "polish": "Głośność samej muzyki.<br>Nie wpływa na efekty dźwiękowe."
+  },
+  {
+    "key": "option_volume_sfx",
+    "english": "Sound effects Volume",
+    "polish": "Głośność efektów"
+  },
+  {
+    "key": "option_volume_sfx_desc",
+    "english": "Volume of every effects in the game.<br><br><size=50%>It's all the booms\" - \"pows\" and \"omg this game is too hard-s\"</size>",
+    "polish": "Głośność wszystkich efektów w grze.<br><br><size=50%>Czyli wszystkich „bum”, „pif-paf” i „o matko, jaka ta gra trudna”</size>"
+  },
+  {
+    "key": "press_to_cancel",
+    "english": "Press <sprite name=Pause\"> to cancel",
+    "polish": "Naciśnij <sprite name=\"Pause\">, żeby anulować"
+  },
+  {
+    "key": "press_to_delete",
+    "english": "Press <sprite name=Cancel\"> to delete",
+    "polish": "Naciśnij <sprite name=\"Cancel\">, żeby usunąć"
+  },
+  {
+    "key": "waiting_for_input",
+    "english": "Waiting for input",
+    "polish": "Czekam na przycisk"
+  },
+  {
+    "key": "option_language",
+    "english": "Language",
+    "polish": "Język"
+  },
+  {
+    "key": "option_language_desc",
+    "english": "Change the language of the game.",
+    "polish": "Zmienia język gry."
+  },
+  {
+    "key": "option_en",
+    "english": "English",
+    "polish": "Polski"
+  },
+  {
+    "key": "option_fr",
+    "english": "Francais",
+    "polish": "Francais"
+  },
+  {
+    "key": "option_es",
+    "english": "Español",
+    "polish": "Español"
+  },
+  {
+    "key": "option_de",
+    "english": "Deutsch",
+    "polish": "Deutsch"
+  },
+  {
+    "key": "option_ru",
+    "english": "Русский",
+    "polish": "Русский"
+  },
+  {
+    "key": "option_zh",
+    "english": "简体中文",
+    "polish": "简体中文"
+  },
+  {
+    "key": "option_pt",
+    "english": "Português",
+    "polish": "Português"
+  },
+  {
+    "key": "option_jp",
+    "english": "にほんご",
+    "polish": "にほんご"
+  },
+  {
+    "key": "option_gyroscope_active",
+    "english": "Gyroscope enabled",
+    "polish": "Żyroskop włączony"
+  },
+  {
+    "key": "option_gyroscope_active_desc",
+    "english": "Do you want your aim to move when tilting the console ?",
+    "polish": "Czy celownik ma się ruszać, gdy przechylasz konsolę?"
+  },
+  {
+    "key": "discord_join",
+    "english": "Join other runners!",
+    "polish": "Dołącz do innych biegaczy!"
+  },
+  {
+    "key": "option_gyroscope_sensitivity_x",
+    "english": "Gyroscope horizontal sensitivity",
+    "polish": "Czułość żyroskopu w poziomie"
+  },
+  {
+    "key": "option_gyroscope_sensitivity_x_desc",
+    "english": "Makes the gyroscope move farther horizontally the higher it is",
+    "polish": "Im wyżej, tym dalej żyroskop przesuwa widok w poziomie"
+  },
+  {
+    "key": "option_gyroscope_sensitivity_y",
+    "english": "Gyroscope vertical sensitivity",
+    "polish": "Czułość żyroskopu w pionie"
+  },
+  {
+    "key": "option_gyroscope_sensitivity_y_desc",
+    "english": "Makes the gyroscope move farther vertically the higher it is",
+    "polish": "Im wyżej, tym dalej żyroskop przesuwa widok w pionie"
+  },
+  {
+    "key": "option_fov",
+    "english": "Field of view",
+    "polish": "Pole widzenia"
+  },
+  {
+    "key": "option_screen_shake",
+    "english": "Screen shake multiplier",
+    "polish": "Siła wstrząsów ekranu"
+  },
+  {
+    "key": "option_screen_shake_desc",
+    "english": "Change the amount of screenshake ingame.",
+    "polish": "Zmienia siłę wstrząsów ekranu w grze."
+  },
+  {
+    "key": "option_fov_desc",
+    "english": "Change the size of the field of view in the player's view.",
+    "polish": "Zmienia szerokość pola widzenia gracza."
+  },
+  {
+    "key": "option_hide_hands",
+    "english": "Hide player hands",
+    "polish": "Ukryj dłonie"
+  },
+  {
+    "key": "option_hide_hands_desc",
+    "english": "Hide the player's hands and hook ingame",
+    "polish": "Ukrywa dłonie i hak postaci w grze"
+  },
+  {
+    "key": "option_screen_flash_brightness",
+    "english": "Flash Brightness",
+    "polish": "Jasność błysku"
+  },
+  {
+    "key": "option_screen_flash_brightness_desc",
+    "english": "Change the brightness of the flash when dying",
+    "polish": "Zmienia jasność błysku przy śmierci"
+  },
+  {
+    "key": "option_autoskip_levelintro",
+    "english": "Auto Skip level intros",
+    "polish": "Pomijaj intro poziomów"
+  },
+  {
+    "key": "option_autoskip_levelintro_desc",
+    "english": "If active, every camera introduction of any level will be skipped.<br>Risky if you don't know the map already.",
+    "polish": "Gdy włączone, każdy przelot kamery na początku poziomu zostanie pominięty.<br>Ryzykowne, jeśli nie znasz jeszcze mapy."
+  },
+  {
+    "key": "option_internet_test",
+    "english": "Retry for internet",
+    "polish": "Połącz ponownie z internetem"
+  },
+  {
+    "key": "option_internet_test_desc",
+    "english": "Retry to connect to the internet.<br>Used for sending best times and replays so you can appear in the leaderboard.",
+    "polish": "Ponawia próbę połączenia z internetem.<br>Potrzebne do wysyłania najlepszych czasów i powtórek, żeby trafić do rankingu."
+  },
+  {
+    "key": "option_internet_reconnect",
+    "english": "Reconnect",
+    "polish": "Połącz ponownie"
+  },
+  {
+    "key": "internet_connection_lost",
+    "english": "Internet connection lost!",
+    "polish": "Utracono połączenie z internetem!"
+  },
+  {
+    "key": "internet_goto_option",
+    "english": "Reconnect in the option menu",
+    "polish": "Połącz ponownie w menu opcji"
+  },
+  {
+    "key": "internet_connection_found",
+    "english": "Internet connection found!",
+    "polish": "Połączono z internetem!"
+  },
+  {
+    "key": "press_any_switch",
+    "english": "Press any button",
+    "polish": "Naciśnij dowolny przycisk"
+  },
+  {
+    "key": "hold_space_skip",
+    "english": "Hold <sprite name=Jump> to skip",
+    "polish": "Przytrzymaj <sprite name=Jump>, żeby pominąć"
+  },
+  {
+    "key": "autosave_do_not_quit",
+    "english": "This game uses an autosave feature. Do not quit or turn off the power when this icon is displayed.",
+    "polish": "Gra zapisuje postępy automatycznie. Nie wychodź z gry ani nie wyłączaj zasilania, gdy widać tę ikonę."
+  },
+  {
+    "key": "link_discord_account",
+    "english": "Link your discord account",
+    "polish": "Połącz konto Discord"
+  },
+  {
+    "key": "world_0",
+    "english": "The Beginning",
+    "polish": "Początek"
+  },
+  {
+    "key": "world_1",
+    "english": "The Training",
+    "polish": "Trening"
+  },
+  {
+    "key": "world_2",
+    "english": "The Challenge",
+    "polish": "Wyzwanie"
+  },
+  {
+    "key": "world_3",
+    "english": "The Mastering",
+    "polish": "Mistrzostwo"
+  },
+  {
+    "key": "world_4",
+    "english": "The Doubt",
+    "polish": "Zwątpienie"
+  },
+  {
+    "key": "world_5",
+    "english": "The Anger",
+    "polish": "Gniew"
+  },
+  {
+    "key": "world_6",
+    "english": "The End",
+    "polish": "Koniec"
+  },
+  {
+    "key": "world_secret_data_breach",
+    "english": "DATA BREACH",
+    "polish": "WYCIEK DANYCH"
+  },
+  {
+    "key": "world_beta_01",
+    "english": "The Comeback",
+    "polish": "Powrót"
+  },
+  {
+    "key": "world_dlc_01",
+    "english": "The Comeback",
+    "polish": "Powrót"
+  },
+  {
+    "key": "world_dlc_02",
+    "english": "The Error",
+    "polish": "Błąd"
+  },
+  {
+    "key": "world_dlc_03",
+    "english": "The Finale",
+    "polish": "Finał"
+  },
+  {
+    "key": "world_dlc_04",
+    "english": "HIM",
+    "polish": "ON"
+  },
+  {
+    "key": "interworld_00_line_00_00",
+    "english": "Alright,",
+    "polish": "Dobra,"
+  },
+  {
+    "key": "interworld_00_line_00_01",
+    "english": "By now you should have the hang of it.",
+    "polish": "Teraz już powinno ci iść jak z płatka."
+  },
+  {
+    "key": "interworld_00_line_00_02",
+    "english": "If you feel like you need more training, feel free to practice here.",
+    "polish": "Jeśli czujesz, że potrzebujesz więcej treningu, śmiało poćwicz tutaj."
+  },
+  {
+    "key": "interworld_00_line_00_03",
+    "english": "I'm sure you'll enjoy swinging around.",
+    "polish": "Na pewno spodoba ci się bujanie na haku."
+  },
+  {
+    "key": "interworld_00_line_00_04",
+    "english": "Oh one last thing before you go!",
+    "polish": "A, jeszcze jedno, zanim pójdziesz!"
+  },
+  {
+    "key": "interworld_00_line_00_05",
+    "english": "I guess that you must be wondering what is going on here...",
+    "polish": "Pewnie zastanawiasz się, co tu się właściwie dzieje..."
+  },
+  {
+    "key": "interworld_00_line_00_06",
+    "english": "But, really, the only thing you need to know is that you have to gather thoses little crystals at the end of each level.",
+    "polish": "Ale tak naprawdę musisz wiedzieć tylko tyle, że trzeba zbierać te małe kryształy na końcu każdego poziomu."
+  },
+  {
+    "key": "interworld_00_line_00_07",
+    "english": "They will help power up a portal for you to get home.",
+    "polish": "Zasilą portal, którym wrócisz do domu."
+  },
+  {
+    "key": "interworld_00_line_00_08",
+    "english": "And don't worry about me,",
+    "polish": "I nie martw się o mnie,"
+  },
+  {
+    "key": "interworld_00_line_00_09",
+    "english": "My job is to help people trapped here to escape, since I kinda asked for this fate.",
+    "polish": "Moja robota to pomagać uwięzionym tu ludziom w ucieczce, sam się o ten los trochę prosiłem."
+  },
+  {
+    "key": "interworld_00_line_00_10",
+    "english": "...",
+    "polish": "..."
+  },
+  {
+    "key": "interworld_00_line_01_00",
+    "english": "Ah<link=\"Pause(0.25f)\"></link>, hum<link=\"Pause(0.25f)\"></link>, yes the real last thing this time.",
+    "polish": "A<link=\"Pause(0.25f)\"></link>, hmm<link=\"Pause(0.25f)\"></link>, tak, tym razem naprawdę ostatnia rzecz."
+  },
+  {
+    "key": "interworld_00_line_01_01",
+    "english": "If you want to proceed, go ahead and shoot this crystal<link=\"EventTrigger(LookAtCrystal)\"></link> right here.",
+    "polish": "Jeśli chcesz iść dalej, strzel w ten kryształ<link=\"EventTrigger(LookAtCrystal)\"></link>, o tutaj."
+  },
+  {
+    "key": "interworld_00_line_01_02",
+    "english": "You'll be able to select some new level to play.",
+    "polish": "Wybierzesz sobie nowe poziomy do zagrania."
+  },
+  {
+    "key": "interworld_00_line_01_03",
+    "english": "The more levels you clear, the more crystals and the more worlds you'll unlock.",
+    "polish": "Im więcej poziomów przejdziesz, tym więcej kryształów zdobędziesz i tym więcej światów odblokujesz."
+  },
+  {
+    "key": "interworld_00_line_01_04",
+    "english": "Now go get 'em champ!",
+    "polish": "No to do dzieła, mistrzu!"
+  },
+  {
+    "key": "interworld_01_line_00_00",
+    "english": "Alright, Alright!",
+    "polish": "No proszę, no proszę!"
+  },
+  {
+    "key": "interworld_01_line_00_01",
+    "english": "You've been doing great,",
+    "polish": "Świetnie ci idzie,"
+  },
+  {
+    "key": "interworld_01_line_00_02",
+    "english": "I just hope you keep having fun until you go home.",
+    "polish": "Oby ta zabawa trwała, aż wrócisz do domu."
+  },
+  {
+    "key": "interworld_01_line_00_03",
+    "english": "Or until he finds us…",
+    "polish": "Albo aż on nas znajdzie…"
+  },
+  {
+    "key": "interworld_01_line_00_04",
+    "english": "AH I MEAN…",
+    "polish": "ZNACZY SIĘ…"
+  },
+  {
+    "key": "interworld_01_line_00_05",
+    "english": "Yeah,<link=\"Pause(0.3f)\"></link> keep having fun and let me handle the rest.",
+    "polish": "No,<link=\"Pause(0.3f)\"></link> baw się dalej, a resztę zostaw mnie."
+  },
+  {
+    "key": "interworld_01_line_00_06",
+    "english": "Mmmh…",
+    "polish": "Hmmm…"
+  },
+  {
+    "key": "interworld_01_line_00_07",
+    "english": "Actually that might come in handy for you<link=\"EventTrigger(ShowWall)\"></link>",
+    "polish": "Właściwie to może ci się przydać<link=\"EventTrigger(ShowWall)\"></link>"
+  },
+  {
+    "key": "interworld_01_line_00_08",
+    "english": "See this wall?",
+    "polish": "Widzisz tę ścianę?"
+  },
+  {
+    "key": "interworld_01_line_00_09",
+    "english": "Go head, move near it and hold <sprite name=Jump> !",
+    "polish": "Śmiało, podejdź do niej i przytrzymaj <sprite name=Jump>!"
+  },
+  {
+    "key": "interworld_01_line_00_10",
+    "english": "Voila!",
+    "polish": "Voilà!"
+  },
+  {
+    "key": "interworld_01_line_00_11",
+    "english": "Aren't you a little spider boi now?",
+    "polish": "Ale z ciebie teraz mały pajączek, co?"
+  },
+  {
+    "key": "interworld_01_line_00_12",
+    "english": "You can stick to any wall as long as you like and even <color=\"yellow\">run as if you were on the ground</color>",
+    "polish": "Możesz przyczepić się do dowolnej ściany na jak długo chcesz, a nawet <color=\"yellow\">biegać po niej jak po ziemi</color>"
+  },
+  {
+    "key": "interworld_01_line_00_13",
+    "english": "You'll also get a little speed boost when releasing jump and your double jump back.",
+    "polish": "Po puszczeniu skoku dostaniesz też mały zastrzyk prędkości i odzyskasz podwójny skok."
+  },
+  {
+    "key": "interworld_01_line_00_14",
+    "english": "Well, now that I'm saying it.",
+    "polish": "No, jak tak o tym mówię."
+  },
+  {
+    "key": "interworld_01_line_00_15",
+    "english": "Kinda sounds overpowered doesn't it?",
+    "polish": "To brzmi trochę za mocno, nie?"
+  },
+  {
+    "key": "interworld_01_line_00_16",
+    "english": "It's not like <color=green>he</color> is playing by the rules either.",
+    "polish": "Ale <color=green>on</color> też nie gra fair."
+  },
+  {
+    "key": "interworld_01_line_00_17",
+    "english": "Nevermiiind!",
+    "polish": "Nieważneee!"
+  },
+  {
+    "key": "interworld_01_line_00_18",
+    "english": "Shoot the crystal and enjoy some more levels!",
+    "polish": "Strzel w kryształ i baw się na kolejnych poziomach!"
+  },
+  {
+    "key": "interworld_02_line_00_00",
+    "english": "Hey you're back!",
+    "polish": "O, jesteś z powrotem!"
+  },
+  {
+    "key": "interworld_02_line_00_01",
+    "english": "Glad you manage to finish all these levels…",
+    "polish": "Cieszę się, że udało ci się przejść te wszystkie poziomy…"
+  },
+  {
+    "key": "interworld_02_line_00_02",
+    "english": "You're better than most people I try to help,",
+    "polish": "Radzisz sobie lepiej niż większość ludzi, którym próbuję pomóc,"
+  },
+  {
+    "key": "interworld_02_line_00_03",
+    "english": "For real, I'm happy for you!",
+    "polish": "Serio, cieszę się razem z tobą!"
+  },
+  {
+    "key": "interworld_02_line_00_04",
+    "english": "Wait",
+    "polish": "Czekaj"
+  },
+  {
+    "key": "interworld_02_line_00_05",
+    "english": "No, this isn't right, he shouldn't be that close.",
+    "polish": "Nie, coś tu nie gra, nie powinien być tak blisko."
+  },
+  {
+    "key": "interworld_02_line_00_06",
+    "english": "Hum, keep going",
+    "polish": "Hmm, graj dalej"
+  },
+  {
+    "key": "interworld_02_line_00_07",
+    "english": "I should have more info for you soon,",
+    "polish": "Niedługo powinienem mieć dla ciebie więcej informacji,"
+  },
+  {
+    "key": "interworld_02_line_00_08",
+    "english": "Just don't worry about it.",
+    "polish": "Po prostu się tym nie przejmuj."
+  },
+  {
+    "key": "interworld_03_line_00_00",
+    "english": "Ah you're here, nice.",
+    "polish": "O, jesteś, super."
+  },
+  {
+    "key": "interworld_03_line_00_01",
+    "english": "Sorry about last time,",
+    "polish": "Sorry za ostatnio,"
+  },
+  {
+    "key": "interworld_03_line_00_02",
+    "english": "I ran into a small problem but everything is fine now.",
+    "polish": "Miałem mały problem, ale już wszystko gra."
+  },
+  {
+    "key": "interworld_03_line_00_03",
+    "english": "But I feel like I haven't been truthful.",
+    "polish": "Tylko czuję, że nie byłem z tobą do końca szczery."
+  },
+  {
+    "key": "interworld_03_line_00_04",
+    "english": "You've worked your way through a couple of levels by now",
+    "polish": "Masz już za sobą sporo poziomów,"
+  },
+  {
+    "key": "interworld_03_line_00_05",
+    "english": "so I think you deserve to know a bit more about what is going on.",
+    "polish": "więc chyba zasługujesz, żeby wiedzieć trochę więcej o tym, co się tu dzieje."
+  },
+  {
+    "key": "interworld_03_line_00_06",
+    "english": "First of all",
+    "polish": "Po pierwsze"
+  },
+  {
+    "key": "interworld_03_line_00_07",
+    "english": "Obviously we are not alone here,",
+    "polish": "Jak widać, nie jesteśmy tu sami,"
+  },
+  {
+    "key": "interworld_03_line_00_08",
+    "english": "There's a third entity in this world,",
+    "polish": "W tym świecie jest ktoś trzeci,"
+  },
+  {
+    "key": "interworld_03_line_00_09",
+    "english": "His name is <color=green>NUMERO</color>",
+    "polish": "Nazywa się <color=green>NUMERO</color>"
+  },
+  {
+    "key": "interworld_03_line_00_10",
+    "english": "He is the reason you have green cubes popping left and right in levels",
+    "polish": "To przez niego na poziomach wyskakują zewsząd zielone sześciany"
+  },
+  {
+    "key": "interworld_03_line_00_11",
+    "english": "Long story short,",
+    "polish": "Krótko mówiąc,"
+  },
+  {
+    "key": "interworld_03_line_00_12",
+    "english": "He wants us both dead so HE<link=\"Pause(0.3f)\"></link> can escape out of this world",
+    "polish": "Chce nas obu zabić, żeby to ON<link=\"Pause(0.3f)\"></link> mógł uciec z tego świata"
+  },
+  {
+    "key": "interworld_03_line_00_13",
+    "english": "But I've been working hard and he shouldn't bother us too much",
+    "polish": "Ale ciężko pracowałem i nie powinien nam za bardzo przeszkadzać"
+  },
+  {
+    "key": "interworld_03_line_00_14",
+    "english": "And you worked hard too, gathering crystals so fast!",
+    "polish": "Ty też dajesz z siebie wszystko, zbierając kryształy w takim tempie!"
+  },
+  {
+    "key": "interworld_03_line_00_15",
+    "english": "So thank you for that.",
+    "polish": "Więc dzięki ci za to."
+  },
+  {
+    "key": "interworld_03_line_00_16",
+    "english": "I'll make sure we get out of this mess soon.",
+    "polish": "Postaram się, żebyśmy szybko wyplątali się z tego bagna."
+  },
+  {
+    "key": "interworld_04_line_00_00",
+    "english": "Ah you're back",
+    "polish": "O, już jesteś"
+  },
+  {
+    "key": "interworld_04_line_00_01",
+    "english": "Good job on those levels, they are getting quite tricky aren't they?",
+    "polish": "Dobra robota na tych poziomach, robią się coraz podchwytliwsze, co?"
+  },
+  {
+    "key": "interworld_04_line_00_02",
+    "english": "<color=green>Numero</color> did craft some hard ones in order to trap us in there.",
+    "polish": "<color=green>Numero</color> zbudował kilka naprawdę trudnych, żeby nas tu uwięzić."
+  },
+  {
+    "key": "interworld_04_line_00_03",
+    "english": "I've been battling with him while you where away, and I think I",
+    "polish": "Walczyłem z nim, kiedy cię nie było, i chyba"
+  },
+  {
+    "key": "interworld_04_line_00_04",
+    "english": "…",
+    "polish": "…"
+  },
+  {
+    "key": "interworld_04_line_00_05",
+    "english": "Sh<link=\"TypingSound(0.0.3f)\">iii</link><link=\"Pause(1)\"></link>t",
+    "polish": "Sz<link=\"TypingSound(0.0.3f)\">laaa</link><link=\"Pause(1)\"></link>g"
+  },
+  {
+    "key": "interworld_04_line_00_06",
+    "english": "That's him",
+    "polish": "To on"
+  },
+  {
+    "key": "interworld_04_line_00_07",
+    "english": "He found us",
+    "polish": "Znalazł nas"
+  },
+  {
+    "key": "interworld_04_line_00_08",
+    "english": "<color=green>Numero</color> found us",
+    "polish": "<color=green>Numero</color> nas znalazł"
+  },
+  {
+    "key": "interworld_04_line_01_00",
+    "english": "I found you!",
+    "polish": "Znalazłem was!"
+  },
+  {
+    "key": "interworld_04_line_02_00",
+    "english": "That's what I just said!",
+    "polish": "Przecież właśnie to powiedziałem!"
+  },
+  {
+    "key": "interworld_04_line_02_01",
+    "english": "And I'm going to send you back where you came from!",
+    "polish": "I odeślę cię tam, skąd przyszedłeś!"
+  },
+  {
+    "key": "interworld_04_line_03_00",
+    "english": "You are not getting rid of me again mo#&-#!(#&&",
+    "polish": "Nie pozbędziecie się mnie znowu, sk#&-#!(#&&"
+  },
+  {
+    "key": "interworld_04_line_04_00",
+    "english": "…",
+    "polish": "…"
+  },
+  {
+    "key": "interworld_04_line_04_01",
+    "english": "Sorry you had to hear that.",
+    "polish": "Sorry, to nie było dla twoich uszu."
+  },
+  {
+    "key": "interworld_04_line_04_02",
+    "english": "Can, hum… can you go the next crystals for me?",
+    "polish": "Możesz, hmm… możesz zebrać dla mnie kolejne kryształy?"
+  },
+  {
+    "key": "interworld_04_line_04_03",
+    "english": "We should be getting close…",
+    "polish": "Chyba już niedaleko…"
+  },
+  {
+    "key": "interworld_05_line_00_00",
+    "english": "Glad to have you back,",
+    "polish": "Dobrze, że jesteś,"
+  },
+  {
+    "key": "interworld_05_line_00_01",
+    "english": "I need your help <link=\"Pause(0.3f)\"></link>quick!",
+    "polish": "Potrzebuję twojej pomocy, <link=\"Pause(0.3f)\"></link>szybko!"
+  },
+  {
+    "key": "interworld_05_line_00_02",
+    "english": "<color=green>Numero</color> is still around, and he won't back down<link=EventTrigger(NumeroTwitch)></link>",
+    "polish": "<color=green>Numero</color> wciąż tu jest i nie odpuści<link=EventTrigger(NumeroTwitch)></link>"
+  },
+  {
+    "key": "interworld_05_line_00_03",
+    "english": "Yeah, you see the problem",
+    "polish": "No, widzisz, w czym problem"
+  },
+  {
+    "key": "interworld_05_line_00_04",
+    "english": "Go to the",
+    "polish": "Idź do"
+  },
+  {
+    "key": "interworld_05_line_00_05",
+    "english": "SHOOT THEM WITH YOUR LASER FINGER THINGY!!!",
+    "polish": "STRZELAJ DO NICH Z TEGO LASEROWEGO PALCA!!!"
+  },
+  {
+    "key": "interworld_05_line_01_00",
+    "english": "This means nothing!",
+    "polish": "To nic nie znaczy!"
+  },
+  {
+    "key": "interworld_05_line_01_01",
+    "english": "I'll break through!",
+    "polish": "Przebiję się!"
+  },
+  {
+    "key": "interworld_05_line_01_02",
+    "english": "You won't kill me so easily!",
+    "polish": "Tak łatwo mnie nie zabijecie!"
+  },
+  {
+    "key": "interworld_05_line_01_03",
+    "english": "I will",
+    "polish": "Ja jeszcze"
+  },
+  {
+    "key": "interworld_05_line_02_00",
+    "english": "You will shut your face!",
+    "polish": "Ty się zamkniesz!"
+  },
+  {
+    "key": "interworld_05_line_02_01",
+    "english": "... And don't come back!<link=\"Pause(0.5f)\"></link> Again!",
+    "polish": "... I nie wracaj!<link=\"Pause(0.5f)\"></link> Znowu!"
+  },
+  {
+    "key": "interworld_05_line_02_02",
+    "english": "... Let's get this over with",
+    "polish": "... Miejmy to z głowy"
+  },
+  {
+    "key": "interworld_05_line_02_03",
+    "english": "With <color=green>Numero</color> this close to breaking through I think you'll find more of those <color=#6C6>flying green probes</color>",
+    "polish": "Skoro <color=green>Numero</color> jest tak blisko przebicia się, spotkasz pewnie więcej <color=#6C6>latających zielonych sond</color>"
+  },
+  {
+    "key": "interworld_05_line_02_04",
+    "english": "Don't let them spot you, you'll only have a few seconds before they <color=#C66>shoot you</color>",
+    "polish": "Nie daj się im zauważyć, będziesz mieć tylko kilka sekund, zanim <color=#C66>zaczną strzelać</color>"
+  },
+  {
+    "key": "interworld_05_line_02_05",
+    "english": "They won't be able to move when you <link=Floating(1,1,1)><color=#00FFFF>Time warp</color></link> and you might even be able to dodge a laser while doing so.",
+    "polish": "Nie ruszą się, kiedy <link=Floating(1,1,1)><color=#00FFFF>spowolnisz czas</color></link>, a może nawet uda ci się wtedy uniknąć lasera."
+  },
+  {
+    "key": "interworld_05_line_02_06",
+    "english": "Come on mate, we shouldn't be far from freedom",
+    "polish": "Dawaj, stary, wolność jest już blisko"
+  },
+  {
+    "key": "interworld_06_line_00_00",
+    "english": "Once again you're back!",
+    "polish": "I znowu jesteś z powrotem!"
+  },
+  {
+    "key": "interworld_06_line_00_01",
+    "english": "We are almost done, just a few more levels and we'll be able to leave",
+    "polish": "Już prawie koniec, jeszcze kilka poziomów i będziemy mogli stąd odejść"
+  },
+  {
+    "key": "interworld_06_line_00_02",
+    "english": "<color=green>Numero</color> seems to be holding off right now, but I think he is preparing for something",
+    "polish": "<color=green>Numero</color> na razie się nie wychyla, ale chyba coś szykuje"
+  },
+  {
+    "key": "interworld_06_line_00_03",
+    "english": "He knows we are close to our goal, we can't back down now!",
+    "polish": "Wie, że jesteśmy blisko celu, nie możemy się teraz wycofać!"
+  },
+  {
+    "key": "interworld_06_line_00_04",
+    "english": "Go get'em champ, this time for real!",
+    "polish": "Do dzieła, mistrzu, tym razem naprawdę!"
+  },
+  {
+    "key": "interworld_07_line_00_00",
+    "english": "Yes, yes, yes! You did it!",
+    "polish": "Tak, tak, tak! Udało się!"
+  },
+  {
+    "key": "interworld_07_line_00_01",
+    "english": "We have enough crystals to go home!",
+    "polish": "Mamy dość kryształów, żeby wrócić do domu!"
+  },
+  {
+    "key": "interworld_07_line_00_02",
+    "english": "Let me just",
+    "polish": "Daj mi tylko"
+  },
+  {
+    "key": "interworld_07_line_01_00",
+    "english": "HERE I AM",
+    "polish": "OTO JESTEM"
+  },
+  {
+    "key": "interworld_07_line_02_00",
+    "english": "We can see that,",
+    "polish": "Widzimy,"
+  },
+  {
+    "key": "interworld_07_line_02_01",
+    "english": "and you're right where I want you!",
+    "polish": "i jesteś dokładnie tam, gdzie chciałem!"
+  },
+  {
+    "key": "interworld_07_line_03_01",
+    "english": "What?!",
+    "polish": "Co?!"
+  },
+  {
+    "key": "interworld_07_line_04_00",
+    "english": "Wow, okay, he is fighting…",
+    "polish": "Uff, dobra, szarpie się…"
+  },
+  {
+    "key": "interworld_07_line_04_01",
+    "english": "Wow, this is bad, but I can hold him fine.",
+    "polish": "Uff, niedobrze, ale dam radę go utrzymać."
+  },
+  {
+    "key": "interworld_07_line_04_02",
+    "english": "Huuuum…",
+    "polish": "Hmmmm…"
+  },
+  {
+    "key": "interworld_07_line_04_03",
+    "english": "Yeah I can't really do both…",
+    "polish": "No, nie dam rady zrobić obu rzeczy naraz…"
+  },
+  {
+    "key": "interworld_07_line_04_04",
+    "english": "I mean, I can't send us both home, I'll have to stay here to make sure he doesn't break out",
+    "polish": "To znaczy, nie odeślę do domu nas obu, muszę tu zostać i pilnować, żeby się nie wyrwał"
+  },
+  {
+    "key": "interworld_07_line_04_05",
+    "english": "We'll need a lot more power to get me out of here…",
+    "polish": "Żeby mnie stąd wyciągnąć, potrzeba o wiele więcej mocy…"
+  },
+  {
+    "key": "interworld_07_line_04_06",
+    "english": "Something close to <link=Rainbow() + Floating()>10 000</link> people like you...",
+    "polish": "Coś koło <link=Rainbow() + Floating()>10 000</link> ludzi takich jak ty..."
+  },
+  {
+    "key": "interworld_07_line_04_07",
+    "english": "But that's none of your concern,",
+    "polish": "Ale to już nie twój problem,"
+  },
+  {
+    "key": "interworld_07_line_04_08",
+    "english": "Thank you for working so hard, you've earned your freedom.",
+    "polish": "Dzięki za całą tę ciężką robotę, należy ci się wolność."
+  },
+  {
+    "key": "interworld_07_line_04_09",
+    "english": "Go ahead, I'll be fine.",
+    "polish": "Idź, poradzę sobie."
+  },
+  {
+    "key": "interworld_07_line_04_10",
+    "english": "Thanks",
+    "polish": "Dzięki"
+  },
+  {
+    "key": "interworld_08_line_00_00",
+    "english": "You... <link=\"Pause(1)\"></link>You came back!",
+    "polish": "Jesteś... <link=\"Pause(1)\"></link>Jesteś z powrotem!"
+  },
+  {
+    "key": "interworld_08_line_00_01",
+    "english": "Hum, I mean you must have really enjoyed the levels to be here.",
+    "polish": "Hmm, to znaczy, poziomy musiały ci się naprawdę spodobać, skoro tu jesteś."
+  },
+  {
+    "key": "interworld_08_line_00_02",
+    "english": "Well I guess you can have this as a reward",
+    "polish": "No to chyba możesz dostać to w nagrodę"
+  },
+  {
+    "key": "interworld_08_line_00_03",
+    "english": "This little crystal will give you access to the marathon mode.",
+    "polish": "Ten mały kryształ otworzy ci tryb maratonu."
+  },
+  {
+    "key": "interworld_08_line_00_04",
+    "english": "That won't give me much power to go home, but at least that will give you a reason to come back :)",
+    "polish": "Nie da mi zbyt wiele mocy na powrót do domu, ale przynajmniej będziesz mieć powód, żeby tu wracać :)"
+  },
+  {
+    "key": "interworld_08_line_00_05",
+    "english": "I just hope more people like you show up.",
+    "polish": "Oby zjawiło się więcej takich ludzi jak ty."
+  },
+  {
+    "key": "interworld_08_line_00_06",
+    "english": "I could really use the extra power…",
+    "polish": "Przydałoby mi się trochę więcej mocy…"
+  },
+  {
+    "key": "interworld_08_line_00_07",
+    "english": "But in the meantime, I'm glad you are here and I do enjoy the company!",
+    "polish": "Ale na razie cieszę się, że tu jesteś, i naprawdę lubię twoje towarzystwo!"
+  },
+  {
+    "key": "interworld_08_line_00_08",
+    "english": "So have fun with that marathon mode!",
+    "polish": "Baw się dobrze w trybie maratonu!"
+  },
+  {
+    "key": "dialog_gmif_intro_00",
+    "english": "Ah hello again!",
+    "polish": "O, znowu cześć!"
+  },
+  {
+    "key": "dialog_gmif_intro_01",
+    "english": "Glad you're still here.",
+    "polish": "Dobrze, że wciąż tu jesteś."
+  },
+  {
+    "key": "dialog_gmif_intro_02",
+    "english": "I found out a way to get you home! <br>All we need to do is go in the matrix",
+    "polish": "Znalazłem sposób, żeby odesłać cię do domu! <br>Musimy tylko wejść do matriksa"
+  },
+  {
+    "key": "dialog_gmif_intro_03",
+    "english": "Check it out!",
+    "polish": "Patrz!"
+  },
+  {
+    "key": "dialog_gmif_boss_intro_00_00",
+    "english": "Alright now we've done enough!",
+    "polish": "Dobra, zrobiliśmy już dość!"
+  },
+  {
+    "key": "dialog_gmif_boss_intro_00_01",
+    "english": "I even captured my nememis here <color=green>NUMERO</color> !",
+    "polish": "Złapałem nawet swojego nemezis, oto <color=green>NUMERO</color>!"
+  },
+  {
+    "key": "dialog_gmif_boss_intro_00_02",
+    "english": "Isn't he cute!?",
+    "polish": "Czy on nie jest słodki!?"
+  },
+  {
+    "key": "dialog_gmif_boss_intro_01_00",
+    "english": "If you don't know me, you clearly didn't play enough of this game...",
+    "polish": "Jeśli mnie nie znasz, to za mało grasz w tę grę..."
+  },
+  {
+    "key": "dialog_gmif_boss_intro_01_01",
+    "english": "So let me make this very clear...",
+    "polish": "Więc powiem to jasno..."
+  },
+  {
+    "key": "dialog_gmif_boss_intro_02_00",
+    "english": "<link=\"Shake(2,-1)\">I'm going to destroy you !</link>",
+    "polish": "<link=\"Shake(2,-1)\">Zniszczę cię!</link>"
+  },
+  {
+    "key": "dialog_gmif_special_ending_00",
+    "english": "Welcome to the void",
+    "polish": "Witaj w pustce"
+  },
+  {
+    "key": "dialog_gmif_special_ending_01",
+    "english": "Was the punch strong enough?",
+    "polish": "Wystarczająco mocno przywaliłem?"
+  },
+  {
+    "key": "dialog_gmif_special_ending_02",
+    "english": "I hope so...",
+    "polish": "Mam nadzieję..."
+  },
+  {
+    "key": "dialog_gmif_special_ending_03",
+    "english": "You're lucky I need more time to be fully operationnal",
+    "polish": "Masz szczęście, że potrzebuję więcej czasu, by działać na pełnych obrotach"
+  },
+  {
+    "key": "dialog_gmif_special_ending_04",
+    "english": "I think a couple of days should suffice...",
+    "polish": "Chyba wystarczy kilka dni..."
+  },
+  {
+    "key": "dialog_gmif_special_ending_05",
+    "english": "Let's say... <color=white><link=\"Rainbow()\">the 29th of October.</link></color>",
+    "polish": "Powiedzmy... <color=white><link=\"Rainbow()\">29 października.</link></color>"
+  },
+  {
+    "key": "dialog_gmif_special_ending_06",
+    "english": "<link=\"Shake()\">Now, get out of my world!</link>",
+    "polish": "<link=\"Shake()\">A teraz wynoś się z mojego świata!</link>"
+  },
+  {
+    "key": "next_world",
+    "english": "Next World",
+    "polish": "Następny świat"
+  },
+  {
+    "key": "internet_retry",
+    "english": "Connect to <br>the internet",
+    "polish": "Połącz <br>z internetem"
+  },
+  {
+    "key": "dialog_dlc_intro_00_00",
+    "english": "Hey there!",
+    "polish": "Hej!"
+  },
+  {
+    "key": "dialog_dlc_intro_00_01",
+    "english": "Glad to see you again!",
+    "polish": "Miło cię znowu widzieć!"
+  },
+  {
+    "key": "dialog_dlc_intro_00_02",
+    "english": "I've found a way to deal with Numero once and for all!",
+    "polish": "Znalazłem sposób, żeby raz na zawsze rozprawić się z Numero!"
+  },
+  {
+    "key": "dialog_dlc_intro_00_03",
+    "english": "Come with me!",
+    "polish": "Chodź ze mną!"
+  },
+  {
+    "key": "dialog_dlc_boss_intro_00_00",
+    "english": "Alright alright, now I should have enough power to deal with Numero.",
+    "polish": "No dobra, teraz powinienem mieć dość mocy, żeby rozprawić się z Numero."
+  },
+  {
+    "key": "dialog_dlc_boss_intro_00_01",
+    "english": "Hey I'm not sticking around waiting to get deleted!",
+    "polish": "Hej, nie będę tu czekać, aż mnie skasujecie!"
+  },
+  {
+    "key": "dialog_dlc_boss_intro_00_02",
+    "english": "You've played in my world without knowing what it meant for me!",
+    "polish": "Bawisz się w moim świecie i nie wiesz, co to dla mnie znaczy!"
+  },
+  {
+    "key": "dialog_dlc_boss_intro_00_03",
+    "english": "Dron has been using your successes to get more power",
+    "polish": "Dron karmił się twoimi sukcesami, żeby zyskać moc"
+  },
+  {
+    "key": "dialog_dlc_boss_intro_00_04",
+    "english": "While I've been using your mistakes!",
+    "polish": "A ja twoimi błędami!"
+  },
+  {
+    "key": "dialog_dlc_boss_intro_00_05",
+    "english": "AND NOW YOU'LL FACE YOUR FAILURE!",
+    "polish": "A TERAZ ZMIERZYSZ SIĘ Z WŁASNĄ PORAŻKĄ!"
+  },
+  {
+    "key": "dialog_ending_credits_00_00",
+    "english": "Hey",
+    "polish": "Hej, w końcu się obudziłeś!",
+    "context": "you're finally awake!"
+  },
+  {
+    "key": "dialog_ending_credits_00_01",
+    "english": "You managed to beat him...",
+    "polish": "Udało ci się go pokonać..."
+  },
+  {
+    "key": "dialog_ending_credits_00_02",
+    "english": "Thank you...",
+    "polish": "Dziękuję..."
+  },
+  {
+    "key": "dialog_ending_credits_00_03",
+    "english": "You must have a lot of questions and after all you've done I think I owe you some explaining.",
+    "polish": "Pewnie masz mnóstwo pytań, a po tym wszystkim chyba jestem ci winien wyjaśnienia."
+  },
+  {
+    "key": "dialog_ending_credits_00_04",
+    "english": "But I'm afraid it you'll be disappointed.",
+    "polish": "Ale obawiam się, że cię rozczaruję."
+  },
+  {
+    "key": "dialog_ending_credits_00_05",
+    "english": "The truth is...<link=\"Pause\"></link> I was feeling lonely.",
+    "polish": "Prawda jest taka...<link=\"Pause\"></link> że czułem się samotny."
+  },
+  {
+    "key": "dialog_ending_credits_00_06",
+    "english": "I created all these levels to entertain people and give them some challenge.",
+    "polish": "Stworzyłem te wszystkie poziomy, żeby bawić ludzi i rzucać im wyzwanie."
+  },
+  {
+    "key": "dialog_ending_credits_00_07",
+    "english": "But no one could ever finish them",
+    "polish": "Ale nikt nigdy nie dał rady ich przejść"
+  },
+  {
+    "key": "dialog_ending_credits_00_08",
+    "english": "So I created you! The perfect runner!",
+    "polish": "Więc stworzyłem ciebie! Idealnego biegacza!"
+  },
+  {
+    "key": "dialog_ending_credits_00_09",
+    "english": "And you did it! You completed the hardest levels and you even defeated my failed experiment!",
+    "polish": "I udało ci się! Przejść najtrudniejsze poziomy, a nawet pokonać mój nieudany eksperyment!"
+  },
+  {
+    "key": "dialog_ending_credits_00_10",
+    "english": "Ah, hum yes, I might have made some errors before making you...",
+    "polish": "A, hmm, tak, może popełniłem parę błędów, zanim cię stworzyłem..."
+  },
+  {
+    "key": "dialog_ending_credits_00_11",
+    "english": "But I just wanted to have someone that liked grappling hooks as much as I did.",
+    "polish": "Ale chciałem tylko mieć kogoś, kto kocha haki z linką tak jak ja."
+  },
+  {
+    "key": "dialog_ending_credits_00_12",
+    "english": "I'm sorry if that's not the twisted grandiose ending you were expecting...",
+    "polish": "Przepraszam, że to nie jest jakieś pokręcone, epickie zakończenie..."
+  },
+  {
+    "key": "dialog_ending_credits_00_13",
+    "english": "But I'm happy that you came this far!",
+    "polish": "Ale cieszę się, że udało ci się zajść tak daleko!"
+  },
+  {
+    "key": "dialog_ending_credits_00_14",
+    "english": "Congratulation!",
+    "polish": "Gratulacje!"
+  },
+  {
+    "key": "dialog_ending_credits_00_15",
+    "english": "Ah yes, where are we?",
+    "polish": "A, no tak, gdzie jesteśmy?"
+  },
+  {
+    "key": "dialog_ending_credits_00_16",
+    "english": "This place is just a small world I made to unload and relax a bit",
+    "polish": "To tylko mały świat, który zrobiłem, żeby odsapnąć i trochę się zrelaksować"
+  },
+  {
+    "key": "dialog_ending_credits_00_17",
+    "english": "There isn't much to do but after all that stress I hope that you'll be able to rest with me a little bit.",
+    "polish": "Nie ma tu wiele do roboty, ale po całym tym stresie mam nadzieję, że odpoczniesz tu ze mną chwilę."
+  },
+  {
+    "key": "dialog_ending_credits_00_18",
+    "english": "Come and enjoy the sunset with me!",
+    "polish": "Chodź, popatrzymy razem na zachód słońca!"
+  },
+  {
+    "key": "dialog_ending_credits_00_19",
+    "english": "Oh and Thank you for playing my game!",
+    "polish": "A, i dziękuję za granie w moją grę!"
+  },
+  {
+    "key": "dialog_ending_credits_00_20",
+    "english": ";)",
+    "polish": ";)"
+  },
+  {
+    "key": "Alright,  ",
+    "english": "Alright,",
+    "polish": "Dobra,",
+    "context": "klucz = tekst angielski (dialog bez wpisu w CSV)"
+  },
+  {
+    "key": "By now you should have the hang of it. ",
+    "english": "By now you should have the hang of it.",
+    "polish": "Teraz już powinno ci iść jak z płatka.",
+    "context": "klucz = tekst angielski (dialog bez wpisu w CSV)"
+  },
+  {
+    "key": "If you feel like you need more training, feel free to train here. ",
+    "english": "If you feel like you need more training, feel free to train here.",
+    "polish": "Jeśli czujesz, że potrzebujesz więcej treningu, śmiało poćwicz tutaj.",
+    "context": "klucz = tekst angielski (dialog bez wpisu w CSV)"
+  },
+  {
+    "key": "I'm sure you'll enjoy swinging around.",
+    "english": "I'm sure you'll enjoy swinging around.",
+    "polish": "Na pewno spodoba ci się bujanie na haku.",
+    "context": "klucz = tekst angielski (dialog bez wpisu w CSV)"
+  },
+  {
+    "key": "Oh one last thing before you go! ",
+    "english": "Oh one last thing before you go!",
+    "polish": "A, jeszcze jedno, zanim pójdziesz!",
+    "context": "klucz = tekst angielski (dialog bez wpisu w CSV)"
+  },
+  {
+    "key": "I guess that you must be wondering what is going on here... ",
+    "english": "I guess that you must be wondering what is going on here...",
+    "polish": "Pewnie zastanawiasz się, co tu się właściwie dzieje...",
+    "context": "klucz = tekst angielski (dialog bez wpisu w CSV)"
+  },
+  {
+    "key": "But, really, the only thing you need to know is that you have to gather thoses little crystals. ",
+    "english": "But, really, the only thing you need to know is that you have to gather thoses little crystals.",
+    "polish": "Ale tak naprawdę musisz wiedzieć tylko tyle, że trzeba zbierać te małe kryształy.",
+    "context": "klucz = tekst angielski (dialog bez wpisu w CSV)"
+  },
+  {
+    "key": "I know it sounds suspicious, but bear with me for a second. ",
+    "english": "I know it sounds suspicious, but bear with me for a second.",
+    "polish": "Wiem, że to brzmi podejrzanie, ale posłuchaj mnie przez chwilę.",
+    "context": "klucz = tekst angielski (dialog bez wpisu w CSV)"
+  },
+  {
+    "key": "They will help power up this portal and you'll be able to return home. ",
+    "english": "They will help power up this portal and you'll be able to return home.",
+    "polish": "Zasilą ten portal, a wtedy wrócisz do domu.",
+    "context": "klucz = tekst angielski (dialog bez wpisu w CSV)"
+  },
+  {
+    "key": "My job is to help people trapped here to escape. ",
+    "english": "My job is to help people trapped here to escape.",
+    "polish": "Moja robota to pomagać uwięzionym tu ludziom w ucieczce.",
+    "context": "klucz = tekst angielski (dialog bez wpisu w CSV)"
+  },
+  {
+    "key": "And don't worry about me, I kinda asked for this fate. ",
+    "english": "And don't worry about me, I kinda asked for this fate.",
+    "polish": "I nie martw się o mnie, sam się o ten los trochę prosiłem.",
+    "context": "klucz = tekst angielski (dialog bez wpisu w CSV)"
+  },
+  {
+    "key": "Ah, hum, yes the real last thing this time. ",
+    "english": "Ah, hum, yes the real last thing this time.",
+    "polish": "A, hmm, tak, tym razem naprawdę ostatnia rzecz.",
+    "context": "klucz = tekst angielski (dialog bez wpisu w CSV)"
+  },
+  {
+    "key": "If you want to proceed, go ahead and shoot this crystal<link=\"EventTrigger(LookAtCrystal)\"></link> right here. ",
+    "english": "If you want to proceed, go ahead and shoot this crystal<link=\"EventTrigger(LookAtCrystal)\"></link> right here.",
+    "polish": "Jeśli chcesz iść dalej, strzel w ten kryształ<link=\"EventTrigger(LookAtCrystal)\"></link>, o tutaj.",
+    "context": "klucz = tekst angielski (dialog bez wpisu w CSV)"
+  },
+  {
+    "key": "You'll be able to select a level to play. ",
+    "english": "You'll be able to select a level to play.",
+    "polish": "Wybierzesz sobie poziom do zagrania.",
+    "context": "klucz = tekst angielski (dialog bez wpisu w CSV)"
+  },
+  {
+    "key": "The more levels you clear, the more crystals and the more worlds you'll unlock. ",
+    "english": "The more levels you clear, the more crystals and the more worlds you'll unlock.",
+    "polish": "Im więcej poziomów przejdziesz, tym więcej kryształów zdobędziesz i tym więcej światów odblokujesz.",
+    "context": "klucz = tekst angielski (dialog bez wpisu w CSV)"
+  },
+  {
+    "key": "Now go get 'em champ! ",
+    "english": "Now go get 'em champ!",
+    "polish": "No to do dzieła, mistrzu!",
+    "context": "klucz = tekst angielski (dialog bez wpisu w CSV)"
+  }
+]

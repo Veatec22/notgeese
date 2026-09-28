@@ -1,0 +1,46 @@
+# Holy Shoot: groups for the review workspace.
+# Format: docs/workspace.md.
+#
+# Groups follow text tables (namespace). The empty namespace is widget texts with
+# hash keys, with no hint of which screen they belong to.
+
+format: 1
+
+groups:
+  - id: menu
+    name: Menu i interfejs
+  - id: settings
+    name: Ustawienia, sterowanie i pad
+  - id: tutorials
+    name: Samouczki i interakcje
+  - id: characters
+    name: Postacie, zdolności i kwestie
+  - id: weapons
+    name: Broń i cechy broni
+  - id: perks
+    name: Atuty
+  - id: challenges
+    name: Wyzwania
+  - id: intro
+    name: Intro i teksty promocyjne
+  - id: widgets
+    name: Widgety (klucze bez tabeli)
+
+rules:
+  - {group: menu, namespace: LOC_PVD, match: '.'}
+  - {group: menu, namespace: ST_UITexts, match: '.'}
+  - {group: menu, namespace: ST_POIS, match: '.'}
+  - {group: settings, namespace: ST_Settings, match: '.'}
+  - {group: settings, namespace: ST_Inputs, match: '.'}
+  - {group: settings, namespace: ST_Gamepad, match: '.'}
+  - {group: tutorials, namespace: ST_Tutorials, match: '.'}
+  - {group: tutorials, namespace: ST_Interactions, match: '.'}
+  - {group: characters, namespace: ST_Voicelines, match: '.'}
+  - {group: characters, namespace: ST_Character_Desc_Abilities, match: '.'}
+  - {group: weapons, namespace: ST_Weapons, match: '.'}
+  - {group: weapons, namespace: ST_WeaponPassives, match: '.'}
+  - {group: perks, namespace: ST_Perks, match: '.'}
+  - {group: challenges, namespace: ST_Challanges, match: '.'}
+  - {group: intro, namespace: ST_IntroCutScene, match: '.'}
+  - {group: intro, namespace: ST_PromotionalTexts, match: '.'}
+  - {group: widgets, match: '.'}

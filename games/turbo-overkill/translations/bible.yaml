@@ -1,0 +1,238 @@
+# Turbo Overkill bible: facts with sources.
+
+sources:
+  - id: keys
+    description: The `term` field in TurboVoices, e.g. vo_e3m1_7_syn; speaker in the key suffix.
+  - id: cast
+    description: Voice cast (SYN, Patricia Summersett; The Exec, DB Cooper, actress)
+    url: https://english-voice-over.fandom.com/wiki/Turbo_Overkill_(2023)
+  - id: dbcooper
+    description: DB Cooper's bio with feminine pronouns
+    url: https://www.thegdex.com/speakers-2025/db-cooper
+  - id: ru
+    description: The game's Russian table (work/ref-ru.json), past-tense gender; a hint
+  - id: text
+    description: The game's original text, pronouns and address about a character
+
+characters:
+  - id: samm
+    name: S.A.M.M.
+    gender: m
+    key: '^TurboVoices vo_.*_samm$'
+    addresses_player: pan ("sir")
+    register: polite, dry British humor, rare swearing for effect
+    source: [keys, ru, text]
+    note: '"Think of him as your mom, dad…" (mom''s recording); RU "я знал".'
+  - id: syn
+    name: SYN
+    gender: f
+    key: '^TurboVoices vo_.*_syn$'
+    addresses_player: ty
+    register: grandiose, godlike, no profanity
+    declension: indeclinable ("bez SYN", "SYN pochłonęła"); "wirus SYN", "program SYN, który…"
+    source: [cast, ru, text]
+    note: RU "я пришла"; "protect your mother"; S.A.M.M. says "her", "madame".
+  - id: exec
+    name: Dyrektor
+    gender: f
+    key: '^TurboVoices vo_.*_exec$'
+    addresses_player: ty ("kid")
+    register: corporate hustler, lots of swearing
+    source: [cast, dbcooper, text]
+    note: Ripper calls her "boss lady". Label "Dyrektor" stays (noun for either gender).
+  - id: maw
+    name: Maw
+    gender: m
+    key: '^TurboVoices vo_.*_maw$'
+    addresses_player: ty
+    register: brutal, mocking, later deranged
+    declension: Mawa, Mawem, Mawowi
+    source: [keys, ru, text]
+  - id: ripper
+    name: Ripper
+    gender: f
+    key: '^TurboVoices vo_.*_ripper$'
+    addresses_player: ty
+    register: psychopathic, flirty, vulgar
+    declension: indeclinable (feminine name ending in a consonant)
+    source: [text]
+    note: '"Ripper, bless her heart" (the Exec''s recording). RU "я убил" is an error of the Russian version.'
+  - id: jazz
+    name: Jazz
+    gender: m
+    key: '^TurboVoices vo_.*_jazz$'
+    addresses_player: ty
+    source: [text]
+    note: '"Gotta assume he’s been mulched" (S.A.M.M. about Jazz).'
+  - id: doc
+    name: Doktor (dr Nyx)
+    gender: m
+    key: '^TurboVoices vo_.*_doc$'
+    addresses_player: ty
+    source: [text]
+    note: '"He kept himself a little backup copy" (the Exec about the Doc).'
+  - id: captain
+    name: Kapitan (Cynobrowy Front)
+    gender: m
+    key: '^TurboVoices vo_.*_captain$'
+    addresses_player: ty ("son")
+    source: [text]
+    note: The sergeant answers the captain "It is, sir".
+  - id: johnny
+    name: Johnny Turbo (niemy gracz)
+    gender: m
+    declension: Johnny'ego, Johnny'emu; "Turbo" indeclinable
+    source: [text]
+
+terms:
+  - en: bio-?cores?
+    pl: biordzeń
+    forms: [biordz]
+    source: decision
+    note: one word declined like "rdzeń"; "megabiordzeń" for mega biocore.
+  - en: Street Cleaners?
+    pl: czyściciel ulic
+    forms: [czyściciel]
+    source: decision
+  - en: Regulators?
+    pl: Regulator
+    forms: [regulator]
+    source: decision
+    note: police formation name, capitalized.
+  - en: Vermill?ion
+    pl: Cynobrowy Front
+    forms: [cynobrow]
+    source: decision
+  - en: TitanCell
+    pl: ogniwo Tytana
+    forms: [ogniw]
+    source: decision
+  - en: chainsaw leg
+    pl: piłonoga
+    forms: [piłonog]
+    source: decision
+  - en: Artifact[- ]Zero
+    pl: Artefakt Zero
+    forms: [artefak]
+    source: decision
+  - en: star ?ports?
+    pl: kosmoport
+    forms: [kosmoport]
+    source: decision
+  - en: shuttles?
+    pl: wahadłowiec
+    forms: [wahadłow]
+    source: decision
+  - en: augment(?:s|ation|ations)?
+    pl: wszczep
+    forms: [wszczep]
+    source: decision
+    note: established in Polish cyberpunk.
+  - en: contingency
+    pl: plan awaryjny
+    forms: [awaryjn]
+    source: decision
+    note: in the plot it's a device; "urządzenie awaryjne" where the object is meant.
+  - en: tethers?
+    pl: macka
+    forms: [mack]
+    source: decision
+  - en: scramblers?
+    pl: zagłuszacz
+    forms: [zagłusz]
+    source: decision
+  - en: Zhen
+    pl: zhen
+    forms: [zhen]
+    source: decision
+  - en: Teratek HQ
+    pl: siedziba Teratek
+    forms: [siedzib]
+    source: decision
+  - en: Codex|Indodex
+    pl: infodeks
+    forms: [infodeks, codex, kodeks]
+    source: decision
+  - en: dash
+    pl: zryw
+    forms: [zryw, dash]
+    source: decision
+
+keep_english:
+  - Paradise
+  - Vector-4
+  - Teratek
+  - TeraTek
+  - Johnny
+  - Turbo
+  - Maw
+  - Ripper
+  - Jazz
+  - S.A.M.M.
+  - Los Haven
+  - Waster
+  - Boomer
+  - Twincendiary
+  - Telefragger
+  - Instagibber
+  - Minigun
+  - Syntaur
+  - Syntek
+  - TURBO OVERKILL
+  - Turbo Overkill
+  - Steam Deck
+  - OK
+  - Syn
+  - Re-Syn
+  - Exodus
+  - Inferno
+  - Popcorn
+  - Telefrag
+  - Instagib
+  - Gamma
+  - HUD
+  - Start
+  - Restart
+  - Region
+  - Buzby
+  - Logan
+  - Psst
+  - Hahahaha
+  - Ahahahaha
+  - Apogee Entertainment
+
+settings:
+  dialog_key: '^TurboVoices (?:vo|combat)_'
+  max_line: 42
+
+ignore:
+  - check: address
+    key: 'vo_e3m1_(14|19)_samm$'
+    reason: S.A.M.M. speaks to SYN here, not Johnny.
+  - check: terms
+    key: 'augment_chegg_(short)?desc$'
+    reason: the "Piłonoga" item description; "noga z piłą" explains the name on purpose.
+  - check: terms
+    key: 'vo_e1m8_17_exec$|vo_e1m4_6_samm$|vo_e1m7_5_samm$|vo_e2m8_16_exec$'
+    reason: term replaced by a pronoun or "urządzenie", per the line's context.
+  - check: terms
+    key: 'infodex_log_doc1_desc$'
+    reason: '"augment" as a verb ("ulepszające ciało").'
+  - check: english
+    key: 'jukebox_|credits_'
+    reason: song titles and company names stay original.
+  - check: typography
+    key: 'jukebox_'
+    reason: quotes follow the original; title unchanged.
+  - check: consistency
+    key: 'hitmarker|Hold the line|hold_the|secret_desc_orbit|vo_e3m3_36_combat|mtoggle_low|restart$|endtally|shop_(exit|leave|back)|workshopbrowser_rateleave|conf_editor4|character_syn|TurboStrings syn$|vo_e3m8_(5|16)_maw|combat_jazz_flinch0[456]|mtoggle_head|augmentcategoryalt_head|outskirts|texbrowser_c6|skilldesc3|menu_cs_[17]|cd_start|credit_char9|buzby1_title|codex_stimpack|menu_disp|menu_return'
+    reason: differences come from context (sound vs marker, setting kind, caps, character label) or differ only in case.
+  - check: consistency
+    key: 'ammo_shells$|codex_shells$'
+    reason: the ammo counter has short "Naboje", the infodex full "Naboje do strzelby".
+  - check: capitals
+    key: 'jukebox_ripper$|editor_publishtosteam$|credit_char7$'
+    reason: proper names (song title, Warsztat Steam, Radio Paradise).
+  - check: consistency
+    key: 'coop_prompt_(create|join)roomfailed$'
+    reason: source error; the "join" entry says "Create Room Failed"; PL follows the key.

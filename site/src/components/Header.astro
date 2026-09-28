@@ -1,0 +1,34 @@
+---
+import GooseMark from './GooseMark.astro';
+import Icon from './Icon.astro';
+import ThemeSwitch from './ThemeSwitch.astro';
+import { withBase } from '../lib/url';
+---
+
+<header class="ng-header">
+  <a class="ng-brand" href={withBase("/")}>
+    <GooseMark class="ng-brand-mark" />
+    <span class="ng-brand-name"><span class="ng-brand-not">Not</span> Geese</span>
+  </a>
+  <nav class="ng-nav ng-label" aria-label="Główna">
+    <a class="ng-nav-button" href={withBase("/#faq")} data-faq-link aria-label="Częste pytania" title="Częste pytania">
+      <Icon name="info" size={18} />
+    </a>
+    <ThemeSwitch />
+    <a class="ng-nav-button" href="https://github.com/Veatec22/notgeese" target="_blank" rel="noopener" aria-label="Repozytorium na GitHubie">
+      <Icon name="github" size={18} />
+    </a>
+  </nav>
+</header>
+
+<script>
+  // Scrolls to the FAQ without adding #faq to the URL. The href stays for no-JS.
+  const link = document.querySelector<HTMLAnchorElement>('[data-faq-link]');
+  link?.addEventListener('click', (event) => {
+    const faq = document.getElementById('faq');
+    if (!faq) return;
+    event.preventDefault();
+    const smooth = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    faq.scrollIntoView({ behavior: smooth ? 'smooth' : 'auto' });
+  });
+</script>

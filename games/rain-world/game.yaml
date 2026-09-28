@@ -1,0 +1,30 @@
+slug: rain-world
+title: Rain World
+version: "0.1"
+entries: { done: 4913, total: 4913 }
+tested: partial
+engine: Unity 2020.3.45 (Mono), wbudowany BepInEx 5.4.17 i system modów Remix
+approach: Mod Remix z pluginem, który dodaje do gry osobny język „POLSKI”. Polskie teksty leżą w folderze moda w formacie samej gry; fonty gry mają polskie litery. Żaden plik gry nie jest podmieniany, a paczka nie niesie BepInEksa — gra ma własny.
+scope: Całość z dodatkami Downpour i The Watcher — menu, opcje, Remix, Wyprawy, podpowiedzi, nazwy regionów i stworzeń, rozmowy z iteratorami, odczyty pereł, echa, czatlogi i transmisje oraz komentarz twórców. Po angielsku zostają grafiki z napisami, napisy końcowe i ukryta minigra Inv.
+stores:
+  gog: https://www.gog.com/en/game/rain_world
+  steam: https://store.steampowered.com/app/312520/
+download:
+  kind: zip
+  file: Rain-World-PL-0.1.zip
+  bytes: 357243
+build_input:
+  store: gog
+  gog_build_id: '59599002084023645'
+  version: v1.11.8
+  unity: 2020.3.45
+tested_on:
+  - store: gog
+    version: v1.11.8
+test_notes: Vertical confirmed in game (menus, options, POLSKI language, start of the Outskirts). Full translation after independent review built and installed; conversations, chatlogs and developer commentary await the in-game test.
+quote:
+  text:
+  source:
+steam_appid: 312520
+gallery: [2, 3, 5, 9, 8]
+year: 2017

@@ -1,0 +1,222 @@
+sources:
+  - id: keys
+    description: A dialogue key ends with the speaker and line number, e.g. D_0_Walkie_1_PUPPY_1.
+  - id: ru
+    description: The game's Russian sheet (RU_DIALOGUES); past-tense gender, place-name forms.
+  - id: es
+    description: The game's Spanish sheet; gender in character titles (LA ANCIANA).
+  - id: en
+    description: The game's English text (pronouns, family relations).
+
+characters:
+  - id: laika
+    name: Laika
+    gender: f
+    key: '_LAIKA_\d+$'
+    addresses_player: '-'
+    register: rough, ironic, swears; to her mother "matko", to her daughter "kochanie"
+    declension: 'Laika, Laiki, Laice; direct address in nominative "Laika"; Laika also addresses others in nominative ("Hilda", "Jakob"). Deliberate vocative exceptions in other characters: Hilda "słodka Laiko", Maya "Avo", "Mayo" (the miner), ritual "bracie Jakobie"'
+    source: [keys, ru, en]
+  - id: puppy
+    name: Puppy
+    gender: f
+    key: '_PUPPY_\d+$'
+    register: small child, "mamusiu"
+    declension: indeclinable (Puppy, do Puppy)
+    source: [keys, en]
+    note: Laika's daughter; name kept, as in ES and RU
+  - id: maya
+    name: Maya
+    gender: f
+    key: '_MAYA_\d+$'
+    register: hard, war past
+    declension: Maya, Mai, Mayę
+    source: [keys, en]
+    note: Laika's mother, Puppy's grandmother
+  - id: jakob
+    name: Jakob
+    gender: m
+    key: '_JAKOB_\d+$'
+    declension: Jakob, Jakoba; address "Jakob", ritually "bracie Jakobie"
+    source: [keys, en]
+    note: like a brother to Laika, "wujek" to Puppy; Poochie's father
+  - id: chief
+    name: Starsza
+    gender: f
+    key: '_CHIEF_\d+$'
+    register: elevated, village leader
+    source: [ru, es, en]
+    note: 'EN "THE ELDER" with non-binary "ey/em/eir" (D_B_Carey_AfterMissions3, Q_D_1_Mines_BackHome); RU "я слышала", ES "LA ANCIANA": a woman. Decision: feminine like RU/ES, Polish games have no established non-binary form'
+  - id: poochie
+    name: Poochie
+    gender: m
+    declension: Poochie, Poochiego, Poochiemu
+    source: [en]
+
+  - {id: shaza, name: Shaza, gender: f, key: '_SHAZA_\d+$', register: 'warm, technician; to Laika "kochana" (EN "hon")', source: [keys, ru]}
+  - {id: roy, name: Roy, gender: m, key: '_CAPTAIN_\d+$', register: 'nicknames Laika "radiowcu" but uses feminine forms for her', source: [ru]}
+  - {id: orella, name: Orella, gender: f, key: '_ORELLA_\d+$', source: [ru, en]}
+  - {id: primo, name: Primo, gender: m, key: '_PRIMO_\d+$', register: 'plays both sides of a conversation: "pytasz mnie", "mówię"', source: [en]}
+  - {id: pluck, name: Pluck, gender: m, key: '_INSIDER_\d+$', register: 'Renegade Bird, a kid; "Tss"', source: [ru]}
+  - {id: hectist, name: Hektystka, gender: f, key: '_ANARCHIST_\d+$', register: 'Chaos anarchist; calls Laika "zakuty łeb" (EN bonehead)', source: [en]}
+  - {id: unae, name: Unae, gender: m, key: '_UNDERTAKER_\d+$', source: [en, es], note: 'undertaker; EN "he" (Molly), ES "el enterrador"; RU has a woman; EN followed'}
+  - {id: kris, name: Kris, gender: f, key: '_COOK_\d+$', register: '"Rzecz w tym"', source: [ru]}
+  - {id: carey, name: Carey, gender: f, key: '_CAREY_\d+$', register: '"cholernie pewna"; mocks Laika by swapping vowels for "i"', source: [en]}
+  - {id: zooey, name: Zooey, gender: f, key: '_BLACKSMITH_\d+$', register: '"Miażdżąco!", to Laika "żołnierzu"', source: [en]}
+  - {id: maniu, name: Maniu, gender: f, key: '_SHOPKEEPER_\d+$', register: '"Moja najdroższa przyjaciółko"', source: [en]}
+  - {id: kidgutter, name: Kidgutter, gender: m, key: '_KIDGUTTER_\d+$', note: 'bird child-captain (ES "Soy un niño")', source: [es]}
+  - {id: boo, name: Boo, gender: m, source: [ru]}
+  - {id: kai, name: Kai, gender: m, key: '_GUITAR_\d+$', source: [ru]}
+  - {id: minor-women, name: 'Fogg, Gusto, Rollo, Fernidu, Beícoli, Camilla, Dalia, Mina, Gunda, Hilda, Molly, Lewis, Tressie, Pebble, górniczka', gender: f, source: [en, ru]}
+  - {id: minor-men, name: 'Jakob, Han, Qwota, Borden, Petey, Alfredo, Herman, Inok, Walterio, Trook, Lee', gender: m, source: [en, ru]}
+
+terms:
+  - en: Birds
+    pl: Ptaki
+    forms: [ptak, ptac, ptasi]
+    source: en
+    note: capitalized as in the original; name of the enemy empire
+  - en: viscera
+    pl: wnętrzności
+    forms: [wnętrznoś]
+    source: decision
+    note: currency; singular "wnętrzność" exists, so the numeral with {0} always agrees (2, 5, 22 wnętrzności)
+  - en: Viscera Sack
+    pl: worek wnętrzności
+    forms: [worek, work]
+    source: decision
+  - en: bone memorial
+    pl: kościana kapliczka
+    forms: [kaplicz]
+    source: decision
+    note: checkpoint; the Birds' "memorial statues" are separate "pomniki"
+  - en: bike
+    pl: motor
+    forms: [motor]
+    source: decision
+    note: colloquial for motorcycle, fits the register
+  - en: walkie
+    pl: krótkofalówka
+    forms: [krótkofalów]
+    source: decision
+  - en: dash
+    pl: zryw
+    forms: [zryw]
+    source: decision
+  - en: bullet time
+    pl: spowolnienie
+    forms: [spowoln]
+    source: decision
+  - en: war machine
+    pl: machina wojenna
+    forms: [machin]
+    source: decision
+  - en: A Hundred Hungry Beaks
+    pl: Sto Głodnych Dziobów
+    forms: [głodn]
+    source: decision
+  - en: blueprint
+    pl: projekt
+    forms: [projekt]
+    source: decision
+  - en: Wastelands
+    pl: Pustkowia
+    forms: [pustkow]
+    source: decision
+  - en: 'Where (We|All|Birds|Rock|Water|Our|the|Doom|Rust|Iron|Mother|Shaza|Music|Other|They|Playing|Chaos|I)\b'
+    pl: 'Tam, Gdzie …'
+    forms: [gdzie, skąd]
+    source: [ru]
+    note: place names as in RU ("Там, Где Мы Живём"); inside a sentence "tam, Gdzie Żyjemy"
+
+  - en: Grim Biker
+    pl: Ponura Motocyklistka
+    forms: [ponur]
+    source: decision
+    note: plays on "Ponury Żniwiarz"
+  - en: bonehead
+    pl: zakuty łeb
+    forms: [zakut]
+    source: decision
+    note: the Hectist's nickname; joins "blockhead" with the bone helmet and the bike
+  - en: Hectist
+    pl: Hektystka / hektystyczny
+    forms: [hektyst]
+    source: decision
+  - en: the Egg
+    pl: Jajo
+    forms: [jaj]
+    source: decision
+  - en: Renegades
+    pl: Renegaci
+    forms: [renegat]
+    source: decision
+  - en: heartglaze
+    pl: sercolśń
+    forms: [sercolś]
+    source: decision
+    note: neologism modeled on a flower name
+  - en: Wastelanders
+    pl: Pustkowianie
+    forms: [pustkowian]
+    source: decision
+  - en: Undernest
+    pl: Podgniazdo
+    forms: [podgnie, podgniazd]
+    source: decision
+  - en: Floating City
+    pl: Latające Miasto
+    forms: [latając]
+    source: decision
+  - en: funerary friend
+    pl: pogrzebowa przyjaciółka
+    forms: [pogrzebow]
+    source: decision
+
+  - en: Closure (quest title)
+    pl: Pożegnanie
+    forms: [pożegna]
+    source: user
+    note: 'rejected "Zamknięcie" (calque), "Domknięcie"'
+  - en: Where We Say Who (credits zone)
+    pl: Tam, Gdzie Mówimy, Kto Jest Kim
+    forms: [kto jest kim]
+    source: user
+    note: 'rejected "Tam, Gdzie Mówimy, Kto" (cut off), "Tam, Gdzie Wymieniamy Imiona"'
+  - en: 'PUSH, YOU PUSSY!'
+    pl: 'PRZYJ, CIPO!'
+    forms: [cipo]
+    source: user
+    note: 'rejected "CIOTO" (homophobic slur), "MIĘCZAKU"'
+
+profanity:
+  source: user
+  rule: 'strengthen places weaker than EN ("Nie pierdol" for "Don''t fuck with me", "wydymasz" for "fuck me over"); lines stronger than EN stay ("robi mnie w chuja", "skurwysyny"); leveling down rejected'
+
+keep_english:
+  - Laika
+  - Puppy
+  - Poochie
+  - Jakob
+  - Maya
+  - OK
+  - DUALSHOCK
+  - DualSense
+  - Carajillo
+  - Espeto
+  - Arepa
+  - Roy
+  - Shaza
+  - Primo
+  - Orella
+  - Pluck
+  - Kidgutter
+
+settings:
+  dialog_key: '^D_'
+  max_line: 60
+
+ignore:
+  - check: gender
+    key: 'D_S_PlantSeed_Briefing_PRIMO_2|D_3_TheBigTree_Primo_Undone2_PRIMO_4|D_3_TheBigTree_Primo_Complete_PRIMO_1'
+    reason: Primo quotes Laika ("pytasz mnie"), so the feminine form is correct

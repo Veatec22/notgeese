@@ -1,0 +1,241 @@
+# Somber Echoes bible: facts with sources.
+sources:
+- id: game
+  description: Original Dialog, Journal, StringTables and Updated*.locres from GOG build 59160173690323092.
+- id: user-notes
+  description: '2026-09-22: vertical perfect; Polish must be a separate language, not under English.'
+characters:
+- id: adrestia
+  name: Adrestia
+  gender: f
+  source:
+  - game
+  note: Dialog/TheFracture1.1; protagonist, Harmonia's sister.
+- id: harmonia
+  name: Harmonia
+  gender: f
+  source:
+  - game
+  note: Dialog/TheFracture1.2; Adrestia's sister.
+- id: aether
+  name: Eter
+  gender: m
+  source:
+  - game
+  note: Dialog/EnterAether1.1; Aether.
+- id: nyx
+  name: Nyks
+  gender: f
+  source:
+  - game
+  note: Dialog/EnterNyx1.1; Nyx, goddess of night.
+- id: hephaestus
+  name: Hefajstos
+  gender: m
+  source:
+  - game
+  note: Dialog/HephaestusTraitorFull; Hephaestus, sculptor and smith.
+- id: artemis
+  name: Artemida
+  gender: f
+  source:
+  - game
+  note: Dialog/ArtemisMissing; Artemis, researcher.
+- id: poseidon
+  name: Posejdon
+  gender: m
+  source:
+  - game
+  note: Dialog/PoseidonSpooked; Poseidon, scientist.
+- id: ares
+  name: Ares
+  gender: m
+  source:
+  - game
+  note: Dialog/AresDefeated1.2; guard commander.
+- id: antenor
+  name: Antenor
+  gender: m
+  source:
+  - game
+  note: Dialog/AntenorDead1.1; ambition, turned into a cyclops.
+terms:
+- en: Aether
+  pl: Eter
+  forms:
+  - eter
+  source: decision
+- en: Nyx
+  pl: Nyks
+  forms:
+  - nyks
+  source: decision
+- en: Aether Lantern
+  pl: latarnia Eteru
+  forms:
+  - latar
+  source: decision
+- en: Nocturne
+  pl: Nokturn
+  forms:
+  - nokturn
+  source: decision
+- en: Fracture
+  pl: Rozłam
+  forms:
+  - rozłam
+  source: decision
+- en: Ashfall
+  pl: Popielisko
+  forms:
+  - popielisk
+  source: decision
+- en: Cesspit
+  pl: Ściekowisko
+  forms:
+  - ściekowisk
+  source: decision
+- en: The Grove
+  pl: Gaj
+  forms:
+  - gaj
+  source: decision
+- en: Heavy Industries
+  pl: Sektor przemysłowy
+  forms:
+  - przemysłow
+  source: decision
+- en: Science Department
+  pl: Dział naukowy
+  forms:
+  - naukow
+  source: decision
+- en: Lower Residence
+  pl: Dolne kwatery
+  forms:
+  - doln
+  source: decision
+- en: Higher Residence
+  pl: Górne kwatery
+  forms:
+  - górn
+  source: decision
+- en: Underworld
+  pl: Zaświaty
+  forms:
+  - zaświat
+  source: decision
+- en: Sundering Spear
+  pl: Rozdzierająca włócznia
+  forms:
+  - rozdzierając
+  source: decision
+- en: Nocturnal Blast
+  pl: Nocny rozbłysk
+  forms:
+  - nocn
+  source: decision
+- en: Arbiter
+  pl: Arbiter
+  forms:
+  - arbit
+  source: decision
+- en: Gladius
+  pl: Gladius
+  forms:
+  - gladius
+  source: decision
+  note: Standalone item name capitalized ("Gladius"), lowercase as a common noun in upgrades ("Wzmocniony
+    gladius 1"). Arbiter is a proper name. Review 2026-09-25.
+- en: Hover Boost
+  pl: Wzmocniony zawis
+  forms:
+  - zawis
+  source: decision
+- en: Hover
+  pl: Zawis
+  forms:
+  - zawis
+  source: decision
+- en: Supernova
+  pl: Supernowa
+  forms:
+  - supernow
+  source: decision
+- en: Lightstream
+  pl: Świetlny nurt
+  forms:
+  - świetln
+  source: decision
+- en: Centimanes
+  pl: Sturęcy
+  forms:
+  - sturę
+  source: decision
+- en: Stymphalian
+  pl: Ptak stymfalijski
+  forms:
+  - stymfalijsk
+  source: decision
+- en: Circe
+  pl: Kirke
+  forms:
+  - kirke
+  source: decision
+- en: Cindered
+  pl: Spopieleni
+  forms:
+  - spopielon
+  - spopieleni
+  source: game
+  note: Sect of arsonists (Dialog, Journal); added in review 2026-09-25.
+- en: Phoenix
+  pl: Feniks
+  forms:
+  - feniks
+  source: mythology
+  note: Boss; added in review 2026-09-25.
+- en: Helicon Legion
+  pl: Legion Helikonu
+  forms:
+  - legion
+  source: decision
+  note: Adrestia's formation (armor, boots, tribune rights); added in review 2026-09-25.
+- en: the Fates
+  pl: Mojry
+  forms:
+  - mojr
+  source: mythology
+  note: Added in review 2026-09-25.
+- en: divine duo
+  pl: boska dwójca
+  forms:
+  - dwójc
+  source: decision
+  note: Aether and Nyx as a pair; added in review 2026-09-25.
+keep_english:
+- Adrestia
+- Harmonia
+- Atromitos
+- C.I.R.C.E.
+- Steam Deck
+- V-Sync
+- DLSS
+- FSR
+- XeSS
+- Klang
+- Adrestia Invicta
+- FPS
+- HDR
+settings:
+  dialog_key: ^Dialog/
+  max_line: 110
+decisions:
+- The 111 accepted vertical entries kept.
+- Elevated narrator without artificial rhymes; journal in Adrestia's feminine first person.
+- C.I.R.C.E. stays the system name; Circe as the chamber is Kirke.
+- Polish has code pl and its own selector item; English is not replaced (user).
+- The 110-char report limit comes from the accepted sample length; it doesn't guarantee reading pace for
+  all subtitles.
+- 'Review 2026-09-25: the chamber is always Kirke, also in CirceAutoSecurity1.2; C.I.R.C.E. only in the
+  interface name.'

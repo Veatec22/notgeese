@@ -1,0 +1,5049 @@
+[
+  {
+    "key": "w101-1",
+    "english": "Hey...",
+    "polish": "Hej...",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w101-1_5",
+    "english": "Wake up...",
+    "polish": "Obudź się...",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w101-2",
+    "english": "Rise and shine, sleepyhead...",
+    "polish": "Pobudka, śpiochu...",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w101-5",
+    "english": "Hey...|Whoa, relax!",
+    "polish": "Hej...|Łoł, spokojnie!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w101-6",
+    "english": "It's me. <color=#FFF49F>Pedro</color>. <i>Your friend</i>...|You got knocked out pretty bad there.|Are you okay?|How many fingers am I holding up?|Never mind.|Let's just get out of here... Wherever we are.",
+    "polish": "To ja. <color=#FFF49F>Pedro</color>. <i>Twój przyjaciel</i>...|Nieźle cię tam załatwili.|Wszystko gra?|Ile palców pokazuję?|Nieważne.|Po prostu się stąd wynośmy... Gdziekolwiek jesteśmy.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w101-4",
+    "english": "Dang, the door is locked!|Maybe there's another way out...",
+    "polish": "Kurczę, drzwi zamknięte!|Może jest inne wyjście...",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w101-3",
+    "english": "Aha! Look.|Try <color=#FFD79C>Wall Jumping</color> to the next floor.",
+    "polish": "Aha! Spójrz.|Spróbuj <color=#FFD79C>odbijać się od ścian</color>, żeby wejść piętro wyżej.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w101-7",
+    "english": "Nice!",
+    "polish": "Świetnie!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w101-8",
+    "english": "How irresponsible...|Some nincompoop left their <color=#FFD79C>Pistol</color> just laying around.|Any nutter could come around and cause all sorts of damage...",
+    "polish": "Co za brak odpowiedzialności...|Jakiś gamoń zostawił tu <color=#FFD79C>pistolet</color>.|Byle świr mógłby go znaleźć i narobić szkód...",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w101-9",
+    "english": "Go on. <color=#FFD79C>Pick it up</color>.|It might come in handy.",
+    "polish": "Śmiało. <color=#FFD79C>Podnieś go</color>.|Może się przydać.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w101-10",
+    "english": "I think we can escape through this vent.|<color=#FFD79C>Shoot it open</color>.",
+    "polish": "Chyba możemy uciec tym kanałem wentylacyjnym.|<color=#FFD79C>Rozstrzel kratkę</color>.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w101-11",
+    "english": "Nice shooting!|Now <color=#FFD79C>Roll through the vent</color> and we'll be out of here in a jiffy!",
+    "polish": "Celny strzał!|Teraz <color=#FFD79C>przeturlaj się przez kanał</color> i zaraz będziemy na zewnątrz!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w102-14",
+    "english": "Oh chucks, that's <i><color=#ff9999>Mitch the Butcher</color>!</i>|His meat operation is a front for smuggling unlicensed firearms.|The meat is mainly rats, pigeons or whatever person they didn't like the look of that day.|I guess that explains how we ended up here...",
+    "polish": "O kurczę, to <i><color=#ff9999>Mitch Rzeźnik</color>!</i>|Jego mięsny interes to przykrywka dla przemytu nielegalnej broni.|Mięso to głównie szczury, gołębie albo ktoś, kto akurat im się nie spodobał.|To chyba wyjaśnia, jak tu trafiliśmy...",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w102-15",
+    "english": "Hey boss.|It's quiet out there tonight...",
+    "polish": "Hej, szefie.|Spokojnie dziś na mieście...",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w102-19",
+    "english": "<shake>DON'T...|Don't interrupt me while I'm working, you simpleton.|[Butcher_Question?Butcher_Idle]Is the shipment ready?",
+    "polish": "<shake>NIE...|Nie przerywaj mi, kiedy pracuję, półgłówku.|[Butcher_Question?Butcher_Idle]Towar gotowy?",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w102-20",
+    "english": "It's almost...",
+    "polish": "Już prawie...",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w102-21",
+    "english": "<shake>[Butcher_Shout?Butcher_Idle]Useless slackers!|[Butcher_Point?Butcher_Idle]I'll show them what happens when they slack off!|Go make yourself useful and prepare whatever sorry sack of meat laying in the basement.",
+    "polish": "<shake>[Butcher_Shout?Butcher_Idle]Bezużyteczne nieroby!|[Butcher_Point?Butcher_Idle]Pokażę im, czym się kończy obijanie!|Zrób coś pożytecznego i przygotuj ten żałosny kawał mięsa, który leży w piwnicy.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w102-16",
+    "english": "*Sigh*",
+    "polish": "*Wzdycha*",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w102-17",
+    "english": "He's coming this way!|You have to take him out.|Ready?",
+    "polish": "Idzie tutaj!|Musisz go załatwić.|Gotowy?",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w102-18",
+    "english": "Huh...|Well, I guess you'll just have to kill them all now.",
+    "polish": "Hm...|No to teraz chyba musisz ich wszystkich pozabijać.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w102-12",
+    "english": "Have you been drinking enough water?|You seem a bit out of it.|Come, I'll take you to my special place and help you back on track.",
+    "polish": "Pijesz dość wody?|Jakiś nieobecny jesteś.|Chodź, zabiorę cię w moje wyjątkowe miejsce i pomogę ci dojść do siebie.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w102-13",
+    "english": "This is where I go when you can't see me.",
+    "polish": "Przychodzę tu, kiedy mnie nie widzisz.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w102-1",
+    "english": "Now let me show you something. Hold still.",
+    "polish": "Coś ci pokażę. Nie ruszaj się.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w102-2",
+    "english": "See that? When you <color=#FFD79C>FOCUS</color> it's like time slows down.|And when you <color=#FFD79C>FOCUS</color> you can do flips in the air.|Now you try it.",
+    "polish": "Widzisz? Kiedy włączasz <color=#FFD79C>SKUPIENIE</color>, czas jakby zwalnia.|A podczas <color=#FFD79C>SKUPIENIA</color> możesz robić salta w powietrzu.|Teraz twoja kolej.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w102-3",
+    "english": "I want to see you do a <color=#FFD79C>Full 360 flip</color>.",
+    "polish": "Chcę zobaczyć <color=#FFD79C>pełne salto</color>.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w102-5",
+    "english": "We're not leaving this place until you do a <color=#FFD79C>Full 360 degree flip</color>...",
+    "polish": "Nie wyjdziemy stąd, dopóki nie zrobisz <color=#FFD79C>pełnego salta o 360 stopni</color>...",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w102-4",
+    "english": "Beautiful!",
+    "polish": "Pięknie!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w102-6",
+    "english": "<color=#FFD79C>Move to the marker</color> and we'll amp things up a notch!",
+    "polish": "<color=#FFD79C>Podejdź do znacznika</color>, a trochę podkręcimy tempo!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w102-7",
+    "english": "Now, do a <color=#FFD79C>Full flip, in slow motion</color>, while <color=#FFD79C>Shooting this priceless vase</color> my grandmother gave to me.",
+    "polish": "Teraz zrób <color=#FFD79C>pełne salto w zwolnionym tempie</color> i jednocześnie <color=#FFD79C>rozstrzel ten bezcenny wazon</color>, który dostałem od babci.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w102-8",
+    "english": "Do a <color=#FFD79C>Full flip and Shoot the vase</color> before landing.",
+    "polish": "Zrób <color=#FFD79C>pełne salto i rozstrzel wazon</color>, zanim wylądujesz.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w102-9",
+    "english": "Glorious! Ready for the last trick?|While holding two weapons you can <color=#FFD79C>Separate your aim</color>.|Shoot these two vases by <color=#FFD79C>Separating your aim</color>.",
+    "polish": "Cudownie! Gotowy na ostatnią sztuczkę?|Trzymając dwie bronie, możesz <color=#FFD79C>celować w dwa miejsca naraz</color>.|Rozstrzel te dwa wazony, <color=#FFD79C>rozdzielając celowanie</color>.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w102-11",
+    "english": "<color=#FFD79C>Shoot both vases</color> at the same time.",
+    "polish": "<color=#FFD79C>Zestrzel oba wazony</color> jednocześnie.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w102-10",
+    "english": "Jolly good!|You're a mean butt-kicking machine!|Now, where were we..?",
+    "polish": "Znakomicie!|Istna maszyna do kopania tyłków!|Na czym to stanęliśmy..?",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w103-1",
+    "english": "You sure you know what you're doing?",
+    "polish": "Na pewno wiesz, co robisz?",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w103-2",
+    "english": "Relax.|These turrets practically install themselves.|You just take this thing, put it in here and then...",
+    "polish": "Spokojnie.|Te wieżyczki praktycznie instalują się same.|Bierzesz to coś, wkładasz tutaj, a potem...",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w103-3",
+    "english": "Looks like you'll have to <color=#FFD79C>Dodge</color> your way past those bullets.",
+    "polish": "Chyba musisz <color=#FFD79C>robić uniki</color>, żeby ominąć te kule.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w103-4",
+    "english": "Such grace!|Remember you can use the same manoeuvre to <color=#FFD79C>Dodge any oncoming bullets</color>.",
+    "polish": "Co za gracja!|Pamiętaj, że tym samym ruchem możesz <color=#FFD79C>unikać wszystkich nadlatujących kul</color>.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w11-1",
+    "english": "Yep, just as I thought. We're in Old Town. Mitch runs this place.|It's like a retirement home for senior mobsters without a retirement plan.",
+    "polish": "Tak, jak myślałem. Jesteśmy na Starym Mieście. Mitch tu rządzi.|To taki dom spokojnej starości dla gangsterów bez emerytury.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w12-1",
+    "english": "The fastest way out of Old Town is through Mitch's fine dining restaurant on the other end of this industrial area.",
+    "polish": "Najszybsza droga ze Starego Miasta prowadzi przez wykwintną restaurację Mitcha na drugim końcu tej dzielnicy przemysłowej.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w13-1",
+    "english": "Old Town used to be a place bursting with culture before Mitch the Butcher moved in.|I went to some crazy rave parties in this very building, actually.|Brings back memories...",
+    "polish": "Zanim wprowadził się tu Mitch Rzeźnik, Stare Miasto tętniło kulturą.|W tym właśnie budynku bywałem na szalonych imprezach rave.|Wspomnienia wracają...",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w14-1",
+    "english": "Right, we should be getting pretty close to Mitch the Butcher's Fine Dining Restaurant now.|Just carry on straight ahead. You can't miss it.",
+    "polish": "Dobra, powinniśmy już być blisko wykwintnej restauracji Mitcha Rzeźnika.|Po prostu idź prosto. Nie da się jej przegapić.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w15-1",
+    "english": "Actually... Maybe we should have turned left back there.|Never mind. We'll just take the scenic route.",
+    "polish": "Właściwie... Może tam trzeba było skręcić w lewo.|Nieważne. Pójdziemy trasą widokową.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w16-1",
+    "english": "I bet you a biscuit you can't <color=#FFD79C>Kick that ball in to this hoop</color>...",
+    "polish": "Założę się o ciastko, że nie potrafisz <color=#FFD79C>wkopnąć tej piłki do kosza</color>...",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w16-3",
+    "english": "Actually, sorry I think I ate all the biscuits...",
+    "polish": "Właściwie to przepraszam. Chyba zjadłem wszystkie ciastka...",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w16-2",
+    "english": "I double bet you can't <color=#FFD79C>Take out that guy with that ball</color>...",
+    "polish": "Podwajam stawkę: nie dasz rady <color=#FFD79C>załatwić tego gościa tą piłką</color>...",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w17-1",
+    "english": "Aha! We made it. Mitch the Butcher's Fine Dining Restaurant.|Maybe you could grab a couple of take-aways while we're here.",
+    "polish": "Aha! Dotarliśmy. Wykwintna restauracja Mitcha Rzeźnika.|Skoro już tu jesteśmy, może weźmiesz coś na wynos?",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w175-1",
+    "english": "Alright, boss.|She's all loaded up and ready to go.",
+    "polish": "Gotowe, szefie.|Wszystko załadowane. Można jechać.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w175-2",
+    "english": "[CarLeanOut]About damn time!|And you better have dealt with the runaway meatbag by the time I'm back.|Useless slackers...",
+    "polish": "[CarLeanOut]Najwyższy, cholera, czas!|I lepiej zajmijcie się tym zbiegłym workiem mięsa, zanim wrócę.|Bezużyteczne nieroby...",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w175-3",
+    "english": "Sometimes he really hurts my feelings.|Let's just stick around here for a while and enjoy the music.",
+    "polish": "Czasem naprawdę rani moje uczucia.|Zostańmy tu jeszcze chwilę i posłuchajmy muzyki.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w175-4",
+    "english": "Look!|There's a motorcycle at the top of those stairs.|This is our chance to escape!",
+    "polish": "Spójrz!|Na szczycie tych schodów stoi motocykl.|To nasza szansa na ucieczkę!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w175-5",
+    "english": "Oh crap! Look! It's the meatbag!|Alert the others. Let's get him!",
+    "polish": "O cholera! Patrz! To ten wór mięsa!|Zawiadom resztę. Bierzemy go!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w18-2",
+    "english": "Get over here you imbecile!",
+    "polish": "Wracaj tu, imbecylu!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w18-3",
+    "english": "Stay still so I can shoot you faster!",
+    "polish": "Stój spokojnie, to szybciej cię zastrzelę!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w18-4",
+    "english": "You'll pay for what you did to my restaurant!",
+    "polish": "Zapłacisz za to, co zrobiłeś z moją restauracją!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w18-5",
+    "english": "I'll teach you some manners!",
+    "polish": "Nauczę cię manier!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w18-1",
+    "english": "Good riddance.|We need to lay low for a while.|Head to District Null.|It's as good as deserted. We can hang around there while things cool down.",
+    "polish": "I dobrze, jednego mniej.|Musimy na jakiś czas przycichnąć.|Kieruj się do Dzielnicy Null.|Jest praktycznie opuszczona. Przeczekamy tam, aż sprawa ucichnie.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w20-2",
+    "english": "What a snazzy poster!|It says: \"Welcome to the National Bounty Hunter Association's Christmas Party!\"|How nice of them to get organized.|Good thing we don't have a bounty on our heads!",
+    "polish": "Ale odjazdowy plakat!|Napisali: „Witamy na gwiazdkowej imprezie Krajowego Stowarzyszenia Łowców Nagród!”|Miło, że się zorganizowali.|Dobrze, że za nasze głowy nie ma nagrody!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w20-1",
+    "english": "Hey, nice mask...|Not!",
+    "polish": "Hej, fajna maska...|Żartowałem!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w20-3",
+    "english": "[WelcomeWave]Ho ho ho! Welcome and merry Christmas, everybody.|[ItsMe]It's me, Father Christmas!|[JustKidding]Just kidding. It's me, Denny.|[Talking_1]We all know fathers are just disappointing authority figures anyways...|[Talking_1]I'm glad to see so many faces out there.|[Talking_1]But let's cut to the chase. I know why you all bothered following the dress code and show up tonight.|[Dazzle]The Mega Christmas Bounty!",
+    "polish": "[WelcomeWave]Ho, ho, ho! Witajcie i wesołych świąt!|[ItsMe]To ja, Święty Mikołaj!|[JustKidding]Żartuję. To ja, Denny.|[Talking_1]Wszyscy wiemy, że te ojcowskie autorytety i tak tylko rozczarowują...|[Talking_1]Miło widzieć tyle znajomych twarzy.|[Talking_1]Ale do rzeczy. Wiem, dlaczego zechcieliście się przebrać i przyjść tu dziś wieczorem.|[Dazzle]Wielka Gwiazdkowa Nagroda!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w20-4",
+    "english": "[PresentingLeft]This year's juicy bounty is super fresh and said to be in the area.",
+    "polish": "[PresentingLeft]Tegoroczny smakowity cel jest zupełnie świeży i podobno kręci się w okolicy.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w20-5",
+    "english": "[ISawHim]What the... That's the guy!|I just saw him. He's around here somewhere!",
+    "polish": "[ISawHim]Co do... To ten gość!|Właśnie go widziałem. Gdzieś tu jest!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w20-6",
+    "english": "[HotDang]Well hot dang, ain't that lucky!",
+    "polish": "[HotDang]A niech mnie, co za szczęście!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w20-7",
+    "english": "[SpreadOut]Spread out. Don't let him get away.|[PointBehind]I'll be waiting in my office for whenever you're ready to claim the reward.",
+    "polish": "[SpreadOut]Rozejść się. Nie pozwólcie mu uciec.|[PointBehind]Będę czekał w biurze, gdyby ktoś chciał odebrać nagrodę.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w20-8",
+    "english": "So much for laying low.|There are too many of them. Time to leg it!",
+    "polish": "Tyle z przyczajenia się.|Jest ich za dużo. Czas brać nogi za pas!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w21-1",
+    "english": "Well that was probably the second worst party I've ever been to...|We need to get to the bottom of who put that bounty on your head.|Head to Denny's office and maybe he'll let us know if we ask nicely.",
+    "polish": "To była chyba druga najgorsza impreza w moim życiu...|Musimy się dowiedzieć, kto wyznaczył nagrodę za twoją głowę.|Idź do biura Denny'ego. Może nam powie, jeśli grzecznie zapytamy.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w22-1",
+    "english": "To think that this place was supposed to be the city that finally united the municipalities.|But the politicians couldn't agree on which font type to use for the logo.|So the whole project got abandoned and now it's just a political gray zone that nobody wants to claim responsibility for.",
+    "polish": "Pomyśleć, że to miało być miasto, które wreszcie zjednoczy okoliczne gminy.|Ale politycy nie mogli się dogadać, jakiej czcionki użyć w logo.|Więc porzucono cały projekt. Teraz to polityczna szara strefa, za którą nikt nie chce brać odpowiedzialności.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w23-1",
+    "english": "It looks like Denny settled in to this place quite well.|People always said he wanted to rule a kingdom, even if it was an empty one.",
+    "polish": "Wygląda na to, że Denny nieźle się tu urządził.|Zawsze mówili, że chciałby rządzić królestwem, nawet gdyby było puste.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w24-1",
+    "english": "I can't believe it's Christmas again already.|I didn't buy you any present this year.|But I wrote you a poem!|\"Roses are red...\"|\"... violets are blue...\"|\"... grass is green...\"|\"... eggs are white...\"|\"... but yellow inside...\"|\"... weird.\"|It's still work in progress.",
+    "polish": "Nie wierzę, że znów są święta.|Nie kupiłem ci w tym roku prezentu.|Ale napisałem wiersz!|„Róże są czerwone...”|„... fiołki niebieskie...”|„... trawa zielona...”|„... jajka białe...”|„... ale żółte w środku...”|„... dziwne”.|Jeszcze nad nim pracuję.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w25-1",
+    "english": "Denny's office must be around here somewhere.|If we just keep following this trail of bounty hunters we're bound to end up there eventually.",
+    "polish": "Biuro Denny'ego musi być gdzieś tutaj.|Jeśli pójdziemy dalej tropem łowców nagród, w końcu tam trafimy.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w26-1",
+    "english": "It's an interesting job that, being a bounty hunter.|I wonder if it normally comes with any decent dental benefits...",
+    "polish": "Ciekawa praca, taki łowca nagród.|Ciekawe, czy dają im jakiś porządny pakiet dentystyczny...",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w27-1",
+    "english": "Security seems tighter around here.|We must be getting close to Denny's office.|Probably best to stop anyone from triggering those alarms.",
+    "polish": "Ochrona jest tu chyba mocniejsza.|Musimy być blisko biura Denny'ego.|Lepiej nie pozwól nikomu uruchomić alarmu.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w28-1",
+    "english": "[OhCrap]Aha, look! There's Denny.|Let's see if we can finally find out who put that bounty on your head.",
+    "polish": "[OhCrap]Aha, patrz! Tam jest Denny.|Może wreszcie dowiemy się, kto wyznaczył nagrodę za twoją głowę.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w28-2",
+    "english": "[Aargh]N-no! Oh crap! Shit, shit, shit...",
+    "polish": "[Aargh]N-nie! O cholera! Kurwa, kurwa, kurwa...",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w28-6",
+    "english": "Aaargh!",
+    "polish": "Aaa!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w28-3",
+    "english": "Weird...|Oh...|Run!",
+    "polish": "Dziwne...|O...|Uciekaj!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w28-4",
+    "english": "Come on, man!|Just leave me alone!",
+    "polish": "No weź, człowieku!|Daj mi spokój!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w28-5",
+    "english": "Don't let him get away!|Quick, jump after him!",
+    "polish": "Nie pozwól mu uciec!|Szybko, skacz za nim!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w29-1",
+    "english": "[SkyfallDennyDontShoot]Wait, wait. Stop! Don't shoot!|I just deliver the messages, man!|It's my power-crazy sister Ophelia who really controls things.|Ever since she became dictator of The Internet she never sets foot outside of the Central Server Facilities.|She got pissed when you killed Mitch the Butcher, our good-for-nothing father.|He had it coming if you ask me.|Ophelia insisted you go down no matter what, whoever you are...|[SkyfallDennyWaitASec]Wait a second...|Aren't you..?|Is that you...",
+    "polish": "[SkyfallDennyDontShoot]Czekaj, czekaj. Stój! Nie strzelaj!|Ja tylko przekazuję wiadomości, stary!|Tak naprawdę wszystkim rządzi moja żądna władzy siostra, Ofelia.|Odkąd została dyktatorką Internetu, nie wychodzi z Centralnej Serwerowni.|Wkurzyła się, kiedy zabiłeś Mitcha Rzeźnika, naszego ojca do niczego.|Moim zdaniem sam się prosił.|Ofelia uparła się, że masz zginąć za wszelką cenę, kimkolwiek jesteś...|[SkyfallDennyWaitASec]Chwileczkę...|Czy ty nie jesteś..?|Czy to ty...",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w29-2",
+    "english": "Ouch... That's got to hurt.|Speaking of which...|Ground's coming up.|Aim for the water!",
+    "polish": "Auć... To musiało boleć.|A skoro o tym mowa...|Zbliża się ziemia.|Celuj w wodę!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w31-2",
+    "english": "Relax...|You're okay.|You've worked hard.|It's fine to take a little break sometimes.",
+    "polish": "Spokojnie...|Nic ci nie jest.|Ciężko pracowałeś.|Czasem można sobie zrobić przerwę.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w31-1",
+    "english": "If I knew you were coming I would have tidied up first...|This way, there's loads to see!|Oh and don't mind the floor, it's been acting a bit weird since I had the place redecorated.",
+    "polish": "Gdybym wiedział, że wpadniesz, najpierw bym posprzątał...|Tędy, jest co oglądać!|I nie przejmuj się podłogą. Trochę dziwnie się zachowuje od czasu remontu.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w32-1",
+    "english": "Say, since you're here, maybe you could help me out with something.|This place has been invaded by Haters.|They just appeared one day and now they're always here.|Always watching.|Always judging, giving me grief.|I wish they would just go away...",
+    "polish": "Skoro już tu jesteś, może pomożesz mi z jedną sprawą.|To miejsce opanowali hejterzy.|Pewnego dnia po prostu się zjawili i odtąd ciągle tu są.|Ciągle patrzą.|Ciągle oceniają i zatruwają mi życie.|Chciałbym, żeby sobie poszli...",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w33-1",
+    "english": "I read in a self help book once that physical movement was the key to a happier life.|So I installed these bounce pads all around to inspire a fun and healthy workout routine.",
+    "polish": "Przeczytałem kiedyś w poradniku, że ruch to klucz do szczęśliwszego życia.|Więc rozstawiłem wszędzie te trampoliny, żeby zachęcały do przyjemnych i zdrowych ćwiczeń.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w34-2",
+    "english": "Oh great!|Looks like you found my uncle's old propeller hat.|Give it a spin and see if it still works.",
+    "polish": "O, super!|Znalazłeś chyba starą czapkę ze śmigłem mojego wujka.|Zakręć nim i sprawdź, czy jeszcze działa.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w34-1",
+    "english": "Thank you so much for dealing with the Haters!|I get the feeling I won't be seeing them around here again any time soon.|I would have loved to have you over for longer, but we have some pressing matters at hand.|Let's get out of here.",
+    "polish": "Wielkie dzięki za pozbycie się hejterów!|Mam przeczucie, że prędko tu nie wrócą.|Chętnie zatrzymałbym cię na dłużej, ale mamy pilne sprawy do załatwienia.|Wynośmy się stąd.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w40-1",
+    "english": "There you are!|Now let's see, what did Denny say again?|Oh yeah. It was Ophelia, the Dictator of The Internet, who put the bounty on your head.|We need to infiltrate The Internet and get Ophelia off our backs.|Don't worry, I have a plan.|Head down that sewage pipe and I'll explain on the way.",
+    "polish": "Tu jesteś!|Zaraz, co to mówił Denny?|A tak. Nagrodę za twoją głowę wyznaczyła Ofelia, dyktatorka Internetu.|Musimy przeniknąć do Internetu i pozbyć się Ofelii.|Nie martw się, mam plan.|Wejdź do tej rury kanalizacyjnej, a po drodze ci wyjaśnię.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w401-1",
+    "english": "[ArcadeSwear]FFFFUUUUUUUUU...!",
+    "polish": "[ArcadeSwear]KUUUURWAAAAAA...!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w401-2",
+    "english": "Oh dear, this complicates things...|Those are the Hardest of the Hard Core Gamers.|Decades of playing violent video games corrupted their brains and now the only thing they can express is violence.|Nobody really knows why they all moved in to the sewers.|I guess since most violent video games feature a sewer section it probably just kind of felt familiar...|Anyway, if we go through this sewer system we'll connect on to a railway that takes us straight to The Internet.",
+    "polish": "Ojej, to komplikuje sprawę...|To najtwardsi z hardkorowych graczy.|Dekady brutalnych gier wypaczyły ich mózgi i teraz potrafią wyrażać się tylko przemocą.|Nikt nie wie, dlaczego wszyscy przenieśli się do kanałów.|Chyba po prostu poczuli się swojsko, bo większość brutalnych gier ma jakiś etap w kanałach...|W każdym razie tymi kanałami dotrzemy do linii kolejowej prowadzącej prosto do Internetu.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w41-1",
+    "english": "Looks like some of them got a bit too immersed in their cosplay...",
+    "polish": "Niektórzy chyba trochę za bardzo wczuli się w swój cosplay...",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w42-1",
+    "english": "I played a video game once.|It's called Toffee Chewer.|It's about matching the right colored toffees before you chew.|It's really funny. I'll send you an invite.",
+    "polish": "Grałem kiedyś w grę.|Nazywa się Żuj Krówki.|Dopasowujesz krówki kolorami, zanim je zjesz.|Jest bardzo zabawna. Wyślę ci zaproszenie.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w43-1",
+    "english": "This used to be a smuggling route for pirated software back when they still used physical discs.|So retro.",
+    "polish": "Tędy przemycano pirackie oprogramowanie, kiedy jeszcze używano płyt.|Ale retro.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w44-1",
+    "english": "They're packing some serious fire power.|Look, there's even a grenade launcher!",
+    "polish": "Mają niezłą siłę ognia.|Patrz, jest nawet granatnik!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w45-1",
+    "english": "Those are the ISPs, The Internet Service Protectors.|Ophelia must have been alerted about our plan.|We must be getting closer to the railway.",
+    "polish": "To ISP, Internetowa Straż Porządkowa.|Ofelia musiała się dowiedzieć o naszym planie.|Musimy być coraz bliżej torów.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w46-1",
+    "english": "Ophelia must really want you dead, sending the ISPs all the way down here.",
+    "polish": "Ofelia naprawdę musi pragnąć twojej śmierci, skoro wysłała ISP aż tutaj.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w47-1",
+    "english": "Boy, these tunnels are longer than I thought.|That railway has to be around here somewhere!",
+    "polish": "Kurczę, te tunele są dłuższe, niż myślałem.|Tory muszą być gdzieś tutaj!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w48-1",
+    "english": "It sure is smelly down here.|Smells like a mix of urine, old socks and pepperoni pizza...",
+    "polish": "Nieźle tu śmierdzi.|Jak mieszanka moczu, starych skarpet i pizzy pepperoni...",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w410-1",
+    "english": "Look, mines!|That must mean we're on track to find the railway.|Heh... on track... railway.|Sorry, just sharing my train of thoughts.",
+    "polish": "Patrz, miny!|Chyba jesteśmy na właściwym torze, żeby znaleźć kolej.|Heh... tor... kolej.|Wybacz, taki już mam tok... tor myślenia.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w4101-3",
+    "english": "Ah, man...|I'm so bored of guarding this lever.",
+    "polish": "Ech, stary...|Mam już dość pilnowania tej dźwigni.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w4101-4",
+    "english": "I know, right!|We've been here for months now.|Nobody would notice if we took a five minute break...",
+    "polish": "No właśnie!|Tkwimy tu od miesięcy.|Nikt by nie zauważył pięciominutowej przerwy...",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w4101-5",
+    "english": "Are you thinking what I'm thinking..?",
+    "polish": "Myślisz o tym samym co ja..?",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w4101-6",
+    "english": "I think so...|Let's go out back and I'll show you some more of those cool karate moves.",
+    "polish": "Chyba tak...|Chodźmy na tyły, pokażę ci jeszcze parę fajnych chwytów karate.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w4101-1",
+    "english": "Hey presto!|You found the entrace to the railway system.",
+    "polish": "Ta-dam!|Znalazłeś wejście na kolej.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w4101-2",
+    "english": "The train will take us straight to the core of The Internet.",
+    "polish": "Pociąg zawiezie nas prosto do serca Internetu.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w4101-7",
+    "english": "Huh..?",
+    "polish": "Hę..?",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w411-1",
+    "english": "We are en route back to base with the parts you requested, ma'am.",
+    "polish": "Wracamy do bazy z zamówionymi częściami, proszę pani.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w411-2",
+    "english": "Excellent work, soldier.|[OnGround Blend Tree]At ease. Over and out.",
+    "polish": "Dobra robota, żołnierzu.|[OnGround Blend Tree]Spocznij. Bez odbioru.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w50-1",
+    "english": "[ScreenTalk1]Welcome to The Internet.|[ScreenTalk2]I'm Ophelia.|[ScreenTalk3]I'm in control here.|[ScreenTalk1]I didn't expect you to make it this far.|[ScreenTalk2]But I'm glad you did so I can put an end to you myself...|[ScreenTalk3]... If you make it over here alive, that is.",
+    "polish": "[ScreenTalk1]Witaj w Internecie.|[ScreenTalk2]Jestem Ofelia.|[ScreenTalk3]To ja tu rządzę.|[ScreenTalk1]Nie sądziłam, że zajdziesz tak daleko.|[ScreenTalk2]Ale cieszę się, bo mogę sama z tobą skończyć...|[ScreenTalk3]... O ile dotrzesz tu żywy.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w50-2",
+    "english": "She seems nice...|So this is The Internet, huh.|I was expecting something a bit more high tech.|It's pretty much just a series of tubes, to be honest...|Never mind, let's pay Ophelia a visit and settle this once and for all.",
+    "polish": "Wydaje się miła...|Więc to jest Internet.|Spodziewałem się czegoś bardziej zaawansowanego.|Szczerze mówiąc, to po prostu plątanina rur...|Nieważne, odwiedźmy Ofelię i załatwmy to raz na zawsze.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w51-1",
+    "english": "This place is a bit of a mess...|I'm pretty sure some of these tubes don't even connect to anything...",
+    "polish": "Ale tu bałagan...|Jestem niemal pewien, że część tych rur z niczym się nie łączy...",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w52-1",
+    "english": "[ScreenTalk1]Good. You're making progress.|[ScreenTalk2]Getting closer...",
+    "polish": "[ScreenTalk1]Dobrze. Robisz postępy.|[ScreenTalk2]Coraz bliżej...",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w52-2",
+    "english": "[ScreenTalk3]I've got a bullet here with your name on it.|[ScreenTalk2]Actually, that's not true.|[ScreenTalk1]I don't even know your name.|[ScreenTalk3]But if I did, I'd totally engrave it on to a bullet.",
+    "polish": "[ScreenTalk3]Mam tu kulkę z twoim imieniem.|[ScreenTalk2]Właściwie to nieprawda.|[ScreenTalk1]Nawet nie znam twojego imienia.|[ScreenTalk3]Ale gdybym znała, na pewno wyryłabym je na kulce.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w53-1",
+    "english": "[ScreenTalk1]Let's see how good you really are.",
+    "polish": "[ScreenTalk1]Zobaczmy, na co naprawdę cię stać.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w53-2",
+    "english": "[ScreenTalk1]Those moves. They're so familiar...",
+    "polish": "[ScreenTalk1]Te ruchy. Skądś je znam...",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w53-3",
+    "english": "[ScreenTalk2]Where... where did you learn to move like that?|[ScreenTalk1]I've seen those moves before.",
+    "polish": "[ScreenTalk2]Gdzie... gdzie nauczyłeś się tak ruszać?|[ScreenTalk1]Już widziałam te ruchy.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w54-1",
+    "english": "[OpheliaScreenCheckScreen]Ah crap. The wifi is really spotty around here.|[PresentingLeft]Activate the closed circuit laser alarms!",
+    "polish": "[OpheliaScreenCheckScreen]Cholera. To Wi-Fi ciągle przerywa.|[PresentingLeft]Włączyć alarmy laserowe w obwodzie zamkniętym!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w55-1",
+    "english": "The Internet used to be a lot more fun before Ophelia started censoring it.|I used to run a carefully curated playlist of cat videos.|But one day it got shut down due to being inappropriate content.|I guess Ophelia must be more of a dog person.",
+    "polish": "Internet był dużo fajniejszy, zanim Ofelia zaczęła go cenzurować.|Prowadziłem starannie dobraną playlistę filmików z kotami.|Ale pewnego dnia usunięto ją za nieodpowiednie treści.|Chyba Ofelia woli psy.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w56-1",
+    "english": "I guess being the dictator of The Internet is the ultimate power in this day and age.|People's world view is built on what content they see online.|If you can control what content is shown, you can control the minds of the people.",
+    "polish": "Bycie dyktatorką Internetu to chyba największa władza w naszych czasach.|Ludzie budują swój obraz świata na tym, co widzą w sieci.|Jeśli kontrolujesz wyświetlane treści, kontrolujesz ludzkie umysły.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w57-1",
+    "english": "[ScreenTalk1]Aaaand I'm back.|[ScreenTalk2]Just had to restart my router.",
+    "polish": "[ScreenTalk1]Nooo i wróciłam.|[ScreenTalk2]Musiałam tylko zrestartować router.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w57-2",
+    "english": "[ScreenTalk3]Seriously. Those moves are so familiar...",
+    "polish": "[ScreenTalk3]Naprawdę. Tak dobrze znam te ruchy...",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w57-3",
+    "english": "[ScreenTalk2]Wait a second... It can't be..!|[ScreenTalk1]Is... is that you..?",
+    "polish": "[ScreenTalk2]Chwileczkę... Niemożliwe..!|[ScreenTalk1]Czy... czy to ty..?",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w57-4",
+    "english": "[ScreenTalk1]It really is you, isn't it??|[ScreenTalk3]After all this time...|[ScreenTalk2]It's been so long...|[ScreenTalk1]But why?|[ScreenTalk3]Why this?|[ScreenTalk1]Why now?",
+    "polish": "[ScreenTalk1]To naprawdę ty, prawda??|[ScreenTalk3]Po takim czasie...|[ScreenTalk2]Minęło tyle czasu...|[ScreenTalk1]Ale dlaczego?|[ScreenTalk3]Dlaczego to robisz?|[ScreenTalk1]Dlaczego teraz?",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w57-5",
+    "english": "Don't listen to her.|She's not making any sense. She's just getting nervous.",
+    "polish": "Nie słuchaj jej.|Plecie od rzeczy. Po prostu zaczyna się denerwować.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w511-1",
+    "english": "So... you made it.|You finally made it home.|Don't think that mask can fool me.|I know it's you, brother.|It's been so long. I wasn't sure it was you at first.|I know back then, after the incident, everything just fell apart and I understand the actions you've taken.|But you must also understand why I can't let you go on.|Mitch was never a good father, but I'm grateful for the path he set me on.|And Denny, he was never really loyal to anyone but he will forever hold a special place in my heart.|Your actions must have consequences.|I'll be sure to give you a nice tombstone...",
+    "polish": "Więc... udało ci się.|Wreszcie wróciłeś do domu.|Nie myśl, że oszukasz mnie tą maską.|Wiem, że to ty, bracie.|Minęło tyle czasu. Z początku nie byłam pewna.|Wiem, że wtedy, po tym zdarzeniu, wszystko się rozpadło. Rozumiem twoje działania.|Ale ty też musisz zrozumieć, dlaczego nie mogę pozwolić ci działać dalej.|Mitch nigdy nie był dobrym ojcem, ale jestem wdzięczna za drogę, na którą mnie skierował.|A Denny nigdy nie był nikomu wierny, ale zawsze będzie miał szczególne miejsce w moim sercu.|Twoje czyny muszą mieć konsekwencje.|Zadbam o ładny nagrobek dla ciebie...",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w512-1",
+    "english": "You win, brother.|You win...",
+    "polish": "Wygrałeś, bracie.|Wygrałeś...",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w512-2",
+    "english": "So...|Ehm...|Heh...|I might not have been totally honest with you.|I never wanted to lie, but I only did what you asked me to do before you put that mask on and decided to forget everything.|You were always morally torn with what your family was up to.|You went along with their schemes and ill doings for a long time, but one day you couldn't take it anymore.|You wanted to put an end to their ways and send a message to anyone who might attempt to follow in their footsteps.|But you weren't strong enough to do that to your own family.|So you came to me and asked for help.|Together we came up with a story and a plan that would motivate you to do what needed to be done.|You put that mask on to avoid getting recognized and we snuck in to Mitch's basement.|You then knocked yourself out and blanked your memory.|One thing lead to another and here we are...|You were afraid of how you would act once you discovered the truth about your actions.|So now there is only one thing left for me to do to fulfil my promise to you.|Forgive me...",
+    "polish": "Więc...|Eee...|Heh...|Może nie byłem z tobą do końca szczery.|Nie chciałem kłamać, ale robiłem tylko to, o co poprosiłeś, zanim założyłeś maskę i postanowiłeś o wszystkim zapomnieć.|Zawsze dręczyły cię moralne rozterki związane z działaniami twojej rodziny.|Długo uczestniczyłeś w ich intrygach i niegodziwościach, ale pewnego dnia nie mogłeś już tego znieść.|Chciałeś położyć temu kres i dać przestrogę każdemu, kto zechciałby pójść w ich ślady.|Ale brakowało ci siły, by zrobić to własnej rodzinie.|Więc przyszedłeś do mnie po pomoc.|Razem wymyśliliśmy historię i plan, które miały cię zmotywować do zrobienia tego, co konieczne.|Założyłeś maskę, żeby nikt cię nie rozpoznał, i zakradliśmy się do piwnicy Mitcha.|Potem sam pozbawiłeś się przytomności i wymazałeś sobie pamięć.|Jedno pociągnęło za sobą drugie i oto jesteśmy...|Bałeś się, co zrobisz, kiedy poznasz prawdę o swoich czynach.|Została mi więc tylko jedna rzecz do zrobienia, żeby dotrzymać danej ci obietnicy.|Wybacz mi...",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w513-1",
+    "english": "Remember, I'm only going to kill you because I promised you I would.|And true friends keep their promises.",
+    "polish": "Pamiętaj, zabiję cię tylko dlatego, że ci to obiecałem.|A prawdziwi przyjaciele dotrzymują obietnic.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "w513-2",
+    "english": "I'm... |Sorry....",
+    "polish": "Ja... |Przepraszam....",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "pep1",
+    "english": "Happy",
+    "polish": "Radocha",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "pep2",
+    "english": "Snap!",
+    "polish": "Bach!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "pep3",
+    "english": "Beautiful",
+    "polish": "Pięknie",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "pep4",
+    "english": "Huzzah!",
+    "polish": "Hurra!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "pep5",
+    "english": "Snazzy",
+    "polish": "Odjazd",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "pep6",
+    "english": "Joy!",
+    "polish": "Ale frajda!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "pep7",
+    "english": "Marvellous",
+    "polish": "Cudownie",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "pep8",
+    "english": "Splendid",
+    "polish": "Wspaniale",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "pep9",
+    "english": "Excellent",
+    "polish": "Znakomicie",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "pep10",
+    "english": "Fantastic",
+    "polish": "Fantastycznie",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "pep11",
+    "english": "Wow!",
+    "polish": "Łoł!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "pep12",
+    "english": "Cool!",
+    "polish": "Super!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "pep13",
+    "english": "Rad!",
+    "polish": "Ekstra!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "pep14",
+    "english": "Nice!",
+    "polish": "Świetnie!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "pep15",
+    "english": "Lovely",
+    "polish": "Uroczo",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "pep16",
+    "english": "OMG",
+    "polish": "O rany",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "pep17",
+    "english": "Amaze",
+    "polish": "Niesamowicie",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "pep18",
+    "english": "Jolly good",
+    "polish": "Pierwsza klasa",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "pep19",
+    "english": "Handsome",
+    "polish": "Elegancko",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "pep20",
+    "english": "Splendid",
+    "polish": "Wyśmienicie",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "dead",
+    "english": "DEAD",
+    "polish": "NIE ŻYJESZ",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "hint1",
+    "english": "<DODGE> Dodge",
+    "polish": "<DODGE> Unik",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "hint2",
+    "english": "You have died. Press <RESTART> to try again.",
+    "polish": "Nie żyjesz. Naciśnij <RESTART>, aby spróbować ponownie.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "hint3",
+    "english": "<ACTION> Disable FOCUS",
+    "polish": "<ACTION> Wyłącz SKUPIENIE",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "hint4",
+    "english": "Out of ammo. Hold <CHANGEWEAPON> to change weapon.",
+    "polish": "Brak amunicji. Przytrzymaj <CHANGEWEAPON>, aby zmienić broń.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "hint5",
+    "english": "<RELOAD> Reload",
+    "polish": "<RELOAD> Przeładuj",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "hint6",
+    "english": "Health full",
+    "polish": "Pełne zdrowie",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "hint7",
+    "english": "Ammo full",
+    "polish": "Pełna amunicja",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "pHintTop1",
+    "english": "Papa always said:",
+    "polish": "Tata zawsze mówił:",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "pHintTop2",
+    "english": "Mama always said:",
+    "polish": "Mama zawsze mówiła:",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "pHintTop3",
+    "english": "Pro tip:",
+    "polish": "Rada zawodowca:",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "pHintTop4",
+    "english": "Uncle always said:",
+    "polish": "Wujek zawsze mówił:",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "pHintTop5",
+    "english": "Auntie always said:",
+    "polish": "Ciocia zawsze mówiła:",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "pHintTop6",
+    "english": "Hot tip:",
+    "polish": "Dobra rada:",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "pHint1",
+    "english": "Hold <DODGE> to dodge bullets",
+    "polish": "Przytrzymaj <DODGE>, by unikać kul",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "pHint2",
+    "english": "Pressing <ACTION> slows down time",
+    "polish": "Naciśnięcie <ACTION> spowalnia czas",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "pHint3",
+    "english": "Hold <SHOOT2> to split aim",
+    "polish": "Przytrzymaj <SHOOT2>, by rozdzielić celowanie",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "pHint4",
+    "english": "Hold <SHOOT2> to sniper aim",
+    "polish": "Przytrzymaj <SHOOT2>, by celować przez lunetę",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "pHint5",
+    "english": "Press <SHOOT2> to launch grenade",
+    "polish": "Naciśnij <SHOOT2>, by wystrzelić granat",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "pHint6",
+    "english": "Press <MELEE> to kick near by enemies",
+    "polish": "Naciśnij <MELEE>, by kopnąć pobliskich wrogów",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "pHint7",
+    "english": "Hold <DODGE> to dodge bullets",
+    "polish": "Przytrzymaj <DODGE>, by unikać kul",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "pHint8",
+    "english": "Things moving too fast? Use <ACTION> to slow down time",
+    "polish": "Za szybko? Użyj <ACTION>, by spowolnić czas",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "pHint9",
+    "english": "You can shoot while crouching behind cover",
+    "polish": "Możesz strzelać, kucając za osłoną",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "pHint10",
+    "english": "Headshots deal more damage",
+    "polish": "Trafienia w głowę zadają większe obrażenia",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "pHint11",
+    "english": "Reloading in between battles is generally a good idea",
+    "polish": "Warto przeładowywać broń między walkami",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "pHint12",
+    "english": "Doing flips makes it harder for enemies to hit you",
+    "polish": "Salta utrudniają wrogom trafienie cię",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "interact1",
+    "english": "<MELEE> Kick",
+    "polish": "<MELEE> Kopnij",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "interact2",
+    "english": "<JUMP> Grab",
+    "polish": "<JUMP> Złap",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "interact3",
+    "english": "<JUMP> Flip",
+    "polish": "<JUMP> Salto",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "interact4",
+    "english": "<INTERACT> Press button",
+    "polish": "<INTERACT> Naciśnij przycisk",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "interact5",
+    "english": "<INTERACT> Flip lever",
+    "polish": "<INTERACT> Przełącz dźwignię",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "interact6",
+    "english": "<INTERACT> Flip",
+    "polish": "<INTERACT> Przewróć",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "interact7",
+    "english": "<INTERACT> Open",
+    "polish": "<INTERACT> Otwórz",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "interact8",
+    "english": "<JUMP> Swing",
+    "polish": "<JUMP> Rozbujaj się",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "inHeader",
+    "english": "Recipe for success",
+    "polish": "Przepis na sukces",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "in1",
+    "english": "<LOOK>  -  Look around",
+    "polish": "<LOOK>  -  Rozglądaj się",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "in2",
+    "english": "<LEFT>   <RIGHT>  -  Move",
+    "polish": "<LEFT>   <RIGHT>  -  Poruszaj się",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "in3",
+    "english": "<JUMP>  -  Jump",
+    "polish": "<JUMP>  -  Skocz",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "in4",
+    "english": "<JUMP>  -  Jump on to wall",
+    "polish": "<JUMP>  -  Skocz na ścianę",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "in5",
+    "english": "<JUMP>  -  Jump again to Wall Jump",
+    "polish": "<JUMP>  -  Skocz ponownie, by odbić się od ściany",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "in6",
+    "english": "<SHOOT>  -  Shoot",
+    "polish": "<SHOOT>  -  Strzelaj",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "in7",
+    "english": "Hold <CROUCH> to Crouch",
+    "polish": "Przytrzymaj <CROUCH>, by kucnąć",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "in8",
+    "english": "Then <LEFT> or <RIGHT> to Roll",
+    "polish": "Następnie <LEFT> lub <RIGHT>, by się przeturlać",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "in9",
+    "english": "<ACTION>  -  Toggle FOCUS",
+    "polish": "<ACTION>  -  Przełącz SKUPIENIE",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "in10",
+    "english": "<LEFT> or <RIGHT> + <JUMP>  -  Flip",
+    "polish": "<LEFT> lub <RIGHT> + <JUMP>  -  Salto",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "in11",
+    "english": "<ACTION>  -  Activate FOCUS",
+    "polish": "<ACTION>  -  Włącz SKUPIENIE",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "in12",
+    "english": "<RIGHT> + <JUMP>  -  Jump off the edge",
+    "polish": "<RIGHT> + <JUMP>  -  Zeskocz z krawędzi",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "in13",
+    "english": "<SHOOT>  -  Shoot the vase before landing",
+    "polish": "<SHOOT>  -  Rozstrzel wazon przed lądowaniem",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "in14",
+    "english": "Aim at a vase",
+    "polish": "Wyceluj w wazon",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "in15",
+    "english": "Hold <SHOOT2>  -  Lock on Secondary Aim",
+    "polish": "Przytrzymaj <SHOOT2>  -  Zablokuj drugi cel",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "in16",
+    "english": "Aim at the other vase",
+    "polish": "Wyceluj w drugi wazon",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "in17",
+    "english": "<SHOOT>  -  Fire",
+    "polish": "<SHOOT>  -  Strzelaj",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "in18",
+    "english": "Hold <DODGE>  -  Dodge",
+    "polish": "Przytrzymaj <DODGE>  -  Unik",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "in19",
+    "english": "You can Dodge while moving or jumping.",
+    "polish": "Możesz robić uniki w ruchu lub w powietrzu.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "in20",
+    "english": "Get close to rope to grab on to it",
+    "polish": "Podejdź do liny, by się jej chwycić",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "in21",
+    "english": "<LEFT> <RIGHT>  -  Swing Left/Right",
+    "polish": "<LEFT> <RIGHT>  -  Bujaj się w lewo/prawo",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "in22",
+    "english": "<CROUCH>  -  Slide down",
+    "polish": "<CROUCH>  -  Zsuń się",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "in23",
+    "english": "<JUMP>  -  Jump / Release",
+    "polish": "<JUMP>  -  Skocz / Puść",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "in24",
+    "english": "Walk close to the Ball",
+    "polish": "Podejdź do piłki",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "in25",
+    "english": "<LOOK>  -  Aim",
+    "polish": "<LOOK>  -  Celuj",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "in26",
+    "english": "<MELEE>  -  Kick",
+    "polish": "<MELEE>  -  Kopnij",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "in27",
+    "english": "<MOTOUP>  -  Move away from camera",
+    "polish": "<MOTOUP>  -  Oddal się od kamery",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "in28",
+    "english": "<MOTODOWN>  -  Move towards camera",
+    "polish": "<MOTODOWN>  -  Zbliż się do kamery",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "in29",
+    "english": "Hold <MOTOJUMP>  -  Jump",
+    "polish": "Przytrzymaj <MOTOJUMP>  -  Skok",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "in30",
+    "english": "Hold <MOTOWHEELIE>  -  Wheelie / Speed up",
+    "polish": "Przytrzymaj <MOTOWHEELIE>  -  Jazda na kole / Przyspieszenie",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "in31",
+    "english": "<JUMP>  -  Jump with skateboard",
+    "polish": "<JUMP>  -  Skocz z deskorolką",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "in32",
+    "english": "<MELEE>  -  Kick skateboard while jumping",
+    "polish": "<MELEE>  -  Kopnij deskorolkę w powietrzu",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "in33",
+    "english": "Hold <CROUCH>  -  Fall",
+    "polish": "Przytrzymaj <CROUCH>  -  Opadanie",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "in34",
+    "english": "Equip Assault Rifle",
+    "polish": "Wybierz karabin szturmowy",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "in35",
+    "english": "<SHOOT2>  -  Launch grenade",
+    "polish": "<SHOOT2>  -  Wystrzel granat",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "in36",
+    "english": "Hold <SHOOT2>  -  Sniper aim",
+    "polish": "Przytrzymaj <SHOOT2>  -  Celowanie przez lunetę",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "in37",
+    "english": "<INTERACT> Resist",
+    "polish": "<INTERACT> Staw opór",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eHeardNoise1",
+    "english": "Huh?",
+    "polish": "Hę?",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eHeardNoise2",
+    "english": "Did you hear that?",
+    "polish": "Słyszałeś to?",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eHeardNoise3",
+    "english": "Was that you?",
+    "polish": "To byłeś ty?",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eHeardNoise4",
+    "english": "Did you just fart?",
+    "polish": "Pierdnąłeś?",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eHeardNoise5",
+    "english": "I think someone's coming...",
+    "polish": "Chyba ktoś idzie...",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eHeardNoise6",
+    "english": "Anybody there..?",
+    "polish": "Jest tam kto..?",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eHeardNoise7",
+    "english": "Hello?",
+    "polish": "Halo?",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eHeardNoise8",
+    "english": "Who's there?",
+    "polish": "Kto tam?",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eHeardNoise9",
+    "english": "Huh?",
+    "polish": "Hę?",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlarmAlert1",
+    "english": "Sound the alarm!",
+    "polish": "Włączyć alarm!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted1",
+    "english": "Shit!",
+    "polish": "Kurwa!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted2",
+    "english": "You!",
+    "polish": "Ty!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted3",
+    "english": "Hey!",
+    "polish": "Hej!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted4",
+    "english": "Son of a..!",
+    "polish": "Ty skur...!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted5",
+    "english": "He's here!",
+    "polish": "Jest tutaj!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted6",
+    "english": "Damn!",
+    "polish": "Cholera!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted7",
+    "english": "Rats!",
+    "polish": "Psia kość!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted8",
+    "english": "Oi!",
+    "polish": "Ej!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted9",
+    "english": "Die!",
+    "polish": "Giń!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted10",
+    "english": "Oh no!",
+    "polish": "O nie!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eRemoteAlert1",
+    "english": "Over there!",
+    "polish": "Tam!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eRemoteAlert2",
+    "english": "I see him!",
+    "polish": "Widzę go!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eRemoteAlert3",
+    "english": "There!",
+    "polish": "Tam jest!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eRemoteAlert4",
+    "english": "Get him!",
+    "polish": "Brać go!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "hLoAm",
+    "english": "Low Ammo",
+    "polish": "Mało amunicji",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "hRel",
+    "english": "RELOADING",
+    "polish": "PRZEŁADOWANIE",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "hNewW",
+    "english": "NEW WEAPON",
+    "polish": "NOWA BROŃ",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "hSec",
+    "english": "SECONDARY",
+    "polish": "DRUGA BROŃ",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "hChW",
+    "english": "Change Weapon",
+    "polish": "Zmień broń",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "bul1",
+    "english": "Backflip off enemy",
+    "polish": "Salto w tył z odbiciem od wroga",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "bul2",
+    "english": "Walljump",
+    "polish": "Odbicie od ściany",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "bul3",
+    "english": "Slide",
+    "polish": "Ślizg",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "bul4",
+    "english": "Swing",
+    "polish": "Bujanie",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "bul5",
+    "english": "Air",
+    "polish": "W powietrzu",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "bul6",
+    "english": "Spin",
+    "polish": "Obrót",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "bul7",
+    "english": "Dodge",
+    "polish": "Unik",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "bul8",
+    "english": "Split",
+    "polish": "Dwa cele",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "bul9",
+    "english": "Dramatic entrance",
+    "polish": "Efektowne wejście",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "bul10",
+    "english": "Ricochet",
+    "polish": "Rykoszet",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "bul11",
+    "english": "Splat",
+    "polish": "Plask",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "bul12",
+    "english": "Kill",
+    "polish": "Zabójstwo",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "bul13",
+    "english": "Headshot",
+    "polish": "Trafienie w głowę",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "bul14",
+    "english": "Hit",
+    "polish": "Trafienie",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "bul15",
+    "english": "Damaged mech",
+    "polish": "Uszkodzony mech",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "bul16",
+    "english": "Destroyed mech",
+    "polish": "Zniszczony mech",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "bul17",
+    "english": "Destroyed aircraft",
+    "polish": "Zniszczony statek powietrzny",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "bul18",
+    "english": "Destroyed turret",
+    "polish": "Zniszczona wieżyczka",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "bul19",
+    "english": "Destroyed electric ball",
+    "polish": "Zniszczona kula elektryczna",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "bul20",
+    "english": "Destroyed mine",
+    "polish": "Zniszczona mina",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "esLvlCom",
+    "english": "Level Complete",
+    "polish": "Poziom ukończony",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "esGaSc",
+    "english": "Game Score",
+    "polish": "Wynik gry",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "esTiBo",
+    "english": "Time Bonus",
+    "polish": "Premia za czas",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "esKills",
+    "english": "Kills",
+    "polish": "Zabójstwa",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "esNoDeBo",
+    "english": "No Death Bonus",
+    "polish": "Premia za brak zgonów",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "esDiffBo",
+    "english": "Difficulty Bonus",
+    "polish": "Premia za trudność",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "esFiRa",
+    "english": "Final Rating",
+    "polish": "Ocena końcowa",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "esRateA",
+    "english": "A",
+    "polish": "A",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "esRateB",
+    "english": "B",
+    "polish": "B",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "esRateC",
+    "english": "C",
+    "polish": "C",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "esRateS",
+    "english": "S",
+    "polish": "S",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "esAFor1",
+    "english": "for Awesome",
+    "polish": "jak Arcymistrzowsko",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "esAFor2",
+    "english": "for Amazing",
+    "polish": "jak Absolutnie świetnie",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "esAFor3",
+    "english": "for Astonishing",
+    "polish": "jak Ale wyczyn",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "esAFor4",
+    "english": "for Aaww Yeah",
+    "polish": "jak Aż miło",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "esBFor1",
+    "english": "for Bravo",
+    "polish": "jak Brawo",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "esBFor2",
+    "english": "for Bananas",
+    "polish": "jak Bananowo",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "esBFor3",
+    "english": "for Bonkers",
+    "polish": "jak Bez hamulców",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "esBFor4",
+    "english": "for Bravissimo",
+    "polish": "jak Brawurowo",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "esCFor1",
+    "english": "for Could do better",
+    "polish": "jak Ciut lepiej następnym razem",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "esCFor2",
+    "english": "for Coconut",
+    "polish": "jak Całkiem kokosowo",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "esCFor3",
+    "english": "for Careless",
+    "polish": "jak Cienko",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "esCFor4",
+    "english": "for Come on",
+    "polish": "jak Chyba żartujesz",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "esSFor1",
+    "english": "for Silky Smooth",
+    "polish": "jak Sama płynność",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "esSFor2",
+    "english": "for Super",
+    "polish": "jak Super",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "esSFor3",
+    "english": "for Stupidly Rad",
+    "polish": "jak Szaleńczo dobrze",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "esSFor4",
+    "english": "for Special",
+    "polish": "jak Specjalista",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "esCont",
+    "english": "CONTINUE",
+    "polish": "KONTYNUUJ",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "gifSave",
+    "english": "Save GIF",
+    "polish": "Zapisz GIF",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "gifSaving",
+    "english": "Saving GIF",
+    "polish": "Zapisywanie GIF-a",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "gifSaved",
+    "english": "Saved",
+    "polish": "Zapisano",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "gifSavedAt",
+    "english": "Saved at:",
+    "polish": "Zapisano w:",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "gifTweet",
+    "english": "Save and Tweet GIF",
+    "polish": "Zapisz GIF i opublikuj na Twitterze",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "gifTwitterShare",
+    "english": "Share on Twitter",
+    "polish": "Udostępnij na Twitterze",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "gifProc",
+    "english": "Processing GIF",
+    "polish": "Przetwarzanie GIF-a",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "gifDone",
+    "english": "Done!",
+    "polish": "Gotowe!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "twitPerm",
+    "english": "Twitter Permission",
+    "polish": "Uprawnienia Twittera",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "twitInstruction",
+    "english": "Follow the instructions in your Web Browser and enter the PIN you recieve below:",
+    "polish": "Postępuj zgodnie z instrukcjami w przeglądarce i wpisz poniżej otrzymany PIN:",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "twitEnterPin",
+    "english": "Enter PIN",
+    "polish": "Wpisz PIN",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "twitText",
+    "english": "Tweet text",
+    "polish": "Treść tweeta",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "twitTxtEx",
+    "english": "Fun times with 'My Friend Pedro' - More info at www.myfriendpedro.com",
+    "polish": "Dobra zabawa z „My Friend Pedro” — więcej na www.myfriendpedro.com",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "twitRegAnoAcc",
+    "english": "Click here to register another Twitter account",
+    "polish": "Kliknij tutaj, aby zarejestrować inne konto Twittera",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "twitPost",
+    "english": "Post",
+    "polish": "Opublikuj",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "uiConfirm",
+    "english": "Confirm",
+    "polish": "Potwierdź",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "uiCancel",
+    "english": "Cancel",
+    "polish": "Anuluj",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Pedro",
+    "english": "Pedro",
+    "polish": "Pedro",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Bob",
+    "english": "Bob",
+    "polish": "Bob",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Mitch the Butcher",
+    "english": "Mitch the Butcher",
+    "polish": "Mitch Rzeźnik",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "John",
+    "english": "John",
+    "polish": "John",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Dave",
+    "english": "Dave",
+    "polish": "Dave",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Rutger",
+    "english": "Rutger",
+    "polish": "Rutger",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Ayoze",
+    "english": "Ayoze",
+    "polish": "Ayoze",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Hunter",
+    "english": "Hunter",
+    "polish": "Hunter",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Denny",
+    "english": "Denny",
+    "polish": "Denny",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "1337dealWithIT",
+    "english": "1337dealWithIT",
+    "polish": "1337dealWithIT",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "ISP-23698",
+    "english": "ISP-23698",
+    "polish": "ISP-23698",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "ISP-23701",
+    "english": "ISP-23701",
+    "polish": "ISP-23701",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "ISP-88172",
+    "english": "ISP-88172",
+    "polish": "ISP-88172",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Ophelia",
+    "english": "Ophelia",
+    "polish": "Ofelia",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Mech",
+    "english": "Mech",
+    "polish": "Mech",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Aircraft",
+    "english": "Aircraft",
+    "polish": "Statek powietrzny",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "LangName",
+    "english": "English",
+    "polish": "Polski",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "startPrompt",
+    "english": "Press any button to start...",
+    "polish": "Naciśnij dowolny przycisk, aby rozpocząć...",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mPaused",
+    "english": "Game Paused",
+    "polish": "Gra wstrzymana",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mResume",
+    "english": "Resume",
+    "polish": "Wznów",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mRestart",
+    "english": "Restart Level",
+    "polish": "Powtórz poziom",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mExit",
+    "english": "Exit To Main Menu",
+    "polish": "Wyjdź do menu głównego",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mQuit",
+    "english": "Quit Game",
+    "polish": "Zakończ grę",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mMain",
+    "english": "Main Menu",
+    "polish": "Menu główne",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mContinue",
+    "english": "Continue",
+    "polish": "Kontynuuj",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mNewGame",
+    "english": "New Game",
+    "polish": "Nowa gra",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mCredits",
+    "english": "Credits",
+    "polish": "Twórcy",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mDiffLvl",
+    "english": "Difficulty Level",
+    "polish": "Poziom trudności",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "diffLvl1",
+    "english": "Normal",
+    "polish": "Normalny",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "diffLvl1Descrpt",
+    "english": "A well balanced experience.\n- Partly recharging health.\n- Enemies have normal reaction time.",
+    "polish": "Wyważone wyzwanie.\n- Częściowa regeneracja zdrowia.\n- Normalny czas reakcji wrogów.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "diffLvl2",
+    "english": "Hard",
+    "polish": "Trudny",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "diffLvl2Descrpt",
+    "english": "A more challenging experience.\n- Partly recharging health.\n- Enemies deal more damage.\n- Enemies are more accurate and react faster.",
+    "polish": "Większe wyzwanie.\n- Częściowa regeneracja zdrowia.\n- Wrogowie zadają większe obrażenia.\n- Wrogowie są celniejsi i reagują szybciej.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "diffLvl3",
+    "english": "Bananas",
+    "polish": "Bananowy obłęd",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "diffLvl3Descrpt",
+    "english": "Good reaction times recommended.\n- No recharging health.\n- No dodge-assistance.\n- Enemies deal a high level of damage.\n- Enemies react very fast and rarely miss.",
+    "polish": "Zalecany dobry refleks.\n- Brak regeneracji zdrowia.\n- Brak wspomagania uników.\n- Wrogowie zadają ogromne obrażenia.\n- Wrogowie reagują błyskawicznie i rzadko pudłują.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mBack",
+    "english": "Back",
+    "polish": "Wstecz",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mOn",
+    "english": "Enabled",
+    "polish": "Włączone",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mOff",
+    "english": "Disabled",
+    "polish": "Wyłączone",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mProceed",
+    "english": "Proceed",
+    "polish": "Dalej",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mCancel",
+    "english": "Cancel",
+    "polish": "Anuluj",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mLvlSel",
+    "english": "Level Select",
+    "polish": "Wybór poziomu",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mOptions",
+    "english": "Options",
+    "polish": "Opcje",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mControls",
+    "english": "Controls",
+    "polish": "Sterowanie",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mVid",
+    "english": "Video",
+    "polish": "Obraz",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mAud",
+    "english": "Audio",
+    "polish": "Dźwięk",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mGame",
+    "english": "Game",
+    "polish": "Gra",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mLang",
+    "english": "Language",
+    "polish": "Język",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mWaitInput",
+    "english": "Waiting for input...",
+    "polish": "Oczekiwanie na przycisk...",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mKBM",
+    "english": "Keyboard And Mouse Controls",
+    "polish": "Sterowanie klawiaturą i myszą",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mDefault",
+    "english": "Restore default",
+    "polish": "Przywróć domyślne",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mMove",
+    "english": "Movement",
+    "polish": "Ruch",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mMoveL",
+    "english": "Move Left",
+    "polish": "Ruch w lewo",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mMoveR",
+    "english": "Move Right",
+    "polish": "Ruch w prawo",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mJump",
+    "english": "Jump",
+    "polish": "Skok",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mCrouch",
+    "english": "Crouch",
+    "polish": "Kucanie",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mDodge",
+    "english": "Dodge",
+    "polish": "Unik",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mFocus",
+    "english": "Focus",
+    "polish": "Skupienie",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mActions",
+    "english": "Actions",
+    "polish": "Czynności",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mInteract",
+    "english": "Interact",
+    "polish": "Interakcja",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mKick",
+    "english": "Kick",
+    "polish": "Kopnięcie",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mFire",
+    "english": "Fire",
+    "polish": "Strzał",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mFire2",
+    "english": "Secondary Fire",
+    "polish": "Strzał dodatkowy",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mReload",
+    "english": "Reload",
+    "polish": "Przeładowanie",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mWeapons",
+    "english": "Weapons",
+    "polish": "Broń",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mChgWep",
+    "english": "Change Weapon",
+    "polish": "Zmiana broni",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mNextWep",
+    "english": "Next Weapon",
+    "polish": "Następna broń",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mPrevWep",
+    "english": "Previous Weapon",
+    "polish": "Poprzednia broń",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mWep1",
+    "english": "Pistol",
+    "polish": "Pistolet",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mWep2",
+    "english": "Dual Pistols",
+    "polish": "Dwa pistolety",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mWep3",
+    "english": "Submachine Gun",
+    "polish": "Pistolet maszynowy",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mWep4",
+    "english": "Dual Submachine Guns",
+    "polish": "Dwa pistolety maszynowe",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mWep5",
+    "english": "Shotgun",
+    "polish": "Strzelba",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mWep6",
+    "english": "Assault Rifle",
+    "polish": "Karabin szturmowy",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mWep7",
+    "english": "Rifle",
+    "polish": "Karabin",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mSpecial",
+    "english": "Special",
+    "polish": "Specjalne",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mMotoUp",
+    "english": "Motorcycle Up",
+    "polish": "Motocykl — w górę",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mMotoDown",
+    "english": "Motorcycle Down",
+    "polish": "Motocykl — w dół",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mMotoWheel",
+    "english": "Motorcycle Wheelie",
+    "polish": "Motocykl — jazda na kole",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mGamepad",
+    "english": "Controller Controls",
+    "polish": "Sterowanie kontrolerem",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mAim",
+    "english": "Aiming",
+    "polish": "Celowanie",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mAimL",
+    "english": "Aim Left",
+    "polish": "Celowanie w lewo",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mAimR",
+    "english": "Aim Right",
+    "polish": "Celowanie w prawo",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mAimU",
+    "english": "Aim Up",
+    "polish": "Celowanie w górę",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mAimD",
+    "english": "Aim Down",
+    "polish": "Celowanie w dół",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mSetKBM",
+    "english": "Setup Keyboard And Mouse",
+    "polish": "Skonfiguruj klawiaturę i mysz",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mSetGamepad",
+    "english": "Setup Controller",
+    "polish": "Skonfiguruj kontroler",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mRes",
+    "english": "Resolution",
+    "polish": "Rozdzielczość",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mFullSc",
+    "english": "Fullscreen",
+    "polish": "Pełny ekran",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mQual",
+    "english": "Quality",
+    "polish": "Jakość",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mQLow",
+    "english": "Low",
+    "polish": "Niska",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mQMid",
+    "english": "Medium",
+    "polish": "Średnia",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mQHi",
+    "english": "High",
+    "polish": "Wysoka",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mApply",
+    "english": "Apply settings",
+    "polish": "Zastosuj ustawienia",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mSFXVol",
+    "english": "Sound Effects Volume",
+    "polish": "Głośność efektów",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mMusicVol",
+    "english": "Music Volume",
+    "polish": "Głośność muzyki",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mDifficulty",
+    "english": "Difficulty",
+    "polish": "Trudność",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mBlood",
+    "english": "Blood and gore",
+    "polish": "Krew i brutalność",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mScrShake",
+    "english": "Screenshake",
+    "polish": "Wstrząsy ekranu",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mClear",
+    "english": "Clear all saved data",
+    "polish": "Usuń wszystkie zapisane dane",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mClearHeader",
+    "english": "Clear Data",
+    "polish": "Usuwanie danych",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mClearSure",
+    "english": "Are you sure you want to clear all saved data?\nThis will reset all progress and settings.",
+    "polish": "Czy na pewno chcesz usunąć wszystkie zapisane dane?\nSpowoduje to zresetowanie postępów i ustawień.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mTheme1",
+    "english": "Old Town",
+    "polish": "Stare Miasto",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mTheme2",
+    "english": "District Null",
+    "polish": "Dzielnica Null",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mTheme3",
+    "english": "Pedro's World",
+    "polish": "Świat Pedra",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mTheme4",
+    "english": "The Sewer",
+    "polish": "Kanały",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mTheme5",
+    "english": "The Internet",
+    "polish": "Internet",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mTheme6",
+    "english": "The End",
+    "polish": "Koniec",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mDiffLvl2",
+    "english": "Difficulty level:",
+    "polish": "Poziom trudności:",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mLvl1",
+    "english": "Level 1",
+    "polish": "Poziom 1",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mLvl2",
+    "english": "Level 2",
+    "polish": "Poziom 2",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mLvl3",
+    "english": "Level 3",
+    "polish": "Poziom 3",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mLvl4",
+    "english": "Level 4",
+    "polish": "Poziom 4",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mLvl5",
+    "english": "Level 5",
+    "polish": "Poziom 5",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mLvl6",
+    "english": "Level 6",
+    "polish": "Poziom 6",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mLvl7",
+    "english": "Level 7",
+    "polish": "Poziom 7",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mLvl8",
+    "english": "Level 8",
+    "polish": "Poziom 8",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mLvl9",
+    "english": "Level 9",
+    "polish": "Poziom 9",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mLvl10",
+    "english": "Level 10",
+    "polish": "Poziom 10",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mRating",
+    "english": "Rating:",
+    "polish": "Ocena:",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mBestScore",
+    "english": "Best score:",
+    "polish": "Najlepszy wynik:",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mBestTime",
+    "english": "Best time:",
+    "polish": "Najlepszy czas:",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mLeaderb",
+    "english": "Leaderboard",
+    "polish": "Ranking",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mType",
+    "english": "Type:",
+    "polish": "Typ:",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mGlobal",
+    "english": "Global",
+    "polish": "Świat",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mFriends",
+    "english": "Friends",
+    "polish": "Znajomi",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mUser",
+    "english": "User",
+    "polish": "Użytkownik",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mNxtPg",
+    "english": "Next Page",
+    "polish": "Następna strona",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mPrePg",
+    "english": "Previous Page",
+    "polish": "Poprzednia strona",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mTotPlayers",
+    "english": "Total Players:",
+    "polish": "Liczba graczy:",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mNoEnt",
+    "english": "No entries",
+    "polish": "Brak wpisów",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mLoading",
+    "english": "Loading...",
+    "polish": "Wczytywanie...",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achN0",
+    "english": "Because video games",
+    "polish": "Bo to gra",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achD0",
+    "english": "Break 100 crates",
+    "polish": "Rozbij 100 skrzyń",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achN1",
+    "english": "Make an entrance",
+    "polish": "Wejście z hukiem",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achD1",
+    "english": "Jump through 10 windows",
+    "polish": "Wyskocz przez 10 okien",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achN2",
+    "english": "Three birds, one explosion",
+    "polish": "Trzy pieczenie na jednym wybuchu",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achD2",
+    "english": "Kill at least 3 enemies with one explosion",
+    "polish": "Zabij co najmniej 3 wrogów jednym wybuchem",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achN3",
+    "english": "Mumbo Combo",
+    "polish": "Czary-combary",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achD3",
+    "english": "Get a 10x combo",
+    "polish": "Uzyskaj combo x10",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achN4",
+    "english": "Comb-o-ver",
+    "polish": "Combo na zaczes",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achD4",
+    "english": "Get a 20x combo",
+    "polish": "Uzyskaj combo x20",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achN5",
+    "english": "Ah, Combon now!",
+    "polish": "No to combo!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achD5",
+    "english": "Get a 50x combo",
+    "polish": "Uzyskaj combo x50",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achN6",
+    "english": "Well done",
+    "polish": "Dobrze wysmażone",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achD6",
+    "english": "Kick a frying pan in to the face of an enemy",
+    "polish": "Kopnij patelnię w twarz wroga",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achN7",
+    "english": "Sk8, don't h8",
+    "polish": "Deska, nie hejt",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achD7",
+    "english": "Kick a skateboard in to the face of an enemy",
+    "polish": "Kopnij deskorolkę w twarz wroga",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achN8",
+    "english": "Think fast",
+    "polish": "Myśl szybko",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achD8",
+    "english": "Kick a Gas Canister in to the face of an enemy",
+    "polish": "Kopnij kanister w twarz wroga",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achN9",
+    "english": "Knife to meat you",
+    "polish": "Mięsko mi cię poznać",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achD9",
+    "english": "Stick a knife in to an enemy",
+    "polish": "Wbij nóż we wroga",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achN10",
+    "english": "Flying pan",
+    "polish": "Lotna patelnia",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achD10",
+    "english": "Kill enemy by ricocheting bullet off frying pan",
+    "polish": "Zabij wroga kulą odbitą od patelni",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achN11",
+    "english": "Jester",
+    "polish": "Błazen",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achD11",
+    "english": "Juggle basketball 10 times without it touching anything",
+    "polish": "Podbij piłkę do koszykówki 10 razy, nie pozwalając jej niczego dotknąć",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achN12",
+    "english": "Barrely saw it coming",
+    "polish": "Beczka niespodzianek",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achD12",
+    "english": "Kill an enemy using a barrel",
+    "polish": "Zabij wroga za pomocą beczki",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achN13",
+    "english": "Table service",
+    "polish": "Obsługa stolików",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achD13",
+    "english": "Flip 10 tables",
+    "polish": "Przewróć 10 stołów",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achN14",
+    "english": "Shamona",
+    "polish": "Shamona",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achD14",
+    "english": "Dodge 1000 bullets",
+    "polish": "Uniknij 1000 kul",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achN15",
+    "english": "Yes you can",
+    "polish": "Dasz radę",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achD15",
+    "english": "Kick enemies 100 times",
+    "polish": "Kopnij wrogów 100 razy",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achN16",
+    "english": "They probably deserved it",
+    "polish": "Pewnie zasłużyli",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achD16",
+    "english": "Kill 100 enemies",
+    "polish": "Zabij 100 wrogów",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achN17",
+    "english": "Murderous tendencies",
+    "polish": "Mordercze skłonności",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achD17",
+    "english": "Kill 500 enemies",
+    "polish": "Zabij 500 wrogów",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achN18",
+    "english": "Questionable moral",
+    "polish": "Wątpliwa moralność",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achD18",
+    "english": "Kill 1000 enemies",
+    "polish": "Zabij 1000 wrogów",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achN19",
+    "english": "Gold star for you",
+    "polish": "Złota gwiazdka dla ciebie",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achD19",
+    "english": "Get an S-rating",
+    "polish": "Zdobądź ocenę S",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achN20",
+    "english": "Wow",
+    "polish": "Łoł",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achD20",
+    "english": "Get S-rating on 10 levels",
+    "polish": "Zdobądź ocenę S na 10 poziomach",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achN21",
+    "english": "Brush your shoulders off",
+    "polish": "Otrzep ramiona",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achD21",
+    "english": "Get S-rating on 25 levels",
+    "polish": "Zdobądź ocenę S na 25 poziomach",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achN22",
+    "english": "S for Sensei",
+    "polish": "S jak Sensei",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achD22",
+    "english": "Get S-rating on all levels",
+    "polish": "Zdobądź ocenę S na wszystkich poziomach",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achN23",
+    "english": "Numb fingers",
+    "polish": "Zdrętwiałe palce",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achD23",
+    "english": "Complete a level without firing a weapon",
+    "polish": "Ukończ poziom bez wystrzału z broni",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achN24",
+    "english": "One for the road",
+    "polish": "Strzemienny",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achD24",
+    "english": "Finish chapter \"Old Town\"",
+    "polish": "Ukończ rozdział „Stare Miasto”",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achN25",
+    "english": "Leap of faith",
+    "polish": "Skok wiary",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achD25",
+    "english": "Finish chapter \"District Null\"",
+    "polish": "Ukończ rozdział „Dzielnica Null”",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achN26",
+    "english": "What just happened?",
+    "polish": "Co tu się właśnie stało?",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achD26",
+    "english": "Finish chapter \"Pedro's World\"",
+    "polish": "Ukończ rozdział „Świat Pedra”",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achN27",
+    "english": "Train of thought",
+    "polish": "Pociąg do myślenia",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achD27",
+    "english": "Finish chapter \"The Sewer\"",
+    "polish": "Ukończ rozdział „Kanały”",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achN28",
+    "english": "Connection lost",
+    "polish": "Utracono połączenie",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achD28",
+    "english": "Finish chapter \"The Internet\"",
+    "polish": "Ukończ rozdział „Internet”",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achN29",
+    "english": "Face the truth",
+    "polish": "Spójrz prawdzie w oczy",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "achD29",
+    "english": "Finish the game",
+    "polish": "Ukończ grę",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "in38",
+    "english": "Hold <DODGE>  -  Fly",
+    "polish": "Przytrzymaj <DODGE>  -  Latanie",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "in39",
+    "english": "Hold <CROUCH> to slide down when swinging",
+    "polish": "Przytrzymaj <CROUCH>, by zsunąć się po linie podczas bujania",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mVSync",
+    "english": "VSync",
+    "polish": "Synchronizacja pionowa",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mPHints",
+    "english": "Pedro-hints",
+    "polish": "Podpowiedzi Pedra",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mFPS",
+    "english": "Target frame rate",
+    "polish": "Docelowa liczba klatek/s",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mVibrate",
+    "english": "Vibrations",
+    "polish": "Wibracje",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mAimSens",
+    "english": "Aim sensitivity",
+    "polish": "Czułość celowania",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mCloth",
+    "english": "Cloth physics",
+    "polish": "Fizyka tkanin",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "esNoAlarm",
+    "english": "No Alarms Bonus",
+    "polish": "Premia za brak alarmów",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "esLBest",
+    "english": "Leaderboard best:",
+    "polish": "Najlepszy wynik w rankingu:",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "esPBest",
+    "english": "Personal best:",
+    "polish": "Rekord osobisty:",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "esNRecord",
+    "english": "New record!",
+    "polish": "Nowy rekord!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "esNoBonus",
+    "english": "No bonus",
+    "polish": "Brak premii",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "esBonus",
+    "english": "Bonus",
+    "polish": "Premia",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "bul21",
+    "english": "Explosive-Kill",
+    "polish": "Zabójstwo wybuchem",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "bul22",
+    "english": "Explosive",
+    "polish": "Wybuch",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "bul23",
+    "english": "Fall-Kill",
+    "polish": "Zabójstwo upadkiem",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "bul24",
+    "english": "Barrel-Kill",
+    "polish": "Zabójstwo beczką",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "bul25",
+    "english": "Barrel",
+    "polish": "Beczka",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "bul26",
+    "english": "Think fast!",
+    "polish": "Myśl szybko!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "bul27",
+    "english": "Think fast",
+    "polish": "Myśl szybko",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "bul28",
+    "english": "Kick",
+    "polish": "Kopniak",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "twNoGifUp",
+    "english": "Error: No GIF to upload",
+    "polish": "Błąd: brak GIF-a do wysłania",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "twNoTxt",
+    "english": "Error: No text to tweet",
+    "polish": "Błąd: brak treści tweeta",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "twTweeting",
+    "english": "Tweeting",
+    "polish": "Publikowanie tweeta",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "twFailAuth",
+    "english": "Error: Failed to authenticate Twitter account",
+    "polish": "Błąd: nie udało się uwierzytelnić konta Twittera",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "twFailInfo",
+    "english": "Error: Failed to get Twitter information",
+    "polish": "Błąd: nie udało się pobrać danych z Twittera",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "twUplGif",
+    "english": "Uploading GIF",
+    "polish": "Wysyłanie GIF-a",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "twError",
+    "english": "Error: ",
+    "polish": "Błąd: ",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "twSuc",
+    "english": "Tweet successful",
+    "polish": "Tweet opublikowany",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eHeardNoise10",
+    "english": "What the heck was that..?",
+    "polish": "Co to, do diabła, było..?",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eHeardNoise11",
+    "english": "Did you say something?",
+    "polish": "Mówiłeś coś?",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eHeardNoise12",
+    "english": "Was that your or my stomach?",
+    "polish": "To twój czy mój brzuch?",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eHeardNoise13",
+    "english": "This place gives me the creeps...",
+    "polish": "Mam tu ciarki...",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eHeardNoise14",
+    "english": "Oh geez...",
+    "polish": "O rety...",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eHeardNoise15",
+    "english": "Oh?",
+    "polish": "O?",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eHeardNoise16",
+    "english": "This could be it...",
+    "polish": "To może być to...",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eHeardNoise17",
+    "english": "Keep it together now...",
+    "polish": "Weź się w garść...",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted11",
+    "english": "Pay day!",
+    "polish": "Czas wypłaty!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted12",
+    "english": "Dinner time!",
+    "polish": "Obiad podano!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted13",
+    "english": "The bounty is mine!",
+    "polish": "Nagroda jest moja!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted14",
+    "english": "Money!",
+    "polish": "Kasa!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted15",
+    "english": "I regret my questionable life choices!",
+    "polish": "Żałuję swoich wątpliwych wyborów życiowych!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted16",
+    "english": "Oh it’s on!",
+    "polish": "No to zaczynamy!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted17",
+    "english": "Get over here!",
+    "polish": "Chodź tu!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted18",
+    "english": "Come any closer and I’ll wrestle ya!",
+    "polish": "Podejdź bliżej, a się z tobą posiłuję!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted19",
+    "english": "Jeepers!",
+    "polish": "O rany!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted20",
+    "english": "Oh my...",
+    "polish": "Ojej...",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eRemoteAlert5",
+    "english": "I saw him first!",
+    "polish": "Pierwszy go zobaczyłem!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eRemoteAlert6",
+    "english": "This one's mine!",
+    "polish": "Ten jest mój!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eRemoteAlert7",
+    "english": "Finders keepers!",
+    "polish": "Znalezione, niekradzione!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eRemoteAlert8",
+    "english": "I got this!",
+    "polish": "Zajmę się tym!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eHeardNoise18",
+    "english": "Yellow is the ugliest color.",
+    "polish": "Żółty to najbrzydszy kolor.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eHeardNoise19",
+    "english": "You have terrible aim.",
+    "polish": "Celujesz beznadziejnie.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eHeardNoise20",
+    "english": "Nobody likes you.",
+    "polish": "Nikt cię nie lubi.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eHeardNoise21",
+    "english": "You suck.",
+    "polish": "Jesteś do bani.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eHeardNoise22",
+    "english": "Try-hard!",
+    "polish": "Spoceniec!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eHeardNoise23",
+    "english": "Oooh, so scary...",
+    "polish": "Uuu, ale straszne...",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eHeardNoise24",
+    "english": "I know you're there.",
+    "polish": "Wiem, że tam jesteś.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eHeardNoise25",
+    "english": "I can smell you from here.",
+    "polish": "Czuję cię aż stąd.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted21",
+    "english": "Whatever.",
+    "polish": "Co mnie to.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted22",
+    "english": "Am I supposed to be impressed?",
+    "polish": "Mam być pod wrażeniem?",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted23",
+    "english": "Loser.",
+    "polish": "Przegryw.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted24",
+    "english": "Lame-face.",
+    "polish": "Cienias.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted25",
+    "english": "Weak.",
+    "polish": "Słabo.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted26",
+    "english": "Try harder.",
+    "polish": "Postaraj się bardziej.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted27",
+    "english": "I don't care.",
+    "polish": "Mam to gdzieś.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted28",
+    "english": "You're ugly.",
+    "polish": "Jesteś brzydki.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted29",
+    "english": "So mediocre.",
+    "polish": "Ale przeciętniak.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted30",
+    "english": "Are you even trying?",
+    "polish": "W ogóle się starasz?",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eRemoteAlert9",
+    "english": "Look at his hair!",
+    "polish": "Patrzcie na jego włosy!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eRemoteAlert10",
+    "english": "Here comes Mr. Bin-bag-trousers!",
+    "polish": "Idzie pan w spodniach z worka na śmieci!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eRemoteAlert11",
+    "english": "Such a try-hard.",
+    "polish": "Ale spoceniec.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eRemoteAlert12",
+    "english": "Hahahahaha!",
+    "polish": "Hahahahaha!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eHeardNoise26",
+    "english": "Wut?",
+    "polish": "Co?",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eHeardNoise27",
+    "english": "LOL?",
+    "polish": "LOL?",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eHeardNoise28",
+    "english": "Srsly...",
+    "polish": "Serio...",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eHeardNoise29",
+    "english": "Get rekt",
+    "polish": "Zaorane",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eHeardNoise30",
+    "english": "Uuuh?",
+    "polish": "Eee?",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eHeardNoise31",
+    "english": "Eh?",
+    "polish": "Hę?",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eHeardNoise32",
+    "english": "w00t?",
+    "polish": "w00t?",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eHeardNoise33",
+    "english": "Ugh...",
+    "polish": "Ech...",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted31",
+    "english": "n00b alert!",
+    "polish": "Uwaga, n00b!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted32",
+    "english": "LOL!",
+    "polish": "LOL!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted33",
+    "english": "GLHF",
+    "polish": "GLHF",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted34",
+    "english": "GG",
+    "polish": "GG",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted35",
+    "english": "L2P",
+    "polish": "Naucz się grać",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted36",
+    "english": "liek omg",
+    "polish": "no omg",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted37",
+    "english": "ZOMG",
+    "polish": "ZOMG",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted38",
+    "english": "Lag!",
+    "polish": "Lag!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted39",
+    "english": "Camper!",
+    "polish": "Kamper!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted40",
+    "english": "Git gud n00b",
+    "polish": "Ogarnij się, n00bie",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eRemoteAlert13",
+    "english": "OMFG",
+    "polish": "OMFG",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eRemoteAlert14",
+    "english": "Aggro!",
+    "polish": "Aggro!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eRemoteAlert15",
+    "english": "Zerg!",
+    "polish": "Zerg!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eRemoteAlert16",
+    "english": "MOB",
+    "polish": "MOB",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eHeardNoise34",
+    "english": "Stay alert.",
+    "polish": "Zachowaj czujność.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eHeardNoise35",
+    "english": "Potential threat detected.",
+    "polish": "Wykryto potencjalne zagrożenie.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eHeardNoise36",
+    "english": "Stay frosty.",
+    "polish": "Miej się na baczności.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eHeardNoise37",
+    "english": "The enemy is near.",
+    "polish": "Wróg jest blisko.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eHeardNoise38",
+    "english": "I know you're there.",
+    "polish": "Wiem, że tam jesteś.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eHeardNoise39",
+    "english": "Come out and play!",
+    "polish": "Wyjdź się pobawić!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eHeardNoise40",
+    "english": "You can't hide!",
+    "polish": "Nie ukryjesz się!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eHeardNoise41",
+    "english": "Face me, coward!",
+    "polish": "Stań do walki, tchórzu!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted41",
+    "english": "Spotted!",
+    "polish": "Zauważony!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted42",
+    "english": "Target spotted!",
+    "polish": "Cel zauważony!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted43",
+    "english": "Engaging.",
+    "polish": "Atakuję.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted44",
+    "english": "You're going down!",
+    "polish": "Już po tobie!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted45",
+    "english": "Say your prayers.",
+    "polish": "Odmawiaj pacierz.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted46",
+    "english": "Bring it!",
+    "polish": "Dawaj!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted47",
+    "english": "No match!",
+    "polish": "Nie masz szans!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted48",
+    "english": "Taking down target.",
+    "polish": "Eliminuję cel.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted49",
+    "english": "Clearing threat.",
+    "polish": "Likwiduję zagrożenie.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eAlerted50",
+    "english": "Time to take out the trash!",
+    "polish": "Czas wynieść śmieci!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eRemoteAlert17",
+    "english": "Incoming!",
+    "polish": "Nadciąga!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eRemoteAlert18",
+    "english": "Attack!",
+    "polish": "Atak!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eRemoteAlert19",
+    "english": "Hostile incoming!",
+    "polish": "Wróg się zbliża!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "eRemoteAlert20",
+    "english": "Cover my six!",
+    "polish": "Osłaniaj mi tyły!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "creGaBy",
+    "english": "A game by",
+    "polish": "Gra autorstwa",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "creDev1",
+    "english": "Design, Art, Code,\nStory & Sound design",
+    "polish": "Projekt, grafika, kod,\nfabuła i udźwiękowienie",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "creMus",
+    "english": "Music by",
+    "polish": "Muzyka",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "crePub",
+    "english": "Published by",
+    "polish": "Wydawca",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "crePort",
+    "english": "Nintendo Switch porting",
+    "polish": "Wersja na Nintendo Switch",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "creLoc",
+    "english": "Localization",
+    "polish": "Lokalizacja",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "creQA",
+    "english": "QA and Testing",
+    "polish": "Kontrola jakości i testy",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "crePR",
+    "english": "PR and Marketing",
+    "polish": "PR i marketing",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "creTool",
+    "english": "Engine and Tools",
+    "polish": "Silnik i narzędzia",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "creThx",
+    "english": "Special Thanks",
+    "polish": "Szczególne podziękowania",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "creSwe",
+    "english": "The Southern Sweden Game Developer Community",
+    "polish": "Społeczność twórców gier z południowej Szwecji",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "creThxU",
+    "english": "And thank YOU for playing and supporting this game.",
+    "polish": "Dziękujemy też TOBIE za grę i wsparcie.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Tab",
+    "english": "Tab",
+    "polish": "Tab",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Caps Lock",
+    "english": "Caps Lock",
+    "polish": "Caps Lock",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Left Shift",
+    "english": "Left Shift",
+    "polish": "Lewy Shift",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Left Control",
+    "english": "Left Control",
+    "polish": "Lewy Ctrl",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Left Command",
+    "english": "Left Command",
+    "polish": "Lewy Command",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Left Alt",
+    "english": "Left Alt",
+    "polish": "Lewy Alt",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Space",
+    "english": "Space",
+    "polish": "Spacja",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Right Alt",
+    "english": "Right Alt",
+    "polish": "Prawy Alt",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Right Command",
+    "english": "Right Command",
+    "polish": "Prawy Command",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Menu",
+    "english": "Menu",
+    "polish": "Menu",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Right Control",
+    "english": "Right Control",
+    "polish": "Prawy Ctrl",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Right Shift",
+    "english": "Right Shift",
+    "polish": "Prawy Shift",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Return",
+    "english": "Return",
+    "polish": "Enter",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Backspace",
+    "english": "Backspace",
+    "polish": "Backspace",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Escape",
+    "english": "Escape",
+    "polish": "Esc",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Insert",
+    "english": "Insert",
+    "polish": "Insert",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Home",
+    "english": "Home",
+    "polish": "Home",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Page Up",
+    "english": "Page Up",
+    "polish": "Page Up",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Page Down",
+    "english": "Page Down",
+    "polish": "Page Down",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "End",
+    "english": "End",
+    "polish": "End",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Delete",
+    "english": "Delete",
+    "polish": "Delete",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Up Arrow",
+    "english": "Up Arrow",
+    "polish": "Strzałka w górę",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Right Arrow",
+    "english": "Right Arrow",
+    "polish": "Strzałka w prawo",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Down Arrow",
+    "english": "Down Arrow",
+    "polish": "Strzałka w dół",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Left Arrow",
+    "english": "Left Arrow",
+    "polish": "Strzałka w lewo",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Scroll Lock",
+    "english": "Scroll Lock",
+    "polish": "Scroll Lock",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Pause",
+    "english": "Pause",
+    "polish": "Pauza",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Numlock",
+    "english": "Numlock",
+    "polish": "Num Lock",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Keypad /",
+    "english": "Keypad /",
+    "polish": "Num /",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Keypad *",
+    "english": "Keypad *",
+    "polish": "Num *",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Keypad -",
+    "english": "Keypad -",
+    "polish": "Num -",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Keypad +",
+    "english": "Keypad +",
+    "polish": "Num +",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Keypad Enter",
+    "english": "Keypad Enter",
+    "polish": "Num Enter",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Keypad .",
+    "english": "Keypad .",
+    "polish": "Num .",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Keypad 0",
+    "english": "Keypad 0",
+    "polish": "Num 0",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Keypad 1",
+    "english": "Keypad 1",
+    "polish": "Num 1",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Keypad 2",
+    "english": "Keypad 2",
+    "polish": "Num 2",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Keypad 3",
+    "english": "Keypad 3",
+    "polish": "Num 3",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Keypad 4",
+    "english": "Keypad 4",
+    "polish": "Num 4",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Keypad 5",
+    "english": "Keypad 5",
+    "polish": "Num 5",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Keypad 6",
+    "english": "Keypad 6",
+    "polish": "Num 6",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Keypad 7",
+    "english": "Keypad 7",
+    "polish": "Num 7",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Keypad 8",
+    "english": "Keypad 8",
+    "polish": "Num 8",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Keypad 9",
+    "english": "Keypad 9",
+    "polish": "Num 9",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Back Quote",
+    "english": "Back Quote",
+    "polish": "Grawis",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "Clear",
+    "english": "Clear",
+    "polish": "Wyczyść",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "inNoMap",
+    "english": "[Not mapped]",
+    "polish": "[Nieprzypisane]",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "inNoKeyb",
+    "english": "No keyboard detected",
+    "polish": "Nie wykryto klawiatury",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "inNoPad",
+    "english": "No controller detected",
+    "polish": "Nie wykryto kontrolera",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "inMissing",
+    "english": "Missing input",
+    "polish": "Brak przycisku",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mNoInEr",
+    "english": "One or more actions are not mapped to any input!",
+    "polish": "Co najmniej jedna czynność nie ma przypisanego przycisku!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mRumble",
+    "english": "Rumble",
+    "polish": "Wibracje",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mCurMode",
+    "english": "Cursor mode",
+    "polish": "Tryb kursora",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mCurM1",
+    "english": "Follow OS-cursor",
+    "polish": "Kursor systemowy",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mCurM2",
+    "english": "Simulated cursor",
+    "polish": "Kursor symulowany",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "startPromptKey",
+    "english": "Press any key to start...",
+    "polish": "Naciśnij dowolny klawisz, aby rozpocząć...",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "in40",
+    "english": "Stand on top of the screw",
+    "polish": "Stań na śrubie",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "in41",
+    "english": "Hold <DODGE>  -  Tighten screw",
+    "polish": "Przytrzymaj <DODGE>  -  Dokręcanie śruby",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mRecom",
+    "english": "(Recommended)",
+    "polish": "(Zalecane)",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mAimAssist",
+    "english": "Aim assist",
+    "polish": "Wspomaganie celowania",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mTimer",
+    "english": "Show timer",
+    "polish": "Pokaż licznik czasu",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mHUD",
+    "english": "HUD",
+    "polish": "HUD",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "timerTot",
+    "english": "TOTAL:",
+    "polish": "ŁĄCZNIE:",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "timerCur",
+    "english": "CURRENT LEVEL:",
+    "polish": "BIEŻĄCY POZIOM:",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mExpHeader",
+    "english": "Experimental Build",
+    "polish": "Wersja eksperymentalna",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mExpNotice",
+    "english": "You are currently using an Experimental build. This means some features might be work-in-progress and there may be bugs present.\nSome text might not have been translated and therefore it's recommended to play with the language set to English.",
+    "polish": "Korzystasz z eksperymentalnej wersji gry. Niektóre funkcje mogą być niedokończone i mogą występować błędy.\nCzęść tekstów może nie być przetłumaczona, dlatego zalecamy grę w języku angielskim.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mGameMod",
+    "english": "Game Modifiers",
+    "polish": "Modyfikatory gry",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mModInfo",
+    "english": "Game modifiers will be available once you reach the end of the story.",
+    "polish": "Modyfikatory gry będą dostępne po ukończeniu fabuły.",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mFoundIn",
+    "english": "Found in:",
+    "polish": "Miejsce znalezienia:",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mYouFound",
+    "english": "You found a secret!",
+    "polish": "Znaleziono sekret!",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mGModUn",
+    "english": "Game modifier unlocked:",
+    "polish": "Odblokowany modyfikator gry:",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mLocked",
+    "english": "Locked",
+    "polish": "Zablokowane",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mAllWep",
+    "english": "All weapons",
+    "polish": "Wszystkie bronie",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mInfAm",
+    "english": "Infinite ammo",
+    "polish": "Nieskończona amunicja",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mOneSEn",
+    "english": "One-shot enemies",
+    "polish": "Wrogowie giną od jednego trafienia",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "MOneSPl",
+    "english": "One-shot player",
+    "polish": "Gracz ginie od jednego trafienia",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mDisCheck",
+    "english": "No checkpoints",
+    "polish": "Brak punktów kontrolnych",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mIncAccur",
+    "english": "No recoil",
+    "polish": "Brak odrzutu",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mSlowScale",
+    "english": "Focus speed",
+    "polish": "Prędkość czasu w skupieniu",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mPlaySpeed",
+    "english": "Player speed",
+    "polish": "Prędkość gracza",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mInfFocus",
+    "english": "Infinite focus",
+    "polish": "Nieskończone skupienie",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mSideCam",
+    "english": "Side-on camera",
+    "polish": "Kamera z boku",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mBigHeads",
+    "english": "Big heads",
+    "polish": "Wielkie głowy",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mPlaySize",
+    "english": "Player size",
+    "polish": "Rozmiar gracza",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mBulSpeE",
+    "english": "Enemy bullet speed",
+    "polish": "Prędkość pocisków wroga",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mBulSpeP",
+    "english": "Player bullet speed",
+    "polish": "Prędkość pocisków gracza",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "mCinematic",
+    "english": "Cinematic focus camera",
+    "polish": "Filmowa kamera skupienia",
+    "status": "translated",
+    "context": ""
+  },
+  {
+    "key": "iGameModNot",
+    "english": "* Game modifiers are active. Best scores, times and ratings will not be saved, nor uploaded to the leaderboards.",
+    "polish": "* Modyfikatory gry są aktywne. Najlepsze wyniki, czasy i oceny nie będą zapisywane ani wysyłane do rankingów.",
+    "status": "translated",
+    "context": ""
+  }
+]

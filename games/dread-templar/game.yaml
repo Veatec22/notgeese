@@ -1,0 +1,25 @@
+slug: dread-templar
+title: Dread Templar
+version: "0.1"
+entries: { done: 636, total: 636 }
+tested: partial
+engine: Unity 2019.4.40f1
+approach: Plugin wypełnia pusty slot „pol” zostawiony przez twórców i ożywia wyłączony przycisk w menu, w czasie działania gry. Żaden plik gry nie jest podmieniany.
+scope: menu, ustawienia, sterowanie, samouczek, dialogi, przerywniki, nazwy poziomów i bossów, opisy run
+tested_on:
+  - store: gog
+    version: "1.0.2b fix"
+year: 2023
+steam_appid: 1334730
+stores:
+  steam: https://store.steampowered.com/app/1334730/
+  gog: https://www.gog.com/en/game/dread_templar
+quote:
+  text:
+  source:
+download:
+  kind: zip
+  file: Dread-Templar-PL-0.1.zip
+  bytes: 662197
+gallery: [1, 2, 3, 4, 5]
+test_notes: Polish text and letters in menus confirmed in game (GOG). Button placement, restart persistence and the rest of the game not checked yet.

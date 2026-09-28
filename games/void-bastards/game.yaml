@@ -1,0 +1,26 @@
+slug: void-bastards
+title: Void Bastards
+version: "0.1"
+entries: { done: 2480, total: 2480 }
+tested: partial
+engine: Unity 2017.4.21f1 (Mono)
+approach: Plugin BepInEx 5 dokłada polski jako kolejny język tabeli I2 w czasie działania gry. Żaden plik gry nie jest podmieniany.
+scope: Całość — menu i opcje, HUD, komiksy fabularne, polecenia B.A.C.S. i rozmowy piratów, przedmioty, ulepszenia, warsztat, mapa gwiezdna ze zdarzeniami, statki, cechy postaci, wyzwania, osiągnięcia i DLC Tydy.
+steam_appid: 857980
+stores:
+  steam: https://store.steampowered.com/app/857980/
+download:
+  kind: zip
+  file: Void-Bastards-PL-0.1.zip
+  bytes: 698877
+tested_on:
+  - store: steam
+    version: "2.0.24"
+test_notes: Vertical confirmed in game (selector, menus, comic with Polish letters composed at runtime). Full translation partly tested in game; overlapping texts (bad line endings) fixed and two action-log entries shortened. Full playthrough pending.
+build_input:
+  store: steam
+  build_id: '4269398'
+  version: 2.0.24
+  unity: 2017.4.21f1
+year: 2019
+gallery: [1, 2, 3, 4, 5]

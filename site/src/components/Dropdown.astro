@@ -1,0 +1,158 @@
+---
+import Icon from './Icon.astro';
+
+/**
+ * Site-styled dropdown instead of a native <select>, whose open list cannot be styled.
+ * ARIA "select-only combobox" pattern: the button opens a listbox; arrows, Home/End and
+ * letters move the selection, Enter/Space confirms, Escape closes.
+ * The choice goes to `data-value` on the root and fires a `change` event.
+ */
+interface Option {
+  value: string;
+  label: string;
+  count?: number;
+}
+
+interface Props {
+  id: string;
+  label: string;
+  icon: 'filter' | 'sort';
+  options: Option[];
+  value?: string;
+}
+
+const { id, label, icon, options, value = options[0]?.value ?? '' } = Astro.props;
+const selected = options.find((option) => option.value === value) ?? options[0];
+---
+
+<div class="ng-dropdown" data-dropdown data-value={selected?.value}>
+  <span class="ng-visually-hidden" id={`${id}-name`}>{label}</span>
+  <button
+    type="button"
+    class="ng-search-field ng-dropdown-trigger"
+    aria-haspopup="listbox"
+    aria-expanded="false"
+    aria-controls={`${id}-list`}
+    aria-labelledby={`${id}-name ${id}-value`}
+    data-dropdown-trigger
+  >
+    <Icon name={icon} size={18} class="ng-search-icon" />
+    <span class="ng-dropdown-value" id={`${id}-value`} data-dropdown-value>{selected?.label}</span>
+    <Icon name="chevron-down" size={18} class="ng-dropdown-chevron" />
+  </button>
+  <ul class="ng-dropdown-list" id={`${id}-list`} role="listbox" tabindex="-1" aria-labelledby={`${id}-name`} hidden>
+    {
+      options.map((option) => (
+        <li
+          class="ng-dropdown-option"
+          role="option"
+          id={`${id}-${option.value || 'all'}`}
+          data-value={option.value}
+          data-label={option.label}
+          aria-selected={String(option.value === selected?.value)}
+        >
+          <Icon name="check" size={16} class="ng-dropdown-check" />
+          <span>{option.label}</span>
+          {option.count !== undefined && <span class="ng-dropdown-count">{option.count}</span>}
+        </li>
+      ))
+    }
+  </ul>
+</div>
+
+<script>
+  document.querySelectorAll<HTMLElement>('[data-dropdown]').forEach((root) => {
+    const trigger = root.querySelector<HTMLButtonElement>('[data-dropdown-trigger]')!;
+    const valueLabel = root.querySelector<HTMLElement>('[data-dropdown-value]')!;
+    const list = root.querySelector<HTMLUListElement>('[role="listbox"]')!;
+    const options = Array.from(list.querySelectorAll<HTMLLIElement>('[role="option"]'));
+    let active = 0;
+
+    const selectedIndex = () => Math.max(0, options.findIndex((option) => option.dataset.value === root.dataset.value));
+
+    function highlight(index: number) {
+      active = (index + options.length) % options.length;
+      options.forEach((option, i) => option.toggleAttribute('data-active', i === active));
+      list.setAttribute('aria-activedescendant', options[active]!.id);
+      options[active]!.scrollIntoView({ block: 'nearest' });
+    }
+
+    function open() {
+      list.hidden = false;
+      trigger.setAttribute('aria-expanded', 'true');
+      highlight(selectedIndex());
+      list.focus();
+      document.addEventListener('pointerdown', outside);
+    }
+
+    function close(returnFocus = true) {
+      list.hidden = true;
+      trigger.setAttribute('aria-expanded', 'false');
+      document.removeEventListener('pointerdown', outside);
+      if (returnFocus) trigger.focus();
+    }
+
+    function choose(index: number) {
+      const option = options[index]!;
+      const changed = root.dataset.value !== option.dataset.value;
+      options.forEach((item) => item.setAttribute('aria-selected', String(item === option)));
+      root.dataset.value = option.dataset.value ?? '';
+      valueLabel.textContent = option.dataset.label ?? '';
+      close();
+      if (changed) root.dispatchEvent(new CustomEvent('change', { detail: root.dataset.value }));
+    }
+
+    function outside(event: PointerEvent) {
+      if (!root.contains(event.target as Node)) close(false);
+    }
+
+    trigger.addEventListener('click', () => (list.hidden ? open() : close()));
+    trigger.addEventListener('keydown', (event) => {
+      if (event.key === 'ArrowDown' || event.key === 'ArrowUp') {
+        event.preventDefault();
+        open();
+      }
+    });
+
+    options.forEach((option, index) => {
+      option.addEventListener('pointermove', () => highlight(index));
+      option.addEventListener('click', () => choose(index));
+    });
+
+    list.addEventListener('keydown', (event) => {
+      const keys: Record<string, () => void> = {
+        ArrowDown: () => highlight(active + 1),
+        ArrowUp: () => highlight(active - 1),
+        Home: () => highlight(0),
+        End: () => highlight(options.length - 1),
+        Enter: () => choose(active),
+        ' ': () => choose(active),
+        Escape: () => close(),
+      };
+      const action = keys[event.key];
+      if (action) {
+        event.preventDefault();
+        // Escape here closes only the list, not the game panel.
+        event.stopPropagation();
+        action();
+        return;
+      }
+      if (event.key === 'Tab') {
+        close(false);
+        return;
+      }
+      // First letter jumps to a matching option, like a native list.
+      if (event.key.length === 1) {
+        const letter = event.key.toLowerCase();
+        const start = active + 1;
+        for (let step = 0; step < options.length; step++) {
+          const index = (start + step) % options.length;
+          if ((options[index]!.dataset.label ?? '').toLowerCase().startsWith(letter)) {
+            highlight(index);
+            break;
+          }
+        }
+      }
+    });
+  });
+</script>

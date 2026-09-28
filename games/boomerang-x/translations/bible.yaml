@@ -1,0 +1,212 @@
+sources:
+  - id: en
+    description: translations/en-pl-review.json; English from the SheetData.Init table and developer notes (`context`).
+  - id: notes
+    description: >-
+      Developer notes on rows (`context`). They describe the scene and the line's intent and
+      consistently call Tepan "they/themselves".
+  - id: technical
+    description: docs/technical.md; power terminology and the genderless-Tepan decision of the first full translation (2026-09-21).
+  - id: gender-note
+    description: >-
+      Developer note on millipede_statue_room_default_1: "many of the characters (Tepan, Kenak)
+      … are not gendered … if needed, Tepan should be gendered female, and Kenak male".
+      Caught only in the independent review 2026-09-26.
+  - id: review
+    description: docs/decisions.md, Review; independent read of 359/359 entries, 2026-09-26.
+  - id: user-review
+    description: User rulings after the review, 2026-09-26 ("all points 1-8 yes").
+  - id: vertical
+    description: Sample of 38 rows confirmed in game by the user.
+
+style:
+  tone: >-
+    Calm, slightly fairy-tale world of mantids after a catastrophe. Menus and tutorial plaques
+    short and matter-of-fact. Tepan warm, chatty, awkward, with food humor and moments of
+    melancholy; no slang, no swearing (none in EN).
+  adaptation: >-
+    Place names translated, proper names of beings and peoples kept. Tepan's idioms and jokes
+    rendered in Polish ("wee 'pede" -> "za młodu, przy jakimś tuzinie nóg"). No added lore.
+  source: decision
+  note: >-
+    Set by the translator during the first full translation, without a direction talk with the
+    user (that stage didn't exist yet). The user saw the vertical in game.
+
+characters:
+  - id: tepan
+    name: Tepan
+    gender: n
+    key: '^millipede_'
+    addresses_player: ty
+    register: warm, polite, chatty; stumbles and self-corrects mid-sentence (|long_pause|); food jokes
+    declension: Tepana, Tepanowi, Tepanem (masculine declension of the name only)
+    source: user
+    note: >-
+      A millipede from another world, always "they" in developer notes. In PL speaks of themselves
+      without grammatical gender in the past tense. User 2026-09-26 chose option A: stays
+      genderless, but without stiff "udało mi się zobaczyć" and passive "niosło mnie" where a
+      natural option exists ("mignęło mi", "na moich oczach", "w nogi"). Rejected option B:
+      feminine, allowed by developers "if needed" (gender-note). Masculine nouns about Tepan
+      ("towarzysz") are errors. The report doesn't check `gender: n`; check by hand.
+    examples:
+      - key: millipede_sewers_lore_4
+        en: When I was a wee 'pede,|short_pause| only a dozen or so legs,|short_pause| I remember falling through one.
+        pl: Za młodu,|short_pause| przy jakimś tuzinie nóg,|short_pause| zdarzyło mi się przez takie wpaść.
+        source: decision
+        note: Impersonal construction instead of "wpadłem/wpadłam"; the legs joke kept.
+      - key: millipede_sauna_lore_7
+        en: It was trying to make someone I knew.|pause| So next time the portal opened I got me and my hundred legs right out of there!
+        pl: 'Próbował ulepić kogoś znajomego.|pause| Więc gdy tylko portal znów się otworzył: w nogi — wszystkie sto — i precz stamtąd!'
+        source: user
+        note: Tepan runs away by themselves, as in EN. Replaces passive "wyniosło mnie stamtąd razem ze stoma nogami".
+  - id: player
+    name: bohater (gracz)
+    gender: '?'
+    addresses_player: '-'
+    source: [en]
+    note: >-
+      The player character never speaks; gender never appears. Tepan uses "ty"; gendered forms
+      toward the player are avoided ("Udało ci się!", "nic ci nie jest"). After the review
+      "wziąłeś" and "towarzyszowi" were fixed. "friend" -> "bratnia duszo" (funnel_default_1,
+      user; rejected "przyjacielu" as masculine).
+  - id: kaspidae
+    name: Kaspidae
+    gender: f
+    declension: indeclinable ("o Kaspidae", "Dzieci Kaspidae")
+    source: [en, notes]
+    note: >-
+      Legendary mantid minstrel, "themselves" in EN. Feminine in PL following the noun
+      "modliszka" ("ta wielka modliszka z porożem to Kaspidae… zanurzyła się"). First-translation decision.
+  - id: hermit
+    name: Pustelnik
+    gender: m
+    source: [en]
+    note: >-
+      "they" in EN (gender unknown). Masculine in PL following the noun "Pustelnik"
+      ("był jakimś dawnym władcą", "odprawił", "tęsknił"). First-translation decision.
+  - id: kenak
+    name: Kenak
+    gender: m
+    declension: Kenaka
+    source: [notes, gender-note]
+    note: >-
+      Julius Caesar-type tyrant (note on level_1_name). "they" in EN; developers: if gender is
+      needed, male. "They wiped out…" in millipede_chasm_default_2 is Kenak.
+
+terms:
+  - en: Flux
+    pl: Strumień
+    forms: [strumie]
+    source: [technical]
+    note: Time-slow power; capitalized as a power name. Also "Strumień" in options and controls.
+  - en: Slingshot
+    pl: Zryw
+    forms: [zryw]
+    source: [technical]
+  - en: Scattershot
+    pl: Odłamki
+    forms: [odłam]
+    source: [technical]
+    note: Plural, non-masculine-personal ("Odłamki są gotowe").
+  - en: Needle
+    pl: Igła
+    forms: [igł, igle]
+    source: [technical]
+  - en: Blaze
+    pl: Żar
+    forms: [żar]
+    source: [technical]
+  - en: Oblivion Comet
+    pl: Kometa Zapomnienia
+    forms: [komet]
+    source: [technical]
+  - en: Comet Mode
+    pl: tryb komety
+    forms: [tryb komety]
+    source: decision
+  - en: boomerang
+    pl: bumerang
+    forms: [bumerang]
+    source: decision
+  - en: shields?
+    pl: tarcza
+    forms: [tarcz]
+    source: decision
+    note: Shields are the player's hit points.
+  - en: recall
+    pl: przywołanie
+    forms: [przywoł]
+    source: decision
+  - en: (?:Air|Recall|Single-Throw|Special|Realtime) Kill
+    pl: Zabójstwo …
+    forms: [zabójstw]
+    source: user
+    note: >-
+      Combo notifications, e.g. "Zabójstwo w locie x{0}". Rejected "Trafienie …" (that's "hit").
+      Kill Combo stays "Kombo x{0}", Realtime Kill = "Zabójstwo bez Strumienia".
+  - en: Grudge Pit
+    pl: Dół Porachunków
+    forms: [porachunk]
+    source: user
+    note: Arena for settling disputes between hives. Rejected "Dół Urazy" (first translation and vertical).
+  - en: HUD
+    pl: HUD
+    forms: [hud]
+    source: user
+    note: >-
+      HUD Scale -> "Wielkość HUD-u" (the option changes only the HUD, not menus). Rejected
+      "Wielkość interfejsu". UI (menus) stays "interfejs".
+  - en: Endless Run
+    pl: Bieg bez końca
+    forms: [bez końca]
+    source: decision
+  - en: leaderboard
+    pl: ranking
+    forms: [ranking]
+    source: decision
+  - en: waves?
+    pl: fala
+    forms: [fal]
+    source: decision
+  - en: mantids?
+    pl: modliszka
+    forms: [modlisz]
+    source: decision
+  - en: hives?
+    pl: gniazdo
+    forms: [gniazd, gnieź]
+    source: decision
+    note: Starved Hive -> Zagłodzone Gniazdo.
+  - en: doorways?
+    pl: drzwi
+    forms: [drzwi]
+    source: decision
+    note: Passages between worlds in Tepan's words; "portal" where EN says portal.
+  - en: speedrun timer
+    pl: stoper szybkiego przejścia
+    forms: [stoper]
+    source: decision
+  - en: required enem(?:y|ies)
+    pl: wymagany wróg
+    forms: [wymagan]
+    source: decision
+  - en: Yoran
+    pl: Yoranie / Yoran (people), yorański (adjective)
+    forms: ['yoran', 'yorań']
+    source: decision
+    note: >-
+      Nominative plural "Yoranie", genitive "Yoran" ("modliszki Yoran", "Legion Yoran"),
+      dative "Yoranom"; adjective in the place name "Yorański Bór".
+
+keep_english:
+  [HUD, HUD-u, Tepan, Kaspidae, Kenak, Atsil, Atsila, Vashkatar, Entacca, Yoran, Yoranie, Yoranom,
+   Boomerang X, Joy-Con, OK, Flick stick, VSync]
+
+settings:
+  dialog_key: '^millipede_(?!press_to_talk|name$)'
+  max_line: 15   # control-screen titles (options_remap_*_title); given by the developers, not confirmed in game
+
+ignore:
+  - check: terms
+    key: '^boomerang_x_title$'
+    reason: the game title stays English

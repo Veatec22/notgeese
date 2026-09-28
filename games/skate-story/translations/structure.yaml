@@ -1,0 +1,59 @@
+# Skate Story: groups for the review workspace.
+# Format: docs/workspace.md.
+#
+# Chapters ch1–ch10 hold scene narration and dialogue in file order (…-seq-01, 02…).
+# Keys store no speakers, so no sequences.
+
+format: 1
+
+groups:
+  - id: ui
+    name: Interfejs, poziomy i rozdziały
+  - id: tutorial
+    name: Samouczek i triki
+  - id: items
+    name: Przedmioty
+  - id: ch1
+    name: Rozdział 1
+  - id: ch2
+    name: Rozdział 2
+  - id: ch3
+    name: Rozdział 3
+  - id: ch4
+    name: Rozdział 4
+  - id: ch5
+    name: Rozdział 5
+  - id: ch6
+    name: Rozdział 6
+  - id: ch7
+    name: Rozdział 7
+  - id: ch8
+    name: Rozdział 8
+  - id: ch9
+    name: Rozdział 9
+  - id: ch10
+    name: Rozdział 10
+  - id: story-other
+    name: Bossowie, zadania, wiersze i mroczne miejsce
+  - id: names
+    name: Postacie (mówiący)
+  - id: achievements
+    name: Osiągnięcia
+
+rules:
+  - {group: ch10, match: '^ch10/'}
+  - {group: ch1, match: '^ch1/'}
+  - {group: ch2, match: '^ch2/'}
+  - {group: ch3, match: '^ch3/'}
+  - {group: ch4, match: '^ch4/'}
+  - {group: ch5, match: '^ch5/'}
+  - {group: ch6, match: '^ch6/'}
+  - {group: ch7, match: '^ch7/'}
+  - {group: ch8, match: '^ch8/'}
+  - {group: ch9, match: '^ch9/'}
+  - {group: items, match: '^Item/'}
+  - {group: tutorial, match: '^(tut|Trick)/'}
+  - {group: story-other, match: '^(boss|quests|poems|__DARKPLACE)/'}
+  - {group: names, match: '^Speaker/'}
+  - {group: achievements, match: '^Achievement/'}
+  - {group: ui, match: '^(UI|Levels|chapters)/'}

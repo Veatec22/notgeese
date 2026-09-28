@@ -1,0 +1,2427 @@
+[
+  {
+    "key": "LangName",
+    "english": "English",
+    "polish": "Polski"
+  },
+  {
+    "key": "mLoading",
+    "english": "Loading...",
+    "polish": "Ładowanie..."
+  },
+  {
+    "key": "mAnyButton",
+    "english": "Press any button to Start",
+    "polish": "Naciśnij dowolny przycisk, aby rozpocząć"
+  },
+  {
+    "key": "mPlay",
+    "english": "Play",
+    "polish": "Graj"
+  },
+  {
+    "key": "mCustomCamp",
+    "english": "Custom Campaigns",
+    "polish": "Kampanie społeczności"
+  },
+  {
+    "key": "mOptions",
+    "english": "Options",
+    "polish": "Opcje"
+  },
+  {
+    "key": "mCredits",
+    "english": "Credits",
+    "polish": "Twórcy"
+  },
+  {
+    "key": "mQuit",
+    "english": "Quit",
+    "polish": "Wyjdź z gry"
+  },
+  {
+    "key": "mResume",
+    "english": "Resume",
+    "polish": "Wznów"
+  },
+  {
+    "key": "mRestart",
+    "english": "Restart",
+    "polish": "Powtórz"
+  },
+  {
+    "key": "mExit",
+    "english": "Exit",
+    "polish": "Wyjdź"
+  },
+  {
+    "key": "satanSpeech1",
+    "english": "Fuck you, Shotgun Cop Man!",
+    "polish": "Pierdol się, Shotgun Cop Man!"
+  },
+  {
+    "key": "satanSpeech2",
+    "english": "Fuck... You... Shotgun Cop Man...",
+    "polish": "Pierdol... się... Shotgun Cop Man..."
+  },
+  {
+    "key": "pSpeech0",
+    "english": "Shotgun Cop Man is I. Justice or die!",
+    "polish": "Jam jest Shotgun Cop Man! Sprawiedliwość albo śmierć!"
+  },
+  {
+    "key": "pSpeech1",
+    "english": "Freeze Satan! You're under arrest!",
+    "polish": "Stój, Szatanie! Jesteś aresztowany!"
+  },
+  {
+    "key": "pSpeech2",
+    "english": "Stop! I have a warrant for your arrest!",
+    "polish": "Stój! Mam nakaz aresztowania!"
+  },
+  {
+    "key": "pSpeech3",
+    "english": "Hands above your head, buster!",
+    "polish": "Ręce do góry, cwaniaku!"
+  },
+  {
+    "key": "pSpeech4",
+    "english": "Anything you say can and will be used against you in a court of law!",
+    "polish": "Wszystko, co powiesz, może i zostanie użyte przeciwko tobie w sądzie!"
+  },
+  {
+    "key": "pSpeech5",
+    "english": "You can't escape the long arm of the law!",
+    "polish": "Nie uciekniesz przed długim ramieniem prawa!"
+  },
+  {
+    "key": "pSpeech6",
+    "english": "Seriously, would you please just stop?",
+    "polish": "Serio, możesz się wreszcie zatrzymać?"
+  },
+  {
+    "key": "pSpeech7",
+    "english": "This has gone quite far enough!",
+    "polish": "Tego już za wiele!"
+  },
+  {
+    "key": "pSpeech8",
+    "english": "Go ahead, see if I won't catch up!",
+    "polish": "No dalej, sprawdź, czy cię nie dogonię!"
+  },
+  {
+    "key": "pSpeech9",
+    "english": "Your shenanigans end right here, right now!",
+    "polish": "Twoje wybryki kończą się tu i teraz!"
+  },
+  {
+    "key": "pSpeech10",
+    "english": "There's no place left to hide, Satan!",
+    "polish": "Nie masz już gdzie się ukryć, Szatanie!"
+  },
+  {
+    "key": "pSpeech11",
+    "english": "Satan, you are under arrest.",
+    "polish": "Szatanie, jesteś aresztowany."
+  },
+  {
+    "key": "mBack",
+    "english": "[back] Back",
+    "polish": "[back] Wstecz"
+  },
+  {
+    "key": "mApply",
+    "english": "Apply Settings",
+    "polish": "Zastosuj ustawienia"
+  },
+  {
+    "key": "mCancel",
+    "english": "Cancel",
+    "polish": "Anuluj"
+  },
+  {
+    "key": "mOk",
+    "english": "OK",
+    "polish": "OK"
+  },
+  {
+    "key": "mEnterText",
+    "english": "Enter text...",
+    "polish": "Wpisz tekst..."
+  },
+  {
+    "key": "mSteamUpload",
+    "english": "Uploading Campaign to Steam Workshop",
+    "polish": "Przesyłanie kampanii do Warsztatu Steam"
+  },
+  {
+    "key": "mBrushSize",
+    "english": "Brush Size",
+    "polish": "Rozmiar pędzla"
+  },
+  {
+    "key": "mSave",
+    "english": "Save",
+    "polish": "Zapisz"
+  },
+  {
+    "key": "mUndo",
+    "english": "Undo",
+    "polish": "Cofnij"
+  },
+  {
+    "key": "mRedo",
+    "english": "Redo",
+    "polish": "Ponów"
+  },
+  {
+    "key": "mVideoSettings",
+    "english": "Video Settings",
+    "polish": "Obraz"
+  },
+  {
+    "key": "mResolution",
+    "english": "Resolution",
+    "polish": "Rozdzielczość"
+  },
+  {
+    "key": "mFullscreen",
+    "english": "Fullscreen",
+    "polish": "Pełny ekran"
+  },
+  {
+    "key": "mVSync",
+    "english": "VSync",
+    "polish": "Synchronizacja pionowa"
+  },
+  {
+    "key": "mTargetFPS",
+    "english": "Target Frame Rate",
+    "polish": "Limit klatek na sekundę"
+  },
+  {
+    "key": "mFPSUnlocked",
+    "english": "Unlocked",
+    "polish": "Bez limitu"
+  },
+  {
+    "key": "mAudioSettings",
+    "english": "Audio Settings",
+    "polish": "Dźwięk"
+  },
+  {
+    "key": "mSFXVol",
+    "english": "Sound Effects Volume",
+    "polish": "Głośność efektów"
+  },
+  {
+    "key": "mMusicVol",
+    "english": "Music Volume",
+    "polish": "Głośność muzyki"
+  },
+  {
+    "key": "mGameSettings",
+    "english": "Game Settings",
+    "polish": "Rozgrywka"
+  },
+  {
+    "key": "mBlood",
+    "english": "Blood and Gore",
+    "polish": "Krew i brutalność"
+  },
+  {
+    "key": "mScreenshake",
+    "english": "Screenshake",
+    "polish": "Wstrząsy ekranu"
+  },
+  {
+    "key": "mRumble",
+    "english": "Controller Vibrations",
+    "polish": "Wibracje kontrolera"
+  },
+  {
+    "key": "mShowTimer",
+    "english": "Show Timer",
+    "polish": "Pokaż licznik czasu"
+  },
+  {
+    "key": "mClearSave",
+    "english": "Clear All Saved Data",
+    "polish": "Usuń wszystkie zapisane dane"
+  },
+  {
+    "key": "mLanguage",
+    "english": "Language",
+    "polish": "Język"
+  },
+  {
+    "key": "mAccessibility",
+    "english": "Accessibility",
+    "polish": "Ułatwienia dostępu"
+  },
+  {
+    "key": "mAccRepeatFire",
+    "english": "Repeat Fire",
+    "polish": "Powtarzanie strzałów"
+  },
+  {
+    "key": "mAccAimLock",
+    "english": "Controller Auto Aim Lock",
+    "polish": "Automatyczne celowanie — kontroler"
+  },
+  {
+    "key": "mAccJumpGuide",
+    "english": "Jump Guide",
+    "polish": "Wskaźnik skoku"
+  },
+  {
+    "key": "mAccAutoPickup",
+    "english": "Auto Pick Up Weapons",
+    "polish": "Automatyczne podnoszenie broni"
+  },
+  {
+    "key": "mAccTimescale",
+    "english": "Game Speed",
+    "polish": "Tempo gry"
+  },
+  {
+    "key": "mWarning",
+    "english": "Warning!",
+    "polish": "Uwaga!"
+  },
+  {
+    "key": "mClearMsg",
+    "english": "This will clear all saved data apart from Custom Campaigns. This action can not be undone.",
+    "polish": "Wszystkie zapisane dane poza kampaniami społeczności zostaną usunięte. Tej czynności nie można cofnąć."
+  },
+  {
+    "key": "mDemoSaveTransfer",
+    "english": "Demo Save Transfer",
+    "polish": "Przeniesienie zapisu z dema"
+  },
+  {
+    "key": "mDemoSaveTransferMsg",
+    "english": "Demo save file detected. Press OK to transfer game progress from Demo.",
+    "polish": "Wykryto zapis z wersji demonstracyjnej. Naciśnij OK, aby przenieść postępy z dema."
+  },
+  {
+    "key": "mccNewCampaign",
+    "english": "New Campaign",
+    "polish": "Nowa kampania"
+  },
+  {
+    "key": "mccNewCampaignName",
+    "english": "Enter name for new campaign",
+    "polish": "Wpisz nazwę nowej kampanii"
+  },
+  {
+    "key": "mccUpdateSuccess",
+    "english": "Campaign successfully updated on Steam Workshop!",
+    "polish": "Kampania została zaktualizowana w Warsztacie Steam!"
+  },
+  {
+    "key": "mccUpdateFail",
+    "english": "Unable to update Campaign on Steam workshop.",
+    "polish": "Nie udało się zaktualizować kampanii w Warsztacie Steam."
+  },
+  {
+    "key": "mccSteamTerms",
+    "english": "Steam Workshop Terms of Service",
+    "polish": "Regulamin Warsztatu Steam"
+  },
+  {
+    "key": "mccSteamTermsInfo",
+    "english": "You need to agree to the workshop terms of service to submit this item. Press OK to see the terms.",
+    "polish": "Aby przesłać ten element, musisz zaakceptować regulamin Warsztatu. Naciśnij OK, aby go wyświetlić."
+  },
+  {
+    "key": "mccRenameLevel",
+    "english": "Rename level",
+    "polish": "Zmień nazwę poziomu"
+  },
+  {
+    "key": "mccRenameLevelInfo",
+    "english": "Enter new name for level below:",
+    "polish": "Wpisz poniżej nową nazwę poziomu:"
+  },
+  {
+    "key": "mccTooFewLevels",
+    "english": "Too few levels",
+    "polish": "Za mało poziomów"
+  },
+  {
+    "key": "mccTooFewLevelsInfo",
+    "english": "Unable to delete. There needs to be at least one level in the playlist.",
+    "polish": "Nie można usunąć poziomu. Na liście musi pozostać co najmniej jeden poziom."
+  },
+  {
+    "key": "mccAreYouSure",
+    "english": "Are you sure?",
+    "polish": "Na pewno?"
+  },
+  {
+    "key": "mccAreYouSureInfo",
+    "english": "This action will remove the level.",
+    "polish": "Ta czynność usunie poziom."
+  },
+  {
+    "key": "mccUnsavedChanges",
+    "english": "Unsaved changes",
+    "polish": "Niezapisane zmiany"
+  },
+  {
+    "key": "mccUnsavedChangesInfo",
+    "english": "You have unsaved changes on your currently loaded level. This action will discard those changes. Press OK to discard changes.",
+    "polish": "Bieżący poziom zawiera niezapisane zmiany. Ta czynność je odrzuci. Naciśnij OK, aby odrzucić zmiany."
+  },
+  {
+    "key": "mccRenameCamp",
+    "english": "Rename Campaign",
+    "polish": "Zmień nazwę kampanii"
+  },
+  {
+    "key": "mccRenameCampInfo",
+    "english": "Input new name of campaign.",
+    "polish": "Wpisz nową nazwę kampanii."
+  },
+  {
+    "key": "mccEditDesc",
+    "english": "Edit Description",
+    "polish": "Edytuj opis"
+  },
+  {
+    "key": "mccEditDescInfo",
+    "english": "Input campaign description.",
+    "polish": "Wpisz opis kampanii."
+  },
+  {
+    "key": "mccUploadStatus",
+    "english": "Upload status",
+    "polish": "Stan przesyłania"
+  },
+  {
+    "key": "mccUploadSuccess",
+    "english": "Upload successful!",
+    "polish": "Przesyłanie zakończone!"
+  },
+  {
+    "key": "mccUploadFail",
+    "english": "Upload failed.",
+    "polish": "Przesyłanie nie powiodło się."
+  },
+  {
+    "key": "mccError",
+    "english": "Error",
+    "polish": "Błąd"
+  },
+  {
+    "key": "mccLvlExists",
+    "english": "Level with name already exists:",
+    "polish": "Istnieje już poziom o nazwie:"
+  },
+  {
+    "key": "mccCampaignExists",
+    "english": "Campaign with name already exists:",
+    "polish": "Istnieje już kampania o nazwie:"
+  },
+  {
+    "key": "mccEnterNewLevelName",
+    "english": "Enter name of new level",
+    "polish": "Wpisz nazwę nowego poziomu"
+  },
+  {
+    "key": "mccEnterNameLvl",
+    "english": "Enter name of level",
+    "polish": "Wpisz nazwę poziomu"
+  },
+  {
+    "key": "mccDeleteCamp",
+    "english": "This will delete the campaign:",
+    "polish": "Ta czynność usunie kampanię:"
+  },
+  {
+    "key": "mccInvalidChars",
+    "english": "Name contains invalid characters.",
+    "polish": "Nazwa zawiera niedozwolone znaki."
+  },
+  {
+    "key": "mccNewLevel",
+    "english": "New level",
+    "polish": "Nowy poziom"
+  },
+  {
+    "key": "mccAddCampaign",
+    "english": "+ New Campaign",
+    "polish": "+ Nowa kampania"
+  },
+  {
+    "key": "mccBrowseSteamWorkshop",
+    "english": "Browse Steam Workshop",
+    "polish": "Przeglądaj Warsztat Steam"
+  },
+  {
+    "key": "mccBy",
+    "english": "By:",
+    "polish": "Autor:"
+  },
+  {
+    "key": "mccPlay",
+    "english": "[play] PLAY",
+    "polish": "[play] GRAJ"
+  },
+  {
+    "key": "mccEdit",
+    "english": "[edit] EDIT",
+    "polish": "[edit] EDYTUJ"
+  },
+  {
+    "key": "mccViewInWorkshop",
+    "english": "[edit] View in Workshop",
+    "polish": "[edit] Zobacz w Warsztacie"
+  },
+  {
+    "key": "mccMyCampaigns",
+    "english": "My Campaigns",
+    "polish": "Moje kampanie"
+  },
+  {
+    "key": "mccSteamWorkshop",
+    "english": "Steam Workshop",
+    "polish": "Warsztat Steam"
+  },
+  {
+    "key": "mccLoadingList",
+    "english": "Loading List...",
+    "polish": "Ładowanie listy..."
+  },
+  {
+    "key": "mccRatingCompleted",
+    "english": "Completed",
+    "polish": "Ukończono"
+  },
+  {
+    "key": "mccEditCamp",
+    "english": "Edit Campaign",
+    "polish": "Edytuj kampanię"
+  },
+  {
+    "key": "mccEditImage",
+    "english": "Edit image",
+    "polish": "Edytuj obraz"
+  },
+  {
+    "key": "mccPlayCamp",
+    "english": "Play Campaign",
+    "polish": "Rozpocznij kampanię"
+  },
+  {
+    "key": "mccUploadToSteam",
+    "english": "Upload to Steam Workshop",
+    "polish": "Prześlij do Warsztatu Steam"
+  },
+  {
+    "key": "mccMenuDeleteCamp",
+    "english": "Delete Campaign",
+    "polish": "Usuń kampanię"
+  },
+  {
+    "key": "mccLvlList",
+    "english": "Level Playlist",
+    "polish": "Lista poziomów"
+  },
+  {
+    "key": "mccLvlListPlay",
+    "english": "Play",
+    "polish": "Graj"
+  },
+  {
+    "key": "mccLvlListEdit",
+    "english": "Edit",
+    "polish": "Edytuj"
+  },
+  {
+    "key": "mccLvlListRename",
+    "english": "Rename",
+    "polish": "Zmień nazwę"
+  },
+  {
+    "key": "mccLvlListDel",
+    "english": "Delete",
+    "polish": "Usuń"
+  },
+  {
+    "key": "mccAddLevel",
+    "english": "+ New Level",
+    "polish": "+ Nowy poziom"
+  },
+  {
+    "key": "mLvl",
+    "english": "Level",
+    "polish": "Poziom"
+  },
+  {
+    "key": "mBestTime",
+    "english": "Best Time:",
+    "polish": "Najlepszy czas:"
+  },
+  {
+    "key": "mWorldMapPlay",
+    "english": "[play] Play",
+    "polish": "[play] Graj"
+  },
+  {
+    "key": "mKillAll",
+    "english": "Kill All",
+    "polish": "Eliminacje"
+  },
+  {
+    "key": "mSpeedrun",
+    "english": "Speedrun",
+    "polish": "Na czas"
+  },
+  {
+    "key": "mNoDamage",
+    "english": "No Damage",
+    "polish": "Bez obrażeń"
+  },
+  {
+    "key": "mHitsTaken",
+    "english": "Hits taken:",
+    "polish": "Otrzymane trafienia:"
+  },
+  {
+    "key": "mContinue",
+    "english": "<size=18>[continue]</size> Continue",
+    "polish": "<size=18>[continue]</size> Dalej"
+  },
+  {
+    "key": "mContinueNoPrompt",
+    "english": "Continue",
+    "polish": "Dalej"
+  },
+  {
+    "key": "mTimerTotal",
+    "english": "Total:",
+    "polish": "Łącznie:"
+  },
+  {
+    "key": "mTimerCurrent",
+    "english": "Current Level:",
+    "polish": "Bieżący poziom:"
+  },
+  {
+    "key": "gHeart",
+    "english": "Pick up your HEART to restore health",
+    "polish": "Podnieś swoje SERCE, aby odzyskać zdrowie"
+  },
+  {
+    "key": "gThrow",
+    "english": "[pickup] Throw",
+    "polish": "[pickup] Rzuć"
+  },
+  {
+    "key": "gBoss1",
+    "english": "Angry Machine",
+    "polish": "Wściekła Maszyna"
+  },
+  {
+    "key": "gBoss2",
+    "english": "Angry Butt",
+    "polish": "Wściekły Tyłek"
+  },
+  {
+    "key": "gBoss3",
+    "english": "Angry Horns",
+    "polish": "Wściekłe Rogi"
+  },
+  {
+    "key": "gBoss4",
+    "english": "Angry Bones",
+    "polish": "Wściekłe Kości"
+  },
+  {
+    "key": "gBoss5",
+    "english": "Angry Saw",
+    "polish": "Wściekła Piła"
+  },
+  {
+    "key": "gBoss6",
+    "english": "Angry Robe",
+    "polish": "Wściekła Szata"
+  },
+  {
+    "key": "gBoss7",
+    "english": "Angry Breath",
+    "polish": "Wściekły Oddech"
+  },
+  {
+    "key": "gBoss8",
+    "english": "Angry Box",
+    "polish": "Wściekłe Pudło"
+  },
+  {
+    "key": "gBoss9",
+    "english": "Disappointed Satan",
+    "polish": "Rozczarowany Szatan"
+  },
+  {
+    "key": "gDeathSentence1",
+    "english": "I",
+    "polish": "JA"
+  },
+  {
+    "key": "gDeathSentence2",
+    "english": "I DIE.",
+    "polish": "JA UMIERAM."
+  },
+  {
+    "key": "gRetry",
+    "english": "[retry] Try again",
+    "polish": "[retry] Ponów"
+  },
+  {
+    "key": "tIntro1",
+    "english": "5 years ago",
+    "polish": "5 lat temu"
+  },
+  {
+    "key": "tIntro2",
+    "english": "Shotgun Division Bootcamp",
+    "polish": "Obóz szkoleniowy oddziału strzelbowego"
+  },
+  {
+    "key": "tShoot",
+    "english": "Aim + Shoot",
+    "polish": "Celuj + strzelaj"
+  },
+  {
+    "key": "tHover",
+    "english": "Hover",
+    "polish": "Zawiśnij w powietrzu"
+  },
+  {
+    "key": "tShotgunJump",
+    "english": "Shotgun-Jump",
+    "polish": "Skok ze strzelby"
+  },
+  {
+    "key": "tJump",
+    "english": "Pistol-Jump",
+    "polish": "Skok z pistoletu"
+  },
+  {
+    "key": "tMove",
+    "english": "Move",
+    "polish": "Ruch"
+  },
+  {
+    "key": "tReload",
+    "english": "Your weapons reload automatically when you're on the ground",
+    "polish": "Broń przeładowuje się automatycznie, gdy jesteś na ziemi"
+  },
+  {
+    "key": "tJumpDown",
+    "english": "Jump down",
+    "polish": "Zeskocz"
+  },
+  {
+    "key": "tPistolJumpAdv",
+    "english": "Pistol-Jump to avoid small obstacles",
+    "polish": "Skacz z pistoletu, aby omijać małe przeszkody"
+  },
+  {
+    "key": "tPistolJumpAdv2",
+    "english": "Pistol-Jumping is useful for avoiding incoming bullets",
+    "polish": "Skoki z pistoletu pomagają unikać nadlatujących pocisków"
+  },
+  {
+    "key": "gIntro1",
+    "english": "Today",
+    "polish": "Dzisiaj"
+  },
+  {
+    "key": "gIntro2",
+    "english": "You are Shotgun Cop Man.",
+    "polish": "Jesteś Shotgun Cop Man."
+  },
+  {
+    "key": "gIntro3",
+    "english": "Mission:",
+    "polish": "Misja:"
+  },
+  {
+    "key": "gIntro4",
+    "english": "Go to hell.",
+    "polish": "Idź do diabła."
+  },
+  {
+    "key": "gIntro5",
+    "english": "Arrest Satan.",
+    "polish": "Aresztuj Szatana."
+  },
+  {
+    "key": "gSkip",
+    "english": "Skip [skip]",
+    "polish": "Pomiń [skip]"
+  },
+  {
+    "key": "eOptionsHeader",
+    "english": "Edit Piece",
+    "polish": "Edytuj element"
+  },
+  {
+    "key": "ePieceLibHeader",
+    "english": "Piece Library",
+    "polish": "Biblioteka elementów"
+  },
+  {
+    "key": "eCloseHint",
+    "english": "[back] Close",
+    "polish": "[back] Zamknij"
+  },
+  {
+    "key": "eOptionsHint",
+    "english": "[editoroptions] Edit",
+    "polish": "[editoroptions] Edytuj"
+  },
+  {
+    "key": "epmLevelPiece",
+    "english": "General Pieces",
+    "polish": "Elementy podstawowe"
+  },
+  {
+    "key": "epmEnemy",
+    "english": "Enemies",
+    "polish": "Przeciwnicy"
+  },
+  {
+    "key": "epmObstacles",
+    "english": "Obstacles",
+    "polish": "Przeszkody"
+  },
+  {
+    "key": "epmDevOnly",
+    "english": "Dev Options",
+    "polish": "Opcje deweloperskie"
+  },
+  {
+    "key": "epmWeapons",
+    "english": "Weapons",
+    "polish": "Broń"
+  },
+  {
+    "key": "epmLogic",
+    "english": "Logic",
+    "polish": "Logika"
+  },
+  {
+    "key": "epmTransport",
+    "english": "Transport",
+    "polish": "Transport"
+  },
+  {
+    "key": "epmSpice",
+    "english": "Spice",
+    "polish": "Urozmaicenia"
+  },
+  {
+    "key": "epmOther",
+    "english": "Other",
+    "polish": "Inne"
+  },
+  {
+    "key": "eLoadLvlHeader",
+    "english": "Load Level",
+    "polish": "Wczytaj poziom"
+  },
+  {
+    "key": "ePlayLvl",
+    "english": "Play Level",
+    "polish": "Zagraj w poziom"
+  },
+  {
+    "key": "eSaveLvl",
+    "english": "[menusavelevel] Save Level",
+    "polish": "[menusavelevel] Zapisz poziom"
+  },
+  {
+    "key": "eSaveLvlAs",
+    "english": "Save Level As...",
+    "polish": "Zapisz poziom jako..."
+  },
+  {
+    "key": "eResume",
+    "english": "[menuresume] Resume",
+    "polish": "[menuresume] Wznów"
+  },
+  {
+    "key": "eLvlEditIndicator",
+    "english": "Editing Level:",
+    "polish": "Edytowany poziom:"
+  },
+  {
+    "key": "eLvlNoDuplicate",
+    "english": "Only one of these can exist in the level",
+    "polish": "Na poziomie może być tylko jeden taki element"
+  },
+  {
+    "key": "epBrowse",
+    "english": "Browse",
+    "polish": "Przeglądaj"
+  },
+  {
+    "key": "epSelect",
+    "english": "Select",
+    "polish": "Wybierz"
+  },
+  {
+    "key": "epHold",
+    "english": "Hold",
+    "polish": "Przytrzymaj"
+  },
+  {
+    "key": "epRelease",
+    "english": "Release",
+    "polish": "Puść"
+  },
+  {
+    "key": "epIncBrowseSpeed",
+    "english": "Increase Browse Speed",
+    "polish": "Przeglądaj szybciej"
+  },
+  {
+    "key": "epClose",
+    "english": "Close",
+    "polish": "Zamknij"
+  },
+  {
+    "key": "epScroll",
+    "english": "Scroll",
+    "polish": "Przewiń"
+  },
+  {
+    "key": "epChooseOption",
+    "english": "Choose Option",
+    "polish": "Wybierz opcję"
+  },
+  {
+    "key": "epToggleVal",
+    "english": "Toggle Value",
+    "polish": "Przełącz wartość"
+  },
+  {
+    "key": "epChangeVal",
+    "english": "Change Value",
+    "polish": "Zmień wartość"
+  },
+  {
+    "key": "epIncValChange",
+    "english": "Increase Value Change",
+    "polish": "Zwiększ krok zmiany wartości"
+  },
+  {
+    "key": "epCloseMenu",
+    "english": "Close Menu",
+    "polish": "Zamknij menu"
+  },
+  {
+    "key": "epMove",
+    "english": "Move",
+    "polish": "Przesuń"
+  },
+  {
+    "key": "epPlaceCopy",
+    "english": "Place Copy",
+    "polish": "Umieść kopię"
+  },
+  {
+    "key": "epRemove",
+    "english": "Remove",
+    "polish": "Usuń"
+  },
+  {
+    "key": "epCopy",
+    "english": "Copy to Clipboard",
+    "polish": "Kopiuj do schowka"
+  },
+  {
+    "key": "epAddToSel",
+    "english": "Add to Selection",
+    "polish": "Dodaj do zaznaczenia"
+  },
+  {
+    "key": "epRemoveFromSel",
+    "english": "Remove from Selection",
+    "polish": "Usuń z zaznaczenia"
+  },
+  {
+    "key": "epLoadFromClip",
+    "english": "Load from Clipboard",
+    "polish": "Wczytaj ze schowka"
+  },
+  {
+    "key": "epPick",
+    "english": "Pick Piece",
+    "polish": "Wybierz element"
+  },
+  {
+    "key": "epUndo",
+    "english": "Undo",
+    "polish": "Cofnij"
+  },
+  {
+    "key": "epRedo",
+    "english": "Redo",
+    "polish": "Ponów"
+  },
+  {
+    "key": "epSelCommit",
+    "english": "Commit to Selection",
+    "polish": "Zatwierdź zaznaczenie"
+  },
+  {
+    "key": "epCursorSpawn",
+    "english": "Spawn at Cursor in Play-Mode",
+    "polish": "Rozpocznij grę w miejscu kursora"
+  },
+  {
+    "key": "epPlace",
+    "english": "Place",
+    "polish": "Umieść"
+  },
+  {
+    "key": "epCancelMove",
+    "english": "Cancel Move",
+    "polish": "Anuluj przesuwanie"
+  },
+  {
+    "key": "epPieceOptions",
+    "english": "Edit Piece",
+    "polish": "Edytuj element"
+  },
+  {
+    "key": "epZoom",
+    "english": "Zoom",
+    "polish": "Przybliż / oddal"
+  },
+  {
+    "key": "epRotate",
+    "english": "Rotate",
+    "polish": "Obróć"
+  },
+  {
+    "key": "epMirror",
+    "english": "Mirror",
+    "polish": "Odbij lustrzanie"
+  },
+  {
+    "key": "epAltOptions",
+    "english": "Alternative options",
+    "polish": "Opcje dodatkowe"
+  },
+  {
+    "key": "epPlayMode",
+    "english": "Play-Mode",
+    "polish": "Tryb gry"
+  },
+  {
+    "key": "epLvlHandling",
+    "english": "Level Handling",
+    "polish": "Zarządzanie poziomem"
+  },
+  {
+    "key": "epMoveCam",
+    "english": "Move Camera",
+    "polish": "Przesuń kamerę"
+  },
+  {
+    "key": "epMoveCursor",
+    "english": "Move Cursor",
+    "polish": "Przesuń kursor"
+  },
+  {
+    "key": "epSaveLvl",
+    "english": "Save Level",
+    "polish": "Zapisz poziom"
+  },
+  {
+    "key": "epToolTip",
+    "english": "Edit 'Level Start Point' to set Level settings",
+    "polish": "Edytuj „Punkt startowy poziomu”, aby zmienić ustawienia poziomu"
+  },
+  {
+    "key": "eoInputChan",
+    "english": "Input channel",
+    "polish": "Kanał wejściowy"
+  },
+  {
+    "key": "eoOutputChan",
+    "english": "Output channel",
+    "polish": "Kanał wyjściowy"
+  },
+  {
+    "key": "eoInvertInput",
+    "english": "Invert input",
+    "polish": "Odwróć sygnał wejściowy"
+  },
+  {
+    "key": "eoInputChannel1",
+    "english": "Input channel 1",
+    "polish": "Kanał wejściowy 1"
+  },
+  {
+    "key": "eoInputChannel2",
+    "english": "Input channel 2",
+    "polish": "Kanał wejściowy 2"
+  },
+  {
+    "key": "eoInvertDir",
+    "english": "Invert Direction",
+    "polish": "Odwróć kierunek"
+  },
+  {
+    "key": "eoBounceStrenght",
+    "english": "Bounce strength",
+    "polish": "Siła odbicia"
+  },
+  {
+    "key": "eoInvert",
+    "english": "Invert",
+    "polish": "Odwróć"
+  },
+  {
+    "key": "eoCamPan",
+    "english": "Pan camera when activated",
+    "polish": "Przesuń kamerę po aktywacji"
+  },
+  {
+    "key": "eoStandStill",
+    "english": "Stand still",
+    "polish": "Stój w miejscu"
+  },
+  {
+    "key": "eoTriggerEmpty",
+    "english": "Trigger when empty",
+    "polish": "Aktywuj po opróżnieniu"
+  },
+  {
+    "key": "eoStayOn",
+    "english": "Stay on",
+    "polish": "Pozostań włączony"
+  },
+  {
+    "key": "eoWidth",
+    "english": "Width",
+    "polish": "Szerokość"
+  },
+  {
+    "key": "eoHeight",
+    "english": "Height",
+    "polish": "Wysokość"
+  },
+  {
+    "key": "eoXOffset",
+    "english": "X offset",
+    "polish": "Przesunięcie X"
+  },
+  {
+    "key": "eoYOffset",
+    "english": "Y offset",
+    "polish": "Przesunięcie Y"
+  },
+  {
+    "key": "eoRange",
+    "english": "Range",
+    "polish": "Zasięg"
+  },
+  {
+    "key": "eoLaserInputChan",
+    "english": "Laser input channel",
+    "polish": "Kanał wejściowy lasera"
+  },
+  {
+    "key": "eoLaserInvert",
+    "english": "Invert laser input",
+    "polish": "Odwróć sygnał lasera"
+  },
+  {
+    "key": "eoLaserAngle",
+    "english": "Laser angle",
+    "polish": "Kąt lasera"
+  },
+  {
+    "key": "eoMoveInputChan",
+    "english": "Movement input channel",
+    "polish": "Kanał wejściowy ruchu"
+  },
+  {
+    "key": "eoMoveInvertInput",
+    "english": "Invert movement input",
+    "polish": "Odwróć sygnał ruchu"
+  },
+  {
+    "key": "eoExtendOnInput",
+    "english": "Extend on input",
+    "polish": "Wysuń po otrzymaniu sygnału"
+  },
+  {
+    "key": "eoMoveHor",
+    "english": "Move horizontal",
+    "polish": "Ruch w poziomie"
+  },
+  {
+    "key": "eoMoveVer",
+    "english": "Move vertical",
+    "polish": "Ruch w pionie"
+  },
+  {
+    "key": "eoTimeOffset",
+    "english": "Time offset",
+    "polish": "Przesunięcie czasowe"
+  },
+  {
+    "key": "eoStartPause",
+    "english": "Start pause",
+    "polish": "Pauza przed ruchem"
+  },
+  {
+    "key": "eoMoveTime",
+    "english": "Move time",
+    "polish": "Czas ruchu"
+  },
+  {
+    "key": "eoEndPause",
+    "english": "End pause",
+    "polish": "Pauza po ruchu"
+  },
+  {
+    "key": "eoReturnTime",
+    "english": "Return time",
+    "polish": "Czas powrotu"
+  },
+  {
+    "key": "eoRotInputChan",
+    "english": "Rotating input channel",
+    "polish": "Kanał wejściowy obrotu"
+  },
+  {
+    "key": "eoRotInputChanInvert",
+    "english": "Invert rotation input",
+    "polish": "Odwróć sygnał obrotu"
+  },
+  {
+    "key": "eoRotSpeed",
+    "english": "Rotation speed",
+    "polish": "Prędkość obrotu"
+  },
+  {
+    "key": "eoOffset",
+    "english": "Offset",
+    "polish": "Przesunięcie"
+  },
+  {
+    "key": "eoGroup",
+    "english": "Group",
+    "polish": "Grupa"
+  },
+  {
+    "key": "eoInitDelay",
+    "english": "Initial fire delay",
+    "polish": "Opóźnienie pierwszego strzału"
+  },
+  {
+    "key": "eoNrOfBul",
+    "english": "Number of bullets",
+    "polish": "Liczba pocisków"
+  },
+  {
+    "key": "eoFireInt",
+    "english": "Fire interval",
+    "polish": "Odstęp między strzałami"
+  },
+  {
+    "key": "eoPause",
+    "english": "Pause",
+    "polish": "Pauza"
+  },
+  {
+    "key": "eoEnemyType",
+    "english": "Enemy type",
+    "polish": "Typ przeciwnika"
+  },
+  {
+    "key": "eoSpawnGroup",
+    "english": "Spawner group",
+    "polish": "Grupa generatora"
+  },
+  {
+    "key": "eoAmountToSpawn",
+    "english": "Amount to spawn",
+    "polish": "Liczba do utworzenia"
+  },
+  {
+    "key": "eoInitDelaySpawn",
+    "english": "Initial delay",
+    "polish": "Opóźnienie początkowe"
+  },
+  {
+    "key": "eoMaxSimEnemies",
+    "english": "Max simultaneous enemies",
+    "polish": "Maks. przeciwników jednocześnie"
+  },
+  {
+    "key": "eoLvlTheme",
+    "english": "Level theme",
+    "polish": "Motyw poziomu"
+  },
+  {
+    "key": "eoVisRanSeed",
+    "english": "Visual random seed",
+    "polish": "Ziarno losowania wyglądu"
+  },
+  {
+    "key": "eoDisableChal",
+    "english": "Disable challenges",
+    "polish": "Wyłącz wyzwania"
+  },
+  {
+    "key": "eoTCompTime",
+    "english": "Target completion time",
+    "polish": "Docelowy czas ukończenia"
+  },
+  {
+    "key": "eoOnTime",
+    "english": "On time",
+    "polish": "Czas włączenia"
+  },
+  {
+    "key": "eoOffTime",
+    "english": "Off time",
+    "polish": "Czas wyłączenia"
+  },
+  {
+    "key": "eoRespawn",
+    "english": "Respawn",
+    "polish": "Odradzanie"
+  },
+  {
+    "key": "eoForcePickup",
+    "english": "Force pickup",
+    "polish": "Wymuś podniesienie"
+  },
+  {
+    "key": "epStandardBlock",
+    "english": "Standard Block",
+    "polish": "Zwykły blok"
+  },
+  {
+    "key": "epDestBlock",
+    "english": "Destructible Block",
+    "polish": "Zniszczalny blok"
+  },
+  {
+    "key": "epRampSteep",
+    "english": "Ramp Steep",
+    "polish": "Stroma rampa"
+  },
+  {
+    "key": "epRampLong",
+    "english": "Ramp Long",
+    "polish": "Długa rampa"
+  },
+  {
+    "key": "epJumpTruPlat",
+    "english": "Jump Through Platform",
+    "polish": "Platforma przenikalna od dołu"
+  },
+  {
+    "key": "epDoor",
+    "english": "Door",
+    "polish": "Drzwi"
+  },
+  {
+    "key": "epEnemySpawnPos",
+    "english": "Enemy Spawn Position",
+    "polish": "Punkt pojawiania się przeciwników"
+  },
+  {
+    "key": "epEnemySpawnManager",
+    "english": "Enemy Spawn Manager",
+    "polish": "Menedżer pojawiania się przeciwników"
+  },
+  {
+    "key": "epDefEnemy",
+    "english": "Default Enemy",
+    "polish": "Podstawowy przeciwnik"
+  },
+  {
+    "key": "epStartPos",
+    "english": "Level Start Point",
+    "polish": "Punkt startowy poziomu"
+  },
+  {
+    "key": "epEndPos",
+    "english": "Level End Point",
+    "polish": "Punkt końcowy poziomu"
+  },
+  {
+    "key": "epSpikes",
+    "english": "Spikes",
+    "polish": "Kolce"
+  },
+  {
+    "key": "epSawBlade",
+    "english": "Saw Blade",
+    "polish": "Tarcza piły"
+  },
+  {
+    "key": "epFan",
+    "english": "Fan",
+    "polish": "Wentylator"
+  },
+  {
+    "key": "epPipe",
+    "english": "Pipe",
+    "polish": "Rura"
+  },
+  {
+    "key": "epPipeTurn",
+    "english": "Pipe Turn",
+    "polish": "Kolanko rury"
+  },
+  {
+    "key": "epBubEmit",
+    "english": "Bubble Emitter",
+    "polish": "Generator baniek"
+  },
+  {
+    "key": "epBubble",
+    "english": "Bubble",
+    "polish": "Bańka"
+  },
+  {
+    "key": "epFence",
+    "english": "Fence",
+    "polish": "Ogrodzenie"
+  },
+  {
+    "key": "epOneWay",
+    "english": "One Way",
+    "polish": "Przejście jednokierunkowe"
+  },
+  {
+    "key": "epSlideBlock",
+    "english": "Slide Block",
+    "polish": "Blok ślizgowy"
+  },
+  {
+    "key": "epSlideBlockAlt",
+    "english": "Slide Block Alternative",
+    "polish": "Blok ślizgowy — wariant"
+  },
+  {
+    "key": "epLaser",
+    "english": "Laser",
+    "polish": "Laser"
+  },
+  {
+    "key": "epTerrainBlock",
+    "english": "Terrain Blocker",
+    "polish": "Blokada terenu"
+  },
+  {
+    "key": "epBouncePad",
+    "english": "Bounce Pad",
+    "polish": "Wyrzutnia sprężynowa"
+  },
+  {
+    "key": "epMovBlock",
+    "english": "Moving Block",
+    "polish": "Ruchomy blok"
+  },
+  {
+    "key": "epMovBlockAlt",
+    "english": "Moving Block Alternative",
+    "polish": "Ruchomy blok — wariant"
+  },
+  {
+    "key": "epFlyEnemy",
+    "english": "Flying Enemy",
+    "polish": "Latający przeciwnik"
+  },
+  {
+    "key": "epHalfBlock",
+    "english": "Half Block",
+    "polish": "Połówka bloku"
+  },
+  {
+    "key": "epHalfCornBlock",
+    "english": "Half Corner Block",
+    "polish": "Połówka bloku narożnego"
+  },
+  {
+    "key": "epCannon",
+    "english": "Cannon",
+    "polish": "Działo"
+  },
+  {
+    "key": "epQuartBlock",
+    "english": "Quarter Block",
+    "polish": "Ćwiartka bloku"
+  },
+  {
+    "key": "epJumper",
+    "english": "Jumper",
+    "polish": "Skoczek"
+  },
+  {
+    "key": "epCivil",
+    "english": "Civilian",
+    "polish": "Cywil"
+  },
+  {
+    "key": "epBall",
+    "english": "Ball",
+    "polish": "Piłka"
+  },
+  {
+    "key": "epRampLonger",
+    "english": "Ramp Longer",
+    "polish": "Bardzo długa rampa"
+  },
+  {
+    "key": "epCornerSlope",
+    "english": "Corner Slope Block",
+    "polish": "Blok narożny ze skosem"
+  },
+  {
+    "key": "epHalfRamp",
+    "english": "Half Ramp Block",
+    "polish": "Blok z połówką rampy"
+  },
+  {
+    "key": "epTriggerZone",
+    "english": "Trigger Zone",
+    "polish": "Strefa aktywacji"
+  },
+  {
+    "key": "epEnemyTrigZone",
+    "english": "Enemy Trigger Zone",
+    "polish": "Strefa aktywowana przez przeciwnika"
+  },
+  {
+    "key": "epDumEnemy",
+    "english": "Dummy Enemy",
+    "polish": "Przeciwnik — atrapa"
+  },
+  {
+    "key": "epExpBlock",
+    "english": "Explosive Block",
+    "polish": "Wybuchowy blok"
+  },
+  {
+    "key": "epBomb",
+    "english": "Bomb",
+    "polish": "Bomba"
+  },
+  {
+    "key": "epBombEmit",
+    "english": "Bomb Emitter",
+    "polish": "Generator bomb"
+  },
+  {
+    "key": "epHardDestruct",
+    "english": "Hard Destructible Block",
+    "polish": "Wytrzymały zniszczalny blok"
+  },
+  {
+    "key": "epMurdKey",
+    "english": "Murder Key",
+    "polish": "Klucz mordu"
+  },
+  {
+    "key": "epMurdLock",
+    "english": "Murder Lock",
+    "polish": "Zamek mordu"
+  },
+  {
+    "key": "epButton",
+    "english": "Button",
+    "polish": "Przycisk"
+  },
+  {
+    "key": "epToggleSpik",
+    "english": "Toggle Spikes",
+    "polish": "Przełączane kolce"
+  },
+  {
+    "key": "epAmmo",
+    "english": "Ammo",
+    "polish": "Amunicja"
+  },
+  {
+    "key": "epRepulsor",
+    "english": "Repulsor",
+    "polish": "Odpychacz"
+  },
+  {
+    "key": "epAttractor",
+    "english": "Attractor",
+    "polish": "Przyciągacz"
+  },
+  {
+    "key": "epSkullHead",
+    "english": "Skull Head",
+    "polish": "Czaszka"
+  },
+  {
+    "key": "epChapEnd",
+    "english": "Chapter End Point",
+    "polish": "Punkt końcowy rozdziału"
+  },
+  {
+    "key": "epShotgunEnemy",
+    "english": "Shotgun Enemy",
+    "polish": "Przeciwnik ze strzelbą"
+  },
+  {
+    "key": "epDruidEnemy",
+    "english": "Druid Enemy",
+    "polish": "Przeciwnik — druid"
+  },
+  {
+    "key": "epSawEnemy",
+    "english": "Saw Enemy",
+    "polish": "Przeciwnik z piłą"
+  },
+  {
+    "key": "epPhantomEnemy",
+    "english": "Phantom Enemy",
+    "polish": "Przeciwnik — widmo"
+  },
+  {
+    "key": "epWallBall",
+    "english": "Wall Ball",
+    "polish": "Kula ścienna"
+  },
+  {
+    "key": "epMissileLaunch",
+    "english": "Missile Launcher",
+    "polish": "Wyrzutnia rakiet"
+  },
+  {
+    "key": "epHunter",
+    "english": "Hunter",
+    "polish": "Łowca"
+  },
+  {
+    "key": "epBurstPistol",
+    "english": "Burst Pistol",
+    "polish": "Pistolet strzelający seriami"
+  },
+  {
+    "key": "epMachineGun",
+    "english": "Machine Gun",
+    "polish": "Karabin maszynowy"
+  },
+  {
+    "key": "epRicoRifle",
+    "english": "Ricochet Rifle",
+    "polish": "Karabin rykoszetowy"
+  },
+  {
+    "key": "epSniper",
+    "english": "Sniper",
+    "polish": "Karabin snajperski"
+  },
+  {
+    "key": "epFlamethrower",
+    "english": "Flamethrower",
+    "polish": "Miotacz ognia"
+  },
+  {
+    "key": "epWeaponReset",
+    "english": "Weapon Resetter",
+    "polish": "Resetowanie broni"
+  },
+  {
+    "key": "epAnd",
+    "english": "And-Logic",
+    "polish": "Bramka logiczna I"
+  },
+  {
+    "key": "epOr",
+    "english": "Or-Logic",
+    "polish": "Bramka logiczna LUB"
+  },
+  {
+    "key": "epTimer",
+    "english": "Timer-Logic",
+    "polish": "Układ czasowy"
+  },
+  {
+    "key": "epBulActivBlock",
+    "english": "Bullet Activated Block",
+    "polish": "Blok aktywowany pociskiem"
+  },
+  {
+    "key": "epBulActivBlockAlt",
+    "english": "Bullet Activated Block Alternative",
+    "polish": "Blok aktywowany pociskiem — wariant"
+  },
+  {
+    "key": "epSpinningSaw",
+    "english": "Spinning Saw",
+    "polish": "Obracająca się piła"
+  },
+  {
+    "key": "epMovingSaw",
+    "english": "Moving Saw",
+    "polish": "Ruchoma piła"
+  },
+  {
+    "key": "epMovingLaser",
+    "english": "Moving Laser",
+    "polish": "Ruchomy laser"
+  },
+  {
+    "key": "epRotLaser",
+    "english": "Rotating Laser",
+    "polish": "Obracający się laser"
+  },
+  {
+    "key": "epKillCount",
+    "english": "Kill Counter",
+    "polish": "Licznik zabójstw"
+  },
+  {
+    "key": "epMinigun",
+    "english": "Minigun",
+    "polish": "Minigun"
+  },
+  {
+    "key": "epRangeShotgun",
+    "english": "Range Shotgun",
+    "polish": "Strzelba dalekiego zasięgu"
+  },
+  {
+    "key": "epExploder",
+    "english": "Exploder",
+    "polish": "Rozsadzacz"
+  },
+  {
+    "key": "epSplinterGun",
+    "english": "Splinter Gun",
+    "polish": "Miotacz odłamków"
+  },
+  {
+    "key": "epTripTarget",
+    "english": "Triple Targeter",
+    "polish": "Potrójny celownik"
+  },
+  {
+    "key": "epDoubleShooter",
+    "english": "Double Shooter",
+    "polish": "Podwójny strzelec"
+  },
+  {
+    "key": "epBulletCloud",
+    "english": "Bullet Cloud",
+    "polish": "Chmura pocisków"
+  },
+  {
+    "key": "epDivider",
+    "english": "The Divider",
+    "polish": "Rozdzielacz"
+  },
+  {
+    "key": "epTroubleSeeker",
+    "english": "Trouble Seeker",
+    "polish": "Szukacz kłopotów"
+  },
+  {
+    "key": "epZigZag",
+    "english": "Zig Zag Zapper",
+    "polish": "Zygzakowy rażacz"
+  },
+  {
+    "key": "epNoCheckpoint",
+    "english": "No Checkpoint Zone",
+    "polish": "Strefa bez punktów kontrolnych"
+  },
+  {
+    "key": "credGameBy",
+    "english": "A game by",
+    "polish": "Gra autorstwa"
+  },
+  {
+    "key": "credArtCode",
+    "english": "Art, Code, Design, Sound, Music, \"Story\"",
+    "polish": "Grafika, kod, projekt, dźwięk, muzyka, „fabuła”"
+  },
+  {
+    "key": "credPublished",
+    "english": "Published by",
+    "polish": "Wydawca"
+  },
+  {
+    "key": "credTest",
+    "english": "Testing",
+    "polish": "Testy"
+  },
+  {
+    "key": "credThanks",
+    "english": "Special Thanks",
+    "polish": "Specjalne podziękowania"
+  },
+  {
+    "key": "demoHeader",
+    "english": "End of Demo",
+    "polish": "Koniec dema"
+  },
+  {
+    "key": "demoText",
+    "english": "<b>Shotgun Cop Man approves of you playing this demo!</b> Continue the journey in the full version.",
+    "polish": "<b>Shotgun Cop Man pochwala twój udział w demie!</b> Kontynuuj przygodę w pełnej wersji."
+  },
+  {
+    "key": "demoTextWishlist",
+    "english": "<b>Shotgun Cop Man approves of you playing this demo!</b> Be sure to wishlist the game to not miss the full release.",
+    "polish": "<b>Shotgun Cop Man pochwala twój udział w demie!</b> Dodaj grę do listy życzeń, aby nie przegapić premiery pełnej wersji."
+  },
+  {
+    "key": "demoPurchase",
+    "english": "Purchase full version",
+    "polish": "Kup pełną wersję"
+  },
+  {
+    "key": "demoPurchaseWishlist",
+    "english": "Wishlist game",
+    "polish": "Dodaj do listy życzeń"
+  },
+  {
+    "key": "ach0",
+    "english": "No Damage",
+    "polish": "Bez obrażeń"
+  },
+  {
+    "key": "achDesc0",
+    "english": "Complete one \"No Damage\" challenge.",
+    "polish": "Ukończ jedno wyzwanie „Bez obrażeń”."
+  },
+  {
+    "key": "ach1",
+    "english": "Kill All",
+    "polish": "Eliminacje"
+  },
+  {
+    "key": "achDesc1",
+    "english": "Complete one \"Kill All\" challenge.",
+    "polish": "Ukończ jedno wyzwanie „Eliminacje”."
+  },
+  {
+    "key": "ach2",
+    "english": "Speedrun",
+    "polish": "Na czas"
+  },
+  {
+    "key": "achDesc2",
+    "english": "Complete one \"Speedrun\" challenge.",
+    "polish": "Ukończ jedno wyzwanie „Na czas”."
+  },
+  {
+    "key": "ach3",
+    "english": "Not a scratch",
+    "polish": "Ani draśnięcia"
+  },
+  {
+    "key": "achDesc3",
+    "english": "Complete all \"No Damage\" challenges.",
+    "polish": "Ukończ wszystkie wyzwania „Bez obrażeń”."
+  },
+  {
+    "key": "ach4",
+    "english": "Hello, anybody there?",
+    "polish": "Halo, jest tu kto?"
+  },
+  {
+    "key": "achDesc4",
+    "english": "Complete all \"Kill All\" challenges.",
+    "polish": "Ukończ wszystkie wyzwania „Eliminacje”."
+  },
+  {
+    "key": "ach5",
+    "english": "*Blinks*",
+    "polish": "*Mrugnięcie*"
+  },
+  {
+    "key": "achDesc5",
+    "english": "Complete all \"Speedrun\" challenges.",
+    "polish": "Ukończ wszystkie wyzwania „Na czas”."
+  },
+  {
+    "key": "ach6",
+    "english": "Total Champ",
+    "polish": "Mistrz nad mistrzami"
+  },
+  {
+    "key": "achDesc6",
+    "english": "Complete all challenges for all levels.",
+    "polish": "Ukończ wszystkie wyzwania na wszystkich poziomach."
+  },
+  {
+    "key": "ach7",
+    "english": "Have you met my friend?",
+    "polish": "Znasz mojego kumpla?"
+  },
+  {
+    "key": "achDesc7",
+    "english": "Throw an enemy at another enemy.",
+    "polish": "Rzuć przeciwnikiem w innego przeciwnika."
+  },
+  {
+    "key": "ach8",
+    "english": "Airborne",
+    "polish": "W powietrzu"
+  },
+  {
+    "key": "achDesc8",
+    "english": "Spend less than 5 seconds on the ground in a level.",
+    "polish": "Spędź na ziemi mniej niż 5 sekund podczas przechodzenia poziomu."
+  },
+  {
+    "key": "ach9",
+    "english": "Rest in Pieces",
+    "polish": "Spoczywaj w kawałkach"
+  },
+  {
+    "key": "achDesc9",
+    "english": "Blow 100 enemies to pieces.",
+    "polish": "Rozerwij na strzępy 100 przeciwników."
+  },
+  {
+    "key": "ach10",
+    "english": "Who's the Boss now?",
+    "polish": "Kto tu teraz rządzi?"
+  },
+  {
+    "key": "achDesc10",
+    "english": "Beat a boss without getting hit.",
+    "polish": "Pokonaj bossa, nie dając się trafić."
+  },
+  {
+    "key": "ach11",
+    "english": "World 1",
+    "polish": "Świat 1"
+  },
+  {
+    "key": "achDesc11",
+    "english": "Beat World 1.",
+    "polish": "Ukończ świat 1."
+  },
+  {
+    "key": "ach12",
+    "english": "World 2",
+    "polish": "Świat 2"
+  },
+  {
+    "key": "achDesc12",
+    "english": "Beat World 2.",
+    "polish": "Ukończ świat 2."
+  },
+  {
+    "key": "ach13",
+    "english": "World 3",
+    "polish": "Świat 3"
+  },
+  {
+    "key": "achDesc13",
+    "english": "Beat World 3.",
+    "polish": "Ukończ świat 3."
+  },
+  {
+    "key": "ach14",
+    "english": "World 4",
+    "polish": "Świat 4"
+  },
+  {
+    "key": "achDesc14",
+    "english": "Beat World 4.",
+    "polish": "Ukończ świat 4."
+  },
+  {
+    "key": "ach15",
+    "english": "World 5",
+    "polish": "Świat 5"
+  },
+  {
+    "key": "achDesc15",
+    "english": "Beat World 5.",
+    "polish": "Ukończ świat 5."
+  },
+  {
+    "key": "ach16",
+    "english": "World 6",
+    "polish": "Świat 6"
+  },
+  {
+    "key": "achDesc16",
+    "english": "Beat World 6.",
+    "polish": "Ukończ świat 6."
+  },
+  {
+    "key": "ach17",
+    "english": "World 7",
+    "polish": "Świat 7"
+  },
+  {
+    "key": "achDesc17",
+    "english": "Beat World 7.",
+    "polish": "Ukończ świat 7."
+  },
+  {
+    "key": "ach18",
+    "english": "World 8",
+    "polish": "Świat 8"
+  },
+  {
+    "key": "achDesc18",
+    "english": "Beat World 8.",
+    "polish": "Ukończ świat 8."
+  },
+  {
+    "key": "ach19",
+    "english": "Justice is Served",
+    "polish": "Sprawiedliwości stało się zadość"
+  },
+  {
+    "key": "achDesc19",
+    "english": "Beat the game.",
+    "polish": "Ukończ grę."
+  },
+  {
+    "key": "ach20",
+    "english": "The Creator",
+    "polish": "Twórca"
+  },
+  {
+    "key": "achDesc20",
+    "english": "Check out the Level Editor.",
+    "polish": "Zajrzyj do edytora poziomów."
+  },
+  {
+    "key": "mRumbleSwitch",
+    "english": "Controller Vibrations",
+    "polish": "Wibracje kontrolera"
+  },
+  {
+    "key": "mRumblePlaystation",
+    "english": "Controller Vibrations",
+    "polish": "Wibracje kontrolera"
+  },
+  {
+    "key": "mRumbleXbox",
+    "english": "Controller Vibrations",
+    "polish": "Wibracje kontrolera"
+  },
+  {
+    "key": "mAccAimLockSwitch",
+    "english": "Controller Auto Aim Lock",
+    "polish": "Automatyczne celowanie — kontroler"
+  },
+  {
+    "key": "mAccAimLockPlaystation",
+    "english": "Controller Auto Aim Lock",
+    "polish": "Automatyczne celowanie — kontroler"
+  },
+  {
+    "key": "mAccAimLockXbox",
+    "english": "Controller Auto Aim Lock",
+    "polish": "Automatyczne celowanie — kontroler"
+  },
+  {
+    "key": "eoNoChan",
+    "english": "None",
+    "polish": "Brak"
+  },
+  {
+    "key": "mDemoSaveTransferSwitch",
+    "english": "Demo Save Transfer",
+    "polish": "Przeniesienie zapisu z dema"
+  },
+  {
+    "key": "mDemoSaveTransferPlaystation",
+    "english": "Demo Save Transfer",
+    "polish": "Przeniesienie zapisu z dema"
+  },
+  {
+    "key": "mDemoSaveTransferXbox",
+    "english": "Demo Save Transfer",
+    "polish": "Przeniesienie zapisu z dema"
+  },
+  {
+    "key": "mDemoSaveTransferMsgSwitch",
+    "english": "Demo save file detected. Press OK to transfer game progress from Demo.",
+    "polish": "Wykryto zapis z wersji demonstracyjnej. Naciśnij OK, aby przenieść postępy z dema."
+  },
+  {
+    "key": "mDemoSaveTransferMsgPlaystation",
+    "english": "Demo save file detected. Press OK to transfer game progress from Demo.",
+    "polish": "Wykryto zapis z wersji demonstracyjnej. Naciśnij OK, aby przenieść postępy z dema."
+  },
+  {
+    "key": "mDemoSaveTransferMsgXbox",
+    "english": "Demo save file detected. Press OK to transfer game progress from Demo.",
+    "polish": "Wykryto zapis z wersji demonstracyjnej. Naciśnij OK, aby przenieść postępy z dema."
+  },
+  {
+    "key": "demoLogo",
+    "english": "- DEMO -",
+    "polish": "- DEMO -"
+  },
+  {
+    "key": "demoLogoSwitch",
+    "english": "- DEMO -",
+    "polish": "- DEMO -"
+  },
+  {
+    "key": "demoLogoPlaystation",
+    "english": "- DEMO -",
+    "polish": "- DEMO -"
+  },
+  {
+    "key": "demoLogoXbox",
+    "english": "- DEMO -",
+    "polish": "- DEMO -"
+  },
+  {
+    "key": "demoHeaderSwitch",
+    "english": "End of Demo",
+    "polish": "Koniec dema"
+  },
+  {
+    "key": "demoHeaderPlaystation",
+    "english": "End of Demo",
+    "polish": "Koniec dema"
+  },
+  {
+    "key": "demoHeaderXbox",
+    "english": "End of Demo",
+    "polish": "Koniec dema"
+  },
+  {
+    "key": "demoTextSwitch",
+    "english": "<b>Shotgun Cop Man approves of you playing this demo!</b> Continue the journey in the full version.",
+    "polish": "<b>Shotgun Cop Man pochwala twój udział w demie!</b> Kontynuuj przygodę w pełnej wersji."
+  },
+  {
+    "key": "demoTextPlaystation",
+    "english": "<b>Shotgun Cop Man approves of you playing this demo!</b> Continue the journey in the full version.",
+    "polish": "<b>Shotgun Cop Man pochwala twój udział w demie!</b> Kontynuuj przygodę w pełnej wersji."
+  },
+  {
+    "key": "demoTextXbox",
+    "english": "<b>Shotgun Cop Man approves of you playing this demo!</b> Continue the journey in the full version.",
+    "polish": "<b>Shotgun Cop Man pochwala twój udział w demie!</b> Kontynuuj przygodę w pełnej wersji."
+  },
+  {
+    "key": "demoTextWishlistSwitch",
+    "english": "<b>Shotgun Cop Man approves of you playing this demo!</b> Be sure to wishlist the game to not miss the full release.",
+    "polish": "<b>Shotgun Cop Man pochwala twój udział w demie!</b> Dodaj grę do listy życzeń, aby nie przegapić premiery pełnej wersji."
+  },
+  {
+    "key": "demoTextWishlistPlaystation",
+    "english": "<b>Shotgun Cop Man approves of you playing this demo!</b> Be sure to wishlist the game to not miss the full release.",
+    "polish": "<b>Shotgun Cop Man pochwala twój udział w demie!</b> Dodaj grę do listy życzeń, aby nie przegapić premiery pełnej wersji."
+  },
+  {
+    "key": "demoTextWishlistXbox",
+    "english": "<b>Shotgun Cop Man approves of you playing this demo!</b> Be sure to wishlist the game to not miss the full release.",
+    "polish": "<b>Shotgun Cop Man pochwala twój udział w demie!</b> Dodaj grę do listy życzeń, aby nie przegapić premiery pełnej wersji."
+  },
+  {
+    "key": "mLvlChineseEnd",
+    "english": "",
+    "polish": ""
+  },
+  {
+    "key": "mccCampaignNoDesc",
+    "english": "No description...",
+    "polish": "Brak opisu..."
+  },
+  {
+    "key": "mccCampaignName",
+    "english": "Campaign",
+    "polish": "Kampania"
+  },
+  {
+    "key": "mBonusCamp",
+    "english": "Bonus Campaigns",
+    "polish": "Kampanie dodatkowe"
+  },
+  {
+    "key": "mRestartConfirm",
+    "english": "Are you sure you want to restart the level? Press OK to proceed.",
+    "polish": "Na pewno chcesz zacząć poziom od nowa? Naciśnij OK, aby kontynuować."
+  },
+  {
+    "key": "mExitConfirm",
+    "english": "Are you sure you want to exit the level? Press OK to proceed.",
+    "polish": "Na pewno chcesz opuścić poziom? Naciśnij OK, aby kontynuować."
+  },
+  {
+    "key": "mAnyButtonSwitch",
+    "english": "Press any button to Start",
+    "polish": "Naciśnij dowolny przycisk, aby rozpocząć"
+  },
+  {
+    "key": "mAnyButtonPlaystation",
+    "english": "Press any button to Start",
+    "polish": "Naciśnij dowolny przycisk, aby rozpocząć"
+  },
+  {
+    "key": "mAnyButtonXbox",
+    "english": "Press any button to Start",
+    "polish": "Naciśnij dowolny przycisk, aby rozpocząć"
+  },
+  {
+    "key": "appDemoNameSwitch",
+    "english": "Shotgun Cop Man Demo",
+    "polish": "Shotgun Cop Man Demo"
+  },
+  {
+    "key": "appDemoNamePlaystation",
+    "english": "Shotgun Cop Man Demo",
+    "polish": "Shotgun Cop Man Demo"
+  },
+  {
+    "key": "appDemoNameXbox",
+    "english": "Shotgun Cop Man Demo",
+    "polish": "Shotgun Cop Man Demo"
+  },
+  {
+    "key": "mControlsSettings",
+    "english": "Controls",
+    "polish": "Sterowanie"
+  },
+  {
+    "key": "waitForInput",
+    "english": "<Waiting for input...>",
+    "polish": "<Naciśnij przycisk...>"
+  },
+  {
+    "key": "aMove",
+    "english": "Move",
+    "polish": "Ruch"
+  },
+  {
+    "key": "aup",
+    "english": "Move Up",
+    "polish": "Ruch w górę"
+  },
+  {
+    "key": "adown",
+    "english": "Move Down",
+    "polish": "Ruch w dół"
+  },
+  {
+    "key": "aleft",
+    "english": "Move Left",
+    "polish": "Ruch w lewo"
+  },
+  {
+    "key": "aright",
+    "english": "Move Right",
+    "polish": "Ruch w prawo"
+  },
+  {
+    "key": "aThrow",
+    "english": "Pick up / Throw",
+    "polish": "Podnieś / Rzuć"
+  },
+  {
+    "key": "aInteract",
+    "english": "Proceed",
+    "polish": "Przejdź dalej"
+  },
+  {
+    "key": "aRestartLevel",
+    "english": "Quick Restart Level",
+    "polish": "Szybki restart poziomu"
+  },
+  {
+    "key": "mConfineCursor",
+    "english": "Confine Aim Cursor",
+    "polish": "Ogranicz ruch celownika"
+  },
+  {
+    "key": "mMouseSensitivity",
+    "english": "Mouse Sensitivity",
+    "polish": "Czułość myszy"
+  },
+  {
+    "key": "mAllInOne",
+    "english": "All In One",
+    "polish": "Komplet"
+  },
+  {
+    "key": "mAllInOneInfo",
+    "english": "Complete all the above in one go.",
+    "polish": "Wykonaj wszystkie powyższe zadania podczas jednego podejścia."
+  },
+  {
+    "key": "bcPromoLand",
+    "english": "Promo-Land",
+    "polish": "Kraina promocyjna"
+  },
+  {
+    "key": "bcPromoLandInfo",
+    "english": "A collection of levels used to promote the game ahead of its launch.",
+    "polish": "Zbiór poziomów wykorzystanych do promocji gry przed premierą."
+  },
+  {
+    "key": "mCustomCampComing",
+    "english": "Custom Campaigns\n<size=15>(Coming soon)</size>",
+    "polish": "Kampanie społeczności\n<size=15>(Wkrótce)</size>"
+  },
+  {
+    "key": "aSlowMo",
+    "english": "Slow Motion",
+    "polish": "Spowolnienie czasu"
+  },
+  {
+    "key": "PedroDLCepPedro",
+    "english": "Pedro",
+    "polish": "Pedro"
+  },
+  {
+    "key": "PedroDLCepFryingPan",
+    "english": "Frying Pan",
+    "polish": "Patelnia"
+  },
+  {
+    "key": "PedroDLCepZipLine",
+    "english": "Zip Line",
+    "polish": "Tyrolka"
+  },
+  {
+    "key": "PedroDLCepWindow",
+    "english": "Window",
+    "polish": "Okno"
+  },
+  {
+    "key": "PedroDLCepSkateboard",
+    "english": "Skateboard",
+    "polish": "Deskorolka"
+  },
+  {
+    "key": "PedroDLCepFootMovingBlock",
+    "english": "Foot Activated Moving Block",
+    "polish": "Ruchomy blok aktywowany stopą"
+  },
+  {
+    "key": "PedroDLCepRope",
+    "english": "Swing Rope",
+    "polish": "Lina do huśtania"
+  },
+  {
+    "key": "PedroDLCSpeech1",
+    "english": "Who goes there?",
+    "polish": "Kto tam?"
+  },
+  {
+    "key": "PedroDLCSpeech2",
+    "english": "It's me. Pedro. Your friend...",
+    "polish": "To ja. Pedro. Twój przyjaciel..."
+  },
+  {
+    "key": "PedroDLCSpeech3",
+    "english": "Oh, right. Hi Pedro!",
+    "polish": "A, no tak. Cześć, Pedro!"
+  },
+  {
+    "key": "PedroDLCSpeech4",
+    "english": "I seem to have ended up in hell by mistake.",
+    "polish": "Chyba trafiłem do piekła przez pomyłkę."
+  },
+  {
+    "key": "PedroDLCSpeech5",
+    "english": "Would you mind helping me out of here?",
+    "polish": "Pomożesz mi się stąd wydostać?"
+  },
+  {
+    "key": "PedroDLCSpeech6",
+    "english": "Anything for justice!",
+    "polish": "Wszystko dla sprawiedliwości!"
+  },
+  {
+    "key": "PedroDLCSpeech7",
+    "english": "Wonderful!",
+    "polish": "Cudownie!"
+  },
+  {
+    "key": "PedroDLCSpeech8",
+    "english": "In return I'll grant you the power of sick moves and slow motion.",
+    "polish": "W zamian obdarzę cię mocą odjazdowych akrobacji i spowalniania czasu."
+  },
+  {
+    "key": "PedroDLCSpeech9",
+    "english": "There's something very familiar with some of these places...",
+    "polish": "Niektóre z tych miejsc wyglądają dziwnie znajomo..."
+  },
+  {
+    "key": "PedroDLCSpeech10",
+    "english": "Anyway, let's find the way out of here.",
+    "polish": "Tak czy inaczej, znajdźmy wyjście."
+  },
+  {
+    "key": "PedroDLCSpeech11",
+    "english": "Smell that? It's the smell of the portal out of hell.",
+    "polish": "Czujesz to? Tak pachnie portal prowadzący z piekła."
+  },
+  {
+    "key": "PedroDLCSpeech12",
+    "english": "Can't be far now!",
+    "polish": "To już musi być blisko!"
+  },
+  {
+    "key": "PedroDLCSpeech13",
+    "english": "We made it!",
+    "polish": "Udało się!"
+  },
+  {
+    "key": "PedroDLCSpeech14",
+    "english": "We made our way out of hell!",
+    "polish": "Wydostaliśmy się z piekła!"
+  },
+  {
+    "key": "PedroDLCSpeech15",
+    "english": "Justice always prevails.",
+    "polish": "Sprawiedliwość zawsze zwycięża."
+  },
+  {
+    "key": "PedroDLCBonusCampaignName",
+    "english": "My Friend Pedro",
+    "polish": "My Friend Pedro"
+  },
+  {
+    "key": "PedroDLCBonusCampaignDesc",
+    "english": "An adventure inspired by the game 'My Friend Pedro'. Help your friend Pedro out of hell.",
+    "polish": "Przygoda inspirowana grą „My Friend Pedro”. Pomóż swojemu przyjacielowi Pedrowi wydostać się z piekła."
+  },
+  {
+    "key": "PedroDLCBoss1",
+    "english": "Mitch the Butcher",
+    "polish": "Mitch Rzeźnik"
+  },
+  {
+    "key": "PedroDLCBoss2",
+    "english": "Denny",
+    "polish": "Denny"
+  },
+  {
+    "key": "PedroDLCBoss3",
+    "english": "Ophelia",
+    "polish": "Ofelia"
+  }
+]

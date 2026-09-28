@@ -1,0 +1,165 @@
+# Holy Shoot translation bible: facts with sources. Format: .claude/skills/localization/SKILL.md
+
+sources:
+  - id: locres
+    description: "PVD/Content/Localization/Game/en/Game.locres, Steam build 24334618 (the game's only language; no other tables)."
+  - id: text
+    description: "Original text: character descriptions (he/she), names, line context."
+
+characters:
+  - id: samuel
+    name: "Naddźwiękowy Samuel (Supersonic Samuel)"
+    gender: m
+    key: 'SupersonicSamuel_'
+    register: "ex-sprinter, cocky, brags about speed"
+    source: [text]
+    note: '"made him a hero", "his athletic career".'
+  - id: toshiko
+    name: "Toshiko Techno"
+    gender: f
+    key: 'ToshikoTechno_'
+    register: "inventor, IT jargon (debug, patch, restart, 404)"
+    source: [text]
+    note: '"she fused tech with combat". DashDesc_Toshiko wrongly says "his path" in the original; Polish uses "swojej drodze".'
+  - id: player
+    name: "gracz (Samuel albo Toshiko)"
+    gender: '?'
+    note: "Everything said to the player (NPCs, bosses, fairy, descriptions) is genderless."
+  - id: fairy
+    name: "Wróżka, towarzyszka (Fairy Companion)"
+    gender: f
+    key: 'Fairy_'
+    register: "mouthy, snarky"
+    source: decision
+    note: '"it" in the original; in Polish "wróżka", so feminine ("Przybyła twoja bohaterka").'
+  - id: baron
+    name: "Baron Przypalacz (Baron Burnsalot) – Szatan"
+    gender: m
+    key: 'BaronBurnsalot_'
+    register: "spoiled baby: mummy, pacifier, baby tooth"
+    source: [text]
+  - id: lady
+    name: "Lady Miłogeddon (Lady Lovemageddon) – Asmodeusz"
+    gender: f
+    key: 'LadyLovemageddon_'
+    register: 'seductive, "kochanie"'
+    source: [text]
+  - id: mammon
+    name: "Komornik (The Debtkeeper) – Mamona"
+    gender: m
+    key: 'Mammon_'
+    register: "corporate-finance jargon"
+    source: [text]
+  - id: druid
+    name: "Milka Krasula, Królowa Druidów (Milcah Kow)"
+    gender: f
+    source: [text]
+    note: 'Pun "milk a cow" -> Milka the cow + Krasula.'
+  - id: maya
+    name: "Kupulkan, majański duch (Needapu)"
+    gender: m
+    source: decision
+    note: '"Need a poo" -> Kukulkan + kupa; the line about name jokes still works.'
+  - id: spearatrix
+    name: "Spearatrix, spartańska wojowniczka"
+    gender: f
+    source: decision
+    note: 'Ending -trix; line "byłam numerem 301".'
+
+terms:
+  - en: runs?
+    pl: "wyprawa"
+    forms: [wypraw]
+    source: decision
+    note: "a single roguelite attempt"
+  - en: souls?
+    pl: "dusza"
+    forms: [dusz]
+    source: [locres]
+  - en: perks?
+    pl: "atut"
+    forms: [atut]
+    source: decision
+    note: "established in Polish game releases (Fallout, Call of Duty)"
+  - en: dash
+    pl: "zryw"
+    forms: [zryw]
+    source: decision
+  - en: companion
+    pl: "towarzyszka"
+    forms: [towarzysz]
+    source: decision
+    note: "the companion is the fairy"
+  - en: Divine Offerings?
+    pl: "Boskie Datki"
+    forms: [datk, datek]
+    source: decision
+  - en: Glimmering Dust
+    pl: "Migotliwy Pył"
+    forms: [pył]
+    source: decision
+  - en: Healing Basin
+    pl: "Uzdrawiająca Misa"
+    forms: [mis]
+    source: decision
+  - en: Mayhem
+    pl: "Pogrom"
+    forms: [pogrom]
+    source: decision
+  - en: The Challenger
+    pl: "„Wyzywacz”"
+    forms: [wyzywacz]
+    source: decision
+  - en: Order of the Sanctum
+    pl: "Zakon Sanktuarium"
+    forms: [zakon, sanktuari]
+    source: decision
+  - en: Heaven's Light
+    pl: "Światło Niebios"
+    forms: [światł]
+    source: decision
+  - en: Thunder Lance
+    pl: "Włócznia Gromu"
+    forms: [włóczni]
+    source: decision
+  - en: Frozen Grip
+    pl: "Lodowy Uścisk"
+    forms: [uścisk]
+    source: decision
+  - en: Wail of Fear
+    pl: "Lament Trwogi"
+    forms: [lament]
+    source: decision
+  - en: realm
+    pl: "królestwo"
+    forms: [królestw]
+    source: decision
+    note: "Chciwość, Rozpusta, Lenistwo, Gniew"
+
+keep_english:
+  - Holy Shoot
+  - Tale Era
+  - Toshiko
+  - Samuel
+  - Techno
+  - Lumen
+  - Gamma
+  - DPS
+  - FPS
+  - Sprint
+  - MENU
+  - Auto
+  - Bomberman
+  - Disco Inferno
+  - Stayin' Alive
+  - Deuteranopia
+  - Protanopia
+  - Tritanopia
+
+ignore:
+  - check: english
+    key: '^[0-9A-F]{32}$'
+    reason: "developer diagnostic texts without namespace (Steam Stat Saved, MapOrigin, Use_1) stay verbatim."
+  - check: terms
+    key: '^(Tutorial_ElementalPerks_Description|U_U_PerkSaver_D|Tutorial_SoulboundLantern_Description)$'
+    reason: '"run in fear" is fleeing, not a run; "dusz" is genitive plural.'

@@ -1,0 +1,29 @@
+---
+import type { Game } from '../lib/games';
+import Keyart from './Keyart.astro';
+
+interface Props {
+  game: Game;
+}
+
+const { game } = Astro.props;
+
+/** Search matches the title only, diacritics-insensitive: "lodz" finds "Łódź". */
+const haystack = game.title
+  .toLowerCase()
+  .normalize('NFD')
+  .replace(/[̀-ͯ]/g, '')
+  .replace(/ł/g, 'l');
+---
+
+<a class="ng-card" href={game.href} data-card={game.slug} data-status={game.status.id} data-search={haystack}
+  data-added={game.added.toISOString().slice(0, 10)} data-title={game.title}>
+  <Keyart game={game} variant="card" />
+  <div class="ng-card-body">
+    <h3 class="ng-display ng-card-title">{game.title}</h3>
+    <div class="ng-card-status">
+      <span class="ng-badge" data-tone={game.status.tone} title={game.status.description}>{game.status.label}</span>
+      {game.status.id !== 'in-progress' && <span class="ng-badge-note">v{game.version}</span>}
+    </div>
+  </div>
+</a>

@@ -1,0 +1,62 @@
+BROFORCE PL 0.1 - PELNE TLUMACZENIE
+
+397/397 wpisow: menu, opcje i sterowanie, mapa swiata z opisami regionow
+i poziomami zagrozenia, HUD, ekrany wynikow, versus, kampanie graczy, podpisy
+bossow, zakonczenie i komunikaty sieciowe. Polski jest dodatkowym jezykiem,
+wszystkie oryginalne zostaja dostepne. Imiona bro zostaja oryginalne.
+
+Ta paczka NIE PODMIENIA zadnego pliku gry. Tlumaczenie dokladane jest w czasie
+dzialania gry, wiec oryginalne pliki zostaja nietkniete, a weryfikacja plikow
+w GOG Galaxy czy Steamie nie ma czego naprawiac.
+
+INSTALACJA (przy zamknietej grze)
+1. Wypakuj cala zawartosc archiwum do katalogu gry - tego, w ktorym lezy plik
+   "Broforce.exe".
+2. Uruchom gre normalnie. Pierwsze uruchomienie trwa dluzej, bo dokladka
+   tworzy swoje katalogi.
+3. Options -> Language -> Polski. Na polskim Windowsie gra sama wystartuje
+   po polsku.
+
+USUNIECIE
+Skasuj z katalogu gry: winhttp.dll, doorstop_config.ini, .doorstop_version
+oraz caly katalog BepInEx. To wszystko - plikow gry nie ruszamy, wiec nie ma
+czego przywracac. Jesli gra zapamietala polski, po usunieciu wroci do
+angielskiego sama.
+
+WERSJE GRY I SKLEPY
+Sprawdzone na wydaniu GOG 1.0.3148, Unity 2017.4.7f1, 64-bitowym.
+
+Spolszczenie nie jest przypiete do konkretnej wersji gry ani do sklepu -
+wpina sie w system jezykow gry po nazwach, nie po zawartosci plikow. Powinno
+wiec dzialac takze na wersji ze Steama i przezyc aktualizacje gry.
+
+Jesli po aktualizacji czesc tekstow wroci do angielskiego, znaczy to, ze gra
+dostala nowe teksty, ktorych spolszczenie jeszcze nie zna - reszta dziala
+dalej. Zgloszenie z plikiem BepInEx/LogOutput.log wystarczy, zeby to poprawic.
+
+POLSKIE LITERY
+Fonty gry nie maja polskich liter. Dokladka sklada je w locie: w fontach
+bitmapowych z liter i akcentow tych samych fontow, a w duzych napisach 3D
+jako dorobione bryly. Kilka fontow rysowanych przez system (opisy regionow
+na mapie, czesc zakonczenia) dostaje brakujace litery od Windowsa, wiec
+moga one wygladac nieco inaczej od reszty napisu.
+
+JESLI COS NIE DZIALA
+Logi z uruchomienia leza w BepInEx/LogOutput.log. Powinna byc tam linia
+"Game text bank". Jesli jej nie ma, przeslij ten plik.
+Niektore antywirusy blokuja winhttp.dll przy pierwszym starcie, bo to sposob,
+w jaki dokladka wchodzi do gry; plik pochodzi z oficjalnego wydania BepInEksa.
+
+CO JEST W PACZCE
+BepInEx 5.4.23.5 - otwarta dokladka, ktora uruchamia modyfikacje w grach Unity.
+BepInEx/plugins/notgeeseBroforce - nasz plugin oraz pl.tsv z tekstami.
+
+LICENCJE
+Spolszczenie i plugin: MIT, tekst w BepInEx/plugins/notgeeseBroforce/LICENSE-notgeese.txt
+BepInEx: LGPL-2.1, tekst w BepInEx-LICENSE.txt. Zrodla tej konkretnej wersji:
+https://github.com/BepInEx/BepInEx/releases/tag/v5.4.23.5
+
+AKTUALIZACJA ZE STARSZEJ PACZKI
+Starsze wydania instalowaly plugin w folderze BepInEx/plugins/NieGesiBroforce
+(poprzednia nazwa projektu). Usun ten folder przed wypakowaniem nowej paczki.
+Jesli zostanie, BepInEx uruchomi stara wersje, a nowa pominie.

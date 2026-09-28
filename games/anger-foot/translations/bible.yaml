@@ -1,0 +1,230 @@
+# Anger Foot translation bible: facts with sources. Format: .claude/skills/localization/SKILL.md
+# Written after the fact (2026-09-22): the translation predates the skill; this records what was adopted.
+
+sources:
+  - id: table
+    description: >
+      Speaker and To fields of every LocalizedString (e.g. "NPC (Female)" > "Player").
+      The game gives speaker and addressee gender itself. In the review they sit in the key:
+      `<path> [speaker > addressee]`. Dump: tools/ref_extract.py -> work/ref-all.json (not committed).
+  - id: context
+    description: Description field (developer notes for translators), `context` in the review.
+  - id: ru
+    description: Russian table of the game; addresses the player consistently in masculine ("ты опоздал", "ты пришёл").
+
+characters:
+  - id: player
+    name: Anger Foot
+    gender: m
+    addresses_player: '-'
+    register: never speaks; others address him with "ty"
+    declension: vocative unchanged ("Mam cię dość, Anger Foot!"), genitive "Anger Foota" ("Buty Anger Foota")
+    source: [ru, table]
+  - id: npc-f
+    name: female characters (NPCs, Anger Girl, Prezeska)
+    gender: f
+    key: '\[[^\]>]*\(Female\) >'
+    addresses_player: ty
+    source: [table]
+  - id: npc-m
+    name: male characters (NPCs, Minister Zbrodni, Glut Glina, Pizza Świnia, delivery guy)
+    gender: m
+    key: '\[[^\]>]*\(Male\) >'
+    addresses_player: ty
+    source: [table]
+  - id: anger-girl
+    name: Anger Girl
+    gender: f
+    register: the hero's girlfriend, energetic, casual ("Ekstra!", "Ruszamy!"); her name never appears in the Polish text
+    source: [table, context]
+  - id: minister
+    name: Minister Zbrodni
+    gender: m
+    register: politician, pompous villain monologue; addresses the player as "Anger Foot"
+    source: [table, context]
+  - id: ceo
+    name: Prezeska
+    gender: f
+    register: head of the Business Gang (Office Boss (Female)); "The CEO" is a title, hence the capital
+    source: [table]
+  - id: pizza-pig
+    name: Pizza Świnia
+    gender: m
+    declension: >
+      "Świnia" declines like a feminine noun (Pizza Świni, Pizza Świnio), but verbs and pronouns
+      are masculine because it's a he ("Pizza Świnia próbował nas zabić", "jego dodatki").
+    source: [table]
+  - id: goo-cop
+    name: Glut Glina
+    gender: m
+    declension: both parts decline ("Glutem Gliną", "Gluta Gliny"); partner Worek Glina likewise ("Worku Glino!")
+    source: [table, context]
+  - id: trash-boss
+    name: Baron Mazi / Umysł Brudu
+    gender: m
+    register: '"Neutral" in the table; masculine in Polish following the names (Baron, Umysł)'
+    source: decision
+    note: the names are masculine, so masculine forms sound natural ("jestem taki zapominalski").
+
+terms:
+  - en: Shit City
+    pl: Zasrane Miasto
+    forms: [zasran]
+    source: decision
+    note: same force as the original; declines like an ordinary city name.
+  - en: Violence Gang
+    pl: Gang Przemocy
+    forms: [przemoc]
+    source: decision
+  - en: Pollution Gang
+    pl: Gang Smrodu
+    forms: [smrod, smród]
+    source: decision
+    note: '"smród" instead of "zanieczyszczenia": shorter and funnier; hence "Kocham smród", "Więzienie Smrodu".'
+  - en: Business Gang
+    pl: Gang Biznesu
+    forms: [biznes]
+    source: decision
+  - en: Debauchery Gang
+    pl: Gang Rozpusty
+    forms: [rozpust]
+    source: decision
+  - en: Crime Minister
+    pl: Minister Zbrodni
+    forms: [minist]
+    source: decision
+  - en: Crime Tower
+    pl: Wieża Zbrodni
+    forms: [wież]
+    source: decision
+  - en: Goo Cop
+    pl: Glut Glina
+    forms: [glut]
+    source: decision
+  - en: Bag Cop
+    pl: Worek Glina
+    forms: [wor]
+    source: decision
+  - en: Pizza Pig
+    pl: Pizza Świnia
+    forms: [świni, świnio]
+    source: decision
+  - en: the CEO
+    pl: Prezeska
+    forms: [prezes]
+    source: [table]
+    note: feminine because Office Boss (Female).
+  - en: goons?
+    pl: zbir
+    forms: [zbir, wrog, wróg, lewitując]
+    source: decision
+  - en: slime|sludge
+    pl: maź
+    forms: [maz, maź]
+    source: decision
+  - en: Preemo
+    pl: Preemo
+    forms: [preemo]
+    source: decision
+    note: shoe brand; no "sneakersy" after the name ("ostatnia para Preemo").
+  - en: sneakers?
+    pl: buty (in dialogue), sneakersy (ads, dress code)
+    forms: [but, sneaker, kolekcj, pary, parę, par, preemo]
+    source: decision
+    note: casual speech says "buty"; "sneakersy" where fashion matters.
+  - en: Star Goals?
+    pl: cel
+    forms: [cel]
+    source: decision
+  - en: collectible
+    pl: znajdźka
+    forms: [znajdź, przedmiot]
+    source: decision
+  - en: intern
+    pl: stażysta
+    forms: [staż]
+    source: decision
+
+keep_english:
+  - Anger Foot
+  - Preemo
+  - Bayview Heights
+  - Pine Tree Heights
+  - Sunny Hill Apartments
+  - Narcotomi Towers
+  - Barksdale Manor
+  - Eastbrooke Suites
+  - Brew Force
+  - Thirstfucker
+  - Tjips
+  - Glock Junior
+  - Broforce
+  - Thunderdome
+  - Hyper Hyper
+  - Lucida
+  - Janet
+  - FAXOTRON_47B
+  - Fest
+  - Klub
+  - Klubie
+  - Pizzerii
+  - Raju
+  - Dział
+  - Brudnej
+  - Energii
+  - Propagacji
+  - Paliw
+  - Kopalnych
+  - Tygodnika
+  - Straży
+  - Pożarnej
+  - Trampolin
+  - Podboju
+  - Kosmosu
+  - Crossfitu
+  - Wielka
+  - Otchłań
+  - Otchłani
+  - Pizzowej
+  - Rozkoszy
+  - Rozkosz
+  - Jego
+  - Zbytkowności
+  - Starszym
+  - Stażystą
+  - Dzbanek
+  - Piłeczka
+  - Pingpongowa
+  - Śmieciowej
+  - Górze
+  - Kulcie
+  - Zasranym
+  - Mieście
+  - Miastem
+  - Miłe
+  - Miasto
+
+settings:
+  dialog_key: '^Dialogue/'
+  max_line: 60   # speech bubbles over characters, the game wraps; no hard limit
+
+ignore:
+  - check: plurals
+    key: '^UI/Star Goals/'
+    reason: >
+      "zbirów", "wrogów", "lewitujących" (masculine-personal) are correct for any number from 2; goals with 1
+      don't exist. Non-personal ones rebuilt as "karaluchy: {0}", "węże: {0}".
+  - check: plurals
+    key: '^UI/(Challenge Levels|HUD)/'
+    reason: >
+      rebuilt ("w czasie poniżej {0} s", "kopiąc mniej niż {0} razy", "strzały w głowę: {0}");
+      "Kopnąłeś {0} razy." explained in decisions
+  - check: english
+    key: 'Urinal Puker|Child 2|Oinker 4|Mathematician 4|Tester 3|Fine Art Thinker|Water Cooler 3|Antialiasing|Display/Gamma|Ambient Occlusion|Enable Bloom|Challenge Bonus|Save Slot|Main Menu/Start|Tutorials/(Drifting|Gamepad Driving)|Credits/(DAQA|LQA)|Vape Collectible Type'
+    reason: onomatopoeia, interjections, technical abbreviations and words adopted in Polish (Amen, Wow, Bloom, Vape, Slot, Start, Bonus)
+  - check: consistency
+    key: '(Default|Continue)'
+    reason: deliberate; "Domyślny" counter mode vs "Domyślne" button; "Dalej" after a level vs "Wróć do gry" in pause
+  - check: typography
+    key: '(Window Lady 2|Energy Drinker 3|Organic Trash Man 1|Default Button)'
+    reason: trailing space in the original is a developer typo, nothing gets appended

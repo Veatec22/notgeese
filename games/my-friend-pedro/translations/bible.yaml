@@ -1,0 +1,132 @@
+sources:
+  - id: en
+    description: translations/en-pl-review.json; English lines, keys and animation commands from the game.
+  - id: old-notes
+    description: Earlier terminology notes (now in docs/decisions.md); not attributed to the user.
+  - id: direction
+    description: docs/decisions.md, direction sample; three recommendations accepted by the user 2026-09-24.
+  - id: review
+    description: Independent read of all 721 entries and whole-game synthesis, 2026-09-24 (docs/decisions.md, Review).
+
+style:
+  tone: lightly colloquial, absurd dark humor; Pedro fake-caring, not a tough guy
+  adaptation: recreate existing puns in Polish; keep deliberately awkward jokes, add no new jokes to ordinary lines
+  source: user
+  note: >-
+    The user accepted all three sample recommendations. No stronger swearing added; don't
+    colloquialize every theatrical line. Achievement names may play with words and keep "combo".
+    Rejected as direction: literalness at the cost of the joke, descriptive "Combo x20" instead of a pun.
+
+characters:
+  - id: pedro
+    name: Pedro
+    gender: m
+    addresses_player: ty
+    register: cheerful, caring for show, calm macabre advice and dad jokes
+    declension: Pedra, Pedrowi, Pedrem
+    source: [en, old-notes]
+    note: >-
+      Introduces himself in w101-6. Gender and declension kept from the existing translation;
+      don't assign all w* keys to Pedro, other characters speak there too.
+      The user accepted the register direction in the sample, not arbitrary new facts about him.
+    examples:
+      - key: w102-18
+        en: Huh...|Well, I guess you'll just have to kill them all now.
+        pl: Hm...|No to teraz chyba musisz ich wszystkich pozabijać.
+        source: user
+        note: Loose rhythm; replaced "No cóż, teraz chyba musisz zabić ich wszystkich" after acceptance.
+      - key: w410-1
+        en: Look, mines!|That must mean we're on track to find the railway.|Heh... on track... railway.|Sorry, just sharing my train of thoughts.
+        pl: Patrz, miny!|Chyba jesteśmy na właściwym torze, żeby znaleźć kolej.|Heh... tor... kolej.|Wybacz, taki już mam tok... tor myślenia.
+        source: user
+        note: Keep the Polish adaptation; rejected the weaker "droga... tory" and "myśli po szynach".
+  - id: mitch
+    name: Mitch
+    gender: m
+    register: rough and bossy; "półgłówku", "nieroby", no extra swearing
+    source: [en, old-notes]
+    note: w102-14 uses His; Butcher_* commands in w102-19 and w102-21 assign lines. Don't give all of w102 one speaker.
+  - id: ofelia
+    name: Ofelia
+    gender: f
+    register: authoritarian, ironic; personal and serious in the finale
+    declension: Ofelii, Ofelię, Ofelią
+    source: [en, review]
+    note: 'SPOILERS: w29-1 calls her Denny''s sister, in w511-1 she calls the hero "brother". Add no years of separation; w57-4 only says a long time.'
+  - id: denny
+    name: Denny
+    gender: m
+    register: theatrical host, panicky and colloquial under threat
+    declension: Denny’ego, Denny’emu, Dennym
+    source: [en, review]
+    note: 'SPOILERS: introduces himself in w20-3; w29-1 calls Ofelia his sister, Mitch his father. w511-1 calls him "he".'
+
+terms:
+  - en: focus
+    pl: skupienie
+    forms: [skup]
+    source: [old-notes]
+  - en: split aim|separat(?:e|ing) (?:your )?aim
+    pl: rozdzielanie celowania
+    forms: [rozdziel, celować w dwa miejsca]
+    source: [old-notes]
+  - en: Ophelia
+    pl: Ofelia
+    forms: [ofeli]
+    source: [old-notes]
+  - en: Mitch the Butcher
+    pl: Mitch Rzeźnik
+    forms: [rzeźnik]
+    source: [old-notes]
+  - en: Internet Service Protectors
+    pl: Internetowa Straż Porządkowa
+    forms: [internetowa straż porządkowa]
+    source: [old-notes]
+  - en: Old Town
+    pl: Stare Miasto
+    forms: [stare miasto, starego miasta, starym mie]
+    source: [old-notes]
+  - en: District Null
+    pl: Dzielnica Null
+    forms: [dzielnic]
+    source: [old-notes]
+  - en: Pedro's World
+    pl: Świat Pedra
+    forms: [świat]
+    source: [old-notes]
+  - en: The Sewer
+    pl: Kanały
+    forms: [kanał]
+    source: [old-notes]
+  - en: Comb-o-ver
+    pl: Combo na zaczes
+    forms: [combo na zaczes]
+    source: user
+    note: achN4; replaces "Combo na boczek"; don't replace with descriptive "Combo x20".
+  - en: Mumbo Combo
+    pl: Czary-combary
+    forms: [czary-combary]
+    source: user
+    note: achN3; pun kept deliberately from the sample.
+
+# Names, codes, slang, stylized shouts and key names checked in the full review.
+keep_english:
+  [Pedro, Mitch, ISP, LOL, GG, GLHF, Tab, Home, My Friend Pedro,
+   Bob, John, Dave, Rutger, Ayoze, Hunter, Denny, 1337dealWithIT,
+   ISP-23698, ISP-23701, ISP-88172, Mech, Shamona, 'Hahahahaha!', ZOMG,
+   'Lag!', OMFG, 'Aggro!', 'Zerg!', MOB, Caps Lock, Menu, Backspace,
+   Insert, Page Up, Page Down, End, Delete, Scroll Lock, HUD]
+
+settings:
+  dialog_key: '^w\d'
+
+ignore:
+  - check: tokens
+    key: '^inNoMap$'
+    reason: '[Not mapped] is label text, not a command.'
+  - check: consistency
+    key: '^(pep8|pep20|hChW|mChgWep|mKick|bul28)$'
+    reason: The full review confirmed different functions of commands, action names and score messages, and acceptable praise variants.
+  - check: capitals
+    key: '^in23$'
+    reason: Two equal commands "Skocz / Puść", not Title Case carried over from EN.

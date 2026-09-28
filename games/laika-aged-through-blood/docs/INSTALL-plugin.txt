@@ -1,0 +1,45 @@
+LAIKA: AGED THROUGH BLOOD — Not Geese PL 0.1 (WERSJA TESTOWA)
+
+Przetłumaczone są wszystkie teksty gry: menu i ustawienia, samouczki, osiągnięcia,
+wszystkie dialogi (fabuła, zadania poboczne, rozmowy w wiosce, wspomnienia),
+dziennik zadań, przedmioty, przepisy, kasety, nazwy postaci i miejsc.
+
+Paczka NIE PODMIENIA żadnego pliku gry. Polski pojawia się jako osobny język,
+obok angielskiego i pozostałych.
+
+INSTALACJA (przy zamkniętej grze)
+1. Wypakuj całą zawartość archiwum do katalogu gry — tego, w którym leży
+   „Laika Aged through Blood.exe”. W GOG Galaxy: Zarządzaj instalacją >
+   Pokaż folder. W Steamie: Zarządzaj > Przeglądaj pliki lokalne.
+2. Uruchom grę normalnie. Pierwsze uruchomienie trwa dłużej.
+3. Wejdź w Settings > Game > Language, wybierz „POLSKI” (ostatnia pozycja)
+   i zatwierdź. Gra zapamięta wybór.
+
+USUNIĘCIE
+Najpierw przełącz w grze język z powrotem na angielski. Potem skasuj
+z katalogu gry: winhttp.dll, doorstop_config.ini, .doorstop_version,
+BepInEx-LICENSE.txt, READ-ME.txt oraz cały katalog BepInEx.
+Plików gry nie ruszamy, więc nie ma czego przywracać.
+
+WERSJE GRY
+Sprawdzone na wydaniu z GOG 1.0.13 (Unity 2021.3.29, 64-bit). Spolszczenie
+nie jest przypięte do wersji gry — wpina się w system języków po nazwach.
+Nowe kwestie po aktualizacji zostaną po angielsku, a log poda ich liczbę.
+
+JEŚLI COŚ NIE DZIAŁA
+Log leży w BepInEx/LogOutput.log. Powinny w nim być linie „Loaded … entries”,
+„Game language: PL” oraz „Sheet …”. Prześlij ten plik razem ze zrzutem ekranu.
+
+CO JEST W PACZCE
+BepInEx 5.4.23.5 — otwarta dokładka uruchamiająca modyfikacje w grach Unity.
+BepInEx/plugins/notgeeseLaika — nasz plugin i pl.tsv z tekstami.
+
+LICENCJE
+Spolszczenie i plugin: MIT, BepInEx/plugins/notgeeseLaika/LICENSE-notgeese.txt
+BepInEx: LGPL-2.1, BepInEx-LICENSE.txt. Źródła tej wersji leżą obok paczki
+i na https://github.com/BepInEx/BepInEx/releases/tag/v5.4.23.5
+
+AKTUALIZACJA ZE STARSZEJ PACZKI
+Starsze wydania instalowały plugin w folderze BepInEx/plugins/NieGesiLaika
+(poprzednia nazwa projektu). Usuń ten folder przed wypakowaniem nowej paczki.
+Jeśli zostanie, BepInEx uruchomi starą wersję, a nową pominie.

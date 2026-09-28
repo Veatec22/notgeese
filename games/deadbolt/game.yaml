@@ -1,0 +1,24 @@
+slug: deadbolt
+title: DEADBOLT
+version: "0.1"
+entries: { done: 619, total: 619 }
+tested: partial
+engine: GameMaker Studio 1.4 (VM, bytecode 15), x86
+approach: Własny plugin d3d9.dll poprawia dane gry w pamięci przy starcie, zanim silnik je rozbierze — polskie napisy w tabeli STRG, polskie litery dołożone do trzech fontów gry, dialogi dia_*.json tłumaczone do notgeese/cache. Żaden plik gry nie jest podmieniany; bez stałych adresów i sum kontrolnych.
+scope: Pełne — menu główne i pauzy, ustawienia i sterowanie, wybór i opisy misji, podpowiedzi, cele, broń, osiągnięcia, okrzyki wrogów i bossów, wszystkie rozmowy z płomieniami (wiersze), notatki i sejfy, nagrania z kaset, porady po śmierci, napisy końcowe oraz napisy na grafikach (menu główne, samouczek, teczka misji). 619 wpisów; nazwy gangów i imiona w oryginale. Poza zakresem edytor map.
+test_notes: Vertical confirmed in game by the user (2026-09-25). Full translation after the independent language review and verse rewrite, checked with the no-game plugin test and installed locally; full playthrough pending.
+steam_appid: 394970
+stores:
+  steam: https://store.steampowered.com/app/394970/
+build_input:
+  store: steam
+  build_id: "22449372"
+  exe_version: "1.0.0.87"
+  gen8_version: "1.0.0.1749"
+tested_on: []
+download:
+  kind: zip
+  file: Deadbolt-PL-0.1.zip
+  bytes: 210551
+gallery: [1, 2, 3, 4, 5]
+year: 2016

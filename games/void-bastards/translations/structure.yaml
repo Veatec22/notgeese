@@ -1,0 +1,40 @@
+# Void Bastards: groups for the review workspace.
+# Format: docs/workspace.md.
+#
+# Key is the I2 term <category>/<entry>; groups follow the category.
+
+format: 1
+
+groups:
+  - id: menu
+    name: Menu, opcje, profile i interfejs
+  - id: map
+    name: Mapa gwiezdna i wydarzenia
+  - id: ships
+    name: Statki, moduły i cechy statków
+  - id: characters
+    name: Postacie, cechy i NPC
+  - id: items
+    name: Przedmioty, części, ulepszenia i warsztat
+  - id: combat
+    name: Walka, interakcje i hakowanie
+  - id: dialogue
+    name: Dialogi, przerywniki i dziennik
+  - id: hints
+    name: Podpowiedzi, misje i legenda
+  - id: achievements
+    name: Osiągnięcia i wyzwania
+  - id: store
+    name: Opisy sklepu i DLC
+
+rules:
+  - {group: map, match: '^(Star Map|Star Map Event|MapPopup|Map)/'}
+  - {group: ships, match: '^(Ship|Ship Trait|Ship Trait Tooltip|Module Name|Component)/'}
+  - {group: characters, match: '^(Character Trait|Character Trait Tooltip|NPC)/'}
+  - {group: items, match: '^(Part|Upgrade|UpgradeDescription|UpgradeDescriptionAtLevel|ProgressUpgradeDetail|Item|Junk|Workbench|Loadout)/'}
+  - {group: combat, match: '^(Offense|Interact|Hacked|Action)/'}
+  - {group: dialogue, match: '^(Dialog|DemoDialog|CS|Cutscene|Log|Debrief|Campaign Flow)/'}
+  - {group: hints, match: '^(Hint|Mission|Legend|Loading)/'}
+  - {group: achievements, match: '^(Achievement|Challenges)/'}
+  - {group: store, match: '^(desc_|tydy_desc_|seach_key_|DLC/|RichPresence/)'}
+  - {group: menu, match: '.'}

@@ -1,0 +1,63 @@
+BOOMERANG X PL 0.1 - PELNE TLUMACZENIE (latka roznicowa)
+
+359 wpisow tabeli tekstow: menu, ustawienia, sterowanie, samouczki, slowniczek
+mocy, nazwy etapow i wszystkie dialogi Tepana. Tabela gry ma jeden powtorzony
+klucz, wiec 359 wierszy to caly jej tekst.
+
+DLACZEGO LATKA, A NIE GOTOWY PLIK
+Spolszczenie mieszka w pliku z kodem gry - w polu, ktore tabela tekstow juz ma,
+a ktorego gra normalnie nie czyta. Caly ten plik to 1,7 MB cudzego kodu, w ktorym
+nasze sa same napisy, wiec go nie rozpowszechniamy. Druga latka dotyka czcionek
+w resources.assets (836 MB). Obie niosa sama roznice: 14 KB i niecaly 1 KB.
+Reszte sklada sie z plikow, ktore juz masz na dysku. Wynik jest dokladnie taki
+sam, co do bajta.
+
+CO BEDZIE POTRZEBNE
+Nic. Latke naklada Boomerang-X-PL-0.1.exe z tej paczki: jeden maly program, bez
+instalacji, korzysta z .NET Framework wbudowanego w Windows. Kod zrodlowy
+lezy w repozytorium projektu (tools/applier/notgeesePatch.cs).
+
+INSTALACJA (przy zamknietej grze)
+1. Wypakuj cala paczke do katalogu gry - tam, gdzie lezy plik .exe gry.
+2. Uruchom Boomerang-X-PL-0.1.exe dwuklikiem.
+
+   Program naklada obie latki: na BOOMERANG X_Data\Managed\Assembly-CSharp.dll
+   i na BOOMERANG X_Data
+esources.assets. Najpierw sprawdza sumy kontrolne
+   obu plikow i odmawia pracy, jesli gra jest w innej wersji. Przed podmiana
+   odklada oryginaly obok, z dopiskiem ".przed-spolszczeniem" - kopia
+   resources.assets zajmuje okolo 840 MB. Bledny plik nigdy nie powstaje.
+
+   Jesli masz wgrana starsza wersje spolszczenia, program sam ja zaktualizuje
+   z odlozonej kopii oryginalu.
+
+   Jesli wypakujesz paczke gdzie indziej, program zapyta o katalog gry.
+   Windows moze ostrzec przed nieznanym programem ("Wiecej informacji" ->
+   "Uruchom mimo to") - aplikator nie ma podpisu cyfrowego.
+3. Uruchom gre. Options -> Language -> Polski, ostatnia pozycja na liscie.
+
+PRZYWRACANIE
+Uruchom Boomerang-X-PL-0.1.exe jeszcze raz. Gdy zobaczy wgrane spolszczenie, zapyta,
+czy przywrocic oryginal, i wgra odlozone kopie obu plikow.
+Mozna tez zweryfikowac pliki gry w GOG Galaxy albo w Steamie.
+
+JAK TO DZIALA
+Gra ma dziesiec jezykow i nie ma miejsca na jedenasty - ksztalt tabeli tekstow
+jest ustalony w kodzie. Polski wprowadza sie wiec do pola, ktore tabela juz ma
+i ktorego nikt nie czyta: notatki tworcow przy kazdym wierszu. Trzy drobne
+poprawki w kodzie kaza grze po nie siegac, a jedna z nich kaze uzyc krojow
+angielskich. Plik z kodem nie zmienia przy tym rozmiaru ani o bajt.
+
+CZCIONKI
+Polski korzysta z tych samych krojow co angielski. Maja one tylko "o" i "l"
+z ogonkami, wiec kazdy dostaje w resources.assets zapasowy kroj "beer money",
+jedyny w grze z kompletem polskich liter. Zapasowy kroj dziala tylko dla
+brakujacych znakow, wiec w innych jezykach nic sie nie zmienia.
+
+ZGODNOSC
+Zbudowane na wydaniu GOG, Unity 2020.1.17f1. Latka jest przypieta do tej wersji
+pliku - po aktualizacji gry przestanie pasowac i trzeba ja przebudowac. Aplikator
+powie o tym wprost, zamiast cokolwiek nadpisac.
+
+LICENCJA
+Spolszczenie: MIT. Latka zawiera wylacznie roznice wobec oryginalnego pliku gry.

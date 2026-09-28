@@ -1,0 +1,32 @@
+# Boomerang X: groups for the review workspace.
+# Format: docs/workspace.md.
+
+format: 1
+
+groups:
+  - id: menu
+    name: Menu, zapis i tabele wyników
+  - id: options
+    name: Opcje
+  - id: controls
+    name: Sterowanie
+  - id: tutorial
+    name: Samouczek i moce
+  - id: world
+    name: Obszary, rozdziały i przerywniki
+  - id: millipede
+    name: Stonoga (walka z bossem)
+  - id: endless
+    name: Tryb bez końca i fale
+  - id: credits
+    name: Napisy końcowe i słowniczek
+
+rules:
+  - {group: options, match: '^(options|language|tuning|realtime|simultaneous|allow|shield|shields)_'}
+  - {group: controls, match: '^(controls|keyboard|recalibrate)_'}
+  - {group: tutorial, match: '^(tutorial|air|airstomp|chain|comet|recall|shotgun|sniper|teleport|timeslow|boomerang|kill|killstreak)_'}
+  - {group: world, match: '^(level|inbetween|chapter|ngplus)_'}
+  - {group: millipede, match: '^millipede_'}
+  - {group: endless, match: '^(endless|wave)_'}
+  - {group: credits, match: '^(credits|composers|glossary)_'}
+  - {group: menu, match: '.'}

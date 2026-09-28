@@ -1,0 +1,49 @@
+# Rain World: groups for the review workspace.
+# Format: docs/workspace.md.
+#
+# str:<strings.txt key> is grouped by context: the code class using the text
+# (tools/extract.py + review.py) or the DLC it comes from. Texts with no code location found
+# (creature names, passages, some menus) form a separate group.
+# dlg:<file>#<line> are the game's conversation files, file by file, line by line.
+# No sequences yet: files store no speakers, and most are monologues.
+
+format: 1
+
+groups:
+  - id: menu
+    name: Menu, opcje i mody
+  - id: game
+    name: Rozgrywka, samouczki i przejścia
+  - id: oracles-code
+    name: Iteratory — kwestie z kodu gry
+  - id: conversations
+    name: Rozmowy iteratorów i odczyty pereł
+  - id: broadcasts
+    name: Transmisje i czatlogi (More Slugcats)
+  - id: commentary
+    name: Komentarz twórców (More Slugcats)
+  - id: moreslugcats
+    name: More Slugcats i Remix
+  - id: expedition
+    name: Ekspedycje
+  - id: jolly
+    name: Tryb kooperacji (Jolly Co-op)
+  - id: watcher
+    name: The Watcher
+  - id: other
+    name: Napisy bez miejsca w kodzie (nazwy, przejścia, różne)
+
+rules:
+  # Pliki rozmów.
+  - {group: commentary, match: '^dlg:[a-z]{2}_[^#]*-(white|artificer|inv|saint|rivulet|spear|gourmand)\.txt#'}
+  - {group: broadcasts, match: '^dlg:(lp_|chatlog_)'}
+  - {group: conversations, match: '^dlg:'}
+  # Napisy po klasie kodu albo dodatku.
+  - {group: oracles-code, match: '^str:', context: 'Oracle'}
+  - {group: expedition, match: '^str:', context: 'Expedition|dodatek: expedition'}
+  - {group: jolly, match: '^str:', context: 'JollyCoop|dodatek: jollycoop'}
+  - {group: watcher, match: '^str:', context: 'Watcher|dodatek: watcher'}
+  - {group: menu, match: '^str:', context: '^w kodzie: (Menu\.|Options|RainWorldSteamManager|ProcessManager|ModManager|SteamWorkshopUploader|DevInterface|RegionSelectMenu|MoreSlugcats\.MMFOptionInterface)'}
+  - {group: moreslugcats, match: '^str:', context: 'MoreSlugcats|dodatek: (moreslugcats|rwremix)'}
+  - {group: game, match: '^str:', context: '^w kodzie: '}
+  - {group: other, match: '^str:'}

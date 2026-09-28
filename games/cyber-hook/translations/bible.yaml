@@ -1,0 +1,148 @@
+sources:
+  - id: files
+    description: DialogLine.Speaker in bundles dialogs/*, story/*, dlc_01/*; who says each line
+  - id: ru
+    description: Russian table of the game; past-tense gender ("Уверен", "ты смог", "Ты вернулся")
+  - id: es-pt
+    description: Spanish and Portuguese tables ("Estoy seguro", "o Dron", "hombre araña")
+  - id: fr
+    description: French table (the developers are French); Dron feminine ("je suis sûre", "contente")
+  - id: reviews
+    description: Reviews and descriptions online call Dron "he"
+  - id: en
+    description: English original; "spider boi", "the perfect runner"
+
+characters:
+  - id: dron
+    name: Dron
+    gender: m
+    addresses_player: ty
+    register: cheerful chatty guide, light jokes, breaks the fourth wall; in the ending confesses he made the levels, Numero and the player
+    declension: Dron, Drona, Dronowi ("Gang Drona")
+    source: [files, ru, es-pt, reviews]
+    note: French makes Dron a woman; three other tables and reviews make him a man. Masculine adopted.
+  - id: numero
+    name: Numero
+    gender: m
+    addresses_player: 'ty (both at once: wy)'
+    register: hostile, yells, caps, cut-off swearing
+    declension: indeclinable in text (always inside a color tag), "dla Numero"
+    source: [files, en]
+  - id: world
+    name: system (intro terminal)
+    gender: n
+    register: machine messages, impersonal ("Wykryto…", "Nie znaleziono")
+    source: [files]
+  - id: player
+    name: biegacz
+    gender: m
+    note: Original and translations treat the player as male ("spider boi", "Tu es revenu"). Impersonal forms where easy ("udało ci się", "jesteś z powrotem"); masculine only for a reference ("w końcu się obudziłeś", Skyrim).
+    source: [en, ru, fr, es-pt]
+
+terms:
+  - en: runner
+    pl: biegacz
+    forms: [biegacz]
+    source: decision
+    note: What Numero and Dron call the player; untranslated "runner" would be jargon.
+  - en: hook
+    pl: hak
+    forms: [hak, haki, haczy]
+    source: decision
+    note: Game and gadget name CYBER HOOK stays; the item itself is a hook (Kapitan Hak level name).
+  - en: crystal
+    pl: kryształ
+    forms: [kryształ, kryształk]
+    source: decision
+  - en: level
+    pl: poziom
+    forms: [poziom]
+    source: decision
+  - en: world
+    pl: świat
+    forms: [świat, świeci]
+    source: decision
+  - en: replay
+    pl: powtórka
+    forms: [powtór]
+    source: decision
+  - en: leaderboard
+    pl: ranking
+    forms: [ranking]
+    source: decision
+    note: As in Polish Steam.
+  - en: personal best
+    pl: rekord (osobisty)
+    forms: [rekord]
+    source: decision
+  - en: timewarp
+    pl: spowolnienie (czasu)
+    forms: [spowoln, spowalni]
+    source: decision
+    note: The mechanic slows time; "zaginanie czasu" only in Dron's shout (BEND TIME).
+  - en: marathon mode
+    pl: tryb maratonu
+    forms: [maraton]
+    source: decision
+  - en: green cubes
+    pl: zielone sześciany
+    forms: [sześcian]
+    source: decision
+  - en: probe
+    pl: sonda
+    forms: [sond]
+    source: fr
+  - en: portal
+    pl: portal
+    forms: [portal]
+    source: decision
+
+keep_english:
+  - Numero
+  - NUMERO
+  - Dron
+  - CYBER HOOK
+  - Cyber Hook
+  - CyberHook
+  - Cyberhook
+  - Speedrun
+  - Discord
+  - Steam
+  - Twitter
+  - MLG
+  - V-Sync
+  - FPS
+  - Speedy Luke
+  - Big Bank
+  - PropulZone
+  - Zartan
+  - Fazer
+  - Koma
+  - Apura
+  - Klonk
+  - Neo
+  - Rabator
+  - Xitra
+  - Rotato
+  - Lerap
+  - Parangon
+  - Eazywi
+  - Shifter Pro
+  - Tobledrone
+  - Metropolis X
+  - Ring Ring
+  - Castle Trashers
+  - Beagle
+  - cORE
+  - Korridor
+  - Three 6
+  - Converger
+  - Slipgate
+  - Skorpion
+  - JCVD
+  - La Grange
+  - Polygon
+
+settings:
+  dialog_key: '^(PAX_Line|interworld|dialog_)'
+  max_line: 60

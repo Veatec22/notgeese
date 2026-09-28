@@ -1,0 +1,54 @@
+DEADBOLT PL 0.1 — WERSJA TESTOWA PEŁNEGO SPOLSZCZENIA
+
+Po polsku jest cała gra: menu główne i pauzy, ustawienia i sterowanie, wybór
+misji i ich opisy, podpowiedzi, cele, broń i jej opisy, osiągnięcia, okrzyki
+wrogów i bossów, wszystkie rozmowy z płomieniami, notatki i sejfy, nagrania
+z kaset, porady po śmierci, napisy końcowe oraz napisy narysowane na grafikach
+(przyciski menu głównego, samouczek, przycisk "Wstecz" i teczka misji).
+
+Nazwy gangów (Zombie Kingz, 1000 Year Royals, The Dredged) i imiona postaci
+zostają w oryginale. Fonty gry nie mają polskich cudzysłowów ani półpauzy,
+dlatego w tekstach stoją proste " i -.
+
+INSTALACJA
+1. Zamknij grę.
+2. W Steamie wybierz DEADBOLT > Zarządzaj > Przeglądaj pliki lokalne.
+3. Wypakuj zawartość ZIP obok deadbolt_game.exe: plik d3d9.dll oraz folder
+   notgeese. Nie wkładaj całego folderu paczki jako dodatkowego podkatalogu.
+4. Uruchom grę normalnie ze Steama. Spolszczenie działa samo.
+
+Plugin nie zmienia żadnego pliku gry. Poprawia dane gry w pamięci przy starcie
+(polskie litery w fontach, polskie napisy i grafiki), a polskie dialogi zapisuje
+do notgeese/cache. Jeżeli masz już d3d9.dll od innego moda, zachowaj jego kopię
+i wyłącz tamten mod — dwa pliki proxy o tej nazwie nie działają razem.
+
+JEŚLI COŚ NIE DZIAŁA
+Gdy plugin czegoś nie rozpozna, dana część zostaje po angielsku, a powód trafia
+do notgeese/LogOutput.log. Zachowaj ten plik — pokazuje wersję gry, liczbę
+wczytanych tłumaczeń i wynik każdego kroku.
+
+USUNIĘCIE
+Przy zamkniętej grze usuń d3d9.dll i folder notgeese. Pliki gry nie były
+zmieniane, zapisy działają dalej bez zmian.
+
+ZGODNOŚĆ
+Przygotowano na Steam (build 22449372, deadbolt_game.exe 1.0.0.87, dane 1.0.0.1749).
+Plugin nie wymaga konkretnej wersji: szuka danych gry po ich budowie, nie po
+adresach, a teksty dopasowuje po angielskim oryginale. Napis na grafice rysuje
+tylko wtedy, gdy grafika wygląda jak ta, dla której go przygotowano.
+
+ZAWARTOŚĆ I LICENCJE
+d3d9.dll — własny plugin Not Geese, zawiera MinHook 1.3.4 (licencja BSD).
+notgeese/pl.tsv — polskie teksty i oryginały służące dopasowaniu.
+notgeese/fonts.txt — przepis na polskie litery: która litera gry jest bazą
+  i gdzie dorysować kreskę, kropkę, ogonek lub przekreślenie.
+notgeese/labels.txt — polskie napisy na grafikach jako maski pikseli
+  i opis, które piksele starego napisu zamalować.
+notgeese/LICENSE-MINHOOK.txt — licencja MinHook.
+READ-ME.txt — ta instrukcja.
+Źródła MinHook: https://github.com/TsudaKageyu/minhook/tree/v1.3.4
+Paczka nie zawiera plików wykonywalnych ani zasobów wydawcy gry.
+
+AKTUALIZACJA ZE STARSZEJ PACZKI
+Starsze wydania trzymały pliki spolszczenia w folderze NieGesi (poprzednia
+nazwa projektu). Nowa wersja już go nie używa, więc możesz go usunąć.

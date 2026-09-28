@@ -1,0 +1,251 @@
+# Rain World bible: facts with sources.
+
+sources:
+  - id: wiki-pl
+    description: Polish version of the official wiki (Miraheze), community-translated; incomplete and inconsistent (Survivor as both "Przetrwaniec" and "Ocalały").
+    url: https://rainworld.miraheze.org/wiki/Creatures/pl
+  - id: wiki-pl-outskirts
+    description: Outskirts region page on the Polish wiki (Obrzeża, Mnich, Włócznik).
+    url: https://rainworld.miraheze.org/wiki/Outskirts/pl
+  - id: code
+    description: Context from work/en.json, the game classes where a text sits in code (tools/StrMap.cs).
+  - id: ru
+    description: The game's Russian table (work/ref-rus.json), past-tense gender, names and abbreviations.
+  - id: mechanics
+    description: Findings from the game code, in docs/technical.md.
+
+characters:
+  - id: player
+    name: ślimakot gracza
+    gender: m
+    addresses_player: ty
+    register: hints and descriptions address the player in 2nd person, briefly
+    source: [code, decision]
+    note: >-
+      English doesn't give slugcats a gender; "ślimakot" is masculine, so forms about the player
+      ("jesteś głodny", "wróciłeś") follow the noun. Iterators call it "it": where it's
+      "stworzenie", neuter ("jest zbyt głupie").
+  - id: moon
+    name: Patrząca na Księżyc (przezwisko Luna)
+    gender: f
+    key: 'SLOracleBehavior|MoonConversation'
+    addresses_player: ty; to the player "mały stworku", "przyjacielu", "mały archeologu"
+    register: warm, tired, polite; broken sentences after damage
+    source: [ru]
+    note: RU "Смотрящая-на-Луну", "я устала", "я говорила"
+  - id: pebbles
+    name: Pięć Kamyków (przezwisko Kamyk)
+    gender: m
+    key: 'SSOracleBehavior|PebblesConversation|CLOracleBehavior|SSOracleRotBehavior'
+    addresses_player: ty; "mały stworku"
+    register: cold, haughty, sarcastic; subdued in the Saint campaign
+    source: [ru]
+    note: >-
+      In Downpour the same class (SSOracleBehavior, SSSleepoverBehavior) also speaks for
+      pre-collapse Moon in the Spearmaster campaign; gender set line by line from RU
+      ("я думала", "я рада" = Moon; "я занят", "побыть один" = Pebbles).
+  - id: spinning-top
+    name: Bąk (Spinning Top)
+    gender: m
+    addresses_player: ty; about the player in 3rd person neuter ("jest zbyt głupie")
+    register: mocking, childish, exclamations "OA!"
+    source: [ru]
+    note: >-
+      RU often avoids gendered forms ("мне хотелось"), but dialogue 209 has "Я провёл":
+      masculine; also agrees with the noun "bąk".
+  - id: prince
+    name: Książę (Prince, Watcher)
+    gender: m
+    register: exalted, courtly ("Albowiem zostaniesz wywyższony")
+    source: [decision]
+  - id: chatlog-iterators
+    name: iteratory o nieustalonej płci (GW, HR, UU, WO, EOC, PG, SI, PI, Niezrównana Niewinność)
+    gender: '?'
+    register: gossipy chat of iterator groups
+    source: [ru]
+    note: >-
+      RU consistently avoids gender in their lines; so do we ("doszły mnie", "nie wypada mi").
+      Male per RU: SCS, BZN, NGI; female: SSL, Luna, Drzazga Słomy.
+  - id: ancient-documents
+    name: listy i zwoje starożytnych (perły 42, 237, 238)
+    gender: '?'
+    source: [decision]
+    note: >-
+      Genderless unless the text says: in 238 the author writes "Nine-Leaf, when he comes"
+      (Ea-nasir complaint parody), so masculine there.
+  - id: developers
+    name: twórcy More Slugcats w komentarzu (Andrew, Will, Dakras, Norgad, Screams, Cappin, Slugitar i in.)
+    gender: '?'
+    addresses_player: ty / wy
+    register: loose, enthusiastic, jokes about making the game
+    source: decision
+    note: >-
+      Real people; no gender inferred from names or nicknames. First person without gendered
+      forms ("udało mi się", "moim zamiarem było", passive). Other developers in 3rd person only as
+      the original says ("he" Cappin, "they" Minkimaro/Ender → genderless). Game characters are
+      masculine nouns (Pirotechnik, Strumyk) and forms agree with them, unless a developer stresses
+      gender: then "ta postać", "ona" (Artificer: Andrew says "she", "her children").
+
+terms:
+  # Slugcats
+  - {en: slugcat, pl: ślimakot, forms: [ślimakot], source: [wiki-pl]}
+  - {en: slugpup, pl: ślimakocię, forms: [ślimakoci], source: decision, note: in Jolly Co-op "pup" is "maluch"}
+  - en: Survivor
+    pl: Ocalały
+    forms: [ocalał]
+    source: [wiki-pl, ru]
+    note: >-
+      Wiki has both "Przetrwaniec" and "Ocalały"; RU "Выживший". The vertical had
+      "Przetrwaniec"; changed in the full translation to the more natural "Ocalały".
+  - {en: Monk, pl: Mnich, forms: [mnich], source: [wiki-pl]}
+  - {en: Hunter, pl: Łowca, forms: [łowc], source: [wiki-pl]}
+  - {en: Gourmand, pl: Smakosz, forms: [smakosz], source: decision, note: "indulger of the simpler pleasures"}
+  - en: Artificer
+    pl: Pirotechnik
+    forms: [pirotechni]
+    source: decision
+    note: >-
+      "master of pyrotechnics and explosives"; wiki "Artyficer", RU "Техник" (masculine noun as a
+      name). In commentary Andrew says "she" and "her children"; the name stays and pronouns in those
+      lines go via "ta postać"/"jej". "Pirotechniczka" rejected; the user accepted "Pirotechnik"
+      2026-09-24.
+  - {en: Rivulet, pl: Strumyk, forms: [strumyk], source: [wiki-pl]}
+  - {en: Spearmaster, pl: Włócznik, forms: [włóczni], source: [wiki-pl-outskirts]}
+  - {en: Saint, pl: Święty, forms: [święt], source: [ru]}
+  - {en: Watcher, pl: Obserwator, forms: [obserwator], source: [wiki-pl], note: DLC name "The Watcher" stays English}
+  # Iterators (chatlog abbreviation = speaker code; the game colors lines by the translated code)
+  - {en: Looks to the Moon, pl: Patrząca na Księżyc, forms: [patrząc], source: [ru], note: wiki "Patrzy na Księżyc"; participle form like RU "Смотрящая-на-Луну"}
+  - {en: Moon (nickname), pl: Luna, forms: [lun], source: [ru], note: feminine noun for a female character, like RU "Луна"}
+  - {en: Big Sis Moon (BSM), pl: Starsza Siostra Luna (SSL), forms: [starsz], source: [ru]}
+  - {en: Five Pebbles (FP), pl: Pięć Kamyków (PK), forms: [kamyk], source: [wiki-pl, ru]}
+  - {en: Pebbles (nickname), pl: Kamyk, forms: [kamyk], source: decision}
+  - {en: Seven Red Suns (SRS), pl: Siedem Czerwonych Słońc (SCS), forms: [słońc], source: [ru]}
+  - {en: No Significant Harassment (NSH), pl: Brak Znaczącego Nękania (BZN), forms: [nękani], source: decision, note: RU "Нет Значимых Забот"}
+  - {en: Chasing Wind (CW), pl: Goniący Wiatr (GW), forms: [goniąc], source: [ru]}
+  - {en: Erratic Pulse (EP), pl: Nieregularny Puls (NP), forms: [puls], source: [ru]}
+  - {en: Gazing Stars (GS), pl: Patrzący w Gwiazdy (PG), forms: [gwiazd], source: [ru]}
+  - {en: Secluded Instinct (SI), pl: Samotniczy Instynkt (SI), forms: [instynkt], source: [ru]}
+  - {en: Wandering Omen (WO), pl: Wędrowny Omen (WO), forms: [omen], source: [ru]}
+  - {en: Pleading Intellect (PI), pl: Proszący Intelekt (PI), forms: [intelekt], source: [ru]}
+  - {en: Unparalleled Innocence, pl: Niezrównana Niewinność, forms: [niewinnoś], source: [ru]}
+  - {en: Sliver of Straw, pl: Drzazga Słomy, forms: [drzazg, drzazdz], source: decision, note: female ("She's quite legendary"); a feminine noun fits; sliverists → drzazgiści}
+  - en: iterator
+    pl: iterator
+    forms: [iterator]
+    source: [ru, user]
+    rejected: Przeliczacz (wiki-pl); user 2026-09-24 "idziemy w iterator"
+    note: >-
+      Wiki-pl has "Przeliczacz", inconsistently; RU keeps "итератор". The term is known in the
+      community and sounds like a species name, not a description. Pearl 20 rests on a pun
+      ("iterujemy… dlatego nazwali nas Iteratorami") that "Przeliczacz" would kill (review).
+  # World
+  - {en: shelter, pl: schronienie, forms: [schroni], source: [wiki-pl]}
+  - {en: hibernate, pl: hibernować / hibernacja, forms: [hibern], source: [wiki-pl]}
+  - {en: cycle, pl: cykl, forms: [cykl], source: [wiki-pl]}
+  - {en: karma, pl: karma, forms: [karm], source: [wiki-pl]}
+  - {en: Karma Flower, pl: Kwiat karmy, forms: [kwiat karmy, kwiatu karmy], source: [ru]}
+  - {en: overseer, pl: nadzorca, forms: [nadzorc], source: [wiki-pl]}
+  - {en: passage, pl: przeprawa, forms: [przepraw], source: decision, note: RU "переход"; "przejście" would clash with room passages}
+  - {en: echo, pl: Echo, forms: [ech], source: [wiki-pl]}
+  - {en: pearl, pl: perła, forms: [perł, pereł, perel, perl], source: [wiki-pl]}
+  - {en: neuron, pl: neuron, forms: [neuron], source: [ru]}
+  - {en: Scavenger, pl: zbieracz, forms: [zbieracz], source: decision, note: they collect and trade items; wiki "Grabiarze", RU "Мусорщик"}
+  - {en: shortcut / pipe, pl: tunel / rura, forms: [tunel, rur], source: decision}
+  - {en: Expedition, pl: Wyprawa, forms: [wypraw], source: decision}
+  - {en: perk / burden, pl: atut / brzemię, forms: [atut, brzemi], source: decision}
+  - {en: challenge, pl: wyzwanie, forms: [wyzwa], source: [ru]}
+  - {en: Ripple (Watcher), pl: fala, forms: [fal], source: decision, note: RU "рябь"}
+  - {en: warp (Watcher), pl: przeniesienie, forms: [przenie], source: decision}
+  - {en: ascension (Saint), pl: wzniesienie, forms: [wznie], source: decision}
+  - {en: Story (menu), pl: Fabuła, forms: [fabuł], source: decision}
+  - {en: save slot, pl: zapis / slot zapisu, forms: [zapis], source: decision}
+  # Creatures (selection; full list in en-pl-review.json under creaturetype-*)
+  - {en: Lizard, pl: jaszczur, forms: [jaszczur], source: [ru], note: a big predator; "jaszczurka" would be too small}
+  - {en: Vulture, pl: sęp, forms: [sęp, sęp], source: [ru]}
+  - {en: Centipede / Centiwing / Aquapede, pl: skolopendra / skrzydłopendra / wodopendra, forms: [pendr], source: [ru, decision]}
+  - {en: Batfly / Batnip, pl: muchoperz / muchomiętka, forms: [muchoperz, muchomięt], source: decision, note: bat+fly pun, catnip→kocimiętka}
+  - {en: Noodlefly, pl: kluskomucha, forms: [kluskomuch], source: decision, note: RU "лапшемуха"}
+  - {en: Squidcada, pl: kałamarcykada, forms: [kałamarcykad], source: decision}
+  - {en: Dropwig, pl: spadoskorek, forms: [spadoskor], source: decision, note: earwig = skorek}
+  - {en: Rain Deer, pl: deszczojeleń, forms: [deszczojel], source: [ru]}
+  - {en: Daddy / Brother / Mother Long Legs, pl: Tatko / Brat / Mama Długonogi(a), forms: [długonog], source: [ru]}
+  - {en: Spore Puff / Puff Ball, pl: purchawka, forms: [purchaw], source: [ru], note: RU "гриб-дождевик"}
+  - {en: Pole Plant / Pole Mimic, pl: tyczkowiec, forms: [tyczkow], source: decision}
+  - {en: Slime Mold, pl: śluzowiec, forms: [śluzow], source: [ru]}
+  - {en: Flashbang / Flare Bomb, pl: bomba świetlna, forms: [świetln], source: decision}
+  # Regions (base game)
+  - {en: Outskirts, pl: Obrzeża, forms: [obrzeż], source: [wiki-pl-outskirts]}
+  - {en: Industrial Complex, pl: Kompleks Przemysłowy, forms: [kompleks], source: [ru]}
+  - {en: Drainage System, pl: System Odwadniający, forms: [odwadniaj], source: decision}
+  - {en: Garbage Wastes, pl: Śmieciowe Pustkowie, forms: [śmieciow], source: decision}
+  - {en: Shaded Citadel, pl: Cienista Cytadela, forms: [cytadel], source: [ru]}
+  - {en: Chimney Canopy, pl: Korony Kominów, forms: [kominów], source: decision}
+  - {en: Sky Islands, pl: Podniebne Wyspy, forms: [podniebn], source: decision}
+  - {en: Farm Arrays, pl: Szeregi Farm, forms: [szeregi farm, szeregach farm, szeregów farm], source: decision}
+  - {en: Subterranean, pl: Podziemia, forms: [podziem], source: [ru]}
+  - {en: The Exterior, pl: Poszycie, forms: [poszyci], source: decision, note: outer shell of Five Pebbles' superstructure; RU "Корпус"}
+  - {en: Shoreline, pl: Wybrzeże, forms: [wybrzeż], source: [ru]}
+  - {en: Memory Crypts, pl: Krypty Pamięci, forms: [krypt], source: [ru]}
+  - {en: Undergrowth, pl: Podszyt, forms: [podszyt], source: decision}
+  - {en: Outer Expanse, pl: Zewnętrzne Rubieże, forms: [rubież], source: decision}
+  - {en: Rot, pl: Zgnilizna, forms: [zgnili], source: [ru]}
+  - {en: Pipeyard, pl: Rurowisko, forms: [rurowisk], source: decision}
+  - {en: Metropolis, pl: Metropolia, forms: [metropoli], source: [ru]}
+  - {en: Waterfront Facility, pl: Nabrzeżna Placówka, forms: [nabrzeżn], source: decision}
+  - {en: Submerged Superstructure, pl: Zatopiona Nadbudowa, forms: [zatopion], source: decision}
+  - {en: Precipice, pl: Urwisko, forms: [urwisk], source: decision}
+  - {en: Rubicon, pl: Rubikon, forms: [rubikon], source: [ru]}
+  - {en: Silent Construct, pl: Milcząca Konstrukcja, forms: [milcząc], source: decision}
+  - {en: Sunken Pier, pl: Zatopione Molo, forms: [zatopione molo, zatopionego mola, zatopionym molo], source: decision}
+  - {en: The Gutter, pl: Rynsztok, forms: [rynsztok], source: decision}
+  - {en: Bitter Aerie, pl: Gorzkie Gniazdo, forms: [gorzk], source: decision}
+  - {en: Void Fluid, pl: Płyn Pustki, forms: [płyn], source: [ru]}
+  - {en: The Mark (of Communication), pl: Znak, forms: [znak], source: decision}
+  - {en: Joke Rifle, pl: żartostrzelba, forms: [żartostrzelb], source: decision, note: the developers' April Fools' joke}
+  - {en: Bell of Gesture, pl: Dzwon Gestu, forms: [dzwon], source: decision, note: in the live broadcast the speaker is "Dzwon:", Host → "Prowadzący:"}
+  - {en: Five Pebbsi, pl: Pięć Kamyksi, forms: [kamyksi], source: decision, note: drink brand from an ad (Pepsi pun); the ad image stays English}
+  - {en: Luna (city), pl: Luna, forms: [lun], source: [ru], note: the city name matches Moon's nickname, as in RU; where both meet, "miasto Luna"}
+  - {en: Void Sea, pl: Morze Pustki, forms: [morze pustki, morza pustki, morzu pustki, morzem pustki], source: [ru]}
+
+keep_english:
+  - Rain World
+  - Downpour
+  - The Watcher
+  - REMIX
+  - Remix
+  - Jolly Co-op
+  - JOLLY CO-OP
+  - More Slugcats
+  - Akupara Games
+  - OptionInterface
+  - FPS
+  - Esc
+  - Shift
+  - R1
+  - RB
+  - DUALSHOCK
+  - Xbox
+  - PlayStation
+  - Inv
+  - EOC
+  - NGI
+  - HF
+  - HR
+  - UU
+
+settings:
+  dialog_key: '^dlg:'
+
+ignore:
+  - check: terms
+    key: '^dlg:lm_tower09-white\.txt#'
+    reason: Andrew expands English region abbreviations; names stay English since they explain the abbreviations
+  - check: terms
+    key: '^(str:The passage of time|dlg:126\.txt#9|dlg:sh_e04riv-white\.txt#5)'
+    reason: time passing ("passage of time"), not a passage
+  - check: typography
+    key: '^dlg:(138|139)\.txt#'
+    reason: '" : -30" is a game instruction that hides the line (as in EN)'
+  - check: terms
+    key: '^str:(watcher-name|watcher-description)$'
+    reason: DLC name The Watcher stays English

@@ -1,0 +1,45 @@
+I AM YOUR BEAST — Not Geese PL 0.1 (PEŁNE TŁUMACZENIE, WERSJA TESTOWA)
+
+Przetłumaczone są wszystkie teksty gry: menu i ustawienia, wybór poziomu
+i wyniki, HUD i podpowiedzi, samouczek, wszystkie przerywniki fabularne
+(Harding, Burkin, Byron), okrzyki i radio wrogów, dodatki „Grupa wsparcia”
+i „Zimny pot”, poziomy z wyzwaniami oraz napisy końcowe (funkcje; nazwiska
+i nazwy studiów bez zmian).
+
+Paczka NIE PODMIENIA żadnego pliku gry. Teksty są podmieniane w pamięci
+podczas działania gry.
+
+INSTALACJA (przy zamkniętej grze)
+1. Wypakuj całą zawartość archiwum do katalogu gry — tego, w którym leży
+   „I Am Your Beast.exe”. W GOG Galaxy: Zarządzaj instalacją > Pokaż folder.
+   W Steamie: Zarządzaj > Przeglądaj pliki lokalne.
+2. Uruchom grę normalnie. Pierwsze uruchomienie trwa dłużej.
+
+USUNIĘCIE
+Skasuj z katalogu gry: winhttp.dll, doorstop_config.ini, .doorstop_version,
+BepInEx-LICENSE.txt, READ-ME.txt oraz cały katalog BepInEx.
+Plików gry nie ruszamy, więc nie ma czego przywracać.
+
+WERSJE GRY
+Sprawdzane na wydaniu z GOG (Unity 2022.3.5, 64-bit). Spolszczenie nie jest
+przypięte do wersji gry — wpina się w kod po nazwach. Teksty, które po
+aktualizacji się zmienią, zostaną po angielsku, a log poda ich liczbę.
+
+JEŚLI COŚ NIE DZIAŁA
+Log leży w BepInEx/LogOutput.log. Powinny w nim być linie „Loaded … Fleece
+entries”, „Swapped … texts” i sprawdzenie fontów. Prześlij ten plik razem
+ze zrzutem ekranu.
+
+CO JEST W PACZCE
+BepInEx 5.4.23.5 — otwarta dokładka uruchamiająca modyfikacje w grach Unity.
+BepInEx/plugins/notgeeseIAmYourBeast — nasz plugin i pl.tsv z tekstami.
+
+LICENCJE
+Spolszczenie i plugin: MIT, BepInEx/plugins/notgeeseIAmYourBeast/LICENSE-notgeese.txt
+BepInEx: LGPL-2.1, BepInEx-LICENSE.txt. Źródła tej wersji leżą obok paczki
+i na https://github.com/BepInEx/BepInEx/releases/tag/v5.4.23.5
+
+AKTUALIZACJA ZE STARSZEJ PACZKI
+Starsze wydania instalowały plugin w folderze BepInEx/plugins/NieGesiIAmYourBeast
+(poprzednia nazwa projektu). Usuń ten folder przed wypakowaniem nowej paczki.
+Jeśli zostanie, BepInEx uruchomi starą wersję, a nową pominie.

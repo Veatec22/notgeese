@@ -1,0 +1,18 @@
+{
+  "Alright,  ": "Alright,",
+  "By now you should have the hang of it. ": "By now you should have the hang of it.",
+  "If you feel like you need more training, feel free to train here. ": "If you feel like you need more training, feel free to train here.",
+  "I'm sure you'll enjoy swinging around.": "I'm sure you'll enjoy swinging around.",
+  "Oh one last thing before you go! ": "Oh one last thing before you go!",
+  "I guess that you must be wondering what is going on here... ": "I guess that you must be wondering what is going on here...",
+  "But, really, the only thing you need to know is that you have to gather thoses little crystals. ": "But, really, the only thing you need to know is that you have to gather thoses little crystals.",
+  "I know it sounds suspicious, but bear with me for a second. ": "I know it sounds suspicious, but bear with me for a second.",
+  "They will help power up this portal and you'll be able to return home. ": "They will help power up this portal and you'll be able to return home.",
+  "My job is to help people trapped here to escape. ": "My job is to help people trapped here to escape.",
+  "And don't worry about me, I kinda asked for this fate. ": "And don't worry about me, I kinda asked for this fate.",
+  "Ah, hum, yes the real last thing this time. ": "Ah, hum, yes the real last thing this time.",
+  "If you want to proceed, go ahead and shoot this crystal<link=\"EventTrigger(LookAtCrystal)\"></link> right here. ": "If you want to proceed, go ahead and shoot this crystal<link=\"EventTrigger(LookAtCrystal)\"></link> right here.",
+  "You'll be able to select a level to play. ": "You'll be able to select a level to play.",
+  "The more levels you clear, the more crystals and the more worlds you'll unlock. ": "The more levels you clear, the more crystals and the more worlds you'll unlock.",
+  "Now go get 'em champ! ": "Now go get 'em champ!"
+}

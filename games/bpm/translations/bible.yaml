@@ -1,0 +1,86 @@
+sources:
+  - id: game
+    description: The game's Game.locres (en) and other-language tables of the same game (de, fr, ru, es, it, pt) in work/ref-all.json.
+  - id: hades
+    description: Official Polish release of Hades (Supergiant); "Zryw" for dash.
+  - id: overwatch
+    description: Official Polish release of Overwatch; "superumiejętność" for ultimate.
+
+characters:
+  - id: player
+    name: gracz (walkiria)
+    gender: '?'
+    addresses_player: ty
+    register: short imperative commands, no personal past-tense forms
+    source: [game]
+    note: >
+      Playable characters have different genders (GÖLL, SKULD female per ru/fr; FREYR, NJORD male).
+      So no "zabity/zabita": "killed by" = "zabójca:" as in ru ("убийца").
+
+terms:
+  - en: dash
+    pl: zryw
+    source: hades
+  - en: dodge
+    pl: unik
+    source: decision
+    note: In game dash and dodge are the same move; hints keep the original's distinction.
+  - en: ultimate (ability)
+    pl: superumiejętność
+    source: overwatch
+  - en: secondary ability
+    pl: umiejętność dodatkowa
+    source: decision
+  - en: mobility ability
+    pl: umiejętność ruchu
+    source: decision
+  - en: run (roguelike)
+    pl: podejście
+    source: decision
+    note: '"New Run" = "Nowe podejście"; ru "забег".'
+  - en: streak / note streak
+    pl: seria / seria nut
+    source: decision
+  - en: juke
+    pl: zwód
+    source: decision
+  - en: armoury
+    pl: zbrojownia
+    source: decision
+  - en: the dish
+    pl: misa
+    source: decision
+    note: de "Schale".
+  - en: blessing
+    pl: błogosławieństwo
+    source: decision
+  - en: curse
+    pl: klątwa
+    source: decision
+  - en: rhythm window Loose / Strict
+    pl: Łagodne / Ścisłe (okno rytmu)
+    source: decision
+  - en: auto rhythm
+    pl: automatyczny rytm
+    source: decision
+  - en: difficulty Easy / Hard / Hellish / Practice
+    pl: ŁATWY / TRUDNY / PIEKIELNY / TRENING
+    source: decision
+
+keep_english:
+  - ASGARD
+  - SVARTALFHEIM
+  - VANAHEIM
+  - HELHEIM
+  - NIDHOGG
+  - HUGINN
+  - MUNINN
+  - HUD
+  - FPS
+  - VSync
+  - Gamma
+  - Alt
+  - Ctrl
+  - Shift
+  - Cmd
+  - L1

@@ -1,0 +1,25 @@
+slug: i-am-your-beast
+title: I Am Your Beast
+version: "0.1"
+entries: { done: 1581, total: 1581 }
+tested: partial
+engine: Unity 2022.3.5f1 (Mono, x64)
+approach: Plugin BepInEx 5 podmienia w pamięci teksty banku Fleece, odcinki scen dialogowych i stałe napisy TextMeshPro. Polskie litery dokłada do dynamicznych atlasów z fontów gry. Żaden plik gry nie jest podmieniany.
+scope: Całość — menu, ustawienia, wybór poziomu i wyniki, HUD, podpowiedzi, samouczek, wszystkie przerywniki fabularne, okrzyki i radio wrogów, dodatki Grupa wsparcia i Zimny pot, wyzwania, napisy końcowe (funkcje).
+test_notes: Vertical confirmed in game by the user (2026-09-25). Full translation after the independent language review, built and installed locally; later levels, DLCs and credits pending.
+build_input:
+  store: gog
+  gog_build_id: "59479796167928060"
+  unity: 2022.3.5f1
+  bundle_version: "0.1.0"
+tested_on: []
+download:
+  kind: zip
+  file: I-Am-Your-Beast-PL-0.1.zip
+  bytes: 683249
+gallery: [2, 6, 3, 5, 1]
+steam_appid: 1876590
+year: 2024
+stores:
+  gog: https://www.gog.com/en/game/i_am_your_beast
+  steam: https://store.steampowered.com/app/1876590/

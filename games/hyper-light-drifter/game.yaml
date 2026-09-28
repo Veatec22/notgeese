@@ -1,0 +1,26 @@
+slug: hyper-light-drifter
+title: Hyper Light Drifter
+version: "0.1"
+entries: { done: 126, total: 126 }
+tested: structural
+engine: GameMaker Studio 1.4 (YYC, x86)
+approach: Polski zajmuje miejsce włoskiego w plikach tekstów gry, a na liście języków „ITALIANO” zamienia się w „POLSKI”. Font gry miał pola na polskie litery, ale puste — dorysowane litery złożone z elementów samej gry leżą w nowej sekcji exe. Dostarczane jako łatki różnicowe trzech plików.
+scope: Całość — menu główne, ustawienia i sterowanie, wybór trybu i Maraton bossów, komunikaty zapisu oraz podpowiedzi w trakcie gry. Gra nie ma dialogów; napisy końcowe zostają w oryginale.
+steam_appid: 257850
+stores:
+  steam: https://store.steampowered.com/app/257850/
+  gog: https://www.gog.com/en/game/hyper_light_drifter
+build_input:
+  store: gog
+  gog_build_id: '52291896322577314'
+  exe_file_version: '1.0.0.1'
+  release_version: null
+tested_on: []
+test_notes: Full translation built, verified from files and installed for testing; in-game test pending.
+download:
+  kind: patch
+  file: Hyper-Light-Drifter-PL-0.1-latka.zip
+  bytes: 82884
+quote:
+  text:
+  source:

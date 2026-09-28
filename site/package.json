@@ -1,0 +1,23 @@
+{
+  "name": "notgeese-site",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "test": "astro build && playwright test",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.4",
+    "@supabase/supabase-js": "^2.117.2",
+    "astro": "^5.14.1",
+    "lucide": "1.48.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0"
+  }
+}

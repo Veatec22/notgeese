@@ -1,0 +1,758 @@
+[
+  {
+    "key": "MenuText/CONTINUE",
+    "english": "Continue Game",
+    "polish": "Kontynuuj grę",
+    "context": "zastępuje ITA: Continua partita"
+  },
+  {
+    "key": "MenuText/LOADGAME",
+    "english": "Load Game",
+    "polish": "Wczytaj grę",
+    "context": "zastępuje ITA: Carica partita"
+  },
+  {
+    "key": "MenuText/NEWGAME",
+    "english": "New Game",
+    "polish": "Nowa gra",
+    "context": "zastępuje ITA: Nuova partita"
+  },
+  {
+    "key": "MenuText/NEWGAMEPLUS",
+    "english": "New Game +",
+    "polish": "Nowa gra +",
+    "context": "zastępuje ITA: Nuova partita +"
+  },
+  {
+    "key": "MenuText/NEWGAMEALT",
+    "english": "New Game Alt",
+    "polish": "Nowa gra Alt",
+    "context": "zastępuje ITA: Nuova partita Alt"
+  },
+  {
+    "key": "MenuText/SETTINGSANDCONTROLS",
+    "english": "Settings + Controls",
+    "polish": "Ustawienia i sterowanie",
+    "context": "zastępuje ITA: Impostazioni e comandi"
+  },
+  {
+    "key": "MenuText/SETTINGS",
+    "english": "Settings",
+    "polish": "Ustawienia",
+    "context": "zastępuje ITA: Impostazioni"
+  },
+  {
+    "key": "MenuText/CREDITS",
+    "english": "Credits",
+    "polish": "Twórcy",
+    "context": "zastępuje ITA: Riconoscimenti"
+  },
+  {
+    "key": "MenuText/EXITGAME",
+    "english": "Exit Game",
+    "polish": "Wyjdź z gry",
+    "context": "zastępuje ITA: Esci dal gioco"
+  },
+  {
+    "key": "MenuText/RESUMEGAME",
+    "english": "Resume Game",
+    "polish": "Wznów grę",
+    "context": "zastępuje ITA: Riprendi partita"
+  },
+  {
+    "key": "MenuText/QUITTOTITLE",
+    "english": "Quit To Title",
+    "polish": "Wyjdź do menu głównego",
+    "context": "zastępuje ITA: Torna alla schermata del titolo"
+  },
+  {
+    "key": "MenuText/CONTROLS",
+    "english": "Controls",
+    "polish": "Sterowanie",
+    "context": "zastępuje ITA: Comandi"
+  },
+  {
+    "key": "MenuText/SCREENMODE",
+    "english": "Screen Mode",
+    "polish": "Tryb ekranu",
+    "context": "zastępuje ITA: Tipo schermo; uwaga autorów: 15 Chars max"
+  },
+  {
+    "key": "MenuText/BRIGHTNESS",
+    "english": "Brightness",
+    "polish": "Jasność",
+    "context": "zastępuje ITA: Luminosità"
+  },
+  {
+    "key": "MenuText/SFXVOL",
+    "english": "SFX Volume",
+    "polish": "Efekty",
+    "context": "zastępuje ITA: effetti; uwaga autorów: 15 Chars max"
+  },
+  {
+    "key": "MenuText/MUSVOL",
+    "english": "Music Volume",
+    "polish": "Muzyka",
+    "context": "zastępuje ITA: Volume musica; uwaga autorów: 15 Chars max"
+  },
+  {
+    "key": "MenuText/VIBRATION",
+    "english": "Vibration",
+    "polish": "Wibracje",
+    "context": "zastępuje ITA: Vibrazione"
+  },
+  {
+    "key": "MenuText/LANGUAGE",
+    "english": "Language",
+    "polish": "Język",
+    "context": "zastępuje ITA: Lingua"
+  },
+  {
+    "key": "MenuText/DASHTYPE",
+    "english": "Dash Type",
+    "polish": "Rodzaj zrywu",
+    "context": "zastępuje ITA: Tipo di scatto"
+  },
+  {
+    "key": "MenuText/COOP",
+    "english": "Co-op",
+    "polish": "Kooperacja",
+    "context": "zastępuje ITA: Co-op"
+  },
+  {
+    "key": "MenuText/SwitchUser",
+    "english": "Switch User",
+    "polish": "Zmień użytkownika",
+    "context": "zastępuje ITA: Cambia utente"
+  },
+  {
+    "key": "MenuText/StartGame",
+    "english": "New Game",
+    "polish": "Nowa gra",
+    "context": "zastępuje ITA: Nuova partita"
+  },
+  {
+    "key": "MenuText/BossRush",
+    "english": "Boss Rush",
+    "polish": "Maraton bossów",
+    "context": "zastępuje ITA: Boss Rush"
+  },
+  {
+    "key": "MenuText/FullyLoaded",
+    "english": "Fully Loaded",
+    "polish": "Pełny zestaw",
+    "context": "zastępuje ITA: Equipaggiamento completo"
+  },
+  {
+    "key": "MenuText/MidRange",
+    "english": "Mid-Range",
+    "polish": "Średni zestaw",
+    "context": "zastępuje ITA: Fascia media"
+  },
+  {
+    "key": "MenuText/Naked",
+    "english": "Naked",
+    "polish": "Na golasa",
+    "context": "zastępuje ITA: Nudo"
+  },
+  {
+    "key": "MenuText/BossRushComplete",
+    "english": "Boss Rush Complete",
+    "polish": "Maraton bossów ukończony",
+    "context": "zastępuje ITA: Boss Rush Completa"
+  },
+  {
+    "key": "MenuText/MidRangeBossRushLoadoutUnlocked",
+    "english": "Mid-Range boss rush loadout unlocked",
+    "polish": "Odblokowano Średni zestaw w Maratonie bossów",
+    "context": "zastępuje ITA: apparecchiature di fascia media di boss rush sbloccata"
+  },
+  {
+    "key": "MenuText/NakedBossRushLoadoutUnlocked",
+    "english": "Naked boss rush loadout unlocked",
+    "polish": "Odblokowano zestaw Na golasa w Maratonie bossów",
+    "context": "zastępuje ITA: attrezzature nudo di boss rush sbloccata"
+  },
+  {
+    "key": "MenuText/NEWCOMER",
+    "english": "Newcomer",
+    "polish": "Nowicjusz",
+    "context": "zastępuje ITA: nuovo arrivato"
+  },
+  {
+    "key": "MenuText/STANDARD",
+    "english": "Standard",
+    "polish": "Standard",
+    "context": "zastępuje ITA: Standard"
+  },
+  {
+    "key": "MenuText/NEWCOMERDESCRIPTIONONE",
+    "english": "A more forgiving challenge.",
+    "polish": "Łagodniejsze wyzwanie.",
+    "context": "zastępuje ITA: Una sfida più indulgente."
+  },
+  {
+    "key": "MenuText/NEWCOMERDESCRIPTIONTWO",
+    "english": "Certain achievements are disabled.",
+    "polish": "Część osiągnięć jest wyłączona.",
+    "context": "zastępuje ITA: Alcune realizzazioni sono disabilitati."
+  },
+  {
+    "key": "MenuText/STANDARDDESCRIPTIONONE",
+    "english": "Intended challenge level.",
+    "polish": "Zamierzony poziom trudności.",
+    "context": "zastępuje ITA: Destinato il livello di sfida."
+  },
+  {
+    "key": "MenuText/STANDARDDESCRIPTIONTWO",
+    "english": "All achievements unlockable.",
+    "polish": "Wszystkie osiągnięcia dostępne.",
+    "context": "zastępuje ITA: Tutti i successi sbloccabili."
+  },
+  {
+    "key": "MenuText/NEWGAMEPLUSDESCRIPTIONONE",
+    "english": "Beware.",
+    "polish": "Strzeż się.",
+    "context": "zastępuje ITA: State attenti."
+  },
+  {
+    "key": "MenuText/NEWGAMEPLUSUNLOCKDESCRIPTION",
+    "english": "Beat Standard.",
+    "polish": "Ukończ tryb Standard.",
+    "context": "zastępuje ITA: modalità Standard di finitura."
+  },
+  {
+    "key": "MenuText/NEWGAMEALTDESCRIPTIONONE",
+    "english": "Play with a new character.",
+    "polish": "Zagraj nową postacią.",
+    "context": "zastępuje ITA: Giocare con un nuovo personaggio."
+  },
+  {
+    "key": "MenuText/NEWGAMEALTUNLOCKDESCRIPTIONTWO",
+    "english": "Unlocks new character.",
+    "polish": "Odblokowuje nową postać.",
+    "context": "zastępuje ITA: Sblocca il personaggio nuovo."
+  },
+  {
+    "key": "MenuText/FULLYLOADEDDESCRIPTION",
+    "english": "All weapons + gear.",
+    "polish": "Cała broń i wyposażenie.",
+    "context": "zastępuje ITA: Tutte le armi e gli equipaggiamenti."
+  },
+  {
+    "key": "MenuText/MIDRANGEDESCRIPTION",
+    "english": "Less gear, more challenge.",
+    "polish": "Mniej sprzętu, więcej wyzwania.",
+    "context": "zastępuje ITA: Meno dell'ingranaggio, più una sfida."
+  },
+  {
+    "key": "MenuText/MIDRANGEUNLOCKDESCRIPTION",
+    "english": "Complete Fully Loaded to unlock.",
+    "polish": "Ukończ Pełny zestaw, by odblokować.",
+    "context": "zastępuje ITA: Completare a pieno carico per sbloccare."
+  },
+  {
+    "key": "MenuText/NAKEDDESCRIPTION",
+    "english": "Nothing but your pistol.",
+    "polish": "Nic poza pistoletem.",
+    "context": "zastępuje ITA: Nient'altro che la pistola."
+  },
+  {
+    "key": "MenuText/NAKEDUNLOCKDESCRIPTION",
+    "english": "Complete Mid-Range to unlock.",
+    "polish": "Ukończ Średni zestaw, by odblokować.",
+    "context": "zastępuje ITA: Mid-range completo per sbloccare."
+  },
+  {
+    "key": "MenuText/COOP_DISABLED",
+    "english": "Disabled",
+    "polish": "Wyłączona",
+    "context": "zastępuje ITA: Disattivato"
+  },
+  {
+    "key": "MenuText/DISABLE_XBOX_DVR",
+    "english": "Please disable Xbox DVR on Windows",
+    "polish": "Wyłącz Xbox DVR w systemie Windows",
+    "context": "zastępuje ITA: Si prega di disabilitare Xbox DVR su Windows"
+  },
+  {
+    "key": "MenuText/THIRDPARTYCONTROLS",
+    "english": "Third Party Controls",
+    "polish": "Kontrolery innych firm",
+    "context": "zastępuje ITA: Third Party Controls"
+  },
+  {
+    "key": "MenuText/MAIN_MENU_TITLE",
+    "english": "MAIN MENU",
+    "polish": "MENU GŁÓWNE",
+    "context": "zastępuje ITA: MENU PRINCIPALE"
+  },
+  {
+    "key": "MenuText/MENU_TITLE",
+    "english": "MENU",
+    "polish": "MENU",
+    "context": "zastępuje ITA: MENU"
+  },
+  {
+    "key": "MenuText/QUIT_TO_TITLE_TEXT",
+    "english": "Quit To Title?",
+    "polish": "Wyjść do menu głównego?",
+    "context": "zastępuje ITA: Tornare alla schermata del titolo?"
+  },
+  {
+    "key": "MenuText/LESS_THAN_A_MINUTE",
+    "english": "Less than a minute",
+    "polish": "Mniej niż minuta",
+    "context": "zastępuje ITA: Meno di un minuto"
+  },
+  {
+    "key": "MenuText/MINUTE",
+    "english": "Minute",
+    "polish": "minuta",
+    "context": "zastępuje ITA: minuto"
+  },
+  {
+    "key": "MenuText/MINUTES",
+    "english": "Minutes",
+    "polish": "min",
+    "context": "zastępuje ITA: minuti"
+  },
+  {
+    "key": "MenuText/SINCE_LAST_SAVE",
+    "english": "since last save",
+    "polish": "od ostatniego zapisu",
+    "context": "zastępuje ITA: dall'ultimo salvataggio"
+  },
+  {
+    "key": "MenuText/APPEARS_WHEN_PROGRESS_IS_SAVED",
+    "english": "Appears when progress is saved",
+    "polish": "Pojawia się przy zapisie postępów",
+    "context": "zastępuje ITA: Appare durante il salvataggio dei progressi"
+  },
+  {
+    "key": "MenuText/ENTER_NAME",
+    "english": "Enter Name",
+    "polish": "Wpisz nazwę",
+    "context": "zastępuje ITA: Scrivi il nome"
+  },
+  {
+    "key": "MenuText/CONFIRM",
+    "english": "Confirm",
+    "polish": "Potwierdź",
+    "context": "zastępuje ITA: Conferma"
+  },
+  {
+    "key": "MenuText/DELETE",
+    "english": "Delete",
+    "polish": "Usuń",
+    "context": "zastępuje ITA: Elimina"
+  },
+  {
+    "key": "MenuText/CANCEL",
+    "english": "Cancel",
+    "polish": "Anuluj",
+    "context": "zastępuje ITA: Annulla"
+  },
+  {
+    "key": "MenuText/(LOCKED: missing Alt Drifter DLC)",
+    "english": "(LOCKED: missing Alt Drifter DLC)",
+    "polish": "(ZABLOKOWANE: brak DLC Alt Drifter)",
+    "context": "zastępuje ITA: (BLOCCATO: manca Alt Drifter DLC)"
+  },
+  {
+    "key": "MenuText/REPLACE THIS SAVE?",
+    "english": "REPLACE THIS SAVE?",
+    "polish": "ZASTĄPIĆ TEN ZAPIS?",
+    "context": "zastępuje ITA: SOSTITUIRE QUESTO SALVATAGGIO?"
+  },
+  {
+    "key": "MenuText/EMPTY",
+    "english": "EMPTY",
+    "polish": "PUSTY",
+    "context": "zastępuje ITA: VUOTO"
+  },
+  {
+    "key": "MenuText/Windowed",
+    "english": "Windowed",
+    "polish": "Okno",
+    "context": "zastępuje ITA: Finestra; uwaga autorów: 13 Chars Max"
+  },
+  {
+    "key": "MenuText/WINDOW_MAX",
+    "english": "Window Max",
+    "polish": "Okno maks.",
+    "context": "zastępuje ITA: Finestra max; uwaga autorów: 13 Chars Max"
+  },
+  {
+    "key": "MenuText/FULLSCREEN",
+    "english": "Fullscreen",
+    "polish": "Pełny ekran",
+    "context": "zastępuje ITA: Schermo intero; uwaga autorów: 13 Chars Max"
+  },
+  {
+    "key": "MenuText/ON",
+    "english": "On",
+    "polish": "Włączone",
+    "context": "zastępuje ITA: Sì"
+  },
+  {
+    "key": "MenuText/OFF",
+    "english": "Off",
+    "polish": "Wyłączone",
+    "context": "zastępuje ITA: No"
+  },
+  {
+    "key": "MenuText/MOUSE_DIR",
+    "english": "Mouse Dir",
+    "polish": "Za kursorem",
+    "context": "zastępuje ITA: Dir mouse; uwaga autorów: 13 Chars max"
+  },
+  {
+    "key": "MenuText/MOVE_DIR",
+    "english": "Move Dir",
+    "polish": "Za ruchem",
+    "context": "zastępuje ITA: Dir movimento; uwaga autorów: 13 Chars Max"
+  },
+  {
+    "key": "MenuText/NEED_GAMEPAD",
+    "english": "Need Gamepad",
+    "polish": "Wymaga pada",
+    "context": "zastępuje ITA: Gamepad ric.; uwaga autorów: 13 Chars Max"
+  },
+  {
+    "key": "MenuText/MODE",
+    "english": "Mode",
+    "polish": "Tryb",
+    "context": "zastępuje ITA: Modalità"
+  },
+  {
+    "key": "MenuText/GAMEPAD",
+    "english": "Gamepad",
+    "polish": "Pad",
+    "context": "zastępuje ITA: Gamepad"
+  },
+  {
+    "key": "MenuText/RESET",
+    "english": "Reset",
+    "polish": "Reset",
+    "context": "zastępuje ITA: Reset; uwaga autorów: 6 Chars Max"
+  },
+  {
+    "key": "MenuText/AimConfig",
+    "english": "AIM",
+    "polish": "CELOWANIE",
+    "context": "zastępuje ITA: MIRA"
+  },
+  {
+    "key": "MenuText/HealConfig",
+    "english": "HEAL",
+    "polish": "LECZENIE",
+    "context": "zastępuje ITA: CURA"
+  },
+  {
+    "key": "MenuText/MoveConfig",
+    "english": "MOVE",
+    "polish": "RUCH",
+    "context": "zastępuje ITA: MOVIMENTO"
+  },
+  {
+    "key": "MenuText/InventoryConfig",
+    "english": "INVENTORY",
+    "polish": "EKWIPUNEK",
+    "context": "zastępuje ITA: INVENTARIO"
+  },
+  {
+    "key": "MenuText/MenuConfig",
+    "english": "MENU",
+    "polish": "MENU",
+    "context": "zastępuje ITA: MENU"
+  },
+  {
+    "key": "MenuText/SitConfig",
+    "english": "SIT",
+    "polish": "SIADANIE",
+    "context": "zastępuje ITA: SIEDITI"
+  },
+  {
+    "key": "MenuText/ShootConfig",
+    "english": "SHOOT",
+    "polish": "STRZAŁ",
+    "context": "zastępuje ITA: SPARA"
+  },
+  {
+    "key": "MenuText/SpecialConfig",
+    "english": "SPECIAL",
+    "polish": "SPECJALNY",
+    "context": "zastępuje ITA: SPECIALE"
+  },
+  {
+    "key": "MenuText/InteractConfig",
+    "english": "INTERACT",
+    "polish": "INTERAKCJA",
+    "context": "zastępuje ITA: INTERAGISCI"
+  },
+  {
+    "key": "MenuText/SwordConfig",
+    "english": "SWORD",
+    "polish": "MIECZ",
+    "context": "zastępuje ITA: SPADA"
+  },
+  {
+    "key": "MenuText/DashConfig",
+    "english": "DASH",
+    "polish": "ZRYW",
+    "context": "zastępuje ITA: SCATTA"
+  },
+  {
+    "key": "MenuText/SwapWepConfig",
+    "english": "SWAP WEP",
+    "polish": "ZMIANA BRONI",
+    "context": "zastępuje ITA: CAMBIA ARMA; uwaga autorów: 11 chars Max"
+  },
+  {
+    "key": "MenuText/KeyboardAndMouseConfigTitleName",
+    "english": "Keyboard+M",
+    "polish": "Klaw.+mysz",
+    "context": "zastępuje ITA: Tastiera + M"
+  },
+  {
+    "key": "MenuText/notapplicable",
+    "english": "N/A",
+    "polish": "Brak",
+    "context": "zastępuje ITA: N/D"
+  },
+  {
+    "key": "MenuText/AutoSaveFeature",
+    "english": "This game has an autosave feature.",
+    "polish": "Gra ma funkcję automatycznego zapisu.",
+    "context": "zastępuje ITA: Questo gioco è dotato di una funzione di salvataggio automatico."
+  },
+  {
+    "key": "MenuText/AutoSaveFeature2",
+    "english": "When you see this icon, the game is saving.",
+    "polish": "Gdy widzisz tę ikonę, gra zapisuje postępy.",
+    "context": "zastępuje ITA: Quando vedi questa icona, il gioco sta salvando."
+  },
+  {
+    "key": "MenuText/DoNotTurnOff",
+    "english": "Please do not turn the system off during this time.",
+    "polish": "Nie wyłączaj wtedy komputera.",
+    "context": "zastępuje ITA: Non spegnere il sistema durante l'operazione."
+  },
+  {
+    "key": "MenuText/DoNotTurnOffConsole",
+    "english": "Please do not turn the console off during this time.",
+    "polish": "Nie wyłączaj wtedy konsoli.",
+    "context": "zastępuje ITA: Non spegnere la console durante l'operazione."
+  },
+  {
+    "key": "MenuText/CopyWrite",
+    "english": "2016 Heart Machine LLC. All Rights Reserved.",
+    "polish": "2016 Heart Machine LLC. Wszelkie prawa zastrzeżone.",
+    "context": "zastępuje ITA: 2016 Heart Machine LLC. Tutti i diritti riservati."
+  },
+  {
+    "key": "MenuText/PlaysBestWithController",
+    "english": "This game plays best with a controller",
+    "polish": "Najlepiej grać na kontrolerze",
+    "context": "zastępuje ITA: Si consiglia l'uso di un controller"
+  },
+  {
+    "key": "MenuText/ControllersItPlaysBestWith",
+    "english": "XBOX 360/ONE/PS4",
+    "polish": "XBOX 360/ONE/PS4",
+    "context": "zastępuje ITA: XBOX 360/ONE/PS4"
+  },
+  {
+    "key": "MenuText/Select",
+    "english": "Select",
+    "polish": "Wybierz",
+    "context": "zastępuje ITA: Seleziona"
+  },
+  {
+    "key": "MenuText/Back",
+    "english": "Back",
+    "polish": "Wstecz",
+    "context": "zastępuje ITA: Indietro"
+  },
+  {
+    "key": "MenuText/Yes",
+    "english": "Yes",
+    "polish": "Tak",
+    "context": "zastępuje ITA: Si"
+  },
+  {
+    "key": "MenuText/UnlockedAtEndGame",
+    "english": "(Unlocked At EndGame)",
+    "polish": "(Odblokowane po ukończeniu gry)",
+    "context": "zastępuje ITA: (sbloccabile a gioco completato)"
+  },
+  {
+    "key": "MenuText/DoNotTurnOffPS4",
+    "english": "PLEASE DO NOT TURN THE PLAYSTATION®4 SYSTEM OFF DURING THIS TIME",
+    "polish": "NIE WYŁĄCZAJ WTEDY SYSTEMU PLAYSTATION®4",
+    "context": "zastępuje ITA: NON SPEGNERE IL SISTEMA PLAYSTATION®4 IN QUESTO MOMENTO"
+  },
+  {
+    "key": "MenuText/OVERSCAN",
+    "english": "Scale",
+    "polish": "Skala",
+    "context": "zastępuje ITA: Scala"
+  },
+  {
+    "key": "MenuText/FRAMERATE",
+    "english": "FPS",
+    "polish": "FPS",
+    "context": "zastępuje ITA: FPS"
+  },
+  {
+    "key": "MenuText/VSYNC",
+    "english": "VSYNC",
+    "polish": "VSYNC",
+    "context": "zastępuje ITA: VSYNC"
+  },
+  {
+    "key": "MenuText/Alternative",
+    "english": "Alternative",
+    "polish": "Alternatywne",
+    "context": "zastępuje ITA: Alternative"
+  },
+  {
+    "key": "MenuText/NEWCOMERDESCRIPTIONTWOPS4",
+    "english": "Certain trophies are disabled.",
+    "polish": "Część trofeów jest wyłączona.",
+    "context": "zastępuje ITA: Alcuni trofei sono disabilitati."
+  },
+  {
+    "key": "MenuText/STANDARDDESCRIPTIONTWOPS4",
+    "english": "All trophies unlockable.",
+    "polish": "Wszystkie trofea dostępne.",
+    "context": "zastępuje ITA: Tutti i trofei sbloccabili."
+  },
+  {
+    "key": "MenuText/CONTROLMODETYPES",
+    "english": "Controls",
+    "polish": "Sterowanie",
+    "context": "zastępuje ITA: Comandi"
+  },
+  {
+    "key": "MenuText/STANDARDCONTROLS",
+    "english": "Standard",
+    "polish": "Standardowe",
+    "context": "zastępuje ITA: Standard"
+  },
+  {
+    "key": "MenuText/COOPCONTROLS",
+    "english": "Co-op",
+    "polish": "Kooperacja",
+    "context": "zastępuje ITA: Co-op"
+  },
+  {
+    "key": "MenuText/PLAYERONECOOPCONTROLMODE",
+    "english": "Player One",
+    "polish": "Gracz 1",
+    "context": "zastępuje ITA: Giocatore uno"
+  },
+  {
+    "key": "MenuText/PLAYERTWOCOOPCONTROLMODE",
+    "english": "Player Two",
+    "polish": "Gracz 2",
+    "context": "zastępuje ITA: Giocatore due"
+  },
+  {
+    "key": "Phrases/HEAL",
+    "english": "[BUTTON_HEAL] Use [spr_HudMedIcon] to Heal",
+    "polish": "[BUTTON_HEAL] Użyj [spr_HudMedIcon], by się uleczyć",
+    "context": "zastępuje ITA: [BUTTON_HEAL] Usa [spr_HudMedIcon] per curarti"
+  },
+  {
+    "key": "Phrases/COLLECT",
+    "english": "Hold [BUTTON_INTERACT] to take items",
+    "polish": "Przytrzymaj [BUTTON_INTERACT], by podnieść przedmioty",
+    "context": "zastępuje ITA: Tieni premuto [BUTTON_INTERACT] per prendere oggetti"
+  },
+  {
+    "key": "Phrases/INTERACT",
+    "english": "Hold [BUTTON_INTERACT] to interact",
+    "polish": "Przytrzymaj [BUTTON_INTERACT], by użyć",
+    "context": "zastępuje ITA: Tieni premuto [BUTTON_INTERACT] per interagire"
+  },
+  {
+    "key": "Phrases/AIM",
+    "english": "[BUTTON_AIM] Aim    [BUTTON_SHOOT] Shoot",
+    "polish": "[BUTTON_AIM] Celuj    [BUTTON_SHOOT] Strzelaj",
+    "context": "zastępuje ITA: [BUTTON_AIM] Mira    [BUTTON_SHOOT] Spara"
+  },
+  {
+    "key": "Phrases/AMMO",
+    "english": "Slash enemies + objects to charge Guns",
+    "polish": "Tnij wrogów i przedmioty, by ładować broń palną",
+    "context": "zastępuje ITA: Ricarica l'arma da fuoco colpendo nemici e oggetti con la spada "
+  },
+  {
+    "key": "Phrases/MAP",
+    "english": "[BUTTON_INVENTORY] View Map",
+    "polish": "[BUTTON_INVENTORY] Pokaż mapę",
+    "context": "zastępuje ITA: [BUTTON_INVENTORY] Vedi mappa"
+  },
+  {
+    "key": "Phrases/WARPPAD",
+    "english": "Warp here any time using the Map",
+    "polish": "Z mapy możesz się tu teleportować w każdej chwili",
+    "context": "zastępuje ITA: Usa la mappa quando vuoi per trasferirti qui"
+  },
+  {
+    "key": "Phrases/WARP",
+    "english": "Hold [BUTTON_MENUSELECT] to warp",
+    "polish": "Przytrzymaj [BUTTON_MENUSELECT], by się teleportować",
+    "context": "zastępuje ITA: Tieni premuto [BUTTON_MENUSELECT] per trasferirti"
+  },
+  {
+    "key": "Phrases/REMINDERGUN",
+    "english": "Gun is fully charged from slashing",
+    "polish": "Broń palna w pełni naładowana cięciami miecza",
+    "context": "zastępuje ITA: Arma da fuoco ricaricata usando la spada"
+  },
+  {
+    "key": "Phrases/CAPE",
+    "english": "Warp Home to change gear",
+    "polish": "Wróć do domu, by zmienić sprzęt",
+    "context": "zastępuje ITA: Torna a casa per cambiare equipaggiamento"
+  },
+  {
+    "key": "Phrases/SWAP",
+    "english": "[BUTTON_SWAPWEAPON] Swap Guns",
+    "polish": "[BUTTON_SWAPWEAPON] Zmień broń",
+    "context": "zastępuje ITA: [BUTTON_SWAPWEAPON] Cambia arma da fuoco"
+  },
+  {
+    "key": "Phrases/LOADOUT",
+    "english": "[BUTTON_INVENTORY] Equip Guns in the Inventory ",
+    "polish": "[BUTTON_INVENTORY] Wybierz broń w ekwipunku",
+    "context": "zastępuje ITA: [BUTTON_INVENTORY] Equipaggia armi da fuoco nell'inventario"
+  },
+  {
+    "key": "Phrases/PING",
+    "english": "Press [BUTTON_INTERACT] to ping the HUD",
+    "polish": "Naciśnij [BUTTON_INTERACT], by pokazać HUD",
+    "context": "zastępuje ITA: Premi [BUTTON_INTERACT] per richiamare l'HUD"
+  },
+  {
+    "key": "Phrases/NOACHIEVEMENTS",
+    "english": "Achievements are disabled during co-op",
+    "polish": "Osiągnięcia są wyłączone w kooperacji",
+    "context": "zastępuje ITA: Obiettivi disattivati durante la modalità co-op"
+  },
+  {
+    "key": "Phrases/NEWCOMERHOARDE",
+    "english": "Achievements are disabled in Newcomer mode",
+    "polish": "Osiągnięcia są wyłączone w trybie Nowicjusz",
+    "context": "zastępuje ITA: Risultati sono disabilitate in modalità Principiante"
+  },
+  {
+    "key": "Phrases/NEWCOMERHOARDEPS4",
+    "english": "Trophies are disabled in Newcomer mode",
+    "polish": "Trofea są wyłączone w trybie Nowicjusz",
+    "context": "zastępuje ITA: Trofei sono disabilitate in modalità Principiante"
+  }
+]

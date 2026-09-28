@@ -1,0 +1,148 @@
+/* notgeese.cc design tokens
+   Framework-independent. Plug into any stack or port to a theme config.
+   Values are binding; described in docs/design.md. */
+
+:root {
+  /* --- Color ------------------------------------------------------ */
+  /* Three colors: black, white, crimson. Everything else is a mix of them. */
+  --ng-bone: #F9F7F3;           /* page background, off-white */
+  --ng-paper: #FFFFFF;          /* raised surfaces */
+  --ng-ink: #141414;            /* text, borders, shadows */
+  --ng-accent: #DC143C;         /* crimson: art, CTA, "in progress" badge */
+  --ng-graphite: #363635;       /* ink lightened with white: third keyart background */
+  --ng-art-ink: #141414;        /* keyart background and label: always dark, both themes */
+  --ng-art-bone: #F9F7F3;
+  --ng-muted: #646362;          /* secondary text on light */
+  --ng-muted-inverse: #B4B3B0;  /* secondary text on --ng-ink */
+  --ng-hairline: #D7D5D2;       /* 1 px lines inside frames */
+  --ng-scrim: rgba(20, 20, 20, 0.58);      /* dimming under the drawer */
+  --ng-placeholder-mark: rgba(255, 255, 255, 0.13); /* initial on the keyart placeholder */
+  color-scheme: light;
+
+  /* --- Typography ------------------------------------------------- */
+  --ng-font-display: 'Archivo Black', sans-serif;
+  --ng-font-body: 'Space Grotesk', sans-serif;
+  --ng-font-mono: 'JetBrains Mono', monospace;
+
+  --ng-size-hero: 118px;
+  --ng-size-section: 56px;
+  --ng-size-panel-title: 40px;
+  --ng-size-card-title: 22px;
+  --ng-size-stat: 56px;
+  --ng-size-quote: 21px;
+  --ng-size-body: 16px;
+  --ng-size-label: 12px;
+  --ng-size-meta: 11px;
+
+  --ng-leading-hero: 0.88;
+  --ng-leading-display: 1;
+  --ng-leading-quote: 1.45;
+  --ng-leading-body: 1.6;
+
+  --ng-tracking-hero: -0.035em;
+  --ng-tracking-display: -0.03em;
+  --ng-tracking-label: 0.16em;
+  --ng-tracking-meta: 0.1em;
+
+  /* --- Spacing ---------------------------------------------------- */
+  --ng-space-1: 4px;
+  --ng-space-2: 8px;
+  --ng-space-3: 12px;
+  --ng-space-4: 16px;
+  --ng-space-5: 20px;
+  --ng-space-6: 24px;
+  --ng-space-7: 28px;
+  --ng-space-8: 32px;
+  --ng-space-10: 40px;
+  --ng-space-12: 48px;
+  --ng-space-16: 64px;
+  --ng-space-18: 72px;
+  --ng-space-20: 80px;
+
+  /* --- Form language ---------------------------------------------- */
+  --ng-border: 3px solid var(--ng-ink);
+  --ng-border-width: 3px;
+  --ng-shadow-color: #141414;   /* ink in light; separate in dark, a light shadow screams */
+  --ng-shadow: 8px 8px 0 var(--ng-shadow-color);
+  --ng-shadow-pressed: 4px 4px 0 var(--ng-shadow-color);
+  --ng-shadow-open: 8px 8px 0 var(--ng-accent);
+  --ng-hit-target: 44px;
+
+  /* --- Layout ----------------------------------------------------- */
+  --ng-page-max: 1440px;
+  --ng-gutter: 80px;
+  --ng-gutter-mobile: 20px;
+  --ng-grid-gap: 28px;
+  --ng-panel-width: min(800px, 92vw);  /* right overlay; full-width drawer on phones */
+  --ng-drawer-max-height: 88vh;
+  --ng-keyart-ratio: 616 / 353;  /* Steam store capsule with logo; the tile never crops it */
+
+  /* --- Motion ----------------------------------------------------- */
+  --ng-ease: cubic-bezier(0.2, 0, 0, 1);
+  --ng-duration: 240ms;
+}
+
+/* --- Dark theme -----------------------------------------------------
+   Inverted palette: `ink` turns light (text, borders, shadows), `bone` and `paper`
+   dark, crimson unchanged. Greys are still mixes of black and off-white.
+   The same block twice: for "dark" and for "system" on a dark system. */
+:root[data-theme="dark"] {
+  --ng-bone: #141414;
+  --ng-paper: #1C1C1B;
+  --ng-ink: #F9F7F3;
+  --ng-muted: #B4B3B0;          /* 8.8:1 on bone */
+  --ng-muted-inverse: #646362;  /* 5.6:1 on ink */
+  --ng-hairline: #3A3A38;
+  --ng-scrim: rgba(0, 0, 0, 0.72);
+  --ng-shadow-color: #363635;   /* graphite instead of light: depth without glow */
+  color-scheme: dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ng-bone: #141414;
+    --ng-paper: #1C1C1B;
+    --ng-ink: #F9F7F3;
+    --ng-muted: #B4B3B0;
+    --ng-muted-inverse: #646362;
+    --ng-hairline: #3A3A38;
+    --ng-scrim: rgba(0, 0, 0, 0.72);
+    --ng-shadow-color: #363635;
+    color-scheme: dark;
+  }
+}
+
+@media (max-width: 699px) {
+  :root {
+    --ng-size-hero: 46px;
+    --ng-size-section: 30px;
+    --ng-size-panel-title: 28px;
+    --ng-size-card-title: 20px;
+    --ng-size-stat: 38px;
+    --ng-size-quote: 15px;
+    --ng-size-body: 14px;
+    --ng-size-label: 10px;
+    --ng-size-meta: 10px;
+    --ng-leading-hero: 0.9;
+    --ng-shadow: 7px 7px 0 var(--ng-shadow-color);
+    --ng-gutter: var(--ng-gutter-mobile);
+    --ng-grid-gap: 20px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --ng-duration: 0ms;
+  }
+}
+
+/* --- Focus: one outline for the whole site ------------------------ */
+:focus-visible {
+  outline: var(--ng-border-width) solid var(--ng-accent);
+  outline-offset: 3px;
+}
+
+/* On red surfaces the outline switches to ink so it stays visible. */
+.ng-on-accent:focus-visible {
+  outline-color: var(--ng-ink);
+}

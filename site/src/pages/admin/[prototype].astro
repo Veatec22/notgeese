@@ -1,0 +1,40 @@
+---
+// Throwaway: three reading layouts on /admin/prototype/?variant=A|B|C.
+// No production route, real Auth, GitHub request or Supabase mutation.
+import Header from '../../components/Header.astro';
+import '../../styles/tokens.css';
+import '../../styles/global.css';
+import '../../prototype/editorial-workspace.css';
+import { getGames } from '../../lib/games';
+import rows from '../../../../games/shotgun-cop-man/translations/en-pl-review.json';
+
+export function getStaticPaths() {
+  return import.meta.env.DEV ? [{ params: { prototype: 'prototype' } }] : [];
+}
+const games = (await getGames()).map(game => ({
+  id: game.slug, title: game.title, version: game.version, entries: game.entries.total,
+}));
+const data = JSON.stringify({ games, rows }).replace(/</g, '\\u003c');
+---
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow" />
+    <title>Pracownia korekty — prototyp | Not Geese</title>
+    <link rel="icon" href="/favicon.svg" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=JetBrains+Mono:wght@400;700&family=Space+Grotesk:wght@400;500;700&display=swap" />
+  </head>
+  <body>
+    <div class="ng-shell"><Header /></div>
+    <div class="pw-demo">PROTOTYP DO OCENY · teksty z lokalnego repo · zapis demonstracyjny w tej przeglądarce · bez Supabase</div>
+    <div id="workspace"></div>
+    <div id="pw-toast" role="status" aria-live="polite"></div>
+    <dialog id="pw-dialog" aria-labelledby="pw-dialog-title"></dialog>
+    <script id="pw-data" type="application/json" set:html={data} />
+    <script>
+      if (import.meta.env.DEV) import('../../prototype/editorial-workspace.js');
+    </script>
+  </body>
+</html>

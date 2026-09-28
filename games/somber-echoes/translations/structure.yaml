@@ -1,0 +1,38 @@
+# Somber Echoes: groups for the review workspace.
+# Format: docs/workspace.md.
+#
+# Key is <locres file>/<table>/<entry>; groups follow the table. Dialog is mostly narration and
+# object descriptions without established speakers, so no sequences.
+
+format: 1
+
+groups:
+  - id: menu
+    name: Menu, przyciski i język
+  - id: tutorials
+    name: Samouczki
+  - id: map
+    name: Mapa — obszary, pomieszczenia i elementy
+  - id: items
+    name: Przedmioty, znajdźki i ulepszenia
+  - id: quests
+    name: Zadania
+  - id: journal
+    name: Dziennik
+  - id: dialog
+    name: Dialogi i narracja
+  - id: challenges
+    name: Wyzwania
+  - id: updates
+    name: Aktualizacje gry (Updated1–4)
+
+rules:
+  - {group: menu, match: '^StringTables/STRING_(Menu|Buttons|Language|Feedback)/'}
+  - {group: tutorials, match: '^StringTables/STRING_Tutorials/'}
+  - {group: map, match: '^StringTables/STRING_Map'}
+  - {group: items, match: '^StringTables/STRING_(Pickups|InventoryItems|SkillUpgrades)/'}
+  - {group: quests, match: '^StringTables/STRING_Quests/'}
+  - {group: journal, match: '^Journal/'}
+  - {group: dialog, match: '^Dialog/'}
+  - {group: challenges, match: '^Challenges/'}
+  - {group: updates, match: '^Updated\d/'}

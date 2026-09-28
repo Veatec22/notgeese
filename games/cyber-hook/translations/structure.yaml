@@ -1,0 +1,30 @@
+# Cyber Hook: groups for the review workspace.
+# Format: docs/workspace.md.
+#
+# PAX_Line_* are messages of the AI guiding the player, in key order; dialog_* and keys
+# that are English text are conversations. No sequences: speakers are not in the keys.
+
+format: 1
+
+groups:
+  - id: menu
+    name: Menu, powtórki i tabele wyników
+  - id: options
+    name: Opcje
+  - id: levels
+    name: Poziomy i światy
+  - id: interworld
+    name: Między światami
+  - id: pax
+    name: PAX — komunikaty SI
+  - id: dialog
+    name: Dialogi
+
+rules:
+  - {group: pax, match: '^PAX_'}
+  - {group: interworld, match: '^interworld'}
+  - {group: levels, match: '^([Ll]evel|world)'}
+  - {group: dialog, match: '^dialog'}
+  - {group: dialog, context: '^klucz = tekst angielski'}
+  - {group: options, match: '^(option|vsync|resolution|full|screen|anti|motion|vertical|horizontal|invert|master|music|sfx|sound|graphics|gameplay|controls|apply|max)'}
+  - {group: menu, match: '.'}

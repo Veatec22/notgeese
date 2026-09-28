@@ -1,0 +1,345 @@
+# Wild Bastards bible: facts with sources.
+
+sources:
+  - id: keys
+    description: "I2 keys with gendered variants (e.g. HUD/Dead and HUD/DeadFem, UIMG/Injured and UIMG/InjuredFem)."
+  - id: text
+    description: "The game's original text (tutorials and dialogue call outlaws he/her, Miss, ma'am)."
+  - id: fr
+    description: "The game's French table (work/ref-fr.json): gender in adjectives and participles (archère, sûre, ange-gardienne)."
+  - id: it
+    description: "The game's Italian table (work/ref-it.json): gender in nouns (sacerdotessa, pistolera, arciera)."
+  - id: ru
+    description: "The game's Russian table is empty (2 entries); no gender source."
+  - id: vb
+    description: "Our Void Bastards PL (games/void-bastards): same developer, related jokes and vocabulary"
+
+characters:
+  - id: billy
+    name: "Billy"
+    gender: m
+    register: "country boy, dialect, „panie Casino”, „panie Bum”; a squid (tentacles)"
+    source: [text, fr]
+  - id: rosa
+    name: "Pajęcza Rosa (Spider Rosa)"
+    gender: f
+    register: "cold, haughty, no dialect; „Matrona klanu”; others say „panno Roso”, McNeil „Robaczyco” (Bug Lady)"
+    source: [text, it]
+  - id: casino
+    name: "Casino (Doc Casino)"
+    gender: m
+    register: "gambler robot, dialect, „przyjacielu”, „kolego” (pard); „Casino” indeclinable (Doca Casino)"
+    source: [fr, text]
+  - id: kaboom
+    name: "Kaboom („pan Bum”, „Boom”)"
+    gender: m
+    register: "gas miner, dialect, swearing"
+    source: [text]
+  - id: roswell
+    name: "Roswell („Roz”, „Ros”)"
+    gender: m
+    register: "alien under a dome, haughty, scientific, no dialect"
+    source: [text]
+  - id: spike
+    name: "Spike"
+    gender: m
+    register: "cockney („stary” = mate), hooked on shine"
+    source: [text]
+  - id: fletch
+    name: "Fletch"
+    gender: f
+    register: "time-travelling archer; „psze pani”/„panienko” in dialogue is usually her"
+    note: "Adult version of the third bastard (Młoda). Bastard1Recovered_2 in French: „ange-gardienne”."
+    source: [text, fr, it]
+  - id: preach
+    name: "Kaznodzieja (Preach, Esther O'Neil)"
+    gender: f
+    register: "preacher with a gatling, biblical asides, dialect"
+    declension: "„Kaznodzieja” like a masculine noun in -a, but with feminine syntax („Kaznodzieja dała”)"
+    source: [it, text]
+  - id: judge
+    name: "Sędzia (The Judge)"
+    gender: m
+    register: "sniper robot, legal language („Przychylam się”), dialect"
+    source: [text, fr]
+  - id: sarge
+    name: "Sierżant (Sarge)"
+    gender: m
+    register: "old war horse (cyborg horse), military dialect"
+    source: [text, fr]
+  - id: hopalong
+    name: "Hopalong („Hop”, Vansak Largo)"
+    gender: m
+    register: "snake man, farmer, dialect, loves animals"
+    source: [text, fr]
+  - id: smoky
+    name: "Smoky („Kuchcik” u Spike'a)"
+    gender: m
+    register: "cook robot; when upset he SHOUTS IN CAPS (kept)"
+    source: [text]
+  - id: rawhide
+    name: "Rawhide"
+    gender: m
+    register: "robot with a p-squirrel swarm; says „my” and talks childishly („Ten Billy potrzebuje wielu pomocy”); English articles as „Ten/Ta”"
+    source: [text, fr]
+  - id: bastards
+    name: "Mały Jeb (m), Jeb Junior (m), Młoda (f)"
+    source: [text]
+    note: "„She got a fin on her”: the third bastard is a girl."
+  - id: princes
+    name: "McNeil (m), Francisco (f), Barrabas (m), Jebediah Chaste (m)"
+    source: [text]
+    note: "Francisco is a woman („her younger brother”, „Chaste's daughter”)."
+  - id: outlaws
+    name: "banici ogólnie"
+    gender: '?'
+    note: >
+      The game has separate "Fem" entries where the form depends on the outlaw's gender
+      (Ranny/Ranna). Without such a variant, a sentence about any outlaw is genderless
+      (e.g. "…Pals", "…JailPals" lines without the rescuer's gender).
+
+terms:
+  - en: outlaws?
+    pl: "banita"
+    forms: [banit, banic]
+    source: decision
+  - en: stunts?
+    pl: "popis"
+    forms: [popis, numer]
+    source: decision
+    note: "an outlaw's special move (gun tricks). In dialogue „stunt you pulled” = „numer”."
+  - en: juice
+    pl: "bimber"
+    forms: [bimb]
+    source: decision
+    note: "keys say „Shine” (moonshine); it powers stunts."
+  - en: showdowns?
+    pl: "starcie"
+    forms: [starci, starć]
+    source: decision
+  - en: aces?
+    pl: "as"
+    forms: [as, asy, asów]
+    source: decision
+  - en: pals?
+    pl: "kumpel"
+    forms: [kump, koleg]
+    source: decision
+  - en: backdoors?
+    pl: "furtka"
+    forms: [furt]
+    source: decision
+    note: "a portal releasing enemies; pun backdoor = tylna furtka."
+  - en: Glint
+    pl: "błysk"
+    forms: [błysk]
+    source: decision
+  - en: beans
+    pl: "fasola"
+    forms: [fasol]
+    source: decision
+  - en: beacons?
+    pl: "nadajnik"
+    forms: [nadajni]
+    source: decision
+  - en: snuff
+    pl: "tabaka"
+    forms: [tabak, tabacz]
+    source: decision
+    note: "keys „Kram”; a resource other than cramm (currency)."
+  - en: Chasteners?
+    pl: "Karzyciel"
+    forms: [karzyciel]
+    source: decision
+    note: "pun Chaste + chasten; capitalized as in the original."
+  - en: Homestead
+    pl: "Ostoja"
+    forms: [osto]
+    source: decision
+    note: "the haven the Drifter flies to; French „Bercail”."
+  - en: Wild Bastards
+    pl: "Dzikie Bękarty"
+    forms: [bękart, wild bastards]
+    source: decision
+    note: "the gang's name in dialogue; the game title stays English. „Bastards” are also Chaste's illegitimate children; bękart joins both meanings."
+  - en: Princes?
+    pl: "książę"
+    forms: [książ, księżn, księci, księcia]
+    source: decision
+  - en: bunch(es)?
+    pl: "grupa"
+    forms: [grup]
+    source: decision
+    note: "an outlaw squad on the planet map; „gang” = banda."
+  - en: roadblocks?
+    pl: "blokada"
+    forms: [blokad]
+    source: decision
+  - en: posses?
+    pl: "obława"
+    forms: [obław]
+    source: decision
+  - en: mods?
+    pl: "przedmiot"
+    forms: [przedmiot]
+    source: decision
+    note: "an outlaw's equipment; Polish „mod” would sound like a game modification."
+  - en: infamy
+    pl: "niesława"
+    forms: [niesław]
+    source: decision
+  - en: Hole in the Wall
+    pl: "Dziura w Murze"
+    forms: [dziur]
+    source: decision
+    note: "reference to Butch Cassidy's gang hideout."
+  - en: helix
+    pl: "helisa"
+    forms: [helis]
+    source: decision
+  - en: tonics?
+    pl: "tonik"
+    forms: [tonik]
+    source: decision
+  - en: stairway
+    pl: "schody"
+    forms: [schod]
+    source: decision
+  - en: jump lock
+    pl: "blokada skoku"
+    forms: [blokad]
+    source: decision
+  - en: gunhands?
+    pl: "rewolwerowiec"
+    forms: [rewolwerow]
+    source: decision
+  - en: yellowbell(y|ies)
+    pl: "cykor"
+    forms: [cykor]
+    source: decision
+    note: "yellowbelly = coward; an enemy hiding behind a shield."
+  - en: crankers?
+    pl: "korbiarz"
+    forms: [korbiar]
+    source: decision
+    note: "a gunner with a crank gatling."
+  - en: gunbarrels?|gunbuckets?|gun buckets?
+    pl: "lufa"
+    forms: [luf]
+    source: decision
+    note: "a turret posing as a barrel; name from the vertical."
+  - en: jackbox(es)?
+    pl: "skrzynka-pułapka"
+    forms: [skrzyn]
+    source: decision
+  - en: kyotes?
+    pl: "kojot"
+    forms: [kojot]
+    source: decision
+  - en: bushwhackers?
+    pl: "czatownik"
+    forms: [czatowni]
+    source: decision
+  - en: morticians?
+    pl: "grabarz"
+    forms: [grabar]
+    source: decision
+  - en: ironclads?
+    pl: "żelaźniak"
+    forms: [żelaźnia]
+    source: decision
+  - en: blasters?
+    pl: "wysadzacz"
+    forms: [wysadzacz]
+    source: decision
+  - en: stingers?
+    pl: "żądłak"
+    forms: [żądła]
+    source: decision
+  - en: Cruxmas
+    pl: "Gwiazdka Cruxa"
+    forms: [gwiazdk]
+    source: decision
+    note: "Jorge Crux is the local Jesus; the name stays."
+  - en: Stitch
+    pl: "Szew"
+    forms: [szew]
+    source: decision
+
+keep_english:
+  - Billy
+  - Rosa
+  - Kaboom
+  - Roswell
+  - Spike
+  - Casino
+  - Hopalong
+  - Fletch
+  - Smoky
+  - Rawhide
+  - Cuffs
+  - Legs
+  - Radium
+  - Barrabas
+  - Francisco
+  - McNeil
+  - Chaste
+  - Clancy
+  - Eugene
+  - Drifter
+  - Lucky Lady
+  - Jorge Crux
+  - cramm
+  - Calaveras
+  - Calavera
+  - Liza Jane
+  - Tempus Fugit
+  - Kicker
+  - Magnum
+  - Gatling
+  - Lasso
+  - Laser
+  - Proton
+  - Patrol
+  - Bank
+  - Teleporter
+  - Nitro
+  - Warp
+  - Plan
+  - Sierra
+  - Amigo
+  - Hombre de Acero
+  - Ironman
+  - Ultra
+  - Demo
+  - Start
+  - Super
+  - OK
+  - FOV
+  - Gamma
+  - Sprint
+  - Surround
+  - Menu
+  - Wild Bastards
+  - '[BLANK]'
+  - Blah
+  - hello
+  - <deprecated>
+
+settings:
+  dialog_key: '^Dialog/'
+  max_line: 42
+
+ignore:
+  - check: consistency
+    key: '^(HUD/Dead|UIMG/Injured|Options/(AccelerationOne|Normal|StandardResponse|AccelerationTwo|High|Q2))(Fem)?$'
+    reason: "the game's gendered variants (Fem) and agreement with the setting's noun (przyspieszenie, jakość, krzywa)."
+  - check: terms
+    key: '^(Hint/(CasinoStunt|Gambler)|TalentDesc/(KABOOM_SNEAKY|LAIKA_CHARGE_SHIELDING))$'
+    reason: "the word „stunt” replaced by the stunt's name (Ruletka, Odpalenie, niewidzialność)."
+  - check: terms
+    key: '^Dialog/(RosaInitArg_2|DogwoodSector_6|Frontier_2|AstronautJudgeArg_1)$'
+    reason: "in dialogue „stunt” = numer, „shine” = lśnić, „pal” = kolego; not game terms."
+  - check: terms
+    key: '^(TalentRank/\d|TraitName/GoodItems|Location/ItemShop|InteractionDescription/Barricade|Hint/ScatterFind)$'
+    reason: ace rank without the word „mod”; deliberate synonyms (łupy, handlarz, zapora, ci, którzy znajdą).

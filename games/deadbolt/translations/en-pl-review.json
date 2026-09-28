@@ -1,0 +1,3716 @@
+[
+  {
+    "key": "s1945",
+    "english": "Return To Game",
+    "polish": "Powrót do gry",
+    "context": "oPause_Create_0"
+  },
+  {
+    "key": "s1946",
+    "english": "Audio Settings",
+    "polish": "Ustawienia dźwięku",
+    "context": "oPause_Create_0"
+  },
+  {
+    "key": "s1947",
+    "english": "Video Settings",
+    "polish": "Ustawienia obrazu",
+    "context": "oPause_Create_0"
+  },
+  {
+    "key": "s1948",
+    "english": "Quit to Main Menu",
+    "polish": "Wyjdź do menu głównego",
+    "context": "oPause_Create_0"
+  },
+  {
+    "key": "s1949",
+    "english": "Restart Mission",
+    "polish": "Powtórz misję",
+    "context": "oPause_Create_0"
+  },
+  {
+    "key": "s1950",
+    "english": "Quit Mission",
+    "polish": "Przerwij misję",
+    "context": "oPause_Create_0"
+  },
+  {
+    "key": "s222@gml_Object_oPause_Create_0",
+    "english": "Controls",
+    "polish": "Sterowanie",
+    "context": "tylko gml_Object_oPause_Create_0"
+  },
+  {
+    "key": "s1798",
+    "english": "Back",
+    "polish": "Wstecz",
+    "context": "oLoadGame_Draw_0, oNewGame_Draw_0, oLoadCustom_Draw_0, oPause_Create_0"
+  },
+  {
+    "key": "s1955",
+    "english": "SFX Volume: ",
+    "polish": "Głośność efektów: ",
+    "context": "oPause_Create_0"
+  },
+  {
+    "key": "s1956",
+    "english": "Music Volume: ",
+    "polish": "Głośność muzyki: ",
+    "context": "oPause_Create_0, oPause_Step_2"
+  },
+  {
+    "key": "s1957",
+    "english": "Diegetic Music: ",
+    "polish": "Muzyka z otoczenia: ",
+    "context": "oPause_Create_0"
+  },
+  {
+    "key": "s1960",
+    "english": "Graphics: ",
+    "polish": "Grafika: ",
+    "context": "oPause_Create_0"
+  },
+  {
+    "key": "s1961",
+    "english": "Flashing Lights: ",
+    "polish": "Migające światła: ",
+    "context": "oPause_Create_0"
+  },
+  {
+    "key": "s1962",
+    "english": "Super Sampling: ",
+    "polish": "Supersampling: ",
+    "context": "oPause_Create_0"
+  },
+  {
+    "key": "s1963",
+    "english": "Gore/Blood: ",
+    "polish": "Krew i flaki: ",
+    "context": "oPause_Create_0"
+  },
+  {
+    "key": "s1964",
+    "english": "Fullscreen: ",
+    "polish": "Pełny ekran: ",
+    "context": "oPause_Create_0"
+  },
+  {
+    "key": "s1966",
+    "english": "Yes, Quit Mission",
+    "polish": "Tak, przerwij misję",
+    "context": "oPause_Create_0"
+  },
+  {
+    "key": "s1967",
+    "english": "No, Return",
+    "polish": "Nie, wróć",
+    "context": "oPause_Create_0"
+  },
+  {
+    "key": "s1969",
+    "english": "Yes, Quit to Main Menu",
+    "polish": "Tak, wyjdź do menu głównego",
+    "context": "oPause_Create_0"
+  },
+  {
+    "key": "s2002",
+    "english": "Master Volume: ",
+    "polish": "Głośność ogólna: ",
+    "context": "oPause_Step_2"
+  },
+  {
+    "key": "s2004",
+    "english": "Diegetic Music: &y&On&!&",
+    "polish": "Muzyka z otoczenia: &y&wł.&!&",
+    "context": "oPause_Step_2"
+  },
+  {
+    "key": "s2005",
+    "english": "Diegetic Music: &dk&Off&!&",
+    "polish": "Muzyka z otoczenia: &dk&wył.&!&",
+    "context": "oPause_Step_2"
+  },
+  {
+    "key": "s2006",
+    "english": "V-Sync: On",
+    "polish": "V-Sync: wł.",
+    "context": "oPause_Step_2"
+  },
+  {
+    "key": "s2007",
+    "english": "V-Sync: &dk&Off&!&",
+    "polish": "V-Sync: &dk&wył.&!&",
+    "context": "oPause_Step_2"
+  },
+  {
+    "key": "s2008",
+    "english": "Gore/Blood: On",
+    "polish": "Krew i flaki: wł.",
+    "context": "oPause_Step_2"
+  },
+  {
+    "key": "s2009",
+    "english": "Gore/Blood: &dk&Off&!&",
+    "polish": "Krew i flaki: &dk&wył.&!&",
+    "context": "oPause_Step_2"
+  },
+  {
+    "key": "s2010",
+    "english": "Fullscreen: On",
+    "polish": "Pełny ekran: wł.",
+    "context": "oPause_Step_2"
+  },
+  {
+    "key": "s2011",
+    "english": "Fullscreen: &dk&Off&!&",
+    "polish": "Pełny ekran: &dk&wył.&!&",
+    "context": "oPause_Step_2"
+  },
+  {
+    "key": "s2012",
+    "english": "Graphics: Low",
+    "polish": "Grafika: niska",
+    "context": "oPause_Step_2"
+  },
+  {
+    "key": "s2013",
+    "english": "Graphics: Medium",
+    "polish": "Grafika: średnia",
+    "context": "oPause_Step_2"
+  },
+  {
+    "key": "s2014",
+    "english": "Graphics: High",
+    "polish": "Grafika: wysoka",
+    "context": "oPause_Step_2"
+  },
+  {
+    "key": "s2015",
+    "english": "Flashing Lights: &dk&Off&!&",
+    "polish": "Migające światła: &dk&wył.&!&",
+    "context": "oPause_Step_2"
+  },
+  {
+    "key": "s2016",
+    "english": "Flashing Lights: On",
+    "polish": "Migające światła: wł.",
+    "context": "oPause_Step_2"
+  },
+  {
+    "key": "s2017",
+    "english": "Interpolation: &dk&Off&!&",
+    "polish": "Interpolacja: &dk&wył.&!&",
+    "context": "oPause_Step_2"
+  },
+  {
+    "key": "s2018",
+    "english": "Interpolation: On",
+    "polish": "Interpolacja: wł.",
+    "context": "oPause_Step_2"
+  },
+  {
+    "key": "s2019",
+    "english": "&dk&Interpolation: N/A&!&",
+    "polish": "&dk&Interpolacja: niedostępna&!&",
+    "context": "oPause_Step_2"
+  },
+  {
+    "key": "s1987",
+    "english": "Move Left: &y&",
+    "polish": "W lewo: &y&",
+    "context": "oPause_Step_2"
+  },
+  {
+    "key": "s1988",
+    "english": "Move Right: &y&",
+    "polish": "W prawo: &y&",
+    "context": "oPause_Step_2"
+  },
+  {
+    "key": "s1989",
+    "english": "Move Up: &y&",
+    "polish": "W górę: &y&",
+    "context": "oPause_Step_2"
+  },
+  {
+    "key": "s1990",
+    "english": "Move Down: &y&",
+    "polish": "W dół: &y&",
+    "context": "oPause_Step_2"
+  },
+  {
+    "key": "s1991",
+    "english": "Enter Staircase: &y&",
+    "polish": "Wejdź na schody: &y&",
+    "context": "oPause_Step_2"
+  },
+  {
+    "key": "s1992",
+    "english": "Use/Enter: &y&",
+    "polish": "Użyj/wejdź: &y&",
+    "context": "oPause_Step_2"
+  },
+  {
+    "key": "s1993",
+    "english": "Use (Alternate): &y&",
+    "polish": "Użyj (alternatywnie): &y&",
+    "context": "oPause_Step_2"
+  },
+  {
+    "key": "s1994",
+    "english": "Raise Gun: &y&",
+    "polish": "Unieś broń: &y&",
+    "context": "oPause_Step_2"
+  },
+  {
+    "key": "s1995",
+    "english": "Shoot/Enter: &y&",
+    "polish": "Strzel/zatwierdź: &y&",
+    "context": "oPause_Step_2"
+  },
+  {
+    "key": "s1996",
+    "english": "Change Weapon: &y&",
+    "polish": "Zmień broń: &y&",
+    "context": "oPause_Step_2"
+  },
+  {
+    "key": "s1997",
+    "english": "Change Weapon (Up): &y&",
+    "polish": "Zmień broń (w górę): &y&",
+    "context": "oPause_Step_2"
+  },
+  {
+    "key": "s1998",
+    "english": "Change Weapon (Down): &y&",
+    "polish": "Zmień broń (w dół): &y&",
+    "context": "oPause_Step_2"
+  },
+  {
+    "key": "s6307",
+    "english": "Pick Up Weapon (Standalone): &y&",
+    "polish": "Podnieś broń (osobny klawisz): &y&",
+    "context": "oPause_Step_2"
+  },
+  {
+    "key": "s6308",
+    "english": "Sniper Support: &y&",
+    "polish": "Wsparcie snajpera: &y&",
+    "context": "oPause_Step_2"
+  },
+  {
+    "key": "s6309",
+    "english": "Quick Restart: &y&",
+    "polish": "Szybki restart: &y&",
+    "context": "oPause_Step_2"
+  },
+  {
+    "key": "s1999",
+    "english": "Reset to default",
+    "polish": "Przywróć domyślne",
+    "context": "oPause_Step_2"
+  },
+  {
+    "key": "s2000",
+    "english": "Gamepad: &y&On&!&",
+    "polish": "Pad: &y&wł.&!&",
+    "context": "oPause_Step_2"
+  },
+  {
+    "key": "s2001",
+    "english": "Gamepad: &dk&Off&!&",
+    "polish": "Pad: &dk&wył.&!&",
+    "context": "oPause_Step_2"
+  },
+  {
+    "key": "s2024",
+    "english": "&w&Press Any Key&!&",
+    "polish": "&w&Naciśnij dowolny klawisz&!&",
+    "context": "oPause_Other_10"
+  },
+  {
+    "key": "s6311",
+    "english": "UNBOUND",
+    "polish": "BRAK",
+    "context": "script bstep_default, script step_default, script string_key, script draw_weapon"
+  },
+  {
+    "key": "s751",
+    "english": "SPACE",
+    "polish": "SPACJA",
+    "context": "script string_key"
+  },
+  {
+    "key": "s756",
+    "english": "LEFT ARROW",
+    "polish": "STRZAŁKA W LEWO",
+    "context": "script string_key"
+  },
+  {
+    "key": "s757",
+    "english": "RIGHT ARROW",
+    "polish": "STRZAŁKA W PRAWO",
+    "context": "script string_key"
+  },
+  {
+    "key": "s758",
+    "english": "UP ARROW",
+    "polish": "STRZAŁKA W GÓRĘ",
+    "context": "script string_key"
+  },
+  {
+    "key": "s759",
+    "english": "DOWN ARROW",
+    "polish": "STRZAŁKA W DÓŁ",
+    "context": "script string_key"
+  },
+  {
+    "key": "s801",
+    "english": "Left Mouse Button",
+    "polish": "Lewy przycisk myszy",
+    "context": "script string_mouse"
+  },
+  {
+    "key": "s802",
+    "english": "Right Mouse Button",
+    "polish": "Prawy przycisk myszy",
+    "context": "script string_mouse"
+  },
+  {
+    "key": "s803",
+    "english": "Middle Mouse Button",
+    "polish": "Środkowy przycisk myszy",
+    "context": "script string_mouse"
+  },
+  {
+    "key": "s720",
+    "english": "Wheel Up",
+    "polish": "Kółko w górę",
+    "context": "script refresh_control_string"
+  },
+  {
+    "key": "s721",
+    "english": "Wheel Down",
+    "polish": "Kółko w dół",
+    "context": "script refresh_control_string"
+  },
+  {
+    "key": "s1782",
+    "english": "Delete Save",
+    "polish": "Usuń zapis",
+    "context": "oLoadGame_Draw_0"
+  },
+  {
+    "key": "s1789",
+    "english": "Load Game",
+    "polish": "Wczytaj grę",
+    "context": "oLoadGame_Draw_0"
+  },
+  {
+    "key": "s1794",
+    "english": "% Completed",
+    "polish": "% ukończenia",
+    "context": "oLoadGame_Draw_0"
+  },
+  {
+    "key": "s1796",
+    "english": "Empty",
+    "polish": "Pusty",
+    "context": "oLoadGame_Draw_0, oLoadCustom_Draw_0"
+  },
+  {
+    "key": "s1807",
+    "english": "Choose Difficulty",
+    "polish": "Wybierz poziom trudności",
+    "context": "oNewGame_Draw_0"
+  },
+  {
+    "key": "s1808",
+    "english": "New Game &y&(Normal)&!&",
+    "polish": "Nowa gra &y&(normalny)&!&",
+    "context": "oNewGame_Draw_0"
+  },
+  {
+    "key": "s1809",
+    "english": "New Game&r&(Hard)&!&",
+    "polish": "Nowa gra &r&(trudny)&!&",
+    "context": "oNewGame_Draw_0"
+  },
+  {
+    "key": "s1863",
+    "english": "Load Custom Map",
+    "polish": "Wczytaj własną mapę",
+    "context": "oLoadCustom_Draw_0"
+  },
+  {
+    "key": "s1815",
+    "english": "For custom map installation, see README.txt in program directory.",
+    "polish": "Instalacja własnych map: zobacz README.txt w katalogu gry.",
+    "context": "oLoadCustom_Create_0"
+  },
+  {
+    "key": "s1846",
+    "english": "Loading...",
+    "polish": "Wczytywanie...",
+    "context": "oLoadCustom_Create_0"
+  },
+  {
+    "key": "s1940",
+    "english": "WARNING",
+    "polish": "OSTRZEŻENIE",
+    "context": "oLogo_Draw_0"
+  },
+  {
+    "key": "s1941",
+    "english": "This game contains rapidly flashing lights. If you have a history of seizures or epilepsy, disable 'Flashing Lights' in the options or consult a physician before playing.##This game also contains topics of death and suicide.",
+    "polish": "Ta gra zawiera szybko migające światła. Jeśli chorujesz na padaczkę lub miewasz napady drgawek, wyłącz 'Migające światła' w opcjach albo przed grą skonsultuj się z lekarzem.##Gra porusza też tematy śmierci i samobójstwa.",
+    "context": "oLogo_Draw_0"
+  },
+  {
+    "key": "s698",
+    "english": "Hard Mode unlocked! Access in 'New Game'",
+    "polish": "Odblokowano tryb trudny! Wybierz go w 'Nowa gra'",
+    "context": "script exit_room"
+  },
+  {
+    "key": "s1638",
+    "english": "'&!&: CHOOSE MISSION#&r&'",
+    "polish": "'&!&: WYBIERZ MISJĘ#&r&'",
+    "context": "oAptTable_Create_0"
+  },
+  {
+    "key": "s1639",
+    "english": "'&!&: ACHIEVEMENTS",
+    "polish": "'&!&: OSIĄGNIĘCIA",
+    "context": "oAptTable_Create_0"
+  },
+  {
+    "key": "s1641",
+    "english": "'&!&: FIX PHOTO",
+    "polish": "'&!&: POPRAW ZDJĘCIE",
+    "context": "oAptBedside_Create_0"
+  },
+  {
+    "key": "s1645",
+    "english": "'&!&: SIT AND TALK#&r&'",
+    "polish": "'&!&: USIĄDŹ I POROZMAWIAJ#&r&'",
+    "context": "oAptChair_Create_0"
+  },
+  {
+    "key": "s1646",
+    "english": "'&!&: SIT",
+    "polish": "'&!&: USIĄDŹ",
+    "context": "oAptChair_Create_0"
+  },
+  {
+    "key": "s1647",
+    "english": "'&!&: SIT AND TALK",
+    "polish": "'&!&: USIĄDŹ I POROZMAWIAJ",
+    "context": "oAptChair2_Create_0"
+  },
+  {
+    "key": "s1648",
+    "english": "'&!&: GO TO DOCKS",
+    "polish": "'&!&: IDŹ DO DOKÓW",
+    "context": "oAptStairwell_Create_0"
+  },
+  {
+    "key": "s1651",
+    "english": "'&!&: LISTEN TO CASSETTES",
+    "polish": "'&!&: SŁUCHAJ KASET",
+    "context": "oAptCassette_Create_0"
+  },
+  {
+    "key": "s1624",
+    "english": "'&!&: TURN OFF",
+    "polish": "'&!&: WYŁĄCZ",
+    "context": "oAptLamp_Step_2, oAptRecord_Create_0, oAptRecord_Step_2"
+  },
+  {
+    "key": "s1625",
+    "english": "'&!&: TURN ON",
+    "polish": "'&!&: WŁĄCZ",
+    "context": "oAptLamp_Step_2, oAptRecord_Step_2"
+  },
+  {
+    "key": "s1675",
+    "english": "'&!&: CHANGE SONG",
+    "polish": "'&!&: ZMIEŃ UTWÓR",
+    "context": "oJukebox_Create_0"
+  },
+  {
+    "key": "s1753",
+    "english": "You open the tape deck.",
+    "polish": "Otwierasz magnetofon.",
+    "context": "oCassette_Create_0"
+  },
+  {
+    "key": "s1768",
+    "english": "-click-###",
+    "polish": "-klik-###",
+    "context": "oCassette_Other_10"
+  },
+  {
+    "key": "s1102",
+    "english": "'&!&: OPEN DOOR#&r&'",
+    "polish": "'&!&: OTWÓRZ DRZWI#&r&'",
+    "context": "oDoorElevator_Create_0, oDoor1_Create_0, oDoor2_Step_2, oDoor4_Create_0"
+  },
+  {
+    "key": "s1107",
+    "english": "'&!&: KNOCK",
+    "polish": "'&!&: ZAPUKAJ",
+    "context": "oDoor1_Create_0, oDoor2_Create_0, oDoor2_Step_2, oDoor3_Create_0"
+  },
+  {
+    "key": "s1109",
+    "english": "'&!&: PICK LOCK#&r&'",
+    "polish": "'&!&: OTWÓRZ WYTRYCHEM#&r&'",
+    "context": "oDoor2_Create_0"
+  },
+  {
+    "key": "s1111",
+    "english": "'&!&: PICK DOOR#&r&'",
+    "polish": "'&!&: OTWÓRZ WYTRYCHEM#&r&'",
+    "context": "oDoor2_Step_2"
+  },
+  {
+    "key": "s1057",
+    "english": "'&!&: OPEN DOOR#",
+    "polish": "'&!&: OTWÓRZ DRZWI#",
+    "context": "oCrate1_Create_0"
+  },
+  {
+    "key": "s1431",
+    "english": "'&!&: PICK LOCK",
+    "polish": "'&!&: OTWÓRZ WYTRYCHEM",
+    "context": "oCrateMeat_Create_0, oCrateMeat_Step_2"
+  },
+  {
+    "key": "s1432",
+    "english": "'&!&: OPEN DOOR",
+    "polish": "'&!&: OTWÓRZ DRZWI",
+    "context": "oCrateMeat_Step_2"
+  },
+  {
+    "key": "s1438",
+    "english": "&y&'E'&!&: PICK LOCK",
+    "polish": "&y&'E'&!&: OTWÓRZ WYTRYCHEM",
+    "context": "oSafe1_Create_0"
+  },
+  {
+    "key": "s1439",
+    "english": "&y&'E'&!&: OPEN SAFE",
+    "polish": "&y&'E'&!&: OTWÓRZ SEJF",
+    "context": "oSafe2_Create_0"
+  },
+  {
+    "key": "s1066",
+    "english": "'&!&: CALL ELEVATOR",
+    "polish": "'&!&: WEZWIJ WINDĘ",
+    "context": "oElevator1Button_Create_0, oElevatorDoor1_Step_2"
+  },
+  {
+    "key": "s1078",
+    "english": "'&!&: ENTER",
+    "polish": "'&!&: WEJDŹ",
+    "context": "oElevatorDoor1_Step_2"
+  },
+  {
+    "key": "s1080",
+    "english": "'&!&: ENTER ELEVATOR",
+    "polish": "'&!&: WSIĄDŹ DO WINDY",
+    "context": "oElevatorDoor1_Step_2"
+  },
+  {
+    "key": "s1118",
+    "english": "'&!&: USE STAIRS",
+    "polish": "'&!&: IDŹ SCHODAMI",
+    "context": "oStairwell1_Create_0, oPControl_Draw_73"
+  },
+  {
+    "key": "s1526",
+    "english": "'&!&: PICKUP ",
+    "polish": "'&!&: WEŹ BROŃ: ",
+    "context": "oPControl_Draw_73"
+  },
+  {
+    "key": "s1528",
+    "english": "'&!&: EXIT VENT ",
+    "polish": "'&!&: WYJDŹ Z WENTYLACJI ",
+    "context": "oPControl_Draw_73"
+  },
+  {
+    "key": "s1691",
+    "english": "'&!&: ENTER VENT",
+    "polish": "'&!&: WEJDŹ DO WENTYLACJI",
+    "context": "oSewer_Create_0, oVent1_Create_0, oVent2_Create_0, oVent3_Create_0"
+  },
+  {
+    "key": "s1547",
+    "english": "'&!&: CHANGE WEAPONS",
+    "polish": "'&!&: ZMIEŃ BROŃ",
+    "context": "oCar_Create_0"
+  },
+  {
+    "key": "s1553",
+    "english": "'&!&: ENTER CAR",
+    "polish": "'&!&: WSIĄDŹ DO AUTA",
+    "context": "oCar_Step_2"
+  },
+  {
+    "key": "s1556",
+    "english": "&!&: Exit",
+    "polish": "&!&: Wyjdź",
+    "context": "oCar_Draw_73, oAchievementScreen_Draw_73, oCassette_Draw_0, oLockGame_Draw_73"
+  },
+  {
+    "key": "s1592",
+    "english": "'&!&: SWITCH LIGHT",
+    "polish": "'&!&: PRZEŁĄCZ ŚWIATŁO",
+    "context": "oLightswitch1_Create_0"
+  },
+  {
+    "key": "s2547",
+    "english": "'&!& COVER",
+    "polish": "'&!& SCHOWAJ SIĘ",
+    "context": "pCover_Create_0"
+  },
+  {
+    "key": "s1504",
+    "english": "Kill all &r&undead.&!&",
+    "polish": "Zabij wszystkich &r&nieumarłych.&!&",
+    "context": "oPControl_Step_2"
+  },
+  {
+    "key": "s1498",
+    "english": "Kill &r&",
+    "polish": "Zabij: &r&",
+    "context": "oPControl_Step_2"
+  },
+  {
+    "key": "s704",
+    "english": "Stage cleared. Return to your &y&car.&!&",
+    "polish": "Poziom zaliczony. Wróć do &y&samochodu.&!&",
+    "context": "script advance_mission"
+  },
+  {
+    "key": "s706",
+    "english": "Continue to the &y&exit.&!&",
+    "polish": "Idź do &y&wyjścia.&!&",
+    "context": "script advance_mission"
+  },
+  {
+    "key": "s1249",
+    "english": "Talk to the &y&flames.&!&",
+    "polish": "Porozmawiaj z &y&płomieniami.&!&",
+    "context": "oSkeleBoss2Body_Other_7"
+  },
+  {
+    "key": "s2146",
+    "english": "Mission Unlocked",
+    "polish": "Misja odblokowana",
+    "context": "oDialogueTree_Draw_0"
+  },
+  {
+    "key": "s2154",
+    "english": "Objective Complete",
+    "polish": "Cel wykonany",
+    "context": "oDialogueTree_Draw_0"
+  },
+  {
+    "key": "s2124",
+    "english": "Select Mission",
+    "polish": "Wybierz misję",
+    "context": "oMissionSelect_Draw_0"
+  },
+  {
+    "key": "s2228",
+    "english": "Dead Simple",
+    "polish": "Śmiertelnie proste",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2229",
+    "english": "Kill all undead.",
+    "polish": "Zabij wszystkich nieumarłych.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2230",
+    "english": "Noisy Neighbours",
+    "polish": "Hałaśliwi sąsiedzi",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2231",
+    "english": "New High",
+    "polish": "Nowy haj",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2232",
+    "english": "The zombies are selling some strange drug. Find out what it is.",
+    "polish": "Zombie sprzedają jakiś dziwny narkotyk. Dowiedz się, co to jest.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2233",
+    "english": "Smoke Signals",
+    "polish": "Sygnały dymne",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2234",
+    "english": "Let's get the attention of their leader. Burn all their drugs.",
+    "polish": "Zwróćmy na siebie uwagę ich szefa. Spal wszystkie ich narkotyki.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2202",
+    "english": "Press '",
+    "polish": "Naciśnij '",
+    "context": "oStat_Draw_0"
+  },
+  {
+    "key": "s2203",
+    "english": "' to continue",
+    "polish": "', aby kontynuować",
+    "context": "oStat_Draw_0"
+  },
+  {
+    "key": "s2204",
+    "english": "Time: &r&",
+    "polish": "Czas: &r&",
+    "context": "oStat_Draw_0"
+  },
+  {
+    "key": "s2206",
+    "english": "Deaths: &r&",
+    "polish": "Zgony: &r&",
+    "context": "oStat_Draw_0"
+  },
+  {
+    "key": "s2207",
+    "english": "Kills: &r&",
+    "polish": "Zabójstwa: &r&",
+    "context": "oStat_Draw_0"
+  },
+  {
+    "key": "s2208",
+    "english": "Accuracy: &r&",
+    "polish": "Celność: &r&",
+    "context": "oStat_Draw_0"
+  },
+  {
+    "key": "s2210",
+    "english": "Headshot Hits: &r&",
+    "polish": "Trafienia w głowę: &r&",
+    "context": "oStat_Draw_0"
+  },
+  {
+    "key": "s2211",
+    "english": "RANK: ",
+    "polish": "OCENA: ",
+    "context": "oStat_Draw_0"
+  },
+  {
+    "key": "s2212",
+    "english": "SOULS GAINED: &b&",
+    "polish": "ZDOBYTE DUSZE: &b&",
+    "context": "oStat_Draw_0"
+  },
+  {
+    "key": "s2213",
+    "english": "TOTAL SOULS: &b&",
+    "polish": "DUSZE ŁĄCZNIE: &b&",
+    "context": "oStat_Draw_0"
+  },
+  {
+    "key": "s6314",
+    "english": "Total Time: &r&",
+    "polish": "Łączny czas: &r&",
+    "context": "oStat_Draw_0"
+  },
+  {
+    "key": "s1729",
+    "english": "Some stages have multiple entrances - try another one.",
+    "polish": "Niektóre poziomy mają kilka wejść - spróbuj innego.",
+    "context": "oTip_Create_0"
+  },
+  {
+    "key": "s1731",
+    "english": "Try switching to a different weapon.",
+    "polish": "Spróbuj zmienić broń.",
+    "context": "oTip_Create_0"
+  },
+  {
+    "key": "s1732",
+    "english": "Try purchasing a different weapon - if you have the souls.",
+    "polish": "Spróbuj kupić inną broń - jeśli masz dość dusz.",
+    "context": "oTip_Create_0"
+  },
+  {
+    "key": "s1733",
+    "english": "Remember to conserve powerful ammo for stronger enemies.",
+    "polish": "Oszczędzaj mocną amunicję na silniejszych wrogów.",
+    "context": "oTip_Create_0"
+  },
+  {
+    "key": "s1734",
+    "english": "Knocking can split enemies apart, making it easier.",
+    "polish": "Pukanie pozwala rozdzielić wrogów - wtedy jest łatwiej.",
+    "context": "oTip_Create_0"
+  },
+  {
+    "key": "s1735",
+    "english": "Remember to use cover.",
+    "polish": "Pamiętaj o osłonach.",
+    "context": "oTip_Create_0"
+  },
+  {
+    "key": "s1736",
+    "english": "Make sure to check the mission objective.",
+    "polish": "Sprawdzaj cel misji.",
+    "context": "oTip_Create_0"
+  },
+  {
+    "key": "s1737",
+    "english": "Vents can help you flank enemies.",
+    "polish": "Wentylacją możesz zajść wrogów z boku.",
+    "context": "oTip_Create_0"
+  },
+  {
+    "key": "s1738",
+    "english": "Try a different sequence.",
+    "polish": "Spróbuj innej kolejności.",
+    "context": "oTip_Create_0"
+  },
+  {
+    "key": "s1739",
+    "english": "If your current strategy isn't working, try something else.",
+    "polish": "Jeśli obecna taktyka nie działa, spróbuj czegoś innego.",
+    "context": "oTip_Create_0"
+  },
+  {
+    "key": "s1740",
+    "english": "If you can't make progress, take a break and come back with a fresh perspective.",
+    "polish": "Jeśli nie możesz ruszyć dalej, zrób przerwę i wróć ze świeżą głową.",
+    "context": "oTip_Create_0"
+  },
+  {
+    "key": "s1741",
+    "english": "Remember to keep cool! You'll have a harder time playing if frustrated.",
+    "polish": "Zachowaj spokój! Z nerwami gra się trudniej.",
+    "context": "oTip_Create_0"
+  },
+  {
+    "key": "s1742",
+    "english": "You have died ",
+    "polish": "Liczba zgonów: ",
+    "context": "oTip_Create_0"
+  },
+  {
+    "key": "s1743",
+    "english": " times. Try a different strategy!",
+    "polish": ". Spróbuj innej taktyki!",
+    "context": "oTip_Create_0"
+  },
+  {
+    "key": "s2593",
+    "english": "Another night.",
+    "polish": "Kolejna noc.",
+    "context": "Timeline_tl_intro_0"
+  },
+  {
+    "key": "s2594",
+    "english": "Oh - you're finally back.",
+    "polish": "O - wreszcie wróciłeś.",
+    "context": "Timeline_tl_first_mission_0"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission0/Name",
+    "english": "Mission",
+    "polish": "Misja",
+    "context": "dialog dia_fp.json/map_mission0/Name"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission0/Description",
+    "english": "\"How did you get here?\"",
+    "polish": "\"Jak tu trafiłeś?\"",
+    "context": "dialog dia_fp.json/map_mission0/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission0/Dialogue",
+    "english": "The flames roar to life.",
+    "polish": "Płomienie z rykiem budzą się do życia.",
+    "context": "dialog dia_fp.json/map_mission0/Dialogue"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission0/map_intel/Name",
+    "english": "Intel",
+    "polish": "Wywiad",
+    "context": "dialog dia_fp.json/map_mission0/map_intel/Name"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission1/Dialogue",
+    "english": "The flames roar to life - and a voice speaks out. \"Another life, well returned!\"",
+    "polish": "Płomienie z rykiem budzą się do życia - i odzywa się głos: \"Kolejne życie, zwrócone jak należy!\"",
+    "context": "dialog dia_fp.json/map_mission1/Dialogue"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission1/Description",
+    "english": "\"My Candles tell me tales,#&y&Undead&!& form and blossom#Find their abode and knock,#And free them from their jails.\" ##The flames never spoke in prose.",
+    "polish": "\"Świece szepczą mi wieści:#&y&Nieumarli&!& wciąż się mnożą.#Znajdź ich dom i zapukaj,#niech ich cele się otworzą.\" ##Płomienie nigdy nie mówiły prozą.",
+    "context": "dialog dia_fp.json/map_mission1/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission1/map_zombie/Name",
+    "english": "Undead",
+    "polish": "Nieumarli",
+    "context": "dialog dia_fp.json/map_mission1/map_zombie/Name"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission1/map_zombie/Description",
+    "english": "The fire licks and sneers. Undead, zombies included, must be helped towards the afterlife.",
+    "polish": "Ogień liże i szydzi. Nieumarłym, także zombie, trzeba pomóc przejść na tamten świat.",
+    "context": "dialog dia_fp.json/map_mission1/map_zombie/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission1/map_intel/Description",
+    "english": "Undead are easiest to kill when alone.",
+    "polish": "Nieumarłych najłatwiej zabić, gdy są sami.",
+    "context": "dialog dia_fp.json/map_mission1/map_intel/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission2/Description",
+    "english": "\"The undead begin to crop#strange &b&powders&!& from below.#Incite the flame -#eject their brains!#And see what it contains.\"",
+    "polish": "\"Nieumarli z głębi ziemi#dziwne &b&proszki&!& zbierają.#Rozpal płomień -#łby im rozwal!#Sprawdź, co w sobie chowają.\"",
+    "context": "dialog dia_fp.json/map_mission2/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission2/map_intel/Description",
+    "english": "There's a &y&bouncer&!& on the far side of the house. I can kill him to get his weapon.",
+    "polish": "Po drugiej stronie domu stoi &y&bramkarz&!&. Mogę go zabić i zabrać mu broń.",
+    "context": "dialog dia_fp.json/map_mission2/map_intel/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission2/map_intel/map_bouncer/Name",
+    "english": "bouncer",
+    "polish": "bramkarz",
+    "context": "dialog dia_fp.json/map_mission2/map_intel/map_bouncer/Name"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission2/map_intel/map_bouncer/Description",
+    "english": "Large zombies with shotguns. Takes a few shots to the head to bring them down.",
+    "polish": "Wielkie zombie ze strzelbami. Trzeba kilku strzałów w głowę, żeby padły.",
+    "context": "dialog dia_fp.json/map_mission2/map_intel/map_bouncer/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission2/map_drugs/Name",
+    "english": "powders",
+    "polish": "proszki",
+    "context": "dialog dia_fp.json/map_mission2/map_drugs/Name"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission2/map_drugs/Description",
+    "english": "A new drug called \"ash.\" His candles say that it makes you feel like you're alive again. The flames - my employer - want to know more.",
+    "polish": "Nowy narkotyk zwany \"popiołem\". Jego Świece mówią, że dzięki niemu znów czujesz się żywy. Płomienie - mój pracodawca - chcą wiedzieć więcej.",
+    "context": "dialog dia_fp.json/map_mission2/map_drugs/Description"
+  },
+  {
+    "key": "s2648",
+    "english": "Press 'Q' over an enemy or light, and we'll take it out!",
+    "polish": "Najedź na wroga albo lampę i naciśnij 'Q', a my to załatwimy!",
+    "context": "Timeline_timeline23_0"
+  },
+  {
+    "key": "s2649",
+    "english": "...candles doing reaper work...this would've never happened before...",
+    "polish": "...Świece odwalają robotę żniwiarza... kiedyś by się to nie zdarzyło...",
+    "context": "Timeline_timeline23_1"
+  },
+  {
+    "key": "s2608",
+    "english": "We've got guns on every floor, reaper. Go home.",
+    "polish": "Mamy spluwy na każdym piętrze, żniwiarzu. Wracaj do domu.",
+    "context": "Timeline_tl_lv1_10_1_0"
+  },
+  {
+    "key": "s2609",
+    "english": "Go home to boss, reaper.",
+    "polish": "Wracaj do szefa, żniwiarzu.",
+    "context": "Timeline_tl_lv1_10_1_0"
+  },
+  {
+    "key": "s2610",
+    "english": "We know you're here, reaper. Go home.",
+    "polish": "Wiemy, że tu jesteś, żniwiarzu. Wracaj do domu.",
+    "context": "Timeline_tl_lv1_10_1_0"
+  },
+  {
+    "key": "s2591",
+    "english": "...just look...",
+    "polish": "...tylko popatrz...",
+    "context": "Timeline_tl_lv1_2_1_0"
+  },
+  {
+    "key": "s2592",
+    "english": "Can't touch... Roland said no..",
+    "polish": "Nie ruszać... Roland zabronił..",
+    "context": "Timeline_tl_lv1_2_1_0"
+  },
+  {
+    "key": "s2598",
+    "english": "Roland... I think he's here...!",
+    "polish": "Roland... on chyba tu jest...!",
+    "context": "Timeline_tl_lv1_4_1_0"
+  },
+  {
+    "key": "s2599",
+    "english": "...Roland! Pick up!",
+    "polish": "...Roland! Odbierz!",
+    "context": "Timeline_tl_lv1_4_1_0"
+  },
+  {
+    "key": "s2600",
+    "english": "It doesn't look well. The candle is clutching a note.",
+    "polish": "Nie wygląda najlepiej. Świeca ściska w dłoni liścik.",
+    "context": "Timeline_tl_lv1_6_1_0"
+  },
+  {
+    "key": "s2601",
+    "english": "\"COLD. WHERE ARE YOU. GO 1023 8th NE Highway Ave\"",
+    "polish": "\"ZIMNO. GDZIE JESTEŚ. IDŹ 1023 8th NE Highway Ave\"",
+    "context": "Timeline_tl_lv1_6_1_1"
+  },
+  {
+    "key": "s2602",
+    "english": "Thanks.",
+    "polish": "Dzięki.",
+    "context": "Timeline_tl_lv1_6_1_3"
+  },
+  {
+    "key": "s2603",
+    "english": "Roland say... reaper coming!",
+    "polish": "Roland mówić... żniwiarz idzie!",
+    "context": "Timeline_tl_lv1_7_1_0"
+  },
+  {
+    "key": "s2604",
+    "english": "Have you heard... about reaper..?",
+    "polish": "Słyszałeś... o żniwiarzu..?",
+    "context": "Timeline_tl_lv1_7_1_0"
+  },
+  {
+    "key": "s2605",
+    "english": "*gurgle*",
+    "polish": "*bulgot*",
+    "context": "Timeline_tl_lv1_7_1_1"
+  },
+  {
+    "key": "s2606",
+    "english": "You need more men protecting the ash!",
+    "polish": "Trzeba więcej ludzi do pilnowania popiołu!",
+    "context": "Timeline_tl_lv1_8_1_0"
+  },
+  {
+    "key": "s2607",
+    "english": "Bring... your own...",
+    "polish": "Przyprowadź... swoich...",
+    "context": "Timeline_tl_lv1_8_1_1"
+  },
+  {
+    "key": "s2611",
+    "english": "A reaper? Zombies and their drugs...",
+    "polish": "Żniwiarz? Te zombie i ich prochy...",
+    "context": "Timeline_tl_lv2_1_1_0"
+  },
+  {
+    "key": "s2612",
+    "english": "A reaper? Ha! And the bogeyman too?",
+    "polish": "Żniwiarz? Ha! A może jeszcze Czarny Lud?",
+    "context": "Timeline_tl_lv2_1_1_0"
+  },
+  {
+    "key": "s2613",
+    "english": "The... grim reaper? Are you joking?",
+    "polish": "Ponury... żniwiarz? Jaja sobie robisz?",
+    "context": "Timeline_tl_lv2_1_1_0"
+  },
+  {
+    "key": "s2614",
+    "english": "He's... coming...",
+    "polish": "On... nadchodzi...",
+    "context": "Timeline_tl_lv2_1_1_1"
+  },
+  {
+    "key": "s2615",
+    "english": "He comes... for you too...",
+    "polish": "Przyjdzie... i po ciebie...",
+    "context": "Timeline_tl_lv2_1_1_1"
+  },
+  {
+    "key": "s2616",
+    "english": "Drinks at my place?",
+    "polish": "Drinka u mnie?",
+    "context": "Timeline_tl_lv2_3_1_0"
+  },
+  {
+    "key": "s2617",
+    "english": "...do you live nearby?",
+    "polish": "...mieszkasz gdzieś blisko?",
+    "context": "Timeline_tl_lv2_3_1_0"
+  },
+  {
+    "key": "s2618",
+    "english": "I don't usually do this but...",
+    "polish": "Zwykle tego nie robię, ale...",
+    "context": "Timeline_tl_lv2_3_1_0"
+  },
+  {
+    "key": "s2619",
+    "english": "PROTECT THE ASH. IT'S WORTH MORE THAN YOU.",
+    "polish": "CHROŃCIE POPIÓŁ. JEST WART WIĘCEJ NIŻ WY.",
+    "context": "Timeline_tl_lv2_4_1_0"
+  },
+  {
+    "key": "s2621",
+    "english": "Shame... another slow night...",
+    "polish": "Szkoda... kolejna nudna noc...",
+    "context": "Timeline_tl_lv2_5_1_0"
+  },
+  {
+    "key": "s2622",
+    "english": "C'mon! The fun just started!",
+    "polish": "No chodź! Zabawa dopiero się zaczęła!",
+    "context": "Timeline_tl_lv2_5_1_0"
+  },
+  {
+    "key": "s2623",
+    "english": "You can't stop... the harvest...",
+    "polish": "Nie powstrzymasz... żniw...",
+    "context": "Timeline_tl_lv2_5_boss11_0"
+  },
+  {
+    "key": "s2624",
+    "english": "TOO LATE hahaha... the harvest...",
+    "polish": "ZA PÓŹNO hahaha... żniwa...",
+    "context": "Timeline_tl_lv2_5_boss12_0"
+  },
+  {
+    "key": "s2625",
+    "english": "Kill him!",
+    "polish": "Zabić go!",
+    "context": "Timeline_tl_lv2_6_1_1"
+  },
+  {
+    "key": "s2626",
+    "english": "You have done a good job, friend. Feel pride in what you help craft.",
+    "polish": "Dobrze się spisałeś, przyjacielu. Bądź dumny z tego, co pomagasz tworzyć.",
+    "context": "Timeline_tl_lv2_7_1_0"
+  },
+  {
+    "key": "s2627",
+    "english": "A shipping manifest is taped inside",
+    "polish": "W środku przyklejono list przewozowy",
+    "context": "Timeline_tl_lv3_1_1_0"
+  },
+  {
+    "key": "s2628",
+    "english": "Bionatural Manufacturing Base, SOLID QT: 901",
+    "polish": "Bionatural Manufacturing Base, STAŁE, ILOŚĆ: 901",
+    "context": "Timeline_tl_lv3_1_1_1"
+  },
+  {
+    "key": "s2629",
+    "english": "Corpses...?",
+    "polish": "Zwłoki...?",
+    "context": "Timeline_tl_lv3_4_1_0"
+  },
+  {
+    "key": "s2630",
+    "english": "I should tell the boss. Maybe his Candles know something.",
+    "polish": "Powinienem powiedzieć szefowi. Może jego Świece coś wiedzą.",
+    "context": "Timeline_tl_lv3_4_1_2"
+  },
+  {
+    "key": "s2631",
+    "english": "MORE TIME... I JUST NEED MORE TIME.",
+    "polish": "WIĘCEJ CZASU... POTRZEBUJĘ TYLKO WIĘCEJ CZASU.",
+    "context": "Timeline_tl_lv3_5_1_0"
+  },
+  {
+    "key": "s2632",
+    "english": "There is an information sheet taped to the side of the car - with an address.",
+    "polish": "Z boku auta przyklejono kartkę z informacjami - jest na niej adres.",
+    "context": "Timeline_tl_lv3_6_1_0"
+  },
+  {
+    "key": "s2633",
+    "english": "\"Address: Seven Circles Apt. 1940 Unit No.8\"",
+    "polish": "\"Adres: Seven Circles Apt. 1940, lokal nr 8\"",
+    "context": "Timeline_tl_lv3_6_1_1"
+  },
+  {
+    "key": "s2634",
+    "english": "Just one more day... and then we get paid.",
+    "polish": "Jeszcze tylko jeden dzień... i dostaniemy kasę.",
+    "context": "Timeline_tl_lv3_7_1_0"
+  },
+  {
+    "key": "s2635",
+    "english": "Finally. Gotta get back before boss sees we're missing.",
+    "polish": "Nareszcie. Trzeba wracać, zanim szef zauważy, że nas nie ma.",
+    "context": "Timeline_tl_lv3_7_1_1"
+  },
+  {
+    "key": "s2636",
+    "english": "I want to see you in the light...!",
+    "polish": "Chcę cię zobaczyć w świetle...!",
+    "context": "Timeline_tl_lv3_8_1_0"
+  },
+  {
+    "key": "s2637",
+    "english": "Aww, shy? Step into the light!",
+    "polish": "Oj, wstydzisz się? Wyjdź na światło!",
+    "context": "Timeline_tl_lv3_8_1_0"
+  },
+  {
+    "key": "s2638",
+    "english": "Don't be scared... step into the light!",
+    "polish": "Nie bój się... wyjdź na światło!",
+    "context": "Timeline_tl_lv3_8_1_0"
+  },
+  {
+    "key": "s2639",
+    "english": "We got it from here.",
+    "polish": "Dalej my się tym zajmiemy.",
+    "context": "Timeline_tl_lv3_8_2_0"
+  },
+  {
+    "key": "s2640",
+    "english": "W-woah! I've never been this close to a reaper before!",
+    "polish": "O-o rany! Jeszcze nigdy nie byłem tak blisko żniwiarza!",
+    "context": "Timeline_tl_lv3_8_2_1"
+  },
+  {
+    "key": "s2641",
+    "english": "We are so close. We will be warm soon.",
+    "polish": "Jesteśmy tak blisko. Wkrótce będzie nam ciepło.",
+    "context": "Timeline_tl_lv3_9_1_0"
+  },
+  {
+    "key": "s2642",
+    "english": "Come - do not fear my true form.",
+    "polish": "Podejdź - nie lękaj się mojej prawdziwej postaci.",
+    "context": "Timeline_tl_lv4_2_1_0"
+  },
+  {
+    "key": "s2643",
+    "english": "Let me see you, friend. I just want to talk.",
+    "polish": "Pokaż się, przyjacielu. Chcę tylko porozmawiać.",
+    "context": "Timeline_tl_lv4_2_2_0"
+  },
+  {
+    "key": "s2644",
+    "english": "I know where you are friend. I'll find you.",
+    "polish": "Wiem, gdzie jesteś, przyjacielu. Znajdę cię.",
+    "context": "Timeline_tl_lv4_2_2_0"
+  },
+  {
+    "key": "s2645",
+    "english": "It's so... warm...",
+    "polish": "Tak tu... ciepło...",
+    "context": "Timeline_tl_lv4_2_3_0"
+  },
+  {
+    "key": "s2646",
+    "english": "I'm sorry... friend...",
+    "polish": "Przepraszam... przyjacielu...",
+    "context": "Timeline_tl_lv4_2_3_0"
+  },
+  {
+    "key": "s2647",
+    "english": "No - you have worked so hard. I think it is time for a rest.",
+    "polish": "Nie - tak ciężko pracowałeś. Myślę, że czas odpocząć.",
+    "context": "Timeline_tl_lv4_2_4_0"
+  },
+  {
+    "key": "s2595",
+    "english": "You shouldn't have listened to that.",
+    "polish": "Nie powinieneś był tego słuchać.",
+    "context": "Timeline_tl_warning_0"
+  },
+  {
+    "key": "s2596",
+    "english": "That's not yours.",
+    "polish": "To nie twoje.",
+    "context": "Timeline_tl_warning_0"
+  },
+  {
+    "key": "s2597",
+    "english": "You shouldn't have taken that.",
+    "polish": "Nie powinieneś był tego brać.",
+    "context": "Timeline_tl_warning_0"
+  },
+  {
+    "key": "s1720",
+    "english": "% Done",
+    "polish": "% ukończenia",
+    "context": "oAchievementScreen_Draw_73"
+  },
+  {
+    "key": "s1723",
+    "english": "##REWARD: ",
+    "polish": "##NAGRODA W DUSZACH: ",
+    "context": "oAchievementScreen_Draw_73"
+  },
+  {
+    "key": "s1724",
+    "english": " Souls",
+    "polish": "",
+    "context": "oAchievementScreen_Draw_73"
+  },
+  {
+    "key": "s2568",
+    "english": "'&!&: SWITCH ON/OFF",
+    "polish": "'&!&: WŁĄCZ/WYŁĄCZ",
+    "context": "oCableBox_Create_0"
+  },
+  {
+    "key": "s1352",
+    "english": "incoming backup",
+    "polish": "nadjeżdżające posiłki",
+    "context": "oCar3_Create_0"
+  },
+  {
+    "key": "s1436",
+    "english": "'&!&: INSPECT CAR",
+    "polish": "'&!&: PRZESZUKAJ AUTO",
+    "context": "oCarIbzan_Create_0"
+  },
+  {
+    "key": "s1430",
+    "english": "Cassette Tape Unlocked",
+    "polish": "Odblokowano kasetę",
+    "context": "oCassettePickup_Draw_0"
+  },
+  {
+    "key": "s1609",
+    "english": "&y&'E'&!&: BUY WEAPON",
+    "polish": "&y&'E'&!&: KUP BROŃ",
+    "context": "oCharon_Create_0"
+  },
+  {
+    "key": "s1473",
+    "english": "&y&'E'&!&: BURN DRUGS",
+    "polish": "&y&'E'&!&: SPAL NARKOTYKI",
+    "context": "oCokeBurn_Create_0"
+  },
+  {
+    "key": "s1435",
+    "english": "'&!&: INSPECT DRUGS",
+    "polish": "'&!&: OBEJRZYJ NARKOTYKI",
+    "context": "oCokeInspect_Create_0"
+  },
+  {
+    "key": "s1433",
+    "english": "&y&'E'&!&: INSPECT CANDLE",
+    "polish": "&y&'E'&!&: OBEJRZYJ ŚWIECĘ",
+    "context": "oDeadReaper1_Create_0"
+  },
+  {
+    "key": "s1151",
+    "english": "the Cerberus",
+    "polish": "cerber",
+    "context": "oDog1_Create_0"
+  },
+  {
+    "key": "s2571",
+    "english": "'&!&: CUT ALL POWER (TEMPORARY)",
+    "polish": "'&!&: ODETNIJ ZASILANIE (CHWILOWO)",
+    "context": "oGenerator1_Create_0"
+  },
+  {
+    "key": "s1380",
+    "english": "'&!& SPEAK",
+    "polish": "'&!& PRZEMÓW",
+    "context": "oGod_Create_0"
+  },
+  {
+    "key": "s2235",
+    "english": "A low level dealer, Puff, might know about their supplier. Kill him.",
+    "polish": "Drobny diler, Puff, może wiedzieć, kto ich zaopatruje. Zabij go.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2236",
+    "english": "Follow The Hounds",
+    "polish": "Tropem ogarów",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2237",
+    "english": "The first address leads to a Hellhound pound. End it.",
+    "polish": "Pierwszy adres prowadzi do psiarni piekielnych ogarów. Skończ z nią.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2238",
+    "english": "The Bogeyman",
+    "polish": "Czarny Lud",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2239",
+    "english": "The second address leads to a house with a missing Candle.",
+    "polish": "Drugi adres prowadzi do domu, w którym zaginęła Świeca.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2240",
+    "english": "No Vacancy",
+    "polish": "Brak wolnych pokoi",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2241",
+    "english": "Find the location of Roland's warehouse.",
+    "polish": "Znajdź magazyn Rolanda.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2242",
+    "english": "Supply and Demand",
+    "polish": "Popyt i podaż",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2243",
+    "english": "Destroy the warehouse where the Zombie Kingz store their drugs.",
+    "polish": "Zniszcz magazyn, w którym Zombie Kingz trzymają narkotyki.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2244",
+    "english": "Kill Roland, the leader of the Zombie Kingz.",
+    "polish": "Zabij Rolanda, szefa Zombie Kingz.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2245",
+    "english": "Night Out",
+    "polish": "Wyjście na miasto",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2246",
+    "english": "The vampires are running a club - find out why.",
+    "polish": "Wampiry prowadzą klub - dowiedz się po co.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2248",
+    "english": "The vampires' numbers are worrying - thin it out.",
+    "polish": "Wampirów robi się niepokojąco dużo - przetrzeb je.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2250",
+    "english": "Another club, another safe - maybe this one will have useful information.",
+    "polish": "Kolejny klub, kolejny sejf - może w tym będzie coś przydatnego.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2251",
+    "english": "Bottle Service",
+    "polish": "Butelki na stół",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2252",
+    "english": "What are the vampires doing near the docks?",
+    "polish": "Co wampiry robią w pobliżu doków?",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2254",
+    "english": "Twin vampires are running a brothel. Shut it down.",
+    "polish": "Bliźniaczki wampirzyce prowadzą burdel. Zamknij go.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2255",
+    "english": "A Lot To Give",
+    "polish": "Wiele do oddania",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2256",
+    "english": "This club is strangely quiet - what happened?",
+    "polish": "W tym klubie jest dziwnie cicho - co się stało?",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2258",
+    "english": "The vampire leader must know about what happened.",
+    "polish": "Przywódca wampirów musi wiedzieć, co się stało.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2259",
+    "english": "Forced Conversion",
+    "polish": "Przymusowa przemiana",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2260",
+    "english": "The vampires are being turned to ash - stop the next harvest.",
+    "polish": "Wampiry są obracane w popiół - powstrzymaj kolejne żniwa.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2261",
+    "english": "She knows about the conversion. Kill her and stop the ash.",
+    "polish": "Ona wie o przemianie. Zabij ją i powstrzymaj popiół.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2262",
+    "english": "Overnight Shipping",
+    "polish": "Nocna dostawa",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2263",
+    "english": "The skeletons have been congregating near the docks. Find out why.",
+    "polish": "Szkielety gromadzą się przy dokach. Dowiedz się dlaczego.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2264",
+    "english": "Structurally Sound",
+    "polish": "Solidna konstrukcja",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2265",
+    "english": "They've been attempting to build a new base. Destroy its inhabitants.",
+    "polish": "Próbują zbudować nową bazę. Zniszcz jej mieszkańców.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2266",
+    "english": "Bar Hopping",
+    "polish": "Od baru do baru",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2267",
+    "english": "Two bars, back to back. Eliminate both.",
+    "polish": "Dwa bary, jeden za drugim. Zlikwiduj oba.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2268",
+    "english": "Horror Show",
+    "polish": "Istny horror",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2269",
+    "english": "The Candles have found the shipping location..",
+    "polish": "Świece znalazły miejsce wysyłki..",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2270",
+    "english": "Timur The Tinkerer",
+    "polish": "Timur Majsterkowicz",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2271",
+    "english": "Timur is a high ranking Dredged. I'll find out what he knows.",
+    "polish": "Timur to wysoko postawiony członek The Dredged. Dowiem się, co wie.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2272",
+    "english": "Drive Thru",
+    "polish": "Przejazdem",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2273",
+    "english": "I have to find out where Ibzan, The Dredged leader, lives.",
+    "polish": "Muszę się dowiedzieć, gdzie mieszka Ibzan, przywódca The Dredged.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2274",
+    "english": "As A Glass",
+    "polish": "Jak szkło",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2275",
+    "english": "Ibzan's home is heavily guarded, but must contain important information.",
+    "polish": "Dom Ibzana jest pilnie strzeżony, ale musi skrywać ważne informacje.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2276",
+    "english": "I need snipers on the roof - but must get rid of the Vall first.",
+    "polish": "Potrzebuję snajperów na dachu - ale najpierw muszę pozbyć się Vall.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2277",
+    "english": "I have to stop Ibzan and The Dredged from leaving this Place.",
+    "polish": "Muszę powstrzymać Ibzana i The Dredged przed opuszczeniem tego Miejsca.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2278",
+    "english": "Story Complete",
+    "polish": "Koniec historii",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2279",
+    "english": "AUTO GRENADE LAUNCHER",
+    "polish": "AUTOMATYCZNY GRANATNIK",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2281",
+    "english": "SCYTHE",
+    "polish": "KOSA",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2283",
+    "english": "Long-range slashing weapon. Can't be thrown.",
+    "polish": "Tnie z daleka. Nie da się nią rzucić.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2284",
+    "english": "SUPPRESSED SHOTGUN",
+    "polish": "STRZELBA Z TŁUMIKIEM",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2286",
+    "english": "Silent shotgun. Holds 5 shells.",
+    "polish": "Cicha strzelba. Mieści 5 nabojów.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2287",
+    "english": "SEMI-AUTO SHOTGUN",
+    "polish": "STRZELBA SAMOPOWTARZALNA",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2289",
+    "english": "Loud and powerful. Holds 4 shells.",
+    "polish": "Głośna i potężna. Mieści 4 naboje.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2290",
+    "english": "SEVERED LICH ARM",
+    "polish": "ODCIĘTE RAMIĘ LISZA",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2292",
+    "english": "GRENADE LAUNCHER",
+    "polish": "GRANATNIK",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2294",
+    "english": "LANDMINE",
+    "polish": "MINA",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2296",
+    "english": "BURST RIFLE",
+    "polish": "KARABIN SERYJNY",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2298",
+    "english": "High damage. Holds 30 rounds.",
+    "polish": "Duże obrażenia. Mieści 30 nabojów.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2299",
+    "english": "SUPPRESSED PDW",
+    "polish": "PDW Z TŁUMIKIEM",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2301",
+    "english": "Silent weapon. Holds 30 rounds.",
+    "polish": "Cicha broń. Mieści 30 nabojów.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2302",
+    "english": "OLD WORLD RIFLE",
+    "polish": "KARABIN ZE STAREGO ŚWIATA",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2304",
+    "english": "THROWING STAR",
+    "polish": "SHURIKEN",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2306",
+    "english": "BLUNDERBUSS",
+    "polish": "GARŁACZ",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2308",
+    "english": "Flintlock shotgun. Holds 1 shot.",
+    "polish": "Strzelba skałkowa. Jeden strzał.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2309",
+    "english": ".25 MOUSEGUN",
+    "polish": "PISTOLECIK .25",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2311",
+    "english": "Low power. Holds only 2 bullets.",
+    "polish": "Mała moc. Mieści tylko 2 naboje.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2312",
+    "english": "SLEDGEHAMMER",
+    "polish": "MŁOT",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2314",
+    "english": "CROSSBOW",
+    "polish": "KUSZA",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2316",
+    "english": "SICKLE",
+    "polish": "SIERP",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2318",
+    "english": ".32 REVOLVER",
+    "polish": "REWOLWER .32",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2320",
+    "english": "Accurate. Holds 6 bullets.",
+    "polish": "Celny. Mieści 6 nabojów.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2321",
+    "english": "HEADHUNTER",
+    "polish": "ŁOWCA GŁÓW",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2323",
+    "english": "Extremely powerful headshots. Holds 5 bullets.",
+    "polish": "Potężne strzały w głowę. Mieści 5 nabojów.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2324",
+    "english": "REVENANT",
+    "polish": "UPIÓR",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2326",
+    "english": "High damage but loud. Holds 5 bullets.",
+    "polish": "Duże obrażenia, ale głośny. Mieści 5 nabojów.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2327",
+    "english": "DEATH + TAXES",
+    "polish": "ŚMIERĆ + PODATKI",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2329",
+    "english": "High fire rate. Holds 14 bullets.",
+    "polish": "Szybkostrzelny. Mieści 14 nabojów.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2330",
+    "english": "9mm PISTOL",
+    "polish": "PISTOLET 9 mm",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2332",
+    "english": "High capacity pistol. Holds 10 bullets.",
+    "polish": "Pistolet z pojemnym magazynkiem. Mieści 10 nabojów.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2333",
+    "english": "SUPPRESSED 9mm PISTOL",
+    "polish": "PISTOLET 9 mm Z TŁUMIKIEM",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2335",
+    "english": "Silent weapon, but lower damage. Holds 10 bullets.",
+    "polish": "Cicha broń, ale słabsza. Mieści 10 nabojów.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2336",
+    "english": "FLASHBANG",
+    "polish": "GRANAT HUKOWY",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2338",
+    "english": "Stuns all nearby enemies.",
+    "polish": "Ogłusza wszystkich wrogów w pobliżu.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2339",
+    "english": "HAMMER",
+    "polish": "MŁOTEK",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2341",
+    "english": "Medium speed. Can be thrown.",
+    "polish": "Średnia szybkość. Można nim rzucić.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2342",
+    "english": "COMBAT SHOTGUN",
+    "polish": "STRZELBA BOJOWA",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2344",
+    "english": "Pump-action. Holds 5 shells.",
+    "polish": "Przeładowanie pompowe. Mieści 5 nabojów.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2345",
+    "english": "TOMMY GUN",
+    "polish": "THOMPSON",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2347",
+    "english": "High damage. Holds 40 rounds.",
+    "polish": "Duże obrażenia. Mieści 40 nabojów.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2348",
+    "english": "10mm PISTOL",
+    "polish": "PISTOLET 10 mm",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2350",
+    "english": "SAWN-OFF SHOTGUN",
+    "polish": "OBRZYN",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2352",
+    "english": "BOLT-ACTION RIFLE",
+    "polish": "KARABIN POWTARZALNY",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2354",
+    "english": "Very high damage on headshots. Holds 7 rounds.",
+    "polish": "Bardzo duże obrażenia przy strzale w głowę. Mieści 7 nabojów.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2355",
+    "english": "KNIFE",
+    "polish": "NÓŻ",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2357",
+    "english": "Quick melee weapon. Can be thrown.",
+    "polish": "Szybka broń do walki wręcz. Można nim rzucić.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2358",
+    "english": "TACTICAL SMG",
+    "polish": "TAKTYCZNY PM",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2360",
+    "english": "Silent weapon with laser. Holds 30 rounds.",
+    "polish": "Cicha broń z laserem. Mieści 30 nabojów.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2361",
+    "english": "9mm SMG",
+    "polish": "PM 9 mm",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2363",
+    "english": "Fast but inaccurate. Holds 30 bullets.",
+    "polish": "Szybki, ale niecelny. Mieści 30 nabojów.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2373",
+    "english": "Conquest",
+    "polish": "Podbój",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2374",
+    "english": "Earn every achievement.",
+    "polish": "Zdobądź wszystkie osiągnięcia.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2375",
+    "english": "Famine",
+    "polish": "Głód",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2376",
+    "english": "Beat the entire game within 1 hour without quitting.",
+    "polish": "Ukończ całą grę w godzinę, bez wychodzenia z gry.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2377",
+    "english": "Death",
+    "polish": "Śmierć",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2378",
+    "english": "Beat the entire game without dying or quitting.",
+    "polish": "Ukończ całą grę bez śmierci i bez wychodzenia z gry.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2379",
+    "english": "War",
+    "polish": "Wojna",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2380",
+    "english": "Get a five star rating on every mission.",
+    "polish": "Zdobądź pięć gwiazdek w każdej misji.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2381",
+    "english": "Professional",
+    "polish": "Zawodowiec",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2382",
+    "english": "Clear a stage with only headshot kills.",
+    "polish": "Ukończ poziom, zabijając tylko strzałami w głowę.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2383",
+    "english": "Clocked In",
+    "polish": "Pierwsza zmiana",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2384",
+    "english": "Clear the first mission.",
+    "polish": "Ukończ pierwszą misję.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2385",
+    "english": "Dethroned",
+    "polish": "Zrzucony z tronu",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2386",
+    "english": "Kill an undead... using the toilet.",
+    "polish": "Zabij nieumarłego... przy użyciu toalety.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2387",
+    "english": "Coinage",
+    "polish": "Obol",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2388",
+    "english": "Buy a weapon from Charon.",
+    "polish": "Kup broń od Charona.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2389",
+    "english": "Cassette Culture",
+    "polish": "Kultura kasetowa",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2390",
+    "english": "Collect all memory tapes.",
+    "polish": "Zbierz wszystkie kasety ze wspomnieniami.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2391",
+    "english": "Traditional",
+    "polish": "Tradycjonalista",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2392",
+    "english": "Clear a stage with only melee weapons.",
+    "polish": "Ukończ poziom, używając tylko broni do walki wręcz.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2393",
+    "english": "Nah, I'm Good",
+    "polish": "Nie, dzięki",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2394",
+    "english": "Kill Puff without using the Tommy Gun.",
+    "polish": "Zabij Puffa bez użycia thompsona.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2395",
+    "english": "Pugilist",
+    "polish": "Pięściarz",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2396",
+    "english": "Melee a Bouncer to death.",
+    "polish": "Zatłucz bramkarza bronią do walki wręcz.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2398",
+    "english": "Clear 'The Bogeyman' without being seen.",
+    "polish": "Ukończ misję 'Czarny Lud', nie dając się zauważyć.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2399",
+    "english": "Zombie Kingz: Cleared",
+    "polish": "Zombie Kingz: rozbici",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2400",
+    "english": "Clear all Zombie Kingz missions.",
+    "polish": "Ukończ wszystkie misje Zombie Kingz.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2401",
+    "english": "Acrobat",
+    "polish": "Akrobata",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2402",
+    "english": "Kill a vampire mid-air.",
+    "polish": "Zabij wampira w locie.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2403",
+    "english": "Let The Dead Rest",
+    "polish": "Niech zmarli spoczywają",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2404",
+    "english": "Clear 'The Bloody Mary' without letting any vampires revive.",
+    "polish": "Ukończ misję 'The Bloody Mary', nie pozwalając odrodzić się żadnemu wampirowi.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2406",
+    "english": "Kill Amber with a melee weapon, and Evelyn with a ranged weapon.",
+    "polish": "Zabij Amber bronią do walki wręcz, a Evelyn bronią dystansową.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2407",
+    "english": "1000 Year Royals: Cleared",
+    "polish": "1000 Year Royals: rozbici",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2408",
+    "english": "Clear all 1000 Year Royals missions.",
+    "polish": "Ukończ wszystkie misje 1000 Year Royals.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2409",
+    "english": "Pirouette",
+    "polish": "Piruet",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2410",
+    "english": "Kill a Sergeant mid-spin.",
+    "polish": "Zabij sierżanta w trakcie obrotu.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2411",
+    "english": "Grave Robber",
+    "polish": "Hiena cmentarna",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2413",
+    "english": "Destroy a body as it's being revived.",
+    "polish": "Zniszcz ciało w trakcie wskrzeszania.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2414",
+    "english": "Collateral Damage",
+    "polish": "Straty uboczne",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2415",
+    "english": "Clear 'Timur The Tinkerer' with only trap kills.",
+    "polish": "Ukończ misję 'Timur Majsterkowicz', zabijając tylko pułapkami.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2418",
+    "english": "Clear all Dredged missions.",
+    "polish": "Ukończ wszystkie misje The Dredged.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2420",
+    "english": "Clear Vall's nest using only headshots.",
+    "polish": "Oczyść gniazdo Vall, strzelając tylko w głowę.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2421",
+    "english": "From The Shadows",
+    "polish": "Z cienia",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s2422",
+    "english": "Clear 'Ibzan' without being seen once.",
+    "polish": "Ukończ misję 'Ibzan', ani razu nie dając się zauważyć.",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s6291",
+    "english": "The Dredged: Cleared",
+    "polish": "The Dredged: rozbici",
+    "context": "oInit_Create_0"
+  },
+  {
+    "key": "s6296",
+    "english": "'&!&: GRAB KNIFE",
+    "polish": "'&!&: WEŹ NÓŻ",
+    "context": "oKnifeblock_Create_0"
+  },
+  {
+    "key": "s6297",
+    "english": "'&!&: CLIMB LADDER",
+    "polish": "'&!&: WEJDŹ PO DRABINIE",
+    "context": "oLadder1_Create_0"
+  },
+  {
+    "key": "s1408",
+    "english": "'&!&: ACTIVATE PORTAL",
+    "polish": "'&!&: URUCHOM PORTAL",
+    "context": "oMeatPortal_Create_0"
+  },
+  {
+    "key": "s2572",
+    "english": "'&!&: SET OFF TIMER#&r&'",
+    "polish": "'&!&: NASTAW MINUTNIK#&r&'",
+    "context": "oMicrowave1_Create_0"
+  },
+  {
+    "key": "s2573",
+    "english": "'&!&: SET OFF TIMER IN 3s",
+    "polish": "'&!&: NASTAW MINUTNIK NA 3 S",
+    "context": "oMicrowave1_Create_0"
+  },
+  {
+    "key": "s1434",
+    "english": "&y&'E'&!&: INSPECT PAPER",
+    "polish": "&y&'E'&!&: OBEJRZYJ KARTKĘ",
+    "context": "oNotes_Create_0"
+  },
+  {
+    "key": "s1314",
+    "english": "the Cardinal",
+    "polish": "kardynał",
+    "context": "oOni1_Create_0"
+  },
+  {
+    "key": "s1316",
+    "english": "the Maiden",
+    "polish": "panna",
+    "context": "oOni2_Create_0"
+  },
+  {
+    "key": "s1320",
+    "english": "the Patriarch",
+    "polish": "patriarcha",
+    "context": "oOni3_Create_0"
+  },
+  {
+    "key": "s1540",
+    "english": " seconds left",
+    "polish": " s do końca",
+    "context": "oPControl_Draw_73"
+  },
+  {
+    "key": "s1494",
+    "english": "Find the &b&sniper rifle.&!&",
+    "polish": "Znajdź &b&karabin snajperski.&!&",
+    "context": "oPControl_Step_2"
+  },
+  {
+    "key": "s1495",
+    "english": "Destroy all &b&ash totems.&!&",
+    "polish": "Zniszcz wszystkie &b&totemy z popiołu.&!&",
+    "context": "oPControl_Step_2"
+  },
+  {
+    "key": "s1497",
+    "english": "Kill all &r&targets.&!&",
+    "polish": "Zabij wszystkie &r&cele.&!&",
+    "context": "oPControl_Step_2"
+  },
+  {
+    "key": "s1499",
+    "english": "Kill the &r&backup (",
+    "polish": "Zabij &r&posiłki (",
+    "context": "oPControl_Step_2"
+  },
+  {
+    "key": "s1501",
+    "english": "Collect &b&keycards&!&",
+    "polish": "Zbierz &b&karty dostępu&!&",
+    "context": "oPControl_Step_2"
+  },
+  {
+    "key": "s1502",
+    "english": "Find &b&information.&!&",
+    "polish": "Znajdź &b&informacje.&!&",
+    "context": "oPControl_Step_2"
+  },
+  {
+    "key": "s1503",
+    "english": "Kill the &r&remaining targets (",
+    "polish": "Zabij &r&pozostałe cele (",
+    "context": "oPControl_Step_2"
+  },
+  {
+    "key": "s1505",
+    "english": "Destroy all &b&ash caches.&!&",
+    "polish": "Zniszcz wszystkie &b&skrytki z popiołem.&!&",
+    "context": "oPControl_Step_2"
+  },
+  {
+    "key": "s1506",
+    "english": "Find the &b&drugs.&!&",
+    "polish": "Znajdź &b&narkotyki.&!&",
+    "context": "oPControl_Step_2"
+  },
+  {
+    "key": "s2574",
+    "english": "&y&'E'&!&: HIDE",
+    "polish": "&y&'E'&!&: SCHOWAJ SIĘ",
+    "context": "oPantry1_Create_0"
+  },
+  {
+    "key": "s1695",
+    "english": "&y&'E'&!&: OPEN VALVE",
+    "polish": "&y&'E'&!&: OTWÓRZ ZAWÓR",
+    "context": "oPipeBlock1_Create_0"
+  },
+  {
+    "key": "s1284",
+    "english": "the Sergeant",
+    "polish": "sierżant",
+    "context": "oSkele1_Create_0"
+  },
+  {
+    "key": "s1289",
+    "english": "the Grunt",
+    "polish": "szeregowy",
+    "context": "oSkele2_Create_0"
+  },
+  {
+    "key": "s1306",
+    "english": "the Technician",
+    "polish": "technik",
+    "context": "oSkele3_Create_0"
+  },
+  {
+    "key": "s1291",
+    "english": "the General",
+    "polish": "generał",
+    "context": "oSkele5_Create_0"
+  },
+  {
+    "key": "s1238",
+    "english": "Timur the Tinkerer",
+    "polish": "Timur Majsterkowicz",
+    "context": "oSkeleBoss1_Create_0"
+  },
+  {
+    "key": "s1247",
+    "english": "Oh, is this how it ends...",
+    "polish": "Och, więc tak to się kończy...",
+    "context": "oSkeleBoss2Body_Other_7"
+  },
+  {
+    "key": "s1253",
+    "english": "Poor aim - and a poor reaper.",
+    "polish": "Kiepska celność - i kiepski żniwiarz.",
+    "context": "oSkeleBoss2Body_Other_7"
+  },
+  {
+    "key": "s1254",
+    "english": "Almost.",
+    "polish": "Prawie.",
+    "context": "oSkeleBoss2Body_Other_7"
+  },
+  {
+    "key": "s1255",
+    "english": "Close.",
+    "polish": "Blisko.",
+    "context": "oSkeleBoss2Body_Other_7"
+  },
+  {
+    "key": "s1256",
+    "english": "Not quite, reaper.",
+    "polish": "Nie tym razem, żniwiarzu.",
+    "context": "oSkeleBoss2Body_Other_7"
+  },
+  {
+    "key": "s1257",
+    "english": "You're not too bad.",
+    "polish": "Całkiem nieźle ci idzie.",
+    "context": "oSkeleBoss2Body_Other_7"
+  },
+  {
+    "key": "s1258",
+    "english": "Not bad.",
+    "polish": "Nieźle.",
+    "context": "oSkeleBoss2Body_Other_7"
+  },
+  {
+    "key": "s1259",
+    "english": "Not bad, reaper.",
+    "polish": "Nieźle, żniwiarzu.",
+    "context": "oSkeleBoss2Body_Other_7"
+  },
+  {
+    "key": "s1261",
+    "english": "That's enough, reaper.",
+    "polish": "Dość tego, żniwiarzu.",
+    "context": "oSkeleBoss2Body_Other_7"
+  },
+  {
+    "key": "s1262",
+    "english": "That's enough, friend.",
+    "polish": "Dość tego, przyjacielu.",
+    "context": "oSkeleBoss2Body_Other_7"
+  },
+  {
+    "key": "s1263",
+    "english": "That's enough.",
+    "polish": "Dość tego.",
+    "context": "oSkeleBoss2Body_Other_7"
+  },
+  {
+    "key": "s1264",
+    "english": "I'm not here for YOU, reaper!",
+    "polish": "Nie przyszedłem po CIEBIE, żniwiarzu!",
+    "context": "oSkeleBoss2Body_Other_7"
+  },
+  {
+    "key": "s1265",
+    "english": "HELP ME FRIEND!",
+    "polish": "POMÓŻ MI, PRZYJACIELU!",
+    "context": "oSkeleBoss2Body_Other_7"
+  },
+  {
+    "key": "s1266",
+    "english": "LET ME PASS, REAPER.",
+    "polish": "PRZEPUŚĆ MNIE, ŻNIWIARZU.",
+    "context": "oSkeleBoss2Body_Other_7"
+  },
+  {
+    "key": "s1388",
+    "english": "'&!&: SNIPE",
+    "polish": "'&!&: WEŹ NA CEL",
+    "context": "oSnipePickup_Create_0"
+  },
+  {
+    "key": "s1750",
+    "english": "SNIPER SUPPORT",
+    "polish": "WSPARCIE SNAJPERA",
+    "context": "oSniper_Draw_73"
+  },
+  {
+    "key": "s1674",
+    "english": "'&!&: INVESTIGATE",
+    "polish": "'&!&: ZBADAJ",
+    "context": "oSnowSecret_Create_0"
+  },
+  {
+    "key": "s1363",
+    "english": "&y&'E'&!&: INTERROGATE",
+    "polish": "&y&'E'&!&: PRZESŁUCHAJ",
+    "context": "oThreatenBody_Create_0"
+  },
+  {
+    "key": "s1267",
+    "english": "&y&'E'&!&: BURN TOTEM",
+    "polish": "&y&'E'&!&: SPAL TOTEM",
+    "context": "oTotem1_Create_0"
+  },
+  {
+    "key": "s1339",
+    "english": "&y&'E'&!&: ACTIVATE TRAP",
+    "polish": "&y&'E'&!&: URUCHOM PUŁAPKĘ",
+    "context": "oTrapPlate_Create_0"
+  },
+  {
+    "key": "s1342",
+    "english": "&y&'E'&!&: DISARM SHOTGUN",
+    "polish": "&y&'E'&!&: ROZBRÓJ STRZELBĘ",
+    "context": "oTrapShotgun_Create_0"
+  },
+  {
+    "key": "s2071",
+    "english": "&y&12&!& bullets#49 damage#3x headshot multiplier",
+    "polish": "&y&12&!& nabojów#49 obrażeń#mnożnik za głowę 3x",
+    "context": "oUpgradeWeaponOld_Create_0"
+  },
+  {
+    "key": "s2074",
+    "english": "6 bullets#49 damage#&y&4.5x&y& headshot multiplier",
+    "polish": "6 nabojów#49 obrażeń#mnożnik za głowę &y&4,5x&y&",
+    "context": "oUpgradeWeaponOld_Create_0"
+  },
+  {
+    "key": "s2077",
+    "english": "6 bullets#49 damage#3 headshot multiplier#Bullets regenerate over time",
+    "polish": "6 nabojów#49 obrażeń#mnożnik za głowę 3#Naboje odnawiają się z czasem",
+    "context": "oUpgradeWeaponOld_Create_0"
+  },
+  {
+    "key": "s2052",
+    "english": "+ Bullet count",
+    "polish": "+ Pojemność magazynka",
+    "context": "oUpgradeWeapon_Create_0"
+  },
+  {
+    "key": "s2053",
+    "english": "+ Damage#+ Penetration",
+    "polish": "+ Obrażenia#+ Przebicie",
+    "context": "oUpgradeWeapon_Create_0"
+  },
+  {
+    "key": "s2054",
+    "english": "+ Accuracy#+ Headshot damage#- Recoil",
+    "polish": "+ Celność#+ Obrażenia w głowę#- Odrzut",
+    "context": "oUpgradeWeapon_Create_0"
+  },
+  {
+    "key": "s2067",
+    "english": "#&b&UNLOCKED&!&",
+    "polish": "#&b&ODBLOKOWANO&!&",
+    "context": "oUpgrade_Draw_73"
+  },
+  {
+    "key": "s2068",
+    "english": "#Cost: &b&",
+    "polish": "#Koszt: &b&",
+    "context": "oUpgrade_Draw_73"
+  },
+  {
+    "key": "s1191",
+    "english": "the Incubus",
+    "polish": "inkub",
+    "context": "oVamp1_Create_0"
+  },
+  {
+    "key": "s1181",
+    "english": "the Succubus",
+    "polish": "sukub",
+    "context": "oVamp2_Create_0"
+  },
+  {
+    "key": "s1193",
+    "english": "the Bartender",
+    "polish": "barman",
+    "context": "oVamp3_Create_0"
+  },
+  {
+    "key": "s1211",
+    "english": "the Nightcrawler",
+    "polish": "nocny łowca",
+    "context": "oVamp4_Create_0"
+  },
+  {
+    "key": "s1224",
+    "english": "Defend those bottles!",
+    "polish": "Brońcie tych butelek!",
+    "context": "oVampBoss2Gem_Destroy_0"
+  },
+  {
+    "key": "s1225",
+    "english": "Useless guards!",
+    "polish": "Bezużyteczni strażnicy!",
+    "context": "oVampBoss2Gem_Destroy_0"
+  },
+  {
+    "key": "s1226",
+    "english": "Kill that reaper!",
+    "polish": "Zabić tego żniwiarza!",
+    "context": "oVampBoss2Gem_Destroy_0"
+  },
+  {
+    "key": "s1227",
+    "english": "Guards! What are you doing?",
+    "polish": "Straż! Co wy wyprawiacie?",
+    "context": "oVampBoss2Gem_Destroy_0"
+  },
+  {
+    "key": "s1228",
+    "english": "Keep your filthy hands away!",
+    "polish": "Zabieraj te brudne łapy!",
+    "context": "oVampBoss2Gem_Destroy_0"
+  },
+  {
+    "key": "s1699",
+    "english": "'&!&: ENTER WELL",
+    "polish": "'&!&: WEJDŹ DO STUDNI",
+    "context": "oWell_Create_0"
+  },
+  {
+    "key": "s1123",
+    "english": "the Punk",
+    "polish": "punk",
+    "context": "oZomb1_Create_0"
+  },
+  {
+    "key": "s1131",
+    "english": "the Bouncer",
+    "polish": "bramkarz",
+    "context": "oZomb2_Create_0"
+  },
+  {
+    "key": "s1136",
+    "english": "the Shambler",
+    "polish": "człapacz",
+    "context": "oZomb3_Create_0"
+  },
+  {
+    "key": "s1140",
+    "english": "the Bully",
+    "polish": "osiłek",
+    "context": "oZomb4_Create_0"
+  },
+  {
+    "key": "s1692",
+    "english": "&y&'E'&!&: COVER#&r&'",
+    "polish": "&y&'E'&!&: SCHOWAJ SIĘ#&r&'",
+    "context": "oZombBoss1Cover_Create_0"
+  },
+  {
+    "key": "s1693",
+    "english": "'&!&: CHECK DRAWERS",
+    "polish": "'&!&: PRZESZUKAJ SZUFLADY",
+    "context": "oZombBoss1Cover_Create_0"
+  },
+  {
+    "key": "s736",
+    "english": "L.Shoulder",
+    "polish": "L. bumper",
+    "context": "script string_gamepad"
+  },
+  {
+    "key": "s737",
+    "english": "R.Shoulder",
+    "polish": "P. bumper",
+    "context": "script string_gamepad"
+  },
+  {
+    "key": "s738",
+    "english": "L.Trigger",
+    "polish": "L. spust",
+    "context": "script string_gamepad"
+  },
+  {
+    "key": "s739",
+    "english": "R.Trigger",
+    "polish": "P. spust",
+    "context": "script string_gamepad"
+  },
+  {
+    "key": "s742",
+    "english": "L.Stick",
+    "polish": "L. drążek",
+    "context": "script string_gamepad"
+  },
+  {
+    "key": "s743",
+    "english": "R.Stick",
+    "polish": "P. drążek",
+    "context": "script string_gamepad"
+  },
+  {
+    "key": "s744",
+    "english": "Pad Up",
+    "polish": "Krzyżak w górę",
+    "context": "script string_gamepad"
+  },
+  {
+    "key": "s745",
+    "english": "Pad Down",
+    "polish": "Krzyżak w dół",
+    "context": "script string_gamepad"
+  },
+  {
+    "key": "s746",
+    "english": "Pad Left",
+    "polish": "Krzyżak w lewo",
+    "context": "script string_gamepad"
+  },
+  {
+    "key": "s747",
+    "english": "Pad Right",
+    "polish": "Krzyżak w prawo",
+    "context": "script string_gamepad"
+  },
+  {
+    "key": "s729",
+    "english": "Left Stick",
+    "polish": "Lewy drążek",
+    "context": "script string_stick"
+  },
+  {
+    "key": "s730",
+    "english": "Right Stick",
+    "polish": "Prawy drążek",
+    "context": "script string_stick"
+  },
+  {
+    "key": "s1757",
+    "english": "I wake up. Cold water. Docks again. Splinters in my hand. Where am I? Roland's here. He helps. He says we leave. He says we don't have to come back to the docks again. He gives me a hit. Good hit. I feel it in my tongue and my throat and my hands and my feet and my ears and\r\n\r\nI wake up. How much time? Thumping in my ear. Music. I look down, and there's splinters in my hand. Roland's gone. I die again. I overdose again.\r\n\r\nI wake up. Hands wet. Feet wet. Docks again? I'm in living room. I need more ash. Roland? I hear the music again. I hear yelling. The room fills up with cold water. I splinter and we all overdose again. \r\n\r\nI wake up. Knocking at the door. Roland?",
+    "polish": "Budzę się. Zimna woda. Znowu doki. Drzazgi w dłoni. Gdzie jestem? Roland tu jest. Pomaga. Mówi, że odchodzimy. Mówi, że nie musimy już wracać do doków. Daje mi działkę. Dobra działka. Czuję ją w języku i w gardle, i w dłoniach, i w stopach, i w uszach, i\r\n\r\nBudzę się. Ile czasu minęło? Łomot w uchu. Muzyka. Patrzę w dół, a w dłoni drzazgi. Rolanda nie ma. Znowu umieram. Znowu przedawkowuję.\r\n\r\nBudzę się. Mokre ręce. Mokre stopy. Znowu doki? Jestem w salonie. Potrzebuję więcej popiołu. Roland? Znowu słyszę muzykę. Słyszę krzyki. Pokój wypełnia się zimną wodą. Rozpadam się w drzazgi i wszyscy znowu przedawkowujemy.\r\n\r\nBudzę się. Pukanie do drzwi. Roland?",
+    "context": "oCassette_Create_0"
+  },
+  {
+    "key": "s1758",
+    "english": "Only ash helps. Ash brings a bit of Jacob back to me. What happened to Jacob? I remember. He died. He overdosed. My tongue feels heavy in my mouth. Talking is hard. Thinking is hard. Did Jacob pay rent? I shift the shotgun in my hand. Standing is hard. Roland? Roland says we shouldn't smoke the ash. He says we need it. He says we can leave soon. \r\n\r\nI hear scuttling. I fire my gun and splatter Jacob against the wall. Thought it was the reaper - I'm sorry Jacob. Thick smoke fills the room and Jacob's red and yellow and green corpse is gone. Where's Jacob? I want to be Jacob again.",
+    "polish": "Pomaga tylko popiół. Popiół oddaje mi trochę Jacoba. Co się stało z Jacobem? Pamiętam. Umarł. Przedawkował. Język ciąży mi w ustach. Mówić jest trudno. Myśleć jest trudno. Czy Jacob zapłacił czynsz? Przekładam strzelbę w dłoni. Stać jest trudno. Roland? Roland mówi, że nie powinniśmy palić popiołu. Mówi, że jest nam potrzebny. Mówi, że niedługo będziemy mogli odejść.\r\n\r\nSłyszę chrobot. Strzelam i rozbryzguję Jacoba po ścianie. Wydawało mi się, że to żniwiarz - przepraszam, Jacob. Gęsty dym wypełnia pokój i czerwono-żółto-zielonego trupa Jacoba już nie ma. Gdzie jest Jacob? Chcę znowu być Jacobem.",
+    "context": "oCassette_Create_0"
+  },
+  {
+    "key": "s1759",
+    "english": "'Any day now', he says. 'The Dredged have a PLAN! Oh, what is the plan? Sorry, can't tell you. Keep feeding your boys to the reaper though and just sit on the ash.' I hope this is worth it - we're moving huge amounts of ash around, and we're losing members left and right to the reaper. \r\n\r\nDark and stormy said that the ash can be used for more than getting high - but man, was it HARD to convince the boys. I just wanna get everyone to a place where we don't need the high anymore - somewhere where we feel more... alive. We all feelin' like shit here. The boys don't know it, but on the day we lost Stephen I took a bump too. We all did. But I'm trying to be stronger - it's not working yet, but I'm trying to be stronger. They need a leader.\r\n\r\nI hear shifting in my bed - somethin' woke her up. My phone is ringing - Puff? Man, Puff is always calling me for dumb shit - he gets spooked by everything. Amber speaks up, her voice piercing the silence: 'Babe, can you turn that off?' I reply with a whisper, 'Yeah, sorry Am, it's just Puff again. Always callin' me.' I lock the phone and toss it across the dark room. I look back at her pale form - at least there's SOME benefits from working with the vampires. Still, they give me the creeps. I can't wait until this is over. Any day now.",
+    "polish": "'Lada dzień', mówi. 'The Dredged mają PLAN! Och, a jaki to plan? Sorry, nie mogę powiedzieć. Ale dalej karmcie żniwiarza swoimi chłopakami i siedźcie na popiele.' Mam nadzieję, że to się opłaci - przerzucamy masę popiołu, a żniwiarz kosi naszych na prawo i lewo.\r\n\r\nCiemny-i-Burzliwy mówił, że popiół nadaje się nie tylko do ćpania - ale, stary, jak TRUDNO było przekonać chłopaków. Chcę tylko zabrać wszystkich tam, gdzie nie będziemy już potrzebować haju - gdzieś, gdzie poczujemy się bardziej... żywi. Wszyscy czujemy się tu jak gówno. Chłopaki nie wiedzą, ale w dniu, w którym straciliśmy Stephena, też wziąłem działkę. Wszyscy wzięliśmy. Ale próbuję być silniejszy - na razie nie wychodzi, ale próbuję. Potrzebują przywódcy.\r\n\r\nSłyszę, jak ktoś się wierci w łóżku - coś ją obudziło. Dzwoni telefon - Puff? Stary, Puff wiecznie wydzwania z jakimiś bzdetami - wszystkiego się boi. Amber się odzywa, jej głos przeszywa ciszę: 'Kochanie, możesz to wyłączyć?' Odpowiadam szeptem: 'Jasne, sorry, Am, to znowu Puff. Wiecznie do mnie wydzwania.' Blokuję telefon i rzucam go w ciemny kąt pokoju. Znowu patrzę na jej bladą sylwetkę - przynajmniej współpraca z wampirami ma JAKIEŚ plusy. Ale i tak przechodzą mnie przy nich ciarki. Nie mogę się doczekać, aż to się skończy. Lada dzień.",
+    "context": "oCassette_Create_0"
+  },
+  {
+    "key": "s1760",
+    "english": "It's night time, but it's always night time here. The moon never shines anymore - not like the night I met him. Not like the night we went home. Not like my last life. \r\n\r\nThe bartender knows me; I've been coming here for weeks, since the day the Bloody Mary opened. Clubs only last a few weeks at best around here; no one really knows why. A man at the bar buys me a drink - it glows like moonlight. I take a sip and I feel the warmth. I shift from one leg to the other. I don't feel like dancing tonight.  \r\n\r\nI take another sip - it's a lot more bitter than I expect. The man at the bar buys me another drink. He scans me, gaze lingering... oh, right. I almost forgot that this is how I died last time. His hands burn where they touch. Let me forget - please make me forget!",
+    "polish": "Jest noc, ale tu zawsze jest noc. Księżyc już nigdy nie świeci - nie tak jak tamtej nocy, kiedy go poznałam. Nie tak jak tamtej nocy, kiedy wróciliśmy do domu. Nie tak jak w moim poprzednim życiu.\r\n\r\nBarman mnie zna; przychodzę tu od tygodni, od dnia, w którym otworzyli The Bloody Mary. Kluby wytrzymują tu najwyżej kilka tygodni; nikt właściwie nie wie dlaczego. Mężczyzna przy barze stawia mi drinka - świeci jak księżyc. Biorę łyk i czuję ciepło. Przestępuję z nogi na nogę. Nie mam dziś ochoty tańczyć.\r\n\r\nBiorę kolejny łyk - jest dużo bardziej gorzki, niż się spodziewam. Mężczyzna przy barze stawia mi następnego drinka. Mierzy mnie wzrokiem, spojrzenie zatrzymuje się dłużej... ach, no tak. Prawie zapomniałam, że właśnie tak umarłam ostatnim razem. Jego dłonie parzą tam, gdzie mnie dotykają. Pozwól mi zapomnieć - proszę, spraw, żebym zapomniała!",
+    "context": "oCassette_Create_0"
+  },
+  {
+    "key": "s1761",
+    "english": "We pull up to another club - the music is still playing, but no voices come out. The music pounds in my skull - I'll turn it off as soon as I get inside. 'Another successful harvest,' she would say. Madam Stela says that the ash will help us leave this place, but almost nobody knows that the ash is made from people - from the skeletons and their strange magic.\r\n\r\nThe workers pile out of the car. They've been blinded, so they can't see what happened. One by one, they pile into the club with their shovels and bags and start harvesting the frozen bodies. I promised not to tell. The Stelas' would kill me if I did - last week Logan blabbed to his girls during pillow talk. Big mistake. He's ash now. \r\n\r\nWe've all been betrayed before - that's why we're here. What's one more? I just want to secure my trip to hell, one way or another. Can you blame me?",
+    "polish": "Podjeżdżamy pod kolejny klub - muzyka wciąż gra, ale nie słychać żadnych głosów. Muzyka łupie mi w czaszce - wyłączę ją, jak tylko wejdę do środka. 'Kolejne udane żniwa' - tak by powiedziała. Madam Stela mówi, że popiół pomoże nam opuścić to miejsce, ale prawie nikt nie wie, że popiół robi się z ludzi - dzięki szkieletom i ich dziwnej magii.\r\n\r\nRobotnicy wysypują się z auta. Oślepiono ich, żeby nie widzieli, co się stało. Jeden po drugim wchodzą do klubu z łopatami i workami i zaczynają zbierać zamarznięte ciała. Mam nie mówić. Stelowie by mnie zabili - w zeszłym tygodniu Logan wygadał się swoim dziewczynom w łóżku. Wielki błąd. Teraz jest popiołem.\r\n\r\nKażdy z nas był już kiedyś zdradzony - dlatego tu jesteśmy. Co za różnica, jeszcze jeden raz? Chcę tylko zapewnić sobie bilet do piekła, tak czy inaczej. Możesz mnie za to winić?",
+    "context": "oCassette_Create_0"
+  },
+  {
+    "key": "s1763",
+    "english": "Cold. It's so bitterly cold. In the darkness of my patrol, lights dancing across the waves, the cold bit at my exposed bones. I pry every step off of the pavement - the humidity near the docks freeze my feet to the ground. I can hear Ibzan in the other room - still telling the shamans about the land of warmth and the ash and the portal and blahblahblah. I'm starting to think it's bullshit - but we are all so cold. The idea of a warmer place is so inviting.\r\n'More flesh,' he'd say. 'We need more for the portal; it is so close my brothers! We will soon be embraced by his Warmth, for he loves every one of us!'\r\n\r\nIt's so cruel, isn't it? I wanted to die.. And I still do - but I can't. I have no brain to destroy or nerves to sever. The Generals reassemble me as soon as I rip myself apart - and why is it so GODDAMN cold?",
+    "polish": "Zimno. Tak przeraźliwie zimno. W ciemności patrolu, gdy po falach tańczą światła, chłód kąsa moje odsłonięte kości. Każdy krok odrywam od chodnika - wilgoć przy dokach przymraża mi stopy do ziemi. Słyszę Ibzana w drugim pokoju - dalej opowiada szamanom o krainie ciepła i o popiele, i o portalu, i blablabla. Zaczynam myśleć, że to gówno prawda - ale wszystkim nam jest tak zimno. Myśl o cieplejszym miejscu tak kusi.\r\n'Więcej ciała', mówi. 'Potrzeba więcej na portal; jest tak blisko, bracia! Wkrótce obejmie nas jego Ciepło, bo on kocha każdego z nas!'\r\n\r\nTo takie okrutne, prawda? Od dawna chcę umrzeć.. I dalej chcę - ale nie mogę. Nie mam mózgu, który można by zniszczyć, ani nerwów, które można by przeciąć. Generałowie składają mnie z powrotem, gdy tylko się rozszarpię - i czemu jest tak CHOLERNIE zimno?",
+    "context": "oCassette_Create_0"
+  },
+  {
+    "key": "s1764",
+    "english": "Another one. Thank god, another dead one. \r\nIt starts as a dull chill, originating from my right shoulder. The feeling grows towards my hands, skin tight against the bone. The feeling grows more, a searing hot pain in contrast to the frigid air. \r\n\r\nSuddenly, the cold exits in a brilliant blue flash from my fingertips - and Albina is reconstructed where she last died. Miraculously, the cold subsides for a moment; what a relief. God, what warmth! I know Albina didn't WANT to be reconstructed - she shoots daggers from empty sockets - but the cold was too much to bear. I almost feel sorry and begin to - oh, is that another body?",
+    "polish": "Kolejny. Dzięki Bogu, kolejny martwy.\r\nZaczyna się od tępego chłodu w prawym ramieniu. Uczucie wędruje ku dłoniom, skóra napina się na kościach. Narasta dalej, piekący, gorący ból w kontraście z mroźnym powietrzem.\r\n\r\nNagle chłód uchodzi z koniuszków palców w jaskrawoniebieskim błysku - i Albina odradza się tam, gdzie ostatnio zginęła. Cudem chłód na chwilę ustępuje; co za ulga. Boże, co za ciepło! Wiem, że Albina NIE CHCIAŁA, żeby ją poskładać - ciska gromy z pustych oczodołów - ale tego zimna nie dało się znieść. Prawie jest mi przykro i już zaczynam - och, czy to kolejne ciało?",
+    "context": "oCassette_Create_0"
+  },
+  {
+    "key": "s1765",
+    "english": "I stumble through the door, slamming it against the wall. Cold. I fall to my knees and the floor splinters where I land. Cold. Where is he? I feel for the lightswitch on the wall, hands groping. Where was it again? My fingers find their mark and I flick it on. The fluorescent lights spark to life, buzzing.\r\n\r\nMy heart drops through the fucking floor and I lose it, forever. Where's the - where's the fireplace? It was here... wasn't it? It's just wall. It was here. He was HERE. I start clawing, razor sharp bones raking the plaster apart. It was here. I'm so cold. I need my friend. My fingers find a weakness and bust through. Ah, there you are!\r\n\r\nWith frenzy, I rip the plaster down. Dust floats through the air and swirls around my arms. Nothing. There's nothing here but an empty void. No. No. NonononononoNO. Where are you, you son of a bitch?",
+    "polish": "Wtaczam się przez drzwi, trzaskając nimi o ścianę. Zimno. Padam na kolana, a podłoga pęka tam, gdzie upadam. Zimno. Gdzie on jest? Szukam po omacku włącznika na ścianie. Gdzie to było? Palce trafiają na niego i pstrykam. Jarzeniówki z brzęczeniem budzą się do życia.\r\n\r\nSerce spada mi przez jebaną podłogę i puszczają mi nerwy. Na dobre. Gdzie jest - gdzie jest kominek? Był tutaj... prawda? Tu jest tylko ściana. Był tutaj. On był TUTAJ. Zaczynam drapać, ostre jak brzytwa kości rozdzierają tynk. Był tutaj. Tak mi zimno. Potrzebuję mojego przyjaciela. Palce znajdują słabe miejsce i przebijają się. Ach, tu jesteś!\r\n\r\nW szale zrywam tynk. Pył unosi się w powietrzu i wiruje wokół moich rąk. Nic. Nie ma tu nic prócz pustki. Nie. Nie. NienienienienieNIE. Gdzie jesteś, ty sukinsynu?",
+    "context": "oCassette_Create_0"
+  },
+  {
+    "key": "s1766",
+    "english": "Splish, splash. The dinghy rocks - we fit fifteen in a boat meant more for two. Splish, splash. We hit an old post in the dark - and Goroduth careens over the edge into the cold dark depths below. We gotta leave him behind - he's Charon's now. Splish, splash.\r\n\r\nAulk pulls the dinghy up to the shore. Charon can't see us here so far from the docks. She lets out a sigh of relief. We all clamber over the edge, boat swaying as it's relieved of demons and ammunition and weaponry. The cold sand is inviting. While none of us would admit it, we were terrified of the deadly dark of the Styx - and of Charon. We've all heard the songs in the birthing chambers... wait, you haven't? Seriously?\r\n\r\n'Splish, splash, in the Styx we go.\r\nCharon's comin', swim real slow.\r\n\r\nSplish, splash, in the Styx we go.\r\nMama's not watching, she doesn't know.\r\n\r\nSplish, splash, in the Styx we go.\r\nOne by one by one he throws.\r\n\r\nSplish, splash in the Styx we go.\r\nAlways remember that we drown slow.'\r\n\r\nSomethin' like that.",
+    "polish": "Chlup, chlap. Ponton się kołysze - zmieściło się nas piętnastu w łodzi na dwóch. Chlup, chlap. W ciemności uderzamy w stary pal - i Goroduth leci przez burtę w zimną, ciemną głębinę. Trzeba go zostawić - teraz należy do Charona. Chlup, chlap.\r\n\r\nAulk wyciąga ponton na brzeg. Tak daleko od doków Charon nas nie widzi. Aulk oddycha z ulgą. Wszyscy gramolimy się przez burtę, a łódź kołysze się, uwalniana od demonów, amunicji i broni. Zimny piasek kusi. Choć nikt z nas by się nie przyznał, byliśmy przerażeni śmiertelną ciemnością Styksu - i Charonem. Wszyscy słyszeliśmy piosenki w komorach lęgowych... czekaj, ty nie? Serio?\r\n\r\n'Chlup, chlap, do Styksu skok.\r\nCharon płynie, zwolnij krok.\r\n\r\nChlup, chlap, do Styksu skok.\r\nMama nie patrzy, odwraca wzrok.\r\n\r\nChlup, chlap, do Styksu skok.\r\nJeden po drugim leci w mrok.\r\n\r\nChlup, chlap, do Styksu skok.\r\nPamiętaj: toniemy wolno - to wyrok.'\r\n\r\nJakoś tak to szło.",
+    "context": "oCassette_Create_0"
+  },
+  {
+    "key": "s1767",
+    "english": "Another day of work. It's pouring out today, and the rain soaks through my coat. I go to open the door to my apartment, but it's slightly stuck. 'For hell's sake...' I mutter under my breath. A few good shoulder nudges finally pries the door open, and it swings into the side of my hallway.\r\n\r\nMy room is pitch dark, as usual. And dead empty. The fireplace is off - damn. I was hoping my friend would be here tonight. I've never been much of an interior decorator, but this is a bit... dry. I suppose I don't need much to live - I don't need to eat or drink, and I can't sleep. I still bought a bed anyways. It wasn't until after I got it that I remembered I had no eyelids to close, so now I just stare up into the ceiling while - is that mold growing again?\r\n\r\nHow long have I been in this Place? Months? Years? Decades? Every day is the same - I go out and kill undead and go home and stare at that mold. My friend says nothing to me, just more missions. At least the mold gets to grow and change, slowly inching towards - AH, the fireplace? Is it - oh, wait, it's not on. Damn. I thought I saw you.",
+    "polish": "Kolejny dzień pracy. Dziś leje, a deszcz przesiąka mi przez płaszcz. Chcę otworzyć drzwi do mieszkania, ale lekko się zacinają. 'Do diabła...', mamroczę pod nosem. Kilka porządnych pchnięć barkiem i drzwi wreszcie ustępują, uderzając o ścianę korytarza.\r\n\r\nW pokoju jak zwykle ciemno choć oko wykol. I pusto jak w grobie. Kominek zgaszony - cholera. Miałem nadzieję, że mój przyjaciel będzie dziś w domu. Nigdy nie znałem się na urządzaniu wnętrz, ale tu jest trochę... surowo. Chyba niewiele mi trzeba do życia - nie muszę jeść ani pić, a spać nie mogę. Mimo to kupiłem łóżko. Dopiero kiedy je miałem, przypomniałem sobie, że nie mam powiek, więc teraz po prostu gapię się w sufit, a tam - czy to znowu rośnie pleśń?\r\n\r\nJak długo już jestem w tym Miejscu? Miesiące? Lata? Dziesięciolecia? Każdy dzień jest taki sam - wychodzę, zabijam nieumarłych, wracam do domu i gapię się na tę pleśń. Przyjaciel nic do mnie nie mówi, daje tylko kolejne misje. Przynajmniej pleśń może rosnąć i się zmieniać, powoli pełznąc w stronę - ACH, kominek? Czy to - och, czekaj, nie pali się. Cholera. Myślałem, że cię widzę.",
+    "context": "oCassette_Create_0"
+  },
+  {
+    "key": "s6280",
+    "english": "Oh, I can't wait. This Place is filthy - full of filthy streets and filthy undead and filthy weather. My husband agrees. We HATE this Place. My last husband hated it too - but he also hated dancing. I love dancing. He died. My husband before that actually LIKED the undead - disgusting. He died too. We try so hard to have some resemblance of class in this god-forsaken hole in the ground.\r\n\r\nOne of the Nightcrawlers knocked on our bedroom door (even though we've told them time and time again to NEVER step in the house...disgusting.) My husband opens the door and I hear an exchange. Hushed but excited - must be another successful harvest! He closes the door and walks back towards his desk, trying his hardest to keep his smile hidden. We're only a couple harvests away to having enough ash! \r\n\r\nOh, I wonder what the other Place is like? Does it rain there? How warm is it? The Dredged say it's so warm there - I can't wait to lay in the sun again!",
+    "polish": "Och, nie mogę się doczekać. To Miejsce jest plugawe - pełne plugawych ulic, plugawych nieumarłych i plugawej pogody. Mój mąż się zgadza. NIENAWIDZIMY tego Miejsca. Mój poprzedni mąż też go nienawidził - ale nienawidził też tańca. Ja kocham tańczyć. Umarł. Mąż przed nim naprawdę LUBIŁ nieumarłych - obrzydliwe. On też umarł. Tak bardzo się staramy zachować choć pozory klasy w tej zapomnianej przez Boga dziurze w ziemi.\r\n\r\nJeden z nocnych łowców zapukał do drzwi naszej sypialni (choć tyle razy im mówiliśmy, żeby NIGDY nie wchodzili do domu... obrzydliwe). Mąż otwiera drzwi i słyszę rozmowę. Ściszoną, ale podekscytowaną - to pewnie kolejne udane żniwa! Zamyka drzwi i wraca do biurka, z całych sił starając się ukryć uśmiech. Jeszcze tylko kilka żniw i będziemy mieli dość popiołu!\r\n\r\nOch, ciekawe, jakie jest to drugie Miejsce? Czy tam pada? Jak jest ciepło? The Dredged mówią, że tam jest tak ciepło - nie mogę się doczekać, aż znowu poleżę na słońcu!",
+    "context": "oCassette_Create_0"
+  },
+  {
+    "key": "s2590",
+    "english": "...sparkles...",
+    "polish": "...iskierki...",
+    "context": "Timeline_tl_lv1_2_1_0"
+  },
+  {
+    "key": "s6282",
+    "english": "= D E A D B O L T = # # A Hopoo Games Production  ####= Game Design =#Duncan Drummond #Paul Morse ##= Graphics =#Duncan Drummond ##= Programmer =#Duncan Drummond ##= Sound Effects =#Jordan Fehr ##= Music =#Chris Christodoulou ##= Business Dev =#Paul Morse ##= Testing =#Duncan Drummond #Paul Morse #Stuart Drummond ##= Special Thanks To =#b #Darkly77 #ghor #JAG #Karl #keepee #kitten #Labyrinth #Liquorish #LuckyCassette #Mung #Omrii #QT #Quarry #RBD2 #ryunocore #SeventeenUncles #Silpheed #Slow #Square_Rabbit #Steam Dev Crew #Strato #Stuart D #Susan L #Tanya L #Thumbie #Tox #Typo #Untouch #vine2D #Wabba #Zach G #All our friends and family #And still yes, you!",
+    "polish": "= D E A D B O L T = # # Produkcja Hopoo Games  ####= Projekt gry =#Duncan Drummond #Paul Morse ##= Grafika =#Duncan Drummond ##= Programowanie =#Duncan Drummond ##= Efekty dźwiękowe =#Jordan Fehr ##= Muzyka =#Chris Christodoulou ##= Rozwój biznesu =#Paul Morse ##= Testy =#Duncan Drummond #Paul Morse #Stuart Drummond ##= Specjalne podziękowania =#b #Darkly77 #ghor #JAG #Karl #keepee #kitten #Labyrinth #Liquorish #LuckyCassette #Mung #Omrii #QT #Quarry #RBD2 #ryunocore #SeventeenUncles #Silpheed #Slow #Square_Rabbit #Steam Dev Crew #Strato #Stuart D #Susan L #Tanya L #Thumbie #Tox #Typo #Untouch #vine2D #Wabba #Zach G #Wszyscy nasi przyjaciele i rodziny #I oczywiście ty!",
+    "context": "oCredits_Create_0"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission3/Dialogue",
+    "english": "The flames roar to life - and I see visions inside.",
+    "polish": "Płomienie z rykiem budzą się do życia - i widzę w nich wizje.",
+    "context": "dialog dia_fp.json/map_mission3/Dialogue"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission3/Description",
+    "english": "The fireplace began to speak, #\"Flesh caskets breathe.#Burn the ash,#scatter their teeth.\"",
+    "polish": "Kominek przemówił: #\"Trumny z mięsa wciąż dychają.#Spal popiół -#niech im zęby powypadają.\"",
+    "context": "dialog dia_fp.json/map_mission3/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission3/map_intel/Description",
+    "english": "I see two entrances to the house. The left entrance has less zombies, but the right entrance has more weapons. My choice.",
+    "polish": "Widzę dwa wejścia do domu. Przy lewym jest mniej zombie, ale przy prawym więcej broni. Wybór należy do mnie.",
+    "context": "dialog dia_fp.json/map_mission3/map_intel/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission3/map_gun/map_dock/Name",
+    "english": "docks",
+    "polish": "doki",
+    "context": "dialog dia_fp.json/map_mission3/map_gun/map_dock/Name"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission3/map_gun/map_dock/Description",
+    "english": "Charon lives at the docks - I can exchange souls for weapons before I accept my mission.",
+    "polish": "Charon mieszka w dokach - zanim przyjmę misję, mogę u niego wymienić dusze na broń.",
+    "context": "dialog dia_fp.json/map_mission3/map_gun/map_dock/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission3/map_gun/Name",
+    "english": "New Gun",
+    "polish": "Nowa broń",
+    "context": "dialog dia_fp.json/map_mission3/map_gun/Name"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission3/map_gun/Description",
+    "english": "I see visions of Charon, the Ferryman. He may be interested in the souls I have collected for our mutual employer - I should see him at the &y&docks&!& before my next mission.",
+    "polish": "Widzę wizje Charona, Przewoźnika. Może zainteresują go dusze, które zebrałem dla naszego wspólnego pracodawcy - przed następną misją powinienem odwiedzić go w &y&dokach&!&.",
+    "context": "dialog dia_fp.json/map_mission3/map_gun/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission4/Dialogue",
+    "english": "The flames roar to life - and you see visions of a man, Puff.",
+    "polish": "Płomienie z rykiem budzą się do życia - i widzisz wizje mężczyzny, Puffa.",
+    "context": "dialog dia_fp.json/map_mission4/Dialogue"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission4/Description",
+    "english": "\"No moment to flee -# he should not be here.#&y&A man with a heart&!&,#cannot live with me.\"",
+    "polish": "\"Nie ma dokąd zbiec -# on nie powinien tu być.#&y&Człowiek, co ma serce&!&,#nie może przy mnie żyć.\"",
+    "context": "dialog dia_fp.json/map_mission4/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission4/map_intel/Description",
+    "english": "The Candles tell me that Puff keeps an old machine gun in his basement - something he stole from the Trideads. I am sure it still works.",
+    "polish": "Świece mówią, że Puff trzyma w piwnicy stary karabin maszynowy - coś, co ukradł Trideadom. Na pewno wciąż działa.",
+    "context": "dialog dia_fp.json/map_mission4/map_intel/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission4/map_puff/Description",
+    "english": "Shadows cast along the wall, and the flames show me silhouettes of Puff's death.##This is the first time my employer has given me a specific target - and I succumb to the thrill.",
+    "polish": "Na ścianie kładą się cienie, a płomienie pokazują mi sylwetki śmierci Puffa.##Pierwszy raz pracodawca wskazał mi konkretny cel - i poddaję się dreszczowi emocji.",
+    "context": "dialog dia_fp.json/map_mission4/map_puff/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission5/Dialogue",
+    "english": "The flames roar to life, with more vigor than usual. My employer is happy with success.",
+    "polish": "Płomienie z rykiem budzą się do życia, żywiej niż zwykle. Mój pracodawca cieszy się z sukcesu.",
+    "context": "dialog dia_fp.json/map_mission5/Dialogue"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission5/Description",
+    "english": "\"Hellhounds from beneath, #bred by the undead.#Go stop the weeping, #and gnashing of teeth.\"",
+    "polish": "\"Ogary z piekła rodem, #nieumarli karmią je krwią.#Uśmierz płacz i zgrzyt zębów - #niech na wieki już śpią.\"",
+    "context": "dialog dia_fp.json/map_mission5/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission5/map_intel/Description",
+    "english": "Hellhounds are three headed dogs with amazing sense of hearing, but they can't open doors. I'll use that to my advantage.",
+    "polish": "Piekielne ogary to trzygłowe psy o niesamowitym słuchu, ale nie potrafią otwierać drzwi. Wykorzystam to.",
+    "context": "dialog dia_fp.json/map_mission5/map_intel/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission6/Description",
+    "english": "\"My &y&Candle&!& has searched,#but never returned.\" ##The second address is familiar to the fireplace - I'll find what happened to the Candle.",
+    "polish": "\"Moja &y&Świeca&!& szukała,#lecz nie powróciła.\" ##Kominek zna drugi adres - dowiem się, co spotkało Świecę.",
+    "context": "dialog dia_fp.json/map_mission6/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission6/map_intel/Description",
+    "english": "The zombies have hung up security cameras. They don't do much, but will scream if it sees me for too long. I'll avoid them, or shoot them down.",
+    "polish": "Zombie pozawieszały kamery. Niewiele robią, ale podniosą wrzask, jeśli za długo będą mnie widzieć. Będę ich unikał albo je zestrzelę.",
+    "context": "dialog dia_fp.json/map_mission6/map_intel/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission6/map_reaper/Name",
+    "english": "Candle",
+    "polish": "Świeca",
+    "context": "dialog dia_fp.json/map_mission6/map_reaper/Name"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission6/map_reaper/Description",
+    "english": "Candles are the eyes and ears of the flames, always observing and bringing information.",
+    "polish": "Świece to oczy i uszy płomieni - zawsze obserwują i przynoszą wieści.",
+    "context": "dialog dia_fp.json/map_mission6/map_reaper/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission7/Description",
+    "english": "The Zombie Kingz have become scared of my hunt. They have begun heavily guarding a nearby motel - I will find what they are hiding.",
+    "polish": "Zombie Kingz zaczęli się bać moich łowów. Pilnie strzegą pobliskiego motelu - znajdę to, co ukrywają.",
+    "context": "dialog dia_fp.json/map_mission7/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission7/map_intel/Description",
+    "english": "The Candles tell me that Zombie Kingz patrols are nearby. I'll have to be quick, in case there are reinforcements.",
+    "polish": "Świece mówią, że w pobliżu krążą patrole Zombie Kingz. Muszę się spieszyć, na wypadek posiłków.",
+    "context": "dialog dia_fp.json/map_mission7/map_intel/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission7/map_lamp/Name",
+    "english": "Lamp",
+    "polish": "Lampa",
+    "context": "dialog dia_fp.json/map_mission7/map_lamp/Name"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission7/map_lamp/Description",
+    "english": "\"A man of light,\" spoke the fireplace, \"should not have to spend his time in darkness.\"",
+    "polish": "\"Człowiek światła\", rzekł kominek, \"nie powinien spędzać czasu w ciemności.\"",
+    "context": "dialog dia_fp.json/map_mission7/map_lamp/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission8/Description",
+    "english": "\"Their location - explained!#Burn the ash, #burn the dead,#and free souls contained.\"",
+    "polish": "\"Ich leże - odkryte!#Spal popiół, #spal zmarłych#i uwolnij dusze ukryte.\"",
+    "context": "dialog dia_fp.json/map_mission8/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission8/map_intel/Description",
+    "english": "My mission is to destroy all the ash - but it is best if I focus on killing the undead first.",
+    "polish": "Moja misja to zniszczyć cały popiół - ale najlepiej najpierw zająć się nieumarłymi.",
+    "context": "dialog dia_fp.json/map_mission8/map_intel/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission9/Dialogue",
+    "english": "The flames roar to life - and I see blood inside.",
+    "polish": "Płomienie z rykiem budzą się do życia - i widzę w nich krew.",
+    "context": "dialog dia_fp.json/map_mission9/Dialogue"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission9/Description",
+    "english": "\"Attempting to lead,#his creed to salvation.#&y&A man with ambition&!&,#cannot live with me.\" ",
+    "polish": "\"Chce do zbawienia wieść#swój ród i wodzem być.#&y&Człowiek, co ma ambicje&!&,#nie może przy mnie żyć.\" ",
+    "context": "dialog dia_fp.json/map_mission9/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission9/map_intel/Description",
+    "english": "Roland's house is filled with many guards - but the only target is Roland. I'll separate him from his men.",
+    "polish": "Dom Rolanda roi się od strażników - ale celem jest tylko Roland. Oddzielę go od jego ludzi.",
+    "context": "dialog dia_fp.json/map_mission9/map_intel/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission9/map_roland/Description",
+    "english": "His death will shatter the Zombie Kingz leadership - I must remember that the mission is to kill Roland, not the others.",
+    "polish": "Jego śmierć rozbije wierchuszkę Zombie Kingz - muszę pamiętać, że misja to zabić Rolanda, nie resztę.",
+    "context": "dialog dia_fp.json/map_mission9/map_roland/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission10/Description",
+    "english": "\"Pale moonlight. #Touch -  no heat. #&b&Vampires&!& flock, #find out why.\"",
+    "polish": "\"Blady księżyc. #Dotyk -  zimny jak lód. #&b&Wampiry&!& się zlatują - #odkryj tego powód.\"",
+    "context": "dialog dia_fp.json/map_mission10/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission10/map_vamp/Name",
+    "english": "Vampires",
+    "polish": "Wampiry",
+    "context": "dialog dia_fp.json/map_mission10/map_vamp/Name"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission10/map_vamp/Description",
+    "english": "Tall undead, said to be formed by betrayal from a lover. They are much more dangerous than zombies - I'll have to make sure that every shot counts. ",
+    "polish": "Wysocy nieumarli; podobno rodzą się ze zdrady kochanka. Są dużo groźniejsi od zombie - każdy strzał musi trafić. ",
+    "context": "dialog dia_fp.json/map_mission10/map_vamp/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission10/map_vamp/map_mirror/Name",
+    "english": "Mirror",
+    "polish": "Lustro",
+    "context": "dialog dia_fp.json/map_mission10/map_vamp/map_mirror/Name"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission10/map_vamp/map_mirror/Description",
+    "english": "\"Look upon your reflection,\" said the fireplace, \"and remember that you are different. You are not undead.\"",
+    "polish": "\"Spójrz na swoje odbicie\", rzekł kominek, \"i pamiętaj, że jesteś inny. Nie jesteś nieumarły.\"",
+    "context": "dialog dia_fp.json/map_mission10/map_vamp/map_mirror/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission10/map_intel/Description",
+    "english": "Dancing vampires won't notice your presence - unless you shoot them.",
+    "polish": "Tańczące wampiry cię nie zauważą - chyba że do nich strzelisz.",
+    "context": "dialog dia_fp.json/map_mission10/map_intel/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission11/Description",
+    "english": "\"More, more, so many more. #So many corpses, #who forgot to die.\"",
+    "polish": "\"Więcej, więcej, ciągle więcej. #Tyle trupów, #co zapomniały umrzeć.\"",
+    "context": "dialog dia_fp.json/map_mission11/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission11/map_intel/Description",
+    "english": "Shotgun weapons are strongest near doors and entryways, where enemies can't react until it's too late.",
+    "polish": "Strzelby są najskuteczniejsze przy drzwiach i wejściach - wrogowie reagują tam, gdy jest już za późno.",
+    "context": "dialog dia_fp.json/map_mission11/map_intel/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission12/Description",
+    "english": "\"The vampires reform - #a lounge not too far. #Discover their aim, #and bring them a storm.\"##This lounge contains a safe - maybe I can understand why these clubs have been suddenly appearing.",
+    "polish": "\"Wampiry się skupiają - #nieopodal, w salonie. #Odkryj ich zamiar#i sprowadź burzę na nie.\"##W tym lokalu jest sejf - może zrozumiem, czemu te kluby nagle wyrastają.",
+    "context": "dialog dia_fp.json/map_mission12/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission12/map_intel/Description",
+    "english": "Some vampires have their souls outside of their body, stored in &y&phylacteries&!&. They must be destroyed to kill the vampire.",
+    "polish": "Niektóre wampiry trzymają duszę poza ciałem, w &y&filakteriach&!&. Trzeba je zniszczyć, żeby zabić wampira.",
+    "context": "dialog dia_fp.json/map_mission12/map_intel/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission12/map_intel/map_bottle/Name",
+    "english": "phylactery",
+    "polish": "filakteria",
+    "context": "dialog dia_fp.json/map_mission12/map_intel/map_bottle/Name"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission12/map_intel/map_bottle/Description",
+    "english": "Magical charms - the vampires prefer bottles. They will glow noticeably blue.",
+    "polish": "Magiczne amulety - wampiry wolą butelki. Wyraźnie świecą na niebiesko.",
+    "context": "dialog dia_fp.json/map_mission12/map_intel/map_bottle/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission13/Description",
+    "english": "Candles have spotted vampires coming and going from the industrial district - the same address I found in the safe. I'll find out what they're doing. ##Suddenly, the flames speak: \"The goals of undead are always the same.\"",
+    "polish": "Świece widziały wampiry kręcące się po dzielnicy przemysłowej - pod tym samym adresem, który znalazłem w sejfie. Dowiem się, co tam robią. ##Nagle płomienie przemawiają: \"Cele nieumarłych są zawsze te same.\"",
+    "context": "dialog dia_fp.json/map_mission13/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission13/map_intel/Description",
+    "english": "Some vampires will have phylacteries in difficult places, and will have to be killed multiple times.",
+    "polish": "Niektóre wampiry mają filakterie w trudno dostępnych miejscach i trzeba je zabijać kilka razy.",
+    "context": "dialog dia_fp.json/map_mission13/map_intel/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission13/map_cat/Name",
+    "english": "Cat",
+    "polish": "Kot",
+    "context": "dialog dia_fp.json/map_mission13/map_cat/Name"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission13/map_cat/Description",
+    "english": "\"I... thought you could use companionship,\" spoke the fireplace. \"Life is not meant to be spent alone.\"",
+    "polish": "\"Pomyślałem... że przyda ci się towarzystwo\", rzekł kominek. \"Życie nie jest po to, by spędzać je w samotności.\"",
+    "context": "dialog dia_fp.json/map_mission13/map_cat/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission14/Description",
+    "english": "\"&b&Twins&!& lost at sea - #of lust and of pain. #Women without love, #cannot live with me.\"",
+    "polish": "\"&b&Bliźniaczki&!& toną w morzu#żądzy i bólu - tam im gnić. #Kobiety bez miłości#nie mogą przy mnie żyć.\"",
+    "context": "dialog dia_fp.json/map_mission14/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission14/map_twins/Name",
+    "english": "Twins",
+    "polish": "Bliźniaczki",
+    "context": "dialog dia_fp.json/map_mission14/map_twins/Name"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission14/map_twins/map_brothel/Name",
+    "english": "brothels",
+    "polish": "burdele",
+    "context": "dialog dia_fp.json/map_mission14/map_twins/map_brothel/Name"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission14/map_twins/map_brothel/Description",
+    "english": "The vampires are both the most attractive and sexually active undead, so it comes naturally.",
+    "polish": "Wampiry to najbardziej pociągający i najbardziej jurni nieumarli, więc przychodzi im to naturalnie.",
+    "context": "dialog dia_fp.json/map_mission14/map_twins/map_brothel/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission14/map_twins/Description",
+    "english": "Amber and Evelyn run &y&brothels&!& downtown. They are high ranking members of the 1000 Year Royals - they must understand the cryptic messages I've been finding in the club safes.",
+    "polish": "Amber i Evelyn prowadzą &y&burdele&!& w centrum. Stoją wysoko w hierarchii 1000 Year Royals - muszą rozumieć zagadkowe wiadomości, które znajduję w klubowych sejfach.",
+    "context": "dialog dia_fp.json/map_mission14/map_twins/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission14/map_intel/Description",
+    "english": "The twins have somehow made each other their phylactery. I will have to kill both at nearly the same time.",
+    "polish": "Bliźniaczki jakimś cudem uczyniły siebie nawzajem swoimi filakteriami. Muszę zabić obie niemal w tej samej chwili.",
+    "context": "dialog dia_fp.json/map_mission14/map_intel/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission15/Dialogue",
+    "english": "The flames stay extinguished.",
+    "polish": "Płomienie pozostają zgaszone.",
+    "context": "dialog dia_fp.json/map_mission15/Dialogue"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission15/Description",
+    "english": "A club the Candles have been investigating has suddenly gone quiet - along with the Candles. What happened inside?",
+    "polish": "Klub, który badały Świece, nagle ucichł - a wraz z nim Świece. Co się stało w środku?",
+    "context": "dialog dia_fp.json/map_mission15/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission15/map_intel/Description",
+    "english": "There is no intel. The fireplace remains quiet.",
+    "polish": "Brak informacji. Kominek milczy.",
+    "context": "dialog dia_fp.json/map_mission15/map_intel/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission16/Description",
+    "english": "The undead have somehow been turning their own bodies into ash... is that the purpose of all these clubs? &y&Sir&!& &y&Stela&!&, the head of the 1000 Year Royals, most likely knows how this was done.##\"He will know the key,#betrayal of kin.#A man without guilt,#cannot live with me.\"",
+    "polish": "Nieumarli jakimś sposobem obracają własne ciała w popiół... czy po to są te wszystkie kluby? &y&Sir&!& &y&Stela&!&, głowa 1000 Year Royals, najpewniej wie, jak to zrobiono.##\"On zna klucz -#zdradę własnej krwi.#Człowiek bez skruchy#nie może przy mnie żyć.\"",
+    "context": "dialog dia_fp.json/map_mission16/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission16/map_intel/Description",
+    "english": "Sir Stela's private condominium is heavily guarded, so expect heavy opposition.",
+    "polish": "Prywatny apartamentowiec Sir Steli jest pilnie strzeżony - spodziewaj się silnego oporu.",
+    "context": "dialog dia_fp.json/map_mission16/map_intel/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission16/map_stela/Description",
+    "english": "The Stelas are a royal family of vampires. Any activity in the 1000 Year Royals would not go without them knowing.",
+    "polish": "Stelowie to królewski ród wampirów. Nic w 1000 Year Royals nie dzieje się bez ich wiedzy.",
+    "context": "dialog dia_fp.json/map_mission16/map_stela/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission17/Description",
+    "english": "\"Skeletons are found, #no flesh and no love.#Stop their harvest -#or &y&Ibzan&!& is crowned.",
+    "polish": "\"Szkielety - nagie kości, #bez ciała i bez miłości.#Przerwij ich żniwa, #nim &y&Ibzan&!& na tronie zagości.",
+    "context": "dialog dia_fp.json/map_mission17/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission17/map_intel/Description",
+    "english": "By the time I arrived, the harvest will be near complete. I'll only have a minute to destroy all the harvest totems.",
+    "polish": "Zanim dotrę, żniwa będą prawie skończone. Będę miał tylko minutę na zniszczenie wszystkich totemów żniw.",
+    "context": "dialog dia_fp.json/map_mission17/map_intel/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission17/map_ibzan/Description",
+    "english": "\"His heart long gone, #Ibzan leads The Dredged.#You must bring his end - #he cannot do it alone.\"",
+    "polish": "\"Serce dawno stracił, #Ibzan wiedzie The Dredged.#Musisz go wykończyć - #sam tego nie zdoła.\"",
+    "context": "dialog dia_fp.json/map_mission17/map_ibzan/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission18/Description",
+    "english": "\"No forest - a lone tree.#Kills her own for escape.#A woman without guilt,#cannot live with me.\"",
+    "polish": "\"Nie las - samotne drzewo,#co swoich zabija, by się skryć.#Kobieta bez skruchy#nie może przy mnie żyć.\"",
+    "context": "dialog dia_fp.json/map_mission18/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission18/map_intel/Description",
+    "english": "The Candles have reported Madam Stela has multiple phylacteries - I will have to destroy them all before taking Madam Stela down.",
+    "polish": "Świece donoszą, że Madam Stela ma kilka filakterii - muszę zniszczyć wszystkie, zanim ją zabiję.",
+    "context": "dialog dia_fp.json/map_mission18/map_intel/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission19/Description",
+    "english": "\"Candles do not know,#the &y&skeletons'&!& aim. #Go and peer inside, #their precious cargo.\"",
+    "polish": "\"Świece nie wiedzą, w jakim#&y&szkielety&!& idą kierunku. #Idź i zajrzyj do środka#ich cennego ładunku.\"",
+    "context": "dialog dia_fp.json/map_mission19/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission19/map_intel/Description",
+    "english": "While the Candles couldn't see inside the cargo, they did spot a crane with a weapon on top.",
+    "polish": "Świece nie zajrzały do ładunku, ale wypatrzyły dźwig z bronią na szczycie.",
+    "context": "dialog dia_fp.json/map_mission19/map_intel/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission19/map_skeleton/Name",
+    "english": "skeletons",
+    "polish": "szkielety",
+    "context": "dialog dia_fp.json/map_mission19/map_skeleton/Name"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission19/map_skeleton/Description",
+    "english": "Those who take their own life come back as skeletons, destined forever to roam this Place.",
+    "polish": "Ci, którzy odebrali sobie życie, wracają jako szkielety, skazane na wieczną tułaczkę po tym Miejscu.",
+    "context": "dialog dia_fp.json/map_mission19/map_skeleton/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission20/Description",
+    "english": "\"They climb to the sky,#scouting for reapers.#Do not let them build - #they will fly too high.\"",
+    "polish": "\"W niebo się wspinają,#wypatrują żniwiarzy z góry.#Nie daj im budować, #bo wzlecą ponad chmury.\"",
+    "context": "dialog dia_fp.json/map_mission20/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission20/map_intel/Description",
+    "english": "Technicians plant mines when spooked - but the mines can be used against them.",
+    "polish": "Spłoszeni technicy podkładają miny - ale miny można obrócić przeciwko nim.",
+    "context": "dialog dia_fp.json/map_mission20/map_intel/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission21/Description",
+    "english": "\"&y&Generals&!&, unchained!# Corpses to surface. #Find those who have drowned,#and drown them again.\"",
+    "polish": "\"&y&Generałowie&!& zerwali łańcuchy!# Trupy z głębin wypływają. #Znajdź tych, co utonęli,#i utop ich - niech znów konają.\"",
+    "context": "dialog dia_fp.json/map_mission21/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission21/map_intel/Description",
+    "english": "There is no reply, but the flames continues to crackle.",
+    "polish": "Brak odpowiedzi, ale płomienie wciąż trzaskają.",
+    "context": "dialog dia_fp.json/map_mission21/map_intel/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission21/map_general/Name",
+    "english": "Generals",
+    "polish": "Generałowie",
+    "context": "dialog dia_fp.json/map_mission21/map_general/Name"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission21/map_general/Description",
+    "english": "Commonly known as lich, Generals have the ability to bring damaged skeletons back to life. The source of this power is unknown, even to the Candles.",
+    "polish": "Generałowie, zwani potocznie liszami, potrafią przywracać do życia uszkodzone szkielety. Źródła tej mocy nie znają nawet Świece.",
+    "context": "dialog dia_fp.json/map_mission21/map_general/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission22/Description",
+    "english": "\"Around Ibzan - coils,#undead forgotten.#Open their coffins, #uncover their spoils.\"",
+    "polish": "\"Wokół Ibzana - sploty, #zapomnianych trupów rój.#Otwórz ich trumny, #niech ich łup będzie twój.\"",
+    "context": "dialog dia_fp.json/map_mission22/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission22/map_intel/Description",
+    "english": "The Candles have found the location of all the skeletons' shipping containers - but many skeletons guard the location. Kill the Generals first, or draw them to a trap by killing nearby skeletons.",
+    "polish": "Świece znalazły kontenery transportowe szkieletów - ale pilnuje ich mnóstwo szkieletów. Najpierw zabij generałów albo zwab ich w pułapkę, zabijając szkielety w pobliżu.",
+    "context": "dialog dia_fp.json/map_mission22/map_intel/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission23/Description",
+    "english": "\"&y&Timur&!& is free.#Knows purpose of flesh.#A man with desire,#cannot live with me.\"",
+    "polish": "\"&y&Timur&!& jest wolny,#wie, czemu ciało ma służyć.#Człowiek, co ma pragnienia,#nie może przy mnie żyć.\"",
+    "context": "dialog dia_fp.json/map_mission23/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission23/map_temur/Description",
+    "english": "Timur is the chief engineer for The Dredged. His crafting skills are only matched by his paranoia - his lab is outfitted with traps. I will have to tread carefully.",
+    "polish": "Timur to główny inżynier The Dredged. Jego talentowi konstruktora dorównuje tylko jego paranoja - laboratorium ma pełne pułapek. Muszę stąpać ostrożnie.",
+    "context": "dialog dia_fp.json/map_mission23/map_temur/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission24/Description",
+    "english": "\"&y&Demons&!& - they cross the river!##Ibzan feels the flame-#Hire help from beyond.#Demons are not dead#but die just the same.\" ##Ibzan is getting his car serviced at a nearby garage, defended by Demons. The return address to his home should be on the car.",
+    "polish": "\"&y&Demony&!& - przekraczają rzekę!##Ibzan czuje płomień -#najmuje pomoc z zaświatów.#Demony nie są martwe,#lecz giną tak samo.\" ##Ibzan oddał auto do pobliskiego warsztatu, którego bronią demony. Na aucie powinien być adres jego domu.",
+    "context": "dialog dia_fp.json/map_mission24/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission24/map_demon/Name",
+    "english": "Demons",
+    "polish": "Demony",
+    "context": "dialog dia_fp.json/map_mission24/map_demon/Name"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission24/map_demon/Description",
+    "english": "Creatures from beyond Charon's river, they sometimes make their way up as hired mercenaries. The Candles nor my employer know how the skeletons are paying for their service.",
+    "polish": "Istoty zza rzeki Charona; czasem wypływają na górę jako najemnicy. Ani Świece, ani mój pracodawca nie wiedzą, czym szkielety płacą im za usługi.",
+    "context": "dialog dia_fp.json/map_mission24/map_demon/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission24/map_intel/Description",
+    "english": "Demons bring high-powered weaponry from their lands. I will have to be careful and use cover accordingly.",
+    "polish": "Demony przynoszą ze swoich ziem potężną broń. Muszę uważać i dobrze korzystać z osłon.",
+    "context": "dialog dia_fp.json/map_mission24/map_intel/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission25/Description",
+    "english": "\"His home is exposed.#Find the portal.#Prove him mortal.#Leave him decomposed.\" ##Ibzan's apartment must contain data about the &y&portal&!& The Dredged are planning to construct.",
+    "polish": "\"Jego dom odkryty.#Znajdź wrota.#Dowiedź, że śmiertelny -#niech gnije, rozbity.\" ##W mieszkaniu Ibzana muszą być dane o &y&portalu&!&, który planują zbudować The Dredged.",
+    "context": "dialog dia_fp.json/map_mission25/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission25/map_intel/Description",
+    "english": "To help fight the Demon arsenal, Charon has lent us an extremely powerful weapon. I can find it in my car - I'll use it liberally.",
+    "polish": "Do walki z arsenałem demonów Charon pożyczył nam niezwykle potężną broń. Znajdę ją w aucie - nie będę jej żałował.",
+    "context": "dialog dia_fp.json/map_mission25/map_intel/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission25/map_portal/Name",
+    "english": "portal",
+    "polish": "portal",
+    "context": "dialog dia_fp.json/map_mission25/map_portal/Name"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission25/map_portal/Description",
+    "english": "The \"meat portal\" Timur constructed must be destroyed - or the skeletons, and all the undead with them, could leave this Place.",
+    "polish": "\"Mięsny portal\" zbudowany przez Timura musi zostać zniszczony - inaczej szkielety, a z nimi wszyscy nieumarli, mogą opuścić to Miejsce.",
+    "context": "dialog dia_fp.json/map_mission25/map_portal/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission26/Description",
+    "english": "I have found the location of the meat portal, but it is heavily defended by snipers. The &y&Candles&!& have offered their assistance, but I must first kill &y&Vall&!& - the best of the demon snipers.",
+    "polish": "Znalazłem mięsny portal, ale bronią go snajperzy. &y&Świece&!& zaoferowały pomoc, ale najpierw muszę zabić &y&Vall&!& - najlepszą z demonich snajperek.",
+    "context": "dialog dia_fp.json/map_mission26/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission26/map_intel/Description",
+    "english": "To get a clear shot at Vall I will have to get on the roof of a nearby building... while avoiding her sniper fire.",
+    "polish": "Żeby mieć czysty strzał do Vall, muszę wejść na dach pobliskiego budynku... unikając jej ognia.",
+    "context": "dialog dia_fp.json/map_mission26/map_intel/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission26/map_candles/Name",
+    "english": "Candles",
+    "polish": "Świece",
+    "context": "dialog dia_fp.json/map_mission26/map_candles/Name"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission26/map_candles/Description",
+    "english": "The Candles never engage in combat - but our employer has made an exception. ",
+    "polish": "Świece nigdy nie walczą - ale nasz pracodawca zrobił wyjątek. ",
+    "context": "dialog dia_fp.json/map_mission26/map_candles/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission26/map_vall/Description",
+    "english": "\"She paints with such glee!#A splattered canvas.#A woman of vision#cannot live with me.\"",
+    "polish": "\"Maluje z taką radością!#Płótno od bryzgów zaczyna lśnić.#Kobieta z wizją#nie może przy mnie żyć.\"",
+    "context": "dialog dia_fp.json/map_mission26/map_vall/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission27/Dialogue",
+    "english": "The flames stay extinguished - but a voice still speaks.",
+    "polish": "Płomienie pozostają zgaszone - ale głos wciąż przemawia.",
+    "context": "dialog dia_fp.json/map_mission27/Dialogue"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission27/Description",
+    "english": "\"He cannot be free.#I cannot forgive.#A man - undead#cannot live with me.\"",
+    "polish": "\"On nie może być wolny.#Ja nie mogę wybaczyć.#Człowiek - nieumarły -#nie może przy mnie żyć.\"",
+    "context": "dialog dia_fp.json/map_mission27/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission27/map_intel/Description",
+    "english": "The Candles will support from above - but they have limited ammunition. I will have to make sure I use their help conservatively.",
+    "polish": "Świece wesprą mnie z góry - ale mają mało amunicji. Muszę oszczędnie korzystać z ich pomocy.",
+    "context": "dialog dia_fp.json/map_mission27/map_intel/Description"
+  },
+  {
+    "key": "j:dia_fp.json/map_mission28/Description",
+    "english": "The flames continue to crackle - it no longer has missions for me.",
+    "polish": "Płomienie wciąż trzaskają - nie mają już dla mnie misji.",
+    "context": "dialog dia_fp.json/map_mission28/Description"
+  },
+  {
+    "key": "j:dia_lv1_4.json/map_mission0/Dialogue",
+    "english": "The desk has a filing cabinet. Maybe there is useful information there.",
+    "polish": "Przy biurku stoi szafka na akta. Może jest tam coś przydatnego.",
+    "context": "dialog dia_lv1_4.json/map_mission0/Dialogue"
+  },
+  {
+    "key": "j:dia_lv1_4.json/map_mission0/Name",
+    "english": "Open files",
+    "polish": "Otwórz akta",
+    "context": "dialog dia_lv1_4.json/map_mission0/Name"
+  },
+  {
+    "key": "j:dia_lv1_4.json/map_mission0/Description",
+    "english": "I pull open the filing cabinet. There are two separate tabs.",
+    "polish": "Wysuwam szufladę szafki. Są w niej dwie przegródki.",
+    "context": "dialog dia_lv1_4.json/map_mission0/Description"
+  },
+  {
+    "key": "j:dia_lv1_4.json/map_mission0/map_tab1/Name",
+    "english": "STUFF",
+    "polish": "GRATY",
+    "context": "dialog dia_lv1_4.json/map_mission0/map_tab1/Name"
+  },
+  {
+    "key": "j:dia_lv1_4.json/map_mission0/map_tab1/Description",
+    "english": "The tab is full of loose papers.",
+    "polish": "Przegródka jest pełna luźnych kartek.",
+    "context": "dialog dia_lv1_4.json/map_mission0/map_tab1/Description"
+  },
+  {
+    "key": "j:dia_lv1_4.json/map_mission0/map_tab1/map_paper1/Name",
+    "english": "Paper",
+    "polish": "Kartka",
+    "context": "dialog dia_lv1_4.json/map_mission0/map_tab1/map_paper1/Name"
+  },
+  {
+    "key": "j:dia_lv1_4.json/map_mission0/map_tab1/map_paper1/Description",
+    "english": "Basic financing. Puff must have been designated as the accountant of the gang. Useless.",
+    "polish": "Podstawowe finanse. Puff musiał robić w gangu za księgowego. Bezużyteczne.",
+    "context": "dialog dia_lv1_4.json/map_mission0/map_tab1/map_paper1/Description"
+  },
+  {
+    "key": "j:dia_lv1_4.json/map_mission0/map_tab1/map_paper2/Description",
+    "english": "A letter outlining Puff's frustration in the gang. Useless.",
+    "polish": "List, w którym Puff wylewa żale na gang. Bezużyteczne.",
+    "context": "dialog dia_lv1_4.json/map_mission0/map_tab1/map_paper2/Description"
+  },
+  {
+    "key": "j:dia_lv1_4.json/map_mission0/map_tab1/map_paper3/Description",
+    "english": "A poorly drawn picture of a naked vampire. Useless.",
+    "polish": "Nieudolny rysunek nagiego wampira. Bezużyteczne.",
+    "context": "dialog dia_lv1_4.json/map_mission0/map_tab1/map_paper3/Description"
+  },
+  {
+    "key": "j:dia_lv1_4.json/map_mission0/map_tab1/map_paper4/Description",
+    "english": " Labeled \"IMPORTANT PEOPLE.\" There are addresses scribbled across the top:##5314 21st and 4th #101 6th Street Under ##These must be the addresses of Zombie Kingz houses. Useful. ",
+    "polish": " Opisana \"WAŻNI LUDZIE\". U góry nabazgrano adresy:##5314 21st and 4th #101 6th Street Under ##To muszą być adresy domów Zombie Kingz. Przydatne. ",
+    "context": "dialog dia_lv1_4.json/map_mission0/map_tab1/map_paper4/Description"
+  },
+  {
+    "key": "j:dia_lv1_4.json/map_mission0/map_tab1/map_paper5/Description",
+    "english": "Indistinguishable scribbles. Useless.",
+    "polish": "Nieczytelne bazgroły. Bezużyteczne.",
+    "context": "dialog dia_lv1_4.json/map_mission0/map_tab1/map_paper5/Description"
+  },
+  {
+    "key": "j:dia_lv1_4.json/map_mission0/map_tab2/Name",
+    "english": "MORE STUFF",
+    "polish": "WIĘCEJ GRATÓW",
+    "context": "dialog dia_lv1_4.json/map_mission0/map_tab2/Name"
+  },
+  {
+    "key": "j:dia_lv1_4.json/map_mission0/map_tab2/Description",
+    "english": "You pull open the drawer, and inside is a pamphlet and an embossed coin.",
+    "polish": "Wysuwasz szufladę, a w środku leży broszura i tłoczona moneta.",
+    "context": "dialog dia_lv1_4.json/map_mission0/map_tab2/Description"
+  },
+  {
+    "key": "j:dia_lv2_1.json/map_mission0/Dialogue",
+    "english": "You open the safe - there isn't much inside",
+    "polish": "Otwierasz sejf - niewiele w nim jest",
+    "context": "dialog dia_lv2_1.json/map_mission0/Dialogue"
+  },
+  {
+    "key": "j:dia_lv2_1.json/map_mission0/Name",
+    "english": "Look",
+    "polish": "Zobacz",
+    "context": "dialog dia_lv2_1.json/map_mission0/Name"
+  },
+  {
+    "key": "j:dia_lv2_1.json/map_mission0/Description",
+    "english": "There are two envelopes.",
+    "polish": "Są dwie koperty.",
+    "context": "dialog dia_lv2_1.json/map_mission0/Description"
+  },
+  {
+    "key": "j:dia_lv2_1.json/map_mission0/map_tab1/Name",
+    "english": "Envelope",
+    "polish": "Koperta",
+    "context": "dialog dia_lv2_1.json/map_mission0/map_tab1/Name"
+  },
+  {
+    "key": "j:dia_lv2_1.json/map_mission0/map_tab1/Description",
+    "english": "The envelope is full of money - probably club earnings.",
+    "polish": "Koperta pełna pieniędzy - pewnie utarg klubu.",
+    "context": "dialog dia_lv2_1.json/map_mission0/map_tab1/Description"
+  },
+  {
+    "key": "j:dia_lv2_1.json/map_mission0/map_tab2/Description",
+    "english": "The envelope contains a date two weeks from now, and an address - the address of this club. It seems important.",
+    "polish": "W kopercie jest data za dwa tygodnie i adres - adres tego klubu. Wygląda na ważne.",
+    "context": "dialog dia_lv2_1.json/map_mission0/map_tab2/Description"
+  },
+  {
+    "key": "j:dia_lv2_3.json/map_mission0/Dialogue",
+    "english": "You open the safe - and, again, there isn't much inside",
+    "polish": "Otwierasz sejf - i znowu niewiele w nim jest",
+    "context": "dialog dia_lv2_3.json/map_mission0/Dialogue"
+  },
+  {
+    "key": "j:dia_lv2_3.json/map_mission0/Description",
+    "english": "There are three envelopes.",
+    "polish": "Są trzy koperty.",
+    "context": "dialog dia_lv2_3.json/map_mission0/Description"
+  },
+  {
+    "key": "j:dia_lv2_3.json/map_mission0/map_tab2/Description",
+    "english": "The envelope contains a date a month from now, and the address of The Bloody Mary.",
+    "polish": "W kopercie jest data za miesiąc i adres The Bloody Mary.",
+    "context": "dialog dia_lv2_3.json/map_mission0/map_tab2/Description"
+  },
+  {
+    "key": "j:dia_lv2_3.json/map_mission0/map_tab1/Description",
+    "english": "The envelope is full of money.",
+    "polish": "Koperta pełna pieniędzy.",
+    "context": "dialog dia_lv2_3.json/map_mission0/map_tab1/Description"
+  },
+  {
+    "key": "j:dia_lv2_3.json/map_mission0/map_tab3/Description",
+    "english": "The envelope contains an address near the docks. This may be important.",
+    "polish": "W kopercie jest adres w pobliżu doków. To może być ważne.",
+    "context": "dialog dia_lv2_3.json/map_mission0/map_tab3/Description"
+  },
+  {
+    "key": "j:dia_lv3_5.json/map_mission0/Dialogue",
+    "english": "You open the safe.",
+    "polish": "Otwierasz sejf.",
+    "context": "dialog dia_lv3_5.json/map_mission0/Dialogue"
+  },
+  {
+    "key": "j:dia_lv3_5.json/map_mission0/Description",
+    "english": "There are some stray pieces of paper.",
+    "polish": "Leży tu kilka luźnych kartek.",
+    "context": "dialog dia_lv3_5.json/map_mission0/Description"
+  },
+  {
+    "key": "j:dia_lv3_5.json/map_mission0/map_tab1/Name",
+    "english": "Notes",
+    "polish": "Notatki",
+    "context": "dialog dia_lv3_5.json/map_mission0/map_tab1/Name"
+  },
+  {
+    "key": "j:dia_lv3_5.json/map_mission0/map_tab1/Description",
+    "english": "IMMOLATION WAS UNSUCCESSFUL. I AM STILL TIMUR. I WILL BECOME A REAPER AND LIVE FOREVER AND FIND WARMTH FROM THE FIRE JUST AS HE HAS",
+    "polish": "SAMOSPALENIE SIĘ NIE UDAŁO. NADAL JESTEM TIMUREM. ZOSTANĘ ŻNIWIARZEM I BĘDĘ ŻYŁ WIECZNIE, I ZNAJDĘ CIEPŁO OGNIA TAK JAK ON",
+    "context": "dialog dia_lv3_5.json/map_mission0/map_tab1/Description"
+  },
+  {
+    "key": "j:dia_lv3_5.json/map_mission0/map_tab2/Description",
+    "english": "I HAVE BEEN WATCHING HIM AND HIS WARMTH. WHAT IF I IMMOLATE MYSELF IN HIS FIREPLACE? COULD I FIND HIS WARMTH THEN?",
+    "polish": "OBSERWOWAŁEM GO I JEGO CIEPŁO. A GDYBYM SPALIŁ SIĘ W JEGO KOMINKU? CZY WTEDY ZNALAZŁBYM JEGO CIEPŁO?",
+    "context": "dialog dia_lv3_5.json/map_mission0/map_tab2/Description"
+  },
+  {
+    "key": "j:dia_lv3_5.json/map_mission0/map_tab3/Name",
+    "english": "Blueprints",
+    "polish": "Plany",
+    "context": "dialog dia_lv3_5.json/map_mission0/map_tab3/Name"
+  },
+  {
+    "key": "j:dia_lv3_5.json/map_mission0/map_tab3/Description",
+    "english": "Blueprints of... some kind of portal. It seems to use body parts for construction - that explains why the skeletons have been collecting meat. ##There is no knowing what would happen if the undead left this Place. I have to tell my employer.",
+    "polish": "Plany... jakiegoś portalu. Wygląda na to, że do budowy potrzeba części ciał - to wyjaśnia, czemu szkielety zbierają mięso. ##Nie wiadomo, co by się stało, gdyby nieumarli opuścili to Miejsce. Muszę powiedzieć pracodawcy.",
+    "context": "dialog dia_lv3_5.json/map_mission0/map_tab3/Description"
+  },
+  {
+    "key": "j:dia_lv3_7.json/map_mission0/Description",
+    "english": "There are some stray pieces of paper and a small object.",
+    "polish": "Leży tu kilka luźnych kartek i mały przedmiot.",
+    "context": "dialog dia_lv3_7.json/map_mission0/Description"
+  },
+  {
+    "key": "j:dia_lv3_7.json/map_mission0/map_tab1/Description",
+    "english": "I caught a Candle outside - he knows. The Candle died before I could find out more.",
+    "polish": "Złapałem Świecę przed domem - on wie. Świeca zginęła, zanim zdążyłem dowiedzieć się więcej.",
+    "context": "dialog dia_lv3_7.json/map_mission0/map_tab1/Description"
+  },
+  {
+    "key": "j:dia_lv3_7.json/map_mission0/map_tab2/Description",
+    "english": "I have tried everything. I feel so cold. I just want to talk. I understand now - I regret it. I just want to apologize.",
+    "polish": "Próbowałem wszystkiego. Tak mi zimno. Chcę tylko porozmawiać. Teraz rozumiem - żałuję. Chcę tylko przeprosić.",
+    "context": "dialog dia_lv3_7.json/map_mission0/map_tab2/Description"
+  },
+  {
+    "key": "j:dia_lv3_7.json/map_mission0/map_tab3/Description",
+    "english": "The construction of the portal is near complete. The demons have provided great manpower - we have snipers in a 5 mile radius around the old school building. Good luck getting in, reaper.",
+    "polish": "Budowa portalu dobiega końca. Demony dały nam mnóstwo rąk do pracy - mamy snajperów w promieniu 8 km wokół starej szkoły. Powodzenia z wejściem, żniwiarzu.",
+    "context": "dialog dia_lv3_7.json/map_mission0/map_tab3/Description"
+  },
+  {
+    "key": "j:dia_lv3_7.json/map_mission0/map_tab4/Name",
+    "english": "Object",
+    "polish": "Przedmiot",
+    "context": "dialog dia_lv3_7.json/map_mission0/map_tab4/Name"
+  },
+  {
+    "key": "j:dia_lv3_7.json/map_mission0/map_tab4/Description",
+    "english": "A small metal lighter. It doesn't seem to work anymore.",
+    "polish": "Mała metalowa zapalniczka. Chyba już nie działa.",
+    "context": "dialog dia_lv3_7.json/map_mission0/map_tab4/Description"
+  },
+  {
+    "key": "j:dia_lv4_2.json/map_mission0/Dialogue",
+    "english": "The figure glows with life.",
+    "polish": "Postać jarzy się życiem.",
+    "context": "dialog dia_lv4_2.json/map_mission0/Dialogue"
+  },
+  {
+    "key": "j:dia_lv4_2.json/map_mission0/Name",
+    "english": "Talk",
+    "polish": "Porozmawiaj",
+    "context": "dialog dia_lv4_2.json/map_mission0/Name"
+  },
+  {
+    "key": "j:dia_lv4_2.json/map_mission0/Description",
+    "english": "\"I was not expecting guests,\" said the figure in a familiar tone.",
+    "polish": "\"Nie spodziewałem się gości\", rzekła postać znajomym tonem.",
+    "context": "dialog dia_lv4_2.json/map_mission0/Description"
+  },
+  {
+    "key": "j:dia_lv4_2.json/map_mission0/map_tab1/Name",
+    "english": "Who",
+    "polish": "Kto",
+    "context": "dialog dia_lv4_2.json/map_mission0/map_tab1/Name"
+  },
+  {
+    "key": "j:dia_lv4_2.json/map_mission0/map_tab1/Description",
+    "english": "\"I've spoken to you so long. \"",
+    "polish": "\"Tak długo z tobą rozmawiałem. \"",
+    "context": "dialog dia_lv4_2.json/map_mission0/map_tab1/Description"
+  },
+  {
+    "key": "j:dia_lv4_2.json/map_mission0/map_tab2/Name",
+    "english": "Where",
+    "polish": "Gdzie",
+    "context": "dialog dia_lv4_2.json/map_mission0/map_tab2/Name"
+  },
+  {
+    "key": "j:dia_lv4_2.json/map_mission0/map_tab2/Description",
+    "english": "\"My home - but I have shared my warmth with you before, as I have for all who roam.\" ",
+    "polish": "\"Mój dom - ale już wcześniej dzieliłem się z tobą ciepłem, jak ze wszystkimi, którzy tu błądzą.\" ",
+    "context": "dialog dia_lv4_2.json/map_mission0/map_tab2/Description"
+  },
+  {
+    "key": "j:dia_lv4_2.json/map_mission0/map_tab3/Name",
+    "english": "Skeletons",
+    "polish": "Szkielety",
+    "context": "dialog dia_lv4_2.json/map_mission0/map_tab3/Name"
+  },
+  {
+    "key": "j:dia_lv4_2.json/map_mission0/map_tab3/Description",
+    "english": "\"&y&Ibzan&!& comes,\" crackled the flames. \"I cannot stop him. I am not the god of death. Perhaps you'll share this coffin, grim and dim?\"",
+    "polish": "\"&y&Ibzan&!& nadchodzi\", zatrzeszczały płomienie. \"Nie mogę go powstrzymać. Nie jestem bogiem śmierci. Może podzielisz ze mną tę trumnę, ponury przyjacielu?\"",
+    "context": "dialog dia_lv4_2.json/map_mission0/map_tab3/Description"
+  },
+  {
+    "key": "j:dia_lv4_2.json/map_mission0/map_tab3/map_ib/Description",
+    "english": "\"He is already here,\" spoke the flames. ##\"He cannot be free.#I cannot forgive.#A man - undead...#...cannot live with me.\" ",
+    "polish": "\"On już tu jest\", rzekły płomienie. ##\"On nie może być wolny.#Ja nie mogę wybaczyć.#Człowiek - nieumarły...#...nie może przy mnie żyć.\" ",
+    "context": "dialog dia_lv4_2.json/map_mission0/map_tab3/map_ib/Description"
+  },
+  {
+    "key": "j:dia_lv_custom.json/map_mission0/Dialogue",
+    "english": "There are two envelopes inside - but not much else.",
+    "polish": "W środku są dwie koperty - poza tym niewiele.",
+    "context": "dialog dia_lv_custom.json/map_mission0/Dialogue"
+  },
+  {
+    "key": "j:dia_lv_custom.json/map_mission0/Name",
+    "english": "Open",
+    "polish": "Otwórz",
+    "context": "dialog dia_lv_custom.json/map_mission0/Name"
+  },
+  {
+    "key": "j:dia_lv_custom.json/map_mission0/Description",
+    "english": "You open the envelopes.",
+    "polish": "Otwierasz koperty.",
+    "context": "dialog dia_lv_custom.json/map_mission0/Description"
+  },
+  {
+    "key": "j:dia_lv_custom.json/map_mission0/map_tab1/Description",
+    "english": "The envelope is full of money - probably the gang's earnings.",
+    "polish": "Koperta pełna pieniędzy - pewnie zarobki gangu.",
+    "context": "dialog dia_lv_custom.json/map_mission0/map_tab1/Description"
+  },
+  {
+    "key": "j:dia_lv_custom.json/map_mission0/map_tab2/Description",
+    "english": "The envelope contains a date two weeks from now, and an address. It seems important.",
+    "polish": "W kopercie jest data za dwa tygodnie i adres. Wygląda na ważne.",
+    "context": "dialog dia_lv_custom.json/map_mission0/map_tab2/Description"
+  },
+  {
+    "key": "s1728",
+    "english": "Stop suckin lmao!",
+    "polish": "Weź się ogarnij, lol!",
+    "context": "oTip_Create_0"
+  }
+]

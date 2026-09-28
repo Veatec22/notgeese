@@ -1,0 +1,129 @@
+# Neon Abyss bible: facts with sources.
+
+sources:
+  - id: keys
+    description: "I2 keys in work/source.json, e.g. Dialogue1004_7_Secretary; speaker at the end of the key."
+  - id: ru
+    description: "Russian column of the same I2 table (globalgamemanagers.assets, object 3492); past-tense gender."
+  - id: text
+    description: "English original: he/she in descriptions, line context."
+
+characters:
+  - id: hades
+    name: Hades
+    gender: m
+    key: '_Hades$'
+    addresses_player: ty
+    register: "bar boss, stingy hustler, complains about the budget"
+    source: [ru, text]
+    note: "RU \"Недавно я ездил\", \"я все понял\"."
+  - id: lans
+    name: Lans (inwestor)
+    gender: m
+    key: '_Lans$'
+    addresses_player: '-'
+    register: "domineering investor, \"ty\" to Hades"
+    source: [text]
+    note: "Hades: \"The stupid investor... What does he expect\", Secretary: \"What does he want this time?\". RU doesn't settle it."
+  - id: secretary
+    name: Sekretarka
+    gender: f
+    key: '_Secretary(_0\d)?$'
+    addresses_player: ty
+    register: "corporate stickler, threatens pay cuts"
+    source: [ru, text]
+    note: "RU \"Должна сказать\", Hades: \"Talk to her\". Player is \"Pracownik nr 233\"; no past tense about the player."
+  - id: programmer
+    name: Programista (Sir Żarłocelot)
+    gender: m
+    key: '_[Pp]rogrammer$'
+    addresses_player: wy
+    register: "clumsy braggart"
+    source: [ru, text]
+    note: "RU \"чуть не забыл\", addresses \"вы\", \"Hello strangers\"."
+  - id: stylist
+    name: Stylistka
+    gender: f
+    key: '_Stylist$'
+    addresses_player: ty
+    source: [ru, text]
+    note: "RU \"я была графическим дизайнером\", Secretary: \"she's good with computers\"."
+  - id: bartender
+    name: Barmanka
+    gender: f
+    source: [text]
+  - id: player
+    name: "gracz (Anna, Amir, James, Saya, Lucas, Matt, Ming, R-6, Wade, Zack)"
+    gender: '?'
+    note: "Characters of both genders: everything said to the player is genderless (no \"zrobiłeś\", \"gotowy\")."
+  - id: pets
+    name: zwierzaki
+    gender: '?'
+    note: "EN gives he/she, the Polish name has its own gender (KAKTUSIK vs \"she\"): descriptions without pronouns."
+
+terms:
+  - {en: Abyss, pl: Otchłań, forms: [otchłan], source: decision, note: "game title stays Neon Abyss"}
+  - {en: Cerberus Bar, pl: bar „Cerber”, forms: [cerber], source: decision}
+  - {en: faith gem, pl: klejnot wiary, forms: [klejnot], source: decision}
+  - {en: neon coin, pl: neonowa moneta, forms: [neonow], source: decision}
+  - {en: crystal, pl: kryształ, forms: [kryształ, krysztal], source: decision}
+  - {en: heart container, pl: pojemnik na serce, forms: [pojemnik], source: decision}
+  - {en: shield, pl: tarcza, forms: [tarcz], source: decision}
+  - {en: pet, pl: zwierzak, forms: [zwierzak], source: decision}
+  - {en: pickup, pl: znajdźka, forms: [znajdź], source: decision}
+  - {en: seed, pl: ziarno, forms: [ziarn], source: decision, note: "as in Polish Minecraft"}
+  - {en: cheat code, pl: kod, forms: [kod], source: decision}
+  - {en: Angry Sprite, pl: wściekły duszek, forms: [duszk, duszek], source: decision, note: "RU \"злые феи\"; \"duszek\" shorter than \"wróżka\" and not feminine"}
+  - {en: Guardian Sprite, pl: duszek strażnik, forms: [duszk, duszek], source: decision}
+  - {en: Rage, pl: Furia, forms: [furi], source: decision}
+  - {en: Wisdom, pl: Mądrość, forms: [mądroś], source: decision}
+  - {en: Violence, pl: Przemoc, forms: [przemoc], source: decision}
+  - {en: Treasury, pl: Skarbiec, forms: [skarbc, skarbiec], source: decision}
+  - {en: Jump Mark, pl: znacznik skoku, forms: [znacznik], source: decision}
+  - {en: Manager, pl: menedżer, forms: [menedżer], source: decision, note: "the Abyss's boss-managers"}
+  - {en: Titan Group, pl: Grupa Tytan, forms: [grup], source: decision}
+  - {en: New Gods, pl: Nowi Bogowie, forms: [now], source: decision}
+  - {en: Grim Squad, pl: Mroczny Oddział, forms: [mroczn], source: decision}
+  - {en: run, pl: podejście, forms: [podejś], source: decision}
+  - {en: dungeon, pl: loch, forms: [loch], source: decision}
+  - {en: '\[Active Item\]', pl: "[Przedmiot aktywny]", forms: [przedmiot aktywny], source: decision}
+  - {en: '\[Passive\]', pl: "[Pasywne]/[Aktywne]", forms: [pasywne], source: decision, note: "weapon behavior"}
+  - {en: Sir Eat-alot, pl: Sir Żarłocelot, forms: [żarłocelot], source: decision, note: "Lancelot pun; RU has a similar one (\"Жралахад\")"}
+
+keep_english:
+  - Neon Abyss
+  - Chrono Trap
+  - Smirk Co.
+  - HAL
+  - Argus
+  - Mjolnir
+  - Silmaril
+  - Big Daddy
+  - Fin Funnel
+  - Black Friday
+  - Maneki-Neko
+  - League of Heroes
+  - Nintendo eShop
+  - Discord
+  - Twitter
+  - DLC
+  - BACK
+  - OPENDOOR
+  - Wade Tech
+  - Git gud
+  - Pay to win
+  - Mamba forever
+  - Rock and roll
+  - Another one bites the dust
+  - I Believe I Can Fly
+  - Sherlock
+  - OLA
+
+settings:
+  dialog_key: '^Dialogue/'
+  max_line: 60
+
+ignore:
+  - check: gender
+    key: 'Dialogue1019_0_Lans'
+    reason: "Lans is male (see characters)."

@@ -1,0 +1,28 @@
+slug: bpm
+title: "BPM: Bullets Per Minute"
+version: "0.1"
+entries: { done: 859, total: 859 }
+tested: partial
+engine: Unreal Engine 4.25 (pak v11, szyfrowany indeks, podpisane paki)
+approach: Nakładkowy pak Unreala; polski zajmuje pusty w grze slot japoński, w menu nazwany „Polski”. Polskie litery dorysowane w dwóch krojach gry. Paczka to łatki, które składają pak i podpis z plików gry gracza.
+scope: menu i ustawienia, HUD, podpowiedzi i porady, test opóźnienia, przedmioty, próby, wrogowie i bossowie, walkirie, napisy końcowe
+tested_on:
+  - store: gog
+    version: "build 55844760674411649"
+steam_appid: 1286350
+stores:
+  steam: https://store.steampowered.com/app/1286350/
+  gog: https://www.gog.com/en/game/bpm_bullets_per_minute
+gallery: [3, 4, 12, 14, 18]
+quote:
+  text:
+  source:
+download:
+  kind: patch
+  file: BPM-PL-0.1-latka.zip
+  bytes: 116124
+build_input:
+  store: gog
+  build_id: '55844760674411649'
+test_notes: Vertical (menu, settings, HUD, start) and Polish letters confirmed by the user; full translation installed with the applier, items and later realms not tested in game yet.
+year: 2020

@@ -1,0 +1,54 @@
+---
+import Icon from './Icon.astro';
+
+/**
+ * Theme: system, light or dark, cycled with one button.
+ * The choice lives in localStorage ("ng-theme") and lands on <html data-theme>; "system" means no
+ * attribute, prefers-color-scheme decides. The script in <head> (Base.astro) applies it first,
+ * and the icon comes from CSS by data-theme, so nothing flashes on load.
+ */
+const modes = [
+  { value: 'system', icon: 'monitor' },
+  { value: 'light', icon: 'sun' },
+  { value: 'dark', icon: 'moon' },
+] as const;
+---
+
+<button type="button" class="ng-nav-button ng-theme-toggle" aria-label="Motyw strony: systemowy" title="Motyw strony: systemowy" data-theme-toggle>
+  {modes.map((mode) => <span class="ng-theme-icon" data-mode={mode.value}><Icon name={mode.icon} size={18} /></span>)}
+</button>
+
+<script>
+  const button = document.querySelector<HTMLButtonElement>('[data-theme-toggle]');
+  const order = ['system', 'light', 'dark'];
+  const labels: Record<string, string> = { system: 'systemowy', light: 'jasny', dark: 'ciemny' };
+
+  function current(): string {
+    try {
+      return localStorage.getItem('ng-theme') ?? 'system';
+    } catch {
+      return document.documentElement.dataset.theme ?? 'system';
+    }
+  }
+
+  function apply(mode: string) {
+    if (mode === 'light' || mode === 'dark') document.documentElement.dataset.theme = mode;
+    else delete document.documentElement.dataset.theme;
+    try {
+      localStorage.setItem('ng-theme', mode);
+    } catch {
+      // Private window or blocked storage: the theme works until the end of the visit.
+    }
+    const label = `Motyw strony: ${labels[mode] ?? labels.system}`;
+    button?.setAttribute('aria-label', label);
+    button?.setAttribute('title', label);
+  }
+
+  let mode = current();
+  apply(mode);
+
+  button?.addEventListener('click', () => {
+    mode = order[(order.indexOf(mode) + 1) % order.length]!;
+    apply(mode);
+  });
+</script>

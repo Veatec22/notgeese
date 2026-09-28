@@ -1,0 +1,25 @@
+slug: my-friend-pedro
+title: My Friend Pedro
+version: "0.1"
+entries: { done: 721, total: 721 }
+tested: confirmed
+test_notes: Vertical confirmed in game on GOG 1.03. Full translation after independent review of 721/721 entries, verified from files; full campaign not played. Three editorial options open.
+engine: Unity 2017.4.19f1
+approach: Plugin dokłada jedenasty język w czasie działania gry. Żaden plik gry nie jest podmieniany.
+scope: dialogi, menu, samouczki, HUD, wyniki, modyfikatory, odzywki i napisy końcowe
+tested_on:
+  - store: gog
+    version: "1.03"
+year: 2019
+steam_appid: 557340
+stores:
+  steam: https://store.steampowered.com/app/557340/
+  gog: https://www.gog.com/en/game/my_friend_pedro
+quote:
+  text:
+  source:
+download:
+  kind: zip
+  file: My-Friend-Pedro-PL-0.1.zip
+  bytes: 661835
+gallery: [1, 2, 3, 4, 5]

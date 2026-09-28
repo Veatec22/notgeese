@@ -1,0 +1,52 @@
+HYPER LIGHT DRIFTER PL 0.1 (latka roznicowa)
+
+Caly tekst gry, 126 wpisow: menu glowne, ustawienia i sterowanie, wybor trybu
+(Nowicjusz, Standard, Nowa gra +, Maraton bossow), komunikaty zapisu oraz
+podpowiedzi w trakcie gry (leczenie, bron palna, mapa, teleportacja).
+Hyper Light Drifter nie ma dialogow - opowiada obrazem, wiec to jest komplet.
+
+DLACZEGO LATKA, A NIE GOTOWE PLIKI
+Teksty leza w MenuText.txt i Phrases.txt, ale te pliki niosa tez tlumaczenia
+wydawcy na inne jezyki, a polskie litery trzeba dorysowac w foncie, ktory siedzi
+w HyperLightDrifter.exe (628 MB). Paczka niesie tylko roznice: polskie teksty,
+16 polskich liter i nazwe jezyka. Reszte aplikator sklada z plikow, ktore juz
+masz na dysku.
+
+CO BEDZIE POTRZEBNE
+Nic. Latke naklada Hyper-Light-Drifter-PL-0.1.exe z tej paczki: jeden maly
+program, bez instalacji, korzysta z .NET Framework wbudowanego w Windows.
+
+INSTALACJA (przy zamknietej grze)
+1. Wypakuj cala paczke do katalogu gry - tam, gdzie lezy HyperLightDrifter.exe.
+2. Uruchom Hyper-Light-Drifter-PL-0.1.exe dwuklikiem.
+
+   Program naklada trzy latki: na HyperLightDrifter.exe, MenuText.txt
+   i Phrases.txt. Najpierw sprawdza sumy kontrolne i odmawia pracy, jesli gra
+   jest w innej wersji. Przed podmiana odklada oryginaly obok, z dopiskiem
+   ".przed-spolszczeniem". Bledny plik nigdy nie powstaje.
+
+   Windows moze ostrzec przed nieznanym programem ("Wiecej informacji" ->
+   "Uruchom mimo to") - aplikator nie ma podpisu cyfrowego.
+3. Uruchom gre, wejdz w Settings -> Language i wybierz "POLSKI"
+   (miejsce na liscie, na ktorym byl wloski).
+
+PRZYWRACANIE
+Uruchom Hyper-Light-Drifter-PL-0.1.exe jeszcze raz. Gdy zobaczy wgrane
+spolszczenie, zapyta, czy przywrocic oryginal, i wgra odlozone kopie plikow.
+Mozna tez zweryfikowac pliki gry w GOG Galaxy.
+
+JAK TO DZIALA
+Gra ma siedem jezykow wpisanych na sztywno w kod i nie ma miejsca na osmy.
+Polski zajmuje wiec miejsce wloskiego: w plikach tekstow wloskie linie niosa
+polski tekst, a na liscie jezykow zamiast "ITALIANO" jest "POLSKI". Font gry
+mial pola na polskie litery, ale puste - dorysowalismy je z elementow samej
+gry (kreska z "O", ogonek jak cedylla z "C"). Pozostale jezyki dzialaja
+bez zmian; wloskiego w tej wersji nie ma.
+
+ZGODNOSC
+Zbudowane na wydaniu GOG (build 52291896322577314). Latka jest przypieta
+do tej wersji plikow - aplikator powie wprost, jesli pliki sa inne, zamiast
+cokolwiek nadpisac. Wydanie Steam nie bylo sprawdzane.
+
+LICENCJA
+Spolszczenie: MIT. Latka zawiera wylacznie roznice wobec oryginalnych plikow gry.

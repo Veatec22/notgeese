@@ -1,0 +1,229 @@
+# Skate Story bible: facts with sources. Written after the fact (2026-09-22) for an existing translation.
+
+sources:
+  - id: type
+    description: "TYPE column of the I2 table, dialogue speaker (\"Dialogue — Rabbie\"); dumped by tools/ref_extract.py to work/ref-all.json."
+  - id: notes
+    description: NOTES column of the I2 table, developer notes (133 entries), stored as `context`.
+  - id: ru
+    description: Russian column of the same table, past-tense gender; compared with PL by tools/gender_ru.py.
+  - id: fr
+    description: French column, settles doubtful RU ("Il m'a vu").
+
+characters:
+  - id: skater
+    name: Skejter (Szklany Skejter, demon)
+    gender: m
+    addresses_player: '-'
+    register: third-person past narration; everyone uses "ty" to the Skater, Licha from the Department "pan"
+    source: [ru]
+    note: genderless in EN ("the Skater", "it"); Polish masculine after "skejter" and "demon".
+  - id: rabbit
+    name: Królik / Rabbie → Gwiezdnooki Szczur
+    gender: m
+    register: buddy-like, tired, runs from trouble ("Wybacz")
+    source: [ru, type]
+  - id: philosopher
+    name: Filozof
+    gender: m
+    register: pompous, "w istocie", "rozważmy", neologisms ("zadumiewające")
+    source: [ru, type]
+  - id: philoso
+    name: Philoso
+    gender: m
+    register: speaks in rhymed quatrains; rhyme over literalness
+    source: [type]
+  - id: beea
+    name: Beea (kwiaciarka)
+    gender: f
+    register: warm, "kochanie", "skarbie"
+    source: [ru]
+    note: RU "я обменяла"; Oscar calls her "ta ślicznotka z kwiaciarni".
+  - id: coney
+    name: Coney
+    gender: m
+    register: overzealous Fuss officer, "kolego", caps for regulations
+    source: [ru]
+  - id: frotue
+    name: Frotue (Żaba)
+    gender: m
+    register: polite seller
+    source: decision
+    note: >
+      masculine about himself ("Wcale tam nie spałem"), but narration calls him "Żaba", so
+      "spytała Żaba", "Żaba płakała": agreement with the noun, like "Pizza Świnia" in Anger Foot.
+  - id: licha
+    name: Licha (telefon z Departamentu Śmierci)
+    gender: f
+    addresses_player: pan
+    source: decision
+    note: RU doesn't settle it; a clerk on the phone, "pańskiej umowy".
+  - id: skeletons
+    name: Szkielety (NPC)
+    gender: m
+    source: [ru, fr]
+    note: each skeleton is another soul; at the Square of Regret RU "я понадеялся" and FR "il m'a vu" → "Myślałem".
+  - id: millstone
+    name: ??? (kamień młyński, ch9)
+    gender: m
+    source: decision
+    note: RU feminine, ES ("enterrado") and FR ("enterré") masculine; Polish "kamień młyński" is masculine.
+  - id: devils-robe
+    name: Szata Diabła
+    gender: f
+    source: [ru]
+  - id: penin
+    name: Penin (Pingwin)
+    gender: m
+    register: snobbish jeweler, "skarbie", "mój drogi gryzoniu"
+    source: [ru]
+  - id: false-sun
+    name: Fałszywe Słońce
+    gender: n
+    source: decision
+    note: calls itself "Księżyc" in dialogue; verbs neuter after "Słońce" ("zaśmiało się").
+
+terms:
+  - en: skater
+    pl: skejter
+    forms: [skejter]
+    source: decision
+  - en: underworld
+    pl: podziemie
+    forms: [podziem]
+    source: decision
+  - en: Moons?
+    pl: Księżyc
+    forms: [księżyc]
+    source: decision
+  - en: Moon Vision
+    pl: Księżycowy Wzrok
+    forms: [księżycowy wzrok, księżycowego wzroku]
+    source: decision
+  - en: Crests?
+    pl: pieczęć
+    forms: [pieczę]
+    source: decision
+  - en: combo
+    pl: kombo
+    forms: [kombo, kombem]
+    source: decision
+  - en: stomp(ed)?
+    pl: tupnięcie
+    forms: [tupn, tupię]
+    source: decision
+  - en: Thinkpieces?
+    pl: Myślokształt
+    forms: [myślokształt]
+    source: decision
+  - en: Soulflowers?
+    pl: duszokwiat
+    forms: [duszokwiat]
+    source: decision
+  - en: Moonflowers?
+    pl: Księżycowy Kwiat
+    forms: [księżycow]
+    source: decision
+  - en: Fuss
+    pl: Zgiełk
+    forms: [zgiełk]
+    source: decision
+  - en: Blood Seer
+    pl: Krwawy Wieszcz
+    forms: [wieszcz]
+    source: decision
+  - en: Sloucher
+    pl: Garbus
+    forms: [garbus]
+    source: decision
+  - en: Eternal Centipede
+    pl: Wieczna Stonoga
+    forms: [stonog, stonodz]
+    source: decision
+  - en: Oblivion
+    pl: Zapomnienie
+    forms: [zapomnie]
+    source: decision
+  - en: Depth
+    pl: Głębia
+    forms: [głębi]
+    source: decision
+  - en: Department of Death
+    pl: Departament Śmierci
+    forms: [departamen]
+    source: decision
+  - en: contract
+    pl: umowa
+    forms: [umow, kontrakt, umów]
+    source: decision
+    note: '"kontrakt" only once in ch1 ("czterostronicowy kontrakt")'
+  - en: deck
+    pl: blat
+    forms: [blat, desk]
+    source: decision
+    note: part of the skateboard; "deska/deskorolka" for the whole.
+  - en: stale
+    pl: oklepany
+    forms: [oklepan]
+    source: decision
+    note: repeated-trick mechanic; review 2026-09-26, one word in all three ch1 tutorials.
+  - en: soul expired
+    pl: dusza wygasła
+    forms: [wygas]
+    source: decision
+    note: review 2026-09-26, failure message in ch1 and ch2; HUD "SOUL EXPIRY" awaits a layout test.
+
+keep_english:
+  - Philoso
+  - Rabbie
+  - Coney
+  - Frotue
+  - Beea
+  - Larry
+  - Penin
+  - Oscar
+  - Ghosto
+  - Slub
+  - Detria
+  - Shon
+  - Shawn
+  - Sean
+  - Shaun
+  - MilliCard
+  - Hellsea
+  - Godhook
+  - Bageland
+  - Le Bageland
+  - Dreadboro
+  - Resolute Coffee
+  - Volvy
+  - Devolver
+  - Pikuniku
+  - Canal Street
+  - Truck
+  - Latte
+  - Standard
+  - Ultra
+  - Gamma
+  - Ollie
+  - Manual
+  - Revert
+  - Powerslide
+  - GRIND
+  - SKATE STORY
+
+ignore:
+  - check: english
+    key: '^(Item/deck-|Item/sticker-|Item/truck-|Achievement/ach-(05|06|10)|Levels/|Speaker/|chapters/|quests/)'
+    reason: proper names, partner games on decks and stickers, brands
+  - check: capitals
+    key: '.'
+    reason: >
+      the original capitalizes world entities (the Moon, the Skater, the Devil's Laundry);
+      the translation keeps that style
+  - check: consistency
+    key: '^UI/'
+    reason: '"OTWARTY" on the arch vs "Otwórz" in a hint, "dalej" vs "Kontynuuj": different places'
+  - check: typography
+    key: '(seizure-warning|5kickflip-1-seq-05)'
+    reason: the health warning is the developers' existing text; the leading space is a source typo

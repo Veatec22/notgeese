@@ -1,0 +1,216 @@
+sources:
+  - id: scenes
+    description: >-
+      PhraseAsset (AudioTextSynchronizer) from work/survey.json; dialogue segments in display
+      order; the speaker is given by the segment's setColorScheme (7231/7236 Harding,
+      7233 Burkin, 7234 Byron) and the flow of the exchange.
+  - id: fleece
+    description: Fleece bank "Sample"; UI, HUD, tutorial, enemy barks, level names; key = passage ID.
+  - id: direction
+    description: docs/decisions.md; sample before the vertical, user decisions 2026-09-25.
+
+style:
+  tone: >-
+    Contrast: Harding calm, dry and ironically polite; Burkin military-patriotic, screams in
+    anger; I.T.O. soldiers scared, boastful and foul-mouthed.
+  adaptation: >-
+    Profanity of the same strength as EN, never softened or added; no homophobic slurs.
+    Cultural references adapted when readable in Polish. Keep stutters, "--" cut-offs,
+    stage directions in asterisks (translated).
+  source: user
+  note: >-
+    User accepted the recommendations 2026-09-25. Profanity strength is an agent decision
+    in line with repo practice (Wild Bastards, Laika).
+
+characters:
+  - id: harding
+    name: Alphonse Harding
+    gender: m
+    register: >-
+      dry, calm, short sentences or deliberately long and overly polite; swears rarely and
+      then with weight. Not an action-movie tough guy.
+    declension: Hardinga, Hardingowi, Hardingiem; vocative = nominative ("Harding!", "Alphonse?")
+    addresses: Burkin ty + "generale", mocking "Charles"; Byron ty
+    source: user
+    note: Rejected the diminutive "ptaszek"; Harding means the bird seriously and that is the joke.
+    examples:
+      - key: 9 Anger#15
+        en: I'm whittling a bird out of soap, Charles.
+        pl: Strugam ptaka z mydła, Charles.
+        source: user
+        note: rejected variant "Rzeźbię w mydle ptaszka, Charles."
+      - key: 4_ImpoliteDispute#4
+        en: I believe I'm making it very unpleasant for a COI agent to exist in the relatively small patch of forest I've made my home.
+        pl: Wydaje mi się, że uprzykrzam życie agentom I.T.O. na tym dość niewielkim skrawku lasu, w którym urządziłem sobie dom.
+        source: user
+      - key: 2_Tete-A-Tete#16
+        en: I may be out in the middle of nowhere but, I still find time to read.
+        pl: Może i siedzę na końcu świata, ale na czytanie wciąż znajduję czas.
+        source: user
+  - id: burkin
+    name: generał Charles Burkin
+    gender: m
+    register: >-
+      commander, duty-and-country pathos, patronizing "synu"; screams in anger (caps kept)
+      and swears.
+    declension: Burkina, Burkinowi
+    addresses: Harding ty ("Harding", "synu")
+    source: [scenes, direction]
+    examples:
+      - key: 9 Anger#3
+        en: FUCK your access code!
+        pl: PIERDOLĘ twój kod dostępu!
+        source: decision
+  - id: byron
+    name: Byron Ford
+    gender: m
+    register: nervous I.T.O. agent, stutters, apologizes, warm; has a daughter
+    addresses: >-
+      Harding: "pan" only in the first conversation (6 Help Wanted), from 8 Helper Alpha
+      "ty" and "Alphonse"
+    source: user
+    note: Rejected "ty" from the start (loses first-contact nerves) and "pan" throughout (clashes with "Alphonse").
+  - id: comms
+    name: łącznościowiec (7 Peekaboo)
+    gender: m
+    register: by-the-book, to a soldier listening to music, who calls him "szefie"
+    source: [scenes]
+  - id: support-group
+    name: Bob, Kyle, Markus, Nathan, Stephen (Grupa wsparcia)
+    gender: m
+    register: >-
+      veterans in group therapy, "ty" to each other, casual. Bob cites the brochure, Markus is
+      theatrical ("bogowie", "u licha"), Nathan Aussie-relaxed ("stary", "Przyjąłem."), Kyle
+      survived three run-ins with Harding.
+    source: [scenes]
+    note: >-
+      Segment colors BOB/KYLE/MARKUS/NATHAN/STEPHEN assign the lines. Markus keeps "Weź się ogar-"
+      (SCENE 9/1); the user rejected "Nie przesadzaj-".
+  - id: jodie-iris
+    name: Jodie, Iris (Grupa wsparcia)
+    gender: f
+    register: like the rest of the group; Jodie tells of the cave, Iris of the rocket units
+    source: decision
+    note: >-
+      Gender taken from the names ("Dopiero przyszłam", "Nigdy nie widziałam", "Jak się stamtąd
+      wydostałaś?"); no confirmation in game data. Check against voices in game. Hence the
+      group counts as "sześcioro". Burkin calls them "panowie" anyway.
+  - id: soldiers
+    name: agenci I.T.O. (wrogowie)
+    gender: m
+    register: battle cries, fear, bragging, profanity of the same strength
+    source: [fleece]
+    note: 95117 "I'm the Birthday Girl!" is a jokey feminine form or a female agent; check in game.
+
+terms:
+  - en: COI
+    pl: I.T.O.
+    forms: ['I.T.O']
+    source: user
+    note: >-
+      Acronym of the Polish name, as in dialogue. Feminine after the head word (Inicjatywa),
+      indeclinable: "I.T.O. zrobiła ze mnie". Dots at the user's request (2026-09-25, after the
+      vertical): "ITO" read as a word; at sentence end one dot ("w I.T.O."). Rejected: keeping
+      "COI" with a translated full name. Texture text (if any) stays.
+  - en: Covert Operations Initiative
+    pl: Inicjatywa Tajnych Operacji
+    forms: [Inicjatyw]
+    source: user
+  - en: one last job
+    pl: ostatnia robota
+    forms: [ostatni. robot, ostatnich robót]
+    source: decision
+    note: recurring motif; "zlecenie" too formal, "misja" too military
+  - en: babe
+    pl: skarbie
+    forms: [skarb]
+    source: decision
+    note: >-
+      Running joke: "babe" slips out of Byron (12 Helper Gamma), later Harding answers in kind.
+      One word everywhere.
+  - en: chopper
+    pl: helikopter
+    forms: [helikopter]
+    source: decision
+    note: as in the UI (Helicopter -> Helikopter); not "śmigłowiec"
+  - en: box (5_StartingGun)
+    pl: szufladka
+    forms: [szufladk]
+    source: decision
+    note: Burkin's philosophy; Polish "szufladka" carries the irony of pigeonholing that Burkin doesn't hear
+  - en: Cold Sweat
+    pl: Zimny pot
+    forms: [zimny pot, zimnym potem]
+    source: decision
+    note: DLC name; in 4_ImpoliteDispute "zlany zimnym potem" keeps the echo
+  - en: Support Group
+    pl: Grupa wsparcia
+    forms: [grupa wsparcia, grupy wsparcia]
+    source: decision
+  - en: Catch and release
+    pl: Złów i wypuść
+    forms: [złów]
+    source: user
+    note: after review; rejected "Złap i wypuść"; a fishing term, fish return in the plot
+  - en: Look Down
+    pl: Spójrz w dół
+    forms: [spójrz w dół]
+    source: user
+    note: after review; rejected "Nie patrz w dół" (EN has no negation)
+  - en: Dear diary
+    pl: Drogi pamiętniku
+    forms: [pamiętnik]
+    source: decision
+  - en: Wabbit Season
+    pl: Sezon na kłólika
+    forms: [kłólik]
+    source: user
+    note: rejected the safe "Sezon polowań"
+  - en: I Am Your Beast
+    pl: Jestem twoją bestią
+    forms: [bestią]
+    source: user
+    note: >-
+      The last level's name is translated; the game logo stays English.
+      Rejected: keeping the English title as the level name.
+  - en: I Am Your Fears
+    pl: Jestem twoim strachem
+    forms: [strachem]
+    source: decision
+    note: parallel to "Jestem twoją bestią"
+  - en: Tete-a-Tete
+    pl: Tête-à-tête
+    forms: [tête]
+    source: decision
+  - en: poultice
+    pl: ziołowe krzaki
+    forms: [ziołow]
+    source: decision
+  - en: Quick Turn
+    pl: szybki obrót
+    forms: [obrót, obrot]
+    source: decision
+  - en: Kick
+    pl: kopnięcie
+    forms: [kopnię, kop]
+    source: decision
+  - en: Stomp
+    pl: zdeptanie
+    forms: [zdepta, depn]
+    source: decision
+    note: confirm in the HUD
+
+keep_english:
+  - Harding
+  - Alphonse
+  - Burkin
+  - Charles
+  - Byron
+  - Strange Scaffold
+  - Xbox
+  - Playstation
+  - Twitch
+  - RPG
+
+settings:
+  dialog_key: '#\d+$'

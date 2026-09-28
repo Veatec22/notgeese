@@ -1,0 +1,51 @@
+# DEADBOLT: groups for the review workspace.
+# Format: docs/workspace.md.
+#
+# s<index> keys say nothing, so strings are split by context rules: the GameMaker
+# object that uses them (tools/review.py). Index ranges in oInit_Create_0:
+# missions s2228–s2278, weapons s2279–s2363, achievements s2373–s2422 and s6291.
+# dia_*.json dialogues are branching trees, not linear conversations, so there are
+# no sequences; order within a group is node order in the game file.
+
+format: 1
+
+groups:
+  - id: menu
+    name: Menu, zapis i ostrzeżenie
+  - id: settings
+    name: Pauza, ustawienia i sterowanie
+  - id: missions
+    name: Misje, cele, wyniki i porady
+  - id: interactions
+    name: Interakcje i HUD
+  - id: weapons
+    name: Broń i ulepszenia
+  - id: enemies
+    name: Przeciwnicy
+  - id: fireplace
+    name: Kominek — misje i rozmowy z płomieniami
+  - id: level-dialogue
+    name: Kwestie i notatki w misjach
+  - id: cassettes
+    name: Kasety
+  - id: achievements
+    name: Osiągnięcia
+
+rules:
+  # Dialogue from the game JSON files.
+  - {group: fireplace, match: '^j:dia_fp\.json/'}
+  - {group: level-dialogue, match: '^j:dia_'}
+  # oInit_Create_0 strings by index range.
+  - {group: missions, match: '^s22(2[89]|[3-7]\d)$', context: '^oInit_Create_0'}
+  - {group: weapons, match: '^s2(279|2[89]\d|3[0-6]\d)$', context: '^oInit_Create_0'}
+  - {group: achievements, match: '^s(23[7-9]\d|24[0-2]\d|6291)$', context: '^oInit_Create_0'}
+  # Remaining strings by the object that uses them.
+  - {group: settings, context: '^(tylko gml_Object_)?oPause_(Create|Step)|^script (string_|refresh_control_string|bstep_default)'}
+  - {group: menu, context: '^(oLoadGame|oNewGame|oLoadCustom|oLogo|oMissionSelect|oCredits|oPause_Other)|^script exit_room'}
+  - {group: missions, context: '^(oPControl_Step|oDialogueTree|oStat_Draw|oTip_)|^script advance_mission'}
+  - {group: weapons, context: '^oUpgrade'}
+  - {group: enemies, context: '^(o(Zomb|Vamp|Skele|Oni)\d|oSkeleBoss1|oDog1|oCar3)_'}
+  - {group: cassettes, context: '^oCassette_'}
+  - {group: achievements, context: '^oAchievementScreen'}
+  - {group: level-dialogue, context: '^(Timeline_|oSkeleBoss2Body|oVampBoss2Gem)'}
+  - {group: interactions, context: '^(oApt|oCable|oCar|oCharon|oCoke|oCrate|oDeadReaper|oDoor|oElevator|oGenerator|oGod|oJukebox|oKnife|oLadder|oLight|oMeat|oMicrowave|oNotes|oPantry|oPipe|oSafe|oSewer|oSnipe|oSnow|oStairwell|oThreaten|oTotem|oTrap|oWell|oZombBoss1Cover|pCover|oPControl_Draw|oSniper_Draw|oCassettePickup)'}

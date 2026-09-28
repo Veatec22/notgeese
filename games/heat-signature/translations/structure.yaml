@@ -1,0 +1,48 @@
+# Heat Signature: groups for the review workspace.
+# Format: docs/workspace.md.
+#
+# A game text key is its English wording, so groups use context rules from
+# tools/assemble.py: "Dialog: <file>:<line>", "EXE: <GML functions>" (up to three,
+# alphabetical, hence matching anywhere) or "Szablon: …".
+# Bartender and Fiasco dialogues are reply trees, so no sequences.
+
+format: 1
+
+groups:
+  - id: menu
+    name: Menu, rankingi, ustawienia i napisy końcowe
+  - id: tutorial
+    name: Samouczek, podpowiedzi i terminal ćwiczeń
+  - id: missions
+    name: Misje, cele i wyniki
+  - id: stations
+    name: Stacje i wyzwalanie
+  - id: inventory
+    name: Ekwipunek, broń, gadżety i cechy przedmiotów
+  - id: item-names
+    name: Nazwy przedmiotów — gramatyka (rzeczowniki, przymiotniki)
+  - id: characters
+    name: Postacie i ich cechy
+  - id: gameplay
+    name: Rozgrywka — pozostałe napisy
+  - id: templates
+    name: Szablony zdań składanych przez grę
+  - id: bartenders
+    name: Rozmowy z barmanami frakcji
+  - id: fiasco
+    name: Fiasco — misje osobiste i zakończenie
+
+rules:
+  - {group: item-names, match: '^item-'}
+  - {group: bartenders, context: '^Dialog: BartenderDialogue'}
+  - {group: fiasco, context: '^Dialog: Fiasco'}
+  - {group: tutorial, context: '^Dialog: (Tutorial|PracticeTerminal)'}
+  - {group: templates, context: '^Szablon'}
+  - {group: tutorial, context: '^EXE: .*(oTutorial|SetUpAllTips|UpdateEnemyCursorTip|oTerminal)'}
+  - {group: stations, context: '^EXE: .*(Liberat|StationUnlocks|oStation|DockAtStation)'}
+  - {group: inventory, context: '^EXE: .*(Inventory|TraitToItem|DescriptionOfTrait|TraitsForItem)'}
+  - {group: characters, context: '^EXE: .*CharacterTraits'}
+  - {group: missions, context: '^EXE: .*(Mission|Objective|AcceptMission)'}
+  - {group: menu, context: '^EXE: .*(oMenu|Menu\b|Leaderboard|Legends|ContentSharing|SaveWarning|RetirementAndGift|OrganiseControls|oCredits|MonthString|Slider|SetPatchNotes|Crash)'}
+  - {group: inventory, context: '^EXE: .*o[A-Z]\w*_Create_0'}
+  - {group: gameplay, context: '^EXE: '}

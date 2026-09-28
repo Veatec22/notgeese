@@ -1,0 +1,77 @@
+---
+import Icon from './Icon.astro';
+
+const repo = 'https://github.com/Veatec22/notgeese';
+
+// Answers are ready HTML: bold and links, nothing more.
+const questions: { question: string; answer: string }[] = [
+  {
+    question: 'Co znaczy „w trakcie”, „wersja testowa” i „gotowe”?',
+    answer: `
+      <p><strong>W trakcie:</strong> tłumaczenie jeszcze powstaje. Paczka pojawi się, kiedy będzie gotowy cały tekst.</p>
+      <p><strong>Wersja testowa:</strong> cały tekst jest przetłumaczony i sprawdziłem, że spolszczenie działa: gra się uruchamia, polskie znaki są na miejscu, pierwsze minuty są po polsku. Gry jednak nie ukończyłem, więc dalej może się trafić ucięty napis, tekst wystający za ramkę albo zdanie, które brzmi drewnianie.</p>
+      <p><strong>Gotowe:</strong> ukończyłem grę, poprawiłem, co uważałem za stosowne, i efekt mi się podoba.</p>`,
+  },
+  {
+    question: 'Jak zainstalować spolszczenie?',
+    answer: `
+      <p>W panelu każdej gry jest instrukcja krok po kroku, a w paczce ta sama instrukcja w pliku <code>READ-ME.txt</code>. Zwykle wystarczy wypakować ZIP-a do folderu gry. Przy niektórych grach trzeba jeszcze uruchomić dołączony program (o tym niżej).</p>`,
+  },
+  {
+    question: 'Jak wrócić do oryginalnej wersji gry?',
+    answer: `
+      <p>Każda instrukcja ma na końcu akapit o tym, jak usunąć spolszczenie. Przy łatkach zwykle wystarczy sprawdzenie plików gry w Steamie albo GOG-u. Przy pozostałych trzeba usunąć pliki, które dołożyła paczka. Są wypisane w instrukcji.</p>`,
+  },
+  {
+    question: 'Jak powstają te tłumaczenia?',
+    answer: `
+      <p>Z pomocą AI, i to zarówno w części technicznej (wyciąganie tekstów z gry, składanie paczki), jak i w samym tłumaczeniu. Model dostaje konkretne wytyczne: ma trzymać klimat gry, używać wszędzie tych samych nazw i nie psuć formatowania. Potem sprawdzam wynik w grze i poprawiam.</p>
+      <p>Nie jestem tłumaczem ani filologiem, tylko graczem, który z ciekawości chciał spróbować takiego projektu.</p>`,
+  },
+  {
+    question: 'Dlaczego czasem dostaję plik .exe zamiast plików do wrzucenia?',
+    answer: `
+      <p>Nie każda gra pozwala po prostu podmienić tekst. Czasem siedzi on w wielkim pliku razem z grafiką, dźwiękami i resztą gry. Żeby dać ci gotowy plik, musiałbym udostępniać setki megabajtów cudzej zawartości, a moje tłumaczenie byłoby w tym ułamkiem procenta. Tego nie chcę.</p>
+      <p>Dlatego w takich grach paczka zawiera tylko różnice i mały program, który nanosi je na plik, który już masz na dysku. Program najpierw sprawdza, czy to na pewno ta wersja gry. Jeśli nie, niczego nie rusza. Cały kod jest w <a href="${repo}/tree/main/tools/applier" target="_blank" rel="noopener">repozytorium na GitHubie</a>: możesz go przejrzeć albo sam zbudować program.</p>`,
+  },
+  {
+    question: 'Windows ostrzega przed tym programem. Czy to bezpieczne?',
+    answer: `
+      <p>Program nie ma podpisu cyfrowego (to płatny certyfikat), dlatego Windows może pokazać ostrzeżenie o nieznanym wydawcy. Przy małych, darmowych narzędziach to normalne. Kod jest jawny i leży w <a href="${repo}" target="_blank" rel="noopener">repozytorium</a>, więc każdy może sprawdzić, co program robi. Jeśli masz wątpliwości, nie musisz go uruchamiać.</p>`,
+  },
+  {
+    question: 'Czy potrzebuję własnej kopii gry?',
+    answer: `
+      <p>Tak. Paczka nie zawiera gry, tylko tłumaczenie i to, co potrzebne, żeby je wgrać. Wszystko jest za darmo.</p>`,
+  },
+  {
+    question: 'Czy spolszczenie działa na każdej wersji gry (Steam, GOG itd.)?',
+    answer: `
+      <p>W panelu gry jest napisane, na jakiej wersji je sprawdzałem. Steam i GOG zwykle mają te same pliki, więc najczęściej działa na obu, ale gwarancji nie daję.</p>`,
+  },
+  {
+    question: 'Gra się zaktualizowała i spolszczenie przestało działać.',
+    answer: `
+      <p>To zależy od rodzaju paczki. Zwykłe paczki do wypakowania najczęściej działają dalej, a nowe teksty po prostu zostają po angielsku. Łatka z programem .exe nie nałoży się na zmienioną wersję gry, więc trzeba poczekać na nową wersję spolszczenia.</p>`,
+  },
+];
+---
+
+<section class="ng-faq" id="faq" aria-labelledby="faq-title">
+  <div class="ng-shell">
+    <h2 class="ng-display ng-section-title" id="faq-title">Częste pytania</h2>
+    <div class="ng-faq-list">
+      {
+        questions.map((item) => (
+          <details class="ng-faq-item">
+            <summary class="ng-faq-question">
+              <span>{item.question}</span>
+              <Icon name="chevron-down" class="ng-faq-chevron" />
+            </summary>
+            <div class="ng-faq-answer" set:html={item.answer} />
+          </details>
+        ))
+      }
+    </div>
+  </div>
+</section>

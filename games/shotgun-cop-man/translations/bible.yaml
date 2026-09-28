@@ -1,0 +1,111 @@
+# Shotgun Cop Man translation bible: facts with sources. Format: .claude/skills/localization/SKILL.md
+
+sources:
+  - id: keys
+    description: I2 keys; pSpeech* are the hero's lines, satanSpeech* Satan's, PedroDLCSpeech* the Pedro conversation.
+  - id: ru
+    description: Russian table of the game (work/ref-ru.json), past-tense gender; a hint
+  - id: pedro
+    description: Our My Friend Pedro PL (games/my-friend-pedro); names from the Pedro DLC
+  - id: text
+    description: Original game text
+
+characters:
+  - id: hero
+    name: Shotgun Cop Man
+    gender: m
+    key: '^pSpeech'
+    register: pompous B-movie cop; police formulas, pathos
+    declension: indeclinable ("Jesteś Shotgun Cop Man")
+    source: [text, ru]
+    note: ru "Ты зашёл" in his lines to Satan; "Freeze, Satan! You're under arrest!".
+  - id: satan
+    name: Szatan
+    gender: m
+    key: '^satanSpeech'
+    register: one vulgar sentence
+    declension: Szatana, Szatanie (vocative)
+    source: [text, ru]
+    note: ru "Ты арестован" in the hero's line to Satan.
+  - id: pedro
+    name: Pedro
+    gender: m
+    key: '^PedroDLCSpeech(2|4|5|7|8|9|11|12)$'
+    addresses_player: ty
+    declension: Pedra, Pedrowi (as in My Friend Pedro PL)
+    source: [pedro, ru]
+    note: ru "я попал в Ад".
+
+terms:
+  - en: Satan
+    pl: Szatan
+    forms: [szatan]
+    source: decision
+  - en: Ophelia
+    pl: Ofelia
+    forms: [ofeli]
+    source: pedro
+  - en: Mitch the Butcher
+    pl: Mitch Rzeźnik
+    forms: [rzeźnik]
+    source: pedro
+  - en: Steam Workshop|workshop
+    pl: Warsztat Steam
+    forms: [warszta]
+    source: decision
+    note: official name in Polish Steam.
+  - en: Custom Campaigns?
+    pl: kampanie społeczności
+    forms: [kampani]
+    source: decision
+  - en: Kill All
+    pl: Eliminacje
+    forms: [eliminacj]
+    source: user
+    note: challenge name approved by the user (rejected "Bez ocalałych"). Do not change.
+  - en: Try again
+    pl: Ponów
+    forms: [ponów]
+    source: user
+    note: death screen; approved by the user (rejected "Jeszcze raz"). Do not change.
+  - en: No Damage
+    pl: Bez obrażeń
+    forms: [bez obrażeń]
+    source: decision
+  - en: Speedrun
+    pl: Na czas
+    forms: [na czas]
+    source: decision
+  - en: Piece
+    pl: element
+    forms: [element]
+    source: decision
+    note: level editor block.
+
+keep_english:
+  - Shotgun Cop Man
+  - Shotgun
+  - Cop
+  - Man
+  - Pedro
+  - Denny
+  - My Friend Pedro
+  - Minigun
+  - Laser
+  - Transport
+  - OK
+  - Demo
+  - Steam
+  - VSync
+
+settings:
+  dialog_key: '^(pSpeech|satanSpeech|PedroDLCSpeech)'
+  max_line: 42
+
+ignore:
+  - check: capitals
+    key: '^(gBoss\d|PedroDLCBoss\d)$'
+    reason: boss epithets are proper names ("Wściekła Maszyna", "Mitch Rzeźnik").
+  - check: consistency
+    key: '^(tMove|aMove|epMove)$'
+    reason: '"Ruch" in the tutorial and controls, "Przesuń" as an editor command.'

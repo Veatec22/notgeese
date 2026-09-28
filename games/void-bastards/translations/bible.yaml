@@ -1,0 +1,256 @@
+# Void Bastards bible: facts with sources.
+
+sources:
+  - id: keys
+    description: I2 keys Dialog/<scene>_<n>_<speaker> (BACS, LiHua, Pirate, Player, HACS).
+  - id: context
+    description: The I2 Description field (227 entries), developer notes for translators, stored as `context`.
+  - id: cast
+    description: B.A.C.S. is voiced by Kevan Brighting (The Stanley Parable's narrator)
+    url: https://steamcommunity.com/app/857980/discussions/0/1743352529780893608/
+  - id: titles
+    description: Terms Title/MaleSingle, FemaleSingle, FemaleMarried; the player character can be a man or a woman.
+  - id: ru
+    description: The game's Russian table (work/ref-ru.json), a hint
+
+characters:
+  - id: bacs
+    name: B.A.C.S.
+    gender: m
+    key: '^Dialog/.*_BACS$'
+    addresses_player: ty
+    register: >
+      HR and OH&S corporate newspeak, polite-passive-aggressive; "action items", "KPI",
+      "work-life balance", "stakeholders". Polish: corporate jargon ("Twoje zadania do realizacji",
+      "wskaźniki KPI"), never vulgar.
+    source: [cast, keys]
+    note: No gendered forms to the player; the client's gender is random (see player).
+  - id: player
+    name: klient (postać gracza)
+    gender: n
+    key: '^Dialog/.*_Player$'
+    register: cynical prisoner, short comebacks
+    source: [titles, keys]
+    note: >
+      Gender is random per character. In the player's lines and address to the player only
+      genderless forms: present/future tense, infinitive, impersonal ("Wygląda na to, że
+      użyto…"), never "zrobiłeś/zrobiłaś", "gotowy/gotowa".
+  - id: lihua
+    name: Li Hua (kapitan piratów)
+    gender: '?'
+    key: '^Dialog/.*_LiHua$'
+    register: Scots dialect in the original → Polish street slang
+    source: [keys, context]
+    note: Gender unknown (RU doesn't settle it); genderless forms ("mam tam wyleźć i zrobić to za was??").
+  - id: pirate
+    name: pirat (załoga)
+    gender: m
+    key: '^Dialog/.*_Pirate$'
+    register: Scots → slang ("ziomy", "gnojek", "kurde"); the developers gave a gloss in Description
+    source: [context]
+
+terms:
+  - en: client
+    pl: klient
+    forms: [klient, klienc]
+    source: decision
+    note: satire, prisoners called "clients"; kept literally.
+  - en: Void Ark
+    pl: Void Ark
+    forms: [void ark]
+    source: decision
+    note: ship name, not translated (like Paradise in Turbo Overkill).
+  - en: S\.T\.E\.V\.
+    pl: S.T.E.V.
+    forms: [s.t.e.v.]
+    source: decision
+  - en: citizen card
+    pl: karta obywatela
+    forms: [kart]
+    source: decision
+  - en: action items?
+    pl: zadania do realizacji
+    forms: [zadani]
+    source: decision
+    note: >
+      corporate jargon; in practice "zadanie/zadania" throughout ("Twoje nowe zadania"),
+      the full "do realizacji" only where it sounds natural (review 2026-09-26).
+  - en: FTL
+    pl: FTL
+    forms: [ftl]
+    source: decision
+    note: '"napęd FTL"; abbreviation known from games (FTL, Faster Than Light).'
+  - en: WCG
+    pl: WCG
+    forms: [wcg]
+    source: decision
+  - en: Sargasso Nebula
+    pl: Mgławica Sargassowa
+    forms: [mgławic]
+    source: decision
+    note: '"Sargasso" as in the Sargasso Sea; Polish players know the association.'
+  - en: line printer
+    pl: drukarka wierszowa
+    forms: [drukark]
+    source: decision
+    note: technical term.
+  - en: OH&S
+    pl: BHP
+    forms: [bhp]
+    source: decision
+    note: Polish equivalent of Occupational Health & Safety.
+
+  - en: Merits?
+    pl: zasługa
+    forms: [zasług]
+    source: decision
+    note: 'game currency (Nanobot/Merit); "Punkty zasług" would be too long.'
+  - en: brownie points
+    pl: punkty lizusa
+    forms: [lizus]
+    source: decision
+    note: '"brownie points" = points for sucking up to the boss (developer context).'
+  - en: gunpoints?
+    pl: muszka
+    forms: [muszk, musz]
+    source: decision
+    note: 'turret; pun "at gunpoint" → "na muszce".'
+  - en: peepers?
+    pl: podglądacz
+    forms: [podglądacz]
+    source: decision
+  - en: screws?
+    pl: klawisz
+    forms: [klawisz]
+    source: decision
+    note: prison guard; Polish prison slang.
+  - en: juves?
+    pl: gówniarz
+    forms: [gówniarz]
+    source: decision
+  - en: janitors?
+    pl: woźny
+    forms: [woźn]
+    source: decision
+  - en: scribes?
+    pl: skryba
+    forms: [skryb]
+    source: decision
+  - en: spooks?
+    pl: upiór
+    forms: [upior, upiór]
+    source: decision
+  - en: tourists?
+    pl: turysta
+    forms: [turyst, turyś]
+    source: decision
+  - en: zecs?
+    pl: zek
+    forms: [zek]
+    source: decision
+  - en: citizens?
+    pl: obywatel
+    forms: [obywatel]
+    source: decision
+  - en: authori[sz](?:e|ation|ations|ing)
+    pl: autoryzacja
+    forms: [autoryz, uprawnie]
+    source: context
+    note: '"hacking" for merits; the developers call it "authorise".'
+  - en: junk
+    pl: złom
+    forms: [złom, śmiec]
+    source: decision
+  - en: upscal(?:e|ed|ing)
+    pl: przerób
+    forms: [przer]
+    source: user
+    note: 'converting junk at the terminal; not "ulepsz", to avoid confusion with workshop upgrades (review 2026-09-26).'
+  - en: Veteran
+    pl: weteran
+    forms: [weteran]
+    source: user
+    note: 'enemy rank after the name ("Woźny weteran", "Skryba weteran"); Senior = "Starszy" (review 2026-09-26).'
+  - en: ID card
+    pl: identyfikator
+    forms: [identyfikator]
+    source: decision
+    note: 'short in the parts grid; everywhere instead of "karta identyfikacyjna".'
+
+keep_english:
+  - Void Ark
+  - S.T.E.V.
+  - P.A.L.
+  - B.A.C.S.
+  - FTL
+  - WCG
+  - OK
+  - FOV
+  - VSync
+  - Gamma
+  - Regulator
+  - Nebulator
+  - Legislator
+  - Rebreather
+  - Secbot
+  - TydyBot
+  - Tydy
+  - Magnetron
+  - Laminator
+  - Detonator
+  - Ion Bru
+  - Cool Pops
+  - Krell-mart
+  - Mahatma
+  - Guy Fawkes
+  - Lombard
+  - Onboarding
+  - Warp
+  - Menu
+  - Bio
+  - Med
+  - Rad
+  - Status
+  - Void Bastards
+  - Bastards
+  - Rogue
+  - Sci-fi
+  - Indie
+  - Lux Bon Voyage
+  - Pac Force
+  - PROG
+  - ATMO
+  - GEN
+  - Generator
+  - Tydy Bot
+  - Re-Rebreather
+
+settings:
+  dialog_key: '^(Dialog|CS)/'
+  max_line: 42
+
+ignore:
+  - check: consistency
+    key: '^(Difficulty/Normal|Options/NormalOption|Difficulty/ScreenTitle|Difficulty/SliderLabel|PauseMenu/DifficultyButtonLabel)$'
+    reason: '"Normalny" (level) and "Normalne" (setting); the menu button captioned "Ustawienia" shortened to "Trudność".'
+  - check: english
+    key: '^(Difficulty/Ironman|Options/AudioSurroundOption|PauseMenu/OptionsButtonSubLabel|PauseMenu/Start)$'
+    reason: words used the same in Polish (Ironman, surround, Menu, Start).
+  - check: english
+    key: '^(Key/|Language/|Profile/(HealthCount|MeritsCount|MeritsCountSingular)$)'
+    reason: key names used unchanged in Polish, language names in their own language, bare tokens.
+  - check: plurals
+    key: '^costsXMerits$'
+    reason: "written as a label with a colon, so declension doesn't depend on the number."
+  - check: consistency
+    key: '.'
+    reason: reviewed; differences come from context (map abbreviation vs full room name, key vs action, imperative vs state).
+  - check: terms
+    key: '^(CS/CS_Care_Prog2_PAN1_Text1|Challenges/long haul description)$'
+    reason: 'term rendered as a pronoun or a shorter form ("części do zadań").'
+  - check: capitals
+    key: '^(CS/CS_Prog5_PG2_PAN1_Text1|Offense/(DEADEYE|TRIGGER_HAPPY))$'
+    reason: proper names (Orbitalne Centrum…, Pac Force).
+  - check: typography
+    key: '^(CS/CS_Prog1_PG1_PAN1_Text2|Legend/HeartstarterTerminal|MapPopup/(Maintenance|Rendition)|Star Map Event/BombDescription|StartMenu/UnlockFoon|desc_long_[a-f]|desc_short|tydy_desc_long_[a-f])$'
+    reason: the EN trailing space is most likely an authoring leftover with nothing appended (paragraphs, descriptions, legend caption); review 2026-09-26. Spaces before an appended number (Challenges/DifficultySelect*) were added.

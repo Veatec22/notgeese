@@ -1,0 +1,28 @@
+slug: broforce
+title: Broforce
+version: "0.1"
+entries: { done: 397, total: 397 }
+tested: partial
+engine: Unity 2017.4.7f1 (Mono, x64)
+approach: Plugin BepInEx dopisuje „Polski” do systemu języków gry i podaje teksty w czasie działania. Brakujące litery składa w locie — w fontach bitmapowych z liter i akcentów tych samych fontów, a w trójwymiarowych tytułach jako dorobione bryły. Żaden plik gry nie jest podmieniany.
+scope: Całość — menu, opcje i sterowanie, mapa świata z opisami regionów i poziomami zagrożenia, HUD, wyniki, versus i kampanie graczy, podpisy bossów, zakończenie oraz komunikaty sieciowe.
+stores:
+  steam: https://store.steampowered.com/app/274190/
+  gog: https://www.gog.com/en/game/broforce
+build_input:
+  store: gog
+  gog_build_id: '57322835742607320'
+tested_on:
+  - store: gog
+    version: '1.0.3148'
+test_notes: Vertical checked in game (menu, options, world map, 3D titles). Full translation built and installed; full playthrough pending.
+download:
+  kind: zip
+  file: Broforce-PL-0.1.zip
+  bytes: 666755
+quote:
+  text:
+  source:
+gallery: [12, 6, 14, 13, 19]
+steam_appid: 274190
+year: 2015

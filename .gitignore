@@ -1,0 +1,37 @@
+dist/
+.venv/
+__pycache__/
+*.pyc
+temp.txt
+backups/
+node_modules/
+.astro/
+.playwright-mcp/
+site/dist/
+site/test-results/
+site/playwright-report/
+tools/applier/bin/
+
+# Local scratch per game: extracted game data, other-language tables, build dirs,
+# check reports, review batches. Builds recreate what they need.
+games/*/work/
+
+# Private notes and tools outside the repo (candidate research etc.).
+temp/
+
+# Binaries and game assets: third-party content, never committed.
+*.assets
+*.resS
+*.resource
+*.dll
+*.exe
+*.zip
+*.locres
+*.uasset
+*.uexp
+*.ucas
+*.utoc
+*.pak
+
+# Player packages are published by the site, so these zips are committed.
+!site/public/pobierz/*.zip

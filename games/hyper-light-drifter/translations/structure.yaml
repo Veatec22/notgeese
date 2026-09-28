@@ -1,0 +1,20 @@
+# Hyper Light Drifter: groups for the review workspace.
+# Format: docs/workspace.md.
+
+format: 1
+
+groups:
+  - id: menu
+    name: Menu główne, zapis i komunikaty
+  - id: modes
+    name: Tryby gry i zestawy ekwipunku
+  - id: settings
+    name: Ustawienia i sterowanie
+  - id: phrases
+    name: Podpowiedzi w grze
+
+rules:
+  - {group: phrases, match: '^Phrases/'}
+  - {group: modes, match: '^MenuText/(NEWCOMER|STANDARD|NEWGAME|BossRush|FullyLoaded|MidRange|Naked|FULLYLOADED|MIDRANGE|NAKED|UnlockedAtEndGame)'}
+  - {group: settings, match: '^MenuText/(SETTINGS|CONTROLS|SCREENMODE|BRIGHTNESS|SFXVOL|MUSVOL|VIBRATION|LANGUAGE|DASHTYPE|COOP|Windowed|WINDOW_MAX|FULLSCREEN|ON$|OFF$|MOUSE_DIR|MOVE_DIR|NEED_GAMEPAD|MODE$|GAMEPAD|RESET|\w+Config$|KeyboardAndMouse|OVERSCAN|FRAMERATE|VSYNC|Alternative|CONTROLMODETYPES|STANDARDCONTROLS|COOPCONTROLS|PLAYER(ONE|TWO)COOP|DISABLE_XBOX_DVR|THIRDPARTYCONTROLS|notapplicable)'}
+  - {group: menu, match: '^MenuText/'}

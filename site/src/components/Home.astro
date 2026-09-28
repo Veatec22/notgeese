@@ -1,0 +1,87 @@
+---
+import Base from '../layouts/Base.astro';
+import GameCard from './GameCard.astro';
+import Icon from './Icon.astro';
+import Faq from './Faq.astro';
+import Panel from './Panel.astro';
+import Search from './Search.astro';
+import { getGames, getStatuses, stats, type Game } from '../lib/games';
+import { keyartFor } from '../lib/keyart';
+import { HOME_DESCRIPTION, HOME_TITLE, gameDescription, gameTitle } from '../lib/seo';
+
+interface Props {
+  /** The game this page is for; the panel is then open already in the HTML. */
+  active?: Game;
+}
+
+const { active } = Astro.props;
+const games = await getGames();
+const figures = stats(games);
+const statuses = (await getStatuses())
+  .map((status) => ({ ...status, count: games.filter((game) => game.status.id === status.id).length }))
+  .filter((status) => status.count > 0);
+
+const title = active ? gameTitle(active.title) : HOME_TITLE;
+const description = active ? gameDescription(active) : HOME_DESCRIPTION;
+const image = active ? keyartFor(active.slug, active.gallery)?.cover?.src : undefined;
+// On a game page the page heading is the game title in the panel; the intro tagline moves lower.
+const Hero = active ? 'p' : 'h1';
+---
+
+<Base title={title} description={description} image={image}>
+  <div class="ng-shell">
+    <section class="ng-hero">
+      <p class="ng-label ng-hero-eyebrow">Nieoficjalne spolszczenia gier</p>
+      <Hero class="ng-display ng-hero-title">Not<br />Geese</Hero>
+      <div class="ng-hero-underline"></div>
+      <p class="ng-hero-lead">
+        Gry, które polskiej wersji nigdy nie dostały, dostają ją tutaj. Każde tłumaczenie jest
+        zrobione od zera z plików gry: cały tekst, polskie znaki, działający wybór języka w menu.
+      </p>
+      <blockquote class="ng-hero-quote">
+        Gry niezależne. Po polsku.
+      </blockquote>
+    </section>
+  </div>
+
+  <div class="ng-stats">
+    <div class="ng-stats-inner">
+      {
+        figures.map((figure) => (
+          <div class="ng-stat">
+            <div class="ng-stat-value">{figure.value}</div>
+            <div class="ng-label ng-stat-label">{figure.label}</div>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+
+  <section class="ng-section" id="gry">
+    <div class="ng-shell">
+      <div class="ng-section-head">
+        <h2 class="ng-display ng-section-title">Spolszczenia</h2>
+        <Search count={games.length} statuses={statuses} />
+      </div>
+      <div class="ng-grid">
+        {games.map((game) => <GameCard game={game} />)}
+      </div>
+      <nav class="ng-pager" data-pager aria-label="Strony listy gier" hidden>
+        <button type="button" class="ng-pager-button" data-pager-prev aria-label="Poprzednia strona">
+          <Icon name="chevron-left" size={18} />
+        </button>
+        <div class="ng-pager-pages" data-pager-pages></div>
+        <button type="button" class="ng-pager-button" data-pager-next aria-label="Następna strona">
+          <Icon name="chevron-right" size={18} />
+        </button>
+      </nav>
+      <p class="ng-search-empty" data-search-empty hidden>
+        Nic takiego tu nie ma — na razie. Jeśli ta gra nie ma polskiej wersji, może być następna.
+      </p>
+    </div>
+  </section>
+
+  <Faq />
+
+  <Panel games={games} active={active?.slug} />
+</Base>

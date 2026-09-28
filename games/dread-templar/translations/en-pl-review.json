@@ -1,0 +1,4784 @@
+[
+  {
+    "namespace": "gametext",
+    "key": "Ttr_001/text",
+    "english": "Welcome! The corridor in front of you leads to the tutorial area, where you will learn the basic controls and some important game mechanics.",
+    "polish": "Witaj! Korytarz przed tobą prowadzi do strefy samouczka, gdzie poznasz podstawy sterowania i kilka ważnych mechanik."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_002/text",
+    "english": "The Dual Katanas are your default melee weapons. Press the <color=white>left mouse button</color> to swing. Try breaking the crate.",
+    "polish": "Podwójne Katany to twoja domyślna broń biała. Naciśnij <color=white>lewy przycisk myszy</color>, żeby ciąć. Spróbuj rozbić skrzynię."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_003/text",
+    "english": "<color=white>The right mouse</color> click will combine the Katanas into a throwing weapon. <color=white>The left mouse</color> click will throw them. Try breaking the crate with this ability.",
+    "polish": "<color=white>Prawy przycisk myszy</color> łączy katany w broń miotaną. <color=white>Lewy przycisk myszy</color> je wyrzuca. Spróbuj rozbić skrzynię w ten sposób."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_004/text",
+    "english": "Your ability to throw Katanas will deal very high damage but it has a cooldown. During the cooldown, you can use the unarmed strike. Break the crate again after the cooldown is over.",
+    "polish": "Rzut katanami zadaje bardzo duże obrażenia, ale ma czas odnowienia. W tym czasie możesz walczyć gołymi pięściami. Rozbij skrzynię ponownie, gdy rzut się odnowi."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_005/text",
+    "english": "Good! Proceed to the next room to continue the tutorial.",
+    "polish": "Dobrze! Przejdź do następnej sali, aby kontynuować samouczek."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_006/text",
+    "english": "Press 'Space' to jump.",
+    "polish": "Naciśnij 'Spację', aby skoczyć."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_007/text",
+    "english": "Hold 'Space' while facing a ladder to climb it.",
+    "polish": "Przytrzymaj 'Spację', stojąc przodem do drabiny, aby się po niej wspiąć."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_008/text",
+    "english": "Press and hold <color=white>L-Ctrl</color> to crouch and go through the tunnel.",
+    "polish": "Przytrzymaj <color=white>L-Ctrl</color>, aby kucnąć i przejść tunelem."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_009/text",
+    "english": "Press <color=white>Movement Keys + Shift</color> to dash. Try dashing to the platform.",
+    "polish": "Naciśnij <color=white>klawisze ruchu + Shift</color>, aby wykonać doskok. Spróbuj doskoczyć na platformę."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_010/text",
+    "english": "Dashing has a short cooldown. You can dash in mid-air while jumping. Dashing in mid-air covers a longer distance than dashing on the ground.",
+    "polish": "Doskok ma krótki czas odnowienia. Możesz go wykonać w powietrzu podczas skoku. Doskok w powietrzu pokonuje większy dystans niż ten na ziemi."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_011/text",
+    "english": "Press 'E' to interact with the lever to open the iron doors and proceed to the shooting range to learn about the Slow Motion Time.",
+    "polish": "Naciśnij 'E', aby pociągnąć dźwignię, otworzyć żelazne wrota i przejść na strzelnicę, gdzie poznasz Spowolniony Czas."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_012/text",
+    "english": "Press <color=white>Z</color> to enter Slow Motion Time.",
+    "polish": "Naciśnij <color=white>Z</color>, aby włączyć Spowolniony Czas."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_013/text",
+    "english": "Templar has the ability to enter Slow Motion Time while fighting and charge the Slow Motion Time Energy by killing demons. Try slowing down the time and shooting the crates. Press <color=white>the left mouse button</color> to shoot, press 'R' to reload.",
+    "polish": "Templariusz potrafi w walce włączyć Spowolniony Czas, a energię na niego ładuje, zabijając demony. Spróbuj spowolnić czas i ostrzelać skrzynie. Naciśnij <color=white>lewy przycisk myszy</color>, aby strzelać, i 'R', aby przeładować."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_014/text",
+    "english": "This portal will lead you to the Campaign. Good luck!",
+    "polish": "Ten portal zaprowadzi cię do kampanii. Powodzenia!"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_015/text",
+    "english": "The Dual Pistols are your default ranged weapon.",
+    "polish": "Podwójne Pistolety to twoja domyślna broń dystansowa."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_016/text",
+    "english": "This portal will skip the tutorial and lead you to the main Campaign of Dread Templar. It is highly recommended to go through the tutorial at least once before playing the game.",
+    "polish": "Ten portal pominie samouczek i przeniesie cię prosto do kampanii Dread Templar. Zdecydowanie zalecamy przejść samouczek choć raz przed rozpoczęciem gry."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_017/text",
+    "english": "Press <color=white>L-Ctrl</color> to swim down.",
+    "polish": "Naciśnij <color=white>L-Ctrl</color>, aby płynąć w dół."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_018/text",
+    "english": "Press 'Space' to swim up.",
+    "polish": "Naciśnij 'Spację', aby płynąć w górę."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_019/text",
+    "english": "This portal will lead you to the Dark Realms to face the Nightmare difficulty. In Nightmare mode, health packs can only be obtained in secret places.",
+    "polish": "Ten portal zaprowadzi cię do Mrocznych Krain i poziomu trudności Koszmar. W trybie Koszmar apteczki znajdziesz wyłącznie w sekretnych miejscach."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_020/text",
+    "english": "Press 'E' to learn about Weapon Switching",
+    "polish": "Naciśnij 'E', aby dowiedzieć się o zmianie broni"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_021/name",
+    "english": "Weapon Switching",
+    "polish": "Zmiana broni"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_021/text",
+    "english": "Weapons that use the same ammo are the same type and share a weapon key. The default key for the Pump Shotgun and the Double-barrel Shotgun is 3. Right-click the mouse or press the weapon key to switch between the same type of weapons.",
+    "polish": "Bronie korzystające z tej samej amunicji należą do tego samego rodzaju i dzielą jeden klawisz. Domyślny klawisz Strzelby Pompki i Dubeltówki to 3. Kliknij prawym przyciskiem myszy albo naciśnij klawisz broni, aby przełączać się między bronią tego samego rodzaju."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_022/text",
+    "english": "Press 'E' to learn about the Upgrade Altar",
+    "polish": "Naciśnij 'E', aby dowiedzieć się o Ołtarzu Ulepszeń"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_023/name",
+    "english": "The Upgrade Altar",
+    "polish": "Ołtarz Ulepszeń"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_023/text",
+    "english": "The Upgrade Altar is the place where the character attaches the Templar Runes to the weapon and the character. Use the Blood Gem to unlock the slot, and drag the Templar Runes into the corresponding slot to activate the Runes' ability.",
+    "polish": "Ołtarz Ulepszeń to miejsce, w którym postać osadza Runy Templariusza w broni i w sobie samej. Krwawym Klejnotem odblokujesz slot, a przeciągnięcie Runy Templariusza do odpowiedniego slotu uruchamia jej zdolność."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_024/text",
+    "english": "Press 'E' to learn about the Templar Runes",
+    "polish": "Naciśnij 'E', aby dowiedzieć się o Runach Templariusza"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_025/name",
+    "english": "The Templar Runes",
+    "polish": "Runy Templariusza"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_025/text",
+    "english": "The Templar Runes are special items attached to strengthen weapons or character abilities. Each Rune corresponds to only one type of weapon. Some of the golden Runes can even completely change the appearance and ability of the weapon.",
+    "polish": "Runy Templariusza to szczególne przedmioty wzmacniające broń lub zdolności postaci. Każda runa pasuje tylko do jednego rodzaju broni. Niektóre złote runy potrafią nawet całkowicie zmienić wygląd i działanie broni."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_026/text",
+    "english": "Press 'E' to learn about the Blood Gem",
+    "polish": "Naciśnij 'E', aby dowiedzieć się o Krwawym Klejnocie"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_027/name",
+    "english": "The Blood Gem",
+    "polish": "Krwawy Klejnot"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_027/text",
+    "english": "The Blood gem coagulated from the blood of a demon is used to unlock the Rune slots of the character or weapons on the Upgrade Altar.",
+    "polish": "Krwawy Klejnot, zakrzepły z krwi demona, służy do odblokowywania slotów na runy w postaci i w broni przy Ołtarzu Ulepszeń."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_028/text",
+    "english": "Press 'E' to learn about Slow Motion Time Energy",
+    "polish": "Naciśnij 'E', aby dowiedzieć się o Energii Spowolnionego Czasu"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_029/name",
+    "english": "Slow Motion Time Energy",
+    "polish": "Energia Spowolnionego Czasu"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_029/text",
+    "english": "Slow Motion Time Energy is part of Dread Force. It can significantly recharge the energy bar of Slow Motion Time.",
+    "polish": "Energia Spowolnionego Czasu to część Mocy Trwogi. Potrafi znacząco naładować pasek Spowolnionego Czasu."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_030/name",
+    "english": "The Side Area",
+    "polish": "Obszar poboczny"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_030/text",
+    "english": "Exploring the Side Area, you will get better rewards like the Templar Runes and the Blood Gem. But the greater the rewards, the bigger the risk.",
+    "polish": "Eksplorując obszary poboczne, zdobędziesz lepsze łupy — Runy Templariusza i Krwawe Klejnoty. Ale im większa nagroda, tym większe ryzyko."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_031/text",
+    "english": "Press 'E' to learn about the Side Area",
+    "polish": "Naciśnij 'E', aby dowiedzieć się o obszarach pobocznych"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_032/text",
+    "english": "Press 'E' to learn about the Halloween Side Area",
+    "polish": "Naciśnij 'E', aby dowiedzieć się o halloweenowym obszarze pobocznym"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_033/name",
+    "english": "Halloween Side Area",
+    "polish": "Halloweenowy obszar poboczny"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_033/text",
+    "english": "The portal to the evil Headless Necromancer zone has been activated. Will you be able to face the resurrected legions and take them down to obtain the Halloween rune 'Pumpkin Curse' for your Trap Launcher?",
+    "polish": "Portal do strefy plugawego Bezgłowego Nekromanty został otwarty. Stawisz czoła wskrzeszonym legionom i położysz je trupem, żeby zdobyć halloweenową runę 'Klątwa Dyni' do Miotacza Pułapek?"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_034/text",
+    "english": "Press<size=50><sprite=8></size>to open the controller layout",
+    "polish": "Naciśnij<size=50><sprite=8></size>, aby otworzyć układ pada"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_002_0/text",
+    "english": "The Dual Katanas are your default melee weapons. Press the <size=50><sprite=0></size> to swing. Try breaking the crate.",
+    "polish": "Podwójne Katany to twoja domyślna broń biała. Naciśnij <size=50><sprite=0></size>, żeby ciąć. Spróbuj rozbić skrzynię."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_003_0/text",
+    "english": "<size=50><sprite=1></size> click will combine the Katanas into a throwing weapon. <size=50><sprite=0></size> click will throw them. Try breaking the crate with this ability.",
+    "polish": "<size=50><sprite=1></size> łączy katany w broń miotaną. <size=50><sprite=0></size> je wyrzuca. Spróbuj rozbić skrzynię w ten sposób."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_006_0/text",
+    "english": "Press <size=50><sprite=7></size> to jump.",
+    "polish": "Naciśnij <size=50><sprite=7></size>, aby skoczyć."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_007_0/text",
+    "english": "Hold <size=50><sprite=7></size> while facing a ladder to climb it.",
+    "polish": "Przytrzymaj <size=50><sprite=7></size>, stojąc przodem do drabiny, aby się po niej wspiąć."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_008_0/text",
+    "english": "Press and hold 'L-Ctrl' to crouch and go through the tunnel.",
+    "polish": "Przytrzymaj 'L-Ctrl', aby kucnąć i przejść tunelem."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_009_0/text",
+    "english": "Press <size=50><sprite=10></size> + <size=50><sprite=3></size> to dash. Try dashing to the platform.",
+    "polish": "Naciśnij <size=50><sprite=10></size> + <size=50><sprite=3></size>, aby wykonać doskok. Spróbuj doskoczyć na platformę."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_011_0/text",
+    "english": "Press 'E' to interact with the lever to open the iron doors and proceed to the shooting range to learn about the Slow Motion Time.",
+    "polish": "Naciśnij 'E', aby pociągnąć dźwignię, otworzyć żelazne wrota i przejść na strzelnicę, gdzie poznasz Spowolniony Czas."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_012_0/text",
+    "english": "Press 'Z' to enter Slow Motion Time.",
+    "polish": "Naciśnij 'Z', aby włączyć Spowolniony Czas."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_013_0/text",
+    "english": "Templar has the ability to enter Slow Motion Time while fighting and charge the Slow Motion Time Energy by killing demons. Try slowing down the time and shooting the crates. Press <size=50><sprite=0></size> to shoot, press 'R' to reload.",
+    "polish": "Templariusz potrafi w walce włączyć Spowolniony Czas, a energię na niego ładuje, zabijając demony. Spróbuj spowolnić czas i ostrzelać skrzynie. Naciśnij <size=50><sprite=0></size>, aby strzelać, i 'R', aby przeładować."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_017_0/text",
+    "english": "Press 'L-Ctrl' to swim down.",
+    "polish": "Naciśnij 'L-Ctrl', aby płynąć w dół."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_018_0/text",
+    "english": "Press <size=50><sprite=7></size> to swim up.",
+    "polish": "Naciśnij <size=50><sprite=7></size>, aby płynąć w górę."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_035/text",
+    "english": "Press 'E' to open the upgrade panel",
+    "polish": "Naciśnij 'E', aby otworzyć panel ulepszeń"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_036/text",
+    "english": "Press 'E' to learn about Guardian Mode",
+    "polish": "Naciśnij 'E', aby dowiedzieć się o Trybie Strażnika"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_037/name",
+    "english": "Guardian Mode",
+    "polish": "Tryb Strażnika"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_037/text",
+    "english": "The Guardian Mode is a wave-based, endless mode. Try your best to protect the Blue Crystal in the center of the scene as long as you can. Weapon upgrades, Blood Gems and Runes acquired in Campaign Mode can be used in Guardian Mode on the same difficulty level.",
+    "polish": "Tryb Strażnika to nieskończony tryb oparty na falach wrogów. Chroń Niebieski Kryształ na środku areny tak długo, jak zdołasz. Ulepszenia broni, Krwawe Klejnoty i runy zdobyte w kampanii działają w Trybie Strażnika na tym samym poziomie trudności."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_038/name",
+    "english": " ",
+    "polish": " "
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_038/text",
+    "english": "Press 'E' to learn about Power-ups and Supplies",
+    "polish": "Naciśnij 'E', aby dowiedzieć się o wzmocnieniach i zaopatrzeniu"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_039/name",
+    "english": "Power-ups and Supplies",
+    "polish": "Wzmocnienia i zaopatrzenie"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ttr_039/text",
+    "english": "You get points by killing monsters and completing each wave. Buying weapons, ammo, recovering life, restoring crystal durability, enhancing damage, and summoning defenders will enable your progress in guardian mode.",
+    "polish": "Punkty zdobywasz, zabijając potwory i kończąc kolejne fale. Kupno broni i amunicji, leczenie, naprawa kryształu, wzmocnienie obrażeń i przyzywanie obrońców pozwolą ci przetrwać w Trybie Strażnika."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Tps_001/text",
+    "english": "Most of the levels have super secret places that you must solve the puzzles to access. Keep an eye out for clues within the levels.",
+    "polish": "Na większości poziomów są supersekretne miejsca, do których trzeba się dostać, rozwiązując zagadki. Rozglądaj się za wskazówkami."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Tps_002/text",
+    "english": "The Runes and Blood Gems you find are shared across all modes on the same difficulty.",
+    "polish": "Znalezione runy i Krwawe Klejnoty są wspólne dla wszystkich trybów na tym samym poziomie trudności."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Tps_003/text",
+    "english": "If you missed any Runes or Blood Gems in the Campaign mode, you can obtain them in the Level Select mode.",
+    "polish": "Jeśli przegapiłeś jakieś runy albo Krwawe Klejnoty w kampanii, możesz je zdobyć w trybie wyboru poziomu."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Tps_004/text",
+    "english": "You can turn On/Off some HUD elements in the settings.",
+    "polish": "Część elementów interfejsu można włączyć lub wyłączyć w ustawieniach."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Tps_005/text",
+    "english": "If you consider the Hell difficulty a bit too easy, try to find the entrance to the Nightmare mode in the tutorial level.",
+    "polish": "Jeśli uważasz, że Piekło jest zbyt łatwe, poszukaj w samouczku wejścia do trybu Koszmar."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Tps_006/text",
+    "english": "A. You need to spend some energy to activate Slow Motion Time. B. Slow Motion Time can be stopped at any moment after activation.",
+    "polish": "A. Włączenie Spowolnionego Czasu kosztuje trochę energii. B. Spowolniony Czas można wyłączyć w dowolnej chwili po włączeniu."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Tps_007/text",
+    "english": "You can turn off these tips in the settings.",
+    "polish": "Te porady można wyłączyć w ustawieniach."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Tps_008/text",
+    "english": "If you don't become accustomed to the visual tilt while strafing, you can turn it off in the settings.",
+    "polish": "Jeśli nie możesz przywyknąć do przechyłu obrazu przy krokach w bok, wyłącz go w ustawieniach."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Tps_009/text",
+    "english": "There are no toilets in the game.",
+    "polish": "W tej grze nie ma kibli."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Tps_010/text",
+    "english": "Throwing the Dual Katanas can pierce through all the enemies standing in its flight path.",
+    "polish": "Rzucone Podwójne Katany przebijają wszystkich wrogów stojących na ich torze lotu."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Tps_011/text",
+    "english": "Certain special Runes are only obtained through a super secret.",
+    "polish": "Niektóre wyjątkowe runy zdobędziesz wyłącznie przez supersekret."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Tps_012/text",
+    "english": "SMGs deal high damage but they consume ammo faster than you can spend money.",
+    "polish": "PM-y zadają duże obrażenia, ale pożerają amunicję szybciej, niż zdążysz wydać kasę."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Tps_013/text",
+    "english": "Black Bow is a chargeable weapon. Draw the bowstring fully before shooting to maximize the damage of the black bow.",
+    "polish": "Czarny Łuk to broń ładowana. Naciągnij cięciwę do końca, zanim strzelisz, żeby wycisnąć z niego maksimum obrażeń."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Tps_014/text",
+    "english": "The Trap Launcher is especially effective against large groups of enemies.",
+    "polish": "Miotacz Pułapek sprawdza się zwłaszcza przeciwko dużym grupom wrogów."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Tps_015/text",
+    "english": "The small traps of the Trap Launcher can last for a long time before they are triggered.",
+    "polish": "Małe pułapki z Miotacza Pułapek potrafią leżeć bardzo długo, zanim ktoś je uruchomi."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Tps_016/text",
+    "english": "The Black Bow and Inferno Revolver give extra headshot damage.",
+    "polish": "Czarny Łuk i Rewolwer Inferno zadają dodatkowe obrażenia przy strzale w głowę."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Tps_017/text",
+    "english": "The Inferno Rocket does not allow rocket jumping. If you don't believe it, you can try.",
+    "polish": "Rakieta Inferno nie pozwala na rocket jumpy. Nie wierzysz — spróbuj."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Tps_018/text",
+    "english": "Luck is sometimes really important.",
+    "polish": "Szczęście bywa naprawdę ważne."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Tps_019/text",
+    "english": "Inferno Gauntlets R is a chargeable weapon and consumes massive energy with each use, so be sure to maximize the charge before release.",
+    "polish": "Rękawica Inferno P jest ładowana i pochłania mnóstwo energii przy każdym użyciu, więc zawsze ładuj ją do pełna przed uderzeniem."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Tps_020/text",
+    "english": "The runes must be put into the slots to activate abilities.",
+    "polish": "Żeby runy zadziałały, trzeba je osadzić w slotach."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Tps_021/text",
+    "english": "The game automatically stores all Runes and Blood Gems you found and weapons' skills equipped. In order to start a \"clean\" new playthrough, make sure to use the Reset button in the Options/Data Settings menu on the start screen.",
+    "polish": "Gra sama zapisuje wszystkie znalezione runy, Krwawe Klejnoty i założone umiejętności broni. Jeśli chcesz zacząć \"czyste\" przejście od zera, użyj przycisku czyszczenia w menu Opcje/Zarządzanie danymi na ekranie startowym."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0001/text",
+    "english": "It's locked.",
+    "polish": "Zamknięte."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0002/text",
+    "english": "A secret door has been unlocked.",
+    "polish": "Sekretne przejście zostało otwarte."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0003/text",
+    "english": "This switch is locked by some sort of mechanism.",
+    "polish": "Ten przełącznik blokuje jakiś mechanizm."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0004/text",
+    "english": "I need a red key card.",
+    "polish": "Potrzebuję czerwonej karty."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0005/text",
+    "english": "I need a yellow key card.",
+    "polish": "Potrzebuję żółtej karty."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0006/text",
+    "english": "I need a purple key card.",
+    "polish": "Potrzebuję fioletowej karty."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0007/text",
+    "english": "I found a secret.",
+    "polish": "Znalazłem sekret."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0008/text",
+    "english": "I found a super secret.",
+    "polish": "Znalazłem supersekret."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0009/text",
+    "english": "Cannot be opened from this side.",
+    "polish": "Z tej strony się nie otworzy."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0010/text",
+    "english": "It's locked, the switch should be somewhere.",
+    "polish": "Zamknięte, przełącznik musi gdzieś być."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0011/text",
+    "english": "Not now.",
+    "polish": "Nie teraz."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0012/text",
+    "english": "Press 'E' to leave the level",
+    "polish": "Naciśnij 'E', aby opuścić poziom"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0013/text",
+    "english": "Press 'E' to interact",
+    "polish": "Naciśnij 'E', aby użyć"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0014/text",
+    "english": "Press 'E' to Save",
+    "polish": "Naciśnij 'E', aby zapisać"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0015/text",
+    "english": "An ineffective rune has been reactivated.",
+    "polish": "Wygaszona runa znów działa."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0016/text",
+    "english": "A secret door somewhere is now open.",
+    "polish": "Gdzieś otworzyło się sekretne przejście."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0017/text",
+    "english": "Press 'E' to open the door",
+    "polish": "Naciśnij 'E', aby otworzyć drzwi"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0018/text",
+    "english": "Press 'Esc' to skip...",
+    "polish": "Naciśnij 'Esc', aby pominąć..."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0019/text",
+    "english": "* The runes must be put into the slots to activate abilities.",
+    "polish": "* Żeby runy zadziałały, trzeba je osadzić w slotach."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0020/text",
+    "english": "Wishlist the game",
+    "polish": "Dodaj grę do listy życzeń"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0021/text",
+    "english": "R.I.P",
+    "polish": "R.I.P"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0022/text",
+    "english": "YOU DIED!",
+    "polish": "ZGINĄŁEŚ!"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0023/text",
+    "english": "Press [R] to load the last save.",
+    "polish": "Naciśnij [R], aby wczytać ostatni zapis."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0024/text",
+    "english": "Press 'Esc' or 'E' to leave the tutorial panel.",
+    "polish": "Naciśnij 'Esc' albo 'E', aby zamknąć panel samouczka."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0025/text",
+    "english": "An iron gate in the lake is now open.",
+    "polish": "Żelazna krata w jeziorze jest już otwarta."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0026/text",
+    "english": "The stairs in front of you lead to the next level.",
+    "polish": "Schody przed tobą prowadzą na następny poziom."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0027/text",
+    "english": "A bloody left eyeball.",
+    "polish": "Zakrwawiona lewa gałka oczna."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0028/text",
+    "english": "A bloody right eyeball.",
+    "polish": "Zakrwawiona prawa gałka oczna."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0029/text",
+    "english": "After collecting the 2 eyeballs, I seem to be able to see the paths I couldn't see before.",
+    "polish": "Po zebraniu obu gałek chyba widzę ścieżki, których wcześniej nie widziałem."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0030/text",
+    "english": "\"I can't feel my arm.\"",
+    "polish": "\"Nie czuję ręki.\""
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0031/text",
+    "english": "An arm bone, it looks a little special.",
+    "polish": "Kość ramienia, wygląda dość osobliwie."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0032/text",
+    "english": "My clothes are now soaked with blood.",
+    "polish": "Ubranie mam teraz przesiąknięte krwią."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0033/text",
+    "english": "The blood on my clothes has dried up.",
+    "polish": "Krew na ubraniu zaschła."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0034/text",
+    "english": "Press 'E' to face the boss.",
+    "polish": "Naciśnij 'E', aby stanąć do walki z bossem."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0035/text",
+    "english": "It seems to mean something.",
+    "polish": "To chyba coś znaczy."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0036/text",
+    "english": "Shit!",
+    "polish": "Cholera!"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0037/text",
+    "english": "Damn! Isn't there supposed to be a secret place here?",
+    "polish": "Kurwa! Nie miało tu być sekretnego miejsca?"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0038/text",
+    "english": "Press 'E' to enter the portal.",
+    "polish": "Naciśnij 'E', aby wejść w portal."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0039/text",
+    "english": "Weird, why is there a heavy door here?",
+    "polish": "Dziwne, skąd tu ciężkie wrota?"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0040/text",
+    "english": "A rune? It seems to have some kind of meaning.",
+    "polish": "Runa? Coś to chyba znaczy."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0041/text",
+    "english": "A blueprint? How could anyone draw a blueprint in this damned place?",
+    "polish": "Plan? Kto by rysował plany w tym przeklętym miejscu?"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0042/text",
+    "english": "Another blueprint that doesn't seem like a coincidence.",
+    "polish": "Kolejny plan — to chyba nie przypadek."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0043/text",
+    "english": "Fuck! I'm a Templar, not an Olympic sprinter.",
+    "polish": "Kurwa! Jestem templariuszem, nie olimpijskim sprinterem."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0044/text",
+    "english": "That’s not good! Every time you find so many supplies there’s gotta be a fucking boss fight.",
+    "polish": "Niedobrze! Zawsze jak znajdziesz tyle zaopatrzenia, to zaraz jest jakaś pieprzona walka z bossem."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0045/text",
+    "english": "I told you!",
+    "polish": "A nie mówiłem!"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0046/text",
+    "english": "Oh god! A BEER?!",
+    "polish": "O Boże! PIWO?!"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0047/text",
+    "english": "Damn it, I'm afraid of heights.",
+    "polish": "Cholera, boję się wysokości."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0048/text",
+    "english": "Shit!",
+    "polish": "Cholera!"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0049/text",
+    "english": "Dawn! Isn't there supposed to be a secret place here?",
+    "polish": "Świta! Nie miało tu być sekretnego miejsca?"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0050/text",
+    "english": "A red key card? Nice.",
+    "polish": "Czerwona karta? Świetnie."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0051/text",
+    "english": "A yellow key card? Nice.",
+    "polish": "Żółta karta? Świetnie."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0052/text",
+    "english": "A purple key card? Nice.",
+    "polish": "Fioletowa karta? Świetnie."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0053/text",
+    "english": "Thank you, stranger.",
+    "polish": "Dzięki, nieznajomy."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0054/text",
+    "english": "A blood-soaked skeleton, it seems to be part of some kind of ritual.",
+    "polish": "Przesiąknięty krwią szkielet, wygląda na element jakiegoś rytuału."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0055/text",
+    "english": "L . W",
+    "polish": "L . W"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0056/text",
+    "english": "A secret door in a cell on the second floor is now open.",
+    "polish": "Sekretne przejście w celi na drugim piętrze jest już otwarte."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0057/text",
+    "english": "What?",
+    "polish": "Co?"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0059/text",
+    "english": "I need ",
+    "polish": "Potrzebuję "
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0060/text",
+    "english": "a pumpkin key!",
+    "polish": "dyniowego klucza!"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0061/text",
+    "english": "Press 'E' to search ",
+    "polish": "Naciśnij 'E', aby przeszukać "
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0062/text",
+    "english": "Not enough tokens!",
+    "polish": "Za mało żetonów!"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0063/text",
+    "english": "Press 'E' to leave the Halloween Side Area",
+    "polish": "Naciśnij 'E', aby opuścić halloweenowy obszar poboczny"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0064/text",
+    "english": "It looks a bit loose here.",
+    "polish": "Tu grunt wygląda na dość luźny."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0065/text",
+    "english": "A shovel was obtained.",
+    "polish": "Zdobyto łopatę."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0066/text",
+    "english": "A key with a moon pattern was obtained.",
+    "polish": "Zdobyto klucz ze wzorem księżyca."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0067/text",
+    "english": "What? A super super secret?!",
+    "polish": "Co? Supersupersekret?!"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0068/text",
+    "english": "Seems I need some kind of lever.",
+    "polish": "Chyba potrzebuję jakiejś dźwigni."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0069/text",
+    "english": "The time warp returns this area back to a particular moment in time.",
+    "polish": "Zakrzywienie czasu cofa ten obszar do pewnej konkretnej chwili."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0070/text",
+    "english": "High scores:\n\n1.Seven40Seven\t\t171\n\n2.HonfoxX\t 158\n\n3.SugarFreeKnife\t\t147\n\nGitida-P\n\nEndless Challenger\n\nSheepindisguise\n\nkean.mccracken\n\nGiygas\n\nKivi-Kiti\n\nAythadis",
+    "polish": "Najlepsze wyniki:\n\n1.Seven40Seven\t\t171\n\n2.HonfoxX\t 158\n\n3.SugarFreeKnife\t\t147\n\nGitida-P\n\nEndless Challenger\n\nSheepindisguise\n\nkean.mccracken\n\nGiygas\n\nKivi-Kiti\n\nAythadis"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0071/text",
+    "english": "Press 'E' to touch the painting.",
+    "polish": "Naciśnij 'E', aby dotknąć obrazu."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0072/text",
+    "english": "The front leads to the next level.",
+    "polish": "Prosto przed siebie na następny poziom."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0073/text",
+    "english": "A second hourglass? Seems like there's a third one.",
+    "polish": "Druga klepsydra? Chyba jest i trzecia."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0074/text",
+    "english": "Stranger, help me kill all the demons in my ship and I will take you wherever you want.",
+    "polish": "Nieznajomy, pomóż mi wybić wszystkie demony na moim statku, a zabiorę cię, dokąd zechcesz."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0075/text",
+    "english": "Come over here, the captain's quarters, we need to talk.",
+    "polish": "Chodź tu, do kajuty kapitańskiej, musimy pogadać."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0076/text",
+    "english": "Wherever you are going, bring my chart here. It's hidden under the ground but we would all die trying to cross this sea without it.",
+    "polish": "Dokądkolwiek płyniesz, przynieś mi tu moją mapę. Jest zakopana pod ziemią, a bez niej wszyscy zginiemy, próbując przepłynąć to morze."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0077/text",
+    "english": "Hold on to something! Stranger. I have no obligation to pick you up out of the water.",
+    "polish": "Trzymaj się czegoś, nieznajomy! Nie mam obowiązku wyławiać cię z wody."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0078/text",
+    "english": "A chart marked with a red hourglass was obtained.",
+    "polish": "Zdobyto mapę oznaczoną czerwoną klepsydrą."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0079/text",
+    "english": "A painting of someone in red was obtained.",
+    "polish": "Zdobyto obraz przedstawiający kogoś w czerwieni."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0080/text",
+    "english": "There should be a painting hanging here before.",
+    "polish": "Chyba wisiał tu wcześniej obraz."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0081/text",
+    "english": "Kuu'wakh dalh e' tuhlu khamorr mohlu' sya wkul",
+    "polish": "Kuu'wakh dalh e' tuhlu khamorr mohlu' sya wkul"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0082/text",
+    "english": "A book page with a spell was obtained.",
+    "polish": "Zdobyto kartę z księgi z zaklęciem."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0083/text",
+    "english": "Press 'E' to return the chart, and the captain will lead you to the next level.",
+    "polish": "Naciśnij 'E', aby oddać mapę — kapitan zabierze cię na następny poziom."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0084/text",
+    "english": "The side area",
+    "polish": "Obszar poboczny"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0085/text",
+    "english": "Eva was found.",
+    "polish": "Znaleziono Evę."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0086/text",
+    "english": "Terrible monsters were everywhere. I'm so scared and I miss Eva. Can you bring Eva here? I think I lost her by the river, far from here.",
+    "polish": "Wszędzie były straszne potwory. Tak się boję i tęsknię za Evą. Przyniesiesz mi ją? Chyba zgubiłam ją nad rzeką, daleko stąd."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0087/text",
+    "english": "Thank you, good sir! My dad went to find Eva... If you see him, tell him I'm safe now.",
+    "polish": "Dziękuję, dobry panie! Tata poszedł szukać Evy... Jeśli go spotkasz, powiedz mu, że jestem już bezpieczna."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0088/text",
+    "english": "A strangely shaped key card was obtained.",
+    "polish": "Zdobyto kartę o dziwnym kształcie."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0089/text",
+    "english": "A slot",
+    "polish": "Szczelina"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0090/text",
+    "english": "A torch was obtained.",
+    "polish": "Zdobyto pochodnię."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0091/text",
+    "english": "The runes that sealed the secret entrance on the floor of the Red Moon Hall have all been burned-out.",
+    "polish": "Runy, które pieczętowały sekretne wejście w podłodze Sali Czerwonego Księżyca, wypaliły się co do jednej."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0093/text",
+    "english": "You don't know what you've done, you screwed up everything...",
+    "polish": "Nie wiesz, co narobiłeś, spieprzyłeś wszystko..."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0094/text",
+    "english": "All the monsters in the village have been killed, and the magic that locked the backyard door has disappeared.",
+    "polish": "Wszystkie potwory we wsi zginęły, a magia blokująca drzwi na tyłach zniknęła."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0095/text",
+    "english": "??",
+    "polish": "??"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0096/text",
+    "english": "A fountain's rune is activated.",
+    "polish": "Runa fontanny została uruchomiona."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0097/text",
+    "english": "I couldn't take anything out of the fire.",
+    "polish": "Nie zdołałem nic wyciągnąć z ognia."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0098/text",
+    "english": "A flame suppression potion was obtained.",
+    "polish": "Zdobyto miksturę gaszącą płomienie."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0099/text",
+    "english": "A ring was obtained.",
+    "polish": "Zdobyto pierścień."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0100/text",
+    "english": "A book has been taken away.",
+    "polish": "Zabrano księgę."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0101/text",
+    "english": "A full sheet of paper with nautical coordinates was obtained.",
+    "polish": "Zdobyto pełną kartę ze współrzędnymi morskimi."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0102/text",
+    "english": "Kill them all, Stranger! Take care of my ship!",
+    "polish": "Wybij ich wszystkich, nieznajomy! I uważaj na mój statek!"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0103/text",
+    "english": "Look! We're almost there, right up ahead!",
+    "polish": "Patrz! Jesteśmy prawie na miejscu, tam z przodu!"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0104/text",
+    "english": "Where did you get the coordinates? ... Well, since you insist on going, let's go!",
+    "polish": "Skąd masz te współrzędne? ... No dobra, skoro się upierasz, to płyniemy!"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0105/text",
+    "english": "I wrote down the coordinates of the marked island.",
+    "polish": "Zapisałem współrzędne zaznaczonej wyspy."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_0106/text",
+    "english": "A spell book with 4 pages missing.",
+    "polish": "Księga zaklęć, brakuje w niej 4 stron."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Igt_end/text",
+    "english": "===",
+    "polish": "==="
+  },
+  {
+    "namespace": "gametext",
+    "key": "Itt_0001/text",
+    "english": "Are you sure that you want to load this saved data?",
+    "polish": "Na pewno chcesz wczytać ten stan gry?"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Itt_0002/text",
+    "english": "A secret door somewhere is now open.",
+    "polish": "Gdzieś otworzyło się sekretne przejście."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Itt_0003/text",
+    "english": "Are you sure that you want to overwrite the saved data?",
+    "polish": "Na pewno chcesz nadpisać ten stan gry?"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Itt_0005/text",
+    "english": "Are you sure to reset all the slots?",
+    "polish": "Na pewno wyczyścić wszystkie sloty?"
+  },
+  {
+    "namespace": "gametext",
+    "key": "Itt_0006/text",
+    "english": "=====",
+    "polish": "====="
+  },
+  {
+    "namespace": "gametext",
+    "key": "Itt_end/text",
+    "english": "===",
+    "polish": "==="
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ist_001/text",
+    "english": "The secret of the dark moon slumb'rs et'rnally und'r the keen crimson eye of the Demon.",
+    "polish": "Sekret ciemnego księżyca śpi po wieczne czasy pod bystrym szkarłatnym okiem Demona."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ist_002/text",
+    "english": "...Descendants of the Hektor bloodline wield the power of Dread Force against demons. This ability grows stronger as they age...",
+    "polish": "...Potomkowie rodu Hektorów władają Mocą Trwogi przeciwko demonom. Zdolność ta rośnie w siłę wraz z wiekiem..."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ist_003/text",
+    "english": "...A daughter of the head of the Hektor family fell in love with a hunter, ran from the family and disappeared...",
+    "polish": "...Córka głowy rodu Hektorów zakochała się w myśliwym, uciekła z domu i przepadła bez śladu..."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ist_004/text",
+    "english": "...Demonic Idol of the Dark Realms, Beelsebur, attacked the heir of Hektor and after obtaining Dread Force killed most of the family...",
+    "polish": "...Demoniczny Bożek Mrocznych Krain, Beelsebur, napadł na dziedzica Hektorów i zdobywszy Moc Trwogi, wybił niemal cały ród..."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ist_005/text",
+    "english": "...The second son of the Hektor family, Roland, defeated Beelsebur, but the young man was grievously wounded and disappeared...",
+    "polish": "...Drugi syn rodu Hektorów, Roland, pokonał Beelsebura, lecz młodzieniec odniósł ciężkie rany i zaginął..."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ist_006/text",
+    "english": "At which hour all breath the darkness drowns, the King of Dread shall thence beest crown'd.",
+    "polish": "W godzinie, gdy ciemność pochłonie wszelki oddech, koronowany zostanie Król Trwogi."
+  },
+  {
+    "namespace": "gametext",
+    "key": "Ist_007/text",
+    "english": "Up. Up. Down. Down. Left. Right. Left. Right. B. A.",
+    "polish": "Góra. Góra. Dół. Dół. Lewo. Prawo. Lewo. Prawo. B. A."
+  },
+  {
+    "namespace": "cutscene",
+    "key": "cst_0001/text",
+    "english": "After these ordeals and pain, I don't seem to be able to leave this place.",
+    "polish": "Po tych wszystkich mękach i bólu chyba nie zdołam już opuścić tego miejsca."
+  },
+  {
+    "namespace": "cutscene",
+    "key": "cst_0002/text",
+    "english": "Well, it no longer matters. After this final battle, my rest is well deserved. My exhaustion has finally caught up to me.",
+    "polish": "Zresztą to już bez znaczenia. Po tej ostatniej walce należy mi się odpoczynek. Zmęczenie w końcu mnie dopadło."
+  },
+  {
+    "namespace": "cutscene",
+    "key": "cst_0003/text",
+    "english": "We will meet again soon, Templar.",
+    "polish": "Wkrótce znów się spotkamy, templariuszu."
+  },
+  {
+    "namespace": "cutscene",
+    "key": "cst_0004/text",
+    "english": "That which you carry inside will then belong to me!",
+    "polish": "To, co nosisz w środku, będzie wtedy należało do mnie!"
+  },
+  {
+    "namespace": "cutscene",
+    "key": "cst_0005/name",
+    "english": "Intro",
+    "polish": "Intro"
+  },
+  {
+    "namespace": "cutscene",
+    "key": "cst_0005/text",
+    "english": "As far as I could remember, my grandfather had always been by my side. He was the most important person in the world to me. That night, he was telling me a bedtime story as usual. A red mist rose around our little cabin, bringing with it a horrid smell. My grandfather tensed up and turned pale. He quickly opened a casing with his rifle, shoved me into the hidden compartment in the wall and warned me not to make a sound under any circumstances.\n\nI was scared, but he smiled gently. Then, the hidden door slammed shut with a thump, obscuring his figure...",
+    "polish": "Odkąd pamiętam, dziadek zawsze był przy mnie. Był dla mnie najważniejszą osobą na świecie. Tamtej nocy, jak zwykle, opowiadał mi bajkę na dobranoc. Wokół naszej chatynki uniosła się czerwona mgła, a wraz z nią przyszedł obrzydliwy smród. Dziadek zesztywniał i pobladł. Szybko otworzył skrzynkę ze strzelbą, wepchnął mnie do ukrytej skrytki w ścianie i ostrzegł, żebym pod żadnym pozorem nie wydał z siebie dźwięku.\n\nBałem się, ale on uśmiechnął się łagodnie. Potem ukryte drzwiczki zatrzasnęły się z hukiem, zasłaniając jego postać..."
+  },
+  {
+    "namespace": "cutscene",
+    "key": "cst_0006/name",
+    "english": "1-2",
+    "polish": "1-2"
+  },
+  {
+    "namespace": "cutscene",
+    "key": "cst_0006/text",
+    "english": "Through the cracks in the walls, I saw several terrifying monsters break the door down and rush in. He batted away their fangs and claws away using his trusty gun as he dashed outside. I could hear gunshots mixed with the shrieks of the monsters. Grandfather's battle cries were soon drowned out by their howls of pain and malice. Suddenly, all the noises ceased. All I could hear was grandfather's shallow, wheezing breath, then there was complete silence. \n\nA voice filled with death traveled from far to near. I would never forget that voice.",
+    "polish": "Przez szpary w ścianie widziałem, jak kilka przerażających potworów wyważa drzwi i wpada do środka. Odtrącał ich kły i pazury swoją wierną bronią, wybiegając na zewnątrz. Słyszałem strzały mieszające się z wrzaskiem potworów. Bojowy okrzyk dziadka szybko utonął w ich wyciu z bólu i nienawiści. Nagle wszystkie dźwięki ucichły. Słyszałem już tylko płytki, charczący oddech dziadka, a potem zapadła zupełna cisza. \n\nGłos przesiąknięty śmiercią zbliżał się z oddali. Tego głosu nie zapomnę nigdy."
+  },
+  {
+    "namespace": "cutscene",
+    "key": "cst_0007/name",
+    "english": "2-3",
+    "polish": "2-3"
+  },
+  {
+    "namespace": "cutscene",
+    "key": "cst_0007/text",
+    "english": "When the sun rose, I came out of the cabin. I knelt beside my grandfather's blood-soaked body. Oppressive silence fell as I shivered in shock.\n\nI don't know how much time passed before a man in a black robe appeared before me. He called himself \"Lord\". He offered me a way to become their nightmare - Dread Templar. He would share his blood with me so that I would be able to command the Dread Force. Through this power, I would be able to enter the Dark Realms and slay demons. The following ten days after the Joining would test my character as the pain endured would be unimaginable. The risk of death would grow as the day of the final Fusion neared.\n\nWhat was my answer? ",
+    "polish": "Kiedy wzeszło słońce, wyszedłem z chaty. Ukląkłem przy przesiąkniętym krwią ciele dziadka. Zapadła przytłaczająca cisza, a ja trząsłem się w szoku.\n\nNie wiem, ile czasu minęło, zanim stanął przede mną mężczyzna w czarnej szacie. Nazwał siebie \"Panem\". Zaproponował mi drogę, na której stanę się ich koszmarem — drogę Dread Templara. Miał podzielić się ze mną swoją krwią, abym mógł władać Mocą Trwogi. Dzięki niej mógłbym wejść do Mrocznych Krain i zabijać demony. Dziesięć dni po Złączeniu miało wystawić mój charakter na próbę, bo ból byłby nie do wyobrażenia. Im bliżej dnia ostatecznej Fuzji, tym większe ryzyko śmierci.\n\nJaka była moja odpowiedź? "
+  },
+  {
+    "namespace": "cutscene",
+    "key": "cst_0008/name",
+    "english": "3-4",
+    "polish": "3-4"
+  },
+  {
+    "namespace": "cutscene",
+    "key": "cst_0008/text",
+    "english": "When Lord's blood entered my body, the world turned scarlet in my eyes. I hallucinated and felt as if my body was torn to pieces by countless vicious wolves. Those ten days felt like eons. \n\nI woke up from this ordeal. The blood seemed to have chosen me. I didn't die.\n\nI became Dread Templar.",
+    "polish": "Gdy krew Pana weszła w moje ciało, świat w moich oczach spurpurowiał. Miałem omamy i czułem, jakby moje ciało rozszarpywały setki wściekłych wilków. Tamte dziesięć dni ciągnęło się jak wieczność. \n\nOcknąłem się po tej próbie. Krew chyba mnie wybrała. Nie umarłem.\n\nStałem się Dread Templarem."
+  },
+  {
+    "namespace": "cutscene",
+    "key": "cst_0009/name",
+    "english": " ",
+    "polish": " "
+  },
+  {
+    "namespace": "cutscene",
+    "key": "cst_0009/text",
+    "english": "Hold on to something! Stranger. I have no obligation to pick you up out of the water.",
+    "polish": "Trzymaj się czegoś, nieznajomy! Nie mam obowiązku wyławiać cię z wody."
+  },
+  {
+    "namespace": "cutscene",
+    "key": "cst_0010/name",
+    "english": "4-5",
+    "polish": "4-5"
+  },
+  {
+    "namespace": "cutscene",
+    "key": "cst_0010/text",
+    "english": "Dark Realms, where everything that was forgotten or dead in the real world exists. There is no sense of time, no living things, and all is chaos. My breathing became heavier and heavier as I walked deeper into the Dark Realms, my skin hurt as if a thousand knives burrowed into it.\n\nI can feel that I am very close to my destination. Because, that smell, that horrid smell from my memory, is becoming more and more overwhelming.",
+    "polish": "Mroczne Krainy — miejsce, gdzie istnieje wszystko, co w prawdziwym świecie zapomniane albo martwe. Nie ma tu poczucia czasu ani niczego żywego, jest tylko chaos. Im głębiej w nie schodziłem, tym ciężej oddychałem, a skórę miałem jak przekłutą tysiącem noży.\n\nCzuję, że jestem już bardzo blisko celu. Bo ten zapach, ten obrzydliwy smród z mojej pamięci, staje się coraz bardziej duszący."
+  },
+  {
+    "namespace": "cutscene",
+    "key": "cst_0011/text",
+    "english": "It's finally over. This nightmare that imprisoned me for the last 20 years has finally ended.",
+    "polish": "Wreszcie koniec. Ten koszmar, który więził mnie przez ostatnie 20 lat, wreszcie się skończył."
+  },
+  {
+    "namespace": "cutscene",
+    "key": "cst_0012/text",
+    "english": "Do you appreciate this place I built for you?",
+    "polish": "Podoba ci się miejsce, które dla ciebie zbudowałem?"
+  },
+  {
+    "namespace": "cutscene",
+    "key": "cst_0013/text",
+    "english": "I can imagine how wonderful it would feel to relive that unforgettable night.",
+    "polish": "Wyobrażam sobie, jak cudownie będzie przeżyć tamtą niezapomnianą noc raz jeszcze."
+  },
+  {
+    "namespace": "cutscene",
+    "key": "cst_0014/text",
+    "english": "I didn't kill you then, so the power inside you could awaken to its full potential.",
+    "polish": "Nie zabiłem cię wtedy, żeby moc w tobie mogła obudzić się w pełni."
+  },
+  {
+    "namespace": "cutscene",
+    "key": "cst_0015/text",
+    "english": "It has grown to such an extent that I can even smell its perfection.",
+    "polish": "Urosła już tak, że czuję jej doskonałość."
+  },
+  {
+    "namespace": "cutscene",
+    "key": "cst_0016/text",
+    "english": "Come out. I've been waiting for too long.",
+    "polish": "Wyjdź. Czekałem stanowczo za długo."
+  },
+  {
+    "namespace": "cutscene",
+    "key": "cst_0017/text",
+    "english": "The Dread Force in your body is calling for its new master.",
+    "polish": "Moc Trwogi w twoim ciele przyzywa swojego nowego pana."
+  },
+  {
+    "namespace": "cutscene",
+    "key": "cst_0018/text",
+    "english": "Stranger, we're almost there.",
+    "polish": "Nieznajomy, jesteśmy prawie na miejscu."
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_001/text",
+    "english": "Play Prologue",
+    "polish": "Zagraj prolog"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_002/text",
+    "english": "Campaign",
+    "polish": "Kampania"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_003/text",
+    "english": "Load Game",
+    "polish": "Wczytaj grę"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_004/text",
+    "english": "Options",
+    "polish": "Opcje"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_005/text",
+    "english": "Quit to Desktop",
+    "polish": "Wyjdź do pulpitu"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_006/text",
+    "english": "Difficulty",
+    "polish": "Poziom trudności"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_007/text",
+    "english": "Easy",
+    "polish": "Łatwy"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_008/text",
+    "english": "Normal",
+    "polish": "Normalny"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_009/text",
+    "english": "Hard",
+    "polish": "Trudny"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_010/text",
+    "english": "Level 1",
+    "polish": "Poziom 1"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_011/text",
+    "english": "Level 2",
+    "polish": "Poziom 2"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_012/text",
+    "english": "Level 3",
+    "polish": "Poziom 3"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_013/text",
+    "english": "Save",
+    "polish": "Zapisz"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_014/text",
+    "english": "Load",
+    "polish": "Wczytaj"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_015/text",
+    "english": "Return",
+    "polish": "Powrót"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_016/text",
+    "english": "Game Settings",
+    "polish": "Ustawienia gry"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_017/text",
+    "english": "Controls",
+    "polish": "Sterowanie"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_018/text",
+    "english": "Video",
+    "polish": "Obraz"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_019/text",
+    "english": "Audio",
+    "polish": "Dźwięk"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_020/text",
+    "english": "Return",
+    "polish": "Powrót"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_021/text",
+    "english": "Accept",
+    "polish": "Zatwierdź"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_022/text",
+    "english": "Visual Tilt While Strafing",
+    "polish": "Przechył obrazu przy krokach w bok"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_023/text",
+    "english": "Mouse Sensitivity",
+    "polish": "Czułość myszy"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_024/text",
+    "english": "Mouse Invert",
+    "polish": "Odwróć mysz"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_025/text",
+    "english": "Key/Mouse Binding:",
+    "polish": "Klawiatura i mysz:"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_026/text",
+    "english": "Forward",
+    "polish": "Naprzód"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_027/text",
+    "english": "Back",
+    "polish": "W tył"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_028/text",
+    "english": "Left",
+    "polish": "W lewo"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_029/text",
+    "english": "Right",
+    "polish": "W prawo"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_030/text",
+    "english": "Shoot/Swing",
+    "polish": "Strzał/cięcie"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_031/text",
+    "english": "Jump/Swim Up",
+    "polish": "Skok/płyń w górę"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_032/text",
+    "english": "Crouch/Swim Down",
+    "polish": "Kucnij/płyń w dół"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_033/text",
+    "english": "Reload",
+    "polish": "Przeładuj"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_034/text",
+    "english": "Interact",
+    "polish": "Użyj"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_035/text",
+    "english": "Dash",
+    "polish": "Doskok"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_036/text",
+    "english": "Slow Motion Time",
+    "polish": "Spowolniony Czas"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_037/text",
+    "english": "Switch Weapon Mode",
+    "polish": "Zmień tryb broni"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_038/text",
+    "english": "Previous Weapon/Previous Weapon Type",
+    "polish": "Poprzednia broń/poprzedni rodzaj broni"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_039/text",
+    "english": "Quick Save",
+    "polish": "Szybki zapis"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_040/text",
+    "english": "Quick Load",
+    "polish": "Szybkie wczytanie"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_041/text",
+    "english": "Weapon Slot 1",
+    "polish": "Broń — slot 1"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_042/text",
+    "english": "Weapon Slot 2",
+    "polish": "Broń — slot 2"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_043/text",
+    "english": "Weapon Slot 3",
+    "polish": "Broń — slot 3"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_044/text",
+    "english": "Weapon Slot 4",
+    "polish": "Broń — slot 4"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_045/text",
+    "english": "Weapon Slot 5",
+    "polish": "Broń — slot 5"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_046/text",
+    "english": "Weapon Slot 6",
+    "polish": "Broń — slot 6"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_047/text",
+    "english": "Weapon Slot 7",
+    "polish": "Broń — slot 7"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_048/text",
+    "english": "Weapon Slot 8",
+    "polish": "Broń — slot 8"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_049/text",
+    "english": "Weapon Slot 9",
+    "polish": "Broń — slot 9"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_050/text",
+    "english": "Weapon Slot 0",
+    "polish": "Broń — slot 0"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_051/text",
+    "english": "Reset Keys/Mouse",
+    "polish": "Przywróć domyślne sterowanie"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_052/text",
+    "english": "Reset",
+    "polish": "Przywróć"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_053/text",
+    "english": "Resolution",
+    "polish": "Rozdzielczość"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_054/text",
+    "english": "Fullscreen",
+    "polish": "Pełny ekran"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_055/text",
+    "english": "FOV",
+    "polish": "Pole widzenia"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_056/text",
+    "english": "Brightness",
+    "polish": "Jasność"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_057/text",
+    "english": "VSync",
+    "polish": "Synchronizacja pionowa"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_058/text",
+    "english": "Bloom",
+    "polish": "Poświata"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_059/text",
+    "english": "Size",
+    "polish": "Rozmiar"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_060/text",
+    "english": "Music On",
+    "polish": "Muzyka"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_061/text",
+    "english": "Music Volume",
+    "polish": "Głośność muzyki"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_062/text",
+    "english": "Sound Volume",
+    "polish": "Głośność dźwięków"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_063/text",
+    "english": "Skill Panel",
+    "polish": "Panel umiejętności"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_064/text",
+    "english": "Inventory",
+    "polish": "Ekwipunek"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_065/text",
+    "english": "Exit",
+    "polish": "Wyjście"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_066/text",
+    "english": "Character",
+    "polish": "Postać"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_067/text",
+    "english": "Katanas",
+    "polish": "Katany"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_068/text",
+    "english": "Pistols/SMGs",
+    "polish": "Pistolety/PM-y"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_069/text",
+    "english": "Quit Game",
+    "polish": "Zakończ grę"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_070/text",
+    "english": "Reset All",
+    "polish": "Wyczyść wszystko"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_071/text",
+    "english": "Reset Slot",
+    "polish": "Wyczyść slot"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_072/text",
+    "english": "Start Level",
+    "polish": "Rozpocznij poziom"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_073/text",
+    "english": "Chapter 1",
+    "polish": "Rozdział 1"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_074/text",
+    "english": "Chapter 2",
+    "polish": "Rozdział 2"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_075/text",
+    "english": "You have not unlocked any levels on this difficulty.",
+    "polish": "Na tym poziomie trudności nie odblokowałeś jeszcze żadnej mapy."
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_076/text",
+    "english": "Level Select",
+    "polish": "Wybór poziomu"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_077/text",
+    "english": "Shotgun/SSG",
+    "polish": "Strzelba/dubeltówka"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_078/text",
+    "english": "Black Bow",
+    "polish": "Czarny Łuk"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_079/text",
+    "english": "Trap Launcher",
+    "polish": "Miotacz Pułapek"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_080/text",
+    "english": "Inf. Rocket",
+    "polish": "Rakiety Inferno"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_081/text",
+    "english": "Inf. Revolver",
+    "polish": "Rewolwer Inferno"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_082/text",
+    "english": "Inf. Gauntlets",
+    "polish": "Rękawice Inferno"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_083/text",
+    "english": "Hell",
+    "polish": "Piekło"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_084/text",
+    "english": "Enemies can be knocked down with a few shots.",
+    "polish": "Wrogów można powalić kilkoma strzałami."
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_085/text",
+    "english": "Enemies have normal HP and damage.",
+    "polish": "Wrogowie mają zwykłą wytrzymałość i zadają zwykłe obrażenia."
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_086/text",
+    "english": "Enemies have higher HP, deal higher damage and are more agile. There are fewer health packs on this level.",
+    "polish": "Wrogowie mają więcej życia, zadają większe obrażenia i są zwinniejsi. Apteczek jest tu mniej."
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_087/text",
+    "english": "Enemies are more dangerous than on the Hard difficulty and almost no health packs can be found on this level.",
+    "polish": "Wrogowie są groźniejsi niż na poziomie Trudnym, a apteczek prawie tu nie uświadczysz."
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_088/text",
+    "english": "HUD Settings:",
+    "polish": "Interfejs:"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_089/text",
+    "english": "Max HP/Ammo",
+    "polish": "Maks. życie/amunicja"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_090/text",
+    "english": "Ammo Bar",
+    "polish": "Pasek amunicji"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_091/text",
+    "english": "Icons",
+    "polish": "Ikony"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_092/text",
+    "english": "Tips",
+    "polish": "Porady"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_093/text",
+    "english": "Continue",
+    "polish": "Dalej"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_094/text",
+    "english": "Completed!",
+    "polish": "Ukończono!"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_095/text",
+    "english": "Time",
+    "polish": "Czas"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_096/text",
+    "english": "Kills",
+    "polish": "Zabójstwa"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_097/text",
+    "english": "Secrets",
+    "polish": "Sekrety"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_098/text",
+    "english": "Super Secrets",
+    "polish": "Supersekrety"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_099/text",
+    "english": "Resume",
+    "polish": "Wróć do gry"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_100/text",
+    "english": "Reset All The data of Runes/Blood Gems/Weapons' skills",
+    "polish": "Wyczyść wszystkie dane run, Krwawych Klejnotów i umiejętności broni"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_100b/text",
+    "english": "Reset the setting data",
+    "polish": "Wyczyść dane ustawień"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_101/text",
+    "english": "Press 'Space' to continue",
+    "polish": "Naciśnij 'Spację', aby kontynuować"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_102/text",
+    "english": "Warning! It will remove the data in all difficulties, are you sure that you want to reset it?",
+    "polish": "Uwaga! To usunie dane ze wszystkich poziomów trudności. Na pewno chcesz je wyczyścić?"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_102b/text",
+    "english": "Warning! It will remove the settings data file, and the game will restart with the  default settings. Are you sure that you want to remove it?",
+    "polish": "Uwaga! To usunie plik z ustawieniami, a gra wystartuje z ustawieniami domyślnymi. Na pewno chcesz go usunąć?"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_103/text",
+    "english": "Are you sure that you want to delete this save data?",
+    "polish": "Na pewno chcesz skasować ten stan gry?"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_104/text",
+    "english": "Remove All the Savedatas",
+    "polish": "Usuń wszystkie stany gry"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_105/text",
+    "english": "Data Settings",
+    "polish": "Zarządzanie danymi"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_106/text",
+    "english": "Reset completed!",
+    "polish": "Wyczyszczono!"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_106b/text",
+    "english": "Remove completed!",
+    "polish": "Usunięto!"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_107/text",
+    "english": "Delete",
+    "polish": "Usuń"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_108/text",
+    "english": "Press 'Q' to quit the level",
+    "polish": "Naciśnij 'Q', aby opuścić poziom"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_109/text",
+    "english": "Quit Level",
+    "polish": "Opuść poziom"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_110/text",
+    "english": "Nightmare",
+    "polish": "Koszmar"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_111/text",
+    "english": "Mouse Scroll Invert",
+    "polish": "Odwróć rolkę myszy"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_112/text",
+    "english": "Color",
+    "polish": "Kolor"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_113/text",
+    "english": "Transparent",
+    "polish": "Przezroczystość"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_114/text",
+    "english": "Crosshair Settings:",
+    "polish": "Celownik:"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_115/text",
+    "english": "Damage Indicator Settings:",
+    "polish": "Wskaźnik obrażeń:"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_116/text",
+    "english": "Damage Indicator",
+    "polish": "Wskaźnik obrażeń"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_117/text",
+    "english": "Blood Screen",
+    "polish": "Krew na ekranie"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_118/text",
+    "english": "Blood Screen Settings:",
+    "polish": "Krew na ekranie:"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_119/text",
+    "english": "Level Stats",
+    "polish": "Statystyki poziomu"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_121/text",
+    "english": "You will start a New Game+ campaign here, inheriting all previous character data, weapon skills, runes, and blood gems. You will encounter more demons, and all the enemies have higher HP.",
+    "polish": "Rozpoczniesz tu kampanię Nowa Gra+, zachowując cały dotychczasowy dorobek postaci, umiejętności broni, runy i Krwawe Klejnoty. Demonów będzie więcej, a każdy wróg będzie miał więcej życia."
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_122/text",
+    "english": "New Game +",
+    "polish": "Nowa Gra +"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_123/text",
+    "english": "Screen Shake While Shooting",
+    "polish": "Trzęsienie ekranu przy strzale"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_124/text",
+    "english": "Easy+",
+    "polish": "Łatwy+"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_125/text",
+    "english": "Normal+",
+    "polish": "Normalny+"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_126/text",
+    "english": "Hard+",
+    "polish": "Trudny+"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_127/text",
+    "english": "Hell+",
+    "polish": "Piekło+"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_128/text",
+    "english": "Nightmare+",
+    "polish": "Koszmar+"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_129/text",
+    "english": "Chapter 3",
+    "polish": "Rozdział 3"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_130/text",
+    "english": "Chapter 4",
+    "polish": "Rozdział 4"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_131/text",
+    "english": "Chapter 5",
+    "polish": "Rozdział 5"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_132/text",
+    "english": "Chapter 6",
+    "polish": "Rozdział 6"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_133/text",
+    "english": "Hit Marker",
+    "polish": "Znacznik trafienia"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_134/text",
+    "english": "Side Areas",
+    "polish": "Obszary poboczne"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_135/text",
+    "english": "Load Default Game settings",
+    "polish": "Wczytaj domyślne ustawienia gry"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_136/text",
+    "english": "Are you sure that you want to load the default settings?",
+    "polish": "Na pewno chcesz wczytać ustawienia domyślne?"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_137/text",
+    "english": "Reset completed! Please restart the game to ensure that all the default settings are in effect.",
+    "polish": "Przywrócono! Uruchom grę ponownie, aby wszystkie ustawienia domyślne weszły w życie."
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_138/text",
+    "english": "Controller Layout",
+    "polish": "Układ pada"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_139/text",
+    "english": "Shoot",
+    "polish": "Strzał"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_140/text",
+    "english": "Previous Weapon/Weapon Wheel(Hold)",
+    "polish": "Poprzednia broń/koło broni (przytrzymaj)"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_141/text",
+    "english": "Interact",
+    "polish": "Użyj"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_142/text",
+    "english": "Reload/Cancel (Menu)",
+    "polish": "Przeładuj/anuluj (menu)"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_143/text",
+    "english": "Slow Motion Time",
+    "polish": "Spowolniony Czas"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_144/text",
+    "english": "Jump/Accept (Menu)",
+    "polish": "Skok/zatwierdź (menu)"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_145/text",
+    "english": "Look\n\nUp/Down: Scroll (Menu)\n\nLeft/Right: Slider/Select(Settings)",
+    "polish": "Rozglądanie\n\nGóra/dół: przewijanie (menu)\n\nLewo/prawo: suwak/wybór (ustawienia)"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_146/text",
+    "english": "Alternative Weapon",
+    "polish": "Broń alternatywna"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_147/text",
+    "english": "Dash",
+    "polish": "Doskok"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_148/text",
+    "english": "Move/Navigate (Menu)",
+    "polish": "Ruch/nawigacja (menu)"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_149/text",
+    "english": "Left: Previous Weapon Slot\nRight: Next Weapon Slot",
+    "polish": "Lewo: poprzedni slot broni\nPrawo: następny slot broni"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_150/text",
+    "english": "Controller Layout",
+    "polish": "Układ pada"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_151/text",
+    "english": "Menu",
+    "polish": "Menu"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_152/text",
+    "english": "Controller Set.",
+    "polish": "Ustaw. pada"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_153/text",
+    "english": "Look X.Axis Sensitivity",
+    "polish": "Czułość rozglądania w osi X"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_154/text",
+    "english": "Look Y.Axis Sensitivity",
+    "polish": "Czułość rozglądania w osi Y"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_155/text",
+    "english": "Weapon Wheel Size",
+    "polish": "Rozmiar koła broni"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_156/text",
+    "english": "Invert Y",
+    "polish": "Odwróć oś Y"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_157/text",
+    "english": "Crouch",
+    "polish": "Kucnij"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_158/text",
+    "english": "Navigate",
+    "polish": "Nawigacja"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_159/text",
+    "english": "Select/Show Info",
+    "polish": "Wybierz/pokaż opis"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_160/text",
+    "english": "Activate Slot/Activate Rune",
+    "polish": "Aktywuj slot/aktywuj runę"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_161/text",
+    "english": "Slide L-R/Select L-R",
+    "polish": "Suwak lewo-prawo/wybór lewo-prawo"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_162/text",
+    "english": "Cancel",
+    "polish": "Anuluj"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_163/text",
+    "english": "Toggle/Accept",
+    "polish": "Przełącz/zatwierdź"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_164/text",
+    "english": "Scroll",
+    "polish": "Przewijanie"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_165/text",
+    "english": "Look Sensitivity",
+    "polish": "Czułość rozglądania"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_166/text",
+    "english": "Scroll Sensitivity",
+    "polish": "Czułość przewijania"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_167/text",
+    "english": "Select Slot",
+    "polish": "Wybierz slot"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_168/text",
+    "english": "Alternative Weapon",
+    "polish": "Broń alternatywna"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_169/text",
+    "english": "Turn around",
+    "polish": "Obrót o 180 stopni"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_170/text",
+    "english": "Crouch/Cancel (Menu)",
+    "polish": "Kucnij/anuluj (menu)"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_171/text",
+    "english": "Layout 1",
+    "polish": "Układ 1"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_172/text",
+    "english": "Layout 2",
+    "polish": "Układ 2"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_173/text",
+    "english": "Previous Weapon(On)/Previous Weapon Type(Off)",
+    "polish": "Poprzednia broń (wł.)/poprzedni rodzaj broni (wył.)"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_174/text",
+    "english": "Mouse Cursor On",
+    "polish": "Kursor myszy"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_175/text",
+    "english": "Previous Weapon modes",
+    "polish": "Poprzednie tryby broni"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_176/text",
+    "english": "Weapon Type",
+    "polish": "Rodzaj broni"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_177/text",
+    "english": "Weapon Category Only",
+    "polish": "Tylko kategoria broni"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_178/text",
+    "english": "Filter",
+    "polish": "Filtr"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_180/text",
+    "english": "Pixelate On",
+    "polish": "Pikseloza"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_181/text",
+    "english": "Pixelate Scale",
+    "polish": "Skala pikselozy"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_182/text",
+    "english": "No Filter",
+    "polish": "Bez filtra"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_183/text",
+    "english": "Green Boy",
+    "polish": "Zielony Chłopiec"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_184/text",
+    "english": "Brown's good",
+    "polish": "Brąz jest git"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_185/text",
+    "english": "Sin",
+    "polish": "Grzech"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_186/text",
+    "english": "Psychedelic",
+    "polish": "Psychodela"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_187/text",
+    "english": "Old TV",
+    "polish": "Stary telewizor"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_188/text",
+    "english": "Press 'E' to start",
+    "polish": "Naciśnij 'E', aby zacząć"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_189/text",
+    "english": "Restore Crystal Durability",
+    "polish": "Napraw Kryształ"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_190/text",
+    "english": "Recover HP",
+    "polish": "Odzyskaj życie"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_191/text",
+    "english": "Summon a Defender",
+    "polish": "Przyzwij obrońcę"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_192/text",
+    "english": "Damage Up",
+    "polish": "Większe obrażenia"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_193/text",
+    "english": "Next Wave: ",
+    "polish": "Następna fala: "
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_194/text",
+    "english": "Wave ",
+    "polish": "Fala "
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_195/text",
+    "english": "Completed!",
+    "polish": "Ukończono!"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_196/text",
+    "english": "Press 'E' to start the next wave.",
+    "polish": "Naciśnij 'E', aby rozpocząć następną falę."
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_197/text",
+    "english": "Crystal Durability + ",
+    "polish": "Wytrzymałość Kryształu + "
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_198/text",
+    "english": "Player HP + ",
+    "polish": "Życie gracza + "
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_199/text",
+    "english": "Score + ",
+    "polish": "Wynik + "
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_200/text",
+    "english": "Total Score",
+    "polish": "Wynik łączny"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_201/text",
+    "english": "Spending",
+    "polish": "Wydatki"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_202/text",
+    "english": "Kills",
+    "polish": "Zabójstwa"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_203/text",
+    "english": "Wave",
+    "polish": "Fala"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_204/text",
+    "english": "Difficulty",
+    "polish": "Poziom trudności"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_205/text",
+    "english": "Guardian Mode",
+    "polish": "Tryb Strażnika"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_206/text",
+    "english": "Press 'Esc' to leave Guardian mode.",
+    "polish": "Naciśnij 'Esc', aby opuścić Tryb Strażnika."
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_207/text",
+    "english": "Start",
+    "polish": "Start"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_208/name",
+    "english": "---------------",
+    "polish": "---------------"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_208/text",
+    "english": "Dot Crosshair",
+    "polish": "Celownik punktowy"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_209/text",
+    "english": "M1",
+    "polish": "M1"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_210/text",
+    "english": "M2",
+    "polish": "M2"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_211/text",
+    "english": "M3",
+    "polish": "M3"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_212/text",
+    "english": "Quit",
+    "polish": "Wyjdź"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_213/text",
+    "english": "Credits",
+    "polish": "Twórcy"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_214/text",
+    "english": "Game Designer, Art Director, 3D Art & Animator, Level Design, \nProgrammer, UI Design, Graphic Design",
+    "polish": "Projekt gry, kierownictwo artystyczne, grafika 3D i animacja, projekt poziomów, \nprogramowanie, projekt interfejsu, grafika"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_215/text",
+    "english": "Language",
+    "polish": "Język"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_216/text",
+    "english": "--------------",
+    "polish": "--------------"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_217/text",
+    "english": "--------------",
+    "polish": "--------------"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_218/text",
+    "english": "Yes",
+    "polish": "Tak"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_219/text",
+    "english": "No",
+    "polish": "Nie"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_220/text",
+    "english": "Composer\nVoice Actor\nSound Effects\nCover Art\nCutscene Art",
+    "polish": "Muzyka\nGłos\nEfekty dźwiękowe\nOkładka\nGrafika przerywników"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_221/text",
+    "english": "Composer",
+    "polish": "Muzyka"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_222/text",
+    "english": "Voice Actor",
+    "polish": "Głos"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_223/text",
+    "english": "Sound Effects by",
+    "polish": "Efekty dźwiękowe"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_224/text",
+    "english": "Cover Art by",
+    "polish": "Okładka"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_225/text",
+    "english": "Cutscene Art by",
+    "polish": "Grafika przerywników"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_226/text",
+    "english": "Special Thanks",
+    "polish": "Podziękowania"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_227/text",
+    "english": "* To ensure that the new language is correctly installed, \nplease restart the game.",
+    "polish": "* Aby nowy język wczytał się poprawnie, \nuruchom grę ponownie."
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_229/text",
+    "english": "Blood Gems",
+    "polish": "Krwawe Klejnoty"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_230/text",
+    "english": "Golden Runes",
+    "polish": "Złote Runy"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_231/text",
+    "english": "Silver Runes",
+    "polish": "Srebrne Runy"
+  },
+  {
+    "namespace": "menu",
+    "key": "mnt_232/text",
+    "english": "-",
+    "polish": "-"
+  },
+  {
+    "namespace": "menu",
+    "key": "9859/text",
+    "english": "Weapon Category Only",
+    "polish": "Tylko kategoria broni"
+  },
+  {
+    "namespace": "menu",
+    "key": "9489/text",
+    "english": "Weapon Category Only",
+    "polish": "Tylko kategoria broni"
+  },
+  {
+    "namespace": "menu",
+    "key": "E1M5Boss/text",
+    "english": "Spider Queen",
+    "polish": "Pajęcza Królowa"
+  },
+  {
+    "namespace": "menu",
+    "key": "E2M4Boss/text",
+    "english": "Gomuramu's Heart",
+    "polish": "Serce Gomuramu"
+  },
+  {
+    "namespace": "menu",
+    "key": "E2M5Boss/text",
+    "english": "Hell Knight",
+    "polish": "Piekielny Rycerz"
+  },
+  {
+    "namespace": "menu",
+    "key": "E3M2Boss/text",
+    "english": "Djookholu",
+    "polish": "Djookholu"
+  },
+  {
+    "namespace": "menu",
+    "key": "E3M5Boss/text",
+    "english": "The Curator",
+    "polish": "Kurator"
+  },
+  {
+    "namespace": "menu",
+    "key": "E4M6Boss/text",
+    "english": "Annorbysis",
+    "polish": "Annorbysis"
+  },
+  {
+    "namespace": "menu",
+    "key": "E5M4Boss/text",
+    "english": "Beelsebur II",
+    "polish": "Beelsebur II"
+  },
+  {
+    "namespace": "menu",
+    "key": "E5MXBoss/text",
+    "english": "That Thing",
+    "polish": "To Coś"
+  },
+  {
+    "namespace": "menu",
+    "key": "E1M1Boss/text",
+    "english": "Necromancer",
+    "polish": "Nekromanta"
+  },
+  {
+    "namespace": "menu",
+    "key": "???/text",
+    "english": "???",
+    "polish": "???"
+  },
+  {
+    "namespace": "menu",
+    "key": "E1M1/name",
+    "english": "The Beginning",
+    "polish": "Początek"
+  },
+  {
+    "namespace": "menu",
+    "key": "E1M2/name",
+    "english": "The Prison - Part 1",
+    "polish": "Więzienie — część 1"
+  },
+  {
+    "namespace": "menu",
+    "key": "E1M3/name",
+    "english": "The Prison - Part 2",
+    "polish": "Więzienie — część 2"
+  },
+  {
+    "namespace": "menu",
+    "key": "E1M4/name",
+    "english": "Back Below the Surface",
+    "polish": "Znowu pod ziemię"
+  },
+  {
+    "namespace": "menu",
+    "key": "E1M5/name",
+    "english": "The Lair",
+    "polish": "Legowisko"
+  },
+  {
+    "namespace": "menu",
+    "key": "E2M1/name",
+    "english": "Dark Tomb",
+    "polish": "Mroczny grobowiec"
+  },
+  {
+    "namespace": "menu",
+    "key": "E2M2/name",
+    "english": "The Bad Feeling",
+    "polish": "Złe przeczucie"
+  },
+  {
+    "namespace": "menu",
+    "key": "E2M3/name",
+    "english": "The Entrance",
+    "polish": "Wejście"
+  },
+  {
+    "namespace": "menu",
+    "key": "E2M4/name",
+    "english": "Soul Melting Factory",
+    "polish": "Fabryka przetopu dusz"
+  },
+  {
+    "namespace": "menu",
+    "key": "E2M5/name",
+    "english": "You Again",
+    "polish": "Znowu ty"
+  },
+  {
+    "namespace": "menu",
+    "key": "E3M1/name",
+    "english": "Dead Sails",
+    "polish": "Martwe żagle"
+  },
+  {
+    "namespace": "menu",
+    "key": "E3M2/name",
+    "english": "Stranger",
+    "polish": "Obcy"
+  },
+  {
+    "namespace": "menu",
+    "key": "E3M3/name",
+    "english": "World's Edge",
+    "polish": "Skraj świata"
+  },
+  {
+    "namespace": "menu",
+    "key": "E3M4/name",
+    "english": "Distorted Time",
+    "polish": "Wykrzywiony czas"
+  },
+  {
+    "namespace": "menu",
+    "key": "E3M5/name",
+    "english": "The Manipulator",
+    "polish": "Manipulator"
+  },
+  {
+    "namespace": "menu",
+    "key": "E4M1/name",
+    "english": "Sand of Time",
+    "polish": "Piasek czasu"
+  },
+  {
+    "namespace": "menu",
+    "key": "E4M2/name",
+    "english": "Death Palace",
+    "polish": "Pałac śmierci"
+  },
+  {
+    "namespace": "menu",
+    "key": "E4M3/name",
+    "english": "Quarry",
+    "polish": "Kamieniołom"
+  },
+  {
+    "namespace": "menu",
+    "key": "E4M4/name",
+    "english": "Ominous Silence",
+    "polish": "Złowroga cisza"
+  },
+  {
+    "namespace": "menu",
+    "key": "E4M5/name",
+    "english": "Real or Fake",
+    "polish": "Prawda czy fałsz"
+  },
+  {
+    "namespace": "menu",
+    "key": "E4M6/name",
+    "english": "Fallen God",
+    "polish": "Upadły bóg"
+  },
+  {
+    "namespace": "menu",
+    "key": "E5M1/name",
+    "english": "Burning Town",
+    "polish": "Płonące miasteczko"
+  },
+  {
+    "namespace": "menu",
+    "key": "E5M2/name",
+    "english": "Wriggling Evil",
+    "polish": "Pełzające zło"
+  },
+  {
+    "namespace": "menu",
+    "key": "E5M3/name",
+    "english": "That Night",
+    "polish": "Tamta noc"
+  },
+  {
+    "namespace": "menu",
+    "key": "E5M4/name",
+    "english": "The End",
+    "polish": "Koniec"
+  },
+  {
+    "namespace": "menu",
+    "key": "E5MX/name",
+    "english": "After The End",
+    "polish": "Po końcu"
+  },
+  {
+    "namespace": "menu",
+    "key": "E1??/name",
+    "english": "???",
+    "polish": "???"
+  },
+  {
+    "namespace": "menu",
+    "key": "E2??/name",
+    "english": "???",
+    "polish": "???"
+  },
+  {
+    "namespace": "menu",
+    "key": "E3MX/name",
+    "english": "The Bells",
+    "polish": "Dzwony"
+  },
+  {
+    "namespace": "menu",
+    "key": "E4??/name",
+    "english": "???",
+    "polish": "???"
+  },
+  {
+    "namespace": "menu",
+    "key": "E5??/name",
+    "english": "???",
+    "polish": "???"
+  },
+  {
+    "namespace": "menu",
+    "key": "Weapon11/name",
+    "english": "???",
+    "polish": "???"
+  },
+  {
+    "namespace": "menu",
+    "key": "Weapon11/text",
+    "english": "Dual Katanas",
+    "polish": "Podwójne Katany"
+  },
+  {
+    "namespace": "menu",
+    "key": "Weapon21/name",
+    "english": "???",
+    "polish": "???"
+  },
+  {
+    "namespace": "menu",
+    "key": "Weapon21/text",
+    "english": "Dual Pistols",
+    "polish": "Podwójne Pistolety"
+  },
+  {
+    "namespace": "menu",
+    "key": "Weapon22/name",
+    "english": "???",
+    "polish": "???"
+  },
+  {
+    "namespace": "menu",
+    "key": "Weapon22/text",
+    "english": "Dual SMGs",
+    "polish": "Podwójne PM-y"
+  },
+  {
+    "namespace": "menu",
+    "key": "Weapon31/name",
+    "english": "???",
+    "polish": "???"
+  },
+  {
+    "namespace": "menu",
+    "key": "Weapon31/text",
+    "english": "Pump Shotgun",
+    "polish": "Strzelba Pompka"
+  },
+  {
+    "namespace": "menu",
+    "key": "Weapon32/name",
+    "english": "???",
+    "polish": "???"
+  },
+  {
+    "namespace": "menu",
+    "key": "Weapon32/text",
+    "english": "Double-Barrel Shotgun",
+    "polish": "Dubeltówka"
+  },
+  {
+    "namespace": "menu",
+    "key": "Weapon41/name",
+    "english": "???",
+    "polish": "???"
+  },
+  {
+    "namespace": "menu",
+    "key": "Weapon41/text",
+    "english": "Black Bow",
+    "polish": "Czarny Łuk"
+  },
+  {
+    "namespace": "menu",
+    "key": "Weapon51/name",
+    "english": "???",
+    "polish": "???"
+  },
+  {
+    "namespace": "menu",
+    "key": "Weapon51/text",
+    "english": "Trap Launcher",
+    "polish": "Miotacz Pułapek"
+  },
+  {
+    "namespace": "menu",
+    "key": "Weapon61/name",
+    "english": "???",
+    "polish": "???"
+  },
+  {
+    "namespace": "menu",
+    "key": "Weapon61/text",
+    "english": "Inferno Rocket Launcher",
+    "polish": "Wyrzutnia Rakiet Inferno"
+  },
+  {
+    "namespace": "menu",
+    "key": "Weapon62/name",
+    "english": "???",
+    "polish": "???"
+  },
+  {
+    "namespace": "menu",
+    "key": "Weapon62/text",
+    "english": "Inferno Tri-Rocket Launcher",
+    "polish": "Potrójna Wyrzutnia Rakiet Inferno"
+  },
+  {
+    "namespace": "menu",
+    "key": "Weapon71/name",
+    "english": "???",
+    "polish": "???"
+  },
+  {
+    "namespace": "menu",
+    "key": "Weapon71/text",
+    "english": "Inferno Revolver",
+    "polish": "Rewolwer Inferno"
+  },
+  {
+    "namespace": "menu",
+    "key": "Weapon81/name",
+    "english": "???",
+    "polish": "???"
+  },
+  {
+    "namespace": "menu",
+    "key": "Weapon81/text",
+    "english": "Inferno Gauntlets R",
+    "polish": "Rękawice Inferno P"
+  },
+  {
+    "namespace": "menu",
+    "key": "Weapon82/name",
+    "english": "???",
+    "polish": "???"
+  },
+  {
+    "namespace": "menu",
+    "key": "Weapon82/text",
+    "english": "Inferno Gauntlets L",
+    "polish": "Rękawice Inferno L"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Cha_N_DasCD_Red/name",
+    "english": "Templar Rush",
+    "polish": "Pęd Templariusza"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Cha_N_DasCD_Red/text",
+    "english": "Reduces the cooldown of a dash. (Level 1)",
+    "polish": "Skraca czas odnowienia doskoku. (Poziom 1)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Cha_N_MaxHea_Up1/name",
+    "english": "Templar Toughness",
+    "polish": "Hart Templariusza"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Cha_N_MaxHea_Up1/text",
+    "english": "Increases the maximum health. (Level 1)",
+    "polish": "Zwiększa maksymalne zdrowie. (Poziom 1)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Cha_N_MaxHea_Up2/name",
+    "english": "Templar Toughness II",
+    "polish": "Hart Templariusza II"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Cha_N_MaxHea_Up2/text",
+    "english": "Increases the maximum health. (Level 2)",
+    "polish": "Zwiększa maksymalne zdrowie. (Poziom 2)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Cha_N_MaxHea_Up3/name",
+    "english": "Templar Toughness III",
+    "polish": "Hart Templariusza III"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Cha_N_MaxHea_Up3/text",
+    "english": "Increases the maximum health. (Level 3)",
+    "polish": "Zwiększa maksymalne zdrowie. (Poziom 3)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Cha_N_MaxHea_Up4/name",
+    "english": "Templar Toughness IV",
+    "polish": "Hart Templariusza IV"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Cha_N_MaxHea_Up4/text",
+    "english": "Increases the maximum health. (Level 4).",
+    "polish": "Zwiększa maksymalne zdrowie. (Poziom 4)."
+  },
+  {
+    "namespace": "emblem",
+    "key": "Cha_N_MaxArm_Up1/name",
+    "english": "Templar Shield",
+    "polish": "Tarcza Templariusza"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Cha_N_MaxArm_Up1/text",
+    "english": "Increases the maximum armor. (Level 1)",
+    "polish": "Zwiększa maksymalny pancerz. (Poziom 1)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Cha_N_MaxArm_Up2/name",
+    "english": "Templar Shield II",
+    "polish": "Tarcza Templariusza II"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Cha_N_MaxArm_Up2/text",
+    "english": "Increases the maximum armor. (Level 2)",
+    "polish": "Zwiększa maksymalny pancerz. (Poziom 2)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Cha_N_MaxArm_Up3/name",
+    "english": "Templar Shield III",
+    "polish": "Tarcza Templariusza III"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Cha_N_MaxArm_Up3/text",
+    "english": "Increases the maximum armor. (Level 3)",
+    "polish": "Zwiększa maksymalny pancerz. (Poziom 3)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Cha_N_BulTim_Up/name",
+    "english": "Templar Hourglass",
+    "polish": "Klepsydra Templariusza"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Cha_N_BulTim_Up/text",
+    "english": "Increases the duration of Slow Motion Time. (Level 1)",
+    "polish": "Wydłuża działanie Spowolnionego Czasu. (Poziom 1)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Cha_N_BulTim_Up2/name",
+    "english": "Templar Hourglass II",
+    "polish": "Klepsydra Templariusza II"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Cha_N_BulTim_Up2/text",
+    "english": "Increases the duration of Slow Motion Time. (Level 2)",
+    "polish": "Wydłuża działanie Spowolnionego Czasu. (Poziom 2)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Cha_N_DasCD_Red2/name",
+    "english": "Templar Rush II",
+    "polish": "Pęd Templariusza II"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Cha_N_DasCD_Red2/text",
+    "english": "Reduces the cooldown of a dash. (Level 2)",
+    "polish": "Skraca czas odnowienia doskoku. (Poziom 2)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Cha_N_DasCD_Red3/name",
+    "english": "Templar Rush III",
+    "polish": "Pęd Templariusza III"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Cha_N_DasCD_Red3/text",
+    "english": "Reduces the cooldown of a dash. (Level 3)",
+    "polish": "Skraca czas odnowienia doskoku. (Poziom 3)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Cha_S_BulTim_Up/name",
+    "english": "Peace of Mind",
+    "polish": "Spokój Ducha"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Cha_S_BulTim_Up/text",
+    "english": "Increases the amount of Slow Motion Time Energy gained by killing enemies.",
+    "polish": "Zwiększa ilość Energii Spowolnionego Czasu zdobywanej za zabijanie wrogów."
+  },
+  {
+    "namespace": "emblem",
+    "key": "Cha_S_Ber/name",
+    "english": "Berserker",
+    "polish": "Berserker"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Cha_S_Ber/text",
+    "english": "When close to death, all damage is greatly increased.",
+    "polish": "Gdy jesteś o krok od śmierci, wszystkie twoje obrażenia mocno rosną."
+  },
+  {
+    "namespace": "emblem",
+    "key": "Cha_S_IroBon/name",
+    "english": "Steel Bone",
+    "polish": "Stalowa Kość"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Cha_S_IroBon/text",
+    "english": "Slightly reduces the amount of damage you take each time.",
+    "polish": "Nieznacznie zmniejsza obrażenia otrzymywane przy każdym trafieniu."
+  },
+  {
+    "namespace": "emblem",
+    "key": "Cha_S_GooLuc/name",
+    "english": "Four-leaf Clover",
+    "polish": "Czterolistna Koniczyna"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Cha_S_GooLuc/text",
+    "english": "It is said that a four-leaf clover brings luck to people.",
+    "polish": "Podobno czterolistna koniczyna przynosi ludziom szczęście."
+  },
+  {
+    "namespace": "emblem",
+    "key": "Cha_S_InvSlo/name",
+    "english": "Rapid",
+    "polish": "Chyżość"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Cha_S_InvSlo/text",
+    "english": "Slightly increases the movement speed and you are no longer affected by the slowing effect.",
+    "polish": "Nieznacznie zwiększa szybkość ruchu, a spowolnienia przestają cię dotyczyć."
+  },
+  {
+    "namespace": "emblem",
+    "key": "Cha_S_DasGod/name",
+    "english": "Shadow",
+    "polish": "Cień"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Cha_S_DasGod/text",
+    "english": "The moment you activate dash you will be immune to any damage.",
+    "polish": "W chwili uruchomienia doskoku jesteś odporny na wszelkie obrażenia."
+  },
+  {
+    "namespace": "emblem",
+    "key": "iddadfsdfdd2/name",
+    "english": "====",
+    "polish": "===="
+  },
+  {
+    "namespace": "emblem",
+    "key": "iddadfsdfdd2/text",
+    "english": "============",
+    "polish": "============"
+  },
+  {
+    "namespace": "emblem",
+    "key": "iddssdfdd3/name",
+    "english": "====",
+    "polish": "===="
+  },
+  {
+    "namespace": "emblem",
+    "key": "iddssdfdd3/text",
+    "english": "============",
+    "polish": "============"
+  },
+  {
+    "namespace": "emblem",
+    "key": "iddsd4d/name",
+    "english": "====",
+    "polish": "===="
+  },
+  {
+    "namespace": "emblem",
+    "key": "iddsd4d/text",
+    "english": "============",
+    "polish": "============"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Kat_N_CD_Down/name",
+    "english": "Katana Focus",
+    "polish": "Skupienie Katany"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Kat_N_CD_Down/text",
+    "english": "Reduces the cooldown of throwing Katanas. (Level 1)",
+    "polish": "Skraca czas odnowienia rzutu katanami. (Poziom 1)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Kat_N_CD_Down2/name",
+    "english": "Katana Focus II",
+    "polish": "Skupienie Katany II"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Kat_N_CD_Down2/text",
+    "english": "Reduces the cooldown of throwing Katanas. (Level 2)",
+    "polish": "Skraca czas odnowienia rzutu katanami. (Poziom 2)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Kat_N_CD_Down3/name",
+    "english": "Katana Focus II",
+    "polish": "Skupienie Katany II"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Kat_N_CD_Down3/text",
+    "english": "Reduces the cooldown of throwing Katanas. (Level 3)",
+    "polish": "Skraca czas odnowienia rzutu katanami. (Poziom 3)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Kat_N_Dam_Up/name",
+    "english": "Katana Slaughter",
+    "polish": "Rzeź Katanami"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Kat_N_Dam_Up/text",
+    "english": "Increases Dual Katanas throwing damage. (Level 1)",
+    "polish": "Zwiększa obrażenia od rzutu Podwójnymi Katanami. (Poziom 1)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Kat_N_Dam_Up2/name",
+    "english": "Katana Slaughter II",
+    "polish": "Rzeź Katanami II"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Kat_N_Dam_Up2/text",
+    "english": "Increases Dual Katanas throwing damage. (Level 2)",
+    "polish": "Zwiększa obrażenia od rzutu Podwójnymi Katanami. (Poziom 2)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Kat_N_Dam_Up3/name",
+    "english": "Katana Slaughter II",
+    "polish": "Rzeź Katanami II"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Kat_N_Dam_Up3/text",
+    "english": "Increases Dual Katanas throwing damage. (Level 3)",
+    "polish": "Zwiększa obrażenia od rzutu Podwójnymi Katanami. (Poziom 3)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Kat_N_SwiDam_Up/name",
+    "english": "Katana Mutilate",
+    "polish": "Okaleczenie Kataną"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Kat_N_SwiDam_Up/text",
+    "english": "Increases Dual Katanas swing damage. (Level 1)",
+    "polish": "Zwiększa obrażenia od cięcia Podwójnymi Katanami. (Poziom 1)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Kat_N_SwiDam_Up2/name",
+    "english": "Katana Mutilate II",
+    "polish": "Okaleczenie Kataną II"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Kat_N_SwiDam_Up2/text",
+    "english": "Increases Dual Katanas swing damage. (Level 2)",
+    "polish": "Zwiększa obrażenia od cięcia Podwójnymi Katanami. (Poziom 2)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Kat_N_SwiDam_Up3/name",
+    "english": "Katana Mutilate II",
+    "polish": "Okaleczenie Kataną II"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Kat_N_SwiDam_Up3/text",
+    "english": "Increases Dual Katanas swing damage. (Level 3)",
+    "polish": "Zwiększa obrażenia od cięcia Podwójnymi Katanami. (Poziom 3)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Kat_S_Swi_Pro/name",
+    "english": "SP",
+    "polish": "SP"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Kat_S_Swi_Pro/text",
+    "english": "SP",
+    "polish": "SP"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Kat_S_ThuKil_Nova/name",
+    "english": "Lightning Spear",
+    "polish": "Włócznia Błyskawic"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Kat_S_ThuKil_Nova/text",
+    "english": "Increases extra lightning damage. After the target is killed by the lightning spear, it will cause a small lightning explosion, causing lightning damage to nearby enemies and shocking them. (Only in the throwing mode).",
+    "polish": "Dodaje obrażenia od błyskawic. Gdy cel zginie od włóczni błyskawic, nastąpi mała eksplozja elektryczna, raniąca i porażająca pobliskich wrogów. (Tylko w trybie miotanym)."
+  },
+  {
+    "namespace": "emblem",
+    "key": "Kat_S_Blo_Heal/name",
+    "english": "Bloodthirsty",
+    "polish": "Żądza Krwi"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Kat_S_Blo_Heal/text",
+    "english": "When killing enemies with the Dual Katanas, you can recharge the Inferno Gauntlets. (Only in the melee mode).",
+    "polish": "Zabijanie wrogów Podwójnymi Katanami ładuje Rękawice Inferno. (Tylko w trybie białej broni)."
+  },
+  {
+    "namespace": "emblem",
+    "key": "Kat_S_DasStr_Thunder/name",
+    "english": "Lightning Strike",
+    "polish": "Uderzenie Pioruna"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Kat_S_DasStr_Thunder/text",
+    "english": "Stabbed while sprinting, causing damage and shocking all enemies passing by. (Only in the melee mode).",
+    "polish": "Pchnięcie w trakcie doskoku, raniące i porażające wszystkich mijanych wrogów. (Tylko w trybie białej broni)."
+  },
+  {
+    "namespace": "emblem",
+    "key": "Kat_S_ThrBac_Random/name",
+    "english": "Recall",
+    "polish": "Przywołanie"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Kat_S_ThrBac_Random/text",
+    "english": "After killing a demon by throwing the Dual Katanas, the cooldown of the Dual Katanas has a certain chance to finish immediately. (Only in the throwing mode).",
+    "polish": "Po zabiciu demona rzutem Podwójnymi Katanami jest szansa, że czas odnowienia katan skończy się natychmiast. (Tylko w trybie miotanym)."
+  },
+  {
+    "namespace": "emblem",
+    "key": "Kat_S_NinMas/name",
+    "english": "Ninja Master Katana",
+    "polish": "Katana Mistrza Ninja"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Kat_S_NinMas/text",
+    "english": "Ninja Master Katana",
+    "polish": "Katana Mistrza Ninja"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Kat_S_KatShe/name",
+    "english": "Melee Body",
+    "polish": "Ciało do Walki Wręcz"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Kat_S_KatShe/text",
+    "english": "When you are holding dual katanas, greatly reduce any damage you take.",
+    "polish": "Gdy trzymasz podwójne katany, obrażenia, które otrzymujesz, mocno maleją."
+  },
+  {
+    "namespace": "emblem",
+    "key": "Kat_S_EasKil/name",
+    "english": "Weakness",
+    "polish": "Słabość"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Kat_S_EasKil/text",
+    "english": "Enemies hit by your throwing katanas are cursed and their life is reduced for a short time.",
+    "polish": "Wrogowie trafieni rzuconymi katanami zostają przeklęci i na krótko tracą część życia."
+  },
+  {
+    "namespace": "emblem",
+    "key": "Pis_N_Dam_Up/name",
+    "english": "Pistol Slaughter",
+    "polish": "Rzeź Pistoletem"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Pis_N_Dam_Up/text",
+    "english": "Increases Pistol and SMG damage. (Level 1)",
+    "polish": "Zwiększa obrażenia pistoletów i PM-ów. (Poziom 1)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Pis_N_Dam_Up2/name",
+    "english": "Pistol Slaughter II",
+    "polish": "Rzeź Pistoletem II"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Pis_N_Dam_Up2/text",
+    "english": "Increases Pistol and SMG damage. (Level 2)",
+    "polish": "Zwiększa obrażenia pistoletów i PM-ów. (Poziom 2)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Pis_N_Dam_Up3/name",
+    "english": "Pistol Slaughter III",
+    "polish": "Rzeź Pistoletem III"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Pis_N_Dam_Up3/text",
+    "english": "Increases Pistol and SMG damage. (Level 3)",
+    "polish": "Zwiększa obrażenia pistoletów i PM-ów. (Poziom 3)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Pis_N_Mag_Up/name",
+    "english": "Pistol Expansion",
+    "polish": "Zasobnik Pistoletowy"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Pis_N_Mag_Up/text",
+    "english": "Increases the maximum amount of Pistol and SMG ammo carried. (Level 1)",
+    "polish": "Zwiększa maksymalny zapas amunicji do pistoletów i PM-ów. (Poziom 1)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Pis_N_Mag_Up2/name",
+    "english": "Pistol Expansion II",
+    "polish": "Zasobnik Pistoletowy II"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Pis_N_Mag_Up2/text",
+    "english": "Increases the maximum amount of Pistol and SMG ammo carried. (Level 2)",
+    "polish": "Zwiększa maksymalny zapas amunicji do pistoletów i PM-ów. (Poziom 2)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Pis_N_Mag_Up3/name",
+    "english": "Pistol Expansion III",
+    "polish": "Zasobnik Pistoletowy III"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Pis_N_Mag_Up3/text",
+    "english": "Increases the maximum amount of Pistol and SMG ammo carried. (Level 3)",
+    "polish": "Zwiększa maksymalny zapas amunicji do pistoletów i PM-ów. (Poziom 3)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Pis_N_Rat_Red/name",
+    "english": "Pistol Rush",
+    "polish": "Pęd Pistoletu"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Pis_N_Rat_Red/text",
+    "english": "Increases the Pistol and SMG fire rate. (Level 1)",
+    "polish": "Zwiększa szybkostrzelność pistoletów i PM-ów. (Poziom 1)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Pis_N_Rat_Red2/name",
+    "english": "Pistol Rush II",
+    "polish": "Pęd Pistoletu II"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Pis_N_Rat_Red2/text",
+    "english": "Increases the Pistol and SMG fire rate. (Level 2)",
+    "polish": "Zwiększa szybkostrzelność pistoletów i PM-ów. (Poziom 2)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Pis_N_Rat_Red3/name",
+    "english": "Pistol Rush III",
+    "polish": "Pęd Pistoletu III"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Pis_N_Rat_Red3/text",
+    "english": "Increases the Pistol and SMG fire rate. (Level 3)",
+    "polish": "Zwiększa szybkostrzelność pistoletów i PM-ów. (Poziom 3)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Pis_S_CanRel/name",
+    "english": "Bullet Storm",
+    "polish": "Burza Ołowiu"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Pis_S_CanRel/text",
+    "english": "Cancel the reloading of the Pistol and SMG.",
+    "polish": "Anuluje przeładowanie pistoletów i PM-ów."
+  },
+  {
+    "namespace": "emblem",
+    "key": "Pis_S_SloKil/name",
+    "english": "Neo",
+    "polish": "Neo"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Pis_S_SloKil/text",
+    "english": "During Slow Motion Time, the damage of the Pistol is massively enhanced and does not cost ammunition. (Only on the Pistol).",
+    "polish": "W Spowolnionym Czasie obrażenia pistoletu rosną gigantycznie i nie kosztują amunicji. (Tylko pistolet)."
+  },
+  {
+    "namespace": "emblem",
+    "key": "Pis_S_ShoPro/name",
+    "english": "Hellscream",
+    "polish": "Piekielny Wrzask"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Pis_S_ShoPro/text",
+    "english": "The Dual Pistols are transformed into Dual Hellscreams, they fire powerful fire projectiles that can pass through the enemy.",
+    "polish": "Podwójne Pistolety zmieniają się w Podwójne Piekielne Wrzaski, miotające potężnymi ognistymi pociskami, które przechodzą na wylot przez wroga."
+  },
+  {
+    "namespace": "emblem",
+    "key": "Pis_S_BulBul/name",
+    "english": "Ammunition Depot",
+    "polish": "Skład Amunicji"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Pis_S_BulBul/text",
+    "english": "Increases the maximum amount of Pistol and SMG ammo carried by 200.",
+    "polish": "Zwiększa maksymalny zapas amunicji do pistoletów i PM-ów o 200."
+  },
+  {
+    "namespace": "emblem",
+    "key": "Pis_S_M10Inf/name",
+    "english": "Hurricane",
+    "polish": "Huragan"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Pis_S_M10Inf/text",
+    "english": "The Dual SMGs are transformed into their Inferno mode, with the high shooting rate and extra ammunition capacity, the Hurricane can inflict significant damage on the enemy in a short period of time.",
+    "polish": "Podwójne PM-y przechodzą w tryb Inferno — z ogromną szybkostrzelnością i większym zapasem amunicji Huragan potrafi w krótkiej chwili zadać wrogowi potworne obrażenia."
+  },
+  {
+    "namespace": "emblem",
+    "key": "Pis_S_BubGun/name",
+    "english": "Bubble Gun",
+    "polish": "Bańkowiec"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Pis_S_BubGun/text",
+    "english": "Launch deadly bubbles at the enemy!",
+    "polish": "Miotaj we wroga zabójczymi bańkami!"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Sho_N_Dam_Up/name",
+    "english": "Shotgun Slaughter",
+    "polish": "Rzeź Strzelbą"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Sho_N_Dam_Up/text",
+    "english": "Increases Shotgun damage. (Level 1)",
+    "polish": "Zwiększa obrażenia strzelby. (Poziom 1)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Sho_N_Dam_Up2/name",
+    "english": "Shotgun Slaughter II",
+    "polish": "Rzeź Strzelbą II"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Sho_N_Dam_Up2/text",
+    "english": "Increases Shotgun damage. (Level 2)",
+    "polish": "Zwiększa obrażenia strzelby. (Poziom 2)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Sho_N_Dam_Up3/name",
+    "english": "Shotgun Slaughter III",
+    "polish": "Rzeź Strzelbą III"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Sho_N_Dam_Up3/text",
+    "english": "Increases Shotgun damage. (Level 3)",
+    "polish": "Zwiększa obrażenia strzelby. (Poziom 3)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Sho_N_Mag_Up/name",
+    "english": "Shotgun Expansion",
+    "polish": "Zasobnik Strzelbowy"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Sho_N_Mag_Up/text",
+    "english": "Increases the maximum amount of Shotgun ammo carried. (Level 1)",
+    "polish": "Zwiększa maksymalny zapas amunicji do strzelby. (Poziom 1)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Sho_N_Mag_Up2/name",
+    "english": "Shotgun Expansion II",
+    "polish": "Zasobnik Strzelbowy II"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Sho_N_Mag_Up2/text",
+    "english": "Increases the maximum amount of Shotgun ammo carried. (Level 2)",
+    "polish": "Zwiększa maksymalny zapas amunicji do strzelby. (Poziom 2)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Sho_N_Mag_Up3/name",
+    "english": "Shotgun Expansion III",
+    "polish": "Zasobnik Strzelbowy III"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Sho_N_Mag_Up3/text",
+    "english": "Increases the maximum amount of Shotgun ammo carried. (Level 3)",
+    "polish": "Zwiększa maksymalny zapas amunicji do strzelby. (Poziom 3)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Sho_N_Rat_Red/name",
+    "english": "Shotgun Rush",
+    "polish": "Pęd Strzelby"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Sho_N_Rat_Red/text",
+    "english": "Increases the Shotgun fire rate. (Level 1)",
+    "polish": "Zwiększa szybkostrzelność strzelby. (Poziom 1)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Sho_N_Rat_Red2/name",
+    "english": "Shotgun Rush II",
+    "polish": "Pęd Strzelby II"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Sho_N_Rat_Red2/text",
+    "english": "Increases the Shotgun fire rate. (Level 2)",
+    "polish": "Zwiększa szybkostrzelność strzelby. (Poziom 2)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Sho_N_Rat_Red3/name",
+    "english": "Shotgun Rush III",
+    "polish": "Pęd Strzelby III"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Sho_N_Rat_Red3/text",
+    "english": "Increases the Shotgun fire rate. (Level 3)",
+    "polish": "Zwiększa szybkostrzelność strzelby. (Poziom 3)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Sho_S_IceSlo/name",
+    "english": "Frost Banshee",
+    "polish": "Mroźna Zjawa"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Sho_S_IceSlo/text",
+    "english": "The Pump Shotgun is transformed into its Inferno mode \"Frost Banshee\", which greatly slows down the enemies' speed for a short period of time when it hits them, and slightly enhances the damage of the shotgun. This effect only works on the Pump Shotgun.",
+    "polish": "Strzelba Pompka przechodzi w tryb Inferno \"Mroźna Zjawa\", który po trafieniu mocno spowalnia wrogów na krótką chwilę i nieznacznie zwiększa obrażenia strzelby. Działa tylko na Strzelbę Pompkę."
+  },
+  {
+    "namespace": "emblem",
+    "key": "Sho_S_DouSho_Blood/name",
+    "english": "I live ... AGAIN!",
+    "polish": "Znowu ... ŻYJĘ!"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Sho_S_DouSho_Blood/text",
+    "english": "2 shells in the Double-barrel Shotgun can be shot separately.",
+    "polish": "Dwa naboje w Dubeltówce można wystrzelić osobno."
+  },
+  {
+    "namespace": "emblem",
+    "key": "Sho_S_LonRan_Sniper/name",
+    "english": "Sniper Shotgun",
+    "polish": "Strzelba Snajperska"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Sho_S_LonRan_Sniper/text",
+    "english": "Significantly reduces the damage decay at long range for the Pump Shotgun and reduces the dispersion. This effect only works on the Pump Shotgun.",
+    "polish": "Znacząco zmniejsza spadek obrażeń Strzelby Pompki na dystansie i zawęża rozrzut. Działa tylko na Strzelbę Pompkę."
+  },
+  {
+    "namespace": "emblem",
+    "key": "Sho_S_RusSho_Tank/name",
+    "english": "Zealot",
+    "polish": "Zelota"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Sho_S_RusSho_Tank/text",
+    "english": "The higher the number of enemies around the character, the more damage the Double-barrel Shotgun will do. This Effect only works on the Double-barrel Shotgun.",
+    "polish": "Im więcej wrogów wokół postaci, tym większe obrażenia zadaje Dubeltówka. Działa tylko na Dubeltówkę."
+  },
+  {
+    "namespace": "emblem",
+    "key": "Sho_S_ShoLin/name",
+    "english": "Cutter",
+    "polish": "Tnący"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Sho_S_ShoLin/text",
+    "english": "The double barrel shotgun is transformed into its Inferno mode the Cutter, fires a light line cutting through all the demons it passed.",
+    "polish": "Dubeltówka przechodzi w tryb Inferno \"Tnący\" i wystrzeliwuje świetlną linię, która przecina wszystkie mijane demony."
+  },
+  {
+    "namespace": "emblem",
+    "key": "Sho_S_ComSho/name",
+    "english": "Combo Shoot",
+    "polish": "Strzał Combo"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Sho_S_ComSho/text",
+    "english": "After shooting with the double barrel shotgun, immediately switch and shoot with the pump shotgun, which will cause huge damage to the demons.",
+    "polish": "Po strzale z dubeltówki natychmiast przełącz się i strzel ze strzelby pompki, a zadasz demonom potworne obrażenia."
+  },
+  {
+    "namespace": "emblem",
+    "key": "Bow_N_Dam_Up/name",
+    "english": "Black Bow Slaughter",
+    "polish": "Rzeź Czarnym Łukiem"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Bow_N_Dam_Up/text",
+    "english": "Increases Black Bow damage. (Level 1)",
+    "polish": "Zwiększa obrażenia Czarnego Łuku. (Poziom 1)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Bow_N_Dam_Up2/name",
+    "english": "Black Bow Slaughter II",
+    "polish": "Rzeź Czarnym Łukiem II"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Bow_N_Dam_Up2/text",
+    "english": "Increases Black Bow damage. (Level 2)",
+    "polish": "Zwiększa obrażenia Czarnego Łuku. (Poziom 2)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Bow_N_Dam_Up3/name",
+    "english": "Black Bow Slaughter III",
+    "polish": "Rzeź Czarnym Łukiem III"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Bow_N_Dam_Up3/text",
+    "english": "Increases Black Bow damage. (Level 3)",
+    "polish": "Zwiększa obrażenia Czarnego Łuku. (Poziom 3)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Bow_N_Mag_Up/name",
+    "english": "Black Bow Expansion",
+    "polish": "Kołczan Czarnego Łuku"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Bow_N_Mag_Up/text",
+    "english": "Increases the maximum amount of arrows carried. (Level 1)",
+    "polish": "Zwiększa maksymalny zapas strzał. (Poziom 1)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Bow_N_Mag_Up2/name",
+    "english": "Black Bow Expansion II",
+    "polish": "Kołczan Czarnego Łuku II"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Bow_N_Mag_Up2/text",
+    "english": "Increases the maximum amount of arrows carried. (Level 2)",
+    "polish": "Zwiększa maksymalny zapas strzał. (Poziom 2)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Bow_N_Mag_Up3/name",
+    "english": "Black Bow Expansion III",
+    "polish": "Kołczan Czarnego Łuku III"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Bow_N_Mag_Up3/text",
+    "english": "Increases the maximum amount of arrows carried. (Level 3)",
+    "polish": "Zwiększa maksymalny zapas strzał. (Poziom 3)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Bow_N_CD_Down/name",
+    "english": "Black Bow Focus",
+    "polish": "Skupienie Czarnego Łuku"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Bow_N_CD_Down/text",
+    "english": "Reduces the cooldown of the Black Bow. (Level 1)",
+    "polish": "Skraca czas odnowienia Czarnego Łuku. (Poziom 1)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Bow_N_CD_Down2/name",
+    "english": "Black Bow Focus II",
+    "polish": "Skupienie Czarnego Łuku II"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Bow_N_CD_Down2/text",
+    "english": "Reduces the cooldown of the Black Bow. (Level 2)",
+    "polish": "Skraca czas odnowienia Czarnego Łuku. (Poziom 2)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Bow_N_CD_Down3/name",
+    "english": "Black Bow Focus III",
+    "polish": "Skupienie Czarnego Łuku III"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Bow_N_CD_Down3/text",
+    "english": "Reduces the cooldown of the Black Bow. (Level 3)",
+    "polish": "Skraca czas odnowienia Czarnego Łuku. (Poziom 3)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Bow_S_KeeSho_Hurt/name",
+    "english": "The Archer",
+    "polish": "Łucznik"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Bow_S_KeeSho_Hurt/text",
+    "english": "After each successful hit, the character will briefly enter the \"Archer\" state, increasing the damage of the next hit. A quick succession of hits can produce a huge amount of damage.",
+    "polish": "Po każdym celnym trafieniu postać na chwilę wchodzi w stan \"Łucznika\", zwiększając obrażenia następnego trafienia. Seria szybkich trafień potrafi zadać ogromne obrażenia."
+  },
+  {
+    "namespace": "emblem",
+    "key": "Bow_S_LigKil_Hurt/name",
+    "english": "A",
+    "polish": "A"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Bow_S_LigKil_Hurt/text",
+    "english": "A",
+    "polish": "A"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Bow_S_HelHun/name",
+    "english": "Hell Hunt",
+    "polish": "Piekielne Łowy"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Bow_S_HelHun/text",
+    "english": "Increases the headshot damage of the Black Bow, and killing enemies via headshot with the Black Bow will activate a short Slow Motion Time.",
+    "polish": "Zwiększa obrażenia Czarnego Łuku przy strzale w głowę, a zabicie wroga strzałem w głowę z Czarnego Łuku włącza krótki Spowolniony Czas."
+  },
+  {
+    "namespace": "emblem",
+    "key": "Bow_S_HalKil_HalfHeal/name",
+    "english": "Execute",
+    "polish": "Egzekucja"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Bow_S_HalKil_HalfHeal/text",
+    "english": "The arrow deals extra damage to enemies with less than 50% health.",
+    "polish": "Strzała zadaje dodatkowe obrażenia wrogom, którym zostało mniej niż 50% życia."
+  },
+  {
+    "namespace": "emblem",
+    "key": "Bow_S_NinMas/name",
+    "english": "Ninja Master: Strike",
+    "polish": "Mistrz Ninja: Cios"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Bow_S_NinMas/text",
+    "english": "Boosts the damage of all modes of the katanas and bow.",
+    "polish": "Zwiększa obrażenia we wszystkich trybach katan i łuku."
+  },
+  {
+    "namespace": "emblem",
+    "key": "Bow_S_ShoBac/name",
+    "english": "Lucky Arrow Bag",
+    "polish": "Szczęśliwy Kołczan"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Bow_S_ShoBac/text",
+    "english": "Each successful hit on the enemy has a chance to not use any arrow",
+    "polish": "Każde celne trafienie ma szansę nie zużyć żadnej strzały"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Bow_S_RamSho/name",
+    "english": "Blast",
+    "polish": "Wybuch"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Bow_S_RamSho/text",
+    "english": "Add a small explosive to the arrow, and a successful hit on the demon will result in an additional blast of damage to the surrounding enemies.",
+    "polish": "Do strzały dołączony jest mały ładunek — celne trafienie w demona wywoła dodatkowy wybuch raniący wrogów wokół."
+  },
+  {
+    "namespace": "emblem",
+    "key": "Roc_N_Dam_Up/name",
+    "english": "Inferno Rocket Slaughter",
+    "polish": "Rzeź Rakietą Inferno"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Roc_N_Dam_Up/text",
+    "english": "Increases Rocket damage. (Level 1)",
+    "polish": "Zwiększa obrażenia rakiet. (Poziom 1)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Roc_N_Dam_Up2/name",
+    "english": "Inferno Rocket Slaughter II",
+    "polish": "Rzeź Rakietą Inferno II"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Roc_N_Dam_Up2/text",
+    "english": "Increases Rocket damage. (Level 2)",
+    "polish": "Zwiększa obrażenia rakiet. (Poziom 2)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Roc_N_Dam_Up3/name",
+    "english": "Inferno Rocket Slaughter III",
+    "polish": "Rzeź Rakietą Inferno III"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Roc_N_Dam_Up3/text",
+    "english": "Increases Rocket damage. (Level 3)",
+    "polish": "Zwiększa obrażenia rakiet. (Poziom 3)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Roc_N_Mag_Up/name",
+    "english": "Inferno Rocket Expansion",
+    "polish": "Zasobnik Rakiet Inferno"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Roc_N_Mag_Up/text",
+    "english": "Increases the maximum amount of Rocket ammo carried. (Level 1)",
+    "polish": "Zwiększa maksymalny zapas rakiet. (Poziom 1)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Roc_N_Mag_Up2/name",
+    "english": "Inferno Rocket Expansion II",
+    "polish": "Zasobnik Rakiet Inferno II"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Roc_N_Mag_Up2/text",
+    "english": "Increases the maximum amount of Rocket ammo carried. (Level 2)",
+    "polish": "Zwiększa maksymalny zapas rakiet. (Poziom 2)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Roc_N_Mag_Up3/name",
+    "english": "Inferno Rocket Expansion III",
+    "polish": "Zasobnik Rakiet Inferno III"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Roc_N_Mag_Up3/text",
+    "english": "Increases the maximum amount of Rocket ammo carried. (Level 3)",
+    "polish": "Zwiększa maksymalny zapas rakiet. (Poziom 3)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Roc_N_Rad_Up/name",
+    "english": "Inferno Rocket Reach",
+    "polish": "Zasięg Rakiet Inferno"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Roc_N_Rad_Up/text",
+    "english": "Increases the maximum explosion radius of Rocket. (Level 1)",
+    "polish": "Zwiększa maksymalny promień wybuchu rakiety. (Poziom 1)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Roc_N_Rad_Up2/name",
+    "english": "Inferno Rocket Reach II",
+    "polish": "Zasięg Rakiet Inferno II"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Roc_N_Rad_Up2/text",
+    "english": "Increases the maximum explosion radius of Rocket. (Level 2)",
+    "polish": "Zwiększa maksymalny promień wybuchu rakiety. (Poziom 2)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Roc_N_Rad_Up3/name",
+    "english": "Inferno Rocket Reach III",
+    "polish": "Zasięg Rakiet Inferno III"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Roc_N_Rad_Up3/text",
+    "english": "Increases the maximum explosion radius of Rocket. (Level 3)",
+    "polish": "Zwiększa maksymalny promień wybuchu rakiety. (Poziom 3)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Roc_S_NotHur/name",
+    "english": "Steel Shield",
+    "polish": "Stalowa Tarcza"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Roc_S_NotHur/text",
+    "english": "Significantly reduces the damage that Inferno Rocket does to yourself.",
+    "polish": "Znacząco zmniejsza obrażenia, które Rakieta Inferno zadaje tobie samemu."
+  },
+  {
+    "namespace": "emblem",
+    "key": "Roc_S_PowBul/name",
+    "english": "Powder Kegs are not toys",
+    "polish": "Beczki prochu to nie zabawki"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Roc_S_PowBul/text",
+    "english": "After equipping the Rune, there will be a high chance of dropping Inferno Rocket ammunition when the powder keg detonates.",
+    "polish": "Po założeniu tej runy wybuchająca beczka prochu z dużym prawdopodobieństwem zostawi amunicję do Rakiet Inferno."
+  },
+  {
+    "namespace": "emblem",
+    "key": "Roc_S_IceAoe/name",
+    "english": "Icicle",
+    "polish": "Sopel"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Roc_S_IceAoe/text",
+    "english": "The Icicle will cause damage across cone-shaped AOE after its explosion.",
+    "polish": "Sopel po wybuchu zadaje obrażenia na stożkowym obszarze."
+  },
+  {
+    "namespace": "emblem",
+    "key": "Roc_S_ChaRoc/name",
+    "english": "Fire Wasp",
+    "polish": "Ognista Osa"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Roc_S_ChaRoc/text",
+    "english": "The Tri-Rocket Launcher fires 3 mini homing missiles. This effect only works on the Tri-Rocket Launcher.",
+    "polish": "Potrójna Wyrzutnia wystrzeliwuje 3 małe rakiety samonaprowadzające. Działa tylko na Potrójną Wyrzutnię Rakiet."
+  },
+  {
+    "namespace": "emblem",
+    "key": "Roc_S_FivRoc/name",
+    "english": "Roar",
+    "polish": "Ryk"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Roc_S_FivRoc/text",
+    "english": "The Tri-Rocket Launcher now fires 5 mini rockets.",
+    "polish": "Potrójna Wyrzutnia wystrzeliwuje teraz 5 małych rakiet."
+  },
+  {
+    "namespace": "emblem",
+    "key": "Tra_N_Mag_Up/name",
+    "english": "Trap Launcher Expansion",
+    "polish": "Zasobnik Miotacza Pułapek"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Tra_N_Mag_Up/text",
+    "english": "Increases the maximum amount of Trap Launcher ammo carried. (Level 1)",
+    "polish": "Zwiększa maksymalny zapas amunicji do Miotacza Pułapek. (Poziom 1)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Tra_N_Mag_Up2/name",
+    "english": "Trap Launcher Expansion II",
+    "polish": "Zasobnik Miotacza Pułapek II"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Tra_N_Mag_Up2/text",
+    "english": "Increases the maximum amount of Trap Launcher ammo carried. (Level 2)",
+    "polish": "Zwiększa maksymalny zapas amunicji do Miotacza Pułapek. (Poziom 2)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Tra_N_Mag_Up3/name",
+    "english": "Trap Launcher Expansion III",
+    "polish": "Zasobnik Miotacza Pułapek III"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Tra_N_Mag_Up3/text",
+    "english": "Increases the maximum amount of Trap Launcher ammo carried. (Level 3)",
+    "polish": "Zwiększa maksymalny zapas amunicji do Miotacza Pułapek. (Poziom 3)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Tra_N_Eff_Up/name",
+    "english": "Trap Launcher Mastery",
+    "polish": "Mistrzostwo Miotacza Pułapek"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Tra_N_Eff_Up/text",
+    "english": "Increases the effect of traps. (Level 1)",
+    "polish": "Wzmacnia działanie pułapek. (Poziom 1)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Tra_N_Eff_Up2/name",
+    "english": "Trap Launcher Mastery II",
+    "polish": "Mistrzostwo Miotacza Pułapek II"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Tra_N_Eff_Up2/text",
+    "english": "Increases the effect of traps. (Level 2)",
+    "polish": "Wzmacnia działanie pułapek. (Poziom 2)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Tra_N_Eff_Up3/name",
+    "english": "Trap Launcher Mastery III",
+    "polish": "Mistrzostwo Miotacza Pułapek III"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Tra_N_Eff_Up3/text",
+    "english": "Increases the effect of traps. (Level 3)",
+    "polish": "Wzmacnia działanie pułapek. (Poziom 3)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Tra_N_Rat_Up/name",
+    "english": "Trap Launcher Rush",
+    "polish": "Pęd Miotacza Pułapek"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Tra_N_Rat_Up/text",
+    "english": "Increases the Trap Launcher fire rate. (Level 1)",
+    "polish": "Zwiększa szybkostrzelność Miotacza Pułapek. (Poziom 1)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Tra_N_Rat_Up2/name",
+    "english": "Trap Launcher Rush II",
+    "polish": "Pęd Miotacza Pułapek II"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Tra_N_Rat_Up2/text",
+    "english": "Increases the Trap Launcher fire rate. (Level 2)",
+    "polish": "Zwiększa szybkostrzelność Miotacza Pułapek. (Poziom 2)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Tra_N_Rat_Up3/name",
+    "english": "Trap Launcher Rush III",
+    "polish": "Pęd Miotacza Pułapek III"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Tra_N_Rat_Up3/text",
+    "english": "Increases the Trap Launcher fire rate. (Level 3)",
+    "polish": "Zwiększa szybkostrzelność Miotacza Pułapek. (Poziom 3)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Tra_S_ExpTra/name",
+    "english": "Explosion Trap",
+    "polish": "Pułapka Wybuchowa"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Tra_S_ExpTra/text",
+    "english": "The Explosion trap produces a continuous small explosion when triggered.",
+    "polish": "Pułapka wybuchowa po uruchomieniu wywołuje serię małych eksplozji."
+  },
+  {
+    "namespace": "emblem",
+    "key": "Tra_S_SumTra/name",
+    "english": "Son of Djookholu",
+    "polish": "Syn Djookholu"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Tra_S_SumTra/text",
+    "english": "Summon a son of Djookholu to fight for you in a short time. Son of Djookholu blasts deadly ice projectiles at enemies around it.",
+    "polish": "Przyzywa na krótko syna Djookholu, który walczy po twojej stronie. Syn Djookholu miota zabójczymi pociskami lodu we wrogów wokół siebie."
+  },
+  {
+    "namespace": "emblem",
+    "key": "Tra_S_PumTra/name",
+    "english": "Pumpkin Curse",
+    "polish": "Klątwa Dyni"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Tra_S_PumTra/text",
+    "english": "Boosts the damage of Lightning Stun and reduces the maximum health of the enemies. This effect will be significantly enhanced during Halloween.",
+    "polish": "Zwiększa obrażenia Porażenia Błyskawicą i obniża maksymalne zdrowie wrogów. W Halloween efekt jest znacznie silniejszy."
+  },
+  {
+    "namespace": "emblem",
+    "key": "Tra_S_DefShe/name",
+    "english": "Damage Reduction Shield",
+    "polish": "Tarcza Ochronna"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Tra_S_DefShe/text",
+    "english": "When you stand in a damage reduction shield, any damage you take will be significantly reduced.",
+    "polish": "Gdy stoisz w tarczy ochronnej, obrażenia, które otrzymujesz, są znacznie mniejsze."
+  },
+  {
+    "namespace": "emblem",
+    "key": "Rev_N_Dam_Up/name",
+    "english": "Inferno Revolver Slaughter",
+    "polish": "Rzeź Rewolwerem Inferno"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Rev_N_Dam_Up/text",
+    "english": "Increases Inferno Revolver damage. (Level 1)",
+    "polish": "Zwiększa obrażenia Rewolweru Inferno. (Poziom 1)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Rev_N_Dam_Up2/name",
+    "english": "Inferno Revolver Slaughter II",
+    "polish": "Rzeź Rewolwerem Inferno II"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Rev_N_Dam_Up2/text",
+    "english": "Increases Inferno Revolver damage. (Level 2)",
+    "polish": "Zwiększa obrażenia Rewolweru Inferno. (Poziom 2)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Rev_N_Dam_Up3/name",
+    "english": "Inferno Revolver Slaughter III",
+    "polish": "Rzeź Rewolwerem Inferno III"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Rev_N_Dam_Up3/text",
+    "english": "Increases Inferno Revolver damage. (Level 3)",
+    "polish": "Zwiększa obrażenia Rewolweru Inferno. (Poziom 3)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Rev_N_Mag_Up/name",
+    "english": "Inferno Revolver Expansion",
+    "polish": "Zasobnik Rewolweru Inferno"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Rev_N_Mag_Up/text",
+    "english": "Increases the maximum amount of Inferno Revolver ammo carried. (Level 1)",
+    "polish": "Zwiększa maksymalny zapas amunicji do Rewolweru Inferno. (Poziom 1)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Rev_N_Mag_Up2/name",
+    "english": "Inferno Revolver Expansion II",
+    "polish": "Zasobnik Rewolweru Inferno II"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Rev_N_Mag_Up2/text",
+    "english": "Increases the maximum amount of Inferno Revolver ammo carried. (Level 2)",
+    "polish": "Zwiększa maksymalny zapas amunicji do Rewolweru Inferno. (Poziom 2)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Rev_N_Mag_Up3/name",
+    "english": "Inferno Revolver Expansion III",
+    "polish": "Zasobnik Rewolweru Inferno III"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Rev_N_Mag_Up3/text",
+    "english": "Increases the maximum amount of Inferno Revolver ammo carried. (Level 3)",
+    "polish": "Zwiększa maksymalny zapas amunicji do Rewolweru Inferno. (Poziom 3)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Rev_N_Rat_Down/name",
+    "english": "Inferno Revolver Rush",
+    "polish": "Pęd Rewolweru Inferno"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Rev_N_Rat_Down/text",
+    "english": "Increases the Inferno Revolver fire rate. (Level 1)",
+    "polish": "Zwiększa szybkostrzelność Rewolweru Inferno. (Poziom 1)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Rev_N_Rat_Down2/name",
+    "english": "Inferno Revolver Rush II",
+    "polish": "Pęd Rewolweru Inferno II"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Rev_N_Rat_Down2/text",
+    "english": "Increases the Inferno Revolver fire rate. (Level 2)",
+    "polish": "Zwiększa szybkostrzelność Rewolweru Inferno. (Poziom 2)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Rev_N_Rat_Down3/name",
+    "english": "Inferno Revolver Rush III",
+    "polish": "Pęd Rewolweru Inferno III"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Rev_N_Rat_Down3/text",
+    "english": "Increases the Inferno Revolver fire rate. (Level 3)",
+    "polish": "Zwiększa szybkostrzelność Rewolweru Inferno. (Poziom 3)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Rev_S_RolKil/name",
+    "english": "Fatality",
+    "polish": "Wyrok"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Rev_S_RolKil/text",
+    "english": "Each hit has a certain chance of killing the demon immediately.",
+    "polish": "Każde trafienie ma szansę natychmiast zabić demona."
+  },
+  {
+    "namespace": "emblem",
+    "key": "Rev_S_DouDam/name",
+    "english": "Lethal",
+    "polish": "Zabójczy"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Rev_S_DouDam/text",
+    "english": "Deals twice the damage to enemies that are stunned or frozen.",
+    "polish": "Zadaje podwójne obrażenia wrogom ogłuszonym lub zamrożonym."
+  },
+  {
+    "namespace": "emblem",
+    "key": "Rev_S_ThrSho/name",
+    "english": "Cerberus",
+    "polish": "Cerber"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Rev_S_ThrSho/text",
+    "english": "Inferno Revolver's firing mode will change to triple shot.",
+    "polish": "Rewolwer Inferno przechodzi w tryb potrójnego strzału."
+  },
+  {
+    "namespace": "emblem",
+    "key": "Fis_N_Mag_Up/name",
+    "english": "Inferno Gauntlets Expansion",
+    "polish": "Zasobnik Rękawic Inferno"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Fis_N_Mag_Up/text",
+    "english": "Increases the maximum amount of the Inferno Gauntlets and the Pistol/SMG ammo carried. (Level 1)",
+    "polish": "Zwiększa maksymalny zapas amunicji do Rękawic Inferno oraz pistoletów i PM-ów. (Poziom 1)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Fis_N_Mag_Up2/name",
+    "english": "Inferno Gauntlets Expansion II",
+    "polish": "Zasobnik Rękawic Inferno II"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Fis_N_Mag_Up2/text",
+    "english": "Increases the maximum amount of the Inferno Gauntlets and the Pistol/SMG ammo carried. (Level 2)",
+    "polish": "Zwiększa maksymalny zapas amunicji do Rękawic Inferno oraz pistoletów i PM-ów. (Poziom 2)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Fis_N_Mag_Up3/name",
+    "english": "Inferno Gauntlets Expansion III",
+    "polish": "Zasobnik Rękawic Inferno III"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Fis_N_Mag_Up3/text",
+    "english": "Increases the maximum amount of the Inferno Gauntlets and the Pistol/SMG ammo carried. (Level 3)",
+    "polish": "Zwiększa maksymalny zapas amunicji do Rękawic Inferno oraz pistoletów i PM-ów. (Poziom 3)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Fis_N_Dam_Up/name",
+    "english": "Inferno Gauntlets Slaughter",
+    "polish": "Rzeź Rękawicami Inferno"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Fis_N_Dam_Up/text",
+    "english": "Increases the maximum explosion radius of Inferno Gauntlets. (Level 1)",
+    "polish": "Zwiększa maksymalny promień wybuchu Rękawic Inferno. (Poziom 1)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Fis_N_Dam_Up2/name",
+    "english": "Inferno Gauntlets Slaughter II",
+    "polish": "Rzeź Rękawicami Inferno II"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Fis_N_Dam_Up2/text",
+    "english": "Increases the maximum explosion radius of Inferno Gauntlets. (Level 2)",
+    "polish": "Zwiększa maksymalny promień wybuchu Rękawic Inferno. (Poziom 2)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Fis_N_Dam_Up3/name",
+    "english": "Inferno Gauntlets Slaughter III",
+    "polish": "Rzeź Rękawicami Inferno III"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Fis_N_Dam_Up3/text",
+    "english": "Increases the maximum explosion radius of Inferno Gauntlets. (Level 3)",
+    "polish": "Zwiększa maksymalny promień wybuchu Rękawic Inferno. (Poziom 3)"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Fis_S_AllOut/name",
+    "english": "All-out Punch_!!!",
+    "polish": "Cios na całość_!!!"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Fis_S_AllOut/text",
+    "english": "Significantly reduces the charging time, and spends all the energy to perform an all-out punch. The all-out punch will be according to the amount of energy to calculate the damage, the higher the energy, the damage caused will increase exponentially.",
+    "polish": "Znacząco skraca czas ładowania i zużywa całą energię na cios na całość. Obrażenia liczone są od ilości zużytej energii — im więcej energii, tym szybciej rosną obrażenia."
+  },
+  {
+    "namespace": "emblem",
+    "key": "Fis_S_BosKil/name",
+    "english": "Boss Killer",
+    "polish": "Pogromca Bossów"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Fis_S_BosKil/text",
+    "english": "Damage against bosses will be significantly increased.",
+    "polish": "Obrażenia zadawane bossom znacząco rosną."
+  },
+  {
+    "namespace": "emblem",
+    "key": "Fis_S_ShoDef/name",
+    "english": "Vampire",
+    "polish": "Wampir"
+  },
+  {
+    "namespace": "emblem",
+    "key": "Fis_S_ShoDef/text",
+    "english": "Dealing damage to demons by using the Inferno Gauntlets will recover the character's health points.",
+    "polish": "Zadawanie demonom obrażeń Rękawicami Inferno przywraca postaci punkty zdrowia."
+  },
+  {
+    "namespace": "emblem",
+    "key": "===/name",
+    "english": "===",
+    "polish": "==="
+  },
+  {
+    "namespace": "emblem",
+    "key": "===/text",
+    "english": "===",
+    "polish": "==="
+  },
+  {
+    "namespace": "add01",
+    "key": "a1001/name",
+    "english": " ",
+    "polish": " "
+  },
+  {
+    "namespace": "add01",
+    "key": "a1001/text",
+    "english": "?",
+    "polish": "?"
+  },
+  {
+    "namespace": "add01",
+    "key": "a1002/name",
+    "english": " ",
+    "polish": " "
+  },
+  {
+    "namespace": "add01",
+    "key": "a1002/text",
+    "english": "?",
+    "polish": "?"
+  },
+  {
+    "namespace": "add02",
+    "key": "a2001/name",
+    "english": " ",
+    "polish": " "
+  },
+  {
+    "namespace": "add02",
+    "key": "a2001/text",
+    "english": "?",
+    "polish": "?"
+  },
+  {
+    "namespace": "add02",
+    "key": "a2002/name",
+    "english": " ",
+    "polish": " "
+  },
+  {
+    "namespace": "add02",
+    "key": "a2002/text",
+    "english": "?",
+    "polish": "?"
+  }
+]

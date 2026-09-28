@@ -1,0 +1,29 @@
+# Dread Templar: groups for the review workspace.
+# Format: docs/workspace.md.
+#
+# namespace is the game language block category, key is <key>/<field> (tools/texts.py).
+
+format: 1
+
+groups:
+  - id: menu
+    name: Menu i ustawienia
+  - id: tutorial
+    name: Samouczek i porady
+  - id: gametext
+    name: Teksty w grze
+  - id: cutscenes
+    name: Przerywniki
+  - id: emblems
+    name: Emblematy broni
+  - id: dlc
+    name: Dodatki
+
+rules:
+  - {group: menu, namespace: menu, match: '.'}
+  - {group: tutorial, namespace: gametext, match: '^(Ttr|Tps)_'}
+  - {group: gametext, namespace: gametext, match: '.'}
+  - {group: cutscenes, namespace: cutscene, match: '.'}
+  - {group: emblems, namespace: emblem, match: '.'}
+  - {group: dlc, namespace: add01, match: '.'}
+  - {group: dlc, namespace: add02, match: '.'}

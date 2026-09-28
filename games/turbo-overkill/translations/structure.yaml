@@ -1,0 +1,47 @@
+# Turbo Overkill: groups for the review workspace.
+# Format: docs/workspace.md.
+#
+# Entry keys are Unity table ids, so rules match the "<table>: <term>" context
+# (tools/analyze.py). TurboEx1 holds the DLC texts.
+
+format: 1
+
+groups:
+  - id: menu
+    name: Menu, ustawienia i sterowanie
+  - id: voices
+    name: Kwestie mówione (napisy)
+  - id: augments
+    name: Wszczepy, bronie i sklep
+  - id: infodex
+    name: Infodeks, bestiariusz i kodeks
+  - id: missions
+    name: Misje, cele i sekrety
+  - id: tutorial
+    name: Samouczek i podpowiedzi
+  - id: medals
+    name: Medale i wyniki
+  - id: levels
+    name: Nazwy poziomów
+  - id: editor
+    name: Edytor poziomów i Warsztat
+  - id: credits
+    name: Napisy końcowe
+  - id: expansion
+    name: Dodatek (TurboEx1)
+  - id: other
+    name: Pozostałe
+
+rules:
+  - {group: voices, context: '^TurboVoices: '}
+  - {group: infodex, context: '^(TurboIndodex2|TurboBestiary|TurboCodex): |: (infodex|codex|bst)_'}
+  - {group: credits, context: ': (credits|credit|consolecredits)_'}
+  - {group: editor, context: ': (editor|workshop|workshopbrowser)_'}
+  - {group: augments, context: ': (augment|weapon|shop|ammo|magnums|plasmagun|telefragger|skill)'}
+  - {group: missions, context: ': (mdesc|objective|secret|horde|arcade|endtally)_'}
+  - {group: tutorial, context: ': (tut|prompt|loading|specialtext)_'}
+  - {group: medals, context: ': (medal|bossbar)_'}
+  - {group: menu, context: ': (menu|mtoggle|binding|button|conf|coop|jukebox|character|backup|header)_'}
+  - {group: levels, context: '^TurboStrings: [a-z0-9]+$'}
+  - {group: expansion, context: '^TurboEx1: '}
+  - {group: other, context: '.'}

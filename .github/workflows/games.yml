@@ -1,0 +1,31 @@
+# Game files vs the workspace: translation format, structure, bible,
+# Edge Function rules and the corrections tool. Deploys nothing.
+name: Games
+
+on:
+  push:
+    paths: ['games/**', 'tools/**', 'supabase/functions/**', '.github/workflows/games.yml']
+  pull_request:
+    paths: ['games/**', 'tools/**', 'supabase/functions/**', '.github/workflows/games.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Game state (workspace validator)
+        run: deno run --allow-read tools/check_games.ts >> "$GITHUB_STEP_SUMMARY"
+      - name: Workspace rules and functions
+        run: deno test --allow-read --allow-env=NOTGEESE_GITHUB_TOKEN supabase/functions/tests/
+      - name: Corrections tool
+        run: python -m unittest discover -s tools/tests -v

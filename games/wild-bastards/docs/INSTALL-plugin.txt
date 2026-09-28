@@ -1,0 +1,52 @@
+WILD BASTARDS — Not Geese PL 0.1 (WERSJA TESTOWA)
+
+Przetłumaczone są wszystkie teksty gry: menu i opcje, HUD starć, powiadomienia,
+samouczki i podpowiedzi, dialogi i napisy, banici z asami, popisami i bronią,
+przedmioty, cechy planet, mapa planety i mapa sektora ze zdarzeniami, Dziura
+w Murze, wyzwania i osiągnięcia. Dubbing zostaje angielski. Brakujące polskie
+litery plugin dorysowuje w locie z plików fontów samej gry.
+
+Paczka NIE PODMIENIA żadnego pliku gry. Polski jest dokładany do tabeli tłumaczeń
+w czasie działania gry; oryginalne języki pozostają dostępne.
+
+INSTALACJA (przy zamkniętej grze)
+1. Wypakuj całą zawartość archiwum do katalogu gry — tego, w którym leży
+   „WildBastards.exe”. W Steamie: Zarządzaj > Przeglądaj pliki lokalne.
+   Jeśli było tu wcześniejsze spolszczenie, pozwól nadpisać pliki.
+2. Uruchom grę normalnie. Pierwsze uruchomienie trwa dłużej.
+3. W menu głównym wybierz Language, a potem Polski. Na polskim Windowsie
+   gra może od razu wystartować po polsku.
+
+CO WARTO SPRAWDZIĆ
+- Polskie litery w każdym rodzaju tekstu: menu, dialogi, mapa sektora, karty banitów.
+- Długie nazwy przedmiotów, asów i cech planet — czy nic nie jest ucięte.
+- Zdarzenia na mapie sektora (długie opisy z liczbami) i napisy w dialogach.
+
+USUNIĘCIE
+Skasuj z katalogu gry: winhttp.dll, doorstop_config.ini, BepInEx-LICENSE.txt,
+READ-ME.txt oraz cały katalog BepInEx. Plików gry nie ruszamy.
+Jeśli polski był wybrany, po usunięciu wybierz w grze inny język.
+
+WERSJE GRY
+Przygotowane na wydaniu ze Steama 1.0.0.26658, Unity 2021.3.32f1, 64-bitowym.
+Spolszczenie nie jest przypięte do wersji gry — wpina się w system tłumaczeń
+po nazwach. Nowe kwestie po aktualizacji zostaną po angielsku.
+
+JEŚLI COŚ NIE DZIAŁA
+Log leży w BepInEx/LogOutput.log. Powinny w nim być linie „Polish added as
+language 11 of 11”, „Added the Polski button” i informacje o fontach. Prześlij ten plik
+razem ze zrzutem ekranu.
+
+CO JEST W PACZCE
+BepInEx 5.4.23.5 — otwarta dokładka uruchamiająca modyfikacje w grach Unity.
+BepInEx/plugins/notgeeseWildBastards — nasz plugin i pl.tsv z tekstami.
+
+LICENCJE
+Spolszczenie i plugin: MIT, BepInEx/plugins/notgeeseWildBastards/LICENSE-notgeese.txt
+BepInEx: LGPL-2.1, BepInEx-LICENSE.txt. Źródła tej wersji leżą obok paczki
+i na https://github.com/BepInEx/BepInEx/releases/tag/v5.4.23.5
+
+AKTUALIZACJA ZE STARSZEJ PACZKI
+Starsze wydania instalowały plugin w folderze BepInEx/plugins/NieGesiWildBastards
+(poprzednia nazwa projektu). Usuń ten folder przed wypakowaniem nowej paczki.
+Jeśli zostanie, BepInEx uruchomi starą wersję, a nową pominie.

@@ -1,0 +1,39 @@
+# My Friend Pedro: groups for the review workspace.
+# Format: docs/workspace.md.
+#
+# w<level>-<n> are in-level lines, mostly Pedro's, in game table order.
+# Speakers of single lines aren't established, so no sequences.
+
+format: 1
+
+groups:
+  - id: menu
+    name: Menu, poziomy i ustawienia
+  - id: keys
+    name: Nazwy klawiszy i przycisków
+  - id: tutorial
+    name: Sterowanie, podpowiedzi i porady
+  - id: dialogue
+    name: Kwestie w poziomach (Pedro i inni)
+  - id: enemies
+    name: Postacie i przeciwnicy — imiona i okrzyki
+  - id: results
+    name: Wynik poziomu, triki i pochwały
+  - id: achievements
+    name: Osiągnięcia
+  - id: sharing
+    name: Nagrywanie GIF i Twitter
+  - id: credits
+    name: Napisy końcowe
+
+rules:
+  - {group: dialogue, match: '^w\d'}
+  - {group: enemies, match: '^(e(Alerted|HeardNoise|RemoteAlert|AlarmAlert)|ISP-)'}
+  - {group: achievements, match: '^ach'}
+  - {group: sharing, match: '^(gif|twit|tw[A-Z])'}
+  - {group: credits, match: '^cre[A-Z]'}
+  - {group: enemies, match: '^(Pedro|Bob|Mitch the Butcher|John|Dave|Rutger|Ayoze|Hunter|Denny|1337dealWithIT|Ophelia|Mech|Aircraft)$'}
+  - {group: results, match: '^(es[A-Z]|bul\d|pep\d|dead$|timer[A-Z])'}
+  - {group: tutorial, match: '^(in(\d|Header|No|Missing)|interact\d|hint\d|pHint|h[A-Z])'}
+  - {group: keys, match: '^(Keypad |Left |Right |Page |Joystick|Mouse|Alpha\d|F\d+$|[A-Z]$|Tab$|Caps Lock$|Space$|Menu$|Return$|Backspace$|Escape$|Insert$|Home$|End$|Delete$|Up Arrow$|Down Arrow$|Scroll Lock$|Pause$|Numlock$|Back Quote$|Clear$)'}
+  - {group: menu, match: '^(m[A-Z]|M[A-Z]|ui[A-Z]|iGameMod|diffLvl|startPrompt|LangName$)'}

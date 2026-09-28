@@ -1,0 +1,64 @@
+HEAT SIGNATURE PL 0.1 — WERSJA TESTOWA PEŁNEGO SPOLSZCZENIA
+
+Spolszczenie obejmuje menu i ustawienia, samouczek, interfejs, przedmioty i ich
+opisy, cechy postaci, misje, klauzule, wyzwalanie stacji, podpowiedzi, dziennik
+zdarzeń oraz wszystkie rozmowy z Fiasco i barmanami frakcji. Gra składa wiele
+zdań z kawałków (nazwy przedmiotów, opisy misji osobistych, statystyki), więc
+plugin tłumaczy je w locie według szablonów. Pojedyncze teksty, których nie
+udało się przewidzieć, zostaną po angielsku — plugin zapisuje je w logu.
+
+Nazwy frakcji (Foundry, Sovereign, Glitchers, Offworld) i imiona postaci
+zostają w oryginale. Fonty powstają z otwartego Xolonium i mają polskie litery.
+
+INSTALACJA
+1. Zamknij grę.
+2. W Steam wybierz Heat Signature > Zarządzaj > Przeglądaj pliki lokalne.
+3. Wypakuj zawartość ZIP obok Heat_Signature.exe: plik d3d9.dll oraz folder
+   notgeese. Nie wkładaj całego folderu paczki jako dodatkowego podkatalogu.
+4. Uruchom grę normalnie ze Steama. Spolszczenie działa automatycznie.
+
+Jeżeli masz już d3d9.dll od innego moda, zachowaj jego kopię i wyłącz tamten
+mod. Dwa różne pliki proxy o tej nazwie nie działają jednocześnie.
+Nie trzeba zastępować EXE, plików Dialog ani zapisów gry. Zapisy pozostają
+angielskie w środku, więc po usunięciu spolszczenia gra działa jak dawniej.
+
+CO SPRAWDZIĆ
+1. Menu pod Esc, ustawienia, lista sterowania.
+2. Ekwipunek: nazwy przedmiotów (np. „Zamieniacz ładowalny o dużej
+   pojemności”), opisy i cechy; statystyki postaci.
+3. Tablica misji: opis misji, klauzule, zagrożenia statku, zakładki Strażnicy
+   i Szefowie. Misja osobista postaci i jej opis.
+4. Rozmowy w barze (Fiasco, barmani frakcji) — tekst pojawia się stopniowo.
+5. Dziennik zdarzeń pod klawiszem B i komunikaty po misji.
+Nieprzetłumaczone teksty trafiają do notgeese/LogOutput.log jako „Untranslated”.
+Przytrzymanie F8 w menu zastępuje „Wznów” próbką wszystkich polskich liter.
+
+Jeżeli gra nie startuje lub wszystko zostaje po angielsku, zakończ grę
+i zachowaj notgeese/LogOutput.log. Log pokazuje wynik odnajdywania funkcji,
+tworzenia fontów i liczbę wczytanych tłumaczeń.
+
+USUNIĘCIE
+Przy zamkniętej grze usuń dodany d3d9.dll i folder notgeese. Jeśli wcześniej
+odłożono proxy innego moda, przywróć tamtą kopię. Oryginalne pliki gry nie były
+zmieniane, więc nie wymagają przywracania.
+
+ZGODNOŚĆ I STAN TESTU
+Przygotowano na plikach Steam build 6124596, wersja w EXE 2021.1.20.1.
+Fonty i menu sprawdzone w grze na próbce. Pełne tłumaczenie czeka
+na test w grze. Plugin nie wymaga konkretnej wersji gry: jeśli nie
+rozpozna potrzebnych funkcji, pomija instalację i zapisuje powód w logu.
+
+ZAWARTOŚĆ I LICENCJE
+d3d9.dll — własny plugin Not Geese, zawiera MinHook 1.3.4.
+notgeese/pl.tsv — polskie teksty, szablony i oryginały służące dopasowaniu.
+notgeese/LICENSE-MINHOOK.txt — licencja BSD MinHook i jego składników.
+notgeese/fonts/ — 13 pasków liter, 13 tabel szerokości oraz mapa 120 znaków.
+notgeese/LICENSE-XOLONIUM.txt — licencja SIL OFL 1.1 fontu Xolonium.
+READ-ME.txt — ta instrukcja.
+Źródła MinHook: https://github.com/TsudaKageyu/minhook/tree/v1.3.4
+Źródła Xolonium: https://sev.dev/fonts/xolonium/
+Paczka nie zawiera plików wykonywalnych ani zasobów wydawcy gry, ani fontów Windows.
+
+AKTUALIZACJA ZE STARSZEJ PACZKI
+Starsze wydania trzymały pliki spolszczenia w folderze NieGesi (poprzednia
+nazwa projektu). Nowa wersja już go nie używa, więc możesz go usunąć.

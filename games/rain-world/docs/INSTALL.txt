@@ -1,0 +1,55 @@
+RAIN WORLD — Not Geese PL 0.1 (WERSJA TESTOWA)
+
+Pełne spolszczenie podstawki i dodatków Downpour oraz The Watcher: menu, opcje,
+Remix, Wyprawy, podpowiedzi, nazwy regionów i stworzeń, rozmowy z iteratorami,
+odczyty pereł, echa, czatlogi i transmisje, a także komentarz twórców Downpour.
+Po angielsku zostają grafiki z napisami, napisy końcowe i ukryta minigra Inv.
+To wersja testowa: tekst jest kompletny, ale nie cały został jeszcze ograny.
+
+Spolszczenie to zwykły mod Remix: dodaje do gry nowy język POLSKI. Nie podmienia
+żadnego pliku gry, a pozostałe języki działają jak dotąd. Nie potrzebuje
+dodatkowego oprogramowania — Rain World ma własny system modów.
+
+INSTALACJA (przy zamkniętej grze)
+1. Wypakuj całą zawartość archiwum do katalogu gry — tego, w którym leży
+   „RainWorld.exe”. W GOG Galaxy: Zarządzaj instalacją > Pokaż folder.
+   W Steamie: Zarządzaj > Przeglądaj pliki lokalne.
+   Mod trafi do RainWorld_Data\StreamingAssets\mods\notgeese-polski.
+2. Uruchom grę i w menu głównym wybierz REMIX.
+3. Zaznacz na liście modów „Polski (Not Geese)” i kliknij APPLY. Gra zastosuje
+   zmiany; jeśli poprosi o ponowne uruchomienie, uruchom ją jeszcze raz.
+4. Wejdź w OPTIONS i w sekcji LANGUAGE wybierz POLISH (po przełączeniu
+   przycisk nazywa się już POLSKI).
+
+Aktualizacja z wcześniejszej wersji: wypakuj nową paczkę na starą i zgódź się
+na zastąpienie plików. Nic więcej nie trzeba.
+
+USUNIĘCIE
+1. Najpierw przełącz język na inny: OPCJE > JĘZYK > ANGIELSKI.
+2. W menu REMIX odznacz „Polski (Not Geese)” i kliknij APPLY.
+3. Skasuj katalog RainWorld_Data\StreamingAssets\mods\notgeese-polski.
+Plików gry nie ruszamy, więc nie ma czego przywracać.
+
+WERSJE GRY
+Sprawdzone na wydaniu z GOG v1.11.8 z dodatkami Downpour i The Watcher.
+Spolszczenie nie jest przypięte do wersji gry — wpina się w system języków
+po nazwach. Nowe teksty po aktualizacji zostaną po angielsku.
+
+JEŚLI COŚ NIE DZIAŁA
+Log leży w katalogu gry: BepInEx\LogOutput.log. Powinny w nim być linie
+„Registered language Polish” i „Loaded … Polish texts”. Prześlij ten plik
+razem ze zrzutem ekranu.
+
+CO JEST W PACZCE
+RainWorld_Data\StreamingAssets\mods\notgeese-polski:
+  modinfo.json                 — opis moda dla menu Remix,
+  plugins\notgeeseRainWorld.dll — dodaje język POLSKI do gry,
+  text\text_pol\               — polskie teksty w formacie gry.
+
+LICENCJA
+Spolszczenie i plugin: MIT, mods\notgeese-polski\LICENSE-notgeese.txt
+
+AKTUALIZACJA ZE STARSZEJ PACZKI
+Starsze wydania instalowały mod w folderze RainWorld_Data/StreamingAssets/mods/niegesi-polski
+(poprzednia nazwa projektu). Usuń ten folder przed wypakowaniem nowej paczki.
+Jeśli zostanie, gra uruchomi starą wersję, a nową pominie.

@@ -1,0 +1,38 @@
+# OTXO: groups for the review workspace.
+# Format: docs/workspace.md.
+#
+# Keys are script_english.ini line numbers; the game keeps texts in number blocks,
+# so groups are number ranges (set from content, 2026-09-25).
+
+format: 1
+
+groups:
+  - id: menu
+    name: Menu, ustawienia i bar (0–999, 9900)
+  - id: upgrades
+    name: Ulepszenia — napoje, maski, przedmioty (1000–1299)
+  - id: characters
+    name: Postacie i bossowie (3000–3099)
+  - id: dialogue
+    name: Rozmowy i opowieść (2000–2199, 3500–6999, 8000–8999, 9500–9599)
+  - id: weapons
+    name: Broń (7000–7999)
+  - id: journal
+    name: Dziennik i pisma (9000–9399)
+  - id: tips
+    name: Porady (10000–10099)
+  - id: run
+    name: Podsumowanie przejścia (10500–10599)
+  - id: areas
+    name: Obszary i modyfikatory (11000+)
+
+rules:
+  - {group: upgrades, match: '^1[0-2]\d\d$'}
+  - {group: characters, match: '^30\d\d$'}
+  - {group: dialogue, match: '^(2[01]\d\d|3[5-9]\d\d|[4-6]\d{3}|8\d{3}|95\d\d)$'}
+  - {group: weapons, match: '^7\d{3}$'}
+  - {group: journal, match: '^9[0-3]\d\d$'}
+  - {group: tips, match: '^100\d\d$'}
+  - {group: run, match: '^105\d\d$'}
+  - {group: areas, match: '^1[1-9]\d{3}$'}
+  - {group: menu, match: '^(\d{1,3}|99\d\d)$'}

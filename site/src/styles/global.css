@@ -1,0 +1,926 @@
+/* notgeese: component layer. Values only from tokens.css. */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+/* Fixed scrollbar gutter: scroll lock under the panel does not shift the page. */
+html { -webkit-text-size-adjust: 100%; scrollbar-gutter: stable; }
+
+body {
+  margin: 0;
+  background: var(--ng-bone);
+  color: var(--ng-ink);
+  font-family: var(--ng-font-body);
+  font-size: var(--ng-size-body);
+  line-height: var(--ng-leading-body);
+}
+
+img { display: block; max-width: 100%; }
+
+/* The hidden attribute must beat component display rules. */
+[hidden] { display: none !important; }
+a { color: inherit; }
+
+/* --- Type primitives ---------------------------------------------- */
+
+.ng-display {
+  font-family: var(--ng-font-display);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: var(--ng-tracking-display);
+  line-height: var(--ng-leading-display);
+  margin: 0;
+}
+
+.ng-label {
+  font-family: var(--ng-font-mono);
+  font-weight: 700;
+  font-size: var(--ng-size-label);
+  letter-spacing: var(--ng-tracking-label);
+  text-transform: uppercase;
+}
+
+.ng-meta {
+  font-family: var(--ng-font-mono);
+  font-size: var(--ng-size-meta);
+  letter-spacing: var(--ng-tracking-meta);
+}
+
+/* --- Page layout -------------------------------------------------- */
+
+.ng-shell {
+  max-width: var(--ng-page-max);
+  margin: 0 auto;
+  padding-inline: var(--ng-gutter);
+}
+
+.ng-rule { border: 0; border-top: var(--ng-border); margin: 0; }
+
+/* --- Header ------------------------------------------------------- */
+
+.ng-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--ng-space-6);
+  padding-block: var(--ng-space-5);
+}
+
+.ng-brand {
+  display: flex;
+  align-items: center;
+  gap: var(--ng-space-3);
+  text-decoration: none;
+}
+
+.ng-brand-mark { width: 34px; height: 34px; flex: none; display: block; }
+
+.ng-brand-name {
+  font-family: var(--ng-font-display);
+  font-size: 19px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.ng-nav { display: flex; align-items: center; gap: var(--ng-space-3); }
+
+.ng-brand-not { color: var(--ng-accent); }
+
+/* Header buttons: FAQ, theme and GitHub. Icons only, one frame, one size. */
+.ng-nav-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 38px;
+  height: 38px;
+  padding: 0;
+  border: var(--ng-border-width) solid var(--ng-ink);
+  background: none;
+  color: var(--ng-ink);
+  font: inherit;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.ng-nav-button:hover { background: var(--ng-ink); color: var(--ng-bone); }
+
+/* Theme button shows the current mode icon; mode comes from <html data-theme>. */
+.ng-theme-icon { display: none; }
+:root:not([data-theme]) .ng-theme-icon[data-mode="system"],
+:root[data-theme="light"] .ng-theme-icon[data-mode="light"],
+:root[data-theme="dark"] .ng-theme-icon[data-mode="dark"] { display: block; }
+
+.ng-icon { display: block; flex: none; }
+
+/* --- Hero --------------------------------------------------------- */
+
+.ng-hero { padding-block: var(--ng-space-16) var(--ng-space-18); }
+
+.ng-hero-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: var(--ng-space-3);
+  margin-bottom: var(--ng-space-6);
+}
+
+.ng-hero-eyebrow::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background: var(--ng-accent);
+  flex: none;
+}
+
+.ng-hero-title {
+  font-size: var(--ng-size-hero);
+  line-height: var(--ng-leading-hero);
+  letter-spacing: var(--ng-tracking-hero);
+}
+
+.ng-hero-underline {
+  width: 148px;
+  height: 10px;
+  background: var(--ng-accent);
+  margin-block: var(--ng-space-7) var(--ng-space-6);
+}
+
+.ng-hero-lead { max-width: 58ch; font-size: 17px; margin: 0; }
+
+.ng-hero-quote {
+  max-width: 58ch;
+  margin: var(--ng-space-8) 0 0;
+  color: var(--ng-muted);
+  font-size: 15px;
+  font-style: italic;
+}
+
+.ng-hero-quote cite {
+  display: block;
+  margin-top: var(--ng-space-2);
+  font-style: normal;
+  font-family: var(--ng-font-mono);
+  font-size: var(--ng-size-meta);
+  letter-spacing: var(--ng-tracking-meta);
+}
+
+/* --- Stats bar ---------------------------------------------------- */
+
+.ng-stats {
+  background: var(--ng-ink);
+  color: var(--ng-bone);
+  border-block: var(--ng-border);
+}
+
+.ng-stats-inner {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: var(--ng-page-max);
+  margin: 0 auto;
+}
+
+.ng-stat {
+  padding: var(--ng-space-10) var(--ng-space-8);
+  border-left: var(--ng-border-width) solid var(--ng-bone);
+}
+
+/* First column starts where page text starts (.ng-shell margin), not at the edge. */
+.ng-stat:first-child { border-left: 0; padding-left: var(--ng-gutter); }
+
+.ng-stat-value {
+  font-family: var(--ng-font-display);
+  font-size: var(--ng-size-stat);
+  line-height: 1;
+}
+
+.ng-stat-label { margin-top: var(--ng-space-3); color: var(--ng-muted-inverse); }
+
+@media (max-width: 699px) {
+  .ng-stats-inner { grid-template-columns: repeat(2, 1fr); }
+  .ng-stat { padding: var(--ng-space-6); }
+  .ng-stat:nth-child(3), .ng-stat:nth-child(4) { border-top: var(--ng-border-width) solid var(--ng-bone); }
+  .ng-stat:nth-child(3) { border-left: 0; padding-left: var(--ng-gutter); }
+}
+
+/* --- Grid section ------------------------------------------------- */
+
+.ng-section {
+  background: var(--ng-paper);
+  border-bottom: var(--ng-border);
+  padding-block: var(--ng-space-16) var(--ng-space-20);
+}
+
+.ng-section-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--ng-space-6);
+  margin-bottom: var(--ng-space-10);
+}
+
+.ng-section-title { font-size: var(--ng-size-section); }
+
+.ng-grid {
+  /* As many columns as fit with tiles from 280 px, at most three.
+     The grid measures its real width, so it reacts to the panel by itself. */
+  --ng-grid-min: max(280px, (100% - 2 * var(--ng-grid-gap)) / 3);
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, var(--ng-grid-min)), 1fr));
+  gap: var(--ng-grid-gap);
+}
+
+/* Pagination under the grid: squares like the header buttons, current page filled. */
+.ng-pager {
+  display: flex;
+  justify-content: center;
+  gap: var(--ng-space-3);
+  margin-top: var(--ng-space-12);
+}
+
+.ng-pager-pages { display: flex; gap: var(--ng-space-3); }
+
+.ng-pager-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: var(--ng-hit-target);
+  height: var(--ng-hit-target);
+  padding: 0 var(--ng-space-2);
+  border: var(--ng-border-width) solid var(--ng-ink);
+  background: var(--ng-paper);
+  color: var(--ng-ink);
+  font-family: var(--ng-font-mono);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.ng-pager-button:hover:not(:disabled) { background: var(--ng-ink); color: var(--ng-bone); }
+.ng-pager-button[aria-current="page"] { background: var(--ng-ink); color: var(--ng-bone); cursor: default; }
+.ng-pager-button:disabled { opacity: 0.35; cursor: default; }
+
+/* --- Search ------------------------------------------------------- */
+
+.ng-search { min-width: 660px; }
+/* Fields as tall as the section title line so they sit in one row with it. */
+.ng-search .ng-search-field { min-height: 56px; }
+.ng-search-row { display: flex; gap: var(--ng-space-3); }
+.ng-search-row > .ng-search-field:first-child { flex: 1; min-width: 200px; }
+
+/* Title plus search, filter and sorter fit side by side only from ~1280 px. */
+@media (max-width: 1279px) {
+  .ng-section-head { flex-direction: column; align-items: stretch; }
+  .ng-search { min-width: 0; }
+}
+
+.ng-search-field {
+  display: flex;
+  align-items: center;
+  gap: var(--ng-space-3);
+  border: var(--ng-border);
+  background: var(--ng-bone);
+  padding-inline: var(--ng-space-4);
+  min-height: var(--ng-hit-target);
+}
+
+.ng-search-field:focus-within { outline: var(--ng-border-width) solid var(--ng-accent); outline-offset: 3px; }
+.ng-search-icon { width: 18px; height: 18px; flex: none; color: var(--ng-muted); }
+
+.ng-search-field input {
+  flex: 1;
+  border: 0;
+  background: none;
+  padding: var(--ng-space-3) 0;
+  font-family: var(--ng-font-mono);
+  font-size: 14px;
+  color: var(--ng-ink);
+  min-width: 0;
+}
+
+.ng-search-field input:focus { outline: none; }
+.ng-search-field input::placeholder { color: var(--ng-muted); }
+
+.ng-dropdown { position: relative; }
+
+/* Fixed width for the longest option so the field does not jump on change. */
+[data-status-filter] { width: 230px; flex: none; }
+[data-sort] { width: 190px; flex: none; }
+
+@media (max-width: 699px) {
+  [data-status-filter], [data-sort] { width: auto; }
+}
+
+.ng-dropdown-trigger {
+  width: 100%;
+  cursor: pointer;
+  font-family: var(--ng-font-mono);
+  font-size: 14px;
+  color: var(--ng-ink);
+  text-align: left;
+  white-space: nowrap;
+}
+
+.ng-dropdown-trigger:focus-visible { outline: var(--ng-border-width) solid var(--ng-accent); outline-offset: 3px; }
+.ng-dropdown-value { flex: 1; }
+.ng-dropdown-chevron { flex: none; transition: transform var(--ng-duration) var(--ng-ease); }
+.ng-dropdown-trigger[aria-expanded="true"] .ng-dropdown-chevron { transform: rotate(180deg); }
+
+/* Open list: same frame and hard shadow as tiles. */
+.ng-dropdown-list {
+  position: absolute;
+  top: calc(100% + var(--ng-space-2));
+  left: 0;
+  z-index: 15;
+  min-width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: var(--ng-paper);
+  border: var(--ng-border);
+  box-shadow: var(--ng-shadow);
+}
+
+.ng-dropdown-list:focus { outline: none; }
+
+.ng-dropdown-option {
+  display: flex;
+  align-items: center;
+  gap: var(--ng-space-3);
+  padding: var(--ng-space-3) var(--ng-space-4);
+  font-family: var(--ng-font-mono);
+  font-size: 14px;
+  white-space: nowrap;
+  cursor: pointer;
+  border-bottom: 1px solid var(--ng-hairline);
+}
+
+.ng-dropdown-option:last-child { border-bottom: 0; }
+.ng-dropdown-option[aria-selected="true"] { font-weight: 700; }
+.ng-dropdown-option[data-active] { background: var(--ng-ink); color: var(--ng-bone); }
+
+.ng-dropdown-check { visibility: hidden; flex: none; }
+.ng-dropdown-option[aria-selected="true"] .ng-dropdown-check { visibility: visible; }
+
+.ng-dropdown-count { margin-left: auto; padding-left: var(--ng-space-4); color: var(--ng-muted); font-weight: 400; }
+.ng-dropdown-option[data-active] .ng-dropdown-count { color: var(--ng-muted-inverse); }
+.ng-search-field input::-webkit-search-cancel-button { cursor: pointer; }
+
+.ng-search-empty {
+  margin: var(--ng-space-10) 0 0;
+  border: var(--ng-border);
+  padding: var(--ng-space-6);
+  font-size: 17px;
+}
+
+@media (max-width: 699px) {
+  .ng-search-row { flex-direction: column; }
+}
+
+/* --- Game tile ---------------------------------------------------- */
+
+.ng-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--ng-paper);
+  border: var(--ng-border);
+  box-shadow: var(--ng-shadow);
+  text-decoration: none;
+  transition: transform var(--ng-duration) var(--ng-ease), box-shadow var(--ng-duration) var(--ng-ease);
+}
+
+.ng-card:hover { transform: translate(4px, 4px); box-shadow: var(--ng-shadow-pressed); }
+.ng-card[aria-current="true"] { box-shadow: var(--ng-shadow-open); }
+
+.ng-card-art {
+  position: relative;
+  aspect-ratio: var(--ng-keyart-ratio);
+  border-bottom: var(--ng-border);
+  overflow: hidden;
+  background: var(--ng-art-ink);
+}
+
+.ng-card-art[data-tone="red"] { background: var(--ng-accent); }
+.ng-card-art[data-tone="graphite"] { background: var(--ng-graphite); }
+.ng-card-art img { width: 100%; height: 100%; object-fit: cover; }
+
+.ng-card-art-label {
+  position: absolute;
+  top: var(--ng-space-3);
+  left: var(--ng-space-3);
+  color: var(--ng-art-bone);
+}
+
+.ng-card-art-initial {
+  position: absolute;
+  right: -8px;
+  bottom: -28px;
+  font-family: var(--ng-font-display);
+  font-size: 132px;
+  line-height: 1;
+  color: var(--ng-placeholder-mark);
+  pointer-events: none;
+}
+
+.ng-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--ng-space-3);
+  padding: var(--ng-space-5);
+  flex: 1;
+}
+
+.ng-card-title { font-size: var(--ng-size-card-title); line-height: 1.05; letter-spacing: 0; }
+
+.ng-card-status {
+  display: flex;
+  align-items: center;
+  gap: var(--ng-space-3);
+  margin-top: auto;
+  padding-top: var(--ng-space-4);
+}
+
+/* --- Badges ------------------------------------------------------- */
+
+.ng-badge {
+  font-family: var(--ng-font-mono);
+  font-size: var(--ng-size-meta);
+  font-weight: 700;
+  letter-spacing: var(--ng-tracking-meta);
+  text-transform: uppercase;
+  padding: var(--ng-space-1) var(--ng-space-2);
+  white-space: nowrap;
+}
+
+.ng-badge[data-tone="ink"] { background: #171717; color: #fff; }
+.ng-badge[data-tone="outline"] { background: transparent; box-shadow: inset 0 0 0 2px var(--ng-ink); color: var(--ng-ink); }
+.ng-badge[data-tone="accent"] { background: var(--ng-accent); color: #fff; }
+
+/* Panel badge: larger, with info icon and hint on hover or focus. */
+.ng-status { position: relative; display: inline-flex; }
+
+.ng-badge--lg {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--ng-space-2);
+  font-size: var(--ng-size-label);
+  letter-spacing: var(--ng-tracking-label);
+  padding: var(--ng-space-2) var(--ng-space-3);
+}
+
+.ng-status-trigger { border: 0; cursor: default; font-family: var(--ng-font-mono); }
+
+.ng-status-tip {
+  position: absolute;
+  top: calc(100% + var(--ng-space-2));
+  left: 0;
+  z-index: 5;
+  width: max-content;
+  max-width: min(320px, 70vw);
+  padding: var(--ng-space-3) var(--ng-space-4);
+  background: var(--ng-ink);
+  color: var(--ng-bone);
+  font-family: var(--ng-font-body);
+  font-size: 14px;
+  line-height: 1.45;
+  box-shadow: var(--ng-shadow-pressed);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity var(--ng-duration) var(--ng-ease), visibility var(--ng-duration);
+}
+
+.ng-status:hover .ng-status-tip,
+.ng-status-trigger:focus-visible + .ng-status-tip { opacity: 1; visibility: visible; }
+
+.ng-badge-note {
+  color: var(--ng-muted);
+  font-family: var(--ng-font-mono);
+  font-size: var(--ng-size-meta);
+  letter-spacing: var(--ng-tracking-meta);
+}
+
+/* --- Buttons ------------------------------------------------------ */
+
+.ng-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--ng-space-2);
+  min-height: var(--ng-hit-target);
+  padding: 0 var(--ng-space-5);
+  border: var(--ng-border);
+  box-shadow: var(--ng-shadow);
+  background: var(--ng-paper);
+  color: var(--ng-ink);
+  font-family: var(--ng-font-mono);
+  font-weight: 700;
+  font-size: var(--ng-size-label);
+  letter-spacing: var(--ng-tracking-label);
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform var(--ng-duration) var(--ng-ease),
+              box-shadow var(--ng-duration) var(--ng-ease),
+              background-color var(--ng-duration) var(--ng-ease),
+              color var(--ng-duration) var(--ng-ease);
+}
+
+.ng-btn:hover { background: var(--ng-ink); color: var(--ng-bone); transform: translate(4px, 4px); box-shadow: var(--ng-shadow-pressed); }
+
+.ng-btn--primary {
+  background: var(--ng-accent);
+  font-family: var(--ng-font-display);
+  font-size: 19px;
+  letter-spacing: -0.01em;
+  padding-inline: var(--ng-space-6);
+  min-height: 56px;
+}
+
+.ng-btn--primary:hover { background: var(--ng-accent); color: var(--ng-ink); }
+
+.ng-btn--compact { padding-inline: var(--ng-space-4); }
+
+/* Download: icon and label left, size and format pushed right. */
+.ng-btn--download { flex: 1; justify-content: flex-start; gap: var(--ng-space-3); }
+
+.ng-btn-meta {
+  margin-left: auto;
+  padding-left: var(--ng-space-4);
+  font-family: var(--ng-font-mono);
+  font-size: var(--ng-size-label);
+  font-weight: 700;
+  letter-spacing: var(--ng-tracking-meta);
+  color: #fff; /* small text on crimson: white gives 5:1, black only 3.7:1 */
+  white-space: nowrap;
+}
+
+.ng-btn--square { width: 56px; min-height: 56px; padding: 0; flex: none; }
+
+/* Phone: size and format drop under the label instead of widening the button. */
+@media (max-width: 699px) {
+  .ng-btn--download { flex-wrap: wrap; padding-block: var(--ng-space-3); row-gap: var(--ng-space-1); }
+}
+
+.ng-btn[aria-disabled="true"] {
+  background: var(--ng-bone);
+  color: var(--ng-muted);
+  box-shadow: none;
+  cursor: default;
+}
+
+.ng-btn[aria-disabled="true"]:hover { transform: none; background: var(--ng-bone); color: var(--ng-muted); }
+
+/* --- Detail panel ------------------------------------------------- */
+
+.ng-panel {
+  position: fixed;
+  inset-block: 0;
+  right: 0;
+  width: var(--ng-panel-width);
+  max-width: 100%;
+  background: var(--ng-paper);
+  border-left: var(--ng-border);
+  display: flex;
+  flex-direction: column;
+  transform: translateX(100%);
+  transition: transform var(--ng-duration) var(--ng-ease);
+  z-index: 20;
+}
+
+.ng-panel[data-open="true"] { transform: translateX(0); }
+.ng-panel-scroll { overflow-y: auto; flex: 1; }
+
+.ng-panel-art {
+  position: relative;
+  aspect-ratio: 21 / 9;
+  border-bottom: var(--ng-border);
+  background: var(--ng-art-ink);
+}
+
+.ng-panel-art[data-tone="red"] { background: var(--ng-accent); }
+.ng-panel-art[data-tone="graphite"] { background: var(--ng-graphite); }
+.ng-panel-art img { width: 100%; height: 100%; object-fit: cover; }
+
+/* Panel carousel: horizontal scroller snapping to slides. Without JS it
+   works as plain scrolling (touch, Shift+wheel, scrollbar). */
+.ng-carousel { aspect-ratio: 16 / 9; }
+
+.ng-carousel-track {
+  display: flex;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.ng-carousel-track::-webkit-scrollbar { display: none; }
+.ng-carousel-track:focus-visible { outline: var(--ng-border-width) solid var(--ng-accent); outline-offset: -6px; }
+.ng-carousel-slide { flex: 0 0 100%; scroll-snap-align: start; scroll-snap-stop: always; }
+.ng-carousel-slide picture { display: block; height: 100%; }
+
+.ng-carousel-controls {
+  position: absolute;
+  inset-inline: var(--ng-space-3);
+  bottom: var(--ng-space-3);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  pointer-events: none;
+}
+
+.ng-carousel-controls[hidden] { display: none; }
+
+.ng-carousel-arrow {
+  width: var(--ng-hit-target);
+  height: var(--ng-hit-target);
+  display: grid;
+  place-items: center;
+  background: var(--ng-paper);
+  color: var(--ng-ink);
+  border: var(--ng-border);
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.ng-carousel-arrow:hover:not(:disabled) { background: var(--ng-accent); }
+.ng-carousel-arrow:focus-visible { outline: var(--ng-border-width) solid var(--ng-accent); outline-offset: 3px; }
+.ng-carousel-arrow:disabled { opacity: 0; cursor: default; }
+
+.ng-carousel-marks { display: flex; gap: var(--ng-space-2); }
+
+.ng-carousel-mark {
+  width: 12px;
+  height: 12px;
+  background: var(--ng-paper);
+  border: var(--ng-border);
+}
+
+.ng-carousel-mark[data-active] { background: var(--ng-accent); }
+
+.ng-panel-close {
+  position: absolute;
+  top: var(--ng-space-3);
+  right: var(--ng-space-3);
+  width: var(--ng-hit-target);
+  height: var(--ng-hit-target);
+  display: grid;
+  place-items: center;
+  background: var(--ng-paper);
+  border: var(--ng-border);
+  cursor: pointer;
+  z-index: 2;
+}
+
+.ng-panel-body {
+  padding: var(--ng-space-7);
+  display: flex;
+  flex-direction: column;
+  gap: var(--ng-space-6);
+}
+
+.ng-panel-title {
+  font-size: var(--ng-size-panel-title);
+  line-height: 0.98;
+  letter-spacing: var(--ng-tracking-display);
+}
+
+.ng-panel-status { display: flex; align-items: center; gap: var(--ng-space-3); flex-wrap: wrap; }
+
+.ng-quote { border: var(--ng-border); padding: var(--ng-space-6); position: relative; }
+
+.ng-quote-mark {
+  position: absolute;
+  top: -18px;
+  left: var(--ng-space-5);
+  background: var(--ng-paper);
+  padding-inline: var(--ng-space-2);
+  color: var(--ng-accent);
+  font-family: var(--ng-font-display);
+  font-size: 40px;
+  line-height: 1;
+}
+
+.ng-quote p { margin: 0; font-size: var(--ng-size-quote); line-height: var(--ng-leading-quote); }
+
+.ng-quote cite {
+  display: block;
+  margin-top: var(--ng-space-4);
+  font-style: normal;
+  color: var(--ng-muted);
+  font-family: var(--ng-font-mono);
+  font-size: var(--ng-size-meta);
+  letter-spacing: var(--ng-tracking-meta);
+}
+
+/* Title and store buttons in one row. A long title shrinks to fit one line
+   next to the buttons: available width (panel minus buttons, ~124 px per store)
+   divided by character count times the average Archivo Black capital width with
+   spaces (~0.54 em, 0.58 used for margin). Never below 24 px; an extremely long title
+   may then wrap to a second line, the buttons still stay beside it. */
+.ng-panel-head {
+  container-type: inline-size;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--ng-space-4);
+}
+
+.ng-panel-head .ng-panel-title {
+  min-width: 0;
+  font-size: clamp(
+    24px,
+    (100cqi - var(--ng-stores) * 124px - var(--ng-space-4)) / (var(--ng-title-len) * 0.58),
+    var(--ng-size-panel-title)
+  );
+}
+
+.ng-panel-stores { display: flex; gap: var(--ng-space-3); flex: none; }
+
+/* Phone: no room beside the title, buttons drop below at full title size. */
+@media (max-width: 699px) {
+  .ng-panel-head { flex-wrap: wrap; }
+  .ng-panel-head .ng-panel-title { font-size: var(--ng-size-panel-title); }
+}
+
+.ng-panel-actions { display: flex; flex-direction: column; gap: var(--ng-space-3); }
+.ng-panel-actions-row { display: flex; gap: var(--ng-space-4); }
+
+.ng-table { width: 100%; border-collapse: collapse; border: var(--ng-border); }
+
+.ng-table th, .ng-table td {
+  text-align: left;
+  padding: var(--ng-space-3) var(--ng-space-4);
+  border-bottom: 1px solid var(--ng-hairline);
+  font-family: var(--ng-font-mono);
+  font-size: var(--ng-size-meta);
+  letter-spacing: var(--ng-tracking-meta);
+  vertical-align: top;
+}
+
+.ng-table th { color: var(--ng-muted); font-weight: 400; width: 38%; }
+.ng-table tr:last-child th, .ng-table tr:last-child td { border-bottom: 0; }
+
+.ng-scrim {
+  position: fixed;
+  inset: 0;
+  background: var(--ng-scrim);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--ng-duration) var(--ng-ease);
+  z-index: 10;
+}
+
+body[data-panel-open="true"] .ng-scrim { opacity: 1; pointer-events: auto; }
+
+
+.ng-panel-handle { display: none; }
+
+@media (max-width: 699px) {
+  .ng-panel {
+    inset: auto 0 0 0;
+    width: 100%;
+    max-height: var(--ng-drawer-max-height);
+    border-left: 0;
+    border-top: var(--ng-border);
+    transform: translateY(100%);
+  }
+  .ng-panel[data-open="true"] { transform: translateY(0); }
+  .ng-panel-handle {
+    display: block;
+    width: 52px;
+    height: 5px;
+    border-radius: 3px;
+    background: var(--ng-ink);
+    margin: var(--ng-space-3) auto;
+    flex: none;
+  }
+}
+
+/* --- FAQ ----------------------------------------------------------- */
+
+/* On the page background, under the white games section. Questions are plain <details>, no JS. */
+.ng-faq {
+  border-bottom: var(--ng-border);
+  padding-block: var(--ng-space-16) var(--ng-space-20);
+  scroll-margin-top: var(--ng-space-4);
+}
+
+.ng-faq .ng-section-title { margin-bottom: var(--ng-space-10); text-align: center; }
+
+.ng-faq-list { display: grid; gap: var(--ng-space-4); max-width: 900px; margin-inline: auto; }
+
+.ng-faq-item {
+  background: var(--ng-paper);
+  border: var(--ng-border);
+  transition: box-shadow var(--ng-duration) var(--ng-ease);
+}
+
+.ng-faq-item[open] { box-shadow: var(--ng-shadow-open); }
+
+.ng-faq-question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--ng-space-4);
+  min-height: var(--ng-hit-target);
+  padding: var(--ng-space-4) var(--ng-space-5);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.35;
+  cursor: pointer;
+  list-style: none;
+}
+
+.ng-faq-question::-webkit-details-marker { display: none; }
+.ng-faq-question:hover { color: var(--ng-accent); }
+.ng-faq-question:focus-visible { outline: var(--ng-border-width) solid var(--ng-accent); outline-offset: 3px; }
+
+.ng-faq-chevron { flex: none; transition: transform var(--ng-duration) var(--ng-ease); }
+.ng-faq-item[open] .ng-faq-chevron { transform: rotate(180deg); }
+
+.ng-faq-answer {
+  border-top: 1px solid var(--ng-hairline);
+  padding: var(--ng-space-4) var(--ng-space-5) var(--ng-space-5);
+  max-width: 72ch;
+}
+
+.ng-faq-answer p { margin: 0; }
+.ng-faq-answer p + p { margin-top: var(--ng-space-3); }
+.ng-faq-answer code { font-family: var(--ng-font-mono); font-size: 14px; background: var(--ng-bone); padding: 2px 5px; }
+.ng-faq-answer a { text-decoration-thickness: 2px; text-underline-offset: 3px; }
+.ng-faq-answer a:hover { color: var(--ng-accent); }
+
+@media (max-width: 699px) {
+  .ng-faq-question { font-size: 16px; padding-inline: var(--ng-space-4); }
+  .ng-faq-answer { padding-inline: var(--ng-space-4); }
+}
+
+/* --- Footer ------------------------------------------------------- */
+
+/* Just the note line: the games section above already has a bottom border. */
+.ng-footer { padding-block: var(--ng-space-8); }
+
+.ng-footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--ng-space-6);
+  flex-wrap: wrap;
+  color: var(--ng-muted);
+}
+
+/* --- Prose (README rendered on the game page) --------------------- */
+
+.ng-prose { max-width: 68ch; }
+
+.ng-prose h2 {
+  font-family: var(--ng-font-display);
+  text-transform: uppercase;
+  letter-spacing: var(--ng-tracking-display);
+  font-size: 30px;
+  margin-block: var(--ng-space-12) var(--ng-space-4);
+}
+
+.ng-prose h3 {
+  font-family: var(--ng-font-display);
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-block: var(--ng-space-8) var(--ng-space-3);
+}
+
+.ng-prose p, .ng-prose li { font-size: 17px; }
+.ng-prose code { font-family: var(--ng-font-mono); font-size: 14px; background: var(--ng-bone); padding: 2px 5px; }
+.ng-prose pre { border: var(--ng-border); padding: var(--ng-space-5); overflow-x: auto; background: var(--ng-bone); }
+.ng-prose pre code { background: none; padding: 0; }
+
+.ng-prose blockquote {
+  border-left: var(--ng-border);
+  margin-left: 0;
+  padding-left: var(--ng-space-5);
+  color: var(--ng-muted);
+}
+
+.ng-prose table { width: 100%; border-collapse: collapse; border: var(--ng-border); }
+.ng-prose th, .ng-prose td { text-align: left; padding: var(--ng-space-3) var(--ng-space-4); border-bottom: 1px solid var(--ng-hairline); font-size: 15px; }
+.ng-prose a { text-decoration-thickness: 2px; text-underline-offset: 3px; }
+.ng-prose a:hover { color: var(--ng-accent); }
+
+/* Panel prose is narrower and quieter: it is an instruction, not an article. */
+.ng-prose--panel { max-width: none; border-top: var(--ng-border); padding-top: var(--ng-space-6); }
+.ng-prose--panel h1 { display: none; }
+.ng-prose--panel h2 { font-size: 22px; margin-block: var(--ng-space-8) var(--ng-space-3); }
+.ng-prose--panel h3 { font-size: 16px; }
+.ng-prose--panel p, .ng-prose--panel li { font-size: 15px; }
+.ng-prose--panel pre { font-size: 13px; padding: var(--ng-space-4); }
+
+.ng-visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}

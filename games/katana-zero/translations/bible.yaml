@@ -1,0 +1,160 @@
+# Katana ZERO bible: facts and decisions for the translation.
+# The speaker is not stored with entries (the tables hold text only), so past-tense gender
+# comes from the Russian version of the same line.
+
+sources:
+  - id: ru
+    description: Russian version of the same line (the slot we take); past-tense gender and forms of address
+  - id: context
+    description: Neighboring lines in init_lines, read in game order
+  - id: game
+    description: Knowledge of the Katana ZERO plot (Askiisoft, 2019)
+
+characters:
+  - id: zero
+    name: Zero
+    gender: m
+    addresses_player: '-'
+    register: laconic, cold, short sentences; the player's reply choices
+    declension: indeclinable ("z Zero"); Russian declines "Ноль", Polish keeps it indeclinable
+    source: [ru, game]
+  - id: therapist
+    name: psychiatra (Therapist)
+    gender: m
+    addresses_player: ty
+    register: clinical, polite on the surface, manipulative; swears only in anger
+    source: [ru, game]
+  - id: girl
+    name: dziewczynka (The Girl)
+    gender: f
+    addresses_player: ty
+    register: childlike, cheerful, chatty; plays detective
+    source: [ru, game]
+  - id: dragon
+    name: Smok (The Dragon, Piętnasty)
+    gender: m
+    source: [ru, game]
+  - id: v
+    name: V
+    gender: m
+    register: mocking, cocky
+    declension: indeclinable
+    source: [ru, game]
+  - id: snow
+    name: Snow
+    gender: f
+    declension: indeclinable
+    source: [game, ru]
+  - id: receptionist
+    name: recepcjonistka (hotel Murdower, Ośrodek Badań Synergicznych)
+    gender: f
+    addresses_player: pan
+    register: enthusiastic anime fan, polite
+    source: [ru]
+  - id: kissyface
+    name: Kissyface
+    gender: m
+    declension: indeclinable ("panie Kissyface")
+    source: [ru, context]
+  - id: comedy
+    name: Komedia
+    gender: m
+    register: casual, nasty giggle "hi hi hiiii"
+    source: [ru]
+  - id: tragedy
+    name: Tragedia
+    gender: '?'
+    register: archaic, poetic ("błędne serce")
+    source: [context]
+
+terms:
+  - en: the Dragon
+    pl: Smok
+    forms: [smok, smoka, smokiem, smoku]
+    source: decision
+    note: Chinese dragon, the assassin's nickname; Russian "Змей" is their choice, Polish "Smok" is literal and natural
+  - en: Chronos
+    pl: Chronos
+    forms: [chronos]
+    source: decision
+    note: drug name, declined as a masculine noun ("Chronosu", "Chronosem")
+  - en: 'NULL'
+    pl: 'NULL'
+    forms: ['null']
+    source: decision
+    note: soldier program name, stays in caps; "Gamma NULL" unchanged
+  - en: New Mecca
+    pl: Nowa Mekka
+    forms: [nowa mekk, nowej mekk, nową mekk]
+    source: decision
+  - en: (3rd|Third) District
+    pl: Trzecia Dzielnica
+    forms: [dzielnic]
+    source: decision
+  - en: Juncture
+    pl: Juncture
+    forms: [juncture]
+    source: decision
+    note: name of the authorities, stays and is indeclinable ("władze Juncture")
+  - en: dossier
+    pl: teczka
+    forms: [teczk, teczce]
+    source: decision
+    note: '"teczka" sounds natural in speech; in the UI "Otwórz teczkę"'
+  - en: precognition
+    pl: dar przewidywania
+    forms: [przewidywan]
+    source: decision
+  - en: '\*Hang up\*'
+    pl: '*Rozłącz się*'
+    forms: [rozłącz]
+    source: decision
+  - en: Behemoth
+    pl: Behemot
+    forms: [behemot]
+    source: decision
+  - en: Leviathan
+    pl: Lewiatan
+    forms: [lewiatan]
+    source: decision
+  - en: cromags?
+    pl: kroman
+    forms: [kroman]
+    source: decision
+    note: war slur from Cro-Magnon; Russian has "унтерменш"
+  - en: withdrawal
+    pl: głód
+    forms: [głod, głód]
+    source: decision
+  - en: PRESS TO EJECT
+    pl: WYSUŃ KASETĘ
+    forms: [wysuń]
+    source: user
+    note: rejected "NACIŚNIJ, ABY WYSUNĄĆ" and "NACIŚNIJ, ABY WYJĄĆ KASETĘ" (too long for the small field)
+  - en: Strong Terry
+    pl: Silny Terry
+    forms: [siln, terr]
+    source: decision
+
+keep_english:
+  - Zero
+  - V
+  - Snow
+  - Pinkachu
+  - Kissyface
+  - Electrohead
+  - Webflix
+  - Katana ZERO
+  - ASKIISOFT
+  - Ludowic
+  - Bill Kiley
+  - Al-Qasim
+  - Dawoud Bey
+  - Josh Rose
+  - Fa Yuan
+  - Leon von Alvensleben
+  - Shinju Sakamura
+  - Murdower
+  - Juncture
+  - Chronos
+  - 'NULL'

@@ -1,0 +1,23 @@
+SPRAWL PL 0.1 — wersja testowa
+
+717/717 wpisów zasobu tekstowego: menu, HUD, dialogi, kodeks, samouczki,
+interakcje, nazwy i opisy. Dubbing i napisy w grafikach nie są tłumaczone.
+Wersja źródłowa: GOG, 2024.12.09 (v1.6).
+
+INSTALACJA
+1. Zamknij grę.
+2. Wypakuj ZIP do katalogu gry, tak aby Sprawl-WindowsNoEditor_pl_P.pak
+   trafił do Sprawl/Content/Paks obok Sprawl-WindowsNoEditor.pak.
+   Jeśli instalujesz sam plik .pak, skopiuj go w to samo miejsce.
+   Zachowaj kopię poprzedniej wersji spolszczenia poza katalogiem Paks.
+3. Uruchom grę normalnie, bez dodatkowych parametrów.
+4. Strzałkami przy fladze wybierz biało-czerwoną flagę Polski.
+   Angielski i pozostałe języki są nadal dostępne.
+
+Selektor, zapis wyboru i próbka tekstów w rozgrywce zostały przetestowane.
+Pełna kampania i układ wszystkich tekstów czekają na weryfikację wizualną.
+
+USUNIĘCIE
+Przy zamkniętej grze usuń tylko Sprawl-WindowsNoEditor_pl_P.pak.
+Oryginalnego Sprawl-WindowsNoEditor.pak nie zmieniamy ani nie usuwamy.
+Aby wrócić do poprzedniego spolszczenia, przywróć jego kopię pod tą samą nazwą.

@@ -1,0 +1,32 @@
+# Broforce: groups for the review workspace.
+# Format: docs/workspace.md.
+
+format: 1
+
+groups:
+  - id: menu
+    name: Menu i ustawienia
+  - id: world
+    name: Mapa świata i kampania
+  - id: cutscenes
+    name: Przerywniki
+  - id: results
+    name: Wyniki i samouczek
+  - id: multiplayer
+    name: Gra wieloosobowa, lobby i czat
+  - id: steam
+    name: Steam, obecność i błędy
+  - id: custom
+    name: Własne poziomy
+  - id: other
+    name: Pozostałe (LOC, postacie)
+
+rules:
+  - {group: menu, match: '^MENU'}
+  - {group: world, match: '^WORLD'}
+  - {group: cutscenes, match: '^CUTSCENE'}
+  - {group: results, match: '^(RESULT|TUTORIAL|GEN)'}
+  - {group: multiplayer, match: '^(JOINSCREEN|LOBBY|VERSUS|CHAT|PLAYER)'}
+  - {group: steam, match: '^(STEAM|PRESENCE|ERROR)'}
+  - {group: custom, match: '^CUSTOM'}
+  - {group: other, match: '.'}

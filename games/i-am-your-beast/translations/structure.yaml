@@ -1,0 +1,32 @@
+# I Am Your Beast: groups for the review workspace.
+# Format: docs/workspace.md.
+#
+# phrase/<scene>/<n> are scene subtitle segments in time order; within a group they
+# stand in order, scene after scene. Scene speakers not established, so no sequences.
+# fleece/<id> is one bank of Fleece passages, recognized by title (context): numeric
+# titles and "New Passage" are stories and memories; the rest mixes menus, settings,
+# bonus objectives, credits and enemy barks (to be split further).
+
+format: 1
+
+groups:
+  - id: interface
+    name: Napisy w scenach (menu, ekrany)
+  - id: menu-hud
+    name: Fleece — menu, ustawienia, cele, okrzyki, napisy końcowe
+  - id: tutorial
+    name: Samouczek (napisy)
+  - id: missions
+    name: Misje — rozmowy przez radio (sceny 2–24)
+  - id: cutscenes
+    name: Przerywniki i zakończenie
+  - id: stories
+    name: Fleece — opowieści i wspomnienia
+
+rules:
+  - {group: interface, match: '^tmp/'}
+  - {group: tutorial, match: '^phrase/TUT_'}
+  - {group: cutscenes, match: '^phrase/(SCENE \d+|FINAL CUTSCENE|ENDING|CATCH|RELEASE|Example Cutscene No Text)/'}
+  - {group: missions, match: '^phrase/\d+[ _]'}
+  - {group: stories, match: '^fleece/', context: '^(\d+(\.\d+)*|New Passage)$'}
+  - {group: menu-hud, match: '^fleece/'}

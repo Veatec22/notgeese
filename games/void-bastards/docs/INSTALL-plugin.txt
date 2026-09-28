@@ -1,0 +1,50 @@
+VOID BASTARDS — Not Geese PL 0.1 (WERSJA TESTOWA)
+
+Przetłumaczone są wszystkie teksty gry: menu i opcje, HUD, komiksy fabularne,
+polecenia B.A.C.S. i rozmowy piratów, przedmioty, ulepszenia i warsztat, mapa
+gwiezdna ze zdarzeniami, statki, cechy postaci, wyzwania, osiągnięcia i DLC Tydy.
+Dubbing zostaje angielski. Brakujące w fontach gry polskie litery plugin składa
+w czasie działania z liter tego samego fontu.
+
+Paczka NIE PODMIENIA żadnego pliku gry. Polski jest dokładany do tabeli tłumaczeń
+w czasie działania gry; oryginalne języki pozostają dostępne.
+
+INSTALACJA (przy zamkniętej grze)
+1. Wypakuj całą zawartość archiwum do katalogu gry — tego, w którym leży
+   „Void Bastards.exe”. W Steamie: Zarządzaj > Przeglądaj pliki lokalne.
+2. Uruchom grę normalnie. Pierwsze uruchomienie trwa dłużej.
+3. W menu głównym wybierz Language, a potem Polski.
+
+CO WARTO SPRAWDZIĆ
+- Polskie litery w każdym rodzaju tekstu: menu, komiksy, mapa gwiezdna, warsztat.
+- Długie nazwy w warsztacie i na mapie gwiezdnej — czy nic nie jest ucięte.
+- Zdarzenia na mapie gwiezdnej (długie opisy) i rozmowy piratów.
+
+USUNIĘCIE
+Skasuj z katalogu gry: winhttp.dll, doorstop_config.ini, .doorstop_version,
+BepInEx-LICENSE.txt, READ-ME.txt oraz cały katalog BepInEx.
+Plików gry nie ruszamy, więc nie ma czego przywracać.
+
+WERSJE GRY
+Przygotowane na wydaniu ze Steama 2.0.24, Unity 2017.4.21f1, 64-bitowym.
+Spolszczenie nie jest przypięte do wersji gry — wpina się w system tłumaczeń
+po nazwach. Nowe kwestie po aktualizacji zostaną po angielsku.
+
+JEŚLI COŚ NIE DZIAŁA
+Log leży w BepInEx/LogOutput.log. Powinna być w nim linia „Polish added as
+language 10 of 10”, a po wybraniu polskiego — złożone polskie litery i lista fontów z informacją o polskich
+literach. Prześlij ten plik razem ze zrzutem ekranu.
+
+CO JEST W PACZCE
+BepInEx 5.4.23.5 — otwarta dokładka uruchamiająca modyfikacje w grach Unity.
+BepInEx/plugins/notgeeseVoidBastards — nasz plugin i pl.tsv z tekstami.
+
+LICENCJE
+Spolszczenie i plugin: MIT, BepInEx/plugins/notgeeseVoidBastards/LICENSE-notgeese.txt
+BepInEx: LGPL-2.1, BepInEx-LICENSE.txt. Źródła tej wersji leżą obok paczki
+i na https://github.com/BepInEx/BepInEx/releases/tag/v5.4.23.5
+
+AKTUALIZACJA ZE STARSZEJ PACZKI
+Starsze wydania instalowały plugin w folderze BepInEx/plugins/NieGesiVoidBastards
+(poprzednia nazwa projektu). Usuń ten folder przed wypakowaniem nowej paczki.
+Jeśli zostanie, BepInEx uruchomi starą wersję, a nową pominie.

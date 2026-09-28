@@ -1,0 +1,25 @@
+slug: anger-foot
+title: Anger Foot
+version: "0.1"
+entries: { done: 1774, total: 1774 }
+tested: confirmed
+engine: Unity 2019.4.35f1
+approach: Plugin przejmuje pusty slot włoski i podaje teksty w czasie działania gry. Żaden plik gry nie jest podmieniany.
+scope: menu, ustawienia, samouczki, dialogi, nazwy poziomów, buty, osiągnięcia, napisy końcowe
+tested_on:
+  - store: gog
+    version: "1.46"
+year: 2024
+steam_appid: 1978590
+stores:
+  steam: https://store.steampowered.com/app/1978590/
+  gog: https://www.gog.com/en/game/anger_foot
+quote:
+  text:
+  source:
+download:
+  kind: zip
+  file: Anger-Foot-PL-0.1.zip
+  bytes: 708500
+gallery: [1, 2, 3, 4, 5]
+test_notes: Language button and text swap confirmed in game (GOG 1.46). Full campaign pending. Two table entries are empty in the original too.

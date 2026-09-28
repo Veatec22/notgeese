@@ -1,0 +1,5156 @@
+[
+  {
+    "namespace": "",
+    "key": "NameConsumableHealthUpSmall",
+    "english": "+25 HP",
+    "polish": "+25 PŻ"
+  },
+  {
+    "namespace": "",
+    "key": "NameConsumableShieldUp",
+    "english": "+25 Shield",
+    "polish": "+25 tarczy"
+  },
+  {
+    "namespace": "",
+    "key": "NameConsumableHealthUpBig",
+    "english": "+50 HP",
+    "polish": "+50 PŻ"
+  },
+  {
+    "namespace": "",
+    "key": "1F84178D4F1121C876F8F7B1CB68DADE",
+    "english": "-",
+    "polish": "-"
+  },
+  {
+    "namespace": "",
+    "key": "3C991DC4425D19B6499D1593C15B10D3",
+    "english": "-",
+    "polish": "-"
+  },
+  {
+    "namespace": "",
+    "key": "422D60C348C4781B517A8AABE9B08083",
+    "english": "-",
+    "polish": "-"
+  },
+  {
+    "namespace": "",
+    "key": "B4CFC44949D9CB3AA34F26980C31C19A",
+    "english": "-",
+    "polish": "-"
+  },
+  {
+    "namespace": "",
+    "key": "4F40E78E4808F88013C457B261A2A114",
+    "english": "- Keybind will be automatically saved -",
+    "polish": "- Przypisanie zapisze się automatycznie -"
+  },
+  {
+    "namespace": "",
+    "key": "NameConsumableAimUp",
+    "english": "-UNUSED-",
+    "polish": "-NIEUŻYWANE-"
+  },
+  {
+    "namespace": "",
+    "key": "NameConsumableJumpUp",
+    "english": "-UNUSED-",
+    "polish": "-NIEUŻYWANE-"
+  },
+  {
+    "namespace": "",
+    "key": "2B3FA99C491D7015C8D8CF8503B5023F",
+    "english": "0",
+    "polish": "0"
+  },
+  {
+    "namespace": "",
+    "key": "5F69CD454C8886C861CA51990E5FD6DB",
+    "english": "0",
+    "polish": "0"
+  },
+  {
+    "namespace": "",
+    "key": "99189122490AD3DF41ECC38DE2219507",
+    "english": "0",
+    "polish": "0"
+  },
+  {
+    "namespace": "",
+    "key": "0D0A90F849A56A8EB53EB798702D2C81",
+    "english": "<p>Adjust horizontal field of view. This determines how much of the world you can see.</>",
+    "polish": "<p>Ustawia poziome pole widzenia, czyli to, ile świata widać na ekranie.</>"
+  },
+  {
+    "namespace": "",
+    "key": "47DE825D45B74207DE21F587510C9FC8",
+    "english": "<p>Adjust to which axis FOV is bound.</>",
+    "polish": "<p>Ustala, do której osi przypisane jest pole widzenia.</>"
+  },
+  {
+    "namespace": "",
+    "key": "6AD33E994201EBA3AE0A758C016561D9",
+    "english": "<p>Borderless Window will allow you to switch between apps while playing.</>",
+    "polish": "<p>Okno bez ramki pozwala przełączać się między aplikacjami w trakcie gry.</>"
+  },
+  {
+    "namespace": "",
+    "key": "7CFFAEE4481EC5A8B6832E90EF7DA678",
+    "english": "<p>Borderless Window will allow you to switch between apps while playing.</>",
+    "polish": "<p>Okno bez ramki pozwala przełączać się między aplikacjami w trakcie gry.</>"
+  },
+  {
+    "namespace": "",
+    "key": "9E14C03343B12F02048E1FA8A32764DB",
+    "english": "<p>Borderless Window will allow you to switch between apps while playing.</>",
+    "polish": "<p>Okno bez ramki pozwala przełączać się między aplikacjami w trakcie gry.</>"
+  },
+  {
+    "namespace": "",
+    "key": "203424A243EFE9031A9691B2262466B4",
+    "english": "<p>Change the brightness of the game.</>",
+    "polish": "<p>Zmienia jasność obrazu gry.</>"
+  },
+  {
+    "namespace": "",
+    "key": "7A70584A46DAA5F663AED0B94A55FC5A",
+    "english": "<p>Change the quality of edge softening.</>",
+    "polish": "<p>Zmienia jakość wygładzania krawędzi.</>"
+  },
+  {
+    "namespace": "",
+    "key": "9FE5765F4C56D8CF33DC9BB77CB7924A",
+    "english": "<p>Change the rendering resolution without changing the window size.</>",
+    "polish": "<p>Zmienia rozdzielczość renderowania bez zmiany rozmiaru okna.</>"
+  },
+  {
+    "namespace": "",
+    "key": "66971F4D46C8584CDC8563B66B066D5C",
+    "english": "<p>Change the strength of the motion blur.</>",
+    "polish": "<p>Zmienia siłę rozmycia ruchu.</>"
+  },
+  {
+    "namespace": "",
+    "key": "84C18F994D1B01BD5CCEE49513985E22",
+    "english": "<p>Change wheather the game renders in fullscreen or inside a window.</>\r\n",
+    "polish": "<p>Decyduje, czy gra wyświetla się na pełnym ekranie, czy w oknie.</>\r\n"
+  },
+  {
+    "namespace": "",
+    "key": "AA5D13C34989597E1B9D7EA0978634E6",
+    "english": "<p>Change wheather the game renders in fullscreen or inside a window.</>\r\n",
+    "polish": "<p>Decyduje, czy gra wyświetla się na pełnym ekranie, czy w oknie.</>\r\n"
+  },
+  {
+    "namespace": "",
+    "key": "BEC40D484447ECD9D25E029BE9FB91CC",
+    "english": "<p>Change wheather the game renders in fullscreen or inside a window.</>\r\n",
+    "polish": "<p>Decyduje, czy gra wyświetla się na pełnym ekranie, czy w oknie.</>\r\n"
+  },
+  {
+    "namespace": "",
+    "key": "9F30A36746BAF0E6DE399AA511CD6DB8",
+    "english": "<p>Change your game width and height to any supported resolution.</>\r\n",
+    "polish": "<p>Ustawia szerokość i wysokość obrazu na dowolną obsługiwaną rozdzielczość.</>\r\n"
+  },
+  {
+    "namespace": "",
+    "key": "DB52557B42420CE53AA61BB6E0385B42",
+    "english": "<p>Default is 0</>",
+    "polish": "<p>Domyślnie 0</>"
+  },
+  {
+    "namespace": "",
+    "key": "074B1CBE4D9C4ADA812DC9A62EB415B0",
+    "english": "<p>Default is 2.2</>",
+    "polish": "<p>Domyślnie 2,2</>"
+  },
+  {
+    "namespace": "",
+    "key": "9B0C7B9242D9999449CC56A5B977AA61",
+    "english": "<p>Dynamically adjust your screen resolution depending on your game performance.</>",
+    "polish": "<p>Dopasowuje rozdzielczość w locie do wydajności gry.</>"
+  },
+  {
+    "namespace": "",
+    "key": "1191A8B84AD0B9704A7FF79A548DF9EC",
+    "english": "<p>Increasing FOV will have some performance impact. For multi-monitor setup you might want to reduce it to avoid stretching.</>",
+    "polish": "<p>Szersze pole widzenia nieco obniża wydajność. Przy kilku monitorach warto je zmniejszyć, żeby obraz się nie rozciągał.</>"
+  },
+  {
+    "namespace": "",
+    "key": "764B78764822B6C71F0837BFDD1EE450",
+    "english": "<p>Limiting the frame rate can give you consistent experience.</>\r\n",
+    "polish": "<p>Ograniczenie liczby klatek daje równiejszą płynność.</>\r\n"
+  },
+  {
+    "namespace": "",
+    "key": "38B9E6424B59BB600D1AE6A777447F4F",
+    "english": "<p>Lowering the resolution scale will increase the performance but will have a significant impact on visual quality.</>",
+    "polish": "<p>Niższa skala rozdzielczości poprawia wydajność, ale wyraźnie pogarsza jakość obrazu.</>"
+  },
+  {
+    "namespace": "",
+    "key": "81A31CEB482AFA775FE3CF89B441FD12",
+    "english": "<p>Lowering the resolution will increase the performance but will have a significant impact on visual quality.</>",
+    "polish": "<p>Niższa rozdzielczość poprawia wydajność, ale wyraźnie pogarsza jakość obrazu.</>"
+  },
+  {
+    "namespace": "",
+    "key": "E1F556B148E07229A22958B526456E80",
+    "english": "<p>On: minimizes screen tearing issue with slight performance hit</>\r\n<p>Off: turns off refresh rate syncing for better performance.</>",
+    "polish": "<p>Wł.: ogranicza rozrywanie obrazu kosztem niewielkiego spadku wydajności.</>\r\n<p>Wył.: wyłącza synchronizację z odświeżaniem dla lepszej wydajności.</>"
+  },
+  {
+    "namespace": "",
+    "key": "3FFC8B9F491BC8CFD22ECE9BEE7AD9B3",
+    "english": "<p>Only turn this on if your framerate is inconsistent. Normally you don't want your FPS lower than 60.</>",
+    "polish": "<p>Włącz tylko wtedy, gdy liczba klatek jest nierówna. Zwykle nie warto schodzić poniżej 60 FPS.</>"
+  },
+  {
+    "namespace": "",
+    "key": "49874460409B8904621B3CA62921DA4D",
+    "english": "<p>Synchronize game framerate with vertical refresh rate of the monitor for better quality.</>\r\n<p></>\r\n<p>If you are facing any screen tearing issue, turning it on will help reducing it.</>",
+    "polish": "<p>Synchronizuje liczbę klatek z odświeżaniem monitora dla lepszej jakości obrazu.</>\r\n<p></>\r\n<p>Jeśli obraz się rozrywa, włączenie tej opcji pomoże.</>"
+  },
+  {
+    "namespace": "",
+    "key": "3931B2D1464DD842A37D88B3F0FEA1A6",
+    "english": "<p>Turning this on will give you a consistent performance.</>\r\n<p>Only turn this on if you are facing performance issue in some areas.</>",
+    "polish": "<p>Włączenie daje równiejszą wydajność.</>\r\n<p>Włącz tylko wtedy, gdy w niektórych miejscach gra zwalnia.</>"
+  },
+  {
+    "namespace": "",
+    "key": "6087A3D348DD8A26072CE688A5539596",
+    "english": "<p>X is default.</>\r\n<p>Y is for ultrawide.</>",
+    "polish": "<p>X jest domyślna.</>\r\n<p>Y dla monitorów ultrapanoramicznych.</>"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionConsumableLuckyDice",
+    "english": "A very lucky dice",
+    "polish": "Bardzo szczęśliwa kostka"
+  },
+  {
+    "namespace": "",
+    "key": "8F844EDC4965A601728701BC74350D7A",
+    "english": "ACCELERATE",
+    "polish": "PRZYSPIESZ"
+  },
+  {
+    "namespace": "",
+    "key": "526DD90E4D21EC353CA926B6C6803B1E",
+    "english": "ASGARD I",
+    "polish": "ASGARD I"
+  },
+  {
+    "namespace": "",
+    "key": "F17D719244A7E16B24211D81181A295C",
+    "english": "ASGARD I",
+    "polish": "ASGARD I"
+  },
+  {
+    "namespace": "",
+    "key": "NameConsumableAbilityPowerUp",
+    "english": "Ability Up",
+    "polish": "Wzmocnienie umiejętności"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionBootsOfJump",
+    "english": "Activate jump",
+    "polish": "Aktywuje skok"
+  },
+  {
+    "namespace": "",
+    "key": "NameHeadSwap",
+    "english": "Adventurer's Fedora",
+    "polish": "Fedora poszukiwacza przygód"
+  },
+  {
+    "namespace": "",
+    "key": "FA17843D4499CCE708B7198176262EDB",
+    "english": "Aim Assist",
+    "polish": "Wspomaganie celowania"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionCurseToughened",
+    "english": "All enemies are tougher",
+    "polish": "Wszyscy wrogowie są twardsi"
+  },
+  {
+    "namespace": "",
+    "key": "364B3E934509780240B04FB9134F78ED",
+    "english": "Alt",
+    "polish": "Alt"
+  },
+  {
+    "namespace": "",
+    "key": "NameBootsOfJump",
+    "english": "Angelic Boots",
+    "polish": "Anielskie buty"
+  },
+  {
+    "namespace": "",
+    "key": "10CEDFAD4C43147C1B3F599E2721C69C",
+    "english": "Anti Aliasing Quality",
+    "polish": "Jakość wygładzania krawędzi"
+  },
+  {
+    "namespace": "",
+    "key": "152051C547577AC030EB69B839AE489C",
+    "english": "Anti-Aliasing",
+    "polish": "Wygładzanie krawędzi"
+  },
+  {
+    "namespace": "",
+    "key": "714AB6F744150782FF66948DB98A35E3",
+    "english": "Are you sure?",
+    "polish": "Na pewno?"
+  },
+  {
+    "namespace": "",
+    "key": "D06690AC4CF39A73EF5F6D8C9CEE13D7",
+    "english": "Are you sure?",
+    "polish": "Na pewno?"
+  },
+  {
+    "namespace": "",
+    "key": "04DEBCD647D1693FD648BDBDF45CD69C",
+    "english": "Are you sure? \r\nDo you want to quit the game?",
+    "polish": "Na pewno? \r\nChcesz wyjść z gry?"
+  },
+  {
+    "namespace": "",
+    "key": "CAD6A9764C5D5C56CFC2108DC6182C2A",
+    "english": "Are you sure? \r\nDo you want to quit the game?",
+    "polish": "Na pewno? \r\nChcesz wyjść z gry?"
+  },
+  {
+    "namespace": "",
+    "key": "F757F711430D67F82524B198673A588F",
+    "english": "Are you sure? \r\nDo you want to quit the game?",
+    "polish": "Na pewno? \r\nChcesz wyjść z gry?"
+  },
+  {
+    "namespace": "",
+    "key": "828110C24E71BDBD39D005BE5638EEDA",
+    "english": "Are you sure? All unsaved progress will be lost",
+    "polish": "Na pewno? Niezapisane postępy przepadną"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionShieldBreastplate",
+    "english": "Armour",
+    "polish": "Pancerz"
+  },
+  {
+    "namespace": "",
+    "key": "082BFF4D4717C270215AA991FE210805",
+    "english": "Asgard Color Shift",
+    "polish": "Asgard – przesunięcie barw"
+  },
+  {
+    "namespace": "",
+    "key": "02CB3C6D4427DC66218D7BB9180E1FFD",
+    "english": "Asgard Saturation",
+    "polish": "Asgard – nasycenie"
+  },
+  {
+    "namespace": "",
+    "key": "NameBootsClogsWooden",
+    "english": "Aslög's Clogs",
+    "polish": "Chodaki Aslög"
+  },
+  {
+    "namespace": "",
+    "key": "NameHandRingSlow",
+    "english": "Asp's Whisper",
+    "polish": "Szept żmii"
+  },
+  {
+    "namespace": "",
+    "key": "3D82E30A410AE043123048BF0319B8D4",
+    "english": "Audio",
+    "polish": "Dźwięk"
+  },
+  {
+    "namespace": "",
+    "key": "DECA268245124A4536ED1D841B9F8DD8",
+    "english": "Audio",
+    "polish": "Dźwięk"
+  },
+  {
+    "namespace": "",
+    "key": "E2652C004BF72E8A66BD289C56647EE8",
+    "english": "Audio",
+    "polish": "Dźwięk"
+  },
+  {
+    "namespace": "",
+    "key": "33C108E6419A25488D65DA8A8E742EB2",
+    "english": "AudioLatencyTest",
+    "polish": "AudioLatencyTest"
+  },
+  {
+    "namespace": "",
+    "key": "5BAFC31F4EDBD87CBA9371A22A0624EC",
+    "english": "Auto Rhythm",
+    "polish": "Automatyczny rytm"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionHeadDeadeye",
+    "english": "Autoaim",
+    "polish": "Autocelowanie"
+  },
+  {
+    "namespace": "",
+    "key": "4DBDBD7240F38A182F3E6A948D4A2FE1",
+    "english": "BEST TIME:",
+    "polish": "NAJLEPSZY CZAS:"
+  },
+  {
+    "namespace": "",
+    "key": "05088DF84BF0ABD954F146BCB4A7BCE0",
+    "english": "Back",
+    "polish": "Wróć"
+  },
+  {
+    "namespace": "",
+    "key": "2323B392402F2141C209C7ADF7A58808",
+    "english": "Back",
+    "polish": "Wróć"
+  },
+  {
+    "namespace": "",
+    "key": "4D2281B647C119CF88179CBE1D606C7F",
+    "english": "Back",
+    "polish": "Wróć"
+  },
+  {
+    "namespace": "",
+    "key": "8C0E172B4F99B2128BE115A2D333D2C6",
+    "english": "Back",
+    "polish": "Wróć"
+  },
+  {
+    "namespace": "",
+    "key": "B3E00B4A41932007282C5FABAD219302",
+    "english": "Back",
+    "polish": "Wróć"
+  },
+  {
+    "namespace": "",
+    "key": "C3FA28594C4B3A42D24650A0D62CA34F",
+    "english": "Back",
+    "polish": "Wróć"
+  },
+  {
+    "namespace": "",
+    "key": "E48C86B1494AD359BB70D5B19FE04718",
+    "english": "Back",
+    "polish": "Wróć"
+  },
+  {
+    "namespace": "",
+    "key": "E6842CF14809640289698A8F84FCDCA5",
+    "english": "Back",
+    "polish": "Wróć"
+  },
+  {
+    "namespace": "",
+    "key": "F1B5D226418E398CBD5322B45494A2E5",
+    "english": "Back",
+    "polish": "Wróć"
+  },
+  {
+    "namespace": "",
+    "key": "NameBagOfCoins",
+    "english": "Bag of Coins",
+    "polish": "Sakiewka monet"
+  },
+  {
+    "namespace": "",
+    "key": "NameUltimateRemoteBank",
+    "english": "Banking",
+    "polish": "Bankowość"
+  },
+  {
+    "namespace": "",
+    "key": "NameUltimateDiscount",
+    "english": "Barter",
+    "polish": "Targowanie"
+  },
+  {
+    "namespace": "",
+    "key": "NameShieldCooldown",
+    "english": "Battle Lion",
+    "polish": "Lew bojowy"
+  },
+  {
+    "namespace": "",
+    "key": "NameShieldCritical",
+    "english": "Beserker's Arm",
+    "polish": "Ramię berserkera"
+  },
+  {
+    "namespace": "",
+    "key": "NameSecondaryBlock",
+    "english": "Block",
+    "polish": "Blok"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionSecondaryBlock",
+    "english": "Block attack for time",
+    "polish": "Blokuje ataki przez pewien czas"
+  },
+  {
+    "namespace": "",
+    "key": "NameBootsHeavyMetal",
+    "english": "Boots of Rock",
+    "polish": "Buty rocka"
+  },
+  {
+    "namespace": "",
+    "key": "6F3805924816FD1A1F9CA5A269E274B9",
+    "english": "Borderless Window",
+    "polish": "Okno bez ramki"
+  },
+  {
+    "namespace": "",
+    "key": "NameSecondaryFlak",
+    "english": "Broken Burst",
+    "polish": "Rozbita salwa"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionUltimateSpeed",
+    "english": "Buff speed",
+    "polish": "Premia do szybkości"
+  },
+  {
+    "namespace": "",
+    "key": "NameSecondaryCoinThrow",
+    "english": "Burning Coin",
+    "polish": "Płonąca moneta"
+  },
+  {
+    "namespace": "",
+    "key": "5C998A3E478DD8B2C0B984943373A5D7",
+    "english": "Buttons",
+    "polish": "Przyciski"
+  },
+  {
+    "namespace": "",
+    "key": "BankClosed",
+    "english": "CLOSED",
+    "polish": "ZAMKNIĘTE"
+  },
+  {
+    "namespace": "",
+    "key": "BE6C0DC74B0009A97F2C9F82F2660D66",
+    "english": "COMPLETE",
+    "polish": "UKOŃCZONO"
+  },
+  {
+    "namespace": "",
+    "key": "A71F1D204D149144BDE7A494812DBB3B",
+    "english": "COMPLETE ASGARD TO UNLOCK",
+    "polish": "UKOŃCZ ASGARD, BY ODBLOKOWAĆ"
+  },
+  {
+    "namespace": "",
+    "key": "3804D5F949CF47E15F622DA272B2BBD8",
+    "english": "COMPLETE SVARTALFHEIM TO UNLOCK",
+    "polish": "UKOŃCZ SVARTALFHEIM, BY ODBLOKOWAĆ"
+  },
+  {
+    "namespace": "",
+    "key": "9352DC9648658648DBEF53B5904672F5",
+    "english": "COMPLETE THE GAME WITH ODR TO UNLOCK",
+    "polish": "UKOŃCZ GRĘ JAKO ODR, BY ODBLOKOWAĆ"
+  },
+  {
+    "namespace": "",
+    "key": "BC8C46534AD3466D470BEC8D40180869",
+    "english": "CONFIRM",
+    "polish": "POTWIERDŹ"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionUltimateAlliedAngel",
+    "english": "Call angelic helper",
+    "polish": "Wzywa anielskiego pomocnika"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionArmMedallion",
+    "english": "Carry two weapons",
+    "polish": "Noszenie dwóch broni"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionChestBlankShield",
+    "english": "Cast ultimate",
+    "polish": "Rzuca superumiejętność"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionUltimateBigSnap",
+    "english": "Celestial Drumroll",
+    "polish": "Niebiańskie werble"
+  },
+  {
+    "namespace": "",
+    "key": "NameSecondaryCursedWave",
+    "english": "Celestial Wave",
+    "polish": "Niebiańska fala"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionShieldLightning",
+    "english": "Chain lightning on fire",
+    "polish": "Strzały wywołują łańcuch piorunów"
+  },
+  {
+    "namespace": "",
+    "key": "A1EE9504454CD7D002C8B4A72D1378EC",
+    "english": "Challenges",
+    "polish": "Wyzwania"
+  },
+  {
+    "namespace": "",
+    "key": "CA382F634BF8DB290E7A3AB399728E38",
+    "english": "Challenges",
+    "polish": "Wyzwania"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionHeadMoon",
+    "english": "Chance to freeze enemy on hit",
+    "polish": "Szansa na zamrożenie trafionego wroga"
+  },
+  {
+    "namespace": "",
+    "key": "D0311A2D477CAD64F95EC6B6551D6EF4",
+    "english": "Chapter",
+    "polish": "Rozdział"
+  },
+  {
+    "namespace": "",
+    "key": "B6421F4F41DFA7A596F2D5B6BF3100EB",
+    "english": "Character",
+    "polish": "Postać"
+  },
+  {
+    "namespace": "",
+    "key": "A0996A3E4215DC1256AFC6921601FD0F",
+    "english": "Cinematic",
+    "polish": "Kinowa"
+  },
+  {
+    "namespace": "",
+    "key": "FABB53194C343F13826137B2E8B49D0D",
+    "english": "Cinematic",
+    "polish": "Kinowa"
+  },
+  {
+    "namespace": "",
+    "key": "NameHeadVamp",
+    "english": "Circlet of the Serpentine",
+    "polish": "Diadem węża"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionHandRingCleave",
+    "english": "Cleaving",
+    "polish": "Rozpłatanie"
+  },
+  {
+    "namespace": "",
+    "key": "9E0931C6485DDC47FCAE43A7710ED082",
+    "english": "Clicker",
+    "polish": "Klikacz"
+  },
+  {
+    "namespace": "",
+    "key": "NameConsumableClipUp",
+    "english": "Clip Up",
+    "polish": "Większy magazynek"
+  },
+  {
+    "namespace": "",
+    "key": "3029C46B4068F3FA2D040F98F097F1A7",
+    "english": "Cmd",
+    "polish": "Cmd"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionBagOfCoins",
+    "english": "Coins!",
+    "polish": "Monety!"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionSecondarySpawnBarrel",
+    "english": "Conjure barrel",
+    "polish": "Przywołuje beczkę"
+  },
+  {
+    "namespace": "",
+    "key": "3C2742074E530E48D9E81897064F9CD6",
+    "english": "Continue",
+    "polish": "Kontynuuj"
+  },
+  {
+    "namespace": "",
+    "key": "556338C5414D7635FE53C5AA0964BE83",
+    "english": "Continue",
+    "polish": "Kontynuuj"
+  },
+  {
+    "namespace": "",
+    "key": "4F1FDE3640A7C36D60E757BB1547D2D5",
+    "english": "Controller",
+    "polish": "Kontroler"
+  },
+  {
+    "namespace": "",
+    "key": "61A96F574519D3B334ACE191C4AC3285",
+    "english": "Controller",
+    "polish": "Kontroler"
+  },
+  {
+    "namespace": "",
+    "key": "7B124AD34E9CFE83C21288B52DE5B06D",
+    "english": "Controller",
+    "polish": "Kontroler"
+  },
+  {
+    "namespace": "",
+    "key": "932121F340173A205D1C70859EF6A1B2",
+    "english": "Controller",
+    "polish": "Kontroler"
+  },
+  {
+    "namespace": "",
+    "key": "B23C40134B9A89EE3F70F6A67999CBE0",
+    "english": "Controller",
+    "polish": "Kontroler"
+  },
+  {
+    "namespace": "",
+    "key": "C53687114EB476851101DBB7B6FA7D49",
+    "english": "Controller",
+    "polish": "Kontroler"
+  },
+  {
+    "namespace": "",
+    "key": "DED4D2D145EC9557A1BF148F3613F5E0",
+    "english": "Controller",
+    "polish": "Kontroler"
+  },
+  {
+    "namespace": "",
+    "key": "1611FC6A448ED155CFC74CA09C717FF2",
+    "english": "Controls",
+    "polish": "Sterowanie"
+  },
+  {
+    "namespace": "",
+    "key": "72A71B5F4FFAA24DA4467EA4714EB299",
+    "english": "Controls",
+    "polish": "Sterowanie"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionUltimateConvertToCoins",
+    "english": "Convert all items to coins",
+    "polish": "Zamienia wszystkie przedmioty w monety"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionShieldCooldown",
+    "english": "Cooldown reduction",
+    "polish": "Krótsze odnawianie"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionShieldCritical",
+    "english": "Critical",
+    "polish": "Trafienia krytyczne"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionBootsOfCriticalDOT",
+    "english": "Critical hits deal damage over time",
+    "polish": "Trafienia krytyczne ranią z czasem"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionHeadCritical",
+    "english": "Critical multiplier",
+    "polish": "Mnożnik trafień krytycznych"
+  },
+  {
+    "namespace": "",
+    "key": "B4A27CDB4FBBC240F5531393EC397EE5",
+    "english": "Crosshair",
+    "polish": "Celownik"
+  },
+  {
+    "namespace": "",
+    "key": "A82D1F324FCE70E19C1F298753C00281",
+    "english": "Crypts Color Shift",
+    "polish": "Krypty – przesunięcie barw"
+  },
+  {
+    "namespace": "",
+    "key": "7EFC7B6A4902F31A881174B0243DFD55",
+    "english": "Crypts Saturation",
+    "polish": "Krypty – nasycenie"
+  },
+  {
+    "namespace": "",
+    "key": "0CF122A743AD855A17A2FF8835FE501D",
+    "english": "Ctrl",
+    "polish": "Ctrl"
+  },
+  {
+    "namespace": "",
+    "key": "B7DA1FAD4AA75D960C1C58B80FD317BD",
+    "english": "Current Culture {n} {d}",
+    "polish": "Current Culture {n} {d}"
+  },
+  {
+    "namespace": "",
+    "key": "NameChestCursedIron",
+    "english": "Cursed Iron",
+    "polish": "Przeklęte żelazo"
+  },
+  {
+    "namespace": "",
+    "key": "NameUltimateLuck",
+    "english": "Cursed Luck",
+    "polish": "Przeklęte szczęście"
+  },
+  {
+    "namespace": "",
+    "key": "6032328647023945130FF79DD5963D53",
+    "english": "Custom overlay",
+    "polish": "Własna nakładka"
+  },
+  {
+    "namespace": "",
+    "key": "A56614C94B6778DC9A8C2BB6FC044698",
+    "english": "DEFEAT NIDHOGG ON HARD TO UNLOCK",
+    "polish": "POKONAJ NIDHOGGA NA TRUDNYM, BY ODBLOKOWAĆ"
+  },
+  {
+    "namespace": "",
+    "key": "24E967E847FA07DFB80F74A07079CF8B",
+    "english": "DEFEAT NIDHOGG TO UNLOCK",
+    "polish": "POKONAJ NIDHOGGA, BY ODBLOKOWAĆ"
+  },
+  {
+    "namespace": "",
+    "key": "NameConsumableDamageUp",
+    "english": "Damage Up",
+    "polish": "Więcej obrażeń"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionSecondaryCursedWave",
+    "english": "Damage all enemies",
+    "polish": "Rani wszystkich wrogów"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionSecondaryFireBolt",
+    "english": "Damage over time",
+    "polish": "Obrażenia z czasem"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionChestCursedIron",
+    "english": "Damage up, health turns to steel",
+    "polish": "Więcej obrażeń, zdrowie staje się stalą"
+  },
+  {
+    "namespace": "",
+    "key": "D55F32E84884B5E66AEB429417195E7E",
+    "english": "Dash",
+    "polish": "Zryw"
+  },
+  {
+    "namespace": "",
+    "key": "NameQuickStep",
+    "english": "Dash",
+    "polish": "Zryw"
+  },
+  {
+    "namespace": "",
+    "key": "NameQuickStepFlying",
+    "english": "Dash / Fly",
+    "polish": "Zryw / lot"
+  },
+  {
+    "namespace": "",
+    "key": "NameHeadDeadeye",
+    "english": "Deadeye Lens",
+    "polish": "Soczewka snajpera"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionBootsPercentageDamage",
+    "english": "Deals percentage damage",
+    "polish": "Zadają obrażenia procentowe"
+  },
+  {
+    "namespace": "",
+    "key": "BC538A904096686DADCE6E95D87EAD47",
+    "english": "Default",
+    "polish": "Domyślny"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionCurseDamocles",
+    "english": "Die at 20 mins",
+    "polish": "Śmierć po 20 minutach"
+  },
+  {
+    "namespace": "",
+    "key": "200576A1469F2F67D7CF58AD56B52906",
+    "english": "Difficulty",
+    "polish": "Poziom trudności"
+  },
+  {
+    "namespace": "",
+    "key": "70AD57364D2ECACAAEDA0FB3378EB3C8",
+    "english": "Disconnected - {t}",
+    "polish": "Rozłączono – {t}"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionUltimateDiscount",
+    "english": "Discount Shop Items",
+    "polish": "Tańsze przedmioty w sklepie"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionShieldDoubleDamage",
+    "english": "Double damage",
+    "polish": "Podwójne obrażenia"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionHandRingDoubleTime",
+    "english": "Double shots",
+    "polish": "Podwójne strzały"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionCurseMania",
+    "english": "Double the damage, double the enemies",
+    "polish": "Dwa razy więcej obrażeń, dwa razy więcej wrogów"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionArmQuickloader",
+    "english": "Double time reload",
+    "polish": "Szybkie przeładowanie"
+  },
+  {
+    "namespace": "",
+    "key": "NameShieldRegen",
+    "english": "Dragon's Skin",
+    "polish": "Smocza skóra"
+  },
+  {
+    "namespace": "",
+    "key": "NameArmRevealMap",
+    "english": "Dwarven Braclet",
+    "polish": "Krasnoludzka bransoleta"
+  },
+  {
+    "namespace": "",
+    "key": "NameArmDwemerRing",
+    "english": "Dwarven Ring",
+    "polish": "Krasnoludzki pierścień"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionCurseDying",
+    "english": "Dying over time",
+    "polish": "Powolne umieranie"
+  },
+  {
+    "namespace": "",
+    "key": "4207221741EAB64895830A968979A660",
+    "english": "Dynamic Resolution",
+    "polish": "Dynamiczna rozdzielczość"
+  },
+  {
+    "namespace": "",
+    "key": "C152F4AB46B3649E137CC68441039F90",
+    "english": "Dynamic Resolution",
+    "polish": "Dynamiczna rozdzielczość"
+  },
+  {
+    "namespace": "",
+    "key": "CF9B4BDF49C43B58534794B0FA4B3C86",
+    "english": "EASY PROGRESS:",
+    "polish": "POSTĘP – ŁATWY:"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionHeadEchoShot",
+    "english": "Echoes your attacks",
+    "polish": "Powtarza twoje ataki"
+  },
+  {
+    "namespace": "",
+    "key": "NameUltimateHeal",
+    "english": "Elli's Touch",
+    "polish": "Dotyk Elli"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionBootsEnchantedGreaves",
+    "english": "Enemies die over time",
+    "polish": "Wrogowie z czasem giną"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionBootsGoldenGreaves",
+    "english": "Enemies drop coins",
+    "polish": "Wrogowie upuszczają monety"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionHeadFullHorns",
+    "english": "Enemies fragment on death",
+    "polish": "Wrogowie rozpadają się po śmierci"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionCurseFastProjectiles",
+    "english": "Enemy projectiles are faster",
+    "polish": "Pociski wrogów są szybsze"
+  },
+  {
+    "namespace": "",
+    "key": "15000AE54CCD12CE457AF19720A32C4B",
+    "english": "Epic",
+    "polish": "Epicka"
+  },
+  {
+    "namespace": "",
+    "key": "B0E64B7F4034799D68D9C6A726B76AF0",
+    "english": "Epic",
+    "polish": "Epicka"
+  },
+  {
+    "namespace": "",
+    "key": "FD74874642EE6D4305CF49B6BB994920",
+    "english": "Epic",
+    "polish": "Epicka"
+  },
+  {
+    "namespace": "",
+    "key": "NameHeadReflect",
+    "english": "Equity",
+    "polish": "Równowaga"
+  },
+  {
+    "namespace": "",
+    "key": "1E1699B643EA2DA2F254F39742454883",
+    "english": "Exit To Main Menu",
+    "polish": "Wyjdź do menu głównego"
+  },
+  {
+    "namespace": "",
+    "key": "5C5BAE64468616B637E42C9F4E598B18",
+    "english": "Exit To Main Menu",
+    "polish": "Wyjdź do menu głównego"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionBootsHeavyMetal",
+    "english": "Explode on landing",
+    "polish": "Wybuch przy lądowaniu"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionSecondaryClapExplosion",
+    "english": "Explosive clap",
+    "polish": "Wybuchowe klaśnięcie"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionUltimateGrenade",
+    "english": "Explosive orb",
+    "polish": "Wybuchowa kula"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionHeadExplosive",
+    "english": "Explosive shots",
+    "polish": "Wybuchowe pociski"
+  },
+  {
+    "namespace": "",
+    "key": "6D104D3E475CD6399B70608E877D1FAF",
+    "english": "FOV",
+    "polish": "Pole widzenia"
+  },
+  {
+    "namespace": "",
+    "key": "3495C52141D40DDC6F5F7CA58B3D5996",
+    "english": "FOV Axis",
+    "polish": "Oś pola widzenia"
+  },
+  {
+    "namespace": "",
+    "key": "9A6FE9EA4F25935BE7480A81FA17E48D",
+    "english": "FPS",
+    "polish": "FPS"
+  },
+  {
+    "namespace": "",
+    "key": "DFA85CAD431703BEDF169BA67E173E0A",
+    "english": "FPS Limit",
+    "polish": "Limit FPS"
+  },
+  {
+    "namespace": "",
+    "key": "NameShieldDoubleDamage",
+    "english": "Face of Death",
+    "polish": "Oblicze śmierci"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionSecondarySnipe",
+    "english": "Fast projectile",
+    "polish": "Szybki pocisk"
+  },
+  {
+    "namespace": "",
+    "key": "D2120B2F4B594A237D3CDA94F002B0B5",
+    "english": "Field Of View",
+    "polish": "Pole widzenia"
+  },
+  {
+    "namespace": "",
+    "key": "07892E91424F2A4EEEB02688654E38E1",
+    "english": "Field Of View Axis",
+    "polish": "Oś pola widzenia"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionHandBracletGold",
+    "english": "Find more gold",
+    "polish": "Znajdujesz więcej złota"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionBootsTrampling",
+    "english": "Finishes off low health opponents",
+    "polish": "Dobijają osłabionych wrogów"
+  },
+  {
+    "namespace": "",
+    "key": "CA9900E343E69C16A525E7B500A25452",
+    "english": "Fire",
+    "polish": "Strzał"
+  },
+  {
+    "namespace": "",
+    "key": "NameSecondaryFireBolt",
+    "english": "Fire Bolt",
+    "polish": "Ognisty pocisk"
+  },
+  {
+    "namespace": "",
+    "key": "40878BA8467B51749439928655FF0A73",
+    "english": "Fire Reloads On Empty",
+    "polish": "Strzał przeładowuje pusty magazynek"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionSecondaryFlak",
+    "english": "Fire spread of projectiles",
+    "polish": "Wystrzeliwuje wachlarz pocisków"
+  },
+  {
+    "namespace": "",
+    "key": "NameHeadFluffy",
+    "english": "Fluffy",
+    "polish": "Puszek"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionQuickStepFlying",
+    "english": "Fly Quickly",
+    "polish": "Szybki lot"
+  },
+  {
+    "namespace": "",
+    "key": "5BF71BB9446393097766918CE2CC9016",
+    "english": "For Chinese Only",
+    "polish": "For Chinese Only"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionChestMagicFortify",
+    "english": "Fortify magic ability",
+    "polish": "Wzmacnia umiejętność magiczną"
+  },
+  {
+    "namespace": "",
+    "key": "99048D8E47B16DC3291326BF1DFF7A17",
+    "english": "Found culture {n} {D}",
+    "polish": "Found culture {n} {D}"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionSecondaryFreeze",
+    "english": "Freeze enemies for time",
+    "polish": "Zamraża wrogów na pewien czas"
+  },
+  {
+    "namespace": "",
+    "key": "NameUltimateGiveShield",
+    "english": "Freyr's Blessing",
+    "polish": "Błogosławieństwo Freyra"
+  },
+  {
+    "namespace": "",
+    "key": "NameSecondaryFreeze",
+    "english": "Frost Bolt",
+    "polish": "Mroźny pocisk"
+  },
+  {
+    "namespace": "",
+    "key": "8C9437D1489D7B6EC2B4B394837A52C8",
+    "english": "Fullscreen",
+    "polish": "Pełny ekran"
+  },
+  {
+    "namespace": "",
+    "key": "714FD370491C06B184F613B43C1F40C8",
+    "english": "GET 2,000 KILLS TO UNLOCK",
+    "polish": "ZABIJ 2000 WROGÓW, BY ODBLOKOWAĆ"
+  },
+  {
+    "namespace": "",
+    "key": "B991675D47FDA6747D2631B409002D47",
+    "english": "Game",
+    "polish": "Gra"
+  },
+  {
+    "namespace": "",
+    "key": "CFB3A7DD4074ECB3E1408DB8AACD5319",
+    "english": "Game",
+    "polish": "Gra"
+  },
+  {
+    "namespace": "",
+    "key": "DF71C8AC49CDB0F7B279D68A1A6BB782",
+    "english": "Game",
+    "polish": "Gra"
+  },
+  {
+    "namespace": "",
+    "key": "EDDEF8514580718923CCAFB82754F6BB",
+    "english": "Gamepad",
+    "polish": "Pad"
+  },
+  {
+    "namespace": "",
+    "key": "49C1B1A7415E4AC8A75D649D38FBB3D0",
+    "english": "Gamma",
+    "polish": "Gamma"
+  },
+  {
+    "namespace": "",
+    "key": "7EAA4CC640E0CF17646893B48138E7FC",
+    "english": "Gamma",
+    "polish": "Gamma"
+  },
+  {
+    "namespace": "",
+    "key": "71BA65404215FAC576030C8E521A807A",
+    "english": "General",
+    "polish": "Ogólne"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionUltimateGenerateChest",
+    "english": "Generate a chest",
+    "polish": "Tworzy skrzynię"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionUltimateLuck",
+    "english": "Generate luck, lose health",
+    "polish": "Daje szczęście, odbiera zdrowie"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionChestTallShield",
+    "english": "Generate shield when still",
+    "polish": "Tworzy tarczę, gdy stoisz w miejscu"
+  },
+  {
+    "namespace": "",
+    "key": "NameUltimateConvertToCoins",
+    "english": "Geri's Audit",
+    "polish": "Audyt Geriego"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionCurseGambit",
+    "english": "Get 10 coins, but lose all coins when hit",
+    "polish": "Dostajesz 10 monet, ale tracisz wszystkie, gdy oberwiesz"
+  },
+  {
+    "namespace": "",
+    "key": "NameBootsPercentageDamage",
+    "english": "Giant Slayer's Boots",
+    "polish": "Buty pogromcy olbrzymów"
+  },
+  {
+    "namespace": "",
+    "key": "NameHandGloveSpeed",
+    "english": "Go Faster Glove",
+    "polish": "Rękawica pośpiechu"
+  },
+  {
+    "namespace": "",
+    "key": "NameHandBracletGold",
+    "english": "Golden Bracelet",
+    "polish": "Złota bransoleta"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionUltimateGiveShield",
+    "english": "Grant Shield",
+    "polish": "Daje tarczę"
+  },
+  {
+    "namespace": "",
+    "key": "60E06FF040C66F9327F1899AA5ADBFFE",
+    "english": "Graphics",
+    "polish": "Grafika"
+  },
+  {
+    "namespace": "",
+    "key": "NameChestRangeDouble",
+    "english": "Gungnir's Partner",
+    "polish": "Towarzysz Gungnira"
+  },
+  {
+    "namespace": "",
+    "key": "NameHandBracerHealing",
+    "english": "Gunnr's Bracer",
+    "polish": "Karwasz Gunnr"
+  },
+  {
+    "namespace": "",
+    "key": "83D1F8744843799B0EC03CAEDEE5D30A",
+    "english": "HARD PROGRESS:",
+    "polish": "POSTĘP – TRUDNY:"
+  },
+  {
+    "namespace": "",
+    "key": "51A4A0DC46FE16CDFBB2988851C0EDF9",
+    "english": "HELLISH PROGRESS:",
+    "polish": "POSTĘP – PIEKIELNY:"
+  },
+  {
+    "namespace": "",
+    "key": "FB8B51A84D5A4748432AA98C9CA39319",
+    "english": "HIGH SCORE:",
+    "polish": "REKORD:"
+  },
+  {
+    "namespace": "",
+    "key": "A788B3124F67A435A546AE8BAD9138AA",
+    "english": "HUD",
+    "polish": "HUD"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionCurseLowerAmmo",
+    "english": "Half ammo",
+    "polish": "Połowa amunicji"
+  },
+  {
+    "namespace": "",
+    "key": "NameHeadExplosives",
+    "english": "Hat of Madness",
+    "polish": "Kapelusz szaleństwa"
+  },
+  {
+    "namespace": "",
+    "key": "64A028974B94EEE2B63B06A06165788F",
+    "english": "Header",
+    "polish": "Header"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionUltimateHeal",
+    "english": "Heal",
+    "polish": "Leczenie"
+  },
+  {
+    "namespace": "",
+    "key": "29D525584EAD6384E3BFCEB282C9D43A",
+    "english": "Helheim Color Shift",
+    "polish": "Helheim – przesunięcie barw"
+  },
+  {
+    "namespace": "",
+    "key": "4F5A4BC24CFBA67B0F168BAD9AAEA795",
+    "english": "Helheim Saturation",
+    "polish": "Helheim – nasycenie"
+  },
+  {
+    "namespace": "",
+    "key": "NameHeadCritical",
+    "english": "Helm of Precision",
+    "polish": "Hełm precyzji"
+  },
+  {
+    "namespace": "",
+    "key": "NameHeadRage",
+    "english": "Helm of Rage",
+    "polish": "Hełm furii"
+  },
+  {
+    "namespace": "",
+    "key": "NameHeadFullHorns",
+    "english": "Helm-heim",
+    "polish": "Hełm-heim"
+  },
+  {
+    "namespace": "",
+    "key": "NameBootsHopliteGreaves",
+    "english": "Hermod's Greaves",
+    "polish": "Nagolenniki Hermoda"
+  },
+  {
+    "namespace": "",
+    "key": "NameHeadSpeed",
+    "english": "Hermóðr the Messenger",
+    "polish": "Hermóðr Posłaniec"
+  },
+  {
+    "namespace": "",
+    "key": "NameUltimateSpeed",
+    "english": "Hermóðr's Enchantment",
+    "polish": "Zaklęcie Hermóðra"
+  },
+  {
+    "namespace": "",
+    "key": "BB0A9EE247C815C901D0B8A57A5A75DF",
+    "english": "Hi there! I am a message box",
+    "polish": "Cześć! Jestem okienkiem komunikatu"
+  },
+  {
+    "namespace": "",
+    "key": "744D2BF948C1FA4EA2669C82B6C1A98A",
+    "english": "High",
+    "polish": "Wysoka"
+  },
+  {
+    "namespace": "",
+    "key": "7A9762F248DCC2651E2203B5A86B3D62",
+    "english": "High",
+    "polish": "Wysoka"
+  },
+  {
+    "namespace": "",
+    "key": "7F7F6C204445BA7E079CC4A4034B0FFD",
+    "english": "High",
+    "polish": "Wysoka"
+  },
+  {
+    "namespace": "",
+    "key": "84175D8546104986C9CE38A4E71966B8",
+    "english": "High",
+    "polish": "Wysoka"
+  },
+  {
+    "namespace": "",
+    "key": "F12E55E547E59BD893BEB9AEF96C50DB",
+    "english": "High",
+    "polish": "Wysoka"
+  },
+  {
+    "namespace": "",
+    "key": "A753BFC1443798B1D06C6B9202E70F53",
+    "english": "Horizontal Sensitivity",
+    "polish": "Czułość w poziomie"
+  },
+  {
+    "namespace": "",
+    "key": "NameHeadExplosive",
+    "english": "Horned Shot",
+    "polish": "Rogaty strzał"
+  },
+  {
+    "namespace": "",
+    "key": "NameConsumableHeartContainer",
+    "english": "Increase Max HP",
+    "polish": "Więcej maks. PŻ"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionHeadRage",
+    "english": "Increased damage with perfect rhythm",
+    "polish": "Więcej obrażeń przy idealnym rytmie"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionHandBracerHealing",
+    "english": "Increases healing effects",
+    "polish": "Silniejsze leczenie"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionShieldInfiniteAmmo",
+    "english": "Infinite ammo",
+    "polish": "Nieskończona amunicja"
+  },
+  {
+    "namespace": "",
+    "key": "3184415146E9B8F0F5AFB4A0C0976E95",
+    "english": "Input Label",
+    "polish": "Input Label"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionConsumableShieldConverter",
+    "english": "Instantly converts shields into health",
+    "polish": "Od razu zamienia tarczę w zdrowie"
+  },
+  {
+    "namespace": "",
+    "key": "0B7E081B45F188E1B320EEBE8B44787E",
+    "english": "Interact",
+    "polish": "Interakcja"
+  },
+  {
+    "namespace": "",
+    "key": "ADAF637B4DBE32EF4A51A1839A54B5D6",
+    "english": "Intro",
+    "polish": "Intro"
+  },
+  {
+    "namespace": "",
+    "key": "A4C0F44E4C0AE1B7EFB82C9B52F6552C",
+    "english": "Invert Look",
+    "polish": "Odwróć rozglądanie"
+  },
+  {
+    "namespace": "",
+    "key": "D038436F4327DEAF0C48C288BA5AF629",
+    "english": "Invert Mouse",
+    "polish": "Odwróć mysz"
+  },
+  {
+    "namespace": "",
+    "key": "NameUltimateGrenade",
+    "english": "Jarnbjorn",
+    "polish": "Jarnbjorn"
+  },
+  {
+    "namespace": "",
+    "key": "7DDC1AC34B0F7135CD44CDBC5192F9DF",
+    "english": "Jump",
+    "polish": "Skok"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionChestJumpStrength",
+    "english": "Jump up",
+    "polish": "Wyższy skok"
+  },
+  {
+    "namespace": "",
+    "key": "322A68654EC227711D35A9BB955B6FEC",
+    "english": "Jumper",
+    "polish": "Skoczek"
+  },
+  {
+    "namespace": "",
+    "key": "E7A4C7C74630D55DCD6E449F7ABB3C85",
+    "english": "Jumper",
+    "polish": "Skoczek"
+  },
+  {
+    "namespace": "",
+    "key": "FE8FFCC84134B3FAD074C2B41DB4EEA9",
+    "english": "Just Dot",
+    "polish": "Sama kropka"
+  },
+  {
+    "namespace": "",
+    "key": "3B11064940BF7C32E5DA5F9363ED6505",
+    "english": "Key",
+    "polish": "Klawisz"
+  },
+  {
+    "namespace": "",
+    "key": "NameConsumableKey",
+    "english": "Key",
+    "polish": "Klucz"
+  },
+  {
+    "namespace": "",
+    "key": "FEF0C452497F510C15CE858A8E998356",
+    "english": "Key1",
+    "polish": "Key1"
+  },
+  {
+    "namespace": "",
+    "key": "37B335AE406919887BDF0CA44A7D5959",
+    "english": "Keybind",
+    "polish": "Przypisanie"
+  },
+  {
+    "namespace": "",
+    "key": "3325F93C4532CC6B6877E786F4DE2867",
+    "english": "Keyboard",
+    "polish": "Klawiatura"
+  },
+  {
+    "namespace": "",
+    "key": "9B44D61B4EF6055170E6DEA13495E42D",
+    "english": "Keyboard & Mouse",
+    "polish": "Klawiatura i mysz"
+  },
+  {
+    "namespace": "",
+    "key": "FA3F1E734A0AF8CDCF70EFBCB55102C8",
+    "english": "Keyboard & Mouse",
+    "polish": "Klawiatura i mysz"
+  },
+  {
+    "namespace": "",
+    "key": "CDF01D364B21A023E898629145AF44E3",
+    "english": "Keyboard Look X Sensitivity",
+    "polish": "Czułość rozglądania klawiaturą (X)"
+  },
+  {
+    "namespace": "",
+    "key": "AC64D6EB435D7584511CB388FFAE300A",
+    "english": "Keyboard Look Y Sensitivity",
+    "polish": "Czułość rozglądania klawiaturą (Y)"
+  },
+  {
+    "namespace": "",
+    "key": "A485D4784D3CF3560D94B5BA8434AA0F",
+    "english": "Kudos QA Ltd",
+    "polish": "Kudos QA Ltd"
+  },
+  {
+    "namespace": "",
+    "key": "AFC285FF434133EF50EDB691B9F1B374",
+    "english": "L1",
+    "polish": "L1"
+  },
+  {
+    "namespace": "",
+    "key": "42300EFC40B97ADD5BDA69BA88376B72",
+    "english": "LOCKED",
+    "polish": "ZABLOKOWANE"
+  },
+  {
+    "namespace": "",
+    "key": "FCC0E2044383684E9E879E971C8594E5",
+    "english": "LOCKED",
+    "polish": "ZABLOKOWANE"
+  },
+  {
+    "namespace": "",
+    "key": "10FDC6F8461C775884C1598C903D4506",
+    "english": "Label",
+    "polish": "Label"
+  },
+  {
+    "namespace": "",
+    "key": "1C02E26240882096FD73278A36A45A58",
+    "english": "Label",
+    "polish": "Label"
+  },
+  {
+    "namespace": "",
+    "key": "6D6EC7CE410C1D70B1404AA2C57FF46D",
+    "english": "Label",
+    "polish": "Label"
+  },
+  {
+    "namespace": "",
+    "key": "B205142F46C354FD107B1C982360F013",
+    "english": "Label",
+    "polish": "Label"
+  },
+  {
+    "namespace": "",
+    "key": "F598534B476E9E5975831095214A5C2C",
+    "english": "Label",
+    "polish": "Label"
+  },
+  {
+    "namespace": "",
+    "key": "0C73D6C748CA6F0855F3179101A78800",
+    "english": "Language",
+    "polish": "Język"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionBootsCreep",
+    "english": "Lay creep",
+    "polish": "Trujący ślad"
+  },
+  {
+    "namespace": "",
+    "key": "492E38554084060E3A7F92B5676AA768",
+    "english": "Layout",
+    "polish": "Układ"
+  },
+  {
+    "namespace": "",
+    "key": "EC5347A24B7F79526F0792BD10A90D0F",
+    "english": "Left handed mode",
+    "polish": "Tryb dla leworęcznych"
+  },
+  {
+    "namespace": "",
+    "key": "NameShieldRevive",
+    "english": "Lion Heart",
+    "polish": "Lwie serce"
+  },
+  {
+    "namespace": "",
+    "key": "1A3AC4F0407EC70F81445D92F193EF97",
+    "english": "Load the Main Menu automatically",
+    "polish": "Automatycznie wczytaj menu główne"
+  },
+  {
+    "namespace": "",
+    "key": "NameHandRingStats",
+    "english": "Loki's Bargain",
+    "polish": "Układ Lokiego"
+  },
+  {
+    "namespace": "",
+    "key": "NameChestSlowProjectile",
+    "english": "Loki's Shield",
+    "polish": "Tarcza Lokiego"
+  },
+  {
+    "namespace": "",
+    "key": "3DE2D146404627AB053C57961AB39A6E",
+    "english": "Look Axial Deadzone",
+    "polish": "Martwa strefa osi rozglądania"
+  },
+  {
+    "namespace": "",
+    "key": "68229285444AE8DC8A63CC9A55B3C5E7",
+    "english": "Look Down",
+    "polish": "Patrz w dół"
+  },
+  {
+    "namespace": "",
+    "key": "FE48413342D06E63736509B4DBC1073F",
+    "english": "Look Radial Deadzone",
+    "polish": "Promieniowa martwa strefa rozglądania"
+  },
+  {
+    "namespace": "",
+    "key": "18F80DD4428B4CD8A1C75C8685E8EE80",
+    "english": "Look Sensitivity",
+    "polish": "Czułość rozglądania"
+  },
+  {
+    "namespace": "",
+    "key": "D0C20D0C47453A89A44A139B3174CE60",
+    "english": "Look Smoothing",
+    "polish": "Wygładzanie rozglądania"
+  },
+  {
+    "namespace": "",
+    "key": "2BC93FBD4B7C0EB394E490BD36346CBE",
+    "english": "Look Up",
+    "polish": "Patrz w górę"
+  },
+  {
+    "namespace": "",
+    "key": "D6BA19F74640F2433AD14E98306FBD7C",
+    "english": "Loose",
+    "polish": "Łagodne"
+  },
+  {
+    "namespace": "",
+    "key": "0EA314DF4EA07BDC10442FA05FD8321A",
+    "english": "Low",
+    "polish": "Niska"
+  },
+  {
+    "namespace": "",
+    "key": "4377AF4F423B14F753AB15AB3B2680BA",
+    "english": "Low",
+    "polish": "Niska"
+  },
+  {
+    "namespace": "",
+    "key": "9109CE134FC7CAE9E523B584A86BCE36",
+    "english": "Low",
+    "polish": "Niska"
+  },
+  {
+    "namespace": "",
+    "key": "F7B71EE44A5B7139B4796896005D32A1",
+    "english": "Low",
+    "polish": "Niska"
+  },
+  {
+    "namespace": "",
+    "key": "NameConsumableLuckUp",
+    "english": "Luck Up",
+    "polish": "Więcej szczęścia"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionHeadFullRoman",
+    "english": "Luck up on floor completion",
+    "polish": "Więcej szczęścia po ukończeniu piętra"
+  },
+  {
+    "namespace": "",
+    "key": "NameConsumableLuckyDice",
+    "english": "Lucky Dice",
+    "polish": "Szczęśliwa kostka"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionPrestige",
+    "english": "Make Items Permanent",
+    "polish": "Przedmioty na stałe"
+  },
+  {
+    "namespace": "",
+    "key": "707E693743110179296F27814356ED95",
+    "english": "Map",
+    "polish": "Mapa"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionSecondaryMarkForDeath",
+    "english": "Mark for death",
+    "polish": "Naznacza na śmierć"
+  },
+  {
+    "namespace": "",
+    "key": "NameChestBlankShield",
+    "english": "Masquerade",
+    "polish": "Maskarada"
+  },
+  {
+    "namespace": "",
+    "key": "2989FB5E49DF631767D248890CBC3AA1",
+    "english": "Master Volume",
+    "polish": "Głośność ogólna"
+  },
+  {
+    "namespace": "",
+    "key": "6F5868CD4962A1FE1DF0B4A71984794D",
+    "english": "Medium",
+    "polish": "Średnia"
+  },
+  {
+    "namespace": "",
+    "key": "74AEF2AB4FEF573E033A8CA84FA6224F",
+    "english": "Medium",
+    "polish": "Średnia"
+  },
+  {
+    "namespace": "",
+    "key": "8FCF92064E0D75C62B8C2DA295B8605A",
+    "english": "Medium",
+    "polish": "Średnia"
+  },
+  {
+    "namespace": "",
+    "key": "D24C57B4415EEB1BD3869E88F2128B2E",
+    "english": "Medium",
+    "polish": "Średnia"
+  },
+  {
+    "namespace": "",
+    "key": "NameConsumableFullyHeal",
+    "english": "Medkit",
+    "polish": "Apteczka"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionUltimateMegaShot",
+    "english": "Mega shot",
+    "polish": "Megastrzał"
+  },
+  {
+    "namespace": "",
+    "key": "NameArmMedallion",
+    "english": "Megingjord",
+    "polish": "Megingjord"
+  },
+  {
+    "namespace": "",
+    "key": "NameHandRingCleave",
+    "english": "Memento Mori",
+    "polish": "Memento mori"
+  },
+  {
+    "namespace": "",
+    "key": "EA2382E94A35BA93A40356B155A2AC90",
+    "english": "Menu Music",
+    "polish": "Muzyka w menu"
+  },
+  {
+    "namespace": "",
+    "key": "NameHandRingGoodness",
+    "english": "Midgard Bracelet",
+    "polish": "Bransoleta z Midgardu"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionHeadMagicHat",
+    "english": "Mind flay",
+    "polish": "Wysysanie umysłu"
+  },
+  {
+    "namespace": "",
+    "key": "0DE0835D47BD1FA36BAFAC9C3AD19157",
+    "english": "Mirror",
+    "polish": "Lustro"
+  },
+  {
+    "namespace": "",
+    "key": "NameUltimateMegaShot",
+    "english": "Mjölnir",
+    "polish": "Mjölnir"
+  },
+  {
+    "namespace": "",
+    "key": "NameSecondaryMarkForDeath",
+    "english": "Mortal Curse",
+    "polish": "Śmiertelna klątwa"
+  },
+  {
+    "namespace": "",
+    "key": "DC87E23F442407324EBB079226B8E194",
+    "english": "Motion Blur",
+    "polish": "Rozmycie ruchu"
+  },
+  {
+    "namespace": "",
+    "key": "EF23AD8C4D194902FB340CA8B25684E7",
+    "english": "Motion Blur",
+    "polish": "Rozmycie ruchu"
+  },
+  {
+    "namespace": "",
+    "key": "5CEBAE3C4EC2DB2B448431AA77B70524",
+    "english": "Motion Blur Quality",
+    "polish": "Jakość rozmycia ruchu"
+  },
+  {
+    "namespace": "",
+    "key": "2ED1349C42FA9B77D10D2B89C23BE743",
+    "english": "Mouse",
+    "polish": "Mysz"
+  },
+  {
+    "namespace": "",
+    "key": "ACCAE0B045F1B3BAFD7282B44961489A",
+    "english": "Move Backward",
+    "polish": "Ruch do tyłu"
+  },
+  {
+    "namespace": "",
+    "key": "B6E6E70647CCF9CDCBB2B3A2B3C214D9",
+    "english": "Move Forward",
+    "polish": "Ruch do przodu"
+  },
+  {
+    "namespace": "",
+    "key": "FC3590BF4FAEE911116DBD88680F2FFC",
+    "english": "Move Left",
+    "polish": "Ruch w lewo"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionQuickStep",
+    "english": "Move Quickly",
+    "polish": "Szybki ruch"
+  },
+  {
+    "namespace": "",
+    "key": "A5F6919B4C99A4BA4764849270D7DE44",
+    "english": "Move Right",
+    "polish": "Ruch w prawo"
+  },
+  {
+    "namespace": "",
+    "key": "7FB7BD2F46C385CDEC7C42B47F293453",
+    "english": "Music Volume",
+    "polish": "Głośność muzyki"
+  },
+  {
+    "namespace": "",
+    "key": "NameHeadMoon",
+    "english": "Máni",
+    "polish": "Máni"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionSecondaryManaShield",
+    "english": "Negate first enemy attack",
+    "polish": "Unieważnia pierwszy atak wroga"
+  },
+  {
+    "namespace": "",
+    "key": "464C7B2B4E9EB24F7E94659974564B4B",
+    "english": "New Run",
+    "polish": "Nowe podejście"
+  },
+  {
+    "namespace": "",
+    "key": "NameBootsGoldenGreaves",
+    "english": "Njord's Greaves",
+    "polish": "Nagolenniki Njorda"
+  },
+  {
+    "namespace": "",
+    "key": "NameUltimateGenerateCoins",
+    "english": "Njord's Riches",
+    "polish": "Bogactwa Njorda"
+  },
+  {
+    "namespace": "",
+    "key": "EFAE322246975FC2A82E7ABAF7879517",
+    "english": "No",
+    "polish": "Nie"
+  },
+  {
+    "namespace": "",
+    "key": "9D7B18D44B3D371ACA26AC86A1EF3D51",
+    "english": "No Dodge Indicators",
+    "polish": "Bez wskaźników uników"
+  },
+  {
+    "namespace": "",
+    "key": "F16CA0C74FB2DB6D99BA5E9FAAB3FC65",
+    "english": "No Rhythm",
+    "polish": "Bez rytmu"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionCurseShopless",
+    "english": "No shops after Asgard",
+    "polish": "Po Asgardzie nie ma sklepów"
+  },
+  {
+    "namespace": "",
+    "key": "0B555AE046652E13BDBD88B049E202A6",
+    "english": "None",
+    "polish": "Brak"
+  },
+  {
+    "namespace": "",
+    "key": "6E75416149025BE5108DE387F4C4BC23",
+    "english": "None",
+    "polish": "Brak"
+  },
+  {
+    "namespace": "",
+    "key": "B33E4F944EC4439869830EB93E275291",
+    "english": "None",
+    "polish": "Brak"
+  },
+  {
+    "namespace": "",
+    "key": "CC820353474A6E1439E120A4D3DD8A6C",
+    "english": "None",
+    "polish": "Brak"
+  },
+  {
+    "namespace": "",
+    "key": "D3DF365F4BCD04FFD7EE0EAC29E713DA",
+    "english": "None",
+    "polish": "Brak"
+  },
+  {
+    "namespace": "",
+    "key": "33F90EE14F7D0880237E2AA8D0270F2D",
+    "english": "Normal",
+    "polish": "Normalny"
+  },
+  {
+    "namespace": "",
+    "key": "3AB3C43943FE53882B894F85C62A0D25",
+    "english": "Normal",
+    "polish": "Normalny"
+  },
+  {
+    "namespace": "",
+    "key": "NameUltimateRegenForTime",
+    "english": "Odin's Blessing",
+    "polish": "Błogosławieństwo Odyna"
+  },
+  {
+    "namespace": "",
+    "key": "NameBootsOfSpeed",
+    "english": "Odin's Sneakers",
+    "polish": "Trampki Odyna"
+  },
+  {
+    "namespace": "",
+    "key": "07946FB54753911A3E55329C5C90BED6",
+    "english": "Off",
+    "polish": "Wył."
+  },
+  {
+    "namespace": "",
+    "key": "37360A4B429344030E7BB7A418A38C4F",
+    "english": "Off",
+    "polish": "Wył."
+  },
+  {
+    "namespace": "",
+    "key": "53F84B3D4CA5E96457C93FB80BDC6A65",
+    "english": "Off",
+    "polish": "Wył."
+  },
+  {
+    "namespace": "",
+    "key": "A6C74F7445E2CAE7D87061B67C74EEFC",
+    "english": "Off",
+    "polish": "Wył."
+  },
+  {
+    "namespace": "",
+    "key": "AE8CC3114F370446B756D2B9051DC70F",
+    "english": "Off",
+    "polish": "Wył."
+  },
+  {
+    "namespace": "",
+    "key": "D17F619748CD4A2FCCF8CD90F4D2BDCC",
+    "english": "Off",
+    "polish": "Wył."
+  },
+  {
+    "namespace": "",
+    "key": "EAA6CAE94480004EB4F6E19D07ED7224",
+    "english": "Off",
+    "polish": "Wył."
+  },
+  {
+    "namespace": "",
+    "key": "FC8964BF4F958DFB99924686488C40C4",
+    "english": "Off",
+    "polish": "Wył."
+  },
+  {
+    "namespace": "",
+    "key": "NameHeadOrc",
+    "english": "Ogre's Helm",
+    "polish": "Hełm ogra"
+  },
+  {
+    "namespace": "",
+    "key": "2DF83925486EAA0D7C35F29B4DAC39E4",
+    "english": "On",
+    "polish": "Wł."
+  },
+  {
+    "namespace": "",
+    "key": "57D862454B3178B8B06BA4950509F133",
+    "english": "On",
+    "polish": "Wł."
+  },
+  {
+    "namespace": "",
+    "key": "901B7DBE464BCAC0A2F54A9CDA3FBC9B",
+    "english": "On",
+    "polish": "Wł."
+  },
+  {
+    "namespace": "",
+    "key": "D7FFD75F484519DCA6873CBE06D0B3BB",
+    "english": "On",
+    "polish": "Wł."
+  },
+  {
+    "namespace": "",
+    "key": "DAF26A86459FD28B8226149CA6EC679D",
+    "english": "On",
+    "polish": "Wł."
+  },
+  {
+    "namespace": "",
+    "key": "E10F0E2747821F54D8C5D59DB6E1BA79",
+    "english": "On",
+    "polish": "Wł."
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionShieldRevive",
+    "english": "One more life",
+    "polish": "Jeszcze jedno życie"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionHeadOpening",
+    "english": "Opening mega shot",
+    "polish": "Megastrzał na otwarcie"
+  },
+  {
+    "namespace": "",
+    "key": "19BF9E124853860D5ED650BB76FA7390",
+    "english": "PLAY",
+    "polish": "GRAJ"
+  },
+  {
+    "namespace": "",
+    "key": "84A596C04647A49411A1E7B48F2DE283",
+    "english": "PLAY",
+    "polish": "GRAJ"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionHandBracer",
+    "english": "Penetrating shots",
+    "polish": "Przebijające strzały"
+  },
+  {
+    "namespace": "",
+    "key": "31888DEA427B60FC83D77097A077DF1B",
+    "english": "Photosensitivity Warning\r\n\r\nA small percentage of people may experience seizures when exposed to certain light patterns or images, even with no history of epilepsy or seizures.",
+    "polish": "Ostrzeżenie o nadwrażliwości na światło\r\n\r\nU niewielkiego odsetka osób pewne wzory świetlne lub obrazy mogą wywołać napady padaczkowe, nawet jeśli wcześniej nie chorowały na epilepsję ani nie miały napadów."
+  },
+  {
+    "namespace": "",
+    "key": "1D698D07410AA742AC8D1489310D75A8",
+    "english": "Playtonic Friends",
+    "polish": "Playtonic Friends"
+  },
+  {
+    "namespace": "",
+    "key": "3680121D4F5756B12EA176825A94DFB2",
+    "english": "Please Add some text",
+    "polish": "Wpisz jakiś tekst"
+  },
+  {
+    "namespace": "",
+    "key": "NameBootsCreep",
+    "english": "Poison Boots",
+    "polish": "Trujące buty"
+  },
+  {
+    "namespace": "",
+    "key": "F244E1BE42939663AEE2768EB52FC416",
+    "english": "Post Process",
+    "polish": "Postprocessing"
+  },
+  {
+    "namespace": "",
+    "key": "NameHandPenetrationGlove",
+    "english": "Powershot Glove",
+    "polish": "Rękawica mocnego strzału"
+  },
+  {
+    "namespace": "",
+    "key": "NameConsumableCriticalUp",
+    "english": "Precision Up",
+    "polish": "Więcej precyzji"
+  },
+  {
+    "namespace": "",
+    "key": "44F857EB448496C95606F0BFFD3C89C3",
+    "english": "Press",
+    "polish": "Naciśnij"
+  },
+  {
+    "namespace": "",
+    "key": "69013AC7416E7C814CD656BEF3C94CC3",
+    "english": "Press",
+    "polish": "Naciśnij"
+  },
+  {
+    "namespace": "",
+    "key": "8EAB1DF94FB6B8B6BBA8D2BB7100EDE8",
+    "english": "Press",
+    "polish": "Naciśnij"
+  },
+  {
+    "namespace": "",
+    "key": "F95A10A246F26A68DB7327944EDE9048",
+    "english": "Press",
+    "polish": "Naciśnij"
+  },
+  {
+    "namespace": "",
+    "key": "FB2F11D943DDE45342B5B98DB9DF57DD",
+    "english": "Press any key to bind\r\n\r\nPress Escape to cancel",
+    "polish": "Naciśnij klawisz, który chcesz przypisać\r\n\r\nEscape anuluje"
+  },
+  {
+    "namespace": "",
+    "key": "NamePrestige",
+    "english": "Prestige",
+    "polish": "Prestiż"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionHandRingGoodness",
+    "english": "Pure goodness",
+    "polish": "Czyste dobro"
+  },
+  {
+    "namespace": "",
+    "key": "NameHandRingDoubleTime",
+    "english": "Quaternote",
+    "polish": "Ćwierćnuta"
+  },
+  {
+    "namespace": "",
+    "key": "D431DA4640A03E6741F403836D40758E",
+    "english": "Quit",
+    "polish": "Wyjdź"
+  },
+  {
+    "namespace": "",
+    "key": "B53512CA4C2E6FE260B8A0896DEC1A51",
+    "english": "Quit To Desktop",
+    "polish": "Wyjdź do pulpitu"
+  },
+  {
+    "namespace": "",
+    "key": "6C6D2AF042A4B6D29072EE8E4B2ECD9B",
+    "english": "RUN",
+    "polish": "PODEJŚCIE"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionUltimateGenerateCoins",
+    "english": "Raining coin",
+    "polish": "Deszcz monet"
+  },
+  {
+    "namespace": "",
+    "key": "NameConsumableRangeUp",
+    "english": "Range Up",
+    "polish": "Większy zasięg"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionChestRangeDouble",
+    "english": "Range increase",
+    "polish": "Większy zasięg"
+  },
+  {
+    "namespace": "",
+    "key": "NameArmEagleEye",
+    "english": "Raven God",
+    "polish": "Kruczy bóg"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionHeadReflect",
+    "english": "Reflect damage",
+    "polish": "Odbija obrażenia"
+  },
+  {
+    "namespace": "",
+    "key": "768C4D8D4B28614FFC13D4A60DD6BD63",
+    "english": "Reload",
+    "polish": "Przeładowanie"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionHeadFluffy",
+    "english": "Reload empowers next shot",
+    "polish": "Przeładowanie wzmacnia następny strzał"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionUltimateRegenForTime",
+    "english": "Renerate health over time",
+    "polish": "Odnawia zdrowie przez pewien czas"
+  },
+  {
+    "namespace": "",
+    "key": "0E2BDFD14ED020B181C5CEBD9B27B7DF",
+    "english": "Reset Defaults",
+    "polish": "Przywróć domyślne"
+  },
+  {
+    "namespace": "",
+    "key": "23763E9A4BEDB58A821336B2254871CF",
+    "english": "Reset Defaults",
+    "polish": "Przywróć domyślne"
+  },
+  {
+    "namespace": "",
+    "key": "5FC422DC4403FCED5B6045B1B2F4713A",
+    "english": "Reset Defaults",
+    "polish": "Przywróć domyślne"
+  },
+  {
+    "namespace": "",
+    "key": "62EA1136459A0B29956C73BAF69733CC",
+    "english": "Reset Defaults",
+    "polish": "Przywróć domyślne"
+  },
+  {
+    "namespace": "",
+    "key": "77AB38D34602A9EEC2F325B44175039E",
+    "english": "Reset Defaults",
+    "polish": "Przywróć domyślne"
+  },
+  {
+    "namespace": "",
+    "key": "B5CBC6724D7D74C5EC0B16BC7B2962B4",
+    "english": "Reset Defaults",
+    "polish": "Przywróć domyślne"
+  },
+  {
+    "namespace": "",
+    "key": "B6707EAD4CAE694E3D8221936804E124",
+    "english": "Resolution Scale",
+    "polish": "Skala rozdzielczości"
+  },
+  {
+    "namespace": "",
+    "key": "CC23F59346DD396F564E79A16855B2A1",
+    "english": "Resolution Scale",
+    "polish": "Skala rozdzielczości"
+  },
+  {
+    "namespace": "",
+    "key": "32ED160248F249ACEB5721B22153D8E5",
+    "english": "Restart",
+    "polish": "Od nowa"
+  },
+  {
+    "namespace": "",
+    "key": "33A4AB704F512145298DDC859503A851",
+    "english": "Restart",
+    "polish": "Od nowa"
+  },
+  {
+    "namespace": "",
+    "key": "3C697F124316F04032495B827DC3A82C",
+    "english": "Result",
+    "polish": "Wynik"
+  },
+  {
+    "namespace": "",
+    "key": "EC4169054D031586169D9681AE9470EB",
+    "english": "Resume",
+    "polish": "Wznów"
+  },
+  {
+    "namespace": "",
+    "key": "D1CA46A94E79B1E8309DEAB0FF84A178",
+    "english": "Resume with NO progreess save",
+    "polish": "Wznów BEZ zapisu postępów"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionArmRevealMap",
+    "english": "Reveal map",
+    "polish": "Odkrywa mapę"
+  },
+  {
+    "namespace": "",
+    "key": "NameSecondaryBurstAttack",
+    "english": "Rhythm Burst",
+    "polish": "Rytmiczny wybuch"
+  },
+  {
+    "namespace": "",
+    "key": "7E62B998428E0E4AFCED018F69004B43",
+    "english": "Rhythm Detection",
+    "polish": "Okno rytmu"
+  },
+  {
+    "namespace": "",
+    "key": "NameBootsRandomDamage",
+    "english": "Rhythmic Chaos Boots",
+    "polish": "Buty rytmicznego chaosu"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionSecondaryBurstAttack",
+    "english": "Rhythmic blasts of energy",
+    "polish": "Rytmiczne fale energii"
+  },
+  {
+    "namespace": "",
+    "key": "NameShieldFirebolts",
+    "english": "Richeous Sun",
+    "polish": "Słońce sprawiedliwych"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionHeadSwap",
+    "english": "Rotate ability slots",
+    "polish": "Zamienia miejscami umiejętności"
+  },
+  {
+    "namespace": "",
+    "key": "A42CA91D4F25AB86E829A0B1B7912086",
+    "english": "SFX Volume",
+    "polish": "Głośność efektów"
+  },
+  {
+    "namespace": "",
+    "key": "158D137B4E65944689B366B7C6F3AE4E",
+    "english": "SPEND 1,000 COINS IN THE ARMOURY",
+    "polish": "WYDAJ 1000 MONET W ZBROJOWNI"
+  },
+  {
+    "namespace": "",
+    "key": "EE2BFA074B61E92C95C744BD71FA3D96",
+    "english": "STORE 100 COINS IN THE BANK",
+    "polish": "ZŁÓŻ 100 MONET W BANKU"
+  },
+  {
+    "namespace": "",
+    "key": "6BFAC0464057B725AF18E8BFC936484A",
+    "english": "STORE 100 COINS IN THE DISH",
+    "polish": "ZŁÓŻ 100 MONET W MISIE"
+  },
+  {
+    "namespace": "",
+    "key": "BCF3D2E1403B685737A5B491F43D354B",
+    "english": "STREAK:",
+    "polish": "SERIA:"
+  },
+  {
+    "namespace": "",
+    "key": "NameSecondarySpawnBarrel",
+    "english": "Sacred Sapper",
+    "polish": "Święty saper"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionHandRingStats",
+    "english": "Sacrifice slot for stats",
+    "polish": "Poświęć miejsce dla statystyk"
+  },
+  {
+    "namespace": "",
+    "key": "E4C690924DFF69414A4363B6BCAF949B",
+    "english": "Save & Apply",
+    "polish": "Zapisz i zastosuj"
+  },
+  {
+    "namespace": "",
+    "key": "F468AFCA4AD3B713AF2D18890A77A480",
+    "english": "Save & Apply",
+    "polish": "Zapisz i zastosuj"
+  },
+  {
+    "namespace": "",
+    "key": "711D87F540743356C696F8BD2C5C413C",
+    "english": "Score",
+    "polish": "Wynik"
+  },
+  {
+    "namespace": "",
+    "key": "1D29F3EC4E4788A7CB983A992A30CCC0",
+    "english": "Screen Resolution",
+    "polish": "Rozdzielczość ekranu"
+  },
+  {
+    "namespace": "",
+    "key": "6B600EC241BC0DB1633667BF24A69B52",
+    "english": "Screen Resolution",
+    "polish": "Rozdzielczość ekranu"
+  },
+  {
+    "namespace": "",
+    "key": "03549FED4B05F8B5A9CDAD8473461BCA",
+    "english": "Secondary Ability",
+    "polish": "Umiejętność dodatkowa"
+  },
+  {
+    "namespace": "",
+    "key": "NameBootsEnchantedGreaves",
+    "english": "Seiðr's Blessing",
+    "polish": "Błogosławieństwo seidu"
+  },
+  {
+    "namespace": "",
+    "key": "NameHeadMagicHat",
+    "english": "Seiðr's Hat",
+    "polish": "Kapelusz seidu"
+  },
+  {
+    "namespace": "",
+    "key": "9D655E01400297B18F4097B23C9E76B4",
+    "english": "Settings",
+    "polish": "Ustawienia"
+  },
+  {
+    "namespace": "",
+    "key": "B7F2DADC4A84AF40A2D02894F034C727",
+    "english": "Settings",
+    "polish": "Ustawienia"
+  },
+  {
+    "namespace": "",
+    "key": "73FC9C514E800F6EB0A89380864054C0",
+    "english": "Settings will be reverted back in {time} second",
+    "polish": "Ustawienia wrócą do poprzednich za {time} s"
+  },
+  {
+    "namespace": "",
+    "key": "C19C3B9E44A8C55F4248ABB8CB4F9F38",
+    "english": "Shadows",
+    "polish": "Cienie"
+  },
+  {
+    "namespace": "",
+    "key": "NameConsumableShieldConverter",
+    "english": "Shield Converter",
+    "polish": "Przetwornik tarczy"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionShieldRegen",
+    "english": "Shield regeneration",
+    "polish": "Odnawianie tarczy"
+  },
+  {
+    "namespace": "",
+    "key": "428E1C244F1381976DE021AD14B7A767",
+    "english": "Shift",
+    "polish": "Shift"
+  },
+  {
+    "namespace": "",
+    "key": "NameHeadFullRoman",
+    "english": "Short Horned",
+    "polish": "Krótkie rogi"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionHandPenetrationGlove",
+    "english": "Shots penetrate walls and enemies",
+    "polish": "Strzały przebijają ściany i wrogów"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionHandRingSlow",
+    "english": "Shots slow enemies",
+    "polish": "Strzały spowalniają wrogów"
+  },
+  {
+    "namespace": "",
+    "key": "46E9ADD1419824097435779EB7444AD5",
+    "english": "Show Stats",
+    "polish": "Pokaż statystyki"
+  },
+  {
+    "namespace": "",
+    "key": "6D44CDE84FE0A9B2200CCF9805E9CD0C",
+    "english": "Signed out - Progress not saved",
+    "polish": "Wylogowano – postępy nie są zapisywane"
+  },
+  {
+    "namespace": "",
+    "key": "BA5F962E45F74EE570A453B598F101CF",
+    "english": "Signed out - Progress not saved",
+    "polish": "Wylogowano – postępy nie są zapisywane"
+  },
+  {
+    "namespace": "",
+    "key": "E21E57CC4D8FCBC95A2CEF8900BD28E5",
+    "english": "Signed out - Progress not saved",
+    "polish": "Wylogowano – postępy nie są zapisywane"
+  },
+  {
+    "namespace": "",
+    "key": "NameHandBracer",
+    "english": "Sigrdrifa's Bracer",
+    "polish": "Karwasz Sigrdrify"
+  },
+  {
+    "namespace": "",
+    "key": "NameUltimateGenerateChest",
+    "english": "Sigyn's Help",
+    "polish": "Pomoc Sigyn"
+  },
+  {
+    "namespace": "",
+    "key": "NameArmQuickloader",
+    "english": "Six-shooter",
+    "polish": "Sześciostrzałowiec"
+  },
+  {
+    "namespace": "",
+    "key": "NameBootsOfStrafe",
+    "english": "Skates of Strafe",
+    "polish": "Wrotki uskoku"
+  },
+  {
+    "namespace": "",
+    "key": "NameConsumableSkeletonKey",
+    "english": "Skeleton Key",
+    "polish": "Wytrych"
+  },
+  {
+    "namespace": "",
+    "key": "NameShieldBreastplate",
+    "english": "Skjaldmeyjar's Plate",
+    "polish": "Pancerz tarczowniczki"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionChestSlowProjectile",
+    "english": "Slow enemy projectiles",
+    "polish": "Spowalnia pociski wrogów"
+  },
+  {
+    "namespace": "",
+    "key": "NameUltimateBigSnap",
+    "english": "Snap fingers",
+    "polish": "Pstryknięcie"
+  },
+  {
+    "namespace": "",
+    "key": "NameSecondarySnipe",
+    "english": "Snipe",
+    "polish": "Snajperski strzał"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionShieldFirebolts",
+    "english": "Solar flares",
+    "polish": "Rozbłyski słoneczne"
+  },
+  {
+    "namespace": "",
+    "key": "NameHandAltitude",
+    "english": "Spacewalker",
+    "polish": "Kosmiczny wędrowiec"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionHandGloveSpeed",
+    "english": "Speed Up",
+    "polish": "Większa szybkość"
+  },
+  {
+    "namespace": "",
+    "key": "NameConsumableSpeedUp",
+    "english": "Speed Up",
+    "polish": "Większa szybkość"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionBootsHopliteGreaves",
+    "english": "Speed and range up",
+    "polish": "Większa szybkość i zasięg"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionBootsOfStrafe",
+    "english": "Speed multiplier",
+    "polish": "Mnożnik szybkości"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionHeadSpeed",
+    "english": "Speed multiplier",
+    "polish": "Mnożnik szybkości"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionBootsOfSpeed",
+    "english": "Speed up",
+    "polish": "Większa szybkość"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionHeadOrc",
+    "english": "Spread shot",
+    "polish": "Strzał rozproszony"
+  },
+  {
+    "namespace": "",
+    "key": "NameChestJumpStrength",
+    "english": "Springhel",
+    "polish": "Springhel"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionBootsClogsWooden",
+    "english": "Sprinting explodes",
+    "polish": "Bieg wybucha"
+  },
+  {
+    "namespace": "",
+    "key": "NameBootsOfCriticalDOT",
+    "english": "Spurs of Justice",
+    "polish": "Ostrogi sprawiedliwości"
+  },
+  {
+    "namespace": "",
+    "key": "NameSecondaryVamp",
+    "english": "Steal Life",
+    "polish": "Kradzież życia"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionSecondaryVamp",
+    "english": "Steal health from enemy",
+    "polish": "Wysysa zdrowie z wroga"
+  },
+  {
+    "namespace": "",
+    "key": "8CDFC5E548081F317657BEB03DF4EE73",
+    "english": "Stop at end of the video and show \"Press a key to Continue\"",
+    "polish": "Zatrzymaj na końcu filmu i pokaż „Naciśnij klawisz, by kontynuować”"
+  },
+  {
+    "namespace": "",
+    "key": "NameShieldLightning",
+    "english": "Storm",
+    "polish": "Burza"
+  },
+  {
+    "namespace": "",
+    "key": "9E5A802640D744316DA9BA8847BDF5B0",
+    "english": "Strict",
+    "polish": "Ścisłe"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionBootsRandomDamage",
+    "english": "Strike to the beat",
+    "polish": "Uderzaj w rytm"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionArmEagleEye",
+    "english": "Super range",
+    "polish": "Ogromny zasięg"
+  },
+  {
+    "namespace": "",
+    "key": "NameChestTallShield",
+    "english": "Svalinn",
+    "polish": "Svalinn"
+  },
+  {
+    "namespace": "",
+    "key": "2816D5734DB5BE13D293559418553CA8",
+    "english": "Svartalfheim Color Shift",
+    "polish": "Svartalfheim – przesunięcie barw"
+  },
+  {
+    "namespace": "",
+    "key": "4B05BADB4E31E4F0806650AD6B4DD57A",
+    "english": "Svartalfheim Saturation",
+    "polish": "Svartalfheim – nasycenie"
+  },
+  {
+    "namespace": "",
+    "key": "NameCurseDying",
+    "english": "TRIAL: Bleeding",
+    "polish": "PRÓBA: Krwawienie"
+  },
+  {
+    "namespace": "",
+    "key": "NameCurseToughened",
+    "english": "TRIAL: Fabled",
+    "polish": "PRÓBA: Legenda"
+  },
+  {
+    "namespace": "",
+    "key": "NameCurseFragilePlayer",
+    "english": "TRIAL: Fragile",
+    "polish": "PRÓBA: Kruchość"
+  },
+  {
+    "namespace": "",
+    "key": "NameCurseGambit",
+    "english": "TRIAL: Gambit",
+    "polish": "PRÓBA: Gambit"
+  },
+  {
+    "namespace": "",
+    "key": "NameCurseBossTough",
+    "english": "TRIAL: Godlike",
+    "polish": "PRÓBA: Boskość"
+  },
+  {
+    "namespace": "",
+    "key": "NameCurseMania",
+    "english": "TRIAL: Mania!",
+    "polish": "PRÓBA: Mania!"
+  },
+  {
+    "namespace": "",
+    "key": "NameCurseShopless",
+    "english": "TRIAL: Poverty",
+    "polish": "PRÓBA: Ubóstwo"
+  },
+  {
+    "namespace": "",
+    "key": "NameCurseDamocles",
+    "english": "TRIAL: Runner",
+    "polish": "PRÓBA: Biegacz"
+  },
+  {
+    "namespace": "",
+    "key": "NameCurseFastProjectiles",
+    "english": "TRIAL: Twitch",
+    "polish": "PRÓBA: Refleks"
+  },
+  {
+    "namespace": "",
+    "key": "NameCurseLowerAmmo",
+    "english": "TRIAL: Want",
+    "polish": "PRÓBA: Niedostatek"
+  },
+  {
+    "namespace": "",
+    "key": "05B94E32412CC6ACD1CC2AABCEAAFB19",
+    "english": "Tab 1",
+    "polish": "Tab 1"
+  },
+  {
+    "namespace": "",
+    "key": "94BB98134DC6BD399AAFA89C97606727",
+    "english": "Tab 1",
+    "polish": "Tab 1"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionUltimateTheQuest",
+    "english": "Take the quest",
+    "polish": "Podejmij wyprawę"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionHandAltitude",
+    "english": "Take to flight",
+    "polish": "Wzbij się w powietrze"
+  },
+  {
+    "namespace": "",
+    "key": "NameBootsTrampling",
+    "english": "Tampling Boots",
+    "polish": "Buty tratujące"
+  },
+  {
+    "namespace": "",
+    "key": "NameSecondaryTeleport",
+    "english": "Teleport",
+    "polish": "Teleport"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionSecondaryTeleport",
+    "english": "Teleport to point",
+    "polish": "Teleportacja do punktu"
+  },
+  {
+    "namespace": "",
+    "key": "NameShieldInfiniteAmmo",
+    "english": "The Best Defense",
+    "polish": "Najlepsza obrona"
+  },
+  {
+    "namespace": "",
+    "key": "NameUltimateTheQuest",
+    "english": "The Quest",
+    "polish": "Wyprawa"
+  },
+  {
+    "namespace": "",
+    "key": "NameHeadOpening",
+    "english": "The Secret Chord",
+    "polish": "Tajemny akord"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionSecondaryCoinThrow",
+    "english": "Throw a coin",
+    "polish": "Rzut monetą"
+  },
+  {
+    "namespace": "",
+    "key": "NameSecondaryClapExplosion",
+    "english": "Thunderclap",
+    "polish": "Grom"
+  },
+  {
+    "namespace": "",
+    "key": "C2CE980648575971CA85D78A1F2AAFBB",
+    "english": "Time",
+    "polish": "Czas"
+  },
+  {
+    "namespace": "",
+    "key": "CC634E3A419F770F6D0C9F97929A7342",
+    "english": "Timed Message box is very useful in certain cases",
+    "polish": "Okienko z odliczaniem bywa bardzo przydatne"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionHeadExplosives",
+    "english": "Timed explosives",
+    "polish": "Opóźnione wybuchy"
+  },
+  {
+    "namespace": "",
+    "key": "2B42FD354E5444960750D69FCA9D80A0",
+    "english": "Timer will be up in {time}",
+    "polish": "Czas minie za {time}"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionCurseBossTough",
+    "english": "Tougher bosses",
+    "polish": "Twardsi bossowie"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionArmDwemerRing",
+    "english": "Transforms projectiles",
+    "polish": "Przemienia pociski"
+  },
+  {
+    "namespace": "",
+    "key": "NameChestMagicFortify",
+    "english": "Triquetra",
+    "polish": "Triquetra"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionBootsBonusSpeedAfterFire",
+    "english": "Tumble when firing",
+    "polish": "Przewrót przy strzale"
+  },
+  {
+    "namespace": "",
+    "key": "NameBootsBonusSpeedAfterFire",
+    "english": "Tumbler's Boots",
+    "polish": "Buty akrobaty"
+  },
+  {
+    "namespace": "",
+    "key": "82908CC248B16AE8FBB2C382E4385225",
+    "english": "Turn Left",
+    "polish": "Obrót w lewo"
+  },
+  {
+    "namespace": "",
+    "key": "6DE093FC48F5EE83F4B576962E5DB210",
+    "english": "Turn Right",
+    "polish": "Obrót w prawo"
+  },
+  {
+    "namespace": "",
+    "key": "9073B4994634F1CF0FE78C8677C754EA",
+    "english": "UI Alpha",
+    "polish": "Krycie interfejsu"
+  },
+  {
+    "namespace": "",
+    "key": "42F49ACD4F21E924F7D897BF9386EE0C",
+    "english": "UI Scale",
+    "polish": "Skala interfejsu"
+  },
+  {
+    "namespace": "",
+    "key": "FD314C6C4BB0D3E62E146A90577427D9",
+    "english": "UNCOMPLETED",
+    "polish": "NIEUKOŃCZONE"
+  },
+  {
+    "namespace": "",
+    "key": "EFFCF10940E7C8C026D5FAA6865FF6A6",
+    "english": "Ultimate Ability",
+    "polish": "Superumiejętność"
+  },
+  {
+    "namespace": "",
+    "key": "NameSecondaryUnrelenting",
+    "english": "Undying Strength",
+    "polish": "Nieśmiertelna siła"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionSecondaryUnrelenting",
+    "english": "Unkillable for time",
+    "polish": "Nieśmiertelność na pewien czas"
+  },
+  {
+    "namespace": "",
+    "key": "4730C87B4A315C543A57539E51E1446A",
+    "english": "Use Arm Item",
+    "polish": "Użyj przedmiotu na rękę"
+  },
+  {
+    "namespace": "",
+    "key": "A1F1D8254DB8CEF12F5C8B9E169FAE6B",
+    "english": "Use Armour Item",
+    "polish": "Użyj przedmiotu na tors"
+  },
+  {
+    "namespace": "",
+    "key": "098F8EC04ECDF7BACCDB438261753812",
+    "english": "Use Foot Item",
+    "polish": "Użyj przedmiotu na stopy"
+  },
+  {
+    "namespace": "",
+    "key": "921AA2DC4818D49DCD64659E2D34F7DD",
+    "english": "Use Head Item",
+    "polish": "Użyj przedmiotu na głowę"
+  },
+  {
+    "namespace": "",
+    "key": "71B33F0C42A3F05B62ADF286D7E74096",
+    "english": "User Interface",
+    "polish": "Interfejs"
+  },
+  {
+    "namespace": "",
+    "key": "9BCF240446297B550A8E4B885114950A",
+    "english": "User Interface",
+    "polish": "Interfejs"
+  },
+  {
+    "namespace": "",
+    "key": "03BAE0C7472C6DA334361B8A7A1D0D6B",
+    "english": "User changed",
+    "polish": "Zmieniono użytkownika"
+  },
+  {
+    "namespace": "",
+    "key": "2615E6C54C22D99063393CB095CE31E8",
+    "english": "Username",
+    "polish": "Nazwa użytkownika"
+  },
+  {
+    "namespace": "",
+    "key": "7B8B157D41B5C972AAE310B367D43D7A",
+    "english": "Username",
+    "polish": "Nazwa użytkownika"
+  },
+  {
+    "namespace": "",
+    "key": "B3EBCB594F8E29C963CEA8BB34E52AB3",
+    "english": "Username",
+    "polish": "Nazwa użytkownika"
+  },
+  {
+    "namespace": "",
+    "key": "CD4F5B7E46A69B136B7BFE8CD9844A77",
+    "english": "Username",
+    "polish": "Nazwa użytkownika"
+  },
+  {
+    "namespace": "",
+    "key": "9EB05C3945B8B7031848BEA5BF20E35E",
+    "english": "VSync",
+    "polish": "VSync"
+  },
+  {
+    "namespace": "",
+    "key": "D44090D548F1AB81A13CD3B31B761B11",
+    "english": "VSync",
+    "polish": "VSync"
+  },
+  {
+    "namespace": "",
+    "key": "NameUltimateAlliedAngel",
+    "english": "Valkyrie's Call",
+    "polish": "Zew walkirii"
+  },
+  {
+    "namespace": "",
+    "key": "NameSecondaryManaShield",
+    "english": "Valkyrie's Veil",
+    "polish": "Welon walkirii"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionHeadVamp",
+    "english": "Vamp health on damage",
+    "polish": "Obrażenia wysysają zdrowie"
+  },
+  {
+    "namespace": "",
+    "key": "C58B0EF747C1B051F1D7BD83F2A9D3FB",
+    "english": "Vanaheim Color Shift",
+    "polish": "Vanaheim – przesunięcie barw"
+  },
+  {
+    "namespace": "",
+    "key": "B90878A94EB9516A8F489F8AA0F60AB8",
+    "english": "Vanaheim Saturation",
+    "polish": "Vanaheim – nasycenie"
+  },
+  {
+    "namespace": "",
+    "key": "9C9DD79546D92777823ABDAA9F1C2CC2",
+    "english": "Vertical Sensitivity",
+    "polish": "Czułość w pionie"
+  },
+  {
+    "namespace": "",
+    "key": "4BE1402048C46B07A76B938E5E191AD5",
+    "english": "Very High",
+    "polish": "Bardzo wysoka"
+  },
+  {
+    "namespace": "",
+    "key": "41D756B44FDA0871634A049AD91EDF47",
+    "english": "Vibration",
+    "polish": "Wibracje"
+  },
+  {
+    "namespace": "",
+    "key": "0B9075684F0525ED6A099C922828E4CA",
+    "english": "Video",
+    "polish": "Obraz"
+  },
+  {
+    "namespace": "",
+    "key": "0425103A4D76CFDF29F772B9C6AE0CE9",
+    "english": "Video & Graphics",
+    "polish": "Obraz i grafika"
+  },
+  {
+    "namespace": "",
+    "key": "202F896540953F9F9FE086A6F81AE167",
+    "english": "Video & Graphics",
+    "polish": "Obraz i grafika"
+  },
+  {
+    "namespace": "",
+    "key": "4566DEE848D1019E6B4B2EA1F71C00A6",
+    "english": "VideoLatencyTest",
+    "polish": "VideoLatencyTest"
+  },
+  {
+    "namespace": "",
+    "key": "359811F647959879E8C5B2A89AD46D7E",
+    "english": "Window Mode",
+    "polish": "Tryb okna"
+  },
+  {
+    "namespace": "",
+    "key": "48A2DADD4A3D6E427467DCBC700DF057",
+    "english": "Window Mode",
+    "polish": "Tryb okna"
+  },
+  {
+    "namespace": "",
+    "key": "71E16E4A41FA3CEA6B84E3B9A36389A8",
+    "english": "Window Mode",
+    "polish": "Tryb okna"
+  },
+  {
+    "namespace": "",
+    "key": "813E5D2641EB35ED1EA694ACD7C1C6DE",
+    "english": "Window Mode",
+    "polish": "Tryb okna"
+  },
+  {
+    "namespace": "",
+    "key": "ACE30F2C4E42B7467282D6B4F6354453",
+    "english": "Windowed",
+    "polish": "Okno"
+  },
+  {
+    "namespace": "",
+    "key": "A831A6A24745C0C7FB9C4BAA94418F62",
+    "english": "Wireless controller",
+    "polish": "Kontroler bezprzewodowy"
+  },
+  {
+    "namespace": "",
+    "key": "BDE54207418FD6A9782297995E852417",
+    "english": "Wireless controller",
+    "polish": "Kontroler bezprzewodowy"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionUltimateRemoteBank",
+    "english": "Withdraw coin from bank",
+    "polish": "Wypłata monety z banku"
+  },
+  {
+    "namespace": "",
+    "key": "CD11DA8E45044A5E83DB5E94E499E28C",
+    "english": "X",
+    "polish": "X"
+  },
+  {
+    "namespace": "",
+    "key": "AA73AF254B10BD521C6D5CA86CF0D34F",
+    "english": "Y ( Ultrawide )",
+    "polish": "Y (ultrapanoramiczny)"
+  },
+  {
+    "namespace": "",
+    "key": "8BD1F1E440335304C90C339773D5DD4A",
+    "english": "Yes",
+    "polish": "Tak"
+  },
+  {
+    "namespace": "",
+    "key": "NameHeadEchoShot",
+    "english": "Ymir's Crown",
+    "polish": "Korona Ymira"
+  },
+  {
+    "namespace": "",
+    "key": "DescriptionCursePlayerFragile",
+    "english": "You take double damage",
+    "polish": "Otrzymujesz podwójne obrażenia"
+  },
+  {
+    "namespace": "",
+    "key": "92524A914A5543EFB9896FA5B5BEFB0B",
+    "english": "a lack of coins",
+    "polish": "brak monet"
+  },
+  {
+    "namespace": "",
+    "key": "FB6E0ED74EF5224DCF988BB6A3F75FD2",
+    "english": "auto rhythm disables score multiplier\r\nbut it is helpful for those who struggle with rhythm",
+    "polish": "automatyczny rytm wyłącza mnożnik punktów,\r\nale pomaga tym, którzy mają kłopot z rytmem"
+  },
+  {
+    "namespace": "",
+    "key": "33517AC34EF7B935C5744E9D8DA2F7C0",
+    "english": "buttons below",
+    "polish": "przyciski poniżej"
+  },
+  {
+    "namespace": "",
+    "key": "DeathByCurse",
+    "english": "curse",
+    "polish": "klątwa"
+  },
+  {
+    "namespace": "",
+    "key": "136F693B49D68EB8442A6F8A752EFF6F",
+    "english": "{u} - Controller Disconnected",
+    "polish": "{u} – kontroler odłączony"
+  },
+  {
+    "namespace": "",
+    "key": "3A7E254A45B0761AF019F8AC96C2BB71",
+    "english": "{u} - Controller Disconnected",
+    "polish": "{u} – kontroler odłączony"
+  },
+  {
+    "namespace": "",
+    "key": "694392554FDEF8D66EC14FB0AE8E06F0",
+    "english": "{u} - Controller Disconnected",
+    "polish": "{u} – kontroler odłączony"
+  },
+  {
+    "namespace": "",
+    "key": "8F23AAFC4C8BB83849053088448E2604",
+    "english": "{u} - Controller Disconnected",
+    "polish": "{u} – kontroler odłączony"
+  },
+  {
+    "namespace": "",
+    "key": "AA85F9C64F5572CAFA323A89AA56AFA1",
+    "english": "{u} - Controller Disconnected",
+    "polish": "{u} – kontroler odłączony"
+  },
+  {
+    "namespace": "",
+    "key": "FB694A1646818D31513115B88BCC81B1",
+    "english": "{u} - Controller Disconnected",
+    "polish": "{u} – kontroler odłączony"
+  },
+  {
+    "namespace": "ControllerInputStrings",
+    "key": "CONTROLLER_FIRE",
+    "english": "FIRE WEAPON",
+    "polish": "STRZAŁ"
+  },
+  {
+    "namespace": "ControllerInputStrings",
+    "key": "CONTROLLER_JUMP",
+    "english": "JUMP",
+    "polish": "SKOK"
+  },
+  {
+    "namespace": "ControllerInputStrings",
+    "key": "CONTROLLER_LOOK",
+    "english": "LOOK",
+    "polish": "ROZGLĄDANIE"
+  },
+  {
+    "namespace": "ControllerInputStrings",
+    "key": "CONTROLLER_MENU",
+    "english": "MENU",
+    "polish": "MENU"
+  },
+  {
+    "namespace": "ControllerInputStrings",
+    "key": "CONTROLLER_MOBILITY",
+    "english": "MOBILITY ABILITY",
+    "polish": "UMIEJĘTNOŚĆ RUCHU"
+  },
+  {
+    "namespace": "ControllerInputStrings",
+    "key": "CONTROLLER_MOVE",
+    "english": "MOVE",
+    "polish": "RUCH"
+  },
+  {
+    "namespace": "ControllerInputStrings",
+    "key": "CONTROLLER_RELOAD",
+    "english": "RELOAD",
+    "polish": "PRZEŁADOWANIE"
+  },
+  {
+    "namespace": "ControllerInputStrings",
+    "key": "CONTROLLER_SECONDARY",
+    "english": "SECONDARY ABILITY",
+    "polish": "UMIEJĘTNOŚĆ DODATKOWA"
+  },
+  {
+    "namespace": "ControllerInputStrings",
+    "key": "CONTROLLER_STATS",
+    "english": "STATS",
+    "polish": "STATYSTYKI"
+  },
+  {
+    "namespace": "ControllerInputStrings",
+    "key": "CONTROLLER_ULTIMATE",
+    "english": "ULTIMATE ABILITY",
+    "polish": "SUPERUMIEJĘTNOŚĆ"
+  },
+  {
+    "namespace": "ControllerInputStrings",
+    "key": "CONTROLLER_USE",
+    "english": "USE",
+    "polish": "UŻYJ"
+  },
+  {
+    "namespace": "ControllerInputStrings",
+    "key": "CONTROLLER_USE_AND_RELOAD",
+    "english": "USE / RELOAD",
+    "polish": "UŻYJ / PRZEŁADUJ"
+  },
+  {
+    "namespace": "ControllerInputStrings",
+    "key": "CONTROLLER_ITEMS",
+    "english": "USE ITEMS",
+    "polish": "UŻYJ PRZEDMIOTÓW"
+  },
+  {
+    "namespace": "CreditsStrings",
+    "key": "AweInteractiveIs",
+    "english": "AWE INTERACTIVE IS",
+    "polish": "AWE INTERACTIVE TO"
+  },
+  {
+    "namespace": "CreditsStrings",
+    "key": "AssistantProducer_credit",
+    "english": "Assistant Producer",
+    "polish": "Asystent producenta"
+  },
+  {
+    "namespace": "CreditsStrings",
+    "key": "CEO_credit",
+    "english": "CEO",
+    "polish": "Prezes"
+  },
+  {
+    "namespace": "CreditsStrings",
+    "key": "ConsoleVersionsBy",
+    "english": "Console versions by",
+    "polish": "Wersje konsolowe"
+  },
+  {
+    "namespace": "CreditsStrings",
+    "key": "JustAddWater_Credit",
+    "english": "Just Add Water (Development), Ltd.",
+    "polish": "Just Add Water (Development), Ltd."
+  },
+  {
+    "namespace": "CreditsStrings",
+    "key": "LeadQATester_credit",
+    "english": "Lead QA Tester",
+    "polish": "Główny tester"
+  },
+  {
+    "namespace": "CreditsStrings",
+    "key": "outsidehelp_credit",
+    "english": "OUTSIDE HELP",
+    "polish": "POMOC Z ZEWNĄTRZ"
+  },
+  {
+    "namespace": "CreditsStrings",
+    "key": "PARTNERING_WITH",
+    "english": "PARTNERING WITH",
+    "polish": "WE WSPÓŁPRACY Z"
+  },
+  {
+    "namespace": "CreditsStrings",
+    "key": "Programmer_credit",
+    "english": "Programmer",
+    "polish": "Programista"
+  },
+  {
+    "namespace": "CreditsStrings",
+    "key": "QATesters_credit",
+    "english": "QA Testers",
+    "polish": "Testerzy"
+  },
+  {
+    "namespace": "CreditsStrings",
+    "key": "SpecialThanksSomeCaps_credit",
+    "english": "Special Thanks",
+    "polish": "Specjalne podziękowania"
+  },
+  {
+    "namespace": "CreditsStrings",
+    "key": "StudioDirector_credit",
+    "english": "Studio Director",
+    "polish": "Dyrektor studia"
+  },
+  {
+    "namespace": "CreditsStrings",
+    "key": "thanksforplaying",
+    "english": "Thank you for playing. \r\nThis was a passion project of a tiny core team. \r\nWe hope to keep making more games. ",
+    "polish": "Dziękujemy za grę. \r\nTo projekt z pasji, zrobiony przez maleńki zespół. \r\nMamy nadzieję tworzyć kolejne gry. "
+  },
+  {
+    "namespace": "CreditsStrings",
+    "key": "additionalanimation_credit",
+    "english": "additional animation",
+    "polish": "dodatkowe animacje"
+  },
+  {
+    "namespace": "CreditsStrings",
+    "key": "additionalcomposition_credit",
+    "english": "additional composition",
+    "polish": "dodatkowa muzyka"
+  },
+  {
+    "namespace": "CreditsStrings",
+    "key": "additionalweaponart_credit",
+    "english": "additional weapon art",
+    "polish": "dodatkowe projekty broni"
+  },
+  {
+    "namespace": "CreditsStrings",
+    "key": "animation_credit",
+    "english": "animation",
+    "polish": "animacje"
+  },
+  {
+    "namespace": "CreditsStrings",
+    "key": "composer_credit",
+    "english": "composer",
+    "polish": "kompozytor"
+  },
+  {
+    "namespace": "CreditsStrings",
+    "key": "conceptart_credit",
+    "english": "concept art",
+    "polish": "grafiki koncepcyjne"
+  },
+  {
+    "namespace": "CreditsStrings",
+    "key": "gamedirectorprogrammer_credit",
+    "english": "game director & programmer",
+    "polish": "reżyser gry i programista"
+  },
+  {
+    "namespace": "CreditsStrings",
+    "key": "levelsounddesign_credit",
+    "english": "level & sound design",
+    "polish": "projekt poziomów i dźwięku"
+  },
+  {
+    "namespace": "CreditsStrings",
+    "key": "musicmixingandmastering_credit",
+    "english": "music mixing and mastering",
+    "polish": "miks i mastering muzyki"
+  },
+  {
+    "namespace": "CreditsStrings",
+    "key": "personalthanks_credit",
+    "english": "personal thanks",
+    "polish": "osobiste podziękowania"
+  },
+  {
+    "namespace": "CreditsStrings",
+    "key": "specialthanks_credit",
+    "english": "special thanks",
+    "polish": "specjalne podziękowania"
+  },
+  {
+    "namespace": "CreditsStrings",
+    "key": "weaponart_credit",
+    "english": "weapon art",
+    "polish": "projekty broni"
+  },
+  {
+    "namespace": "HintsStrings",
+    "key": "FullyUpgradedHuginnsShop_withcolon",
+    "english": "Fully Upgraded Huginn's Shop: ",
+    "polish": "W pełni ulepszony sklep Huginna: "
+  },
+  {
+    "namespace": "HintsStrings",
+    "key": "FullyUpgradedMuninnsArmoury_withcolon",
+    "english": "Fully Upgraded Muninn's Armoury: ",
+    "polish": "W pełni ulepszona zbrojownia Muninna: "
+  },
+  {
+    "namespace": "HintsStrings",
+    "key": "hint_dash",
+    "english": "HINT: DASH TO AVOID PROJECTILES AND TO GET AROUND",
+    "polish": "WSKAZÓWKA: ZRYWEM UNIKASZ POCISKÓW I SZYBCIEJ SIĘ PRZEMIESZCZASZ"
+  },
+  {
+    "namespace": "HintsStrings",
+    "key": "hint_holddashtosprint",
+    "english": "HINT: HOLD DASH TO SPRINT",
+    "polish": "WSKAZÓWKA: PRZYTRZYMAJ ZRYW, BY BIEC"
+  },
+  {
+    "namespace": "HintsStrings",
+    "key": "hint_jumptododge",
+    "english": "HINT: JUMP TO DODGE FLOOR ATTACKS",
+    "polish": "WSKAZÓWKA: PODSKOCZ, BY UNIKNĄĆ ATAKÓW PO ZIEMI"
+  },
+  {
+    "namespace": "HintsStrings",
+    "key": "hint_tryautorhythm",
+    "english": "HINT: STRUGGLING WITH RHYTHM ? YOU CAN ENABLE 'AUTO RHYTHM' IN THE GAME SETTINGS",
+    "polish": "WSKAZÓWKA: KŁOPOT Z RYTMEM? W USTAWIENIACH GRY WŁĄCZYSZ „AUTOMATYCZNY RYTM”"
+  },
+  {
+    "namespace": "HintsStrings",
+    "key": "hint_dashtododge",
+    "english": "HINT: TIME YOUR DASH TO AVOID TRACKING ATTACKS",
+    "polish": "WSKAZÓWKA: WYCZUJ MOMENT NA ZRYW, BY UNIKNĄĆ NAMIERZAJĄCYCH ATAKÓW"
+  },
+  {
+    "namespace": "HintsStrings",
+    "key": "hint_usesecondary",
+    "english": "HINT: USE YOUR SECONDARY ATTACK WHEN CHARGED",
+    "polish": "WSKAZÓWKA: UŻYJ UMIEJĘTNOŚCI DODATKOWEJ, GDY SIĘ NAŁADUJE"
+  },
+  {
+    "namespace": "HintsStrings",
+    "key": "hint_useultimate",
+    "english": "HINT: USE YOUR ULTIMATE WHEN CHARGED",
+    "polish": "WSKAZÓWKA: UŻYJ SUPERUMIEJĘTNOŚCI, GDY SIĘ NAŁADUJE"
+  },
+  {
+    "namespace": "HintsStrings",
+    "key": "hint_chaindodgeandjump",
+    "english": "HINT: YOU CAN CHAIN JUMPS AND DODGES",
+    "polish": "WSKAZÓWKA: SKOKI I UNIKI MOŻESZ ŁĄCZYĆ"
+  },
+  {
+    "namespace": "HintsStrings",
+    "key": "hint_offbeatjumping",
+    "english": "HINT: YOU CAN DOUBLE JUMP ON OFFBEATS",
+    "polish": "WSKAZÓWKA: PODWÓJNY SKOK ZROBISZ TEŻ MIĘDZY UDERZENIAMI"
+  },
+  {
+    "namespace": "HintsStrings",
+    "key": "hint_doublefire",
+    "english": "HINT: YOU CAN FIRE THE PISTOL DOUBLE TIME",
+    "polish": "WSKAZÓWKA: Z PISTOLETU STRZELISZ W PODWÓJNYM TEMPIE"
+  },
+  {
+    "namespace": "HintsStrings",
+    "key": "HuginnsLoyaltyCard_withcolon",
+    "english": "Huginn's Loyalty Card: ",
+    "polish": "Karta stałego klienta Huginna: "
+  },
+  {
+    "namespace": "HintsStrings",
+    "key": "MuninnsGratitude_withcolon",
+    "english": "Muninn's Gratitude: ",
+    "polish": "Wdzięczność Muninna: "
+  },
+  {
+    "namespace": "HintsStrings",
+    "key": "UpgradedHugginsShop",
+    "english": "Upgraded Huggin's Shop",
+    "polish": "Ulepszony sklep Huginna"
+  },
+  {
+    "namespace": "HintsStrings",
+    "key": "UpgradedMuninnsArmoury",
+    "english": "Upgraded Muninn's Armoury",
+    "polish": "Ulepszona zbrojownia Muninna"
+  },
+  {
+    "namespace": "HintsStrings",
+    "key": "full_crosshair",
+    "english": "full",
+    "polish": "pełne"
+  },
+  {
+    "namespace": "HintsStrings",
+    "key": "lowammo_crosshair",
+    "english": "low ammo",
+    "polish": "mało amunicji"
+  },
+  {
+    "namespace": "HintsStrings",
+    "key": "reload_crosshair",
+    "english": "reload",
+    "polish": "przeładuj"
+  },
+  {
+    "namespace": "HintsStrings",
+    "key": "toofar_crosshair",
+    "english": "too far",
+    "polish": "za daleko"
+  },
+  {
+    "namespace": "HUDStrings",
+    "key": "ability_caps",
+    "english": "ABILITY",
+    "polish": "UMIEJĘTNOŚĆ"
+  },
+  {
+    "namespace": "HUDStrings",
+    "key": "Armoury_label",
+    "english": "Armoury",
+    "polish": "Zbrojownia"
+  },
+  {
+    "namespace": "HUDStrings",
+    "key": "beststreakcaps",
+    "english": "BEST STREAK",
+    "polish": "NAJDŁUŻSZA SERIA"
+  },
+  {
+    "namespace": "HUDStrings",
+    "key": "Bank_label",
+    "english": "Bank",
+    "polish": "Bank"
+  },
+  {
+    "namespace": "HUDStrings",
+    "key": "chapterlabelcaps",
+    "english": "CHAPTER",
+    "polish": "ROZDZIAŁ"
+  },
+  {
+    "namespace": "HUDStrings",
+    "key": "curseslabelcaps",
+    "english": "CURSES",
+    "polish": "KLĄTWY"
+  },
+  {
+    "namespace": "HUDStrings",
+    "key": "damage_caps",
+    "english": "DAMAGE",
+    "polish": "OBRAŻENIA"
+  },
+  {
+    "namespace": "HUDStrings",
+    "key": "defeatcaps",
+    "english": "DEFEAT",
+    "polish": "PORAŻKA"
+  },
+  {
+    "namespace": "HUDStrings",
+    "key": "difficultylabelcaps",
+    "english": "DIFFICULTY",
+    "polish": "POZIOM TRUDNOŚCI"
+  },
+  {
+    "namespace": "HUDStrings",
+    "key": "dodge_text_caps",
+    "english": "DODGE",
+    "polish": "UNIK"
+  },
+  {
+    "namespace": "HUDStrings",
+    "key": "dodgetextcaps",
+    "english": "DODGE",
+    "polish": "UNIK"
+  },
+  {
+    "namespace": "HUDStrings",
+    "key": "room_flawless_clear_caps",
+    "english": "FLAWLESS CLEAR",
+    "polish": "BEZ SKAZY"
+  },
+  {
+    "namespace": "HUDStrings",
+    "key": "room_good_clear_caps",
+    "english": "GOOD CLEAR",
+    "polish": "DOBRA ROBOTA"
+  },
+  {
+    "namespace": "HUDStrings",
+    "key": "hold_text_caps",
+    "english": "HOLD",
+    "polish": "PRZYTRZYMAJ"
+  },
+  {
+    "namespace": "HUDStrings",
+    "key": "juke_text_caps",
+    "english": "JUKE",
+    "polish": "ZWÓD"
+  },
+  {
+    "namespace": "HUDStrings",
+    "key": "jumptextcaps",
+    "english": "JUMP",
+    "polish": "SKOK"
+  },
+  {
+    "namespace": "HUDStrings",
+    "key": "killslabelcaps",
+    "english": "KILLS",
+    "polish": "ZABICIA"
+  },
+  {
+    "namespace": "HUDStrings",
+    "key": "luck_caps",
+    "english": "LUCK",
+    "polish": "SZCZĘŚCIE"
+  },
+  {
+    "namespace": "HUDStrings",
+    "key": "notestreakcaps",
+    "english": "NOTE STREAK",
+    "polish": "SERIA NUT"
+  },
+  {
+    "namespace": "HUDStrings",
+    "key": "room_ok_clear_caps",
+    "english": "OKAY CLEAR",
+    "polish": "MOŻE BYĆ"
+  },
+  {
+    "namespace": "HUDStrings",
+    "key": "practice_complete_caps",
+    "english": "PRACTICE COMPLETED",
+    "polish": "TRENING UKOŃCZONY"
+  },
+  {
+    "namespace": "HUDStrings",
+    "key": "precision_caps",
+    "english": "PRECISION",
+    "polish": "PRECYZJA"
+  },
+  {
+    "namespace": "HUDStrings",
+    "key": "range_caps",
+    "english": "RANGE",
+    "polish": "ZASIĘG"
+  },
+  {
+    "namespace": "HUDStrings",
+    "key": "room_cleared_caps",
+    "english": "ROOM CLEARED",
+    "polish": "KOMNATA OCZYSZCZONA"
+  },
+  {
+    "namespace": "HUDStrings",
+    "key": "scorelabelcaps",
+    "english": "SCORE",
+    "polish": "WYNIK"
+  },
+  {
+    "namespace": "HUDStrings",
+    "key": "secondary_ability_unlocked_caps",
+    "english": "SECONDARY ABILITY UNLOCKED",
+    "polish": "ODBLOKOWANO UMIEJĘTNOŚĆ DODATKOWĄ"
+  },
+  {
+    "namespace": "HUDStrings",
+    "key": "speed_caps",
+    "english": "SPEED",
+    "polish": "SZYBKOŚĆ"
+  },
+  {
+    "namespace": "HUDStrings",
+    "key": "streakcaps",
+    "english": "STREAK",
+    "polish": "SERIA"
+  },
+  {
+    "namespace": "HUDStrings",
+    "key": "Shop_label",
+    "english": "Shop",
+    "polish": "Sklep"
+  },
+  {
+    "namespace": "HUDStrings",
+    "key": "timelabelcaps",
+    "english": "TIME",
+    "polish": "CZAS"
+  },
+  {
+    "namespace": "HUDStrings",
+    "key": "thedish_label",
+    "english": "The Dish",
+    "polish": "Misa"
+  },
+  {
+    "namespace": "HUDStrings",
+    "key": "ultimate_ability_unlocked_caps",
+    "english": "ULTIMATE ABILITY UNLOCKED",
+    "polish": "ODBLOKOWANO SUPERUMIEJĘTNOŚĆ"
+  },
+  {
+    "namespace": "HUDStrings",
+    "key": "victory_caps",
+    "english": "VICTORY",
+    "polish": "ZWYCIĘSTWO"
+  },
+  {
+    "namespace": "HUDStrings",
+    "key": "generatingdungeon",
+    "english": "generating dungeon",
+    "polish": "generowanie lochów"
+  },
+  {
+    "namespace": "HUDStrings",
+    "key": "huginns_shop",
+    "english": "huginn's shop",
+    "polish": "sklep Huginna"
+  },
+  {
+    "namespace": "HUDStrings",
+    "key": "killedby",
+    "english": "killed by",
+    "polish": "zabójca:"
+  },
+  {
+    "namespace": "HUDStrings",
+    "key": "muninns_armoury",
+    "english": "muninn's armoury",
+    "polish": "zbrojownia Muninna"
+  },
+  {
+    "namespace": "HUDStrings",
+    "key": "pressanybutton",
+    "english": "press any button",
+    "polish": "naciśnij dowolny przycisk"
+  },
+  {
+    "namespace": "HUDStrings",
+    "key": "pressanykey",
+    "english": "press any key",
+    "polish": "naciśnij dowolny klawisz"
+  },
+  {
+    "namespace": "HUDStrings",
+    "key": "presstocontinue",
+    "english": "press to continue",
+    "polish": "naciśnij, by kontynuować"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "tip25",
+    "english": "A LOYAL CUSTOMER WILL BE REWARDED",
+    "polish": "STAŁY KLIENT ZOSTANIE NAGRODZONY"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "RockDemon",
+    "english": "ALVIS",
+    "polish": "ALVIS"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "Cryptgard",
+    "english": "ASGARD CRYPTS",
+    "polish": "KRYPTY ASGARDU"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "asgard1",
+    "english": "ASGARD I",
+    "polish": "ASGARD I"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "asgard2",
+    "english": "ASGARD II",
+    "polish": "ASGARD II"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "tip26",
+    "english": "ATTACK ENEMIES IN THEIR WEAKSPOTS TO DO CRITICAL DAMAGE",
+    "polish": "TRAFIAJ WROGÓW W SŁABE PUNKTY, BY ZADAĆ OBRAŻENIA KRYTYCZNE"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "modifierbarren",
+    "english": "BARREN",
+    "polish": "JAŁOWA"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "modifierblackmarket",
+    "english": "BLACK MARKET",
+    "polish": "CZARNY RYNEK"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "challenge_bossrush",
+    "english": "BOSS RUSH",
+    "polish": "MARATON BOSSÓW"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "modifierbountiful",
+    "english": "BOUNTIFUL",
+    "polish": "HOJNA"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "ModBurning",
+    "english": "BURNING",
+    "polish": "PŁONĄCY"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "modifiercastle",
+    "english": "CASTLE",
+    "polish": "ZAMEK"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "modifierchallenge",
+    "english": "CHALLENGE",
+    "polish": "WYZWANIE"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "unlocked_challenge_challenge",
+    "english": "CHALLENGE",
+    "polish": "WYZWANIE"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "ModChampion",
+    "english": "CHAMPION",
+    "polish": "CZEMPION"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "ModCloned",
+    "english": "CLONED",
+    "polish": "SKLONOWANY"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "challenge_completed",
+    "english": "COMPLETED",
+    "polish": "UKOŃCZONE"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "tip28",
+    "english": "COMPLETING THE GAME ON HARD UNLOCKS DEFAULT ULTIMATES",
+    "polish": "UKOŃCZENIE GRY NA TRUDNYM ODBLOKOWUJE STARTOWE SUPERUMIEJĘTNOŚCI"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "tip20",
+    "english": "COMPLETING THE GAME UNLOCKS A STARTING SECONDARY ABILITY",
+    "polish": "UKOŃCZENIE GRY ODBLOKOWUJE STARTOWĄ UMIEJĘTNOŚĆ DODATKOWĄ"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "ModCrazed",
+    "english": "CRAZED",
+    "polish": "OSZALAŁY"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "modifierbadroom",
+    "english": "CURSED",
+    "polish": "PRZEKLĘTA"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "tip12",
+    "english": "DAMOCLES SWORDS GIVE A PRIZE AT A COST",
+    "polish": "MIECZE DAMOKLESA DAJĄ NAGRODĘ, ALE NIE ZA DARMO"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "modifierdarkness",
+    "english": "DARK",
+    "polish": "MROCZNA"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "tip30",
+    "english": "DODGE OVER ENEMIES TO GET THEM IN THE BACK",
+    "polish": "PRZESKOCZ UNIKIEM NAD WROGIEM, BY ZAJŚĆ GO OD TYŁU"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "tip4",
+    "english": "DODGE TO AVOID TRACKING PROJECTILES",
+    "polish": "UNIKAJ NAMIERZAJĄCYCH POCISKÓW"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "modifiertempoup",
+    "english": "DOUBLETIME",
+    "polish": "PODWÓJNE TEMPO"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "Lich",
+    "english": "DRAUGR",
+    "polish": "DRAUGR"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "ModDwarf",
+    "english": "DWARF",
+    "polish": "KARZEŁ"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "difficultyeasy",
+    "english": "EASY",
+    "polish": "ŁATWY"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "ModShocking",
+    "english": "ELECTRIC",
+    "polish": "ELEKTRYCZNY"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "tip13",
+    "english": "ENEMIES ATTACK ON THE BEAT",
+    "polish": "WROGOWIE ATAKUJĄ W RYTM"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "tip14",
+    "english": "EVERY GUN HAS A DIFFERENT RELOAD PATTERN",
+    "polish": "KAŻDA BROŃ PRZEŁADOWUJE SIĘ INACZEJ"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "modifieralldropsarex",
+    "english": "EXPLOSIVE",
+    "polish": "WYBUCHOWA"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "Servant",
+    "english": "FAFNIR",
+    "polish": "FAFNIR"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "challenge_fixedseedfixeditems",
+    "english": "FIXED SEED FIXED ITEMS",
+    "polish": "STAŁE ZIARNO, STAŁE PRZEDMIOTY"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "challenge_fixedseedrandomitems",
+    "english": "FIXED SEED RANDOM ITEMS",
+    "polish": "STAŁE ZIARNO, LOSOWE PRZEDMIOTY"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "modifierice",
+    "english": "FROZEN",
+    "polish": "ZAMARZNIĘTA"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "challenge_fullauto",
+    "english": "FULL AUTO",
+    "polish": "OGIEŃ CIĄGŁY"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "tip9",
+    "english": "GET BLESSINGS TO UPGRADE YOUR CHARACTER",
+    "polish": "ZDOBYWAJ BŁOGOSŁAWIEŃSTWA, BY ULEPSZAĆ POSTAĆ"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "ModGigantic",
+    "english": "GIANT",
+    "polish": "OLBRZYM"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "modifierfragile",
+    "english": "GLASS",
+    "polish": "SZKLANA"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "WitchDemon",
+    "english": "GULLVEIG",
+    "polish": "GULLVEIG"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "difficultyhard",
+    "english": "HARD",
+    "polish": "TRUDNY"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "Helheim1",
+    "english": "HELHEIM I",
+    "polish": "HELHEIM I"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "Helheim2",
+    "english": "HELHEIM II",
+    "polish": "HELHEIM II"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "difficultyhellish",
+    "english": "HELLISH",
+    "polish": "PIEKIELNY"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "ModHidden",
+    "english": "HIDDEN",
+    "polish": "UKRYTY"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "tip5",
+    "english": "HIDE TO AVOID HOMING ATTACKS",
+    "polish": "KRYJ SIĘ PRZED SAMONAPROWADZAJĄCYMI ATAKAMI"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "tip11",
+    "english": "HOLD DODGE TO SPRINT",
+    "polish": "PRZYTRZYMAJ UNIK, BY BIEC"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "tip16",
+    "english": "HOLD THE STATS BUTTON TO SEE YOUR STATS",
+    "polish": "PRZYTRZYMAJ PRZYCISK STATYSTYK, BY JE ZOBACZYĆ"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "tip19",
+    "english": "IN WELL ROOMS YOU CAN ONLY TAKE ONE ITEM",
+    "polish": "W KOMNATACH ZE STUDNIĄ WEŹMIESZ TYLKO JEDEN PRZEDMIOT"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "modifierinfested",
+    "english": "INFESTED",
+    "polish": "ZAROBACZONA"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "modifierinvert",
+    "english": "INVERTED",
+    "polish": "ODWRÓCONA"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "tip6",
+    "english": "KEEP MOVING TO SURVIVE",
+    "polish": "BĄDŹ W RUCHU, BY PRZETRWAĆ"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "modifierlair",
+    "english": "LAIR",
+    "polish": "LEGOWISKO"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "tip27",
+    "english": "LEARN YOUR ENEMIES PATTERNS",
+    "polish": "POZNAJ ZACHOWANIA WROGÓW"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "ModLethal",
+    "english": "LETHAL",
+    "polish": "ZABÓJCZY"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "challenge_locked",
+    "english": "LOCKED",
+    "polish": "ZABLOKOWANE"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "tip29",
+    "english": "LOOK FOR SECRETS",
+    "polish": "SZUKAJ SEKRETÓW"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "tip17",
+    "english": "MAKE USE OF THE LIBRARY AND ARMOURY",
+    "polish": "KORZYSTAJ Z BIBLIOTEKI I ZBROJOWNI"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "challenge_megabossrush",
+    "english": "MEGA BOSS RUSH",
+    "polish": "MEGAMARATON BOSSÓW"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "modifiermidas",
+    "english": "MIDAS",
+    "polish": "MIDAS"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "RopeDemon",
+    "english": "MISTCALF",
+    "polish": "MISTCALF"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "tip3",
+    "english": "MOST GUNS CAN RELOAD ON THE HALF BEAT",
+    "polish": "WIĘKSZOŚĆ BRONI PRZEŁADUJESZ TEŻ W PÓŁ UDERZENIA"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "Dragon",
+    "english": "NIDHOGG",
+    "polish": "NIDHOGG"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "challenge_noshops",
+    "english": "NO SHOP OR TREASURE",
+    "polish": "BEZ SKLEPU I SKARBÓW"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "tip10",
+    "english": "ONLY THE LUCKY SHOULD GAMBLE",
+    "polish": "HAZARD TYLKO DLA SZCZĘŚCIARZY"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "challenge_pistolonly",
+    "english": "PISTOL ONLY",
+    "polish": "TYLKO PISTOLET"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "modifierpit",
+    "english": "PITTED",
+    "polish": "DZIURAWA"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "ModPoison",
+    "english": "POISONING",
+    "polish": "TRUJĄCY"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "difficultypractice",
+    "english": "PRACTICE",
+    "polish": "TRENING"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "modifierretro",
+    "english": "RETRO",
+    "polish": "RETRO"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "challenge_retro",
+    "english": "RETRO RUN",
+    "polish": "PODEJŚCIE RETRO"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "tip22",
+    "english": "ROCKET JUMPING CAN BE USEFUL",
+    "polish": "SKOK NA RAKIECIE BYWA PRZYDATNY"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "tip1",
+    "english": "SHOOT ON THE BEAT TO INCREASE YOUR SCORE MULTIPLIER",
+    "polish": "STRZELAJ W RYTM, BY ZWIĘKSZYĆ MNOŻNIK PUNKTÓW"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "modifiershopless",
+    "english": "SHOPLESS",
+    "polish": "BEZ SKLEPU"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "tip31",
+    "english": "SHUT THE FIRE EATER DOWN BY SHOOTING IT WHILE IT'S CHARGING",
+    "polish": "POŁYKACZA OGNIA ZATRZYMASZ, STRZELAJĄC DO NIEGO, GDY SIĘ ŁADUJE"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "tip23",
+    "english": "SOME ENEMIES ATTACKS CAN BE AVOIDED BY DODGING",
+    "polish": "NIEKTÓRYCH ATAKÓW WROGA UNIKNIESZ UNIKIEM"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "tip24",
+    "english": "SOME ITEMS CAN BE ACTIVATED",
+    "polish": "NIEKTÓRE PRZEDMIOTY MOŻNA AKTYWOWAĆ"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "tip21",
+    "english": "SOMETIMES THINGS ARE OUT OF YOUR REACH",
+    "polish": "CZASEM COŚ JEST POZA TWOIM ZASIĘGIEM"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "modifierlowgravity",
+    "english": "SPACE ",
+    "polish": "KOSMOS "
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "challenge_SuperTIME",
+    "english": "SUPERTIME",
+    "polish": "SUPERCZAS"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "Surt",
+    "english": "SURT",
+    "polish": "SURT"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "Svartalfheim1",
+    "english": "SVARTALFHEIM I",
+    "polish": "SVARTALFHEIM I"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "Svartalfheim2",
+    "english": "SVARTALFHEIM II",
+    "polish": "SVARTALFHEIM II"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "tip15",
+    "english": "THE BIGGER THE ENEMY THE BETTER THE REWARD",
+    "polish": "IM WIĘKSZY WRÓG, TYM LEPSZA NAGRODA"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "challenge_lava",
+    "english": "THE FLOOR IS LAVA",
+    "polish": "PODŁOGA TO LAWA"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "tip2",
+    "english": "THE PISTOL CAN FIRE ON THE HALF BEAT",
+    "polish": "Z PISTOLETU STRZELISZ TEŻ W PÓŁ UDERZENIA"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "tiplabel",
+    "english": "TIP:",
+    "polish": "PORADA:"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "tip7",
+    "english": "ULTIMATES ARE POWERFUL GAME CHANGERS",
+    "polish": "SUPERUMIEJĘTNOŚCI POTRAFIĄ ODWRÓCIĆ LOSY WALKI"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "challenge_uncompleted",
+    "english": "UNCOMPLETED",
+    "polish": "NIEUKOŃCZONE"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "unlocked_challenge",
+    "english": "UNLOCKED",
+    "polish": "ODBLOKOWANO"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "unlocked_challenge_hint",
+    "english": "UNLOCKED CHALLENGE",
+    "polish": "ODBLOKOWANO WYZWANIE"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "tip18",
+    "english": "USE THE BANK TO STORE COINS FOR FUTURE RUNS",
+    "polish": "ODKŁADAJ MONETY W BANKU NA KOLEJNE PODEJŚCIA"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "Vanaheim1",
+    "english": "VANAHEIM I",
+    "polish": "VANAHEIM I"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "Vanaheim2",
+    "english": "VANAHEIM II",
+    "polish": "VANAHEIM II"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "ModVengeful",
+    "english": "VENGEFUL",
+    "polish": "MŚCIWY"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "victory",
+    "english": "VICTORY",
+    "polish": "ZWYCIĘSTWO"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "RhythmKing",
+    "english": "VÉTT",
+    "polish": "VÉTT"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "IceKing",
+    "english": "YMIR",
+    "polish": "YMIR"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "tip8",
+    "english": "YOU CAN DOUBLE JUMP",
+    "polish": "MOŻESZ WYKONAĆ PODWÓJNY SKOK"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "babybat",
+    "english": "baby bat",
+    "polish": "młody nietoperz"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "minibossheart",
+    "english": "beating heart",
+    "polish": "bijące serce"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "minibossbat",
+    "english": "big bat",
+    "polish": "wielki nietoperz"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "minibossdarkknight",
+    "english": "black knight",
+    "polish": "czarny rycerz"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "slicer",
+    "english": "blade",
+    "polish": "ostrze"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "lockdown",
+    "english": "clockwork soul",
+    "polish": "mechaniczna dusza"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "goat",
+    "english": "corrupted heiðrún",
+    "polish": "spaczona heiðrún"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "turret",
+    "english": "cutthroat",
+    "polish": "rzezimieszek"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "minibossdarkheart",
+    "english": "dark heart",
+    "polish": "mroczne serce"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "ghostcharger",
+    "english": "dragon's ghost ",
+    "polish": "smocza zjawa "
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "suicideprojectile",
+    "english": "dragon's spirit",
+    "polish": "smoczy duch"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "fly",
+    "english": "fast fly",
+    "polish": "szybka mucha"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "minion",
+    "english": "fire eater",
+    "polish": "połykacz ognia"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "stiller",
+    "english": "firebreather",
+    "polish": "ziejący ogniem"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "suicidebomber",
+    "english": "flightless imp",
+    "polish": "nielotny chochlik"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "agrofly",
+    "english": "fly",
+    "polish": "mucha"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "bomberimp",
+    "english": "flying imp",
+    "polish": "latający chochlik"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "mutantbat",
+    "english": "foul bat",
+    "polish": "plugawy nietoperz"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "switcher",
+    "english": "foul wretch",
+    "polish": "plugawy nędznik"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "spider",
+    "english": "giant spider",
+    "polish": "olbrzymi pająk"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "golem",
+    "english": "golem",
+    "polish": "golem"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "shieldsmall",
+    "english": "guardian",
+    "polish": "strażnik"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "herogoat",
+    "english": "hero corrupted heiðrún",
+    "polish": "bohaterska spaczona heiðrún"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "heroflybag",
+    "english": "hero mother of flies",
+    "polish": "bohaterska matka much"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "herofloater",
+    "english": "hero starkaðr wraith",
+    "polish": "bohaterska zjawa starkaðra"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "herowerewolf",
+    "english": "hero vargr",
+    "polish": "bohaterski vargr"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "crab",
+    "english": "hexapod (look it up)",
+    "polish": "heksapod (sprawdź sobie)"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "hivebag",
+    "english": "hive",
+    "polish": "ul"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "icequeen",
+    "english": "ice witch",
+    "polish": "lodowa wiedźma"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "minibossfloorsmasher",
+    "english": "igneous red",
+    "polish": "czerwony magmowiec"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "shieldbig",
+    "english": "jötunn guard",
+    "polish": "strażnik jötunn"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "minibosskraken",
+    "english": "kraken",
+    "polish": "kraken"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "babykraken",
+    "english": "krakling",
+    "polish": "krakenik"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "avoider",
+    "english": "mage",
+    "polish": "mag"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "maggot",
+    "english": "maggot",
+    "polish": "czerw"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "bigbug",
+    "english": "mara",
+    "polish": "mara"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "borisback",
+    "english": "mechanised monster",
+    "polish": "zmechanizowany potwór"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "minibossdemonheavy",
+    "english": "minotaur",
+    "polish": "minotaur"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "flybag",
+    "english": "mother of flies",
+    "polish": "matka much"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "phoenix",
+    "english": "phoenix",
+    "polish": "feniks"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "rat",
+    "english": "ratr",
+    "polish": "ratr"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "minibossreaper",
+    "english": "reaper",
+    "polish": "żniwiarz"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "scorpion",
+    "english": "scorpion",
+    "polish": "skorpion"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "babyscorpion",
+    "english": "scorpion hatchling",
+    "polish": "młody skorpion"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "scorpionqueen",
+    "english": "scorpion queen",
+    "polish": "królowa skorpionów"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "minibosssamurai",
+    "english": "servant of darkness",
+    "polish": "sługa ciemności"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "cowskullcharger",
+    "english": "sired skull",
+    "polish": "spłodzona czaszka"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "shieldcrab",
+    "english": "skel",
+    "polish": "skel"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "hidingfly",
+    "english": "skel fly",
+    "polish": "mucha skel"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "skeletonmage",
+    "english": "skeleton mage",
+    "polish": "szkielet mag"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "spidernormal",
+    "english": "spider",
+    "polish": "pająk"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "spiderling",
+    "english": "spider hatchling",
+    "polish": "młody pająk"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "floater",
+    "english": "starkaðr wraith",
+    "polish": "zjawa starkaðra"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "syncronisedskeleton",
+    "english": "synchronised skeleton",
+    "polish": "zsynchronizowany szkielet"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "werewolf",
+    "english": "vargr",
+    "polish": "vargr"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "nidhoggprojectile",
+    "english": "visage nidhogg ",
+    "polish": "oblicze nidhogga "
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "minibosswildmage",
+    "english": "wild mage",
+    "polish": "dziki mag"
+  },
+  {
+    "namespace": "ItemStrings",
+    "key": "worm",
+    "english": "worm",
+    "polish": "robak"
+  },
+  {
+    "namespace": "NewStringTable",
+    "key": "RhythmTest_MilisecondsPostscript",
+    "english": " ms",
+    "polish": " ms"
+  },
+  {
+    "namespace": "NewStringTable",
+    "key": "RhythmTest_ThisWillTakeAMinute",
+    "english": "(THIS WILL TAKE ABOUT ONE MINUTE)",
+    "polish": "(ZAJMIE TO OKOŁO MINUTY)"
+  },
+  {
+    "namespace": "NewStringTable",
+    "key": "RhythmTest_AdverseLatencyDetected",
+    "english": "ADVERSE LATENCY DETECTED",
+    "polish": "WYKRYTO NIEKORZYSTNE OPÓŹNIENIE"
+  },
+  {
+    "namespace": "NewStringTable",
+    "key": "RhythmTest_AutorhythmEnabled",
+    "english": "ASSISTED RHYTHM ENABLED",
+    "polish": "WŁĄCZONO WSPOMAGANIE RYTMU"
+  },
+  {
+    "namespace": "NewStringTable",
+    "key": "RhythmTest_AudioLatencyTitle",
+    "english": "AUDIO LATENCY CALIBRATION",
+    "polish": "KALIBRACJA OPÓŹNIENIA DŹWIĘKU"
+  },
+  {
+    "namespace": "NewStringTable",
+    "key": "RhythmTest_AudioLatencyResultLabel",
+    "english": "Audio Latency:",
+    "polish": "Opóźnienie dźwięku:"
+  },
+  {
+    "namespace": "NewStringTable",
+    "key": "RhythmTest_Introduction",
+    "english": "BPM is a Rhythm Game\r\n\r\n\r\nGameplay is sensitive to video and audio latency.\r\n\r\nFor the best experience, please enable <Highlight>GAME MODE</> in your TV's video settings.\r\n\r\nPlease also enable <Highlight>GAME MODE</> in your TV's audio settings if you have that option.",
+    "polish": "BPM to gra rytmiczna\r\n\r\n\r\nRozgrywka jest wrażliwa na opóźnienie obrazu i dźwięku.\r\n\r\nDla najlepszych wrażeń włącz <Highlight>TRYB GRY</> w ustawieniach obrazu telewizora.\r\n\r\nJeśli telewizor ma taką opcję, włącz <Highlight>TRYB GRY</> także w ustawieniach dźwięku."
+  },
+  {
+    "namespace": "NewStringTable",
+    "key": "RhythmTest_LatencyTestResultTitle",
+    "english": "LATENCY TEST RESULT",
+    "polish": "WYNIK TESTU OPÓŹNIENIA"
+  },
+  {
+    "namespace": "NewStringTable",
+    "key": "RhythmTest_LatencyTestRhythmWindowSetToLoose",
+    "english": "RHYTHM WINDOW SET TO LOOSE",
+    "polish": "OKNO RYTMU USTAWIONO NA ŁAGODNE"
+  },
+  {
+    "namespace": "NewStringTable",
+    "key": "RhythmTest_VideoLatencyTitle",
+    "english": "VIDEO LATENCY CALIBRATION",
+    "polish": "KALIBRACJA OPÓŹNIENIA OBRAZU"
+  },
+  {
+    "namespace": "NewStringTable",
+    "key": "RhythmTest_VideoLatencyLabel",
+    "english": "Video Latency:",
+    "polish": "Opóźnienie obrazu:"
+  },
+  {
+    "namespace": "NewStringTable",
+    "key": "RhythmTest_LatencyTestExitButton",
+    "english": "to continue",
+    "polish": ", by kontynuować"
+  },
+  {
+    "namespace": "NewStringTable",
+    "key": "RhythmTest_VideoLatencyExitButton",
+    "english": "when the diamond symbol crosses the line",
+    "polish": "gdy romb przetnie linię"
+  },
+  {
+    "namespace": "NewStringTable",
+    "key": "RhythmTest_IntroductionStartButton",
+    "english": "when you are ready to start the latency test. ",
+    "polish": "gdy zechcesz rozpocząć test opóźnienia. "
+  },
+  {
+    "namespace": "NewStringTable",
+    "key": "RhythmTest_ExitAudioLatencyInstructions",
+    "english": "when you hear a noise",
+    "polish": "gdy usłyszysz dźwięk"
+  },
+  {
+    "namespace": "ValkyrieNames",
+    "key": "War",
+    "english": "FREYR",
+    "polish": "FREYR"
+  },
+  {
+    "namespace": "ValkyrieNames",
+    "key": "Banker",
+    "english": "GERI",
+    "polish": "GERI"
+  },
+  {
+    "namespace": "ValkyrieNames",
+    "key": "Default",
+    "english": "GÖLL",
+    "polish": "GÖLL"
+  },
+  {
+    "namespace": "ValkyrieNames",
+    "key": "Golden",
+    "english": "HERFJÖTUR",
+    "polish": "HERFJÖTUR"
+  },
+  {
+    "namespace": "ValkyrieNames",
+    "key": "Speed",
+    "english": "HILDR",
+    "polish": "HILDR"
+  },
+  {
+    "namespace": "ValkyrieNames",
+    "key": "Mage",
+    "english": "NJORD",
+    "polish": "NJORD"
+  },
+  {
+    "namespace": "ValkyrieNames",
+    "key": "Ethereal",
+    "english": "ODR",
+    "polish": "ODR"
+  },
+  {
+    "namespace": "ValkyrieNames",
+    "key": "RandomLoadout",
+    "english": "RÚN",
+    "polish": "RÚN"
+  },
+  {
+    "namespace": "ValkyrieNames",
+    "key": "OneShotWalking",
+    "english": "SANNGRIÐR",
+    "polish": "SANNGRIÐR"
+  },
+  {
+    "namespace": "ValkyrieNames",
+    "key": "DyingVampire",
+    "english": "SKULD",
+    "polish": "SKULD"
+  },
+  {
+    "namespace": "ValkyrieNames",
+    "key": "UnlockWar",
+    "english": "UNLOCKED FREYR",
+    "polish": "ODBLOKOWANO: FREYR"
+  },
+  {
+    "namespace": "ValkyrieNames",
+    "key": "UnlockBanker",
+    "english": "UNLOCKED GERI",
+    "polish": "ODBLOKOWANO: GERI"
+  },
+  {
+    "namespace": "ValkyrieNames",
+    "key": "UnlockDefault",
+    "english": "UNLOCKED GÖLL",
+    "polish": "ODBLOKOWANO: GÖLL"
+  },
+  {
+    "namespace": "ValkyrieNames",
+    "key": "UnlockGolden",
+    "english": "UNLOCKED HERFJÖTUR",
+    "polish": "ODBLOKOWANO: HERFJÖTUR"
+  },
+  {
+    "namespace": "ValkyrieNames",
+    "key": "UnlockSpeed",
+    "english": "UNLOCKED HILDR",
+    "polish": "ODBLOKOWANO: HILDR"
+  },
+  {
+    "namespace": "ValkyrieNames",
+    "key": "UnlockMage",
+    "english": "UNLOCKED NJORD",
+    "polish": "ODBLOKOWANO: NJORD"
+  },
+  {
+    "namespace": "ValkyrieNames",
+    "key": "UnlockEthereal",
+    "english": "UNLOCKED ODR",
+    "polish": "ODBLOKOWANO: ODR"
+  },
+  {
+    "namespace": "ValkyrieNames",
+    "key": "UnlockRandomLoadout",
+    "english": "UNLOCKED RÚN",
+    "polish": "ODBLOKOWANO: RÚN"
+  },
+  {
+    "namespace": "ValkyrieNames",
+    "key": "UnlockOneShotWalking",
+    "english": "UNLOCKED SANNGRIÐR",
+    "polish": "ODBLOKOWANO: SANNGRIÐR"
+  },
+  {
+    "namespace": "ValkyrieNames",
+    "key": "UnlockDyingVampire",
+    "english": "UNLOCKED SKULD",
+    "polish": "ODBLOKOWANO: SKULD"
+  }
+]

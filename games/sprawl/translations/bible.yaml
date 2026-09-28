@@ -1,0 +1,244 @@
+# SPRAWL bible, created 2026-09-26 before the independent review, after the full translation.
+# SPRAWL predates the direction step; facts reconstructed from earlier notes and the translation.
+# The user confirmed the translation works in game but didn't approve tone or terms, so only
+# post-review user decisions carry `source: user`.
+
+sources:
+  - id: keys
+    description: >-
+      Dialogue_Subs keys carry speaker and scene, e.g. E1M1_FATHER_INTRODUCING_B
+      (level, character, scene, order letter). A report row is the `key` itself.
+  - id: text
+    description: EN content in en-pl-review.json (pronouns, address, codex).
+  - id: review
+    description: Earlier terminology notes from the full translation (now in docs/decisions.md).
+  - id: technical
+    description: docs/technical.md, scope and the user's in-game test.
+
+style:
+  tone: >-
+    Dark cyberpunk, military dystopia. Father speaks calmly, haughtily and precisely, with
+    irony; military reports official, in CAPS as EN; hackers colloquial, lowercase, swearing;
+    Mother's entries poetic, broken, with interference.
+  adaptation: >-
+    Idioms freely, no added lore. Damaged broadcasts, code strings, Latin and deliberate
+    breaks are not smoothed. Source typos (aggresive, errected) fixed silently in PL; they're
+    not part of the fiction.
+  source: [review, text]
+  note: reconstructed after the full translation; the 2026-09-26 review assessed them on the whole game
+
+characters:
+  - id: seven
+    name: SEVEN
+    gender: f
+    addresses_player: '-'
+    declension: indeclinable ("dla SEVEN", "obiekt SEVEN")
+    register: the player's heroine, silent
+    source: [text, review]
+    note: >-
+      "She gave her life for you all. Her name was SEVEN." (ACME_UNKNOWN_VOICE_G);
+      Reaper: "you were just their new toy" → "byłaś". In reports "agentka", "obiekt".
+      Death screen genderless "Nie żyjesz!" (user 2026-09-26, rejected "Zginęłaś!").
+  - id: father
+    name: Ojciec
+    gender: m
+    key: '_FATHER_'
+    addresses_player: ty
+    register: >-
+      Calm, haughty, precise; cool irony ("At least you got a souvenir.").
+      Full sentences, not colloquial. Lines split over several subtitles are joined with "…".
+    declension: Ojciec, Ojca, Ojcem
+    source: [keys, text, review]
+    note: >-
+      "I am Father." → "Jestem Ojciec." An AI imprisoned by the junta; masculine about himself
+      ("I've tracked down" → "namierzyłem"). Feminine to SEVEN ("ilu już zabiłaś").
+    examples:
+      - key: E1M1_FATHER_HALLMARK_C
+        en: I have faith in your capability for brutality.
+        pl: Wierzę w twoją zdolność do brutalności.
+        source: [text]
+      - key: E1M5_FATHER_OGRE_ENCOUNTER_END_D
+        en: At least you got a souvenir.
+        pl: Przynajmniej masz pamiątkę.
+        source: [text]
+  - id: reaper
+    name: SIX
+    gender: m
+    key: 'REAPER_'
+    addresses_player: ty
+    register: mocking, screaming, deranged; "Daddy" → "Tatuś" about Father
+    declension: >-
+      SIX indeclinable; codename "Żniwiarz" (EnemyNames REAPER: SIX "ŻNIWIARZ")
+    source: [keys, text, review]
+    note: >-
+      "I was always the better soldier" → "byłem"; feminine to SEVEN.
+  - id: six-teaser
+    name: SIX (zapowiedź)
+    gender: '?'
+    key: '_SIX_TEASER'
+    addresses_player: '-'
+    source: [keys]
+    note: >-
+      "I keep hearing this on their battlenet… Sierra, india, x-ray": the key names SIX, but
+      the content fits Father eavesdropping the net. No context; impersonal forms.
+  - id: politician
+    name: Maurice Padilla-Fong
+    gender: m
+    key: '_POLITICIAN_'
+    addresses_player: ty
+    register: resigned, solemn, dignified
+    declension: Maurice'a Padilli-Fonga
+    source: [keys, text]
+    note: >-
+      Keys only say POLITICIAN; identity from the codex (e3m1.darkcity, e3m2.faustian [FONG])
+      and his head opening the Spire. "Wiedziałem", "spotkałbym".
+  - id: mother
+    name: Matka
+    gender: f
+    addresses_player: ty
+    register: >-
+      Poetic, broken stream of consciousness; interference, repetition, glued words and
+      lowercase stay as in EN.
+    source: [review, text]
+    note: >-
+      Codex entries *.mother*: "On the first day I was wrath" → "byłam gniewem".
+      Pythia → Pytia (vocative "pytio"). The addressee in mother02 is masculine ("ty byłeś
+      chaosem"): the "he" Mother talks about, not SEVEN.
+  - id: overseer
+    name: Nadzorca
+    gender: n
+    key: '^ANNOUNCER_'
+    addresses_player: '-'
+    register: system announcements, impersonal
+    source: [keys, text]
+  - id: unknown
+    name: Nieznany głos
+    gender: m
+    key: '^ACME_UNKNOWN'
+    addresses_player: wy
+    register: solemn address after the ending
+    source: [keys, text]
+    note: >-
+      "I have been a whisper in many places" → "Byłem szeptem"; most likely Father (unconfirmed).
+  - id: hackers
+    name: case, mrph, xerx, hypt, ptr
+    gender: '?'
+    addresses_player: '-'
+    register: >-
+      lowercase chat, colloquial, vulgar ("fucking" → "jebany", "cunt" → "chuju")
+    source: [text, review]
+    note: >-
+      EN doesn't settle gender; Polish uses masculine (no evidence, review 2026-09-26).
+
+terms:
+  - en: Father
+    pl: Ojciec
+    forms: [ojc, ojciec]
+    source: [review]
+  - en: Spire
+    pl: Iglica
+    forms: [iglic]
+    source: [review]
+  - en: Walled City
+    pl: Miasto za Murem
+    forms: [miast, mieści]
+    source: [review]
+  - en: Dark City
+    pl: Ciemne Miasto
+    forms: [ciemn]
+    source: [review]
+  - en: Badlands
+    pl: Pustkowia
+    forms: [pustkow]
+    source: [review]
+  - en: Bullet Time
+    pl: spowolnienie czasu
+    forms: [spowolni]
+    source: [review]
+    note: the button icon <img id="Bullet Time"/> stays untouched
+  - en: Junta
+    pl: junta
+    forms: [junt, juncie]
+    source: decision
+    note: lowercase mid-sentence, as a common noun
+  - en: keycard
+    pl: karta dostępu
+    forms: [kart]
+    source: decision
+  - en: Reaper Program
+    pl: program ŻNIWIARZ
+    forms: [żniwiarz]
+    source: [text]
+  - en: weakpoints?
+    pl: słaby punkt
+    forms: [słab]
+    source: decision
+  - en: wall ?run(ning)?
+    pl: bieg po ścianie
+    forms: [ścian]
+    source: decision
+  - en: slide
+    pl: wślizg
+    forms: [wślizg, ślizg]
+    source: decision
+  - en: cyberware
+    pl: wszczepy
+    forms: [wszczep]
+    source: decision
+  - en: blast doors?
+    pl: drzwi pancerne
+    forms: [pancern]
+    source: decision
+  - en: (AEON|Domand) Corp\b
+    pl: korporacja AEON / korporacja Domand
+    forms: [korporac]
+    source: user
+    note: >-
+      2026-09-26, after review. Rejected "AEON Corp", "Domand Corp" in Polish text.
+      "AEON Cybertech" as the full name stays.
+  - en: squad captains?|capitan
+    pl: dowódca oddziału
+    forms: [dowódc]
+    source: [text]
+    note: >-
+      Father: "dowódców oddziałów"; PU_KEYCARD_HEAD "Capitan Head" → "głowę dowódcy"
+      (review 2026-09-26; the game doesn't use the rank "kapitan").
+  - en: weapons testing arena
+    pl: arena testów broni
+    forms: [testów broni]
+    source: decision
+  - en: the Sprawl
+    pl: SPRAWL
+    forms: [sprawl]
+    source: [text]
+    note: >-
+      Caps, indeclinable, neuter ("na całe SPRAWL"). Exceptions: the game title in the
+      epilepsy warning and the lowercase hacker chat.
+
+keep_english:
+  - SPRAWL
+  - Sprawl
+  - SEVEN
+  - SIX
+  - FIVE
+  - AEON
+  - NCO
+  - ICARUS
+  - GOR
+  - G.O.R.
+  - O.H.G.R
+  - Ghost
+  - Spectre
+  - Okami
+  - Oni
+  - Bull
+  - Sendai
+  - Suzumebachi
+  - IMAGO-DEI
+  - Domand
+  - MAKASHIMA
+  - HALCYON
+  - Hlford
+
+settings:
+  dialog_key: '^(E\dM\d_|REAPER_|ACME_|ANNOUNCER_|KEYCARD_)'

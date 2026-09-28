@@ -1,0 +1,139 @@
+# OTXO bible: facts with sources. Written after the fact (2026-09-22) for an existing translation.
+# Game keys are bare numbers without speakers; characters assigned from number blocks and content.
+
+sources:
+  - id: ru
+    description: "The game's Russian file (OTXO_script_english_rus.ini): past-tense gender; dump via tools/ref_extract.py → work/ref-all.json."
+  - id: fr
+    description: The game's French file, second gender hint.
+  - id: journal
+    description: The hero's journal (9071–9359), facts about beach and bar characters.
+
+characters:
+  - id: otxo
+    name: Otxo (bohater, autor dziennika)
+    gender: m
+    addresses_player: '-'
+    register: journal of a father searching for his son; lowercase and repetition in madness
+    source: [ru, journal]
+    note: others use "ty"; lowercase "otxo" as a species, "Otxo" in address.
+  - id: gardener
+    name: Ogrodnik (2000–2147)
+    gender: m
+    addresses_player: ty
+    register: warm, at peace with fate
+    source: [ru]
+  - id: sailor
+    name: Żeglarz (3500–3573)
+    gender: m
+    addresses_player: ty („wilku morski”, „chłopcze”)
+    register: nautical, archaisms ("Hej-ho", "szczur lądowy")
+    source: [ru]
+  - id: barman
+    name: Barman (4000–4059)
+    gender: m
+    addresses_player: pan on the first visit (4010–4013), then ty
+    source: decision
+    note: >
+      EN "sir" also appears at the weapon ban and in single offers; there impersonal forms
+      ("Przepraszam, ale uzbrojonych nie obsługuję") so "pan" and "ty" don't mix.
+  - id: nun
+    name: Zakonnica Kościoła Stali (4500–4536)
+    gender: f
+    addresses_player: ty („dziecko moje”)
+    register: preachy
+    source: [ru]
+  - id: importer
+    name: dziewczyna z baru, importerka trunków (6500–6522)
+    gender: f
+    addresses_player: ty
+    source: [journal]
+    note: >
+      Journal 9174: "The girl at the bar has rewarded me with new drinks"; only the bartender and
+      she are in the Rose Room. RU doesn't settle it, FR has masculine "Désolé". Decision: feminine.
+  - id: changeling
+    name: Odmieniec (8000–8039)
+    gender: m
+    source: [ru, journal]
+  - id: mansion-lord
+    name: Pan Rezydencji, człowiek w czerwonej masce (6000–6031)
+    gender: m
+    source: [ru]
+  - id: bekatua
+    name: Bekatua
+    gender: f
+    source: decision
+    note: EN "it"; Polish feminine after "istota", consistently in the Scripture of Bekatua and "Jej woli" (9532).
+
+terms:
+  - en: Mansion
+    pl: Rezydencja
+    forms: [rezydencj]
+    source: decision
+    note: capitalized in dialogue, lowercase in the journal, as in the original.
+  - en: Focus
+    pl: Skupienie
+    forms: [skupieni]
+    source: decision
+  - en: combo
+    pl: kombo
+    forms: [kombo]
+    source: decision
+  - en: (?<!\w)roll
+    pl: unik
+    forms: [unik]
+    source: decision
+  - en: Liquors?
+    pl: trunek
+    forms: [trunk, drink]
+    source: decision
+  - en: Misplaced Chambers?
+    pl: Zagubiona Komnata
+    forms: [zagubion]
+    source: decision
+  - en: The Rose Room
+    pl: Różana Sala
+    forms: [różan]
+    source: decision
+  - en: Church of Steel
+    pl: Kościół Stali
+    forms: [kości]
+    source: decision
+  - en: husks?
+    pl: powłoka
+    forms: [powłok]
+    source: decision
+  - en: LMGs?
+    pl: RKM
+    forms: [rkm]
+    source: decision
+  - en: SMGs?
+    pl: PM
+    forms: [pm]
+    source: decision
+
+keep_english:
+  - Otxo
+  - otxo
+  - Bekatua
+  - Roxy
+  - Cvnka
+  - Wick
+  - Jormungandr
+  - Hayabusa
+  - Prestissimo
+  - Tachypsychia
+  - KUNAI
+  - Esc
+  - Enter
+
+ignore:
+  - check: english
+    key: '^(1002|1010|1012|1032|1050|1054|1056|1072|1082|1084|1090|1096|1100|1140|1144|1150|1154|1186|30\d\d|70\d\d|110(1\d|2\d)|504|506|9331|10524|10531|10532|11010|2048|2097|2116|3505|3551|3558|4045|6012|8000|8012|9538)$'
+    reason: proper names of weapons, perks, figurines and bosses; onomatopoeia
+  - check: typography
+    key: '^5[0-7]$'
+    reason: joined "Naciśnij [key], aby…"; comma instead of space on purpose
+  - check: capitals
+    key: '.'
+    reason: world proper names (Zagubiona Komnata, Kościół Stali, Różana Sala, Ukryta Warstwa)

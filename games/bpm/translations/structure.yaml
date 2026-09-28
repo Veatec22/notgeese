@@ -1,0 +1,36 @@
+# BPM: Bullets Per Minute: groups for the review workspace.
+# Format: docs/workspace.md.
+#
+# The empty namespace is mostly widget texts with hash keys (menu, settings)
+# plus item names and descriptions (Name*/Description*).
+
+format: 1
+
+groups:
+  - id: menu
+    name: Menu, ustawienia i widgety
+  - id: items
+    name: Przedmioty — nazwy i opisy
+  - id: item-strings
+    name: Porady, wyzwania i światy
+  - id: hud
+    name: HUD i sterowanie
+  - id: hints
+    name: Podpowiedzi
+  - id: valkyries
+    name: Walkirie
+  - id: credits
+    name: Napisy końcowe
+  - id: rhythm
+    name: Test rytmu
+
+rules:
+  - {group: items, match: '^(Name|Description)'}
+  - {group: menu, match: '.'}
+  - {group: item-strings, namespace: ItemStrings, match: '.'}
+  - {group: hud, namespace: HUDStrings, match: '.'}
+  - {group: hud, namespace: ControllerInputStrings, match: '.'}
+  - {group: hints, namespace: HintsStrings, match: '.'}
+  - {group: valkyries, namespace: ValkyrieNames, match: '.'}
+  - {group: credits, namespace: CreditsStrings, match: '.'}
+  - {group: rhythm, namespace: NewStringTable, match: '.'}

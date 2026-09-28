@@ -1,0 +1,44 @@
+BPM: BULLETS PER MINUTE PL 0.1 - PELNE TLUMACZENIE
+
+859/859 wpisow tekstowych: menu, ustawienia, HUD, podpowiedzi i porady, test
+opoznienia, przedmioty i ich opisy, proby (klatwy), wrogowie i bossowie, walkirie
+oraz napisy koncowe. Polskie litery dorysowane w dwoch krojach gry.
+
+JAK TO DZIALA
+Spolszczenie to dodatkowy plik BPM-PL_P.pak obok oryginalnych pakow gry. Zadnego
+pliku gry nie podmieniamy. Gra ma w kodzie na sztywno liste jezykow, z pustym
+miejscem na japonski - polski zajmuje wlasnie to miejsce i w menu nazywa sie
+"Polski". Pozostale jezyki zostaja bez zmian.
+
+DLACZEGO LATKA, A NIE GOTOWY PAK
+Pak niesie dwa kroje gry z dorysowanymi polskimi literami (MotorBlock i Runy
+Tunes) oraz plik podpisu, bez ktorego gra nie wczyta dodatkowego paka. To pliki
+wydawcy i autorow krojow, wiec ich nie rozpowszechniamy: BPM-PL-0.1.exe sklada
+je na Twoim dysku z plikow gry, ktore juz masz. Paczka niesie tylko nasze teksty
+i to, co dorysowalismy.
+
+INSTALACJA (przy zamknietej grze)
+1. Wypakuj cala paczke do katalogu gry - tam, gdzie lezy BPMGame.exe
+   (w GOG Galaxy: Wiecej -> Zarzadzaj instalacja -> Pokaz folder, potem
+   WindowsNoEditor).
+2. Uruchom BPM-PL-0.1.exe dwuklikiem. Program sprawdzi pliki gry i utworzy
+   w BPM\Content\Paks dwa pliki: BPM-PL_P.pak i BPM-PL_P.sig.
+
+   Jesli wypakujesz paczke gdzie indziej, program zapyta o katalog gry.
+   Windows moze ostrzec przed nieznanym programem ("Wiecej informacji" ->
+   "Uruchom mimo to") - aplikator nie ma podpisu cyfrowego.
+3. Uruchom gre: Settings -> User Interface -> Language -> Polski.
+   Zatwierdz przez "Save & Apply".
+
+USUWANIE
+Uruchom BPM-PL-0.1.exe jeszcze raz i potwierdz przywrocenie - usunie oba pliki.
+Mozna tez recznie skasowac BPM-PL_P.pak i BPM-PL_P.sig z BPM\Content\Paks.
+Przed usunieciem przelacz w grze jezyk na inny.
+
+ZGODNOSC
+Sprawdzone na wydaniu GOG (build 55844760674411649). Aplikator sprawdza sumy
+kontrolne fragmentow plikow gry, z ktorych sklada kroje; na innej wersji albo
+wydaniu z innego sklepu moze odmowic pracy - wtedy nic nie zostaje zmienione.
+
+LICENCJA
+Spolszczenie: MIT. Latki zawieraja wylacznie roznice wobec plikow gry.

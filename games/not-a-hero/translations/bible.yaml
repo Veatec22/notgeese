@@ -1,0 +1,166 @@
+sources:
+  - id: files
+    description: Src/talk.ini (briefings), Src/ENDS.ini (debriefs), Src/chat.ini (in-level lines), Src/LEVELS/SETTINGS.ini and Assets.dat images of the GOG install.
+  - id: foreign
+    description: Official talk/ENDS -fre, -ger, -ita, -spa of the same game. No random word pools; fixed sentences.
+  - id: store
+    url: https://www.gog.com/en/game/not_a_hero
+    description: BunnyLord runs for mayor and orders the city cleaned up.
+  - id: font
+    description: Atlas 5873 (dialogue window font) has BunnyLord's purple head in the '*' cell; the game censors swearing with it.
+
+characters:
+  - id: bunnylord
+    name: BunnyLord
+    gender: m
+    key: '^Src/(talk|ENDS)\.ini\|'
+    addresses_player: wy in briefings (the team), ty in debriefs (one agent, gender unknown)
+    register: absurd politician from the future, enthusiastic, vulgar, no brakes
+    declension: BunnyLord, BunnyLorda, BunnyLordowi (capital letter irrelevant in all-caps text)
+    source: [files, store]
+  - id: agent
+    name: $NAME$ (Steve, Cletus, Samantha, Ronald, Clive, Mike, Jesus, Kimmy, Stanley)
+    gender: '?'
+    addresses_player: '-'
+    register: the player's chosen character; women among agents (Samantha, Kimmy)
+    note: >-
+      Forms to and about the agent impersonal or neutral: "poszło ci", "dałoby się", "umrę",
+      never "zrobiłeś/zrobiłaś". Applies to ENDS.ini, intro sections [111111111], [12121213430]
+      and chat.ini. Exception: CELLPHONE calls to Steve (masculine).
+    source: [files]
+  - id: ruby
+    name: ciocia Ruby
+    gender: f
+    source: [files]
+  - id: akemi
+    name: Akemi Unagi
+    gender: f
+    source: [files]
+  - id: bogdan
+    name: Bogdan Nabatov
+    gender: m
+    source: [files]
+  - id: upgraydd
+    name: Upgraydd
+    gender: m
+    source: [files]
+
+terms:
+  - en: THE SHOOTORIAL
+    pl: STRZELOUCZEK
+    forms: [strzeloucz]
+    source: decision
+    note: Pun strzelanie + samouczek, matching shoot + tutorial.
+  - en: slide
+    pl: wślizg
+    forms: [wślizg]
+    source: [files]
+  - en: critical hit
+    pl: trafienie krytyczne
+    forms: [krytycz]
+    source: decision
+  - en: execution
+    pl: egzekucja
+    forms: [egzekuc]
+    source: [files]
+  - en: milkshake
+    pl: koktajl
+    forms: [koktajl]
+    source: decision
+    note: Natural, declinable, short; BunnyLord drinks one in every debrief.
+  - en: BUNNYWAGON
+    pl: KRÓLIKOWÓZ
+    forms: [królikow]
+    source: decision
+  - en: BUNNYCOPTER
+    pl: KRÓLIKOPTER
+    forms: [królikopter]
+    source: decision
+  - en: BUNNYLORD FUN CLUB
+    pl: FUN KLUB BUNNYLORDA
+    forms: [fun klub]
+    source: decision
+    note: Keeps the fan club / fun club pun.
+  - en: DOOD
+    pl: MORDO
+    forms: [mordo]
+    source: decision
+    note: Colloquial, gender-neutral address; fits female agents.
+  - en: mayor
+    pl: burmistrz
+    forms: [burmistrz]
+    source: [files]
+  - en: GLOBAL MEGALORD
+    pl: MEGALORD ŚWIATA
+    forms: [megalord]
+    source: decision
+    note: The election progress image is 127 px; GLOBALNY MEGALORD doesn't fit; same form in dialogue.
+  - en: TRIAD YAKUZA
+    pl: TRIADA YAKUZA
+    forms: [triad]
+    source: decision
+    note: Deliberately mixed gang names; the original's joke.
+  - en: TWEETSIES
+    pl: ĆWIERKACZ
+    forms: [ćwierkacz]
+    source: decision
+  - en: GET TO THE CHOPPA
+    pl: DO HELIKOPTERA
+    forms: [helikopter]
+    source: decision
+    note: Established Polish Predator quote.
+  - en: payphone
+    pl: budka telefoniczna
+    forms: [budk]
+    source: decision
+  - en: powerup
+    pl: wzmocnienie
+    forms: [wzmocni]
+    source: decision
+  - en: kill streak
+    pl: seria zabójstw
+    forms: [seri]
+    source: decision
+  - en: briefing / debrief
+    pl: odprawa / omówienie
+    forms: [odpraw, omówieni]
+    source: decision
+
+keep_english: [BunnyLord, BUNNYLORD, Steve, Cletus, Samantha, Ronald, Clive, Mike, Jesus, Kimmy, Stanley, Vodkaville, Bredrin Park, Sushicentral, Upgraydd, Akemi, Unagi, Bogdan, Nabatov, RESET, NINJA, SUSHI, RASCLAT, BUMBACLAT, SAMMY, DALLAS, RASMUS, SOUTH WEDINSTONE, DOJO A GOGO, MANIPULATOR, MECHANOID, MEGA, SUPER, ULTRA, ROBOT, TERROR, WOMBAT, MMMMMMMMM]
+
+randomizer:
+  rule: >-
+    Official FR/DE/IT/ES dropped the pools. In Polish adjective pools became adverbs, which
+    don't decline: "JEST $AWESOME$", "$TERRIBLE$ ZŁY WRÓG", "BĘDZIE $FUCKING$ $TERRIBLE$".
+    Noun and verb pools replaced by fixed words. Tokens tied to an image or gameplay stay,
+    in nominative.
+  adverbs: [FUCKING, ANFUCKING, AWESOME, ANAWESOME, TERRIBLE, ANTERRIBLE, MEDIOCRE, ANMEDIOCRE, DESCRIPTION, ANDESCRIPTION, ADJECTIVE, ANADJECTIVE]
+  predicate_mi: DISSAPOINTED as "JEST MI $DISSAPOINTED$" (SMUTNO, PRZYKRO…)
+  adverbial: QUANTITIES as indeclinable time adverbials
+  interjection: FUCK only as a standalone interjection; INSULTS only after "CO ZA"
+  nominative: [SUBJECTOBJECT, SCENEOBJECT, THESCENEOBJECT, NAME]
+  note: $SUBJECTOBJECTS$ (English appends S) replaced by $SUBJECTOBJECT$ in quotes.
+
+settings:
+  dialog_key: '^Src/(talk|ENDS)\.ini\|\d'
+  max_line: 170
+
+ignore:
+  - check: english
+    key: '\|(111111111|12121213430)\|5$|^Src/ENDS\.ini\|10\|8$'
+    reason: Lines made only of pool adverbs; Polish text equals English.
+  - check: consistency
+    key: '\|(AN)?(TERRIBLE|DESCRIPTION)\|'
+    reason: Pools have separate vocabularies; DREADFUL in TERRIBLE and DESCRIPTION differ by synonym on purpose.
+  - check: length
+    key: '\|VERBE?D?\|'
+    reason: Verb pools aren't used in Polish sentences.
+  - check: tokens
+    key: '^menu\|controller_detected$'
+    reason: Braces mark white words in the image (tools/menus.py), not text.
+  - check: terms
+    key: '^exe\|0x305d34$'
+    reason: The EXE key label has 11 bytes; WŚLIZG = BTN (12) doesn't fit, ŚLIZG stays.
+  - check: consistency
+    key: '^(menu\|(main|election|election_day)|exe\|0x303978|card\|\d+)$'
+    reason: Same English label in places of different width or for characters of another gender (SZYBKI/SZYBKA).

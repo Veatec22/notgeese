@@ -1,0 +1,20 @@
+# Katana ZERO: groups for the review workspace.
+# Format: docs/workspace.md.
+#
+# Key is <GML script>:<line>. Dialogue (init_lines) stands in game script order;
+# conversations cannot be derived from the keys alone, so no sequences.
+
+format: 1
+
+groups:
+  - id: options
+    name: Opcje
+  - id: misc
+    name: Menu, HUD i różne
+  - id: dialogue
+    name: Dialogi
+
+rules:
+  - {group: options, match: '^init_option_translations:'}
+  - {group: misc, match: '^init_misc_text:'}
+  - {group: dialogue, match: '^init_lines:'}

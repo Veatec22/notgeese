@@ -1,0 +1,52 @@
+SKATE STORY PL 0.1 - WERSJA TESTOWA (latka roznicowa)
+
+2305/2305 wpisow tekstowych: dialogi wszystkich rozdzialow i epilogu, samouczki,
+menu, ekwipunek, cele, osiagniecia oraz poetyckie podsumowania. Polski jest
+osobnym jezykiem w ustawieniach gry.
+
+DLACZEGO LATKA, A NIE GOTOWY PLIK
+Spolszczony plik gry wazy 275 MB i w ogromnej wiekszosci sklada sie z zasobow
+wydawcy - grafik, dzwiekow i danych scen. Nie rozpowszechniamy cudzej zawartosci,
+wiec wysylamy tylko roznice: 78 KB. Reszte sklada sie z pliku, ktory juz masz
+na dysku. Wynik jest dokladnie taki sam, co do bajta.
+
+CO BEDZIE POTRZEBNE
+Nic. Latke naklada Skate-Story-PL-0.1.exe z tej paczki: jeden maly program, bez
+instalacji, korzysta z .NET Framework wbudowanego w Windows. Kod zrodlowy
+lezy w repozytorium projektu (tools/applier/notgeesePatch.cs).
+
+INSTALACJA (przy zamknietej grze)
+1. Wypakuj cala paczke do katalogu gry - tam, gdzie lezy plik .exe gry.
+2. Uruchom Skate-Story-PL-0.1.exe dwuklikiem.
+
+   Program sprawdza sume kontrolna pliku SkateStory_Data\resources.assets
+   i odmawia pracy, jesli gra jest w innej wersji albo spolszczenie jest juz
+   wgrane. Przed podmiana odklada oryginal obok, z dopiskiem
+   ".przed-spolszczeniem". Bledny plik nigdy nie powstaje.
+
+   Jesli wypakujesz paczke gdzie indziej, program zapyta o katalog gry.
+   Windows moze ostrzec przed nieznanym programem ("Wiecej informacji" ->
+   "Uruchom mimo to") - aplikator nie ma podpisu cyfrowego.
+3. Uruchom gre i w ustawieniach wybierz jezyk polski.
+
+PRZYWRACANIE
+Uruchom Skate-Story-PL-0.1.exe jeszcze raz. Gdy zobaczy wgrane spolszczenie, zapyta,
+czy przywrocic oryginal, i wgra odlozona kopie resources.assets.
+Mozna tez zweryfikowac pliki gry w GOG Galaxy albo w Steamie.
+
+CZCIONKI
+Oryginalne kroje gry nie maja polskich znakow, wiec spolszczenie przestawia
+dziewiec referencji na kroje, ktore gra i tak ze soba niesie.
+
+ZGODNOSC
+Zbudowane na wydaniu GOG, Unity 6000.0.45f1. Latka jest przypieta do tej wersji
+pliku - po aktualizacji gry przestanie pasowac i trzeba ja przebudowac. Aplikator
+powie o tym wprost, zamiast cokolwiek nadpisac.
+
+STAN PRAC
+Cala tabela tekstow jest przetlumaczona i sprawdzona w plikach. Wczesniejsza,
+mniejsza wersja zostala potwierdzona w grze. Pelna kampania czeka na przejscie.
+Napisy wypalone w teksturach i modele liter nie sa zmieniane.
+
+LICENCJA
+Spolszczenie: MIT. Latka zawiera wylacznie roznice wobec oryginalnego pliku gry.

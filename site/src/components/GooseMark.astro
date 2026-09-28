@@ -1,0 +1,12 @@
+---
+import { withBase } from '../lib/url';
+
+interface Props {
+  class?: string;
+}
+
+const { class: className } = Astro.props;
+---
+
+<!-- Mark: white goose struck through with a red band on black. Same file serves as the favicon. -->
+<img class={className} src={withBase('favicon.svg')} alt="" width="34" height="34" />

@@ -1,0 +1,2439 @@
+[
+  {
+    "key": "language_name",
+    "english": "English",
+    "polish": "Polski",
+    "context": "the name of the language in the language itself"
+  },
+  {
+    "key": "boomerang_x_title",
+    "english": "Boomerang X",
+    "polish": "Boomerang X",
+    "context": "The name of the game!",
+    "max_length": 30
+  },
+  {
+    "key": "new_game",
+    "english": "New Game",
+    "polish": "Nowa gra",
+    "context": "menu option to start a new game",
+    "max_length": 16
+  },
+  {
+    "key": "continue_game",
+    "english": "Continue",
+    "polish": "Kontynuuj",
+    "context": "menu option to continue a previously started game",
+    "max_length": 16
+  },
+  {
+    "key": "save_select",
+    "english": "Save Select",
+    "polish": "Wybór zapisu",
+    "context": "menu option to select a different save slot",
+    "max_length": 16
+  },
+  {
+    "key": "chapter_select",
+    "english": "Chapter Select",
+    "polish": "Wybór rozdziału",
+    "context": "menu option to select a level",
+    "max_length": 16
+  },
+  {
+    "key": "new_game_plus_toggle",
+    "english": "New Game +",
+    "polish": "Nowa gra +",
+    "context": "the label for a toggle in the main menu that enables New Game + mode. this will have a checkbox to the right of it",
+    "max_length": 16
+  },
+  {
+    "key": "glossary",
+    "english": "Glossary",
+    "polish": "Słowniczek",
+    "context": "menu option to open the glossary, which contains descriptions of each of the abilities",
+    "max_length": 16
+  },
+  {
+    "key": "options",
+    "english": "Options",
+    "polish": "Opcje",
+    "context": "menu option to open options menu. also the title at the top of the options menu",
+    "max_length": 16
+  },
+  {
+    "key": "back",
+    "english": "Back",
+    "polish": "Wstecz",
+    "context": "menu option to return to a previous menu",
+    "max_length": 16
+  },
+  {
+    "key": "credits",
+    "english": "Credits",
+    "polish": "Twórcy",
+    "context": "menu option to view credits",
+    "max_length": 16
+  },
+  {
+    "key": "resume",
+    "english": "Resume",
+    "polish": "Wznów",
+    "context": "pause menu option to stop pausing and resume game",
+    "max_length": 16
+  },
+  {
+    "key": "restart_level",
+    "english": "Restart Level",
+    "polish": "Powtórz etap",
+    "context": "pause menu option to restart the current level",
+    "max_length": 16
+  },
+  {
+    "key": "quit_to_main_menu",
+    "english": "Quit To Main Menu",
+    "polish": "Menu główne",
+    "context": "pause menu option to quit to the main menu",
+    "max_length": 16
+  },
+  {
+    "key": "quit_to_desktop",
+    "english": "Quit To Desktop",
+    "polish": "Wyjdź z gry",
+    "context": "menu option to quit game completely",
+    "max_length": 16
+  },
+  {
+    "key": "paused_title",
+    "english": "Paused",
+    "polish": "Pauza",
+    "context": "the title at the top of the screen when the pause menu is open.",
+    "max_length": 16
+  },
+  {
+    "key": "options_language_label",
+    "english": "Language:",
+    "polish": "Język:",
+    "context": "label for the \"language\" dropdown in the options menu. This will be to the left of the dropdown itself.\nFor example:\n\n   Language:   English",
+    "max_length": 16
+  },
+  {
+    "key": "options_video_category",
+    "english": "Video",
+    "polish": "Obraz",
+    "context": "options menu option to open the video options sub-menu. also the title at the top of the video options menu",
+    "max_length": 16
+  },
+  {
+    "key": "options_audio_category",
+    "english": "Audio",
+    "polish": "Dźwięk",
+    "context": "options menu option to open the audio options sub-menu. also the title at the top of the audio options menu",
+    "max_length": 16
+  },
+  {
+    "key": "options_controls_category",
+    "english": "Controls",
+    "polish": "Sterowanie",
+    "context": "options menu option to open the controls options sub-menu. also the title at the top of the controls options menu",
+    "max_length": 16
+  },
+  {
+    "key": "options_gameplay_category",
+    "english": "Gameplay",
+    "polish": "Rozgrywka",
+    "context": "options menu option to open the gameplay options sub-menu. also the title at the top of the gameplay options menu",
+    "max_length": 16
+  },
+  {
+    "key": "options_accessibility_category",
+    "english": "Accessibility",
+    "polish": "Ułatwienia",
+    "context": "options menu option to open the accessibility options sub-menu. also the title at the top of the accessibility options menu",
+    "max_length": 16
+  },
+  {
+    "key": "options_yes",
+    "english": "Yes",
+    "polish": "Tak",
+    "context": "\"Yes\" button label (usually used to confirm an action). for example: \nAre you sure you want to delete save file 1?         No      Yes",
+    "max_length": 10
+  },
+  {
+    "key": "options_no",
+    "english": "No",
+    "polish": "Nie",
+    "context": "\"No\" button label (usually used to cancel an action). for example: \nAre you sure you want to delete save file 1?         No      Yes",
+    "max_length": 10
+  },
+  {
+    "key": "options_default",
+    "english": "Default",
+    "polish": "Domyślne",
+    "context": "label for when an options menu option is set to a default state.\nFor example: Audio Output: Default",
+    "max_length": 10
+  },
+  {
+    "key": "options_reset",
+    "english": "Reset To Default",
+    "polish": "Przywróć domyślne",
+    "context": "label for the button in the options screen that resets all options to default",
+    "max_length": 30
+  },
+  {
+    "key": "options_remap_controls",
+    "english": "Edit Controls",
+    "polish": "Zmień sterowanie",
+    "context": "label for the button in the options screen that opens the menu for altering the control mapping (on switch)",
+    "max_length": 30
+  },
+  {
+    "key": "options_remap_gamepad_controls",
+    "english": "Edit Gamepad Controls",
+    "polish": "Sterowanie padem",
+    "context": "label for the button in the options screen that opens the menu for altering the control mapping for a gamepad (on PC)",
+    "max_length": 30
+  },
+  {
+    "key": "options_remap_keyboard_mouse_controls",
+    "english": "Edit Keyboard/Mouse Controls",
+    "polish": "Sterowanie klawiaturą i myszą",
+    "context": "label for the button in the options screen that opens the menu for altering the control mapping for the keyboard and mouse (on PC)",
+    "max_length": 30
+  },
+  {
+    "key": "options_remap_controls_title",
+    "english": "Edit\nControls",
+    "polish": "Zmiana\nsterowania",
+    "context": "The title for the controls remap screen (on switch). Each line can fit about 15 latin-alphabet characters -- split it into 2 lines like I've done here if you need more. This will be center justified.",
+    "max_length": 30
+  },
+  {
+    "key": "options_remap_gamepad_controls_title",
+    "english": "Gamepad\nControls",
+    "polish": "Sterowanie\npadem",
+    "context": "The title for the gamepad controls remap screen (on PC). Each line can fit about 15 latin-alphabet characters -- split it into 2 lines like I've done here if you need more. This will be center justified.",
+    "max_length": 30
+  },
+  {
+    "key": "options_remap_keyboard_mouse_controls_title",
+    "english": "Keyboard/Mouse\nControls",
+    "polish": "Klawiatura\ni mysz",
+    "context": "The title for the keyboard & mouse controls remap screen (on PC). Each line can fit about 15 latin-alphabet characters -- split it into 2 lines like I've done here if you need more. This will be center justified.",
+    "max_length": 30
+  },
+  {
+    "key": "options_display_mode_label",
+    "english": "Display Mode",
+    "polish": "Tryb wyświetlania",
+    "context": "label for the display mode of the game. this will be either Fullscreen or Windowed",
+    "max_length": 50
+  },
+  {
+    "key": "options_display_fullscreen",
+    "english": "Fullscreen",
+    "polish": "Pełny ekran",
+    "context": "the name of the fullscreen option for the display mode",
+    "max_length": 50
+  },
+  {
+    "key": "options_display_windowed",
+    "english": "Windowed",
+    "polish": "W oknie",
+    "context": "the name of the windowed mode for the display mode",
+    "max_length": 50
+  },
+  {
+    "key": "options_resolution_label",
+    "english": "Resolution",
+    "polish": "Rozdzielczość",
+    "context": "label for the resolution option",
+    "max_length": 50
+  },
+  {
+    "key": "options_resolution_native",
+    "english": "Native ({0})",
+    "polish": "Natywna ({0})",
+    "context": "the default resolution option -- this will just use the native resolution of your monitor. the {0} represents that resolution, in the format of the below entry. Example:\n\nResolution     Native (1920x1080)",
+    "max_length": 16
+  },
+  {
+    "key": "options_resolution_formatting",
+    "english": "{0}x{1}",
+    "polish": "{0}x{1}",
+    "context": "formatting for a particular resolution option. {0} is horizontal pixel width, {1} is vertical pixel width. (char limit doesn't include these keywords.) for example:\n\nResolution     1920x1080",
+    "max_length": 6
+  },
+  {
+    "key": "options_vsync_label",
+    "english": "VSync",
+    "polish": "Synchronizacja pionowa",
+    "context": "label for vsync toggle. this is either on or off",
+    "max_length": 50
+  },
+  {
+    "key": "options_antialiasing_label",
+    "english": "Antialiasing",
+    "polish": "Wygładzanie krawędzi",
+    "context": "label for antialiasing toggle. this is either on or off",
+    "max_length": 50
+  },
+  {
+    "key": "options_distortion_effects_label",
+    "english": "Distortion Effects",
+    "polish": "Efekty zniekształceń",
+    "context": "label for distortion effects toggle. enables some shaders in the game that distort objects behind them. this is either on or off",
+    "max_length": 50
+  },
+  {
+    "key": "options_water_ripples_label",
+    "english": "Water Ripples",
+    "polish": "Zmarszczki na wodzie",
+    "context": "label for water ripples toggle. enables real-time water ripples in some areas. this is either on or off",
+    "max_length": 50
+  },
+  {
+    "key": "options_fov_label",
+    "english": "Field Of View",
+    "polish": "Pole widzenia",
+    "context": "label for slider that changes field of view.",
+    "max_length": 50
+  },
+  {
+    "key": "options_fov_formatting",
+    "english": "{0} Degrees",
+    "polish": "{0} stopni",
+    "context": "formatting for FOV value. {0} is the field of view in degrees. (char limit doesn't include these keywords.) for example:\n\nField Of View     90 Degrees",
+    "max_length": 16
+  },
+  {
+    "key": "options_screenshake_label",
+    "english": "Screenshake",
+    "polish": "Trzęsienie ekranu",
+    "context": "label for screenshake toggle. this is either on or off",
+    "max_length": 50
+  },
+  {
+    "key": "options_hud_safe_area_label",
+    "english": "UI Safe Area",
+    "polish": "Bezpieczny obszar interfejsu",
+    "context": "label for a slider that changes the buffer around the edges of the screen where UI won't go (so the UI will always be visible, even on TVs that cut off the edges)",
+    "max_length": 50
+  },
+  {
+    "key": "options_hud_scale_label",
+    "english": "HUD Scale",
+    "polish": "Wielkość HUD-u",
+    "context": "label for a slider that changes the scaling of the HUD, in case you need extra visibility when sitting far away from the TV or something. note that this only changes the in-game HUD, not the menu UI",
+    "max_length": 50
+  },
+  {
+    "key": "options_mesh_detail_label",
+    "english": "Mesh Detail",
+    "polish": "Szczegółowość modeli",
+    "context": "label for a dropdown that changes the detail of meshes to make the game more performant. on switch, this option doesn't exist (it's set to \"low\" & can't be changed.)",
+    "max_length": 50
+  },
+  {
+    "key": "options_mesh_detail_normal",
+    "english": "Normal",
+    "polish": "Normalna",
+    "context": "entry for the above dropdown to set the mesh detail to \"normal\" (this is the default on PC)",
+    "max_length": 25
+  },
+  {
+    "key": "options_mesh_detail_low",
+    "english": "Low",
+    "polish": "Niska",
+    "context": "entry for the above dropdown to set the mesh detail to \"low\" (this looks worse, but is faster to render)",
+    "max_length": 25
+  },
+  {
+    "key": "options_fast_portals_mode_label",
+    "english": "Performant Portals",
+    "polish": "Wydajne portale",
+    "context": "label for \"fast portals\" toggle. this makes the portals in the game less graphically intensive, but makes them look slightly less cool. this is either on or off (default off)",
+    "max_length": 50
+  },
+  {
+    "key": "options_low_particles_mode_label",
+    "english": "Fewer Particles",
+    "polish": "Mniej cząsteczek",
+    "context": "label for \"fewer particles\" toggle. this decreases the number of particles in the game for performance reasons. this is either on or off (default off)",
+    "max_length": 50
+  },
+  {
+    "key": "options_master_volume_label",
+    "english": "Master Volume",
+    "polish": "Głośność główna",
+    "context": "label for the master volume slider in the options screen",
+    "max_length": 50
+  },
+  {
+    "key": "options_music_volume_label",
+    "english": "Music Volume",
+    "polish": "Głośność muzyki",
+    "context": "label for the music volume slider in the options screen",
+    "max_length": 50
+  },
+  {
+    "key": "options_sfx_volume_label",
+    "english": "Sound Effects Volume",
+    "polish": "Głośność efektów",
+    "context": "label for the sfx volume slider in the options screen",
+    "max_length": 50
+  },
+  {
+    "key": "options_audio_output_label",
+    "english": "Audio Output",
+    "polish": "Wyjście dźwięku",
+    "context": "label for a dropdown to change the audio output device. can be \"Default\" or the name of a particular audio device",
+    "max_length": 50
+  },
+  {
+    "key": "options_aim_assist_label",
+    "english": "Controller Aim Assist",
+    "polish": "Wspomaganie celowania padem",
+    "context": "label for aim assist dropdown. enables a couple levels of aim assist when using a controller. this is either \"none\", \"light\", or \"heavy\"",
+    "max_length": 50
+  },
+  {
+    "key": "options_aim_assist_none",
+    "english": "None",
+    "polish": "Brak",
+    "context": "dropdown option that disables aim assist",
+    "max_length": 25
+  },
+  {
+    "key": "options_aim_assist_light",
+    "english": "Light",
+    "polish": "Lekkie",
+    "context": "dropdown option that turns on some subtle aim assist",
+    "max_length": 25
+  },
+  {
+    "key": "options_aim_assist_heavy",
+    "english": "Heavy",
+    "polish": "Mocne",
+    "context": "dropdown option that turns on more intense aim assist",
+    "max_length": 25
+  },
+  {
+    "key": "options_lock_on_label",
+    "english": "Lock-On",
+    "polish": "Namierzanie",
+    "context": "label for a toggle that enables a mode that automatically moves the cursor to enemies near the center of the screen so that players don't have to aim as precisely",
+    "max_length": 50
+  },
+  {
+    "key": "options_hold_timeslow_label",
+    "english": "Hold Flux To Use",
+    "polish": "Strumień na przytrzymanie",
+    "context": "label for a toggle that means you have to hold the timeslow button down instead of toggling it",
+    "max_length": 50
+  },
+  {
+    "key": "options_flip_timeslow_label",
+    "english": "Flux On By Default",
+    "polish": "Strumień domyślnie włączony",
+    "context": "label for a toggle that turns time slow on by default (hold shift to disable instead of enable)",
+    "max_length": 50
+  },
+  {
+    "key": "options_mouse_sensitivity_vertical_label",
+    "english": "Mouse Sensitivity (Vertical)",
+    "polish": "Czułość myszy (w pionie)",
+    "context": "label for slider that changes mouse sensitivity on the vertical axis",
+    "max_length": 50
+  },
+  {
+    "key": "options_mouse_sensitivity_horizontal_label",
+    "english": "Mouse Sensitivity (Horizontal)",
+    "polish": "Czułość myszy (w poziomie)",
+    "context": "label for slider that changes mouse sensitivity on the horizontal axis",
+    "max_length": 50
+  },
+  {
+    "key": "options_joystick_sensitivity_vertical_label",
+    "english": "Joystick Sensitivity (Vertical)",
+    "polish": "Czułość gałki (w pionie)",
+    "context": "label for slider that changes joystick sensitivity on the vertical axis",
+    "max_length": 50
+  },
+  {
+    "key": "options_joystick_sensitivity_horizontal_label",
+    "english": "Joystick Sensitivity (Horizontal)",
+    "polish": "Czułość gałki (w poziomie)",
+    "context": "label for slider that changes joystick sensitivity on the horizontal axis",
+    "max_length": 50
+  },
+  {
+    "key": "options_joystick_sensitivity_vertical_label_switch",
+    "english": "Stick Sensitivity (Vertical)",
+    "polish": "Czułość drążka (w pionie)",
+    "context": "label for slider that changes joystick sensitivity on the vertical axis (switch)",
+    "max_length": 50
+  },
+  {
+    "key": "options_joystick_sensitivity_horizontal_label_switch",
+    "english": "Stick Sensitivity (Horizontal)",
+    "polish": "Czułość drążka (w poziomie)",
+    "context": "label for slider that changes joystick sensitivity on the horizontal axis (switch)",
+    "max_length": 50
+  },
+  {
+    "key": "options_gyro_sensitivity_vertical_label",
+    "english": "Gyroscope Sensitivity (Vertical)",
+    "polish": "Czułość żyroskopu (w pionie)",
+    "context": "label for slider that changes gyroscope sensitivity on the vertical axis",
+    "max_length": 50
+  },
+  {
+    "key": "options_gyro_sensitivity_horizontal_label",
+    "english": "Gyroscope Sensitivity (Horizontal)",
+    "polish": "Czułość żyroskopu (w poziomie)",
+    "context": "label for slider that changes gyroscope sensitivity on the horizontal axis",
+    "max_length": 50
+  },
+  {
+    "key": "options_gyro_h_axis_label",
+    "english": "Gyroscope Horizontal Axis",
+    "polish": "Oś pozioma żyroskopu",
+    "context": "label for dropdown that changes the direction of the \"horizontal\" gyroscope input. pitch is always mapped to the vertical axis, but depending on how the player is holding the controller, they may want to map either yaw or roll to the horizontal axis.",
+    "max_length": 50
+  },
+  {
+    "key": "options_gyro_h_axis_yaw",
+    "english": "Yaw",
+    "polish": "Odchylenie",
+    "context": "entry for the above dropdown -- sets the horizontal axis for the gyroscope to read the yaw input (rotation around an axis pointing up, like rotating a lazy susan on a table)",
+    "max_length": 25
+  },
+  {
+    "key": "options_gyro_h_axis_roll",
+    "english": "Roll",
+    "polish": "Przechylenie",
+    "context": "entry for the above dropdown -- sets the horizontal axis for the gyroscope to read the roll input (rotation around an axis pointing forward, like turning a crank on a wall)",
+    "max_length": 25
+  },
+  {
+    "key": "options_invert_x_axis_label",
+    "english": "Invert Look Axis (Horizontal)",
+    "polish": "Odwróć oś rozglądania (poziom)",
+    "context": "label for the toggle in the options screen that inverts the X look axis",
+    "max_length": 50
+  },
+  {
+    "key": "options_invert_y_axis_label",
+    "english": "Invert Look Axis (Vertical)",
+    "polish": "Odwróć oś rozglądania (pion)",
+    "context": "label for the toggle in the options screen that inverts the Y look axis",
+    "max_length": 50
+  },
+  {
+    "key": "options_motion_controls_label",
+    "english": "Motion Controls",
+    "polish": "Sterowanie ruchem",
+    "context": "label for a dropdown that changes the motion controls settings. this will matter on switch, and when a PC player is using a controller with a gyroscope (like the PS4 controller). this will affect the player look motion in different ways.",
+    "max_length": 50
+  },
+  {
+    "key": "options_motion_controls_off",
+    "english": "Off",
+    "polish": "Wyłączone",
+    "context": "no motion controls -- gamepad orientation does not affect look direction.",
+    "max_length": 25
+  },
+  {
+    "key": "options_motion_controls_flux_only",
+    "english": "On During Flux",
+    "polish": "Tylko podczas Strumienia",
+    "context": "gamepad orientation affects look direction when slowing time with the \"flux\" powerup",
+    "max_length": 25
+  },
+  {
+    "key": "options_motion_controls_always_on",
+    "english": "Always On",
+    "polish": "Zawsze włączone",
+    "context": "gamepad orientation always affects look direction.",
+    "max_length": 25
+  },
+  {
+    "key": "options_motion_controls_flick_stick",
+    "english": "Flick Stick",
+    "polish": "Flick stick",
+    "context": "gamepad orientation always affects look direction. also, the joystick that controls the look direction now operates differently. instead of the usual input, the angle of the stick is applied directly to the horizontal rotation of the player. this is a bit hard to explain -- more info here: https://www.youtube.com/watch?v=C5L_Px3dFtE",
+    "max_length": 25
+  },
+  {
+    "key": "options_rumble_label",
+    "english": "Rumble",
+    "polish": "Wibracje",
+    "context": "label for controller rumble toggle. this is either on or off",
+    "max_length": 50
+  },
+  {
+    "key": "options_danger_warning_label",
+    "english": "Nearby Danger Warnings",
+    "polish": "Ostrzeżenia o bliskim zagrożeniu",
+    "context": "label for danger warnings toggle. this enables some vfx on the edges of the screen that indicate when enemies or other hazards are right next to you. this is either on or off",
+    "max_length": 50
+  },
+  {
+    "key": "options_boomerang_charge_toggle_mode_label",
+    "english": "Boomerang Charge Toggle Mode",
+    "polish": "Ładowanie bumerangu na przełącznik",
+    "context": "label for a mode that lets you click once to begin charging the boomerang, and a second time to release (instead of having to hold the button down). might be helpful for people with dexterity issues",
+    "max_length": 50
+  },
+  {
+    "key": "options_difficulty_setting_label",
+    "english": "Difficulty",
+    "polish": "Poziom trudności",
+    "context": "label for a dropdown that changes the difficulty of several aspects of the game, including enemy behavior, time slow duration, etc. this is primarily meant to compensate for the differences in controls between gamepad & keyboard/mouse. this'll look like:\n\nDifficulty     Balanced for Controller\n\n    (or on switch:)\n\nDifficulty     Normal",
+    "max_length": 50
+  },
+  {
+    "key": "options_controller_difficulty_label",
+    "english": "Balanced for Controller",
+    "polish": "Wyważony pod pada",
+    "context": "the dropdown entry for the \"balanced for controller\" difficulty option.",
+    "max_length": 25
+  },
+  {
+    "key": "options_mouse_difficulty_label",
+    "english": "Balanced for Mouse",
+    "polish": "Wyważony pod mysz",
+    "context": "the dropdown entry for the \"balanced for mouse\" difficulty option. \"balanced for keyboard and mouse\" just doesn't fit in English, so we went with this. if it does fit in another language, feel free to say that! this is on by default on PC",
+    "max_length": 25
+  },
+  {
+    "key": "options_normal_difficulty_label",
+    "english": "Normal",
+    "polish": "Normalny",
+    "context": "on switch, we're not allowed to reference a \"mouse\"! so we have to call these difficulty settings something more straightforward. this is the label for the \"balanced for controller\" option on switch. this is on by default on switch.",
+    "max_length": 25
+  },
+  {
+    "key": "options_hard_difficulty_label",
+    "english": "Hard",
+    "polish": "Trudny",
+    "context": "this is what we're calling the \"balanced for mouse\" option on switch.",
+    "max_length": 25
+  },
+  {
+    "key": "options_difficulty_explanation",
+    "english": "We've provided this option to tune the game experience to what feels most comfortable for your setup. If you're playing on a gamepad, we recommend using \"balanced for controller\" mode. This is also a good setting to change if you'd like to tweak the general challenge of the game.",
+    "polish": "Ta opcja pozwala dopasować grę do tego, na czym grasz. Jeśli używasz pada, polecamy tryb „wyważony pod pada”. Warto tu zajrzeć także wtedy, gdy chcesz po prostu przykręcić albo odkręcić ogólne wyzwanie.",
+    "context": "this is a description that'll appear above the difficulty setting. it's meant to communicate why the option exists, to encourage you to use the appropriate setting based on your setup, and to explain that this can also be used as a more traditional difficulty setting if the game feels too easy or hard. the \"balanced for controller\" mode is easier in many ways, but we wanted to be careful not to present it as an \"easy mode,\" since players shouldn't feel like it's a lesser experience -- the point is to balance the controller version of the game as close to possible as the keyboard & mouse version. this explanation will only show up on the PC version of the game.",
+    "max_length": 400
+  },
+  {
+    "key": "options_speedrun_timer_label",
+    "english": "Speedrun Timer",
+    "polish": "Stoper szybkiego przejścia",
+    "context": "label for speedrun timer dropdown. enables a timer in the corner of the screen that tracks time since play began. there are a few options here depending on what you're trying to time",
+    "max_length": 50
+  },
+  {
+    "key": "options_speedrun_timer_off",
+    "english": "Off",
+    "polish": "Wyłączony",
+    "context": "entry in the above dropdown that disables the speedrun timer",
+    "max_length": 16
+  },
+  {
+    "key": "options_speedrun_timer_continuous",
+    "english": "Continuous",
+    "polish": "Ciągły",
+    "context": "entry in the above dropdown that sets the timer to run while the game is being played, no matter what",
+    "max_length": 16
+  },
+  {
+    "key": "options_speedrun_timer_single_arena",
+    "english": "Single Arena",
+    "polish": "Pojedyncza arena",
+    "context": "entry in the above dropdown that sets the timer to start when an arena begins, and stop when it stops",
+    "max_length": 16
+  },
+  {
+    "key": "options_gameplay_extras_title",
+    "english": "Gameplay Extras",
+    "polish": "Dodatki do rozgrywki",
+    "context": "The title for the gameplay extras sub-category in the gameplay menu.",
+    "max_length": 50
+  },
+  {
+    "key": "options_gameplay_extras_disclaimer",
+    "english": "The options below are for anyone who wants to put a spin on the gameplay, but we encourage players to finish the unmodified game first. Note that enabling any of these options will add an asterisk to the speedrun timer. \n\nEnjoy!",
+    "polish": "Poniższe opcje są dla tych, którzy chcą podkręcić rozgrywkę, ale zachęcamy, żeby najpierw przejść grę bez zmian. Włączenie którejkolwiek z nich dostawia gwiazdkę do stopera szybkiego przejścia.\n\nBaw się dobrze!",
+    "context": "this is a message that will appear above the options below. the idea is to make it clear that these options aren't the intended experience for people playing for the first time, but that they can be fun to goof around with.",
+    "max_length": 400
+  },
+  {
+    "key": "options_invincibility_label",
+    "english": "Invincibility Mode",
+    "polish": "Nieśmiertelność",
+    "context": "label for invincibility toggle. makes the player invincible. this is either on or off",
+    "max_length": 50
+  },
+  {
+    "key": "options_infinite_time_slow_label",
+    "english": "Infinite Flux Mode",
+    "polish": "Nieskończony Strumień",
+    "context": "label for no infinite time slow mode toggle. stops time slow juice from draining away, so the player can stay in time slow mode as long as they want. this is either on or off",
+    "max_length": 50
+  },
+  {
+    "key": "options_full_pause_time_slow_label",
+    "english": "Full-Pause Flux",
+    "polish": "Strumień zatrzymujący czas",
+    "context": "label for full pause time slow toggle. this makes it so that time slow mode will pause the game completely instead of slowing it down. this is either on or off",
+    "max_length": 50
+  },
+  {
+    "key": "options_no_shields_mode_label",
+    "english": "No Shields Mode",
+    "polish": "Bez tarcz",
+    "context": "label for no shields mode toggle. turns off all shields so that the player dies in one hit. this is either on or off",
+    "max_length": 50
+  },
+  {
+    "key": "options_shotgun_only_mode_label",
+    "english": "Scattershot Only Mode",
+    "polish": "Tylko Odłamki",
+    "context": "label for shotgun only mode toggle. disables the boomerang and only lets you use the Scattershot upgrade. this is either on or off",
+    "max_length": 50
+  },
+  {
+    "key": "options_no_gravity_mode_label",
+    "english": "No Gravity Mode",
+    "polish": "Bez grawitacji",
+    "context": "label for no gravity mode toggle. turns off gravity and lets you float around the arena. this is either on or off",
+    "max_length": 50
+  },
+  {
+    "key": "options_photosensitivity_mode_label",
+    "english": "Photosensitivity Mode",
+    "polish": "Tryb dla wrażliwych na światło",
+    "context": "label for photosensitivity mode toggle. disables some shader effects that contain strobing. this is either on or off",
+    "max_length": 50
+  },
+  {
+    "key": "options_high_contrast_mode_label",
+    "english": "High Contrast Mode",
+    "polish": "Wysoki kontrast",
+    "context": "label for high contrast mode toggle. should hopefully make the game much more understandable to visually impaired people. this is either on or off",
+    "max_length": 50
+  },
+  {
+    "key": "options_colorblindness_mode_label",
+    "english": "Color Blindness Mode",
+    "polish": "Tryb dla daltonistów",
+    "context": "label for a dropdown that changes the colors of certain game elements to make them easier to distinguish for color blind players",
+    "max_length": 50
+  },
+  {
+    "key": "options_no_colorblindness_mode",
+    "english": "None",
+    "polish": "Brak",
+    "context": "entry in the above dropdown that displays the default colors without color blindness considerations",
+    "max_length": 16
+  },
+  {
+    "key": "options_red_green_colorblindness_mode",
+    "english": "Red-Green",
+    "polish": "Czerwony-zielony",
+    "context": "entry in the above dropdown that modifies colors to make the game easier to understand for players with red-green colorblindness",
+    "max_length": 16
+  },
+  {
+    "key": "options_blue_yellow_colorblindness_mode",
+    "english": "Blue-Yellow",
+    "polish": "Niebieski-żółty",
+    "context": "entry in the above dropdown that modifies colors to make the game easier to understand for players with blue-yellow colorblindness",
+    "max_length": 16
+  },
+  {
+    "key": "options_extra_visible_required_enemies_label",
+    "english": "Extra-Visible Required Enemies",
+    "polish": "Wyraźniejsi wymagani wrogowie",
+    "context": "label for extra-visible required enemies toggle. this hilights required enemies much more clearly than they otherwise would be. this is either on or off. note that this is referencing the same enemies as in the \"required\" UI popup, so the words for those should probably be the same",
+    "max_length": 50
+  },
+  {
+    "key": "options_shield_color",
+    "english": "Shield Color",
+    "polish": "Kolor tarczy",
+    "context": "label for an option that lets you edit the color of shields (mostly for colorblind accessibility). No need to localize color names for these -- this will likely be a slider that lets you alter the hue.",
+    "max_length": 50
+  },
+  {
+    "key": "options_required_enemy_color",
+    "english": "Required Enemy Color",
+    "polish": "Kolor wymaganego wroga",
+    "context": "label for an option in the accessibility menu that lets you edit the color of required enemies (mostly for colorblind accessibility)",
+    "max_length": 50
+  },
+  {
+    "key": "options_weak_points_color",
+    "english": "Weak Point Color",
+    "polish": "Kolor czułych punktów",
+    "context": "label for an option in the accessibility menu that lets you edit the color of weak points (mostly for colorblind accessibility)",
+    "max_length": 50
+  },
+  {
+    "key": "options_reset_gamepad_controls",
+    "english": "Reset To Default",
+    "polish": "Przywróć domyślne",
+    "context": "Menu button to reset the gamepad controls to default",
+    "max_length": 30
+  },
+  {
+    "key": "options_reset_keyboard_mouse_controls",
+    "english": "Reset To Default",
+    "polish": "Przywróć domyślne",
+    "context": "Menu button to reset the keyboard & mouse controls to default",
+    "max_length": 30
+  },
+  {
+    "key": "options_confirm_controls_change",
+    "english": "Press a button to assign to\n\"{0}\"",
+    "polish": "Naciśnij przycisk dla akcji\n„{0}”",
+    "context": "Text in confirmation screen for control reassignment. {0} corresponds to the name of the action the player is trying to reassign (one of the below controls_action entries). There should most likely be a line break before the action name to make sure there's enough room to display both. This will be center justified. Example:\n\nPress a button to assign to\n \"Jump\"",
+    "max_length": 36
+  },
+  {
+    "key": "options_confirm_controls_change_switch",
+    "english": "Press a button to assign to\n\"{0}\"",
+    "polish": "Naciśnij przycisk dla akcji\n„{0}”",
+    "context": "Text in confirmation screen for control reassignment. {0} corresponds to the name of the action the player is trying to reassign (one of the below controls_action entries). There should most likely be a line break before the action name to make sure there's enough room to display both. This will be center justified. Example:\n\nPress a button to assign to\n \"Jump\"\n\n(switch version)",
+    "max_length": 36
+  },
+  {
+    "key": "options_confirm_controls_axis_change",
+    "english": "Move an axis to assign to\n\"{0}\"",
+    "polish": "Porusz osią, którą przypiszesz do\n„{0}”",
+    "context": "Text in confirmation screen for control reassignment. {0} corresponds to the name of the action the player is trying to reassign (one of the below controls_action entries). There should most likely be a line break before the action name to make sure there's enough room to display both. This will be center justified. Example:\n\nMove an axis to assign to\n \"Move Forwards/Backwards\"",
+    "max_length": 36
+  },
+  {
+    "key": "controls_action_move_vertical",
+    "english": "Move Forwards/Backwards",
+    "polish": "Ruch przód/tył",
+    "context": "This and the following controls_action entries are displayed in the control remapping window. This one is for moving forwards and backwards (very likely a joystick moving up/down).",
+    "max_length": 30
+  },
+  {
+    "key": "controls_action_move_horizontal",
+    "english": "Move Left/Right",
+    "polish": "Ruch lewo/prawo",
+    "context": "Remap entry for moving left/right (probably a joystick axis)",
+    "max_length": 30
+  },
+  {
+    "key": "controls_action_move_forwards",
+    "english": "Move Forwards",
+    "polish": "Ruch naprzód",
+    "context": "Remap entry for moving forwards (probably a keyboard key)",
+    "max_length": 30
+  },
+  {
+    "key": "controls_action_move_backwards",
+    "english": "Move Backwards",
+    "polish": "Ruch w tył",
+    "context": "Remap entry for moving backwards (probably a keyboard key)",
+    "max_length": 30
+  },
+  {
+    "key": "controls_action_move_left",
+    "english": "Move Left",
+    "polish": "Ruch w lewo",
+    "context": "Remap entry for moving left (probably a keyboard key)",
+    "max_length": 30
+  },
+  {
+    "key": "controls_action_move_right",
+    "english": "Move Right",
+    "polish": "Ruch w prawo",
+    "context": "Remap entry for moving right (probably a keyboard key)",
+    "max_length": 30
+  },
+  {
+    "key": "controls_action_look_vertical",
+    "english": "Look Up/Down",
+    "polish": "Rozglądanie góra/dół",
+    "context": "Remap entry for looking up/down (probably a joystick axis)",
+    "max_length": 30
+  },
+  {
+    "key": "controls_action_look_horizontal",
+    "english": "Look Left/Right",
+    "polish": "Rozglądanie lewo/prawo",
+    "context": "Remap entry for looking left/right (probably a joystick axis)",
+    "max_length": 30
+  },
+  {
+    "key": "controls_action_look_up",
+    "english": "Look Up",
+    "polish": "Spójrz w górę",
+    "context": "Remap entry for looking up (maybe a keyboard key. usually you'd use mouse to look, but that isn't remappable. this is just in case someone wants to look with the keyboard or a dpad or something. mostly just exists for accessibility purposes)",
+    "max_length": 30
+  },
+  {
+    "key": "controls_action_look_down",
+    "english": "Look Down",
+    "polish": "Spójrz w dół",
+    "context": "Remap entry for looking down, same as above",
+    "max_length": 30
+  },
+  {
+    "key": "controls_action_look_left",
+    "english": "Look Left",
+    "polish": "Spójrz w lewo",
+    "context": "Remap entry for looking left, same as above",
+    "max_length": 30
+  },
+  {
+    "key": "controls_action_look_right",
+    "english": "Look Right",
+    "polish": "Spójrz w prawo",
+    "context": "Remap entry for looking right, same as above",
+    "max_length": 30
+  },
+  {
+    "key": "controls_action_pause",
+    "english": "Pause",
+    "polish": "Pauza",
+    "context": "Remap entry for pausing the game",
+    "max_length": 30
+  },
+  {
+    "key": "controls_action_throw",
+    "english": "Throw Boomerang",
+    "polish": "Rzuć bumerangiem",
+    "context": "Remap entry for throwing your boomerang",
+    "max_length": 30
+  },
+  {
+    "key": "controls_action_teleport",
+    "english": "Slingshot",
+    "polish": "Zryw",
+    "context": "Remap entry for teleporting",
+    "max_length": 30
+  },
+  {
+    "key": "controls_action_recall",
+    "english": "Recall Boomerang",
+    "polish": "Przywołaj bumerang",
+    "context": "Remap entry for recall",
+    "max_length": 30
+  },
+  {
+    "key": "controls_action_timeslow",
+    "english": "Use Flux",
+    "polish": "Użyj Strumienia",
+    "context": "Remap entry for time slow",
+    "max_length": 30
+  },
+  {
+    "key": "controls_action_jump",
+    "english": "Jump",
+    "polish": "Skok",
+    "context": "Remap entry for jumping",
+    "max_length": 30
+  },
+  {
+    "key": "controls_action_air_brake",
+    "english": "Air Brake",
+    "polish": "Hamulec powietrzny",
+    "context": "Remap entry for using air brake",
+    "max_length": 30
+  },
+  {
+    "key": "controls_action_swap_powerup",
+    "english": "Swap Powerup",
+    "polish": "Zmień moc",
+    "context": "Remap entry for swapping between the shotgun & sniper powerups",
+    "max_length": 30
+  },
+  {
+    "key": "controls_action_powerup",
+    "english": "Activate Powerup",
+    "polish": "Użyj mocy",
+    "context": "Remap entry for activating powerups",
+    "max_length": 30
+  },
+  {
+    "key": "controls_action_comet",
+    "english": "Activate Comet Mode",
+    "polish": "Włącz tryb komety",
+    "context": "Remap entry for activating comet mode",
+    "max_length": 30
+  },
+  {
+    "key": "controls_action_talk",
+    "english": "Talk",
+    "polish": "Rozmowa",
+    "context": "Remap entry for talking to an NPC",
+    "max_length": 30
+  },
+  {
+    "key": "controls_action_reset_gyro",
+    "english": "Reset Gyroscope",
+    "polish": "Wyzeruj żyroskop",
+    "context": "Remap entry for resetting the gyroscope when using motion controls",
+    "max_length": 30
+  },
+  {
+    "key": "controls_action_pause_gyro",
+    "english": "Pause Motion Controls",
+    "polish": "Wstrzymaj sterowanie ruchem",
+    "context": "Remap entry for pausing motion controls when this button is held down",
+    "max_length": 30
+  },
+  {
+    "key": "controls_action_ui_vertical",
+    "english": "UI Up/Down",
+    "polish": "Menu góra/dół",
+    "context": "Remap entry for navigating UI left/right (probably a joystick axis)",
+    "max_length": 30
+  },
+  {
+    "key": "controls_action_ui_horizontal",
+    "english": "UI Left/Right",
+    "polish": "Menu lewo/prawo",
+    "context": "Remap entry for navigating UI up/down (probably a joystick axis)",
+    "max_length": 30
+  },
+  {
+    "key": "controls_action_ui_up",
+    "english": "UI Up",
+    "polish": "Menu w górę",
+    "context": "Remap entry for navigating UI up (probably a keyboard key)",
+    "max_length": 30
+  },
+  {
+    "key": "controls_action_ui_down",
+    "english": "UI Down",
+    "polish": "Menu w dół",
+    "context": "Remap entry for navigating UI down (probably a keyboard key)",
+    "max_length": 30
+  },
+  {
+    "key": "controls_action_ui_left",
+    "english": "UI Left",
+    "polish": "Menu w lewo",
+    "context": "Remap entry for navigating UI left (probably a keyboard key)",
+    "max_length": 30
+  },
+  {
+    "key": "controls_action_ui_right",
+    "english": "UI Right",
+    "polish": "Menu w prawo",
+    "context": "Remap entry for navigating UI right (probably a keyboard key)",
+    "max_length": 30
+  },
+  {
+    "key": "controls_action_ui_confirm",
+    "english": "UI Confirm",
+    "polish": "Zatwierdź",
+    "context": "Remap entry for \"confirm\" in the UI",
+    "max_length": 30
+  },
+  {
+    "key": "controls_action_ui_cancel",
+    "english": "UI Cancel",
+    "polish": "Anuluj",
+    "context": "Remap entry for \"cancel\" in the UI",
+    "max_length": 30
+  },
+  {
+    "key": "keyboard_spacebar_name",
+    "english": "Spacebar",
+    "polish": "Spacja",
+    "context": "What to call the spacebar in UI prompts",
+    "max_length": 12
+  },
+  {
+    "key": "menu_percentage",
+    "english": "{0}%",
+    "polish": "{0}%",
+    "context": "label for displaying percentages. Used in the save select screen to indicate overall game progress. {0} is a number from 0 to 100. Example:      35%",
+    "max_length": 10
+  },
+  {
+    "key": "delete_save",
+    "english": "Delete",
+    "polish": "Usuń",
+    "context": "menu option to delete a save slot",
+    "max_length": 12
+  },
+  {
+    "key": "save_file_delete_confirmation",
+    "english": "Are you sure you want to\ndelete save file {0}?",
+    "polish": "Na pewno chcesz usunąć\nzapis numer {0}?",
+    "context": "Text for menu window that comes up after attempting to delete a save file, to confirm that the player meant to do that. {0} will correspond to the save slot number the player tried to delete (1, 2, or 3). Each line can fit about 40 latin-alphabet characters -- split into 2 lines like I've done here if you need more. This will be center justified.\n\nExample:     Are you sure you want to\n               delete save file 2?",
+    "max_length": 80
+  },
+  {
+    "key": "tutorial_name",
+    "english": "THE ENTACCAN COAST",
+    "polish": "WYBRZEŻE ENTACCAŃSKIE",
+    "context": "the name of the tutorial (only appears in menu). Describes the area where the player arrives on the coast of the Island of Entacca.\nEntacca is a made up proper noun that describes the island's role as the mantid's world & birthplace.",
+    "max_length": 30
+  },
+  {
+    "key": "tuning_court_name",
+    "english": "THE TUNING COURT",
+    "polish": "DWÓR STROICIELI",
+    "context": "the name of the Tuning Court, which is the first arena in the tutorial. This is where the original crafters of the boomerang \"tuned\" the weapon, like an instrument. The arena is surrounded by taught strings which emit notes when hit. Musical connotation intended to invoke the \"tuning\" or perfection of the boomerang.",
+    "max_length": 30
+  },
+  {
+    "key": "composers_garden_name",
+    "english": "THE COMPOSER'S GARDEN",
+    "polish": "OGRÓD KOMPOZYTORA",
+    "context": "the name of the Composer's Garden, which is the second arena in the tutorial. This is where the boomerang's \"composer\" (the creature/person that built the boomerang's form) kept a garden for relaxation and meditation. Musical connotation is intended, as though the boomerang were a piece of music.",
+    "max_length": 30
+  },
+  {
+    "key": "level_1_name",
+    "english": "KENAK, THE EXILED TYRANT",
+    "polish": "KENAK, WYGNANY TYRAN",
+    "context": "the name of level 1. A clearing at the edge of the mantids' kingdom in the Yoranwood. This is the place that Kenak (A Julius Caesar-type who united the mantid hives for a time) was exiled and forced to leave the island. A statue depicts them looking forlornly back at the gates to the Yoranwood.",
+    "max_length": 30
+  },
+  {
+    "key": "inbetween_1_2_name",
+    "english": "FLUX CHAMBER",
+    "polish": "KOMORA STRUMIENIA",
+    "context": "name of the area between levels 1 and 2. This is where you will get the flux upgrade.",
+    "max_length": 30
+  },
+  {
+    "key": "level_2_name",
+    "english": "THE GRUDGE PIT",
+    "polish": "DÓŁ PORACHUNKÓW",
+    "context": "the name of level 2. This is a sporting arena where warriors from the different hives would fight in order to settle disputes. Created after Kenak's rise to replace warfare between hives.",
+    "max_length": 30
+  },
+  {
+    "key": "inbetween_2_3_name",
+    "english": "THE SHRINE OF KASPIDAE",
+    "polish": "SANKTUARIUM KASPIDAE",
+    "context": "name of the area between levels 2 and 3. This is the first \"Rest Stop\", and the first place the Millipede (Tepan) appears. It is a shrine to a mantis god/mythical figure Kaspidae, who performed magic through music.",
+    "max_length": 30
+  },
+  {
+    "key": "level_3_0_name",
+    "english": "THE VALLEY OF THE FIRST NYMPHS",
+    "polish": "DOLINA PIERWSZYCH NIMF",
+    "context": "the name of the pre-level before level 3. This is a farm inside an old castle, surrounded by more farmland. This is the place the mantids believe their kind first arrived on the island. A \"nymph\" is a young mantis.",
+    "max_length": 30
+  },
+  {
+    "key": "level_3_name",
+    "english": "YORANWOOD",
+    "polish": "YORAŃSKI BÓR",
+    "context": "the name of level 2. This is an ancient forest that acts as a central neutral ground for each of the Yoran Hives. It is the focal point of mantid civilization.",
+    "max_length": 30
+  },
+  {
+    "key": "inbetween_3_4_name",
+    "english": "CRYPT OF THE CURSED BLOOD",
+    "polish": "KRYPTA PRZEKLĘTEJ KRWI",
+    "context": "name of the area between levels 3 and 4. This is the second \"Rest Stop\" where the millipede is. The mantids buried here are said to be directly descended from Kaspidae and are more magical that usual mantids. They are buried together here when they die, and small seeds are planted in their bodies.",
+    "max_length": 30
+  },
+  {
+    "key": "level_4_0_name",
+    "english": "THE POISONED WELL",
+    "polish": "ZATRUTA STUDNIA",
+    "context": "the name of the pre-level before level 4. This is the first of the locations inside the Starved Hive. During the war, Kenak cut off the food supply to this resistant hive as a warning to the other hives. Much of this hive's culture was destroyed by Kenak, including its name. At some point the well was poisoned as retribution against anyone who might try to occupy the hive at a later time.",
+    "max_length": 30
+  },
+  {
+    "key": "level_4_name",
+    "english": "INCURSION OF THE GREAT WORM",
+    "polish": "NAJŚCIE WIELKIEGO ROBAKA",
+    "context": "the name of level 4. Once the main confluence for sewage & water throughout the Starved Hive, in the years after the hive's decimation a massive subterranean worm entered the cavern and created a nest for its young. This is the same worm whose carcass is found in Atsil's Quarry.",
+    "max_length": 30
+  },
+  {
+    "key": "inbetween_4_5_name",
+    "english": "FORUM OF THE STARVED HIVE",
+    "polish": "FORUM ZAGŁODZONEGO GNIAZDA",
+    "context": "name of the area between levels 4 and 5. The third \"rest stop\" where Tepan appears. This was the central meeting place for the leaders of the Starved Hive before Kenak destroyed it. In the present day, it was used as a place to construct a prototype weapon to fight the goo that wasn't finished in time.",
+    "max_length": 30
+  },
+  {
+    "key": "level_5_0_name",
+    "english": "THE OLD VEIN",
+    "polish": "STARA ŻYŁA",
+    "context": "name of the pre-level before level 5. The cave where the mantids first found the crystals and began mining them after the re-opening of the Starved Hive. It is still used off and on, but the bulk of the mining operations have moved further downwards.",
+    "max_length": 30
+  },
+  {
+    "key": "level_5_name",
+    "english": "ATSIL'S QUARRY",
+    "polish": "KAMIENIOŁOM ATSILA",
+    "context": "the name of level 5. The inside of a giant, frozen worm carcass. This worm long terrorized the miners digging for crystals. The leader of these miners, named Atsil, took water from the poisoned well and fed it to the worm, killing it. The miners then harvested its bones and ate its meat as a delicacy.",
+    "max_length": 30
+  },
+  {
+    "key": "inbetween_5_6_name",
+    "english": "THE HERMIT'S BATH",
+    "polish": "ŁAŹNIA PUSTELNIKA",
+    "context": "name of the area between levels 5 and 6. The fourth \"rest stop\" where Tepan appears. These baths are part of a subterranean palace built for a misanthropic hermit mantis.",
+    "max_length": 30
+  },
+  {
+    "key": "level_6_0_name",
+    "english": "HALL OF THE ERSATZ FEAST",
+    "polish": "SALA POZORNEJ UCZTY",
+    "context": "name of the area between levels 4 and 5. A dining hall built for the Hermit, where they would stage mock feasts with mantid statues. Now almost completely destroyed following the flight from the Bastion.",
+    "max_length": 30
+  },
+  {
+    "key": "level_6_name",
+    "english": "THE GRAVE OF THE YORAN LEGION",
+    "polish": "GRÓB LEGIONU YORAN",
+    "context": "the name of level 5. A hurriedly constructed fortress built by the hastily put together Yoran Legion. This group of warriors, used to fighting in the Grudge Pits, were unprepared to fight as an army and were quickly overrun by the goo creatures.",
+    "max_length": 30
+  },
+  {
+    "key": "inbetween_6_7_name",
+    "english": "THE DEEPEST FOLLY",
+    "polish": "NAJGŁĘBSZE SZALEŃSTWO",
+    "context": "name of the area between levels 5 and 6. The Fifth and final \"rest stop\" where Tepan appears, the largest and most central mine where the crystals were harvested. It was here that somehow the goo was released from the crystals and wiped out the Yoran mantids.",
+    "max_length": 30
+  },
+  {
+    "key": "level_7_name",
+    "english": "THE RESONANCE ENGINE",
+    "polish": "MASZYNA REZONANSU",
+    "context": "the name of level 6. This is a partially supernatural place where The Tree resides. This tree connects the mantid world to many other realities, and is how Tepan arrived on the island. It is a sacred place to the Yoran, but also a terrifying curiosity. The goo has since gotten into the tree, and is blocking Tepan's way home.",
+    "max_length": 30
+  },
+  {
+    "key": "level_8_name",
+    "english": "VASHKATAR",
+    "polish": "VASHKATAR",
+    "context": "the name of level 7. This is a place beyond the reality of the rest of the game, accessed through the tree. Here, the primary form of goo resides, attempting to break out into other worlds. The catalyst for the goo's release was when a Descendent of Kaspidae touched the greatest of the crystals and suddenly exclaimed \"Vashkatar!\" before the crystal cracked open and goo flooded out.",
+    "max_length": 30
+  },
+  {
+    "key": "kill_combo",
+    "english": "Kill Combo x{0}",
+    "polish": "Kombo x{0}",
+    "context": "notification for a kill combo -- this means that the player has killed multiple enemies in quick succession\n\nthis and the ones below it are the text for a notification that comes up when performing certain types of kills. {0} is a number signifying how many of that type of kill you've gotten.\n\nThis will display as, for example, \"Kill Combo x3\"",
+    "max_length": 30
+  },
+  {
+    "key": "air_kill",
+    "english": "Air Kill x{0}",
+    "polish": "Zabójstwo w locie x{0}",
+    "context": "notification for an air kill combo -- this means that the player has killed multiple enemies without touching the ground",
+    "max_length": 30
+  },
+  {
+    "key": "recall_kill",
+    "english": "Recall Kill x{0}",
+    "polish": "Zabójstwo przywołaniem x{0}",
+    "context": "notification for a recall kill combo -- this means that the player has killed multiple enemies by recalling the boomerang",
+    "max_length": 30
+  },
+  {
+    "key": "chain_kill",
+    "english": "Single-Throw Kill x{0}",
+    "polish": "Zabójstwo jednym rzutem x{0}",
+    "context": "notification for a chain kill combo -- this means that the player has killed multiple enemies on one throw",
+    "max_length": 30
+  },
+  {
+    "key": "simultaneous_kill",
+    "english": "Special Kill x{0}",
+    "polish": "Zabójstwo specjalne x{0}",
+    "context": "notification for a simultaneous kill combo -- this means that the player has killed multiple enemies on the same frame",
+    "max_length": 30
+  },
+  {
+    "key": "realtime_kill",
+    "english": "Realtime Kill x{0}",
+    "polish": "Zabójstwo bez Strumienia x{0}",
+    "context": "notification for a realtime kill combo -- this means that the player has killed multiple enemies in a row without using \"time slow\"",
+    "max_length": 30
+  },
+  {
+    "key": "wave_count",
+    "english": "WAVE {0}/{1}",
+    "polish": "FALA {0}/{1}",
+    "context": "text that appears when starting a new wave & tells you how many waves are left.\nfor example: \"Wave 2/3\"\n\n{0} is the number of the wave that just started\n{1} is the total number of waves in this arena",
+    "max_length": 16
+  },
+  {
+    "key": "required",
+    "english": "REQUIRED:",
+    "polish": "WYMAGANI:",
+    "context": "text that appears at the same time as the wave count, slightly below. this signifies the number of enemies that are required to kill on this wave, which is represented by that number of icons below it. there aren't any actual numerals in this one. the whole screen looks a bit like this:\n\nWAVE 1/5\n\nREQUIRED:\n⚫⚫⚫⚫⚫⚫⚫⚫",
+    "max_length": 16
+  },
+  {
+    "key": "shield_unlock_name",
+    "english": "<size=80>UNLOCKED</size>\nNEW SHIELD",
+    "polish": "<size=80>ODBLOKOWANO</size>\nNOWA TARCZA",
+    "context": "the title for the unlock screen of the shield item, which you'll get one of after every level. this and the rest of the unlocks show up with a description when you unlock them. sorry for the formatting here -- it'll end up looking basically like:\n\n---\nUNLOCKED\nNEW SHIELD\n\n[icon for shield item]\n\ntake one more hit before dying\n---\n\nwasn't sure if the \"unlocked\" part would always necessarily be before the item name, so I put it all in one entry.\n",
+    "max_length": 50
+  },
+  {
+    "key": "teleport_ability_name",
+    "english": "Slingshot",
+    "polish": "Zryw",
+    "context": "This is the name of an ability that propels you towards your boomerang -- sort of a midair grappling hook. This name will appear when you first unlock it, and also in a glossary menu where you can read about each of the abilities.",
+    "max_length": 20
+  },
+  {
+    "key": "timeslow_ability_name",
+    "english": "Flux",
+    "polish": "Strumień",
+    "context": "This is the name of an ability that allows you to slow down time while aiming. This name will appear when you first unlock it, and also in a glossary menu where you can read about each of the abilities.",
+    "max_length": 20
+  },
+  {
+    "key": "shotgun_ability_name",
+    "english": "Scattershot",
+    "polish": "Odłamki",
+    "context": "This is the name of an ability that lets you shoot a big blast of shards at enemies. To use this, you'll have to kill multiple enemies on one throw, and then you can activate it. This name will appear when you first unlock it, and also in a glossary menu where you can read about each of the abilities.",
+    "max_length": 20
+  },
+  {
+    "key": "sniper_ability_name",
+    "english": "Needle",
+    "polish": "Igła",
+    "context": "This is the name of an ability that lets you shoot a long beam of energy at enemies. To use this, you'll have to kill several enemies with a special attack (like the scattershot), and then you can activate it. This name will appear when you first unlock it, and also in a glossary menu where you can read about each of the abilities.",
+    "max_length": 20
+  },
+  {
+    "key": "airstomp_ability_name",
+    "english": "Blaze",
+    "polish": "Żar",
+    "context": "This is the name of an ability that creates a big fiery shockwave when you land. To use this, you'll need to kill several enemies in midair, then touch the ground. This name will appear when you first unlock it, and also in a glossary menu where you can read about each of the abilities.",
+    "max_length": 20
+  },
+  {
+    "key": "comet_ability_name",
+    "english": "Oblivion Comet",
+    "polish": "Kometa Zapomnienia",
+    "context": "This is the name of an ability that slows time down dramatically while you target & annihilate large groups of enemies as you zip around the arena in a giant tunnel of energy. To use this, you'll have to kill a large number of enemies in quick succession. This name will appear when you first unlock it, and also in a glossary menu where you can read about each of the abilities.",
+    "max_length": 20
+  },
+  {
+    "key": "unlocked_postfix_text",
+    "english": "Unlocked",
+    "polish": "Odblokowano",
+    "context": "When the above abilities are unlocked, text will appear on the screen (center justified), with the name of the ability and then \"unlocked\" in a larger font on the next line, like this:\n\n    SCATTERSHOT\n    UNLOCKED\n\nThese lines will be automatically converted to uppercase in languages that use the latin alphabet (but in menus the ability names are title case, so we'll do it in code).",
+    "max_length": 14
+  },
+  {
+    "key": "new_game_plus_unlocked_name",
+    "english": "New Game +",
+    "polish": "Nowa gra +",
+    "context": "When you unlock New Game + mode, we'll use the same notification style as when you unlock abilities, so it'll look like this:\n\n     NEW GAME +\n    UNLOCKED\n\nThis is the first line of that notification (the second line is the same \"unlocked\" as in the ability notifications",
+    "max_length": 20
+  },
+  {
+    "key": "teleport_glossary_entry",
+    "english": "To Slingshot, throw the boomerang with[[throw_control_icon]], then[[teleport_control_icon]]to pull yourself towards it. You can do this at any time, even while in midair.",
+    "polish": "Aby wykonać Zryw, rzuć bumerangiem przyciskiem[[throw_control_icon]], a potem[[teleport_control_icon]], by przyciągnąć się do niego. Możesz to zrobić w każdej chwili, nawet w powietrzu.",
+    "context": "This is the glossary entry for the Slingshot ability. These entries are used to remind players how each ability works. They're meant to be pretty dry and err on the side of being too descriptive.",
+    "max_length": 350
+  },
+  {
+    "key": "timeslow_glossary_entry",
+    "english": "To use Flux, hold[[throw_control_icon]]to charge the boomerang and press[[timeslow_control_icon]]to slow down time.",
+    "polish": "Aby użyć Strumienia, przytrzymaj[[throw_control_icon]]i ładuj bumerang, a potem naciśnij[[timeslow_control_icon]], by spowolnić czas.",
+    "context": "This is the glossary entry for the Flux ability",
+    "max_length": 350
+  },
+  {
+    "key": "shotgun_glossary_entry",
+    "english": "Ready Scattershot by killing {0} enemies in one throw, then use it by pressing[[use_powerup_icon]]to unleash a blast of deadly shards. If Needle is also ready, press[[swap_powerup_icon]]to swap between the two.",
+    "polish": "Odłamki ładujesz, zabijając {0} wrogów jednym rzutem, a używasz przyciskiem[[use_powerup_icon]], żeby wypuścić chmurę zabójczych drzazg. Jeśli Igła też jest gotowa, naciśnij[[swap_powerup_icon]], by przełączyć się między nimi.",
+    "context": "This is the glossary entry for the Scattershot ability. {0} represents the number of enemies that have to be killed on one throw",
+    "max_length": 350
+  },
+  {
+    "key": "sniper_glossary_entry",
+    "english": "Ready Needle by killing {0} enemies with a special attack (like Scattershot), then use it by pressing[[use_powerup_icon]]to fire a piercing energy beam. If Scattershot is also ready, press[[swap_powerup_icon]]to swap between the two.",
+    "polish": "Igłę ładujesz, zabijając {0} wrogów atakiem specjalnym (na przykład Odłamkami), a używasz przyciskiem[[use_powerup_icon]], żeby wystrzelić przebijającą wiązkę energii. Jeśli Odłamki też są gotowe, naciśnij[[swap_powerup_icon]], by przełączyć się między nimi.",
+    "context": "This is the glossary entry for the Needle ability. {0} represents the number of enemies that have to be killed with a special attack",
+    "max_length": 350
+  },
+  {
+    "key": "airstomp_glossary_entry",
+    "english": "Ready Blaze by killing {0} enemies without touching the ground, then land or touch an enemy to ignite a fiery explosion.",
+    "polish": "Żar ładujesz, zabijając {0} wrogów bez dotykania ziemi, a potem wyzwalasz go, lądując albo dotykając wroga — wybucha wtedy ognista eksplozja.",
+    "context": "This is the glossary entry for the Blaze ability. {0} represents the number of enemies that have to be killed without touching the ground",
+    "max_length": 350
+  },
+  {
+    "key": "comet_glossary_entry",
+    "english": "Charge the Oblivion Comet meter by killing a large number of enemies in quick succession. When the meter is full, press[[comet_control_icon]]to activate Comet Mode. Target enemies to zoom towards them, killing anything in your path.",
+    "polish": "Wskaźnik Komety Zapomnienia ładuje się, gdy zabijasz wielu wrogów jeden po drugim. Przy pełnym wskaźniku naciśnij[[comet_control_icon]], by włączyć tryb komety. Namierzaj wrogów, żeby pomknąć w ich stronę, zabijając wszystko po drodze.",
+    "context": "This is the glossary entry for the Oblivion Comet ability.",
+    "max_length": 350
+  },
+  {
+    "key": "tutorial_plaque_throw_top",
+    "english": "Throw",
+    "polish": "Rzut",
+    "context": "This section is for plaques on the walls of the tutorials that teach you how to play the game. Almost all of them have a top & bottom section, separated by a horizontal line -- the top section is essentially a title, and is in a larger font. The bottom section describes how to use the powerup. For example, this plaque will look like:\n\n    Throw\n     ---\n    (icon)\n\nThe icon keywords (like [[throw_control_icon]] are parsed into actual icons in the game, so they need to be copied verbatim. These don't count towards the character limit.\n\nThis is the top half of a plaque that teaches you how to throw the boomerang",
+    "max_length": 25
+  },
+  {
+    "key": "tutorial_plaque_throw_bottom",
+    "english": "[[throw_control_icon]]",
+    "polish": "[[throw_control_icon]]",
+    "context": "Bottom half of the throw tutorial plaque",
+    "max_length": 70
+  },
+  {
+    "key": "tutorial_plaque_charge_top",
+    "english": "Charge",
+    "polish": "Ładowanie",
+    "context": "Top half of plaque that teaches you how to hold the throw button to charge the boomerang, which lets you throw farther",
+    "max_length": 25
+  },
+  {
+    "key": "tutorial_plaque_charge_bottom",
+    "english": "Hold[[throw_control_icon]]",
+    "polish": "Przytrzymaj[[throw_control_icon]]",
+    "context": "Bottom half of the charge tutorial plaque",
+    "max_length": 70
+  },
+  {
+    "key": "tutorial_plaque_recall_top",
+    "english": "Recall Boomerang",
+    "polish": "Przywołaj bumerang",
+    "context": "Top half of plaque that teaches you how to instantly recall the boomerang from the air",
+    "max_length": 25
+  },
+  {
+    "key": "tutorial_plaque_recall_bottom",
+    "english": "[[recall_control_icon]]",
+    "polish": "[[recall_control_icon]]",
+    "context": "Bottom half of the recall tutorial plaque",
+    "max_length": 70
+  },
+  {
+    "key": "tutorial_plaque_teleport_top",
+    "english": "Slingshot to Boomerang[[teleport_ability_icon]]",
+    "polish": "Zryw do bumerangu[[teleport_ability_icon]]",
+    "context": "Top half of a plaque that teaches you how to slingshot to the boomerang while it's in the air",
+    "max_length": 25
+  },
+  {
+    "key": "tutorial_plaque_teleport_bottom",
+    "english": "[[throw_control_icon]]+[[teleport_control_icon]]",
+    "polish": "[[throw_control_icon]]+[[teleport_control_icon]]",
+    "context": "Bottom half of the slingshot tutorial plaque",
+    "max_length": 70
+  },
+  {
+    "key": "tutorial_plaque_airbrake_top",
+    "english": "Stop Midair",
+    "polish": "Zatrzymanie w locie",
+    "context": "Top half of a plaque that teaches you how to stop in midair (if you're trying to land on something beneath you, for example)",
+    "max_length": 25
+  },
+  {
+    "key": "tutorial_plaque_airbrake_bottom",
+    "english": "Hold[[air_brake_control_icon]]",
+    "polish": "Przytrzymaj[[air_brake_control_icon]]",
+    "context": "Bottom half of the airbrake tutorial plaque",
+    "max_length": 70
+  },
+  {
+    "key": "tutorial_plaque_heal_top",
+    "english": "Health Platforms",
+    "polish": "Platformy zdrowia",
+    "context": "the top section of a new tutorial plaque that explains what the health platforms do",
+    "max_length": 25
+  },
+  {
+    "key": "tutorial_plaque_heal_bottom",
+    "english": "After taking damage, standing on a health platform will regenerate one shield.",
+    "polish": "Gdy oberwiesz, stań na platformie zdrowia, by odzyskać tarczę.",
+    "context": "the bottom section of the same plaque",
+    "max_length": 90
+  },
+  {
+    "key": "tutorial_plaque_timeslow_top",
+    "english": "Flux[[timeslow_ability_icon]]",
+    "polish": "Strumień[[timeslow_ability_icon]]",
+    "context": "Top half of a plaque that teaches you how to slow time while charging the boomerang",
+    "max_length": 25
+  },
+  {
+    "key": "tutorial_plaque_timeslow_bottom",
+    "english": "Hold[[timeslow_control_icon]]\nwhile charging to slow time",
+    "polish": "Przytrzymaj[[timeslow_control_icon]]\npodczas ładowania, by spowolnić czas",
+    "context": "Bottom half of the time slow tutorial plaque",
+    "max_length": 70
+  },
+  {
+    "key": "tutorial_plaque_timeslow_bottom_toggle_mode",
+    "english": "Tap[[timeslow_control_icon]]\nwhile charging to slow time",
+    "polish": "Naciśnij[[timeslow_control_icon]]\npodczas ładowania, by spowolnić czas",
+    "context": "Bottom half of the time slow tutorial plaque (when \"Hold Flux To Use\" is off)",
+    "max_length": 70
+  },
+  {
+    "key": "tutorial_plaque_shotgun_top",
+    "english": "Scattershot[[shotgun_ability_icon]]",
+    "polish": "Odłamki[[shotgun_ability_icon]]",
+    "context": "Top half of a plaque that teaches you how to use the shotgun ability",
+    "max_length": 25
+  },
+  {
+    "key": "tutorial_plaque_shotgun_bottom",
+    "english": "[[use_powerup_icon]]\nafter killing {0} enemies on one throw",
+    "polish": "[[use_powerup_icon]]\npo zabiciu {0} wrogów jednym rzutem",
+    "context": "Bottom half of the shotgun tutorial plaque. {0} here represents the number of enemies that have to be killed on one throw to use Scattershot -- right now it's 2, but we might change it later so I left it as a variable. This will definitely be a single-digit number. The newline here is important -- the icon should be on its own line.",
+    "max_length": 70
+  },
+  {
+    "key": "tutorial_plaque_sniper_top",
+    "english": "Needle[[sniper_ability_icon]]",
+    "polish": "Igła[[sniper_ability_icon]]",
+    "context": "Top half of a plaque that teaches you how to use the sniper ability",
+    "max_length": 25
+  },
+  {
+    "key": "tutorial_plaque_sniper_bottom",
+    "english": "[[use_powerup_icon]]\nafter killing {0} enemies with a special attack, such as Scattershot[[shotgun_ability_icon]]",
+    "polish": "[[use_powerup_icon]]\npo zabiciu {0} wrogów atakiem specjalnym, na przykład Odłamkami[[shotgun_ability_icon]]",
+    "context": "Bottom half of the sniper tutorial plaque. Similar to the shotgun plaque, {0} here is the number of enemies that must be killed with a special attack to use sniper. It's 3 right now -- it'll also definitely be a single digit. The newline here is important -- the icon should be on its own line.",
+    "max_length": 70
+  },
+  {
+    "key": "tutorial_plaque_swap_powerup",
+    "english": "[[swap_powerup_icon]]\nswap between Needle[[sniper_ability_icon]] and Scattershot[[shotgun_ability_icon]] if both available\n",
+    "polish": "[[swap_powerup_icon]]\nprzełącza między Igłą[[sniper_ability_icon]] a Odłamkami[[shotgun_ability_icon]], gdy obie są gotowe\n",
+    "context": "Plaque that teaches you how to switch between using the shotgun & sniper abilities. This is the only plaque that doesn't have both a top and a bottom section -- it basically has only a bottom section, with no title. This appears in the same room as the sniper tutorial plaque in the above 2 rows. The newline here is important -- the icon should be on its own line.",
+    "max_length": 70
+  },
+  {
+    "key": "tutorial_plaque_airstomp_top",
+    "english": "BLAZE[[airstomp_ability_icon]]",
+    "polish": "ŻAR[[airstomp_ability_icon]]",
+    "context": "Top half of a plaque that teaches you how to use the airstomp ability, which kills a bunch of enemies around you when you land",
+    "max_length": 25
+  },
+  {
+    "key": "tutorial_plaque_airstomp_bottom",
+    "english": "Get {0} kills without landing, then touch the ground or an enemy",
+    "polish": "Zabij {0} wrogów bez lądowania, a potem dotknij ziemi albo wroga",
+    "context": "Bottom half of the airstomp tutorial plaque. You guessed it: {0} is the number of kills you have to get in the air to use the air stomp ability. It's currently 3. It'll definitely be one digit.",
+    "max_length": 70
+  },
+  {
+    "key": "tutorial_plaque_comet_top",
+    "english": "Oblivion Comet[[comet_ability_icon]]",
+    "polish": "Kometa Zapomnienia[[comet_ability_icon]]",
+    "context": "Top half of a plaque that (sort of) teaches you how to use the comet ability",
+    "max_length": 25
+  },
+  {
+    "key": "tutorial_plaque_comet_bottom",
+    "english": "[[comet_control_icon]]\nwhen ready",
+    "polish": "[[comet_control_icon]]\ngdy gotowa",
+    "context": "Bottom half of the comet tutorial plaque. This description is intentionally vague, since we want the player to have to figure it out on your own a little bit. As they kill enemies in quick succession, a meter will fill up. When full, the game will prompt them to press this button to enter comet mode. The newline here is important -- the icon should be on its own line.",
+    "max_length": 70
+  },
+  {
+    "key": "tutorial_plaque_comet_explanation",
+    "english": "Kill enemies quickly to fill the meter under your shields.",
+    "polish": "Zabijaj wrogów szybko, by napełnić wskaźnik pod tarczami.",
+    "context": "a new plaque next to the other comet tutorial plaque, meant to give a bit more explanation. when this meter is full, the player can press CTRL (by default on pc) to enter \"comet mode,\" which lets you kill lots of enemies very rapidly. Players sometimes didn't realize that the meter slowly decays over time, so we're making this tweak to communicate better that you need to kill enemies QUICKLY to fill up the bar",
+    "max_length": 70
+  },
+  {
+    "key": "millipede_press_to_talk",
+    "english": "[[talk_control_icon]]Talk",
+    "polish": "[[talk_control_icon]]Rozmowa",
+    "context": "This is the message that appears on screen when you walk up to the millipede to talk to them",
+    "max_length": 16
+  },
+  {
+    "key": "millipede_name",
+    "english": "Tepan",
+    "polish": "Tepan",
+    "context": "This is Tepan's name, which appears at the top of the dialogue box.",
+    "max_length": 16
+  },
+  {
+    "key": "millipede_statue_room_default_1",
+    "english": "Ah!|pause| What are you?|pause| You aren't one of the Yoran mantids!|pause| Where have you dropped in from?",
+    "polish": "Ach!|pause| Czym ty jesteś?|pause| Nie należysz do modliszek Yoran!|pause| Skąd ty się tu bierzesz?",
+    "context": "The first time our millipede character, Tepan, first talks to the player. They are surprised to see the player after spending many days alone on the island after the massacre of the Yoran mantids.\nTepan speaks in a stream of consciousness way and will often change grammar in the middle of a sentence as their thoughts change, usually after an ellipses. Tepan has been written as though they are constantly rambling on.\nThis is my first time having my writing localized, so I'm going to be as specific as possible even about obvious things just to be as helpful as possible to you all. Also many of the characters (Tepan, Kenak) referenced are not gendered, and in english we refer to these characters with \"they\" pronouns -- if needed, Tepan should be gendered female, and Kenak male.\n\nAlso, the |pause|, |long_pause| and |short_pause| keywords are used to time out the scrolling of the dialogue. We generally use |pause| after periods (and exclamation marks, etc), |short_pause| after commas, and |long_pause| after ellipses. These keywords don't count towards the character limit."
+  },
+  {
+    "key": "millipede_statue_room_default_2",
+    "english": "I'm so sorry!|pause| I've been alone on this island ever since those things wiped out the Yoran.|pause| My name is Tepan.|pause| I am terrible at singing,|short_pause| better at cooking,|short_pause| ha ha!",
+    "polish": "Ogromnie przepraszam!|pause| Odkąd te stwory wybiły Yoran, nie ma na tej wyspie nikogo poza mną.|pause| Mam na imię Tepan.|pause| Ze śpiewem u mnie krucho,|short_pause| z gotowaniem lepiej,|short_pause| ha ha!",
+    "context": "Tepan introduces themselves, a little awkwardly."
+  },
+  {
+    "key": "millipede_statue_room_default_3",
+    "english": "Is that one of the mantid weapons?|pause| Are you using it to fight those monsters?",
+    "polish": "Czy to jedna z broni modliszek?|pause| Walczysz nią z tymi potworami?",
+    "context": "Tepan notices the Boomerang and reveals that it is a weapon used by the Mantids, albeit altered by Kaspidae. Tepan is a little incredulous that the player plans to fight the monsters, having seen how dangerous the creatures are."
+  },
+  {
+    "key": "millipede_statue_room_default_4",
+    "english": "Oh of all the terrible,|short_pause| terrible ideas I've heard and had myself,|short_pause| I can definitely say:|short_pause| that is a bad idea.",
+    "polish": "Och, ze wszystkich okropnych,|short_pause| doprawdy okropnych pomysłów, jakie przyszły mi do głowy albo obiły mi się o uszy,|short_pause| powiem z całą pewnością:|short_pause| ten jest zły.",
+    "context": "Tepan really doesn't think fighting the creatures is a good idea, and says so in their own, slightly awkward way."
+  },
+  {
+    "key": "millipede_statue_room_default_5",
+    "english": "Look,|short_pause| if you're intent on fighting,|short_pause| I've got to warn you there's something down there.|pause| It reminds me of the river leviathans that terrorized my village back home...",
+    "polish": "Słuchaj,|short_pause| jeśli koniecznie chcesz walczyć,|short_pause| muszę cię ostrzec: tam na dole coś jest.|pause| Przypomina mi te rzeczne lewiatany, które siały postrach w mojej rodzinnej wiosce...",
+    "context": "Tepan tries to warn the player about the big bad that controls all the monsters in the game.\nThe idea with \"river leviathan\" is to evoke some idea of the giant eel which is the boss at the end of the game."
+  },
+  {
+    "key": "millipede_statue_room_default_6",
+    "english": "I only caught little glimpses,|short_pause| but I think all these dark beasts come from it...",
+    "polish": "Tylko parę razy mi to mignęło,|short_pause| ale wydaje mi się, że wszystkie te mroczne bestie biorą się właśnie z tego czegoś...",
+    "context": "Tepan reveals that the monsters the player fights come from a single beast that resides underground."
+  },
+  {
+    "key": "millipede_statue_room_default_7",
+    "english": "If you do get through I'll try and meet up with you somewhere ahead.|pause| I'm good at scurrying between crevices and avoiding these ghouls.",
+    "polish": "Jeśli się przedostaniesz, spróbuję dogonić cię gdzieś dalej.|pause| Dobrze mi idzie przemykanie szczelinami i omijanie tych upiorów.",
+    "context": "If the player is able to make it through the next few areas, Tepan vows to try and find the player further along. They awkwardly brag a little about how good they are at evading detection by fitting through small & uncomfortable spaces."
+  },
+  {
+    "key": "millipede_statue_room_lore_1",
+    "english": "Hmm?|pause| Oh,|short_pause| this shrine is one of the last quiet spots on the island.|pause| It also has the best tasting slime.|pause| Try some!|pause| It's over there by those bamboo shoots.",
+    "polish": "Hmm?|pause| Ach,|short_pause| to sanktuarium to jedno z ostatnich cichych miejsc na wyspie.|pause| Ma też najsmaczniejszy śluz.|pause| Spróbuj!|pause| Jest tam, przy tych pędach bambusa.",
+    "context": "Start of a new conversation.\nTepan explains what they are doing in this area, and \"helpfully\" points the player character to some slime to eat if they are hungry. Tepan thinks they are actually being helpful."
+  },
+  {
+    "key": "millipede_statue_room_lore_2",
+    "english": "The Yoran told me that big mantid with the antlers over there is Kaspidae,|short_pause| someone who was so good at playing music it made magic happen,|short_pause| or something like that.",
+    "polish": "Yoranie mówili mi, że ta wielka modliszka z porożem to Kaspidae,|short_pause| ktoś, kto grał tak dobrze, że z muzyki rodziła się magia,|short_pause| czy coś w tym guście.",
+    "context": "Tepan recounts some information the Yoran imparted to them: The Legend of Kaspidae, the Minstrel. Kaspidae is a mythical/historical figure in the Yoran society who essentially discovered the mantids' now widespread song magic. Unfortunately, Tepan can't quite remember the details of the story.\nKaspidae is a made up noun taken partially from the suffix of the latin-based scientific word for mantids \"mantidae\""
+  },
+  {
+    "key": "millipede_statue_room_lore_3",
+    "english": "Imagine that!|pause| I make a pretty good scattermoss roast,|short_pause| but it won't make you levitate...",
+    "polish": "Wyobrażasz sobie?|pause| Robię całkiem niezłą pieczeń z rozsypnego mchu,|short_pause| ale od niej nikt jeszcze nie zaczął lewitować...",
+    "context": "A joke, comparing Kaspidae's singing being so good it could perform miracles to Tepan's cooking of a signature millipede dish, which while good, is less magical. \n\"Scattermoss roast\" is just a made-up dish. I just imagine Tepan's bug species eat all kinds of strange things, like moss that grows in their world."
+  },
+  {
+    "key": "millipede_statue_room_lore_4",
+    "english": "Legend goes Kaspidae submerged themselves in water,|short_pause| played a perfectly tuned set of strings,|short_pause| and then...|long_pause| ah...|long_pause| ascended?",
+    "polish": "Legenda głosi, że Kaspidae zanurzyła się w wodzie,|short_pause| zagrała na idealnie nastrojonych strunach,|short_pause| a potem...|long_pause| ach...|long_pause| wstąpiła wyżej?",
+    "context": "Tepan goes back to retelling Kaspidae's story, and again doesn't quite remember the specifics of the legend, leaving them a little embarrassed."
+  },
+  {
+    "key": "millipede_statue_room_lore_5",
+    "english": "Can't believe myself.|pause| I'm the last bastion of knowledge on Yoran culture and I can barely remember their legends!",
+    "polish": "Aż trudno uwierzyć.|pause| Jestem ostatnim bastionem wiedzy o kulturze Yoran, a ledwo pamiętam ich legendy!",
+    "context": "Tepan scolds themselves for not remembering the legend. Seen as all the Yoran are gone, Tepan realizes they are the only person left who knows some of the mantid culture."
+  },
+  {
+    "key": "millipede_statue_room_lore_6",
+    "english": "But I do remember all those recipes they taught me.|pause| Figures.",
+    "polish": "Za to wszystkie przepisy, których mnie nauczyli, pamiętam co do jednego.|pause| No jasne.",
+    "context": "Tepan is a cook, and while they can't remember the Yoran myths, they can remember their cuisine. \nThis is the last line of Tepan dialogue for this area."
+  },
+  {
+    "key": "millipede_statue_room_end_line",
+    "english": "Tepan is slurping slime...",
+    "polish": "Tepan siorbie śluz...",
+    "context": "A repeating message describing an action Tepan is performing that stops them being able to continue talking with the player.\nIn this case, Tepan is eating some of the slime they mentioned earlier. Little alliteration added because I think it's cute."
+  },
+  {
+    "key": "millipede_sewers_default_1",
+    "english": "You made it!|pause| What a relief.|pause| I really thought you'd been mashed up or turned into slop or run through by some nightmare creature.",
+    "polish": "Udało ci się!|pause| Co za ulga.|pause| Już mi się wydawało, że cię zmiażdżyło, przerobiło na breję albo przebiło na wylot jakieś koszmarne stworzenie.",
+    "context": "First line of Dialogue in the Tomb Area.\nTepan is relieved and happy to see that the player character has made it through the monsters, and rambles a little about it. \nTepan describes the player being crushed into a gorey mess (turned to slop) and stabbed all the way through their body by a monster (run through)"
+  },
+  {
+    "key": "millipede_sewers_default_2",
+    "english": "There are a truly fascinating number of ways this could've gone wrong.",
+    "polish": "Doprawdy fascynujące, na ile sposobów mogło to pójść źle.",
+    "context": "Tepan absentmindedly muses about how there are so many things that could've impeded the player from reaching the Tomb."
+  },
+  {
+    "key": "millipede_sewers_default_3",
+    "english": "But we're here now!|pause| I scrounged up some cave mold on my way down here,|short_pause| if you want something to eat.",
+    "polish": "Ale jesteśmy!|pause| Po drodze udało mi się uskładać trochę jaskiniowej pleśni,|short_pause| gdyby zebrało ci się na jedzenie.",
+    "context": "Tepan earnestly offers the player character some nasty treat to eat."
+  },
+  {
+    "key": "millipede_sewers_default_4",
+    "english": "Don't eat the plants that grow out of the heads,|short_pause| though.|pause| Unethical.|pause| But they also taste bad.",
+    "polish": "Tylko nie jedz roślin, które wyrastają z głów,|short_pause| dobrze?|pause| Nieetyczne.|pause| A do tego nie smakują.",
+    "context": "Tepan warns the player character not to eat the plants that grow from the dead mantids in the tomb, saying it is morally wrong to do so, but then also revealing they have already tried eating the plants. Played for comedic effect."
+  },
+  {
+    "key": "millipede_sewers_default_5",
+    "english": "I don't know why they put the plants in their dead.|pause| These are...|long_pause| hmm...|long_pause| special Yoran.|pause| I saw one – had two extra arms – who played on a harp.",
+    "polish": "Nie wiem, po co wsadzali rośliny swoim zmarłym.|pause| To są...|long_pause| hmm...|long_pause| szczególni Yoranie.|pause| Trafiła mi się jedna — miała dwie dodatkowe ręce — która grała na harfie.",
+    "context": "Tepan takes some time to figure out the right words to use when describing the Children of Kaspidae, who often develop extra limbs as a result of their extra potent magical energy.\nEach of these Children are extremely skilled at playing certain instruments through which they perform magic, and Tepan witnessed one that played a harp."
+  },
+  {
+    "key": "millipede_sewers_default_6",
+    "english": "The other Yoran called them \"Kaspidae's Children\" or something like that.|pause| I thought every mantid was Kaspidae's descendant!|pause| I guess the translation song isn't perfect.",
+    "polish": "Pozostali Yoranie nazywali ich „Dziećmi Kaspidae” czy jakoś tak.|pause| A mnie się wydawało, że każda modliszka pochodzi od Kaspidae!|pause| Widocznie pieśń tłumacząca nie jest doskonała.",
+    "context": "Tepan makes a little joke about the moniker \"Kaspidae's Children\", revealing again that they don't quite remember exactly how the legends go.\nThis last sentence references a song that the Yoran sang when Tepan arrived in order to allow communication across language barriers. Tepan thinks maybe the translation of \"Kaspidae's Children\" isn't exact and that the magic might be a little flawed."
+  },
+  {
+    "key": "millipede_sewers_lore_1",
+    "english": "A really gloomy spot,|short_pause| isn't it?|pause| Lots of damp caves in my travels...",
+    "polish": "Ponure miejsce,|short_pause| nieprawdaż?|pause| W swoich wędrówkach widuję mnóstwo wilgotnych jaskiń...",
+    "context": "Start of a new conversation.\nTepan comments on the atmosphere of the Tomb, and uses it to segue into telling the player the story of how they travel across many realities and eventually ended up here on Entacca (island the game takes place on)."
+  },
+  {
+    "key": "millipede_sewers_lore_2",
+    "english": "Hey,|short_pause| this is going to sound really strange,|short_pause| but just bear with a many-legged fool for a moment.",
+    "polish": "Słuchaj,|short_pause| zabrzmi to naprawdę dziwnie,|short_pause| ale znieś przez chwilę gadanie wielonogiego głupca.",
+    "context": "Tepan is a little nervous to tell the player about their travels through time and space, presumably apprehensive that the player character will not believe them. \nAt the end, Tepan is lightly referring to themselves as a fool with many legs."
+  },
+  {
+    "key": "millipede_sewers_lore_3",
+    "english": "I came to this world through a doorway.|pause| I think you understand.|pause| I saw you pass through something that looked similar back in the shrine.|pause| Doorways between worlds.",
+    "polish": "Do tego świata przywiodły mnie drzwi.|pause| Chyba wiesz, o czym mówię.|pause| Tam, w sanktuarium, mignęło mi, jak przechodzisz przez coś podobnego.|pause| Drzwi między światami.",
+    "context": "Tepan tries to describe the portals they use to hop between realities as doorways, alluding to the in-game doorways the player will walk through to reach certain areas of the game. \n"
+  },
+  {
+    "key": "millipede_sewers_lore_4",
+    "english": "When I was a wee 'pede,|short_pause| only a dozen or so legs,|short_pause| I remember falling through one.",
+    "polish": "Za młodu,|short_pause| przy jakimś tuzinie nóg,|short_pause| zdarzyło mi się przez takie wpaść.",
+    "context": "Wee 'pede is referring to Tepan as a small child. Wee means little (as in wee child, mean very young) and \"'pede\" being a shortening of the word millipede. \"Dozen or so legs\" also is meant to evoke young age, as it refers to a time when Tepan had no grown all of their leg segments."
+  },
+  {
+    "key": "millipede_sewers_lore_5",
+    "english": "Don't remember how it happened exactly,|short_pause| but I was suddenly tumbling through the boughs of...|long_pause| the branches of these huge trees connecting everything together.",
+    "polish": "Nie pamiętam dokładnie, jak do tego doszło,|short_pause| ale nagle niosło mnie przez konary...|long_pause| gałęzie tych ogromnych drzew, które łączą wszystko ze wszystkim.",
+    "context": "In the lore of this world, the pathways between realities are connected via large, supernatural trees, and when one travels using the trees they do so by going through the branches. \nTepan is trying to recall a vivid but old memory from childhood. They pause in the middle of the sentence to gather themselves, remember, and find the right words for the player character."
+  },
+  {
+    "key": "millipede_sewers_lore_6",
+    "english": "Planets and stars and places and people,|short_pause| all connected.",
+    "polish": "Planety, gwiazdy, miejsca i istoty,|short_pause| wszystko połączone.",
+    "context": "Tepan says a little more than they need to here, momentarily forgetting the player as they comprehend the gravity of sheer number of other realities out there."
+  },
+  {
+    "key": "millipede_sewers_lore_7",
+    "english": "Anyway,|short_pause| that's how I came here!|pause| Tumbled right into a group of Yoran way down below us.|pause| Very hospitable,|short_pause| despite my sudden entrance.",
+    "polish": "W każdym razie,|short_pause| tak właśnie wyglądało moje przybycie!|pause| Prosto w środek grupki Yoran, hen, pod nami.|pause| Bardzo gościnni,|short_pause| jak na tak nagłe wejście.",
+    "context": "Tepan snaps out of it and returns to their normal self. Tepan describes the Yoran as very hospitable and welcoming, grateful that the mantids didn't simply attack them as some kind of outsider."
+  },
+  {
+    "key": "millipede_sewers_lore_8",
+    "english": "They seemed to think I'd been sent to them by...|long_pause| well,|short_pause| it doesn't matter.",
+    "polish": "Zdawało im się, że przysłał mnie do nich...|long_pause| no,|short_pause| nieważne.",
+    "context": "Tepan recalls that the Yoran thought Tepan had been sent to them by the will of one of their deities, maybe even Kaspidae. \nTepan decides it's not worth it to try and explain the mantid pantheon, and moves on."
+  },
+  {
+    "key": "millipede_sewers_lore_9",
+    "english": "I only bring this up because that doorway might still be open,|short_pause| and if these creatures get through it...",
+    "polish": "Wspominam o tym tylko dlatego, że tamte drzwi mogą wciąż stać otworem,|short_pause| a jeśli te stworzenia przez nie przejdą...",
+    "context": "Tepan insinuates that the goo creatures might be able to access the portal Tepan travelled through, and use it to spread to other worlds.\nThis is the last piece of dialogue for this area."
+  },
+  {
+    "key": "millipede_sewers_end_line",
+    "english": "Tepan is clicking their legs together...",
+    "polish": "Tepan stuka nogami jedna o drugą...",
+    "context": "A repeating message describing an action Tepan is performing that stops them being able to continue talking with the player.\nTepan is absent-mindedly tapping their legs together."
+  },
+  {
+    "key": "millipede_chasm_default_1",
+    "english": "Hello,|short_pause| hello,|short_pause| hello!|pause| Look what I found just lying around upstairs:|short_pause| parchment!|pause| Delicious!|pause| You want some?",
+    "polish": "Witaj,|short_pause| witaj,|short_pause| witaj!|pause| Patrz, co leżało sobie na górze:|short_pause| pergamin!|pause| Przepyszny!|pause| Chcesz trochę?",
+    "context": "First line of dialogue in the Forum Area.\nWhen the player finds Tepan they are happily eating some of the parchment rolls that can be found in alcoves above the main room. Tepan again offers this strange snack to the player."
+  },
+  {
+    "key": "millipede_chasm_default_2",
+    "english": "Hmm,|short_pause| this was a particularly solemn place for the Yoran,|short_pause| you know.|pause| One of Kenak's more heinous crimes.|pause| They wiped out every last trace of it.|pause| No name,|short_pause| just an empty hive.",
+    "polish": "Hmm,|short_pause| to miejsce było dla Yoran otoczone szczególną powagą,|short_pause| wiesz.|pause| Jedna z paskudniejszych zbrodni Kenaka.|pause| Zatarł tu wszelkie ślady.|pause| Żadnej nazwy,|short_pause| tylko puste gniazdo.",
+    "context": "Tepan hints at the history of the Starved Hive. During Kenak's (a Julius Caesar-type) conquest, the Tyrant brought the hives in line by seizing all the farmland and cutting off food to this particular Hive before attempting to wipe out all of it's culture and even it's name. Thus, it is considered one of Kenak's greatest crimes during their reign."
+  },
+  {
+    "key": "millipede_chasm_default_3",
+    "english": "See that big contraption in the middle of the room?|pause| The mantids built that just after I arrived and those creatures got out.",
+    "polish": "Widzisz to wielkie ustrojstwo na środku sali?|pause| Modliszki zbudowały je tuż po moim przybyciu, kiedy te stworzenia się wydostały.",
+    "context": "Tepan draws the player's attention to the instrument weapon partially constructed in the center of the room, providing some context for why it's there."
+  },
+  {
+    "key": "millipede_chasm_default_4",
+    "english": "A last-ditch effort kind of thing.|pause| Supposed to be a weapon to stop those creatures after the Legion fell,|short_pause| but I never saw it working.",
+    "polish": "Coś w rodzaju ostatniej deski ratunku.|pause| Miała to być broń, która powstrzyma te stworzenia po upadku Legionu,|short_pause| ale na moich oczach nigdy nie zadziałała.",
+    "context": "Tepan references the fall of the Yoran Legion, which was a quickly put together army of warriors who fought in the Grudge Pits. The Legion was quickly overcome by the goo."
+  },
+  {
+    "key": "millipede_chasm_default_5",
+    "english": "Things had pretty much completely fallen apart by that time.|pause| They never even had time to name this enemy.|pause| It was over so quickly.",
+    "polish": "Wtedy wszystko właściwie już się rozpadło.|pause| Nie zdążyli nawet nadać temu wrogowi nazwy.|pause| Skończyło się tak szybko.",
+    "context": "Tepan laments how quickly the Yoran were destroyed, not even having time to give a name to the goo and it's minions before being completely destroyed."
+  },
+  {
+    "key": "millipede_chasm_lore_1",
+    "english": "I've been lots of places in my travels.|pause| Worlds with no end,|short_pause| animals that are miles high,|short_pause| strange beings that give me headaches to look at.|pause| But mostly just barren rock.",
+    "polish": "W swoich wędrówkach bywam w przeróżnych miejscach.|pause| Światy bez końca,|short_pause| zwierzęta wysokie na mile,|short_pause| dziwne istoty, od patrzenia na które boli głowa.|pause| Ale najczęściej po prostu jałowa skała.",
+    "context": "Tepan reminisces about some of the things they've seen while wander through the doors. Infinite lands, gargantuan animals, and incomprehensible creatures. But lots of places that are just uninhabited.\nTepan remembers these things with some fear and wonder, but prefers not to think of them too often."
+  },
+  {
+    "key": "millipede_chasm_lore_2",
+    "english": "Sometimes you get a place like this,|short_pause| and you suddenly have to remember what it's like to be around sentient things!",
+    "polish": "Czasem trafia się miejsce takie jak to,|short_pause| i nagle trzeba sobie przypomnieć, jak to jest przebywać wśród myślących istot!",
+    "context": "Tepan humorously admits most of the places they goes don't have sentient life, and it's always a shock when Tepan finds a place with people like Entacca and must remember things like manners."
+  },
+  {
+    "key": "millipede_chasm_lore_3",
+    "english": "Places like this remind me a lot of home.|pause| I think it's the blue skies,|short_pause| mainly.",
+    "polish": "Takie miejsca mocno przypominają mi dom.|pause| To chyba przez to błękitne niebo,|short_pause| głównie.",
+    "context": "Tepan, in a moment of melancholy, recalls the blue skies of their own home and feels it is the thing that remind them the most of their world."
+  },
+  {
+    "key": "millipede_chasm_lore_4",
+    "english": "You know for as long as I've been doing this,|short_pause| I've never had something...|long_pause| follow me through one of the doorways.|pause| Things have tried!|pause| Oh yes!",
+    "polish": "Wiesz, przez cały ten czas ani razu się nie zdarzyło,|short_pause| żeby coś...|long_pause| poszło za mną przez drzwi.|pause| Próbowały!|pause| O tak!",
+    "context": "Tepan is worried that they brought the goo creatures into this world through the portal they opened. While this is not the case, Tepan is not yet aware of this, and wants to express this fear to someone. \nTepan begins by segueing into the conversation, talking about how nothing has ever followed them into another world. \nTepan tries to break their own anxiety by light-heartedly mentioning the wild creatures that have tried to eat them over their travels."
+  },
+  {
+    "key": "millipede_chasm_lore_5",
+    "english": "I've had many close calls,|short_pause| but I've never turned around inside one of those branches and seen something chasing after me.",
+    "polish": "Wiele razy było blisko,|short_pause| ale nigdy nie zdarzyło mi się obejrzeć w tych gałęziach za siebie i zobaczyć pogoni.",
+    "context": "Tepan is working up the courage to get to the real thing they wish to admit, and states explicitly that they haven't ever seen something be able to get into the portals after them.\nTepan is trying to convince themselves they didn't let the goo creatures in, but doubt remains."
+  },
+  {
+    "key": "millipede_chasm_lore_6",
+    "english": "I just hope that whatever these beasts are that you've been fighting,|short_pause| I hope I didn't let them in.|pause| Maybe that's a selfish thing to feel.",
+    "polish": "Mam tylko nadzieję, że czymkolwiek są te bestie, z którymi walczysz,|short_pause| to nie przeze mnie się tu dostały.|pause| Może to samolubna myśl.",
+    "context": "Tepan shakily reveals what they are afraid of. \nAt the end, Tepan acknowledges that it may be selfish to want to simply not be responsible for bringing the creatures into the Yoran world, given that the Yoran perished anyway."
+  },
+  {
+    "key": "millipede_chasm_lore_7",
+    "english": "I guess it doesn't really matter to the Yoran now.",
+    "polish": "Zresztą Yoranom to już chyba wszystko jedno.",
+    "context": "Regardless of whether or not Tepan brought the creatures in, the Yoran are gone. So Tepan feels a little bad for wanting to be absolved."
+  },
+  {
+    "key": "millipede_chasm_lore_8",
+    "english": "Ah,|short_pause| what am I doing!|pause| These papers have writing on them,|short_pause| that's what the little lines are!",
+    "polish": "Ach,|short_pause| co ja wyprawiam!|pause| Na tych papierach jest pismo,|short_pause| te wszystkie kreseczki to właśnie ono!",
+    "context": "Tepan suddenly realizes the parchment they have been eating is actually mantid records of some kind with possibly important writing on them. Seen as the Yoran are all gone, it's probably not a good idea to consume their culture artifacts."
+  },
+  {
+    "key": "millipede_chasm_lore_9",
+    "english": "Why would you write on something so tasty?|pause| Alright,|short_pause| well,|short_pause| no more eating the parchment!",
+    "polish": "Po co pisać na czymś tak smacznym?|pause| No dobrze,|short_pause| już dobrze,|short_pause| koniec z jedzeniem pergaminu!",
+    "context": "Tepan is incredulous that the Yoran would use what Tepan considers a meal as a medium for writing. Then, a little dejected, they vow to not eat any more.\nLast line of dialogue for this area."
+  },
+  {
+    "key": "millipede_chasm_end_line",
+    "english": "Tepan is trying very hard not to eat more paper...",
+    "polish": "Tepan bardzo się stara nie zjeść więcej papieru...",
+    "context": "Repeating line that plays after all dialogue has been exhausted, describing what Tepan is doing and why they can no longer talk to the player."
+  },
+  {
+    "key": "millipede_sauna_default_1",
+    "english": "There you are!|pause| I saw you down in the worm's carcass!|pause| Launching yourself through the air,|short_pause| slicing and hacking and...|long_pause| Terrifying!|pause| I'm endlessly relieved to see you safe.",
+    "polish": "Jesteś!|pause| Widać cię było tam, w truchle robaka!|pause| Jak wyrzucasz się w powietrze,|short_pause| tniesz i rąbiesz, i...|long_pause| Przerażające!|pause| Ogromnie mi ulżyło, że nic ci nie jest.",
+    "context": "First line of dialogue for the Sauna area. \nTepan, presumably while travelling from the last rest stop area to this one, finally witnessed the player fighting the goo creatures.\nThey are surprised and terrified by how the player has been fighting the creatures, and describes a little of what they saw the player doing (slicing, hacking, flying through the air, etc).\nTepan cares for the player character at this point, and is very happy to see them safe once more."
+  },
+  {
+    "key": "millipede_sauna_default_2",
+    "english": "The Yoran brought me up through these halls when I first arrived.|pause| The Hermit who lived down here was already long gone by that time.|pause| No one seemed to be able to tell me who they were.",
+    "polish": "Yoranie prowadzili mnie przez te sale zaraz po moim przybyciu.|pause| Pustelnika, który tu mieszkał, dawno już wtedy nie było.|pause| Nikt nie potrafił mi powiedzieć, kim był.",
+    "context": "Tepan recalls their journey up to the surface after emerging from the portal farther below. \nThe area the player is in is called the Hermit's Bath, and Tepan mentions that this famous hermit was gone before they arrived on Entacca. None of the Yoran apparently knew much about this hermit, or were unwilling to tell Tepan about it."
+  },
+  {
+    "key": "millipede_sauna_default_3",
+    "english": "I would've liked to meet this Hermit,|short_pause| one lonesome soul to another!",
+    "polish": "Szkoda, że nie doszło do spotkania z tym Pustelnikiem,|short_pause| samotna dusza z samotną duszą!",
+    "context": "Tepan feels a kinship with the hermit, given that they both live primarily solitary lives (one lonesome soul to another)."
+  },
+  {
+    "key": "millipede_sauna_default_4",
+    "english": "Still,|short_pause| a strangely ornate place to live alone.|pause| Maybe they were some old hive lord.|pause| Exiled or...",
+    "polish": "Choć,|short_pause| jak na samotne życie, to dziwnie zdobne miejsce.|pause| Może był jakimś dawnym władcą gniazda.|pause| Wygnanym albo...",
+    "context": "Tepan muses about who this hermit might've been, and how they were able to afford and build this seemingly opulent underground home. \nTepan speculates the hermit might have once been royalty."
+  },
+  {
+    "key": "millipede_sauna_default_5",
+    "english": "Or escaping some cruel betrayal!|pause| Maybe they banished all their attendants after it was all built...",
+    "polish": "Albo uciekającym przed okrutną zdradą!|pause| Może odprawił całą służbę, gdy budowa dobiegła końca...",
+    "context": "Tepan, now excited, imagines a juicy scenario in which the hermit fled into self-imposed exile after being betrayed by a close friend. Perhaps they sent away all their servants after the underground palace was built and sealed themselves away."
+  },
+  {
+    "key": "millipede_sauna_default_6",
+    "english": "Odd that they had all these statues,|short_pause| though.|pause| Maybe they missed people after all.",
+    "polish": "Dziwne tylko, że trzymał te wszystkie posągi,|short_pause| nie sądzisz?|pause| Może jednak tęsknił za towarzystwem.",
+    "context": "Tepan thinks maybe the hermit did miss people, and built the statues to remind them of their fellow mantids."
+  },
+  {
+    "key": "millipede_sauna_lore_1",
+    "english": "I think...|long_pause| just thinking out loud,|short_pause| but I feel a little connection with the Hermit.|pause| I mean,|short_pause| my solitary state wasn't my choice,|short_pause| but the more I think about it...",
+    "polish": "Myślę sobie...|long_pause| tak głośno myślę,|short_pause| ale czuję z tym Pustelnikiem pewną więź.|pause| To znaczy,|short_pause| moja samotność nie była moim wyborem,|short_pause| ale im dłużej o tym myślę...",
+    "context": "Tepan begins speaking, then pauses to think, choosing new words.\nTepan thinks of themselves as similar to this hermit, if only by their shared isolation (the hermit in self-inflicted solitude, and Tepan wandering realities alone)."
+  },
+  {
+    "key": "millipede_sauna_lore_2",
+    "english": "One of the worlds I ended up in...|long_pause| it was...|long_pause| Ah,|short_pause| I don't know how to put this.",
+    "polish": "Jeden ze światów, do których mnie zaniosło...|long_pause| był...|long_pause| Ach,|short_pause| nie wiem, jak to ująć.",
+    "context": "Tepan begins recalling an experience they had in one of their visited worlds. The experience had a great impact on them, leaving them shaken. They struggle to find the right words to relate the experience."
+  },
+  {
+    "key": "millipede_sauna_lore_3",
+    "english": "When I first arrived there,|short_pause| it didn't look like anything in particular.|pause| But the longer I stayed,|short_pause| the more it started to...|long_pause| it tried to shape itself to how I remembered my own home.",
+    "polish": "Zaraz po przybyciu,|short_pause| nie wyglądał na nic szczególnego.|pause| Ale im dłużej to trwało,|short_pause| tym bardziej zaczynał...|long_pause| próbował ukształtować się tak, jak dom zapisał mi się w pamięci.",
+    "context": "Tepan tells of how the world they visited looked unremarkable, but the longer they stayed, the more the environment shifted to resemble places from Tepan's own memory. \nTepan is clearly still affected by these memories, and is probably having a hard time reliving them."
+  },
+  {
+    "key": "millipede_sauna_lore_4",
+    "english": "Just the places at first.|pause| A familiar tree,|short_pause| a little market stand...|long_pause| It was amazing to see,|short_pause| especially after all that time.",
+    "polish": "Najpierw same miejsca.|pause| Znajome drzewo,|short_pause| mały stragan...|long_pause| Niesamowity widok,|short_pause| zwłaszcza po tylu latach.",
+    "context": "Tepan lists off a few of the things that world created from their memory. At first, Tepan was enthralled by this place and the things it was creating. In a way, Tepan was seeing home again for the first time."
+  },
+  {
+    "key": "millipede_sauna_lore_5",
+    "english": "But then it started trying to replicate people.",
+    "polish": "A potem zaczął próbować odtwarzać istoty.",
+    "context": "Tepan's tone shifts from awe to something more disturbed as they recall when that world tried to recreate the people in Tepan's memories."
+  },
+  {
+    "key": "millipede_sauna_lore_6",
+    "english": "I spent too long there in the first place.|pause| But one day I returned to what was an approximation of my childhood nest,|short_pause| and I saw...",
+    "polish": "Nie trzeba było w ogóle tak długo tam zostawać.|pause| Aż pewnego dnia wracam do czegoś, co udawało gniazdo z mojego dzieciństwa,|short_pause| i widzę...",
+    "context": "Tepan admits to being seduced by this world resembling their own, but remembers the particular event that convinced them to leave."
+  },
+  {
+    "key": "millipede_sauna_lore_7",
+    "english": "It was trying to make someone I knew.|pause| So next time the portal opened I got me and my hundred legs right out of there!",
+    "polish": "Próbował ulepić kogoś znajomego.|pause| Więc gdy tylko portal znów się otworzył: w nogi — wszystkie sto — i precz stamtąd!",
+    "context": "Tepan clearly remembers the person that world was trying to recreate, but does not share this with the player. \nHorrified by this grotesque being, and realizing Tepan's own thoughts weren't safe from that place, they escaped back through the portal."
+  },
+  {
+    "key": "millipede_sauna_lore_8",
+    "english": "Well,|short_pause| it's nice to have a real person around again,|short_pause| even if you don't talk much!",
+    "polish": "Cóż,|short_pause| miło znowu mieć obok siebie prawdziwą osobę,|short_pause| nawet jeśli niewiele mówisz!",
+    "context": "Tepan shakes themselves from that emotionally distressing state, and express gladness to have met real people in their travels, particularly the player character. \nTepan makes a joke regarding the fact that they appreciate the player's company, even if the player never talks back.\nFinal dialogue for this area."
+  },
+  {
+    "key": "millipede_sauna_end_line",
+    "english": "Tepan is muttering about the best way to cook rat bones...",
+    "polish": "Tepan mamrocze coś o najlepszym sposobie na ugotowanie szczurzych kości...",
+    "context": "A repeating line describing the action Tepan is doing that prevents them from continuing to talk to the player."
+  },
+  {
+    "key": "millipede_funnel_default_1",
+    "english": "Hello there,|short_pause| friend.|pause| We're very near to the end now.|pause| Just down below here is where the Yoran found me.",
+    "polish": "Witaj,|short_pause| bratnia duszo.|pause| Jesteśmy już bardzo blisko końca.|pause| Tam, niżej, znaleźli mnie Yoranie.",
+    "context": "Sensing the end to their journey, Tepan is feeling anxious and subdued, but with a small hint of excitement. Tepan is taking the time to reflect before moving on.\nTepan reveals that they were found below this quarry."
+  },
+  {
+    "key": "millipede_funnel_default_2",
+    "english": "It's so cold down here.|pause| When I was last here it was far warmer,|short_pause| like the heart of the world was just below our feet.",
+    "polish": "Ależ tu zimno.|pause| Za ostatnim razem było tu znacznie cieplej,|short_pause| jakby serce świata biło tuż pod naszymi stopami.",
+    "context": "Tepan mentions how the space has changed since they first arrived, becoming cold in the absence of the Yoran and the prolonged presence of the goo.\nTepan likens the heat they felt before as feeling like the core of the earth was closely underneath the quarry."
+  },
+  {
+    "key": "millipede_funnel_default_3",
+    "english": "Can you see the crystals?|pause| They're all over these caves.|pause| I'm sure you saw some higher up.",
+    "polish": "Widzisz te kryształy?|pause| Pełno ich w tych jaskiniach.|pause| Na pewno trafiały ci się wyżej.",
+    "context": "Tepan draws the player's attention to the large gems present in the space that have been dotted throughout the game. \nTepan is subdued, having learned that the black goo has actually come from the crystals."
+  },
+  {
+    "key": "millipede_funnel_default_4",
+    "english": "There were thousands of mantids mining them in this pit,|short_pause| sending the gems upwards to the hives.|pause| I never thought...",
+    "polish": "W tym dole wydobywały je tysiące modliszek,|short_pause| a klejnoty szły w górę, do gniazd.|pause| Nigdy by mi nie przyszło do głowy...",
+    "context": "Tepan never thought to ask the mantids what they did with the crystals, and realizes this as they say the last sentence."
+  },
+  {
+    "key": "millipede_funnel_default_5",
+    "english": "You know,|short_pause| I never learned what the Yoran did with these crystals.|pause| I know they provide light,|short_pause| but...|long_pause| well,|short_pause| they must do something else.",
+    "polish": "Wiesz,|short_pause| do dziś nie wiem, co Yoranie robili z tymi kryształami.|pause| Wiem, że dają światło,|short_pause| ale...|long_pause| cóż,|short_pause| muszą robić coś jeszcze.",
+    "context": "Tepan, somewhat confounded and a little upset with themselves, believes the gems must have been used for something else beyond their light-giving properties."
+  },
+  {
+    "key": "millipede_funnel_default_6",
+    "english": "Maybe they really did just dig them up because they look pretty...",
+    "polish": "Może naprawdę kopali je tylko dlatego, że ładnie wyglądają...",
+    "context": "Tepan then flips, realizing that perhaps the only thing that led the Yoran to dig up the gems was greed."
+  },
+  {
+    "key": "millipede_funnel_default_7",
+    "english": "Well,|short_pause| whatever the reason,|short_pause| it cost the Yoran everything.|pause| You'll know what I mean when you go down there...",
+    "polish": "Cóż,|short_pause| jakikolwiek był powód,|short_pause| kosztowało to Yoran wszystko.|pause| Zrozumiesz, gdy tam zejdziesz...",
+    "context": "Understanding that the answer to the question is unattainable and probably moot, Tepan concludes that whatever the reasoning the result is decided. \nTepan ends with a hint for the player to look closer at the gems, which will be oozing the black goo."
+  },
+  {
+    "key": "millipede_funnel_lore_1",
+    "english": "I've never been so anxious in all my life.|pause| You'd think that,|short_pause| you know,|short_pause| years and years of exploring a treacherous path between realities would've hardened my nerves,|short_pause| but here we are.",
+    "polish": "Nigdy w życiu nie było we mnie tyle niepokoju.|pause| Wydawałoby się,|short_pause| wiesz,|short_pause| że całe lata wędrowania zdradliwą ścieżką między rzeczywistościami zahartują nerwy,|short_pause| a jednak.",
+    "context": "A new conversation, Tepan's thoughts return to finally being able to escape Entacca and continue looking for home. They also find a little humor in the fact that despite their cosmic journeys, Tepan is still able to get scared before embarking on these adventures."
+  },
+  {
+    "key": "millipede_funnel_lore_2",
+    "english": "A hundred legs to rely on and they all betray me with a quiver!",
+    "polish": "Sto nóg do dyspozycji i wszystkie zdradzają mnie drżeniem!",
+    "context": "Tepan's way of saying \"my legs are shaking\"."
+  },
+  {
+    "key": "millipede_funnel_lore_3",
+    "english": "I cannot begin to thank you enough.|pause| I realized,|short_pause| somewhere back there,|short_pause| that you aren't doing this for me in particular,|short_pause| but...|long_pause| Well,|short_pause| from companion to companion I say thank you.",
+    "polish": "Nie umiem ci się dostatecznie odwdzięczyć.|pause| Dotarło do mnie,|short_pause| gdzieś tam po drodze,|short_pause| że nie robisz tego akurat dla mnie,|short_pause| ale...|long_pause| Cóż,|short_pause| po przyjacielsku: dziękuję.",
+    "context": "Tepan, while unaware of Kaspidae's influence on the player character's actions, can sense that the player isn't destroying the goo simply to help Tepan get home. Regardless, it is helping Tepan, for which they give the player gracious thanks.\nA little moment of sentimentality, Tepan does feel like they and the player character are companions of sorts."
+  },
+  {
+    "key": "millipede_funnel_lore_4",
+    "english": "You're the only reason I'm getting this chance to find home again.",
+    "polish": "Tylko dzięki tobie mam szansę znów odnaleźć dom.",
+    "context": "Tepan is trying to hide it, but this sentence is full of a lot of emotions. If Tepan had human eyes, I think they would be close to tearing up."
+  },
+  {
+    "key": "millipede_funnel_lore_5",
+    "english": "And I worry about that.|pause| About home.|pause| Especially after what happened here.|pause| I can't help but wonder if...",
+    "polish": "I właśnie o to się martwię.|pause| O dom.|pause| Zwłaszcza po tym, co stało się tutaj.|pause| Nie mogę przestać myśleć, czy...",
+    "context": "Tepan's worrying nature comes back full force, and again causes them to stumble over the right words to describe what they're feeling."
+  },
+  {
+    "key": "millipede_funnel_lore_6",
+    "english": "If one day I'll walk through a doorway and find my home is just gone.|pause| Or worse yet,|short_pause| bring something back with me!",
+    "polish": "Czy pewnego dnia przejdę przez drzwi i zastanę dom, którego już nie ma.|pause| Albo, co gorsza,|short_pause| przyniosę coś ze sobą!",
+    "context": "This is Tepan's true fear, even more than never finding home again. And even though Tepan knows they didn't let the goo into this world, the idea is now firmly ingrained in their mind. Tepan is wrestling with the fact that maybe the best course of action might be to purposefully never return home."
+  },
+  {
+    "key": "millipede_funnel_lore_7",
+    "english": "Well,|short_pause| I guess you'll take care of that particular part.|pause| If we don't have the chance to meet again,|short_pause| good luck,|short_pause| and I hope you find your own way home.",
+    "polish": "Cóż,|short_pause| tą akurat częścią chyba zajmiesz się ty.|pause| Jeśli nie będzie nam dane spotkać się jeszcze raz,|short_pause| powodzenia,|short_pause| i oby udało ci się odnaleźć własną drogę do domu.",
+    "context": "A joke about the player hopefully killing the goo monster, so that it would be unable to follow Tepan into another world.\nA reserved goodbye, Tepan trying to send the player off to the end of the game, trying to hold it together."
+  },
+  {
+    "key": "millipede_funnel_lore_8",
+    "english": "You sure I can't try and cook you something up before you go?",
+    "polish": "Na pewno nie mogę ugotować ci czegoś na drogę?",
+    "context": "Tepan's sentimentality breaks through. Probably feeling a little useless to the the player, Tepan offers services in what they believe is their best skill: good cooking. A friend trying to help in whatever way they know best.\nLast instance of dialogue."
+  },
+  {
+    "key": "millipede_funnel_end_line",
+    "english": "Tepan is humming something...",
+    "polish": "Tepan nuci coś pod nosem...",
+    "context": "A repeating message describing an action Tepan is performing that stops them being able to continue talking with the player."
+  },
+  {
+    "key": "options_speedrun_timer_both",
+    "english": "Both",
+    "polish": "Oba",
+    "context": "entry in the speedrun timer dropdown that displays both the \"single arena\" timer and the \"continuous\" timer",
+    "max_length": 16
+  },
+  {
+    "key": "options_play_intro_cutscene",
+    "english": "Play Intro Cutscene",
+    "polish": "Przerywnik na początku gry",
+    "context": "label for an option that enables/disables the cutscene that plays at the beginning of the game. on by default",
+    "max_length": 50
+  },
+  {
+    "key": "options_continue_from_latest_wave",
+    "english": "Respawn To Last Reached Wave",
+    "polish": "Odrodzenie od ostatniej fali",
+    "context": "label for an accessibility option that skips to the wave they got to before they died when the player respawns, rather than starting from the beginning of the arena as usual",
+    "max_length": 50
+  },
+  {
+    "key": "controls_action_shotgun",
+    "english": "Activate Scattershot",
+    "polish": "Użyj Odłamków",
+    "context": "Remap entry for activating specifically the scattershot powerup",
+    "max_length": 30
+  },
+  {
+    "key": "controls_action_sniper",
+    "english": "Activate Needle",
+    "polish": "Użyj Igły",
+    "context": "Remap entry for activating specifically the needle powerup",
+    "max_length": 30
+  },
+  {
+    "key": "delete_ngplus_progress",
+    "english": "Reset New Game +",
+    "polish": "Wyzeruj Nową grę +",
+    "context": "menu option to reset new game plus progress for a specific save slot",
+    "max_length": 20
+  },
+  {
+    "key": "ngplus_delete_confirmation",
+    "english": "Are you sure you want to reset\nNew Game + progress for save file {0}?",
+    "polish": "Na pewno chcesz wyzerować postęp\nNowej gry + w zapisie numer {0}?",
+    "context": "Text for menu window that comes up after attempting to reset new game plus progress, to confirm that the player meant to do that. {0} will correspond to the save slot number the player tried to delete progress on (1, 2, or 3). Each line can fit about 40 latin-alphabet characters -- split into 2 lines like I've done here if you need more. This will be center justified.\n\nExample:     Are you sure you want to reset\n          New Game + progress for save file 2?",
+    "max_length": 80
+  },
+  {
+    "key": "difficulty_select_prompt",
+    "english": "Select difficulty:",
+    "polish": "Wybierz poziom trudności:",
+    "context": "This is the text for a difficulty popup that will appear after selecting a save slot for the first time. This will appear above two buttons displaying the names of the difficulty options. The names of the difficulty settings are different on PC and Switch, so this will either look like:\n\n\n               Select difficulty:\n\nBalanced for Controller     Balanced for Mouse\n\nor:\n\n     Select difficulty:\n\n     Normal       Hard",
+    "max_length": 50,
+    "note": "Tabela gry ma drugi wiersz z tym kluczem: EN 'Please select a difficulty:' (This is a new popup that appears when you first start the game that asks you to choose a difficulty setting.). Oba dostają ten polski tekst."
+  },
+  {
+    "key": "recalibrate_gyro_button",
+    "english": "Recalibrate Gyroscope",
+    "polish": "Skalibruj żyroskop",
+    "context": "This is the name of a button that will appear in the \"controls\" options menu. This is for a new feature that allows players to calibrate their gyroscopes (since some gyroscopes tend to become a little inaccurate over time). Clicking this button will open a screen (described more in the next entries)",
+    "max_length": 30
+  },
+  {
+    "key": "recalibrate_gyro_instructions",
+    "english": "Place the device on a flat surface.",
+    "polish": "Połóż urządzenie na płaskiej powierzchni.",
+    "context": "This appears at the top of the gyro calibration screen. Once the player sets the controller down (and the game can tell that it isn't moving), calibration begins.",
+    "max_length": 50
+  },
+  {
+    "key": "recalibrate_gyro_in_progress",
+    "english": "Calibrating...",
+    "polish": "Kalibracja...",
+    "context": "During calibration, this text appears above a horizontal bar that fills up over time.",
+    "max_length": 30
+  },
+  {
+    "key": "recalibrate_gyro_done",
+    "english": "Done!",
+    "polish": "Gotowe!",
+    "context": "Once the calibration is complete (and the bar fills up), the \"calibrating...\" text changes to this.",
+    "max_length": 12
+  },
+  {
+    "key": "cancel_button",
+    "english": "Cancel",
+    "polish": "Anuluj",
+    "context": "This button appears at the bottom of the calibration window if calibration hasn't finished yet. This closes the window.",
+    "max_length": 12
+  },
+  {
+    "key": "ok_button",
+    "english": "OK",
+    "polish": "OK",
+    "context": "Once calibration is finished, the \"cancel\" button changes to this (which still closes the window)",
+    "max_length": 12
+  },
+  {
+    "key": "options_active_gyroscope_label",
+    "english": "Active Gyroscope",
+    "polish": "Aktywny żyroskop",
+    "context": "This is the title of a new entry in the controls options menu (only on Switch) that allows the player to change which joycon gyroscope is active.",
+    "max_length": 50
+  },
+  {
+    "key": "options_left_joycon",
+    "english": "Left Joy-Con",
+    "polish": "Lewy Joy-Con",
+    "context": "Entry in the above dropdown for selecting the left joycon gyroscope",
+    "max_length": 16
+  },
+  {
+    "key": "options_right_joycon",
+    "english": "Right Joy-Con",
+    "polish": "Prawy Joy-Con",
+    "context": "Entry in the above dropdown for selecting the right joycon gyroscope",
+    "max_length": 16
+  },
+  {
+    "key": "endless_run_name",
+    "english": "THE RED GARDEN",
+    "polish": "CZERWONY OGRÓD",
+    "context": "The name of the endless run arena. The area is themed like a sort of sandstone desert with big rock pillars flooded with lava. The lava is red, hence the name.",
+    "max_length": 30
+  },
+  {
+    "key": "endless_run",
+    "english": "Endless Run",
+    "polish": "Bieg bez końca",
+    "context": "main menu option to open the endless run menu",
+    "max_length": 16
+  },
+  {
+    "key": "endless_category_select_menu",
+    "english": "Select Category",
+    "polish": "Wybierz kategorię",
+    "context": "Title of the category selection menu for endless run mode",
+    "max_length": 30
+  },
+  {
+    "key": "endless_ready_menu",
+    "english": "Ready",
+    "polish": "Gotowość",
+    "context": "Title of the \"ready\" menu for endless run mode (this comes up after category selection right before actually playing the game)",
+    "max_length": 30
+  },
+  {
+    "key": "endless_wrapup_menu",
+    "english": "Wrap-up",
+    "polish": "Podsumowanie",
+    "context": "Title of the \"wrap-up\" menu for endless run mode (this appears after dying in endless run mode and displays the player's score)",
+    "max_length": 30
+  },
+  {
+    "key": "endless_leaderboard_menu",
+    "english": "Leaderboard",
+    "polish": "Ranking",
+    "context": "Title of the leaderboard menu for endless run mode",
+    "max_length": 30
+  },
+  {
+    "key": "endless_run_ability_disclaimer",
+    "english": "All powers are unlocked in Endless Run mode. We recommend playing through the main game first to learn how to use these abilities. Enjoy!",
+    "polish": "W Biegu bez końca wszystkie moce są odblokowane. Polecamy najpierw przejść grę główną, żeby nauczyć się nimi posługiwać. Miłej zabawy!",
+    "context": "This is a popup that appears when you enter the Endless Run menu to let the player know that all abilities are available even if they haven't played through the game yet.",
+    "max_length": 200
+  },
+  {
+    "key": "endless_category_standard",
+    "english": "Standard",
+    "polish": "Standard",
+    "context": "This is the title for the \"standard\" endless run category. These categories change the upgrades & shields available for an endless run. This one has all shields and all powers.",
+    "max_length": 15
+  },
+  {
+    "key": "endless_category_hardcore",
+    "english": "Hardcore",
+    "polish": "Hardkor",
+    "context": "This is the title for the \"hardcore\" endless run category. This one has limited powers (only teleport and time slow) and no shields.",
+    "max_length": 15
+  },
+  {
+    "key": "endless_category_passionfruit",
+    "english": "Passionfruit",
+    "polish": "Marakuja",
+    "context": "This is the title for the \"passionfruit\" endless run category. This & the folowing 2 are special \"flavors\" that have particular combinations of upgrades that we think are interesting, so we named them after fruit! Feel free to change the fruit for all of these. This one has all upgrades unlocked but no shields.",
+    "max_length": 15
+  },
+  {
+    "key": "endless_category_canteloupe",
+    "english": "Canteloupe",
+    "polish": "Melon",
+    "context": "This is the title for the \"canteloupe\" endless run category. This one has all shields & upgrades except for scattershot and comet.",
+    "max_length": 15
+  },
+  {
+    "key": "endless_category_plum",
+    "english": "Plum",
+    "polish": "Śliwka",
+    "context": "This is the title for the \"plum\" endless run category. This one has all shields but only scattershot, slingshot, and flux.",
+    "max_length": 15
+  },
+  {
+    "key": "endless_category_custom",
+    "english": "Custom",
+    "polish": "Własna",
+    "context": "This is the title for the \"custom\" endless run category. This one lets you customize all the settings to whatever you want.",
+    "max_length": 15
+  },
+  {
+    "key": "endless_description_standard",
+    "english": "Classic mode.\nAll powers, all shields.",
+    "polish": "Klasyka.\nWszystkie moce, wszystkie tarcze.",
+    "context": "This is the description for the \"standard\" endless run category. These descriptions appear at the bottom of the category selection screen when a particular category is selected. These are split onto 2 lines: each line can fit about 40 latin alphabet characters.",
+    "max_length": 80
+  },
+  {
+    "key": "endless_description_hardcore",
+    "english": "Dead simple.\nCore powers, no safety net.",
+    "polish": "Prościej się nie da.\nPodstawowe moce, zero asekuracji.",
+    "context": "This is the description for the \"hardcore\" endless run category.",
+    "max_length": 80
+  },
+  {
+    "key": "endless_description_passionfruit",
+    "english": "Glass cannon.\nAll powers, no shields.",
+    "polish": "Szklana armata.\nWszystkie moce, żadnej tarczy.",
+    "context": "This is the description for the \"passionfruit\" endless run category.",
+    "max_length": 80
+  },
+  {
+    "key": "endless_description_canteloupe",
+    "english": "A singular flavor.\nCompliments of the chef.",
+    "polish": "Smak jedyny w swoim rodzaju.\nZ ukłonami od szefa kuchni.",
+    "context": "This is the description for the \"canteloupe\" endless run category.",
+    "max_length": 80
+  },
+  {
+    "key": "endless_description_plum",
+    "english": "Back to basics.\nClassic powers, low health.",
+    "polish": "Powrót do podstaw.\nKlasyczne moce, mało zdrowia.",
+    "context": "This is the description for the \"plum\" endless run category.",
+    "max_length": 80
+  },
+  {
+    "key": "endless_description_custom",
+    "english": "Mix and match.\nChoose a unique combination.",
+    "polish": "Mieszaj do woli.\nUłóż własne połączenie.",
+    "context": "This is the description for the \"custom\" endless run category.",
+    "max_length": 80
+  },
+  {
+    "key": "global_leaderboard_name",
+    "english": "Global",
+    "polish": "Globalny",
+    "context": "This is the title for the \"global\" leaderboard (that is, the online one with all players)",
+    "max_length": 15
+  },
+  {
+    "key": "friends_leaderboard_name",
+    "english": "Friends",
+    "polish": "Znajomi",
+    "context": "This is the title for the \"friends\" leaderboard (that is, the one that includes only steam/nintendo friends)",
+    "max_length": 15
+  },
+  {
+    "key": "next_button",
+    "english": "Next",
+    "polish": "Dalej",
+    "context": "This is the name for a \"next\" button that goes to the next section of a menu.",
+    "max_length": 20
+  },
+  {
+    "key": "play_button",
+    "english": "Play",
+    "polish": "Graj",
+    "context": "The text for a button in the endless run menu that starts a new run",
+    "max_length": 20
+  },
+  {
+    "key": "username_prefix",
+    "english": "Name:",
+    "polish": "Nazwa:",
+    "context": "Text that appears before the player's username in the \"ready\" screen of the endless run menu. for example:\n\nName: fake_user",
+    "max_length": 20
+  },
+  {
+    "key": "edit_username_button",
+    "english": "Edit",
+    "polish": "Zmień",
+    "context": "Button next to the username that allows the player to edit it.",
+    "max_length": 12
+  },
+  {
+    "key": "save_username_button",
+    "english": "Save",
+    "polish": "Zapisz",
+    "context": "Button that allows the player to save their new username once they're finished editing it.",
+    "max_length": 12
+  },
+  {
+    "key": "banned_word_alert",
+    "english": "Name contains banned word",
+    "polish": "Nazwa zawiera zakazane słowo",
+    "context": "Alert that appears if the player tries to put a banned word (a slur, most likely) into their username",
+    "max_length": 50
+  },
+  {
+    "key": "username_taken_alert",
+    "english": "Username not available",
+    "polish": "Nazwa jest już zajęta",
+    "context": "Alert that appears if the player tries to set a username that someone else is already using",
+    "max_length": 50
+  },
+  {
+    "key": "allow_all_accessibility",
+    "english": "Allow All Accessibility Options",
+    "polish": "Dopuść wszystkie ułatwienia",
+    "context": "Checkbox in endless mode that allows/disallows accessibility options that may affect game balance to be used in endless run mode",
+    "max_length": 50
+  },
+  {
+    "key": "allow_all_accessibility_explanation",
+    "english": "The \"Infinite Flux Mode\" and \"Full-Pause Flux\" accessibility options may affect game balance, so they are disabled by default in Endless Run Mode. Runs that allow these settings are submitted to a separate leaderboard.",
+    "polish": "Ułatwienia „Nieskończony Strumień” i „Strumień zatrzymujący czas” mogą zaburzyć równowagę rozgrywki, więc w Biegu bez końca są domyślnie wyłączone. Przebiegi, które na nie pozwalają, trafiają do osobnego rankingu.",
+    "context": "Explanation for the above checkbox. Obviously the options referenced here should be called the same things as they are in the options menu.",
+    "max_length": 400
+  },
+  {
+    "key": "not_in_demo_label",
+    "english": "Not available in demo",
+    "polish": "Niedostępne w wersji demo",
+    "context": "This is a label that appears over some options in the free demo of Endless Mode that are only available in the full game",
+    "max_length": 36
+  },
+  {
+    "key": "no_internet_warning",
+    "english": "No internet connection detected.",
+    "polish": "Nie wykryto połączenia z internetem.",
+    "context": "This is a label that appears if the game cannot connect to the internet.",
+    "max_length": 60
+  },
+  {
+    "key": "leaderboard_loading",
+    "english": "Loading leaderboard...",
+    "polish": "Wczytywanie rankingu...",
+    "context": "This text appears when the game is loading the leaderboard",
+    "max_length": 60
+  },
+  {
+    "key": "leaderboard_empty",
+    "english": "This leaderboard is empty!",
+    "polish": "Ten ranking jest pusty!",
+    "context": "This text appears when you open an empty leaderboard",
+    "max_length": 60
+  },
+  {
+    "key": "wont_upload_leaderboard_warning",
+    "english": "Scores will not be uploaded to the leaderboard.",
+    "polish": "Wyniki nie trafią do rankingu.",
+    "context": "This text appears below the \"no internet warning\" text in some locations.",
+    "max_length": 60
+  },
+  {
+    "key": "retry_connection_button",
+    "english": "Retry Connection",
+    "polish": "Połącz ponownie",
+    "context": "This is a button that allows the player to attempt to reconnect the game to the internet.",
+    "max_length": 20
+  },
+  {
+    "key": "shields_num_label",
+    "english": "Shields:",
+    "polish": "Tarcze:",
+    "context": "In the custom category, players can choose how many shields they want to start with. This is the label for the setting that lets players select this number. For example:\n\nShields: 5",
+    "max_length": 12
+  },
+  {
+    "key": "options_endless_special_enemy_color",
+    "english": "Endless Run Bonus Enemy Color",
+    "polish": "Kolor wroga bonusowego w Biegu bez końca",
+    "context": "label for an option that lets you edit the color of the bonus enemy in endless run mode that unlocks the 10x multiplier (mostly for colorblind accessibility).",
+    "max_length": 50
+  },
+  {
+    "key": "play_again_button",
+    "english": "Play Again",
+    "polish": "Zagraj jeszcze raz",
+    "context": "button that appears after completing an endless run that lets the player play again with the same settings",
+    "max_length": 20
+  },
+  {
+    "key": "killstreak_label",
+    "english": "Killstreak:",
+    "polish": "Seria:",
+    "context": "this is the label for a hud element that tracks how many enemies you've killed in a row since beginning a combo. For example:\n\nKillstreak: 33",
+    "max_length": 30
+  },
+  {
+    "key": "endless_wave_count",
+    "english": "WAVE {0}",
+    "polish": "FALA {0}",
+    "context": "text at the bottom of the screen in endless run mode that displays the wave the player has reached so far",
+    "max_length": 16
+  }
+]
