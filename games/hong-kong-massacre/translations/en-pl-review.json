@@ -1,0 +1,2576 @@
+[
+  {
+    "key": "dlg/POLICE 02/3",
+    "english": "Interrogation continues. The time is 16:45, June 14, 1992.",
+    "polish": "Ciąg dalszy przesłuchania: godzina 16:45, 14 czerwca 1992.",
+    "context": "POLICE 02: Police Officer → Fong Yyuen"
+  },
+  {
+    "key": "dlg/POLICE 02/4",
+    "english": "So let us back the clock a little bit to June 10, 1991. You where a highly decorated Police detective at the Hong Kong Police force.",
+    "polish": "Cofnijmy się trochę w czasie, do 10 czerwca 1991. Byłeś wtedy wielokrotnie odznaczanym detektywem hongkońskiej policji.",
+    "context": "POLICE 02: Police Officer → Fong Yyuen"
+  },
+  {
+    "key": "dlg/POLICE 02/5",
+    "english": "You and your partner made the biggest drug bust in Hong Kong Police history, shutting down one of the The Two Headed Dragons biggest drug lab.",
+    "polish": "Razem z partnerem przeprowadziliście największą akcję antynarkotykową w historii hongkońskiej policji i zamknęliście jedno z największych laboratoriów Dwugłowego Smoka.",
+    "context": "POLICE 02: Police Officer → Fong Yyuen"
+  },
+  {
+    "key": "dlg/POLICE 02/6",
+    "english": "After that you and your partner got a prize on your heads from The Two Headed Dragon. Your partner ended up dead and you in a hospital.",
+    "polish": "Potem Dwugłowy Smok wyznaczył nagrodę za wasze głowy. Twój partner zginął, a ty trafiłeś do szpitala.",
+    "context": "POLICE 02: Police Officer → Fong Yyuen"
+  },
+  {
+    "key": "dlg/POLICE 02/7",
+    "english": "Then you suddenly disappeared from the hospital. Every one assumed that you were killed as well. One year later you show up in Hong Kong and all hell breaks loose.",
+    "polish": "A potem nagle zniknąłeś ze szpitala. Wszyscy myśleli, że ciebie też zabili. Rok później pojawiasz się w Hongkongu i rozpętuje się piekło.",
+    "context": "POLICE 02: Police Officer → Fong Yyuen"
+  },
+  {
+    "key": "dlg/POLICE 02/8",
+    "english": "Is there something that I am missing here?",
+    "polish": "Czegoś tu nie wiem?",
+    "context": "POLICE 02: Police Officer → Fong Yyuen"
+  },
+  {
+    "key": "dlg/POLICE 02/9",
+    "english": "If you do not want to talk I can not help you.",
+    "polish": "Jak nie będziesz mówić, nie mogę ci pomóc.",
+    "context": "POLICE 02: Police Officer → Fong Yyuen"
+  },
+  {
+    "key": "dlg/POLICE 02/10",
+    "english": "So after you killed Waise Chow. You made a little visit to  Chang Wong gang down in Kowloon Tong. So tell me a little more what went down that day, starting with the Chang Wong gang.",
+    "polish": "Czyli po tym, jak zabiłeś Waise'a Chowa, złożyłeś małą wizytę gangowi Chang Wonga w Kowloon Tong. Opowiedz mi coś więcej o tym dniu. Zacznijmy od gangu Chang Wonga.",
+    "context": "POLICE 02: Police Officer → Fong Yyuen"
+  },
+  {
+    "key": "dlg/BAR c1 01/3",
+    "english": "Welcome back, I have been waiting for you.",
+    "polish": "No, jesteś wreszcie. Czekałem na ciebie.",
+    "context": "BAR c1 01: Bartender → Fong Yyuen"
+  },
+  {
+    "key": "dlg/BAR c1 01/4",
+    "english": "Still drinking old fashion?",
+    "polish": "Dalej pijesz old fashioned?",
+    "context": "BAR c1 01: Bartender → Fong Yyuen"
+  },
+  {
+    "key": "dlg/BAR c1 01/5",
+    "english": "Here you go! For old times sakes.",
+    "polish": "Proszę! Za dawne czasy.",
+    "context": "BAR c1 01: Bartender → Fong Yyuen"
+  },
+  {
+    "key": "dlg/BAR c1 01/6",
+    "english": "So the time has finally come?",
+    "polish": "Czyli w końcu nadszedł czas?",
+    "context": "BAR c1 01: Bartender → Fong Yyuen"
+  },
+  {
+    "key": "dlg/BAR c1 01/7",
+    "english": "Got all the information that you wanted about The Two Headed Dragon. I think you should start with returning to the tea house.",
+    "polish": "Zebrałem wszystko, co chciałeś wiedzieć o Dwugłowym Smoku. Na twoim miejscu zacząłbym od powrotu do herbaciarni.",
+    "context": "BAR c1 01: Bartender → Fong Yyuen"
+  },
+  {
+    "key": "dlg/BAR c1 01/8",
+    "english": "I wish you good luck!",
+    "polish": "Powodzenia!",
+    "context": "BAR c1 01: Bartender → Fong Yyuen"
+  },
+  {
+    "key": "dlg/POLICE 01/3",
+    "english": "First Interrogation with the suspect regarding the events that took place between the June 10 and June 13.",
+    "polish": "Pierwsze przesłuchanie podejrzanego w sprawie zdarzeń z 10–13 czerwca.",
+    "context": "POLICE 01: Police Officer → Fong Yyuen"
+  },
+  {
+    "key": "dlg/POLICE 01/4",
+    "english": "Present at the interrogation is Police officer Siu-Wong Lo and the suspect.",
+    "polish": "Obecni: funkcjonariusz Siu-Wong Lo oraz podejrzany.",
+    "context": "POLICE 01: Police Officer → Fong Yyuen"
+  },
+  {
+    "key": "dlg/POLICE 01/5",
+    "english": "Interrogation starts at 15:45 the date is June 14, 1992.",
+    "polish": "Początek przesłuchania: godzina 15:45, 14 czerwca 1992.",
+    "context": "POLICE 01: Police Officer → Fong Yyuen"
+  },
+  {
+    "key": "dlg/POLICE 01/6",
+    "english": "So let us start at the beginning. We know that you came back to Hong Kong on June 10, arriving at 17:15 with flight 1435 from Bolivia.",
+    "polish": "Zacznijmy od początku. Wiemy, że wróciłeś do Hongkongu 10 czerwca o 17:15, lotem 1435 z Boliwii.",
+    "context": "POLICE 01: Police Officer → Fong Yyuen"
+  },
+  {
+    "key": "dlg/POLICE 01/7",
+    "english": "I am now showing suspect surveillance footage from the airport.",
+    "polish": "Okazuję podejrzanemu nagranie z monitoringu na lotnisku.",
+    "context": "POLICE 01: Police Officer → Fong Yyuen"
+  },
+  {
+    "key": "dlg/POLICE 01/8",
+    "english": "We know that you arrived at Liu Chengs restaurant at 20:05 and then made a visit to tea house killing some of Waise Chows goons.",
+    "polish": "Wiemy, że o 20:05 dotarłeś do lokalu Liu Chenga, a potem złożyłeś wizytę w herbaciarni i zabiłeś kilku zbirów Waise'a Chowa.",
+    "context": "POLICE 01: Police Officer → Fong Yyuen"
+  },
+  {
+    "key": "dlg/POLICE 01/9",
+    "english": "Then at 21:00 you knocked on the door at one of Waise Chows apartments, down in Fu Cheong Estate, used for drug distribution. Turning it into a bloodbath.",
+    "polish": "Potem o 21:00 zapukałeś do jednego z mieszkań Waise'a Chowa w Fu Cheong Estate, skąd rozprowadzano narkotyki. I zrobiłeś tam rzeź.",
+    "context": "POLICE 01: Police Officer → Fong Yyuen"
+  },
+  {
+    "key": "dlg/POLICE 01/10",
+    "english": "So now let us talk about the events that took place after the apartment on June 10.",
+    "polish": "A teraz porozmawiajmy o tym, co działo się 10 czerwca po wizycie w tym mieszkaniu.",
+    "context": "POLICE 01: Police Officer → Fong Yyuen"
+  },
+  {
+    "key": "dlg/BAR c2 03_A/3",
+    "english": "Hello! You should head back to the kitchen and see Chef Lung. He wanted to talk to you.",
+    "polish": "Cześć! Zajrzyj do kuchni, do kucharza Lunga. Chciał z tobą pogadać.",
+    "context": "BAR c2 03_A: Bartender → Fong Yyuen"
+  },
+  {
+    "key": "dlg/BAR  c3 03_B/3",
+    "english": "Oh! There you are! You should go and talk to one of my regulars, Mr Tequila. He is a little bit weird.",
+    "polish": "O, jesteś! Pogadaj z jednym z moich stałych bywalców, panem Tequilą. Trochę z niego dziwak.",
+    "context": "BAR  c3 03_B: Bartender → Fong Yyuen"
+  },
+  {
+    "key": "dlg/BAR  c3 03_B/4",
+    "english": "He saw something the other day. You might find that interesting. He usually hangs around in the streets.",
+    "polish": "Parę dni temu coś widział. Może cię to zainteresować. Zwykle kręci się gdzieś na ulicy.",
+    "context": "BAR  c3 03_B: Bartender → Fong Yyuen"
+  },
+  {
+    "key": "dlg/BAR  c3 03_B/5",
+    "english": "Go look for him.",
+    "polish": "Poszukaj go.",
+    "context": "BAR  c3 03_B: Bartender → Fong Yyuen"
+  },
+  {
+    "key": "dlg/POLICE 03/3",
+    "english": "Do you want a smoke? Before we continue.",
+    "polish": "Zapalisz? Zanim pojedziemy dalej.",
+    "context": "POLICE 03: Police Officer → Fong Yyuen"
+  },
+  {
+    "key": "dlg/POLICE 03/4",
+    "english": "Here you go.",
+    "polish": "Proszę.",
+    "context": "POLICE 03: Police Officer → Fong Yyuen"
+  },
+  {
+    "key": "dlg/POLICE 03/5",
+    "english": "Double Fortune is my brand. Hope it's ok.",
+    "polish": "Double Fortune, moja marka. Mam nadzieję, że pasuje.",
+    "context": "POLICE 03: Police Officer → Fong Yyuen"
+  },
+  {
+    "key": "dlg/POLICE 03/6",
+    "english": "I was on a wedding not so long ago. Some distant cousin.",
+    "polish": "Byłem niedawno na weselu. Jakiś daleki kuzyn.",
+    "context": "POLICE 03: Police Officer → Fong Yyuen"
+  },
+  {
+    "key": "dlg/POLICE 03/7",
+    "english": "Did you know that the bride had to light a cigarette for every man attending the wedding feast as a sign of gratitude, and not any cigarette a Double Fortune.",
+    "polish": "Wiesz, że panna młoda musiała zapalić papierosa każdemu mężczyźnie na przyjęciu, w podzięce? I to nie byle jakiego, tylko Double Fortune.",
+    "context": "POLICE 03: Police Officer → Fong Yyuen"
+  },
+  {
+    "key": "dlg/POLICE 03/8",
+    "english": "I really like that tradition.",
+    "polish": "Bardzo lubię tę tradycję.",
+    "context": "POLICE 03: Police Officer → Fong Yyuen"
+  },
+  {
+    "key": "dlg/POLICE 03/9",
+    "english": "Let us continue. Where were we?",
+    "polish": "Wróćmy do rzeczy. Na czym stanęliśmy?",
+    "context": "POLICE 03: Police Officer → Fong Yyuen"
+  },
+  {
+    "key": "dlg/POLICE 03/10",
+    "english": "Yeah right, Chang Wong ended up dead in an alley. Poor guy.\n\nSo now let us go to the events that took place on June 12 then.",
+    "polish": "No tak, Chang Wong skończył martwy w zaułku. Biedak.\n\nTo teraz przejdźmy do tego, co się działo 12 czerwca.",
+    "context": "POLICE 03: Police Officer → ?"
+  },
+  {
+    "key": "dlg/POLICE 04 TMPE/3",
+    "english": "When I started as cop 15 years ago, Hong Kong used to be a nice place to live in, before the triad took over the city.",
+    "polish": "Kiedy zaczynałem w policji 15 lat temu, w Hongkongu dało się jeszcze żyć. Zanim triada przejęła miasto.",
+    "context": "POLICE 04 TMPE: Police Officer → ?"
+  },
+  {
+    "key": "dlg/POLICE 04 TMPE/4",
+    "english": "Has it been that long!",
+    "polish": "To już tyle lat!",
+    "context": "POLICE 04 TMPE: Police Officer → ?"
+  },
+  {
+    "key": "dlg/POLICE 04 TMPE/5",
+    "english": "Back then I was signed up with this older, more experience cop, like all the freshmen always do.",
+    "polish": "Przydzielili mnie wtedy do starszego, bardziej doświadczonego gliny, jak wszystkich żółtodziobów.",
+    "context": "POLICE 04 TMPE: Police Officer → ?"
+  },
+  {
+    "key": "dlg/POLICE 04 TMPE/6",
+    "english": "So anyway one day when we were out patrolling , we got this call about an ongoing robbery nearby. We took the call and went there.",
+    "polish": "W każdym razie któregoś dnia na patrolu dostaliśmy zgłoszenie o napadzie w okolicy. Przyjęliśmy je i pojechaliśmy.",
+    "context": "POLICE 04 TMPE: Police Officer → ?"
+  },
+  {
+    "key": "dlg/POLICE 04 TMPE/7",
+    "english": "Pulled up outside the place. To our big surprise the robber is still in the store. My partner steps out of the car and starts walking towards the store.",
+    "polish": "Podjeżdżamy pod sklep. Ku naszemu zdziwieniu napastnik wciąż jest w środku. Mój partner wysiada z wozu i rusza w stronę sklepu.",
+    "context": "POLICE 04 TMPE: Police Officer → ?"
+  },
+  {
+    "key": "dlg/POLICE 04 TMPE/8",
+    "english": "He was this really big kind of guy, with a very deep and convincing kind of voice. He steps in to the store, I'm right behind him shaking like hell with my pistol drawn.",
+    "polish": "Kawał chłopa, z takim niskim, przekonującym głosem. Wchodzi do sklepu, a ja tuż za nim, z wyciągniętym pistoletem, trzęsę się jak galareta.",
+    "context": "POLICE 04 TMPE: Police Officer → ?"
+  },
+  {
+    "key": "dlg/POLICE 04 TMPE/9",
+    "english": "He just keeps walking towards the robber. This small kid, could not been more than 17 years old, points his gun at my partner and starts shouting to him to stop or he will shot.",
+    "polish": "A on po prostu idzie dalej w stronę napastnika. Dzieciak, najwyżej siedemnastoletni, celuje do mojego partnera i wrzeszczy, żeby stanął, bo będzie strzelał.",
+    "context": "POLICE 04 TMPE: Police Officer → ?"
+  },
+  {
+    "key": "dlg/POLICE 04 TMPE/10",
+    "english": "My partner just keeps moving towards him. You could see how the robber was shaking with the gun. Then suddenly my partner makes this fast almost like a ninja move and within two seconds the robber is on the floor, with handcuffs on. I have never seen anything like it.",
+    "polish": "A mój partner dalej idzie w jego stronę. Widać było, jak dzieciakowi trzęsie się broń w ręku. I nagle partner robi taki szybki ruch, prawie jak ninja, i w dwie sekundy napastnik leży na podłodze w kajdankach. Nigdy czegoś takiego nie widziałem.",
+    "context": "POLICE 04 TMPE: Police Officer → ?"
+  },
+  {
+    "key": "dlg/POLICE 04 TMPE/11",
+    "english": "Now where were we? You had just gunned down Kenneth Suk-wah on that rooftop.",
+    "polish": "Na czym stanęliśmy? Właśnie zastrzeliłeś Kennetha Suk-waha na tamtym dachu.",
+    "context": "POLICE 04 TMPE: Police Officer → ?"
+  },
+  {
+    "key": "dlg/POLICE 04 TMPE/12",
+    "english": "Let us talk about the events that took place after that. At 17:45 on June 13, less than 24 hours after you killed Kenneth, you show up on a rooftop near one of the triads drug storage. So tell me what happened?",
+    "polish": "Porozmawiajmy o tym, co było potem. 13 czerwca o 17:45, niecałe 24 godziny po tym, jak zabiłeś Kennetha, zjawiasz się na dachu w pobliżu jednego z magazynów narkotyków triady. Więc mów, co się stało.",
+    "context": "POLICE 04 TMPE: Police Officer → ?"
+  },
+  {
+    "key": "dlg/BAR  c5 01 disco/3",
+    "english": "So Police Officer Siu-Wong Lo sent you.",
+    "polish": "Więc to policjant Siu-Wong Lo cię przysłał.",
+    "context": "BAR  c5 01 disco: Disco Cho → ?"
+  },
+  {
+    "key": "dlg/BAR  c5 01 disco/4",
+    "english": "Look, Disco Shou tells you this:\nI want you to listen, listen to every word I say. \nThere is something going down to night at the Disco Inferno.",
+    "polish": "Słuchaj, Disco Shou mówi ci tak:\nNadstaw uszu, łap każde moje słowo. \nDziś w nocy w Disco Inferno coś się kroi.",
+    "context": "BAR  c5 01 disco: Disco Cho → ?"
+  },
+  {
+    "key": "dlg/BAR  c5 01 disco/5",
+    "english": "So pack your guns and get down to the Disco Inferno. But look out! Those cats are fast as lightning. Don't you let nothing, nothing stand in your way.",
+    "polish": "Więc pakuj spluwy i leć do Disco Inferno. Ale uważaj! Te typki są szybkie jak błyskawica. Nie daj się niczemu, ale to niczemu zatrzymać.",
+    "context": "BAR  c5 01 disco: Disco Cho → ?"
+  },
+  {
+    "key": "dlg/BAR  c5 01 disco/6",
+    "english": "Let the boogie start to explode tonight. \nAh, it's gonna be a freak out,  \nThere ain't no stoppin us now.",
+    "polish": "Niech dziś w nocy boogie wybuchnie. \nOch, będzie odlot, \nNic nas dziś nie zatrzyma.",
+    "context": "BAR  c5 01 disco: Disco Cho → ?"
+  },
+  {
+    "key": "dlg/BAR  c5 01 disco/7",
+    "english": "Rum bum bum bum, rum bum bum bum, rum bum bum bum",
+    "polish": "Rum bum bum bum, rum bum bum bum, rum bum bum bum",
+    "context": "BAR  c5 01 disco: Disco Cho → ?"
+  },
+  {
+    "key": "dlg/Boss_1/3",
+    "english": "You!\n\nYour dead! Didn't we kill you? Damn!\n\nWell guess I have to shoot you in the head this time!",
+    "polish": "Ty!\n\nPrzecież ty nie żyjesz! Nie zabiliśmy cię? Cholera!\n\nNo to tym razem strzelę ci w łeb!",
+    "context": "Boss_1: Waise Chow → ?"
+  },
+  {
+    "key": "dlg/POLICE 05/3",
+    "english": "What was that?",
+    "polish": "Co to było?",
+    "context": "POLICE 05: Police Officer → ?"
+  },
+  {
+    "key": "dlg/POLICE 05/4",
+    "english": "Gun shots!",
+    "polish": "Strzały!",
+    "context": "POLICE 05: Police Officer → ?"
+  },
+  {
+    "key": "dlg/POLICE 05/5",
+    "english": "Damn they are coming for you!",
+    "polish": "Cholera, idą po ciebie!",
+    "context": "POLICE 05: Police Officer → ?"
+  },
+  {
+    "key": "dlg/POLICE 05/6",
+    "english": "Grab a gun! It is not safe for you here any more!",
+    "polish": "Bierz broń! Nie jesteś tu już bezpieczny!",
+    "context": "POLICE 05: Police Officer → ?"
+  },
+  {
+    "key": "dlg/POLICE 05/7",
+    "english": "If you make it out of here you must find Disco Shou, he will help you.",
+    "polish": "Jeśli się stąd wydostaniesz, znajdź Disco Shou. On ci pomoże.",
+    "context": "POLICE 05: Police Officer → ?"
+  },
+  {
+    "key": "dlg/POLICE 05/8",
+    "english": "Let us get the hell out of here now.",
+    "polish": "Wynośmy się stąd, do cholery.",
+    "context": "POLICE 05: Police Officer → ?"
+  },
+  {
+    "key": "dlg/BAR c5 Dead/3",
+    "english": "Arghhh.... You came back.",
+    "polish": "Arghhh... Wróciłeś.",
+    "context": "BAR c5 Dead: Bartender → ?"
+  },
+  {
+    "key": "dlg/BAR c5 Dead/4",
+    "english": "It's bad….. I don't have long left.",
+    "polish": "Źle ze mną… Niewiele mi zostało.",
+    "context": "BAR c5 Dead: Bartender → ?"
+  },
+  {
+    "key": "dlg/BAR c5 Dead/5",
+    "english": "He was here, Anthony \"The Boss\" Tsang, he started shooting everyone, asking about you.",
+    "polish": "Był tu Anthony „Boss” Tsang. Zaczął strzelać do wszystkich i wypytywać o ciebie.",
+    "context": "BAR c5 Dead: Bartender → ?"
+  },
+  {
+    "key": "dlg/BAR c5 Dead/6",
+    "english": "You really pissed him off. I didn't tell him anything.",
+    "polish": "Nieźle go wkurzyłeś. Nic mu nie powiedziałem.",
+    "context": "BAR c5 Dead: Bartender → ?"
+  },
+  {
+    "key": "dlg/BAR c5 Dead/7",
+    "english": "Come closer. He told me to tell you that he will be waiting for you at……….. \n\nGo now finish what you started.",
+    "polish": "Podejdź bliżej. Kazał ci przekazać, że będzie na ciebie czekał w……….. \n\nIdź teraz i dokończ, co zacząłeś.",
+    "context": "BAR c5 Dead: Bartender → ?"
+  },
+  {
+    "key": "dlg/BAR  c4 01/3",
+    "english": "Hi there, you just made the news. I was just watching the six a clock news and you were the headline.",
+    "polish": "No proszę, jesteś w telewizji. Oglądałem wiadomości o szóstej i byłeś głównym tematem.",
+    "context": "BAR  c4 01: Bartender → ?"
+  },
+  {
+    "key": "dlg/BAR  c4 01/4",
+    "english": "A hero or villain? You are apparently some crazy vigilante taking down the triad single-handedly.",
+    "polish": "Bohater czy złoczyńca? Podobno jesteś jakimś szalonym mścicielem, który w pojedynkę rozbija triadę.",
+    "context": "BAR  c4 01: Bartender → ?"
+  },
+  {
+    "key": "dlg/BAR  c4 01/5",
+    "english": "They are calling it The Hong Kong Massacre in the media.",
+    "polish": "W mediach nazywają to masakrą w Hongkongu.",
+    "context": "BAR  c4 01: Bartender → ?"
+  },
+  {
+    "key": "dlg/BAR  c4 01/6",
+    "english": "Do you remember when we were kids and took the bus to Sai Kung.",
+    "polish": "Pamiętasz, jak jako dzieciaki pojechaliśmy autobusem do Sai Kung?",
+    "context": "BAR  c4 01: Bartender → ?"
+  },
+  {
+    "key": "dlg/BAR  c4 01/7",
+    "english": "It was one of the best days ever. Me, you and Chan Dung-Yu. We just ran around on the beach, no worries at all.",
+    "polish": "To był jeden z najlepszych dni w życiu. Ja, ty i Chan Dung-Yu. Biegaliśmy po plaży bez żadnych zmartwień.",
+    "context": "BAR  c4 01: Bartender → ?"
+  },
+  {
+    "key": "dlg/BAR  c4 01/8",
+    "english": "I still think about that day, it was right  there on the beach we became brothers for life.",
+    "polish": "Wciąż myślę o tamtym dniu. To tam, na tej plaży, zostaliśmy braćmi na całe życie.",
+    "context": "BAR  c4 01: Bartender → ?"
+  },
+  {
+    "key": "dlg/BAR  c4 01/9",
+    "english": "Let us have a toast for our lost brother Chan Dung-Yu. Rest in peace. You will have your vengeance in the afterlife. For vengeance!",
+    "polish": "Wypijmy za Chan Dung-Yu, naszego brata, którego straciliśmy. Spoczywaj w pokoju. W zaświatach doczekasz się pomsty. Za zemstę!",
+    "context": "BAR  c4 01: Bartender → ?"
+  },
+  {
+    "key": "dlg/BAR  c4 01/10",
+    "english": "I got some new information. The other day I had this guy here from Leung Cheh gang, a real loud mouth, especially after a couple of drinks.",
+    "polish": "Mam nowe wieści. Parę dni temu był tu gość z gangu Leung Cheha, straszny gaduła, zwłaszcza po paru drinkach.",
+    "context": "BAR  c4 01: Bartender → ?"
+  },
+  {
+    "key": "dlg/BAR  c4 01/11",
+    "english": "So anyway, later that night he started bragging about a big drug deal going down tonight. How they owned the cops and politicians, so they had nothing to worry about.",
+    "polish": "No i później tej nocy zaczął się chwalić wielką transakcją narkotykową, która ma pójść dziś w nocy. Że mają w kieszeni gliny i polityków, więc nie muszą się niczym martwić.",
+    "context": "BAR  c4 01: Bartender → ?"
+  },
+  {
+    "key": "dlg/BAR  c4 01/12",
+    "english": "I wrote down the address and time. Here you go. I think you should go pay them a little visit.",
+    "polish": "Zapisałem adres i godzinę. Masz. Na twoim miejscu złożyłbym im małą wizytę.",
+    "context": "BAR  c4 01: Bartender → ?"
+  },
+  {
+    "key": "dlg/BAR  c4 01/13",
+    "english": "But be careful. They have called in mercenaries with bulletproof vests. So one bullet will not do it. You will need two to take them down.",
+    "polish": "Ale uważaj. Ściągnęli najemników w kamizelkach kuloodpornych. Jedna kula nie wystarczy. Żeby ich położyć, potrzebujesz dwóch.",
+    "context": "BAR  c4 01: Bartender → ?"
+  },
+  {
+    "key": "dlg/Boss_2/3",
+    "english": "I have a bullet with your name on it. Hahaha! \n\nNow you die!",
+    "polish": "Mam kulkę z twoim imieniem. Hahaha! \n\nGiń!",
+    "context": "Boss_2: Chang Wong → ?"
+  },
+  {
+    "key": "dlg/Boss_3/3",
+    "english": "Ohh it's you, I remember when we killed you and your partner! Hahaha Now I will kill you again you dirty pig.",
+    "polish": "Ooo, to ty. Pamiętam, jak zabiliśmy ciebie i twojego partnera! Hahaha. Teraz zabiję cię jeszcze raz, ty parszywy psie.",
+    "context": "Boss_3: ? → ?"
+  },
+  {
+    "key": "dlg/Boss_4/3",
+    "english": "I will blow a hole in your head! This time you die!",
+    "polish": "Zrobię ci dziurę w łbie! Tym razem zginiesz!",
+    "context": "Boss_4: ? → ?"
+  },
+  {
+    "key": "dlg/People Around the Bar: Conversation 1/3",
+    "english": "Food wagon guy: Dim Sum, we have the best Dim Sum in Hong Kong!\n\nBeef, shrimp  or mushroom.\n\nVery tasty! \n\nYou choose, for just 15 Hk$.",
+    "polish": "Sprzedawca z wózka: Dim sum, najlepsze dim sum w Hongkongu!\n\nWołowina, krewetki albo grzyby.\n\nPalce lizać! \n\nWybieraj, tylko 15 HK$.",
+    "context": "People Around the Bar: Conversation 1: ? → ?"
+  },
+  {
+    "key": "dlg/Boss_5/3",
+    "english": "So finally we meet. How is your friend? Dead I hope. Don´t you worry you will soon be joining him! hahaha Time to die!",
+    "polish": "Wreszcie się spotykamy. Jak tam twój przyjaciel? Mam nadzieję, że nie żyje. Nie martw się, zaraz do niego dołączysz! Hahaha. Czas umierać!",
+    "context": "Boss_5: Anthony \"The Boss\" Tsang → ?"
+  },
+  {
+    "key": "dlg/People Around the Bar: Conversation 2/3",
+    "english": "Looking to buy?\n\nGot the finest Cocaine straight from Colombia.\n\nNo!! \n\nGo to Hell!",
+    "polish": "Kupujesz?\n\nNajlepsza koka prosto z Kolumbii.\n\nNie!! \n\nIdź do diabła!",
+    "context": "People Around the Bar: Conversation 2: ? → ?"
+  },
+  {
+    "key": "dlg/People Around the Bar: Conversation 4/3",
+    "english": "Can you spare a Dollar, for an old homeless guy.",
+    "polish": "Poratujesz dolarem starego bezdomnego?",
+    "context": "People Around the Bar: Conversation 4: ? → ?"
+  },
+  {
+    "key": "dlg/People Around the Bar: Conversation 5/3",
+    "english": "Have you seen my dog. I've been looking everywhere for him. It's A small pug, he must  be so hungry!",
+    "polish": "Widział ktoś mojego psa? Szukam go wszędzie. Taki mały mops, musi być strasznie głodny!",
+    "context": "People Around the Bar: Conversation 5: ? → ?"
+  },
+  {
+    "key": "dlg/People Around the Bar: Conversation 3/3",
+    "english": "Did you hear about the terrorists in the skyscraper? \n\nNo!\n\nIt seems that they weren't at all terrorist, just simple thieves.",
+    "polish": "Wiesz coś o tych terrorystach w wieżowcu? \n\nNie!\n\nPodobno to wcale nie byli terroryści, tylko zwykli złodzieje.",
+    "context": "People Around the Bar: Conversation 3: ? → ?"
+  },
+  {
+    "key": "dlg/BAR  c1 02/3",
+    "english": "Back already? One old fashion coming up!",
+    "polish": "Już wróciłeś? Jeden old fashioned, już się robi!",
+    "context": "BAR  c1 02: Bartender → Fong Yyuen"
+  },
+  {
+    "key": "dlg/BAR  c1 02/4",
+    "english": "Do you want to know the secret of the old fashion?",
+    "polish": "Chcesz poznać sekret mojego old fashioned?",
+    "context": "BAR  c1 02: Bartender → Fong Yyuen"
+  },
+  {
+    "key": "dlg/BAR  c1 02/5",
+    "english": "Well, the secret is the brown sugar I use. It is made on the island of Ishigaki, my great grandfather got it from a Japanese prisoner during the war.",
+    "polish": "Cały sekret tkwi w brązowym cukrze. Robią go na wyspie Ishigaki, a mój pradziadek dostał go od japońskiego jeńca w czasie wojny.",
+    "context": "BAR  c1 02: Bartender → Fong Yyuen"
+  },
+  {
+    "key": "dlg/BAR  c1 02/6",
+    "english": "It was there, during the battle of Nenjam-Hunan Guangxi that he invented the old fashion you are drinking now.",
+    "polish": "To właśnie wtedy, podczas bitwy pod Nenjam-Hunan Guangxi, wymyślił old fashioned, którego teraz pijesz.",
+    "context": "BAR  c1 02: Bartender → Fong Yyuen"
+  },
+  {
+    "key": "dlg/BAR  c1 02/7",
+    "english": "Legends says that it will give you the strength and courage to defeat your enemies.",
+    "polish": "Legenda mówi, że daje siłę i odwagę, by pokonać wrogów.",
+    "context": "BAR  c1 02: Bartender → Fong Yyuen"
+  },
+  {
+    "key": "dlg/BAR  c1 02/8",
+    "english": "So now you know our family secret.",
+    "polish": "Teraz znasz nasz rodzinny sekret.",
+    "context": "BAR  c1 02: Bartender → Fong Yyuen"
+  },
+  {
+    "key": "dlg/BAR  c1 02/9",
+    "english": "Enough of that now! I heard rumours that The Two Headed Dragon has taken over the Red Dragon Restaurant at Ki Lung Street.",
+    "polish": "Dobra, dość już o tym! Słyszałem plotki, że Dwugłowy Smok przejął restaurację Red Dragon przy Ki Lung Street.",
+    "context": "BAR  c1 02: Bartender → Fong Yyuen"
+  },
+  {
+    "key": "dlg/BAR  c1 02/10",
+    "english": "Good fortune! Do not forget to upgrade your weapons, you are going to need it.",
+    "polish": "Niech ci szczęście sprzyja! Nie zapomnij ulepszyć broni, przyda ci się.",
+    "context": "BAR  c1 02: Bartender → ?"
+  },
+  {
+    "key": "dlg/BAR c2 03_B/3",
+    "english": "We all lost something to The Two Headed Dragon. I lost my brother many years ago.",
+    "polish": "Wszyscy coś straciliśmy przez Dwugłowego Smoka. Ja straciłem brata, wiele lat temu.",
+    "context": "BAR c2 03_B: Chef Lung → Fong Yyuen"
+  },
+  {
+    "key": "dlg/BAR c2 03_B/4",
+    "english": "He was a member of The Two Headed Dragon.",
+    "polish": "Należał do Dwugłowego Smoka.",
+    "context": "BAR c2 03_B: Chef Lung → Fong Yyuen"
+  },
+  {
+    "key": "dlg/BAR c2 03_B/5",
+    "english": "After he stole some money from a drug deal he was executed in cold blood, put to sleep like a dog.",
+    "polish": "Ukradł trochę pieniędzy z transakcji narkotykowej, więc zabili go z zimną krwią. Uśpili jak psa.",
+    "context": "BAR c2 03_B: Chef Lung → Fong Yyuen"
+  },
+  {
+    "key": "dlg/BAR c2 03_B/6",
+    "english": "Chang Wong was the one who pulled the trigger.",
+    "polish": "Spust nacisnął Chang Wong.",
+    "context": "BAR c2 03_B: Chef Lung → Fong Yyuen"
+  },
+  {
+    "key": "dlg/BAR c2 03_B/7",
+    "english": "Anyway, I know that he and his gang used to hang out in an old apartment down in Lok Fu, if you go there you might find him.",
+    "polish": "W każdym razie wiem, że on i jego gang przesiadywali w starym mieszkaniu w Lok Fu. Jeśli tam pójdziesz, może go znajdziesz.",
+    "context": "BAR c2 03_B: Chef Lung → Fong Yyuen"
+  },
+  {
+    "key": "dlg/BAR c2 03_B/8",
+    "english": "Would you like to taste this snake soup I am making?",
+    "polish": "Spróbujesz zupy z węża, którą gotuję?",
+    "context": "BAR c2 03_B: Chef Lung → Fong Yyuen"
+  },
+  {
+    "key": "dlg/BAR  c3 03_C/3",
+    "english": "Me Tequila! That is Mr Tequila by the way.",
+    "polish": "Ja Tequila! Znaczy się, pan Tequila.",
+    "context": "BAR  c3 03_C: Mr Tequila → Fong Yyuen"
+  },
+  {
+    "key": "dlg/BAR  c3 03_C/4",
+    "english": "Want some wine?",
+    "polish": "Chcesz wina?",
+    "context": "BAR  c3 03_C: Mr Tequila → ?"
+  },
+  {
+    "key": "dlg/BAR  c3 03_C/5",
+    "english": "Got water to if you want!",
+    "polish": "Mam też wodę, jak wolisz!",
+    "context": "BAR  c3 03_C: Mr Tequila → ?"
+  },
+  {
+    "key": "dlg/BAR  c3 03_C/6",
+    "english": "Mm wine taste so good!",
+    "polish": "Mmm, winko takie dobre!",
+    "context": "BAR  c3 03_C: Mr Tequila → ?"
+  },
+  {
+    "key": "dlg/BAR  c3 03_C/7",
+    "english": "Tequila saw something the other day. Some bad wolves, very bad!",
+    "polish": "Tequila coś widział parę dni temu. Złe wilki, bardzo złe!",
+    "context": "BAR  c3 03_C: Mr Tequila → ?"
+  },
+  {
+    "key": "dlg/BAR  c3 03_C/8",
+    "english": "I was getting in to an abandoned house, to find somewhere to sleep.",
+    "polish": "Właziłem do opuszczonego domu, żeby znaleźć jakieś miejsce do spania.",
+    "context": "BAR  c3 03_C: Mr Tequila → ?"
+  },
+  {
+    "key": "dlg/BAR  c3 03_C/9",
+    "english": "When I heard a car pulling up and after that some screams and shouting.",
+    "polish": "I wtedy usłyszałem, jak podjeżdża samochód, a potem krzyki i wrzaski.",
+    "context": "BAR  c3 03_C: Mr Tequila → ?"
+  },
+  {
+    "key": "dlg/BAR  c3 03_C/10",
+    "english": "So I sneaked up to the window, and saw some bad wolves drag someone out of the car into an alley.",
+    "polish": "To podkradłem się do okna i zobaczyłem, jak złe wilki wyciągają kogoś z samochodu i ciągną w zaułek.",
+    "context": "BAR  c3 03_C: Mr Tequila → ?"
+  },
+  {
+    "key": "dlg/BAR  c3 03_C/11",
+    "english": "Then I heard a big bang. Then silence.",
+    "polish": "Potem wielkie bum. A potem cisza.",
+    "context": "BAR  c3 03_C: Mr Tequila → ?"
+  },
+  {
+    "key": "dlg/BAR  c3 03_C/12",
+    "english": "After a while the bad wolves returned without the person they dragged into the alley.",
+    "polish": "Po chwili złe wilki wróciły, ale bez tego, kogo wciągnęły w zaułek.",
+    "context": "BAR  c3 03_C: Mr Tequila → ?"
+  },
+  {
+    "key": "dlg/BAR  c3 03_C/13",
+    "english": "Hmm. It was down at Tung Choi Street near the Eden Duck Restaurant.",
+    "polish": "Hmm. To było na Tung Choi Street, koło restauracji Eden Duck.",
+    "context": "BAR  c3 03_C: Mr Tequila → ?"
+  },
+  {
+    "key": "ui/SKIP",
+    "english": "SKIP",
+    "polish": "POMIŃ",
+    "context": "label (level0)"
+  },
+  {
+    "key": "ui/BACK",
+    "english": "BACK",
+    "polish": "WSTECZ",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/CROSSHAIR COLOR",
+    "english": "CROSSHAIR COLOR",
+    "polish": "KOLOR CELOWNIKA",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/COMPLETE THE LEVEL ONLY HITTING ENEMIES",
+    "english": "COMPLETE THE LEVEL ONLY HITTING ENEMIES",
+    "polish": "UKOŃCZ POZIOM BEZ ANI JEDNEGO PUDŁA",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/MUSIC VOLUME",
+    "english": "MUSIC VOLUME",
+    "polish": "GŁOŚNOŚĆ MUZYKI",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/EASY",
+    "english": "EASY",
+    "polish": "ŁATWY",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/YES",
+    "english": "YES",
+    "polish": "TAK",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/COMPLETE THE LEVEL UNDER THE TIME LIMIT",
+    "english": "COMPLETE THE LEVEL UNDER THE TIME LIMIT",
+    "polish": "UKOŃCZ POZIOM W LIMICIE CZASU",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/SLOW-MOTION AIM",
+    "english": "SLOW-MOTION AIM",
+    "polish": "CELOWANIE W SPOWOLNIENIU",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/NEW GAME",
+    "english": "NEW GAME",
+    "polish": "NOWA GRA",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/CONTROLS",
+    "english": "CONTROLS",
+    "polish": "STEROWANIE",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/HIGH",
+    "english": "HIGH",
+    "polish": "WYSOKA",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/CHALLENGES",
+    "english": "CHALLENGES",
+    "polish": "WYZWANIA",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/START",
+    "english": "START",
+    "polish": "START",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/Restore Defaults",
+    "english": "Restore Defaults",
+    "polish": "Przywróć domyślne",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/TODAY",
+    "english": "TODAY",
+    "polish": "DZIŚ",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/PERFECT AIM",
+    "english": "PERFECT AIM",
+    "polish": "IDEALNA CELNOŚĆ",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/OPTIONS",
+    "english": "OPTIONS",
+    "polish": "OPCJE",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/THE TWO HEADED DRAGONS HEROIN LAB - NGAU TAU KOK",
+    "english": "THE TWO HEADED DRAGONS HEROIN LAB - NGAU TAU KOK",
+    "polish": "LABORATORIUM HEROINY DWUGŁOWEGO SMOKA – NGAU TAU KOK",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/MUSIC OFF",
+    "english": "MUSIC OFF",
+    "polish": "BEZ MUZYKI",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/SHOW FRIENDS",
+    "english": "SHOW FRIENDS",
+    "polish": "POKAŻ ZNAJOMYCH",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/Assign Controller",
+    "english": "Assign Controller",
+    "polish": "Przypisz kontroler",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/Players:",
+    "english": "Players:",
+    "polish": "Gracze:",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/RESOLUTION",
+    "english": "RESOLUTION",
+    "polish": "ROZDZIELCZOŚĆ",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/SHOW USER RANK",
+    "english": "SHOW USER RANK",
+    "polish": "POKAŻ MOJĄ POZYCJĘ",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/NO SLOWMOTION",
+    "english": "NO SLOWMOTION",
+    "polish": "BEZ SPOWOLNIENIA",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/BEST TIME",
+    "english": "BEST TIME",
+    "polish": "NAJLEPSZY CZAS",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/CHAPTER FOUR",
+    "english": "CHAPTER FOUR",
+    "polish": "ROZDZIAŁ CZWARTY",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/COMPLETE THE LEVEL WITHOUT USING SLOWMOTION",
+    "english": "COMPLETE THE LEVEL WITHOUT USING SLOWMOTION",
+    "polish": "UKOŃCZ POZIOM BEZ UŻYCIA SPOWOLNIENIA",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/SELECT",
+    "english": "SELECT",
+    "polish": "WYBIERZ",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/MEDUIM",
+    "english": "MEDUIM",
+    "polish": "ŚREDNI",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/WEAPONS",
+    "english": "WEAPONS",
+    "polish": "BROŃ",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/GRAPHIC QUALITY",
+    "english": "GRAPHIC QUALITY",
+    "polish": "JAKOŚĆ GRAFIKI",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/GAME & SOUND",
+    "english": "GAME & SOUND",
+    "polish": "GRA I DŹWIĘK",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/THREE DAYS EARLIER",
+    "english": "THREE DAYS EARLIER",
+    "polish": "TRZY DNI WCZEŚNIEJ",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/LOCKED",
+    "english": "LOCKED",
+    "polish": "ZABLOKOWANE",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/CREDITS",
+    "english": "CREDITS",
+    "polish": "TWÓRCY",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/None",
+    "english": "None",
+    "polish": "Brak",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/Remove",
+    "english": "Remove",
+    "polish": "Usuń",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/UPDATED",
+    "english": "UPDATED",
+    "polish": "ZAKTUALIZOWANY",
+    "context": "dropdown option (level1)"
+  },
+  {
+    "key": "ui/ORIGINAL",
+    "english": "ORIGINAL",
+    "polish": "ORYGINALNY",
+    "context": "dropdown option (level1)"
+  },
+  {
+    "key": "ui/HARDWARE",
+    "english": "HARDWARE",
+    "polish": "SPRZĘTOWY",
+    "context": "dropdown option (level1)"
+  },
+  {
+    "key": "ui/WAISE CHOWS GANG APARTMENT",
+    "english": "WAISE CHOWS GANG APARTMENT",
+    "polish": "MIESZKANIE GANGU WAISE'A CHOWA",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/CLOSE",
+    "english": "CLOSE",
+    "polish": "ZAMKNIJ",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/NO ONE'S SAFE UNTIL YOUR ALL DEAD ",
+    "english": "NO ONE'S SAFE UNTIL YOUR ALL DEAD ",
+    "polish": "NIKT NIE JEST BEZPIECZNY, DOPÓKI NIE ZGINIECIE WSZYSCY ",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/TAK YUE STREETS - TEAHOUSE",
+    "english": "TAK YUE STREETS - TEAHOUSE",
+    "polish": "ULICE TAK YUE – HERBACIARNIA",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/NO",
+    "english": "NO",
+    "polish": "NIE",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/SELECT DIFFICULTY",
+    "english": "SELECT DIFFICULTY",
+    "polish": "WYBIERZ POZIOM TRUDNOŚCI",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/Categories:",
+    "english": "Categories:",
+    "polish": "Kategorie:",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/CONTINUE",
+    "english": "CONTINUE",
+    "polish": "KONTYNUUJ",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/FULLSCREEN",
+    "english": "FULLSCREEN",
+    "polish": "PEŁNY EKRAN",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/Done",
+    "english": "Done",
+    "polish": "Gotowe",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/AIM SENSITIVITY",
+    "english": "AIM SENSITIVITY",
+    "polish": "CZUŁOŚĆ CELOWANIA",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/SOUND VOLUME",
+    "english": "SOUND VOLUME",
+    "polish": "GŁOŚNOŚĆ DŹWIĘKU",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/EXIT",
+    "english": "EXIT",
+    "polish": "WYJDŹ",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/Calibrate",
+    "english": "Calibrate",
+    "polish": "Kalibruj",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/TOP 100",
+    "english": "TOP 100",
+    "polish": "TOP 100",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/LOADING",
+    "english": "LOADING",
+    "polish": "WCZYTYWANIE",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/CHAPTER ONE",
+    "english": "CHAPTER ONE",
+    "polish": "ROZDZIAŁ PIERWSZY",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/COULD NOT CONNECT TO SERVER.\nPLEASE CHECK YOUR INTERNET CONNECTION.",
+    "english": "COULD NOT CONNECT TO SERVER.\nPLEASE CHECK YOUR INTERNET CONNECTION.",
+    "polish": "NIE MOŻNA POŁĄCZYĆ Z SERWEREM.\nSPRAWDŹ POŁĄCZENIE Z INTERNETEM.",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/CHAPTER THREE",
+    "english": "CHAPTER THREE",
+    "polish": "ROZDZIAŁ TRZECI",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/THIS WILL RESET ALL YOUR PROGRESS FOR THE CURRENT DIFFICULTY AND START A NEW GAME. ARE YOU SURE?",
+    "english": "THIS WILL RESET ALL YOUR PROGRESS FOR THE CURRENT DIFFICULTY AND START A NEW GAME. ARE YOU SURE?",
+    "polish": "TO USUNIE CAŁY TWÓJ POSTĘP NA TYM POZIOMIE TRUDNOŚCI I ROZPOCZNIE NOWĄ GRĘ. NA PEWNO?",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/V-SYNC",
+    "english": "V-SYNC",
+    "polish": "SYNCHRONIZACJA PIONOWA",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/Assigned Controllers:",
+    "english": "Assigned Controllers:",
+    "polish": "Przypisane kontrolery:",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/HARD",
+    "english": "HARD",
+    "polish": "TRUDNY",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/Controller:",
+    "english": "Controller:",
+    "polish": "Kontroler:",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/CHAPTER FIVE",
+    "english": "CHAPTER FIVE",
+    "polish": "ROZDZIAŁ PIĄTY",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/LEADERBOARDS",
+    "english": "LEADERBOARDS",
+    "polish": "RANKINGI",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/SAVED DIFFICULTIES",
+    "english": "SAVED DIFFICULTIES",
+    "polish": "ZAPISANE POZIOMY TRUDNOŚCI",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/YESTERDAY",
+    "english": "YESTERDAY",
+    "polish": "WCZORAJ",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/Settings:",
+    "english": "Settings:",
+    "polish": "Ustawienia:",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/LOW",
+    "english": "LOW",
+    "polish": "NISKA",
+    "context": "dropdown option (level1)"
+  },
+  {
+    "key": "ui/MEDIUM",
+    "english": "MEDIUM",
+    "polish": "ŚREDNIA",
+    "context": "dropdown option (level1)"
+  },
+  {
+    "key": "ui/TWO DAYS EARLIER",
+    "english": "TWO DAYS EARLIER",
+    "polish": "DWA DNI WCZEŚNIEJ",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/FOUR DAYS EARLIER",
+    "english": "FOUR DAYS EARLIER",
+    "polish": "CZTERY DNI WCZEŚNIEJ",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/MOUSE MODE",
+    "english": "MOUSE MODE",
+    "polish": "TRYB MYSZY",
+    "context": "label (level1)"
+  },
+  {
+    "key": "ui/CHOW YUN FAT",
+    "english": "CHOW YUN FAT",
+    "polish": "CHOW YUN FAT",
+    "context": "label (level16)"
+  },
+  {
+    "key": "ui/MOVE",
+    "english": "MOVE",
+    "polish": "RUCH",
+    "context": "label (level18)"
+  },
+  {
+    "key": "ui/AIM",
+    "english": "AIM",
+    "polish": "CELOWANIE",
+    "context": "label (level18)"
+  },
+  {
+    "key": "ui/USE\t\t\t\t\t\tTO JUMP BETWEEN BUILDINGS\t",
+    "english": "USE\t\t\t\t\t\tTO JUMP BETWEEN BUILDINGS\t",
+    "polish": "UŻYJ\t\t\t\t\t\tABY SKAKAĆ MIĘDZY BUDYNKAMI\t",
+    "context": "label (level18)"
+  },
+  {
+    "key": "ui/JUMPING",
+    "english": "JUMPING",
+    "polish": "SKAKANIE",
+    "context": "label (level18)"
+  },
+  {
+    "key": "ui/DONE",
+    "english": "DONE",
+    "polish": "GOTOWE",
+    "context": "label (level2)"
+  },
+  {
+    "key": "ui/YOU CAN NOW PLAY THE GAME WITH YOUR CONTROLLER",
+    "english": "YOU CAN NOW PLAY THE GAME WITH YOUR CONTROLLER",
+    "polish": "MOŻESZ TERAZ GRAĆ NA KONTROLERZE",
+    "context": "label (level3)"
+  },
+  {
+    "key": "ui/OK",
+    "english": "OK",
+    "polish": "OK",
+    "context": "label (level3)"
+  },
+  {
+    "key": "ui/13th June, 1992. HONG KONG",
+    "english": "13th June, 1992. HONG KONG",
+    "polish": "13 czerwca 1992. HONGKONG",
+    "context": "label (level50)"
+  },
+  {
+    "key": "ui/15th JUNE, 1992. HONG KONG",
+    "english": "15th JUNE, 1992. HONG KONG",
+    "polish": "15 CZERWCA 1992. HONGKONG",
+    "context": "conversation card: date"
+  },
+  {
+    "key": "ui/TALK",
+    "english": "TALK",
+    "polish": "POROZMAWIAJ",
+    "context": "label (level50)"
+  },
+  {
+    "key": "ui/June 14, 1992. HONG KONG",
+    "english": "June 14, 1992. HONG KONG",
+    "polish": "14 czerwca 1992. HONGKONG",
+    "context": "intro card: date"
+  },
+  {
+    "key": "ui/13th June, 1992\nHONG KONG",
+    "english": "13th June, 1992\nHONG KONG",
+    "polish": "13 czerwca 1992\nHONGKONG",
+    "context": "label (level51)"
+  },
+  {
+    "key": "ui/June 10, 1992. HONG KONG",
+    "english": "June 10, 1992. HONG KONG",
+    "polish": "10 czerwca 1992. HONGKONG",
+    "context": "intro card: date"
+  },
+  {
+    "key": "ui/June 11, 1992. HONG KONG",
+    "english": "June 11, 1992. HONG KONG",
+    "polish": "11 czerwca 1992. HONGKONG",
+    "context": "intro card: date"
+  },
+  {
+    "key": "ui/June 12, 1992. HONG KONG",
+    "english": "June 12, 1992. HONG KONG",
+    "polish": "12 czerwca 1992. HONGKONG",
+    "context": "intro card: date"
+  },
+  {
+    "key": "ui/June 13, 1992. HONG KONG",
+    "english": "June 13, 1992. HONG KONG",
+    "polish": "13 czerwca 1992. HONGKONG",
+    "context": "intro card: date"
+  },
+  {
+    "key": "ui/FOUR DAYS AGO",
+    "english": "FOUR DAYS AGO",
+    "polish": "CZTERY DNI TEMU",
+    "context": "label (level51)"
+  },
+  {
+    "key": "ui/FIVE DAYS EARLIER",
+    "english": "FIVE DAYS EARLIER",
+    "polish": "PIĘĆ DNI WCZEŚNIEJ",
+    "context": "conversation card: date"
+  },
+  {
+    "key": "ui/PISTOL",
+    "english": "PISTOL",
+    "polish": "PISTOLET",
+    "context": "weapon name"
+  },
+  {
+    "key": "ui/RIFLE",
+    "english": "RIFLE",
+    "polish": "KARABIN",
+    "context": "weapon name"
+  },
+  {
+    "key": "ui/SHOTGUN",
+    "english": "SHOTGUN",
+    "polish": "STRZELBA",
+    "context": "weapon name"
+  },
+  {
+    "key": "ui/SMG",
+    "english": "SMG",
+    "polish": "PISTOLET MASZYNOWY",
+    "context": "weapon name"
+  },
+  {
+    "key": "ui/PLAY LEVEL",
+    "english": "PLAY LEVEL",
+    "polish": "GRAJ",
+    "context": "label (resources.assets)"
+  },
+  {
+    "key": "ui/RESTART",
+    "english": "RESTART",
+    "polish": "RESTART",
+    "context": "label (resources.assets)"
+  },
+  {
+    "key": "ui/SHOTS FIRED:",
+    "english": "SHOTS FIRED:",
+    "polish": "ODDANE STRZAŁY:",
+    "context": "label (resources.assets)"
+  },
+  {
+    "key": "ui/ANSWER THE PHONE",
+    "english": "ANSWER THE PHONE",
+    "polish": "ODBIERZ TELEFON",
+    "context": "label (resources.assets)"
+  },
+  {
+    "key": "ui/ROUND TIME",
+    "english": "ROUND TIME",
+    "polish": "CZAS RUNDY",
+    "context": "label (resources.assets)"
+  },
+  {
+    "key": "ui/DEATHS:",
+    "english": "DEATHS:",
+    "polish": "ZGONY:",
+    "context": "label (resources.assets)"
+  },
+  {
+    "key": "ui/TOTAL TIME:",
+    "english": "TOTAL TIME:",
+    "polish": "CZAS ŁĄCZNIE:",
+    "context": "label (resources.assets)"
+  },
+  {
+    "key": "ui/NOT ENOUGH POINTS",
+    "english": "NOT ENOUGH POINTS",
+    "polish": "ZA MAŁO PUNKTÓW",
+    "context": "label (resources.assets)"
+  },
+  {
+    "key": "ui/WEAPON SPEED",
+    "english": "WEAPON SPEED",
+    "polish": "SZYBKOŚĆ BRONI",
+    "context": "label (resources.assets)"
+  },
+  {
+    "key": "ui/TIME:",
+    "english": "TIME:",
+    "polish": "CZAS:",
+    "context": "label (resources.assets)"
+  },
+  {
+    "key": "ui/PISTOLS",
+    "english": "PISTOLS",
+    "polish": "PISTOLETY",
+    "context": "label (resources.assets)"
+  },
+  {
+    "key": "ui/ACCURACY",
+    "english": "ACCURACY",
+    "polish": "CELNOŚĆ",
+    "context": "label (resources.assets)"
+  },
+  {
+    "key": "ui/YOU DIED",
+    "english": "YOU DIED",
+    "polish": "NIE ŻYJESZ",
+    "context": "label (resources.assets)"
+  },
+  {
+    "key": "ui/DEATHS",
+    "english": "DEATHS",
+    "polish": "ZGONY",
+    "context": "label (resources.assets)"
+  },
+  {
+    "key": "ui/HONG KONG \n1992",
+    "english": "HONG KONG \n1992",
+    "polish": "HONGKONG \n1992",
+    "context": "label (resources.assets)"
+  },
+  {
+    "key": "ui/PAUSED",
+    "english": "PAUSED",
+    "polish": "PAUZA",
+    "context": "label (resources.assets)"
+  },
+  {
+    "key": "ui/LEVEL COMPLETED",
+    "english": "LEVEL COMPLETED",
+    "polish": "POZIOM UKOŃCZONY",
+    "context": "label (resources.assets)"
+  },
+  {
+    "key": "ui/OUT OF AMMO",
+    "english": "OUT OF AMMO",
+    "polish": "BRAK AMUNICJI",
+    "context": "label (resources.assets)"
+  },
+  {
+    "key": "ui/ENEMIES KILLED",
+    "english": "ENEMIES KILLED",
+    "polish": "ZABICI WROGOWIE",
+    "context": "label (resources.assets)"
+  },
+  {
+    "key": "ui/TOTAL TIME",
+    "english": "TOTAL TIME",
+    "polish": "CZAS ŁĄCZNIE",
+    "context": "label (resources.assets)"
+  },
+  {
+    "key": "ui/SELECT WEAPON",
+    "english": "SELECT WEAPON",
+    "polish": "WYBIERZ BROŃ",
+    "context": "label (resources.assets)"
+  },
+  {
+    "key": "ui/RESUME",
+    "english": "RESUME",
+    "polish": "WZNÓW",
+    "context": "label (resources.assets)"
+  },
+  {
+    "key": "ui/EXIT TO MAIN MENU",
+    "english": "EXIT TO MAIN MENU",
+    "polish": "WYJDŹ DO MENU GŁÓWNEGO",
+    "context": "label (resources.assets)"
+  },
+  {
+    "key": "ui/BULLETS FIRED",
+    "english": "BULLETS FIRED",
+    "polish": "WYSTRZELONE POCISKI",
+    "context": "label (resources.assets)"
+  },
+  {
+    "key": "ui/DEATH COMES KNOCKING AT THE DOOR",
+    "english": "DEATH COMES KNOCKING AT THE DOOR",
+    "polish": "ŚMIERĆ PUKA DO DRZWI",
+    "context": "level title (Level_Appartment_01)"
+  },
+  {
+    "key": "ui/WAISE CHOWS GANG APARTMENT - FU CHEONG ESTATE",
+    "english": "WAISE CHOWS GANG APARTMENT - FU CHEONG ESTATE",
+    "polish": "MIESZKANIE GANGU WAISE'A CHOWA – FU CHEONG ESTATE",
+    "context": "level location (Level_Appartment_01)"
+  },
+  {
+    "key": "ui/GOT A BLACK BELT! IN GUNS",
+    "english": "GOT A BLACK BELT! IN GUNS",
+    "polish": "MAM CZARNY PAS! W STRZELANIU",
+    "context": "level title (Level_Appartment_03)"
+  },
+  {
+    "key": "ui/HOME OF CHANG WONGS TIGER CLAWS - LOK FU",
+    "english": "HOME OF CHANG WONGS TIGER CLAWS - LOK FU",
+    "polish": "SIEDZIBA TYGRYSICH PAZURÓW CHANG WONGA – LOK FU",
+    "context": "level location (Level_Appartment_03)"
+  },
+  {
+    "key": "ui/GOT MYSELF A GUN",
+    "english": "GOT MYSELF A GUN",
+    "polish": "ZDOBYŁEM SPLUWĘ",
+    "context": "level title (Level_Start01)"
+  },
+  {
+    "key": "ui/THE TEA HOUSE - YUE MAN SQUARE",
+    "english": "THE TEA HOUSE - YUE MAN SQUARE",
+    "polish": "HERBACIARNIA – YUE MAN SQUARE",
+    "context": "level location (Level_Start01)"
+  },
+  {
+    "key": "ui/NOTHING LIKE DIM SUM IN THE NIGHT ",
+    "english": "NOTHING LIKE DIM SUM IN THE NIGHT ",
+    "polish": "NIE MA JAK DIM SUM NOCĄ ",
+    "context": "level title (Level_Alley_04)"
+  },
+  {
+    "key": "ui/KONG AND SHINGS DIM SUM - TUNG CHOI STREET",
+    "english": "KONG AND SHINGS DIM SUM - TUNG CHOI STREET",
+    "polish": "KONG AND SHING'S DIM SUM – TUNG CHOI STREET",
+    "context": "level location (Level_Alley_04)"
+  },
+  {
+    "key": "ui/I DON'T LIKE SNAKES",
+    "english": "I DON'T LIKE SNAKES",
+    "polish": "NIE LUBIĘ WĘŻY",
+    "context": "level title (Level_Alley_05)"
+  },
+  {
+    "key": "ui/LEUNG CHEHS DEADLY SNAKES - SHAM SHUI PO DISTRICT",
+    "english": "LEUNG CHEHS DEADLY SNAKES - SHAM SHUI PO DISTRICT",
+    "polish": "ZABÓJCZE WĘŻE LEUNG CHEHA – DZIELNICA SHAM SHUI PO",
+    "context": "level location (Level_Alley_05)"
+  },
+  {
+    "key": "ui/NO ONE'S SAFE UNTIL YOU'RE ALL DEAD",
+    "english": "NO ONE'S SAFE UNTIL YOU'RE ALL DEAD",
+    "polish": "NIKT NIE JEST BEZPIECZNY, DOPÓKI NIE ZGINIECIE WSZYSCY",
+    "context": "level title (Level_Bomb_01)"
+  },
+  {
+    "key": "ui/THE TWO HEADED DRAGONS HEROIN LAB -  NGAU TAU KOK",
+    "english": "THE TWO HEADED DRAGONS HEROIN LAB -  NGAU TAU KOK",
+    "polish": "LABORATORIUM HEROINY DWUGŁOWEGO SMOKA – NGAU TAU KOK",
+    "context": "level location (Level_Bomb_01)"
+  },
+  {
+    "key": "ui/GET THE GROOVE ON",
+    "english": "GET THE GROOVE ON",
+    "polish": "ZŁAP RYTM",
+    "context": "level title (Level_Bomb_04)"
+  },
+  {
+    "key": "ui/THE DISCO INFERNO - RECLAMATION STREET",
+    "english": "THE DISCO INFERNO - RECLAMATION STREET",
+    "polish": "DISCO INFERNO – RECLAMATION STREET",
+    "context": "level location (Level_Bomb_04)"
+  },
+  {
+    "key": "ui/WAISE CHOW",
+    "english": "WAISE CHOW",
+    "polish": "WAISE CHOW",
+    "context": "level title (Level_Boss_05)"
+  },
+  {
+    "key": "ui/THE RAT",
+    "english": "THE RAT",
+    "polish": "SZCZUR",
+    "context": "boss epithet (Level_Boss_05)"
+  },
+  {
+    "key": "ui/CHANG WONG",
+    "english": "CHANG WONG",
+    "polish": "CHANG WONG",
+    "context": "level title (Level_Boss_06)"
+  },
+  {
+    "key": "ui/THE TIGER",
+    "english": "THE TIGER",
+    "polish": "TYGRYS",
+    "context": "boss epithet (Level_Boss_06)"
+  },
+  {
+    "key": "ui/KENNETH SUK-WAH",
+    "english": "KENNETH SUK-WAH",
+    "polish": "KENNETH SUK-WAH",
+    "context": "level title (Level_Boss_07)"
+  },
+  {
+    "key": "ui/THE DOG",
+    "english": "THE DOG",
+    "polish": "PIES",
+    "context": "boss epithet (Level_Boss_07)"
+  },
+  {
+    "key": "ui/LEUNG CHEH",
+    "english": "LEUNG CHEH",
+    "polish": "LEUNG CHEH",
+    "context": "level title (Level_Boss_08)"
+  },
+  {
+    "key": "ui/THE SERPENT",
+    "english": "THE SERPENT",
+    "polish": "WĄŻ",
+    "context": "boss epithet (Level_Boss_08)"
+  },
+  {
+    "key": "ui/ANTHONY \"THE BOSS\" TSANG",
+    "english": "ANTHONY \"THE BOSS\" TSANG",
+    "polish": "ANTHONY „BOSS” TSANG",
+    "context": "level title (Level_BossFinal_01)"
+  },
+  {
+    "key": "ui/THE DRAGON",
+    "english": "THE DRAGON",
+    "polish": "SMOK",
+    "context": "boss epithet (Level_BossFinal_01)"
+  },
+  {
+    "key": "ui/CAR TROUBLE",
+    "english": "CAR TROUBLE",
+    "polish": "KŁOPOTY Z AUTEM",
+    "context": "level title (Level_Carshop_01)"
+  },
+  {
+    "key": "ui/WAISE CHOWS CARSHOP - SHEK KAP MEI",
+    "english": "WAISE CHOWS CARSHOP - SHEK KAP MEI",
+    "polish": "WARSZTAT WAISE'A CHOWA – SHEK KAP MEI",
+    "context": "level location (Level_Carshop_01)"
+  },
+  {
+    "key": "ui/TAKING DOWN THE HOUSE",
+    "english": "TAKING DOWN THE HOUSE",
+    "polish": "ROZBIĆ BANK",
+    "context": "level title (Level_Casino_07)"
+  },
+  {
+    "key": "ui/THE GOLDEN HORSE CASINO - DIAMOND HILL",
+    "english": "THE GOLDEN HORSE CASINO - DIAMOND HILL",
+    "polish": "KASYNO GOLDEN HORSE – DIAMOND HILL",
+    "context": "level location (Level_Casino_07)"
+  },
+  {
+    "key": "ui/CUT THE SNAKES TAIL OFF",
+    "english": "CUT THE SNAKES TAIL OFF",
+    "polish": "UTNIJ WĘŻOWI OGON",
+    "context": "level title (Level_CoOP_06)"
+  },
+  {
+    "key": "ui/CHAI BUILDING - YAU TSIM MONG DISTRICT",
+    "english": "CHAI BUILDING - YAU TSIM MONG DISTRICT",
+    "polish": "BUDYNEK CHAI – DZIELNICA YAU TSIM MONG",
+    "context": "level location (Level_CoOP_06)"
+  },
+  {
+    "key": "ui/CAN YOU FLY PUNKS?",
+    "english": "CAN YOU FLY PUNKS?",
+    "polish": "UMIECIE LATAĆ, GNOJKI?",
+    "context": "level title (Level_CoOP_07)"
+  },
+  {
+    "key": "ui/CHANG WONGS DRUG DEALERS - KOWLOON TONG",
+    "english": "CHANG WONGS DRUG DEALERS - KOWLOON TONG",
+    "polish": "DILERZY CHANG WONGA – KOWLOON TONG",
+    "context": "level location (Level_CoOP_07)"
+  },
+  {
+    "key": "ui/SHOOTOUT AT KUNG FANGS",
+    "english": "SHOOTOUT AT KUNG FANGS",
+    "polish": "STRZELANINA U KUNG FANGA",
+    "context": "level title (Level_CoOp_02)"
+  },
+  {
+    "key": "ui/KUNG FANG RESTAURANT - YAU TSIM MONG DISTRICT",
+    "english": "KUNG FANG RESTAURANT - YAU TSIM MONG DISTRICT",
+    "polish": "RESTAURACJA KUNG FANG – DZIELNICA YAU TSIM MONG",
+    "context": "level location (Level_CoOp_02)"
+  },
+  {
+    "key": "ui/SHOWDOWN AT THE MARKET",
+    "english": "SHOWDOWN AT THE MARKET",
+    "polish": "STARCIE NA TARGU",
+    "context": "level title (Level_CoOp_03)"
+  },
+  {
+    "key": "ui/OLD MARKET - FA YUEN STREET",
+    "english": "OLD MARKET - FA YUEN STREET",
+    "polish": "STARY TARG – FA YUEN STREET",
+    "context": "level location (Level_CoOp_03)"
+  },
+  {
+    "key": "ui/VENGEANCE IS MY ONLY FRIEND",
+    "english": "VENGEANCE IS MY ONLY FRIEND",
+    "polish": "ZEMSTA TO MÓJ JEDYNY PRZYJACIEL",
+    "context": "level title (Level_Druglab_14)"
+  },
+  {
+    "key": "ui/WAREHOUSE OF THE DRAGON - KWAI TSING DISTRICT",
+    "english": "WAREHOUSE OF THE DRAGON - KWAI TSING DISTRICT",
+    "polish": "MAGAZYN SMOKA – DZIELNICA KWAI TSING",
+    "context": "level location (Level_Druglab_14)"
+  },
+  {
+    "key": "ui/NO MORE MR NICE GUY",
+    "english": "NO MORE MR NICE GUY",
+    "polish": "KONIEC Z GRZECZNOŚCIAMI",
+    "context": "level title (Level_Druglab_16)"
+  },
+  {
+    "key": "ui/THE OPIUM FACTORY - THE ISLANDS DISTRICT",
+    "english": "THE OPIUM FACTORY - THE ISLANDS DISTRICT",
+    "polish": "FABRYKA OPIUM – DZIELNICA ISLANDS",
+    "context": "level location (Level_Druglab_16)"
+  },
+  {
+    "key": "ui/BIG TROUBLE IN THE SECRET DRUG LAB",
+    "english": "BIG TROUBLE IN THE SECRET DRUG LAB",
+    "polish": "WIELKA DRAKA W TAJNYM LABORATORIUM",
+    "context": "level title (Level_Druglab_17)"
+  },
+  {
+    "key": "ui/DRUG LAB - KWAI TSING DISTRICT",
+    "english": "DRUG LAB - KWAI TSING DISTRICT",
+    "polish": "LABORATORIUM NARKOTYKÓW – DZIELNICA KWAI TSING",
+    "context": "level location (Level_Druglab_17)"
+  },
+  {
+    "key": "ui/VENGEANCE IS COMING YOUR WAY ",
+    "english": "VENGEANCE IS COMING YOUR WAY ",
+    "polish": "ZEMSTA JUŻ PO WAS IDZIE ",
+    "context": "level title (Level_Druglab_19)"
+  },
+  {
+    "key": "ui/SHIPPING WAREHOUSE - KOWLOON BAY",
+    "english": "SHIPPING WAREHOUSE - KOWLOON BAY",
+    "polish": "MAGAZYN PORTOWY – KOWLOON BAY",
+    "context": "level location (Level_Druglab_19)"
+  },
+  {
+    "key": "ui/ALWAYS BET ON RED",
+    "english": "ALWAYS BET ON RED",
+    "polish": "ZAWSZE STAWIAJ NA CZERWONE",
+    "context": "level title (Level_Hotel_10)"
+  },
+  {
+    "key": "ui/HOI-SAN HOTEL & CASINO - SHANTUNG STREET",
+    "english": "HOI-SAN HOTEL & CASINO - SHANTUNG STREET",
+    "polish": "HOTEL I KASYNO HOI-SAN – SHANTUNG STREET",
+    "context": "level location (Level_Hotel_10)"
+  },
+  {
+    "key": "ui/CHECKING IN",
+    "english": "CHECKING IN",
+    "polish": "ZAMELDOWANIE",
+    "context": "level title (Level_Hotel_11)"
+  },
+  {
+    "key": "ui/THE GOLDEN EMPIRE HOTEL - WAN CHAI DISTRICT",
+    "english": "THE GOLDEN EMPIRE HOTEL - WAN CHAI DISTRICT",
+    "polish": "HOTEL GOLDEN EMPIRE – DZIELNICA WAN CHAI",
+    "context": "level location (Level_Hotel_11)"
+  },
+  {
+    "key": "ui/VENGEANCE COMES OUT BLAZING",
+    "english": "VENGEANCE COMES OUT BLAZING",
+    "polish": "ZEMSTA WCHODZI Z HUKIEM",
+    "context": "level title (Level_Office_01)"
+  },
+  {
+    "key": "ui/REAL ESTATE OFFICE - THE CENTRAL DISTRICT",
+    "english": "REAL ESTATE OFFICE - THE CENTRAL DISTRICT",
+    "polish": "BIURO NIERUCHOMOŚCI – DZIELNICA CENTRAL",
+    "context": "level location (Level_Office_01)"
+  },
+  {
+    "key": "ui/I WANT TO MAKE A WITHDRAWAL",
+    "english": "I WANT TO MAKE A WITHDRAWAL",
+    "polish": "CHCĘ WYPŁACIĆ GOTÓWKĘ",
+    "context": "level title (Level_Office_06)"
+  },
+  {
+    "key": "ui/THE TWO HEADED DRAGONS BANK OFFICE - WAN CHAI DISTRICT",
+    "english": "THE TWO HEADED DRAGONS BANK OFFICE - WAN CHAI DISTRICT",
+    "polish": "BANK DWUGŁOWEGO SMOKA – DZIELNICA WAN CHAI",
+    "context": "level location (Level_Office_06)"
+  },
+  {
+    "key": "ui/BANG, BANG, FEELS GOOD TO BE BACK",
+    "english": "BANG, BANG, FEELS GOOD TO BE BACK",
+    "polish": "BANG, BANG, DOBRZE WRÓCIĆ",
+    "context": "level title (Level_Restaurant_01)"
+  },
+  {
+    "key": "ui/THE RED DRAGON RESTAURANT - KI LUNG STREET",
+    "english": "THE RED DRAGON RESTAURANT - KI LUNG STREET",
+    "polish": "RESTAURACJA RED DRAGON – KI LUNG STREET",
+    "context": "level location (Level_Restaurant_01)"
+  },
+  {
+    "key": "ui/STRAIGHT TO HELL",
+    "english": "STRAIGHT TO HELL",
+    "polish": "PROSTO DO PIEKŁA",
+    "context": "level title (Level_Restaurant_02)"
+  },
+  {
+    "key": "ui/BIG WOO NOODLES - SAI YEE STREET",
+    "english": "BIG WOO NOODLES - SAI YEE STREET",
+    "polish": "BIG WOO NOODLES – SAI YEE STREET",
+    "context": "level location (Level_Restaurant_02)"
+  },
+  {
+    "key": "ui/BLOODY AS HELL",
+    "english": "BLOODY AS HELL",
+    "polish": "PIEKIELNIE KRWAWO",
+    "context": "level title (Level_Restaurant_03)"
+  },
+  {
+    "key": "ui/TEQUILAS STEAKHOUSE - YUE MAN SQUARE",
+    "english": "TEQUILAS STEAKHOUSE - YUE MAN SQUARE",
+    "polish": "TEQUILA'S STEAKHOUSE – YUE MAN SQUARE",
+    "context": "level location (Level_Restaurant_03)"
+  },
+  {
+    "key": "ui/ALL I NEED IN THIS WORLD ARE MY WEAPONS",
+    "english": "ALL I NEED IN THIS WORLD ARE MY WEAPONS",
+    "polish": "WSZYSTKO, CZEGO MI TRZEBA, TO MOJA BROŃ",
+    "context": "level title (Level_Roftop_03)"
+  },
+  {
+    "key": "ui/THE WEAPON STORAGE - KWAI TSING DISTRICT",
+    "english": "THE WEAPON STORAGE - KWAI TSING DISTRICT",
+    "polish": "MAGAZYN BRONI – DZIELNICA KWAI TSING",
+    "context": "level location (Level_Roftop_03)"
+  },
+  {
+    "key": "ui/NO MORE COCAINE ",
+    "english": "NO MORE COCAINE ",
+    "polish": "KONIEC Z KOKAINĄ ",
+    "context": "level title (Level_Roftop_04)"
+  },
+  {
+    "key": "ui/COCAINE LAB - WONG TAI SIN DISTRICT",
+    "english": "COCAINE LAB - WONG TAI SIN DISTRICT",
+    "polish": "LABORATORIUM KOKAINY – DZIELNICA WONG TAI SIN",
+    "context": "level location (Level_Roftop_04)"
+  },
+  {
+    "key": "ui/THE SEARCH FOR THE BAD WOLVES",
+    "english": "THE SEARCH FOR THE BAD WOLVES",
+    "polish": "W POSZUKIWANIU ZŁYCH WILKÓW",
+    "context": "level title (Level_Street_06)"
+  },
+  {
+    "key": "ui/EDEN DUCK RESTAURANT - TUNG CHOI STREET",
+    "english": "EDEN DUCK RESTAURANT - TUNG CHOI STREET",
+    "polish": "RESTAURACJA EDEN DUCK – TUNG CHOI STREET",
+    "context": "level location (Level_Street_06)"
+  },
+  {
+    "key": "ui/ONE BLOODY MARY COMING UP",
+    "english": "ONE BLOODY MARY COMING UP",
+    "polish": "JEDNA KRWAWA MARY, JUŻ PODAJĘ",
+    "context": "level title (Level_Test_Time_03)"
+  },
+  {
+    "key": "ui/THE DRUNK ROSTER - APLIU STREET",
+    "english": "THE DRUNK ROSTER - APLIU STREET",
+    "polish": "THE DRUNK ROOSTER – APLIU STREET",
+    "context": "level location (Level_Test_Time_03)"
+  },
+  {
+    "key": "ui/ASSAULT ON THE POLICE STATION",
+    "english": "ASSAULT ON THE POLICE STATION",
+    "polish": "ATAK NA POSTERUNEK",
+    "context": "level title (Level_Test_Time_Office_03)"
+  },
+  {
+    "key": "ui/POLICE STATION -  KOWLOON CITY DISTRICT ",
+    "english": "POLICE STATION -  KOWLOON CITY DISTRICT ",
+    "polish": "POSTERUNEK POLICJI – DZIELNICA KOWLOON CITY ",
+    "context": "level location (Level_Test_Time_Office_03)"
+  },
+  {
+    "key": "ui/TIME TO PUT DOWN SUK-WAHS WILD DOGS",
+    "english": "TIME TO PUT DOWN SUK-WAHS WILD DOGS",
+    "polish": "CZAS UŚPIĆ DZIKIE PSY SUK-WAHA",
+    "context": "level title (level_Market_02)"
+  },
+  {
+    "key": "ui/FOOD MARKET - KOWLOON CITY MARKET",
+    "english": "FOOD MARKET - KOWLOON CITY MARKET",
+    "polish": "TARG SPOŻYWCZY – KOWLOON CITY MARKET",
+    "context": "level location (level_Market_02)"
+  },
+  {
+    "key": "ui/NO CONTROLLER FOUND\nRECONNECT A CONTROLLER TO CONTINUE",
+    "english": "NO CONTROLLER FOUND\nRECONNECT A CONTROLLER TO CONTINUE",
+    "polish": "NIE WYKRYTO KONTROLERA\nPODŁĄCZ KONTROLER, ABY KONTYNUOWAĆ",
+    "context": "label (sharedassets0.assets)"
+  },
+  {
+    "key": "ui/Zero:",
+    "english": "Zero:",
+    "polish": "Zero:",
+    "context": "label (sharedassets1.assets)"
+  },
+  {
+    "key": "ui/Dead Zone:",
+    "english": "Dead Zone:",
+    "polish": "Martwa strefa:",
+    "context": "label (sharedassets1.assets)"
+  },
+  {
+    "key": "ui/Sensitivity:",
+    "english": "Sensitivity:",
+    "polish": "Czułość:",
+    "context": "label (sharedassets1.assets)"
+  },
+  {
+    "key": "ui/Cancel",
+    "english": "Cancel",
+    "polish": "Anuluj",
+    "context": "label (sharedassets1.assets)"
+  },
+  {
+    "key": "ui/Invert",
+    "english": "Invert",
+    "polish": "Odwróć",
+    "context": "label (sharedassets1.assets)"
+  },
+  {
+    "key": "ui/Default",
+    "english": "Default",
+    "polish": "Domyślne",
+    "context": "label (sharedassets1.assets)"
+  },
+  {
+    "key": "ui/LEVEL UNLOCKED",
+    "english": "LEVEL UNLOCKED",
+    "polish": "POZIOM ODBLOKOWANY",
+    "context": "label (sharedassets1.assets)"
+  },
+  {
+    "key": "ui/DIVE",
+    "english": "DIVE",
+    "polish": "UNIK",
+    "context": "loading tip: header"
+  },
+  {
+    "key": "ui/WHEN USING THE DIVE ACTION, ENEMY BULLETS CANT HIT YOU",
+    "english": "WHEN USING THE DIVE ACTION, ENEMY BULLETS CANT HIT YOU",
+    "polish": "PODCZAS UNIKU WROGIE KULE CIĘ NIE TRAFIĄ",
+    "context": "loading tip"
+  },
+  {
+    "key": "ui/UPGRADES",
+    "english": "UPGRADES",
+    "polish": "ULEPSZENIA",
+    "context": "loading tip: header"
+  },
+  {
+    "key": "ui/UPGRADE YOUR WEAPONS FOR BETTER FIRERATE",
+    "english": "UPGRADE YOUR WEAPONS FOR BETTER FIRERATE",
+    "polish": "ULEPSZAJ BROŃ, ABY STRZELAĆ SZYBCIEJ",
+    "context": "loading tip"
+  },
+  {
+    "key": "ui/SLOWMOTION",
+    "english": "SLOWMOTION",
+    "polish": "SPOWOLNIENIE",
+    "context": "loading tip: header"
+  },
+  {
+    "key": "ui/USE YOUR SLOWMOTION IF YOU END UP IN A CROWDED SITUATION",
+    "english": "USE YOUR SLOWMOTION IF YOU END UP IN A CROWDED SITUATION",
+    "polish": "UŻYJ SPOWOLNIENIA, GDY OTOCZY CIĘ TŁUM WROGÓW",
+    "context": "loading tip"
+  },
+  {
+    "key": "ui/PICKUP WEAPONS",
+    "english": "PICKUP WEAPONS",
+    "polish": "PODNOŚ BROŃ",
+    "context": "loading tip: header"
+  },
+  {
+    "key": "ui/PICKUP WEAPONS FROM DEAD ENEMIES",
+    "english": "PICKUP WEAPONS FROM DEAD ENEMIES",
+    "polish": "PODNOŚ BROŃ PO ZABITYCH WROGACH",
+    "context": "loading tip"
+  },
+  {
+    "key": "ui/EXTRA CLIP",
+    "english": "EXTRA CLIP",
+    "polish": "DODATKOWY MAGAZYNEK",
+    "context": "label (sharedassets3.assets)"
+  },
+  {
+    "key": "ui/FIRERATE",
+    "english": "FIRERATE",
+    "polish": "SZYBKOSTRZELNOŚĆ",
+    "context": "label (sharedassets3.assets)"
+  },
+  {
+    "key": "ui/RELOAD SPEED",
+    "english": "RELOAD SPEED",
+    "polish": "SZYBKOŚĆ PRZEŁADOWANIA",
+    "context": "label (sharedassets3.assets)"
+  },
+  {
+    "key": "ui/SLOWMOTION (HOLD) :",
+    "english": "SLOWMOTION (HOLD) :",
+    "polish": "SPOWOLNIENIE (PRZYTRZYMAJ):",
+    "context": "label (sharedassets3.assets)"
+  },
+  {
+    "key": "ui/DIVE/DODGE:",
+    "english": "DIVE/DODGE:",
+    "polish": "UNIK:",
+    "context": "label (sharedassets3.assets)"
+  },
+  {
+    "key": "ui/ACTIONS",
+    "english": "ACTIONS",
+    "polish": "AKCJE",
+    "context": "label (sharedassets3.assets)"
+  },
+  {
+    "key": "ui/+ FIRE RATE",
+    "english": "+ FIRE RATE",
+    "polish": "+ SZYBKOSTRZELNOŚĆ",
+    "context": "label (sharedassets3.assets)"
+  },
+  {
+    "key": "ui/CLIP SIZE",
+    "english": "CLIP SIZE",
+    "polish": "POJEMNOŚĆ MAGAZYNKA",
+    "context": "label (sharedassets3.assets)"
+  },
+  {
+    "key": "ui/MOVEMENT",
+    "english": "MOVEMENT",
+    "polish": "RUCH",
+    "context": "label (sharedassets3.assets)"
+  },
+  {
+    "key": "ui/RESTART\n",
+    "english": "RESTART\n",
+    "polish": "RESTART\n",
+    "context": "label (sharedassets3.assets)"
+  },
+  {
+    "key": "ui/CLEAR LEVEL UNDER 01:34:00",
+    "english": "CLEAR LEVEL UNDER 01:34:00",
+    "polish": "UKOŃCZ POZIOM W MNIEJ NIŻ 01:34:00",
+    "context": "label (sharedassets3.assets)"
+  },
+  {
+    "key": "ui/+ MOVEMENT SPEED",
+    "english": "+ MOVEMENT SPEED",
+    "polish": "+ SZYBKOŚĆ RUCHU",
+    "context": "label (sharedassets3.assets)"
+  },
+  {
+    "key": "ui/MOVEMENT SPEED",
+    "english": "MOVEMENT SPEED",
+    "polish": "SZYBKOŚĆ RUCHU",
+    "context": "label (sharedassets3.assets)"
+  },
+  {
+    "key": "ui/+ 10 CLIP SIZE",
+    "english": "+ 10 CLIP SIZE",
+    "polish": "+ 10 DO MAGAZYNKA",
+    "context": "label (sharedassets3.assets)"
+  },
+  {
+    "key": "ui/STATS",
+    "english": "STATS",
+    "polish": "STATYSTYKI",
+    "context": "label (sharedassets3.assets)"
+  },
+  {
+    "key": "ui/GAME PAUSED",
+    "english": "GAME PAUSED",
+    "polish": "GRA WSTRZYMANA",
+    "context": "label (sharedassets3.assets)"
+  },
+  {
+    "key": "ui/USE \t\t\t\tTO MOVE \t\t\t\t\t\tTO AIM",
+    "english": "USE \t\t\t\tTO MOVE \t\t\t\t\t\tTO AIM",
+    "polish": "UŻYJ \t\t\t\tDO RUCHU \t\t\t\t\t\tDO CELOWANIA",
+    "context": "label (sharedassets3.assets)"
+  },
+  {
+    "key": "ui/NOT COMPLETED",
+    "english": "NOT COMPLETED",
+    "polish": "NIEUKOŃCZONE",
+    "context": "label (sharedassets3.assets)"
+  },
+  {
+    "key": "ui/+ 5 CLIP SIZE",
+    "english": "+ 5 CLIP SIZE",
+    "polish": "+ 5 DO MAGAZYNKA",
+    "context": "label (sharedassets3.assets)"
+  },
+  {
+    "key": "ui/+ 3 CLIP SIZE",
+    "english": "+ 3 CLIP SIZE",
+    "polish": "+ 3 DO MAGAZYNKA",
+    "context": "label (sharedassets3.assets)"
+  },
+  {
+    "key": "ui/UPGRADE WEAPON",
+    "english": "UPGRADE WEAPON",
+    "polish": "ULEPSZ BROŃ",
+    "context": "label (sharedassets3.assets)"
+  },
+  {
+    "key": "ui/MUSIC VOMLUME",
+    "english": "MUSIC VOMLUME",
+    "polish": "GŁOŚNOŚĆ MUZYKI",
+    "context": "label (sharedassets3.assets)"
+  },
+  {
+    "key": "ui/FIRE WEAPON:",
+    "english": "FIRE WEAPON:",
+    "polish": "STRZAŁ:",
+    "context": "label (sharedassets3.assets)"
+  },
+  {
+    "key": "ui/LEVEL CLEARED",
+    "english": "LEVEL CLEARED",
+    "polish": "POZIOM ZALICZONY",
+    "context": "label (sharedassets3.assets)"
+  },
+  {
+    "key": "ui/USE \t          \t\t\t       TO MOVE \t\t\t\t\t\tTO AIM",
+    "english": "USE \t          \t\t\t       TO MOVE \t\t\t\t\t\tTO AIM",
+    "polish": "UŻYJ \t          \t\t\t       DO RUCHU \t\t\t\t\t\tDO CELOWANIA",
+    "context": "label (sharedassets3.assets)"
+  },
+  {
+    "key": "ui/+ FIRE RATE UNLOCKED",
+    "english": "+ FIRE RATE UNLOCKED",
+    "polish": "+ SZYBKOSTRZELNOŚĆ ODBLOKOWANA",
+    "context": "label (sharedassets3.assets)"
+  },
+  {
+    "key": "ui/USE EARNED\t\t\t\t\t TO BUY AND UPGRADE WEAPONS",
+    "english": "USE EARNED\t\t\t\t\t TO BUY AND UPGRADE WEAPONS",
+    "polish": "ZA ZDOBYTE\t\t\t\t\t KUPUJ I ULEPSZAJ BROŃ",
+    "context": "label (sharedassets3.assets)"
+  },
+  {
+    "key": "ui/BUY & UPGRADE WEAPONS",
+    "english": "BUY & UPGRADE WEAPONS",
+    "polish": "KUP I ULEPSZ BROŃ",
+    "context": "label (sharedassets3.assets)"
+  },
+  {
+    "key": "ui/EXIT TO MENU",
+    "english": "EXIT TO MENU",
+    "polish": "WYJDŹ DO MENU",
+    "context": "label (sharedassets3.assets)"
+  },
+  {
+    "key": "ui/NO RECORD",
+    "english": "NO RECORD",
+    "polish": "BRAK WYNIKU",
+    "context": "set by code"
+  },
+  {
+    "key": "ui/SHOW TOP 100",
+    "english": "SHOW TOP 100",
+    "polish": "POKAŻ TOP 100",
+    "context": "set by code"
+  },
+  {
+    "key": "ui/FRIENDS",
+    "english": "FRIENDS",
+    "polish": "ZNAJOMI",
+    "context": "set by code"
+  },
+  {
+    "key": "ui/USER RANK",
+    "english": "USER RANK",
+    "polish": "MOJA POZYCJA",
+    "context": "set by code"
+  },
+  {
+    "key": "ui/START LEVEL",
+    "english": "START LEVEL",
+    "polish": "ROZPOCZNIJ POZIOM",
+    "context": "set by code"
+  },
+  {
+    "key": "ui/FIRE RATE",
+    "english": "FIRE RATE",
+    "polish": "SZYBKOSTRZELNOŚĆ",
+    "context": "set by code"
+  },
+  {
+    "key": "ui/UNLOCK",
+    "english": "UNLOCK",
+    "polish": "ODBLOKUJ",
+    "context": "set by code"
+  },
+  {
+    "key": "ui/UNLOCK UPGRADE?",
+    "english": "UNLOCK UPGRADE?",
+    "polish": "ODBLOKOWAĆ ULEPSZENIE?",
+    "context": "set by code"
+  },
+  {
+    "key": "ui/BUY UPGRADE",
+    "english": "BUY UPGRADE",
+    "polish": "KUP ULEPSZENIE",
+    "context": "set by code"
+  },
+  {
+    "key": "ui/COMPLETED",
+    "english": "COMPLETED",
+    "polish": "UKOŃCZONE",
+    "context": "set by code"
+  },
+  {
+    "key": "ui/Police Officer",
+    "english": "Police Officer",
+    "polish": "Policjant",
+    "context": "speaker label in dialogue"
+  },
+  {
+    "key": "ui/Bartender",
+    "english": "Bartender",
+    "polish": "Barman",
+    "context": "speaker label in dialogue"
+  },
+  {
+    "key": "ui/Chef Lung",
+    "english": "Chef Lung",
+    "polish": "Kucharz Lung",
+    "context": "speaker label in dialogue"
+  },
+  {
+    "key": "ui/Mr Tequila",
+    "english": "Mr Tequila",
+    "polish": "Pan Tequila",
+    "context": "speaker label in dialogue"
+  },
+  {
+    "key": "ui/Anthony \"The Boss\" Tsang",
+    "english": "Anthony \"The Boss\" Tsang",
+    "polish": "Anthony „Boss” Tsang",
+    "context": "speaker label in dialogue"
+  },
+  {
+    "key": "fmt/TIME: {0}",
+    "english": "TIME: {0}",
+    "polish": "CZAS: {0}",
+    "context": "label + value set by code; keep {0}"
+  },
+  {
+    "key": "fmt/BEST TIME: {0}",
+    "english": "BEST TIME: {0}",
+    "polish": "NAJLEPSZY CZAS: {0}",
+    "context": "label + value set by code; keep {0}"
+  },
+  {
+    "key": "fmt/SLOWMOTION: {0}",
+    "english": "SLOWMOTION: {0}",
+    "polish": "SPOWOLNIENIE: {0}",
+    "context": "label + value set by code; keep {0}"
+  },
+  {
+    "key": "fmt/DEATHS: {0}",
+    "english": "DEATHS: {0}",
+    "polish": "ZGONY: {0}",
+    "context": "label + value set by code; keep {0}"
+  },
+  {
+    "key": "fmt/ENEMIES KILLED: {0}",
+    "english": "ENEMIES KILLED: {0}",
+    "polish": "ZABICI WROGOWIE: {0}",
+    "context": "label + value set by code; keep {0}"
+  },
+  {
+    "key": "fmt/SHOTS FIRED: {0}",
+    "english": "SHOTS FIRED: {0}",
+    "polish": "ODDANE STRZAŁY: {0}",
+    "context": "label + value set by code; keep {0}"
+  },
+  {
+    "key": "fmt/WEAPONS PICKED UP: {0}",
+    "english": "WEAPONS PICKED UP: {0}",
+    "polish": "PODNIESIONA BROŃ: {0}",
+    "context": "label + value set by code; keep {0}"
+  },
+  {
+    "key": "fmt/SHOTS MISSED: {0}",
+    "english": "SHOTS MISSED: {0}",
+    "polish": "PUDŁA: {0}",
+    "context": "label + value set by code; keep {0}"
+  },
+  {
+    "key": "fmt/TOTAL TIME: {0}",
+    "english": "TOTAL TIME: {0}",
+    "polish": "CZAS ŁĄCZNIE: {0}",
+    "context": "label + value set by code; keep {0}"
+  },
+  {
+    "key": "fmt/DIVES: {0}",
+    "english": "DIVES: {0}",
+    "polish": "UNIKI: {0}",
+    "context": "label + value set by code; keep {0}"
+  },
+  {
+    "key": "fmt/DOORS DESTROYED: {0}",
+    "english": "DOORS DESTROYED: {0}",
+    "polish": "ROZWALONE DRZWI: {0}",
+    "context": "label + value set by code; keep {0}"
+  },
+  {
+    "key": "fmt/TOTAL ENEMIES KILLED: {0}",
+    "english": "TOTAL ENEMIES KILLED: {0}",
+    "polish": "ZABICI WROGOWIE ŁĄCZNIE: {0}",
+    "context": "label + value set by code; keep {0}"
+  },
+  {
+    "key": "fmt/UNLOCK {0}?",
+    "english": "UNLOCK {0}?",
+    "polish": "ODBLOKOWAĆ: {0}?",
+    "context": "label + value set by code; keep {0}"
+  },
+  {
+    "key": "fmt/CLEAR LEVEL UNDER {0}",
+    "english": "CLEAR LEVEL UNDER {0}",
+    "polish": "UKOŃCZ POZIOM W MNIEJ NIŻ {0}",
+    "context": "label + value set by code; keep {0}"
+  },
+  {
+    "key": "rewired/_yes",
+    "english": "Yes",
+    "polish": "Tak",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_no",
+    "english": "No",
+    "polish": "Nie",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_add",
+    "english": "Add",
+    "polish": "Dodaj",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_replace",
+    "english": "Replace",
+    "polish": "Zastąp",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_remove",
+    "english": "Remove",
+    "polish": "Usuń",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_swap",
+    "english": "Swap",
+    "polish": "Zamień",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_cancel",
+    "english": "Cancel",
+    "polish": "Anuluj",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_none",
+    "english": "None",
+    "polish": "Brak",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_okay",
+    "english": "Okay",
+    "polish": "OK",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_done",
+    "english": "Done",
+    "polish": "Gotowe",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_default",
+    "english": "Default",
+    "polish": "Domyślne",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_assignControllerWindowTitle",
+    "english": "Choose Controller",
+    "polish": "Wybierz kontroler",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_assignControllerWindowMessage",
+    "english": "Press any button or move an axis on the controller you would like to use.",
+    "polish": "Naciśnij dowolny przycisk lub porusz gałką na kontrolerze, którego chcesz używać.",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_controllerAssignmentConflictWindowTitle",
+    "english": "Controller Assignment",
+    "polish": "Przypisanie kontrolera",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_controllerAssignmentConflictWindowMessage",
+    "english": "{0} is already assigned to {1}. Do you want to assign this controller to {2} instead?",
+    "polish": "Kontroler {0} jest już przypisany (gracz: {1}). Przypisać go zamiast tego do: {2}?",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_elementAssignmentPrePollingWindowMessage",
+    "english": "First center or zero all sticks and axes and press any button or wait for the timer to finish.",
+    "polish": "Najpierw ustaw wszystkie gałki i osie w pozycji środkowej, a potem naciśnij dowolny przycisk lub zaczekaj, aż minie czas.",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_joystickElementAssignmentPollingWindowMessage",
+    "english": "Now press a button or move an axis to assign it to {0}.",
+    "polish": "Teraz naciśnij przycisk lub porusz osią, aby przypisać: {0}.",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_joystickElementAssignmentPollingWindowMessage_fullAxisFieldOnly",
+    "english": "Now move an axis to assign it to {0}.",
+    "polish": "Teraz porusz osią, aby przypisać: {0}.",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_keyboardElementAssignmentPollingWindowMessage",
+    "english": "Press a key to assign it to {0}. Modifier keys may also be used. To assign a modifier key alone, hold it down for 1 second.",
+    "polish": "Naciśnij klawisz, aby przypisać: {0}. Można też użyć klawiszy modyfikujących. Aby przypisać sam modyfikator, przytrzymaj go przez sekundę.",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_mouseElementAssignmentPollingWindowMessage",
+    "english": "Press a mouse button or move an axis to assign it to {0}.",
+    "polish": "Naciśnij przycisk myszy lub porusz nią, aby przypisać: {0}.",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_mouseElementAssignmentPollingWindowMessage_fullAxisFieldOnly",
+    "english": "Move an axis to assign it to {0}.",
+    "polish": "Porusz myszą, aby przypisać: {0}.",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_elementAssignmentConflictWindowMessage",
+    "english": "Assignment Conflict",
+    "polish": "Konflikt przypisań",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_elementAlreadyInUseBlocked",
+    "english": "{0} is already in use cannot be replaced.",
+    "polish": "{0} – już używane, nie można zamienić.",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_elementAlreadyInUseCanReplace",
+    "english": "{0} is already in use. Do you want to replace it?",
+    "polish": "{0} – już używane. Zamienić?",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_elementAlreadyInUseCanReplace_conflictAllowed",
+    "english": "{0} is already in use. Do you want to replace it? You may also choose to add the assignment anyway.",
+    "polish": "{0} – już używane. Zamienić? Możesz też mimo to dodać przypisanie.",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_mouseAssignmentConflictWindowTitle",
+    "english": "Mouse Assignment",
+    "polish": "Przypisanie myszy",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_mouseAssignmentConflictWindowMessage",
+    "english": "The mouse is already assigned to {0}. Do you want to assign the mouse to {1} instead?",
+    "polish": "Mysz jest już przypisana (gracz: {0}). Przypisać ją zamiast tego do: {1}?",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_calibrateControllerWindowTitle",
+    "english": "Calibrate Controller",
+    "polish": "Kalibracja kontrolera",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_calibrateAxisStep1WindowTitle",
+    "english": "Calibrate Zero",
+    "polish": "Kalibracja środka",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_calibrateAxisStep1WindowMessage",
+    "english": "Center or zero {0} and press any button or wait for the timer to finish.",
+    "polish": "Ustaw {0} w pozycji środkowej i naciśnij dowolny przycisk lub zaczekaj, aż minie czas.",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_calibrateAxisStep2WindowTitle",
+    "english": "Calibrate Range",
+    "polish": "Kalibracja zakresu",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_calibrateAxisStep2WindowMessage",
+    "english": "Move {0} through its entire range then press any button or wait for the timer to finish.",
+    "polish": "Porusz {0} w całym zakresie, a potem naciśnij dowolny przycisk lub zaczekaj, aż minie czas.",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_inputBehaviorSettingsWindowTitle",
+    "english": "Sensitivity Settings",
+    "polish": "Ustawienia czułości",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_restoreDefaultsWindowTitle",
+    "english": "Restore Defaults",
+    "polish": "Przywróć domyślne",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_restoreDefaultsWindowMessage_onePlayer",
+    "english": "This will restore the default input configuration. Are you sure you want to do this?",
+    "polish": "Przywrócisz domyślne ustawienia sterowania. Na pewno?",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_restoreDefaultsWindowMessage_multiPlayer",
+    "english": "This will restore the default input configuration for all players. Are you sure you want to do this?",
+    "polish": "Przywrócisz domyślne ustawienia sterowania dla wszystkich graczy. Na pewno?",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_actionColumnLabel",
+    "english": "Actions",
+    "polish": "Akcje",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_keyboardColumnLabel",
+    "english": "Keyboard",
+    "polish": "Klawiatura",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_mouseColumnLabel",
+    "english": "Mouse",
+    "polish": "Mysz",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_controllerColumnLabel",
+    "english": "Controller",
+    "polish": "Kontroler",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_removeControllerButtonLabel",
+    "english": "Remove",
+    "polish": "Usuń",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_calibrateControllerButtonLabel",
+    "english": "Calibrate",
+    "polish": "Kalibruj",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_assignControllerButtonLabel",
+    "english": "Assign Controller",
+    "polish": "Przypisz kontroler",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_inputBehaviorSettingsButtonLabel",
+    "english": "Sensitivity",
+    "polish": "Czułość",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_doneButtonLabel",
+    "english": "Done",
+    "polish": "Gotowe",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_restoreDefaultsButtonLabel",
+    "english": "Restore Defaults",
+    "polish": "Przywróć domyślne",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_playersGroupLabel",
+    "english": "Players:",
+    "polish": "Gracze:",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_controllerSettingsGroupLabel",
+    "english": "Controller:",
+    "polish": "Kontroler:",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_assignedControllersGroupLabel",
+    "english": "Assigned Controllers:",
+    "polish": "Przypisane kontrolery:",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_settingsGroupLabel",
+    "english": "Settings:",
+    "polish": "Ustawienia:",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_mapCategoriesGroupLabel",
+    "english": "Categories:",
+    "polish": "Kategorie:",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_calibrateWindow_deadZoneSliderLabel",
+    "english": "Dead Zone:",
+    "polish": "Martwa strefa:",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_calibrateWindow_zeroSliderLabel",
+    "english": "Zero:",
+    "polish": "Zero:",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_calibrateWindow_sensitivitySliderLabel",
+    "english": "Sensitivity:",
+    "polish": "Czułość:",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_calibrateWindow_invertToggleLabel",
+    "english": "Invert",
+    "polish": "Odwróć",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  },
+  {
+    "key": "rewired/_calibrateWindow_calibrateButtonLabel",
+    "english": "Calibrate",
+    "polish": "Kalibruj",
+    "context": "control mapper (Rewired); {n} = inserted name"
+  }
+]

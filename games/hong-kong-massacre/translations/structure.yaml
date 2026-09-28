@@ -1,0 +1,257 @@
+# The Hong Kong Massacre: groups and sequences for the review workspace.
+# Format: docs/workspace.md. Sequences follow Dialogue System links; speakers from the
+# entries' Actor field.
+
+format: 1
+
+groups:
+  - {id: dialogue, name: Rozmowy}
+  - {id: barks, name: Groźby bossów i przechodnie}
+  - {id: levels, name: Tytuły poziomów i plansze z datami}
+  - {id: menu, name: Menu i nawigacja}
+  - {id: settings, name: Ustawienia i sterowanie}
+  - {id: tutorial, name: Samouczek i podpowiedzi}
+  - {id: game, name: "Rozgrywka, broń i wyniki"}
+
+# Manual assignments; they beat rules.
+assign:
+  - {key: "ui/GRAPHIC QUALITY", group: settings}
+  - {key: "ui/RESOLUTION", group: settings}
+  - {key: "ui/FULLSCREEN", group: settings}
+  - {key: "ui/V-SYNC", group: settings}
+  - {key: "ui/MUSIC VOLUME", group: settings}
+  - {key: "ui/MUSIC VOMLUME", group: settings}
+  - {key: "ui/SOUND VOLUME", group: settings}
+  - {key: "ui/AIM SENSITIVITY", group: settings}
+  - {key: "ui/MOUSE MODE", group: settings}
+  - {key: "ui/CROSSHAIR COLOR", group: settings}
+  - {key: "ui/SLOW-MOTION AIM", group: settings}
+  - {key: "ui/CONTROLS", group: settings}
+  - {key: "ui/GAME & SOUND", group: settings}
+  - {key: "ui/MUSIC OFF", group: settings}
+  - {key: "ui/HIGH", group: settings}
+  - {key: "ui/Restore Defaults", group: settings}
+  - {key: "ui/Assign Controller", group: settings}
+  - {key: "ui/Players:", group: settings}
+  - {key: "ui/Categories:", group: settings}
+  - {key: "ui/Done", group: settings}
+  - {key: "ui/Calibrate", group: settings}
+  - {key: "ui/Assigned Controllers:", group: settings}
+  - {key: "ui/Controller:", group: settings}
+  - {key: "ui/Settings:", group: settings}
+  - {key: "ui/Zero:", group: settings}
+  - {key: "ui/Dead Zone:", group: settings}
+  - {key: "ui/Sensitivity:", group: settings}
+  - {key: "ui/Cancel", group: settings}
+  - {key: "ui/Invert", group: settings}
+  - {key: "ui/Default", group: settings}
+  - {key: "ui/None", group: settings}
+  - {key: "ui/Remove", group: settings}
+  - {key: "ui/NO CONTROLLER FOUND\nRECONNECT A CONTROLLER TO CONTINUE", group: settings}
+  - {key: "ui/YOU CAN NOW PLAY THE GAME WITH YOUR CONTROLLER", group: settings}
+  - {key: "ui/ACTIONS", group: settings}
+  - {key: "ui/FIRE WEAPON:", group: settings}
+  - {key: "ui/DIVE/DODGE:", group: settings}
+  - {key: "ui/SLOWMOTION (HOLD) :", group: settings}
+  - {key: "ui/MOVEMENT", group: settings}
+  - {key: "ui/USE\t\t\t\t\t\tTO JUMP BETWEEN BUILDINGS\t", group: tutorial}
+  - {key: "ui/USE YOUR SLOWMOTION IF YOU END UP IN A CROWDED SITUATION", group: tutorial}
+  - {key: "ui/USE \t\t\t\tTO MOVE \t\t\t\t\t\tTO AIM", group: tutorial}
+  - {key: "ui/USE \t          \t\t\t       TO MOVE \t\t\t\t\t\tTO AIM", group: tutorial}
+  - {key: "ui/USE EARNED\t\t\t\t\t TO BUY AND UPGRADE WEAPONS", group: tutorial}
+  - {key: "ui/USER RANK", group: tutorial}
+  - {key: "ui/MOVE", group: tutorial}
+  - {key: "ui/AIM", group: tutorial}
+  - {key: "ui/JUMPING", group: tutorial}
+  - {key: "ui/SKIP", group: tutorial}
+  - {key: "ui/ANSWER THE PHONE", group: tutorial}
+  - {key: "ui/TALK", group: tutorial}
+
+# First match wins; the rest goes to "Do uporządkowania".
+rules:
+  - {group: barks, match: '^dlg/(Boss_|People Around)'}
+  - {group: dialogue, match: '^dlg/'}
+  - {group: dialogue, context: '^speaker label'}
+  - {group: settings, match: '^rewired/'}
+  - {group: settings, context: '^dropdown option'}
+  - {group: levels, context: '^(level title|level location|boss epithet|intro card|conversation card)'}
+  - {group: tutorial, context: '^loading tip'}
+  - {group: game, match: '^fmt/'}
+  - {group: game, context: '^weapon name'}
+  - {group: game, context: '^label \((resources|sharedassets3)\.assets\)'}
+  - {group: menu, match: '^ui/'}
+
+sequences:
+  - id: police-02
+    name: "Przesłuchanie 2: przeszłość detektywa"
+    group: dialogue
+    order: {certainty: certain, source: 'połączenia wpisów w bazie Dialogue System'}
+    speakers: {certainty: certain, source: 'pole Actor w bazie; bohater milczy'}
+    lines:
+      - {key: "dlg/POLICE 02/3", speaker: officer}
+      - {key: "dlg/POLICE 02/4", speaker: officer}
+      - {key: "dlg/POLICE 02/5", speaker: officer}
+      - {key: "dlg/POLICE 02/6", speaker: officer}
+      - {key: "dlg/POLICE 02/7", speaker: officer}
+      - {key: "dlg/POLICE 02/8", speaker: officer}
+      - {key: "dlg/POLICE 02/9", speaker: officer}
+      - {key: "dlg/POLICE 02/10", speaker: officer}
+  - id: bar-c1-01
+    name: "Bar: powrót"
+    group: dialogue
+    order: {certainty: certain, source: 'połączenia wpisów w bazie Dialogue System'}
+    speakers: {certainty: certain, source: 'pole Actor w bazie; bohater milczy'}
+    lines:
+      - {key: "dlg/BAR c1 01/3", speaker: bartender}
+      - {key: "dlg/BAR c1 01/4", speaker: bartender}
+      - {key: "dlg/BAR c1 01/5", speaker: bartender}
+      - {key: "dlg/BAR c1 01/6", speaker: bartender}
+      - {key: "dlg/BAR c1 01/7", speaker: bartender}
+      - {key: "dlg/BAR c1 01/8", speaker: bartender}
+  - id: police-01
+    name: "Przesłuchanie 1: przylot i herbaciarnia"
+    group: dialogue
+    order: {certainty: certain, source: 'połączenia wpisów w bazie Dialogue System'}
+    speakers: {certainty: certain, source: 'pole Actor w bazie; bohater milczy'}
+    lines:
+      - {key: "dlg/POLICE 01/3", speaker: officer}
+      - {key: "dlg/POLICE 01/4", speaker: officer}
+      - {key: "dlg/POLICE 01/5", speaker: officer}
+      - {key: "dlg/POLICE 01/6", speaker: officer}
+      - {key: "dlg/POLICE 01/7", speaker: officer}
+      - {key: "dlg/POLICE 01/8", speaker: officer}
+      - {key: "dlg/POLICE 01/9", speaker: officer}
+      - {key: "dlg/POLICE 01/10", speaker: officer}
+  - id: bar-c3-03-b
+    name: "Bar: pan Tequila"
+    group: dialogue
+    order: {certainty: certain, source: 'połączenia wpisów w bazie Dialogue System'}
+    speakers: {certainty: certain, source: 'pole Actor w bazie; bohater milczy'}
+    lines:
+      - {key: "dlg/BAR  c3 03_B/3", speaker: bartender}
+      - {key: "dlg/BAR  c3 03_B/4", speaker: bartender}
+      - {key: "dlg/BAR  c3 03_B/5", speaker: bartender}
+  - id: police-03
+    name: "Przesłuchanie 3: papieros i wesele"
+    group: dialogue
+    order: {certainty: certain, source: 'połączenia wpisów w bazie Dialogue System'}
+    speakers: {certainty: certain, source: 'pole Actor w bazie; bohater milczy'}
+    lines:
+      - {key: "dlg/POLICE 03/3", speaker: officer}
+      - {key: "dlg/POLICE 03/4", speaker: officer}
+      - {key: "dlg/POLICE 03/5", speaker: officer}
+      - {key: "dlg/POLICE 03/6", speaker: officer}
+      - {key: "dlg/POLICE 03/7", speaker: officer}
+      - {key: "dlg/POLICE 03/8", speaker: officer}
+      - {key: "dlg/POLICE 03/9", speaker: officer}
+      - {key: "dlg/POLICE 03/10", speaker: officer}
+  - id: police-04-tmpe
+    name: "Przesłuchanie 4: pierwszy partner"
+    group: dialogue
+    order: {certainty: certain, source: 'połączenia wpisów w bazie Dialogue System'}
+    speakers: {certainty: certain, source: 'pole Actor w bazie; bohater milczy'}
+    lines:
+      - {key: "dlg/POLICE 04 TMPE/3", speaker: officer}
+      - {key: "dlg/POLICE 04 TMPE/4", speaker: officer}
+      - {key: "dlg/POLICE 04 TMPE/5", speaker: officer}
+      - {key: "dlg/POLICE 04 TMPE/6", speaker: officer}
+      - {key: "dlg/POLICE 04 TMPE/7", speaker: officer}
+      - {key: "dlg/POLICE 04 TMPE/8", speaker: officer}
+      - {key: "dlg/POLICE 04 TMPE/9", speaker: officer}
+      - {key: "dlg/POLICE 04 TMPE/10", speaker: officer}
+      - {key: "dlg/POLICE 04 TMPE/11", speaker: officer}
+      - {key: "dlg/POLICE 04 TMPE/12", speaker: officer}
+  - id: bar-c5-01-disco
+    name: "Disco Shou"
+    group: dialogue
+    order: {certainty: certain, source: 'połączenia wpisów w bazie Dialogue System'}
+    speakers: {certainty: certain, source: 'pole Actor w bazie; bohater milczy'}
+    lines:
+      - {key: "dlg/BAR  c5 01 disco/3", speaker: disco}
+      - {key: "dlg/BAR  c5 01 disco/4", speaker: disco}
+      - {key: "dlg/BAR  c5 01 disco/5", speaker: disco}
+      - {key: "dlg/BAR  c5 01 disco/6", speaker: disco}
+      - {key: "dlg/BAR  c5 01 disco/7", speaker: disco}
+  - id: police-05
+    name: "Przesłuchanie 5: atak na posterunek"
+    group: dialogue
+    order: {certainty: certain, source: 'połączenia wpisów w bazie Dialogue System'}
+    speakers: {certainty: certain, source: 'pole Actor w bazie; bohater milczy'}
+    lines:
+      - {key: "dlg/POLICE 05/3", speaker: officer}
+      - {key: "dlg/POLICE 05/4", speaker: officer}
+      - {key: "dlg/POLICE 05/5", speaker: officer}
+      - {key: "dlg/POLICE 05/6", speaker: officer}
+      - {key: "dlg/POLICE 05/7", speaker: officer}
+      - {key: "dlg/POLICE 05/8", speaker: officer}
+  - id: bar-c5-dead
+    name: "Bar: śmierć barmana"
+    group: dialogue
+    order: {certainty: certain, source: 'połączenia wpisów w bazie Dialogue System'}
+    speakers: {certainty: certain, source: 'pole Actor w bazie; bohater milczy'}
+    lines:
+      - {key: "dlg/BAR c5 Dead/3", speaker: bartender}
+      - {key: "dlg/BAR c5 Dead/4", speaker: bartender}
+      - {key: "dlg/BAR c5 Dead/5", speaker: bartender}
+      - {key: "dlg/BAR c5 Dead/6", speaker: bartender}
+      - {key: "dlg/BAR c5 Dead/7", speaker: bartender}
+  - id: bar-c4-01
+    name: "Bar: wiadomości i toast"
+    group: dialogue
+    order: {certainty: certain, source: 'połączenia wpisów w bazie Dialogue System'}
+    speakers: {certainty: certain, source: 'pole Actor w bazie; bohater milczy'}
+    lines:
+      - {key: "dlg/BAR  c4 01/3", speaker: bartender}
+      - {key: "dlg/BAR  c4 01/4", speaker: bartender}
+      - {key: "dlg/BAR  c4 01/5", speaker: bartender}
+      - {key: "dlg/BAR  c4 01/6", speaker: bartender}
+      - {key: "dlg/BAR  c4 01/7", speaker: bartender}
+      - {key: "dlg/BAR  c4 01/8", speaker: bartender}
+      - {key: "dlg/BAR  c4 01/9", speaker: bartender}
+      - {key: "dlg/BAR  c4 01/10", speaker: bartender}
+      - {key: "dlg/BAR  c4 01/11", speaker: bartender}
+      - {key: "dlg/BAR  c4 01/12", speaker: bartender}
+      - {key: "dlg/BAR  c4 01/13", speaker: bartender}
+  - id: bar-c1-02
+    name: "Bar: sekret old fashioned"
+    group: dialogue
+    order: {certainty: certain, source: 'połączenia wpisów w bazie Dialogue System'}
+    speakers: {certainty: certain, source: 'pole Actor w bazie; bohater milczy'}
+    lines:
+      - {key: "dlg/BAR  c1 02/3", speaker: bartender}
+      - {key: "dlg/BAR  c1 02/4", speaker: bartender}
+      - {key: "dlg/BAR  c1 02/5", speaker: bartender}
+      - {key: "dlg/BAR  c1 02/6", speaker: bartender}
+      - {key: "dlg/BAR  c1 02/7", speaker: bartender}
+      - {key: "dlg/BAR  c1 02/8", speaker: bartender}
+      - {key: "dlg/BAR  c1 02/9", speaker: bartender}
+      - {key: "dlg/BAR  c1 02/10", speaker: bartender}
+  - id: bar-c2-03-b
+    name: "Kuchnia: kucharz Lung"
+    group: dialogue
+    order: {certainty: certain, source: 'połączenia wpisów w bazie Dialogue System'}
+    speakers: {certainty: certain, source: 'pole Actor w bazie; bohater milczy'}
+    lines:
+      - {key: "dlg/BAR c2 03_B/3", speaker: chef}
+      - {key: "dlg/BAR c2 03_B/4", speaker: chef}
+      - {key: "dlg/BAR c2 03_B/5", speaker: chef}
+      - {key: "dlg/BAR c2 03_B/6", speaker: chef}
+      - {key: "dlg/BAR c2 03_B/7", speaker: chef}
+      - {key: "dlg/BAR c2 03_B/8", speaker: chef}
+  - id: bar-c3-03-c
+    name: "Ulica: pan Tequila"
+    group: dialogue
+    order: {certainty: certain, source: 'połączenia wpisów w bazie Dialogue System'}
+    speakers: {certainty: certain, source: 'pole Actor w bazie; bohater milczy'}
+    lines:
+      - {key: "dlg/BAR  c3 03_C/3", speaker: tequila}
+      - {key: "dlg/BAR  c3 03_C/4", speaker: tequila}
+      - {key: "dlg/BAR  c3 03_C/5", speaker: tequila}
+      - {key: "dlg/BAR  c3 03_C/6", speaker: tequila}
+      - {key: "dlg/BAR  c3 03_C/7", speaker: tequila}
+      - {key: "dlg/BAR  c3 03_C/8", speaker: tequila}
+      - {key: "dlg/BAR  c3 03_C/9", speaker: tequila}
+      - {key: "dlg/BAR  c3 03_C/10", speaker: tequila}
+      - {key: "dlg/BAR  c3 03_C/11", speaker: tequila}
+      - {key: "dlg/BAR  c3 03_C/12", speaker: tequila}
+      - {key: "dlg/BAR  c3 03_C/13", speaker: tequila}

@@ -1,0 +1,143 @@
+sources:
+  - id: db
+    description: >-
+      Dialogue System database "THKM" (sharedassets50.assets 367, Articy import); key
+      dlg/<conversation title>/<entry id>; speaker from the entry's Actor field.
+  - id: levels
+    description: LevelItemData objects (sharedassets0.assets); key level/<field>/<english>.
+  - id: ui
+    description: UnityEngine.UI.Text labels in scenes/prefabs and hardcoded strings in Assembly-CSharp.
+  - id: direction
+    description: docs/decisions.md; sample before the vertical, three topics settled by the user 2026-09-28.
+  - id: wiki
+    description: Wikipedia, "follows a former police detective as he sets out to exact revenge"
+    url: https://en.wikipedia.org/wiki/The_Hong_Kong_Massacre
+
+style:
+  tone: >-
+    Hong Kong heroic-bloodshed noir, early 90s. Plain, tough, short sentences; warmth only between
+    old friends. No modern slang or memes.
+  adaptation: >-
+    Text only (no speech among the game's audio clips, dialogue entries have no audio): free
+    editing within meaning, facts and emotion. The English is non-native (typos, "let us",
+    "I can not", "old fashion"): translate the intended meaning into natural Polish; stiffness is
+    not a voice trait. Level titles are transcreated (film references via Polish titles).
+    Profanity at the original's strength.
+  reading_conditions: >-
+    Dialogue in the interrogation room and bar hub: typewriter 50 chars/s, no combat; click or
+    auto-advance to test. Boss taunts: when and how long they show, to test. Level title and
+    location on the level card; menus all caps.
+  technical: >-
+    UI all caps as in the original. Stat labels keep "LABEL: value" (no plural forms).
+    „Hongkong” one word; dates „14 czerwca 1992”, in caps „14 CZERWCA 1992”.
+  source: user
+  note: >-
+    User 2026-09-28 accepted: interrogator says ty (rejected pan), level titles translated
+    (rejected English), triad and boss epithets translated (rejected English).
+
+characters:
+  - id: hero
+    name: bohater (Fong Yyuen in the actor list; never named in visible text)
+    gender: m
+    register: silent; everyone addresses him as ty
+    source: [wiki, db]
+  - id: officer
+    name: Siu-Wong Lo (actor "Police Officer")
+    gender: m
+    addresses_player: ty
+    register: >-
+      Protocol lines dictated for the record are impersonal („Obecni: …”, „Początek
+      przesłuchania: …”); otherwise plain, tired veteran, gradually friendly.
+    declension: Siu-Wong Lo indeclinable ("funkcjonariusz Siu-Wong Lo")
+    source: [db, direction]
+    note: >-
+      Gender not stated in the text; masculine is a decision, check the model in game.
+      "Siu-Wong Lo sent you" (Disco Shou) after he helps the hero escape = the interrogator.
+    examples:
+      - key: dlg/POLICE 01/6
+        en: So let us start at the beginning. We know that you came back to Hong Kong on June 10, arriving at 17:15 with flight 1435 from Bolivia.
+        pl: Zacznijmy od początku. Wiemy, że wróciłeś do Hongkongu 10 czerwca o 17:15, lotem 1435 z Boliwii.
+        source: user
+      - key: dlg/POLICE 05/6
+        en: Grab a gun! It is not safe for you here any more!
+        pl: Bierz broń! Nie jesteś tu już bezpieczny!
+        source: user
+  - id: bartender
+    name: Liu Cheng (actor "Bartender"; "Liu Cheng's restaurant/bar")
+    gender: m
+    addresses_player: ty
+    register: warm childhood friend ("brothers for life"), talkative, toasts, family legends
+    source: [db]
+    note: Masculine is a decision (brothers for life, EN gives no pronoun).
+    examples:
+      - key: dlg/BAR c1 01/3
+        en: Welcome back, I have been waiting for you.
+        pl: No, jesteś wreszcie. Czekałem na ciebie.
+        source: decision
+  - id: tequila
+    name: Pan Tequila (Mr Tequila)
+    gender: m
+    register: drunk homeless man, speaks of himself in the third person, childlike ("złe wilki")
+    source: [db]
+    examples:
+      - key: dlg/BAR  c3 03_C/3
+        en: Me Tequila! That is Mr Tequila by the way.
+        pl: Ja Tequila! Znaczy się, pan Tequila.
+        source: decision
+  - id: disco
+    name: Disco Shou (actor record "Disco Cho"; lines say Shou)
+    gender: m
+    register: talks in disco song quotes; Polish rhythmical disco slang, not literal lyrics; scat kept
+    source: [db]
+  - id: chef
+    name: kucharz Lung (Chef Lung; label „Kucharz Lung”, dialogue „do kucharza Lunga”)
+    gender: m
+    register: quiet, bitter; brother executed by Chang Wong
+    source: [db]
+  - id: bosses
+    name: Waise Chow (SZCZUR), Chang Wong (TYGRYS), Kenneth Suk-wah (PIES), Leung Cheh (WĄŻ), Anthony „Boss” Tsang (SMOK)
+    gender: m
+    register: short taunts; "dirty pig" to the ex-cop = „parszywy psie”
+    source: [levels, db, direction]
+
+terms:
+  - en: Two Headed Dragon
+    pl: Dwugłowy Smok
+    forms: [Dwugłow, Smok, DWUGŁOW, SMOK]
+    source: user
+    note: triad; rejected English
+  - en: old fashion(ed)?
+    pl: old fashioned
+    forms: [old fashioned]
+    source: decision
+    note: cocktail keeps its real name, spelled correctly
+  - en: triad
+    pl: triada
+    forms: [triad]
+    source: decision
+  - en: slow-?motion
+    pl: spowolnienie
+    forms: [spowolni, SPOWOLNI]
+    source: decision
+    note: bullet-time mechanic
+  - en: dive
+    pl: unik
+    forms: [unik, UNIK]
+    source: decision
+    note: dive/dodge; one term in tips and controls
+  - en: upgrade
+    pl: ulepszenie
+    forms: [ulepsz, ULEPSZ]
+    source: decision
+
+keep_english: [Hong Kong Massacre, Disco Inferno, Double Fortune, Red Dragon, Kowloon, Siu-Wong Lo, Tequila, VRESKI, Professor Kliq, Beretta, Kliq, START, TOP 100, RESTART, CHOW YUN FAT, 'Zero:']
+
+settings:
+  dialog_key: '^dlg/'
+
+ignore:
+  - {check: english, key: 'dlg/BAR  c5 01 disco/7', reason: scat singing kept as is}
+  - {check: plurals, key: 'rewired/_controllerAssignmentConflictWindowMessage', reason: placeholders are controller and player names}
+  - {check: plurals, key: 'rewired/_elementAlreadyInUseBlocked', reason: placeholder is a key or button name}
+  - {check: plurals, key: 'rewired/_elementAlreadyInUseCanReplace', reason: placeholder is a key or button name}
+  - {check: plurals, key: 'rewired/_elementAlreadyInUseCanReplace_conflictAllowed', reason: placeholder is a key or button name}
