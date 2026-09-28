@@ -1,0 +1,147 @@
+sources:
+  - id: keys
+    description: 'I2 term names carry scene, line number and speaker: "EPE Cutscene Subtitles/05_TruthOrDare - 5 - James"'
+  - id: credits
+    description: 'I2 "EPE Credits/Normal Credits": VOCAL TALENT Xalavier Nelson Jr. – James Savage, Elevator, etc.; Emme Montgomery – Draculae'
+  - id: wiki
+    description: Premise, James as an addicted vampire hunter, Draculae his ex, lord of the vampires
+    url: https://en.wikipedia.org/wiki/El_Paso,_Elsewhere
+  - id: story
+    description: 'Facts from the text itself: 12_WhatIf (graveyard confession), 21_Djedefre (Zimforth, tether), BURNING_DESIRE (Janet turned by Djedefre), 35_MeatManor (typhoid, Victorian family)'
+
+style:
+  tone: noir monologue (Max Payne), short fragments, repetition, dry self-irony over grief; present tense in cutscenes, past tense on quit screens
+  adaptation: fully voiced in English (credits) → close to the recording; profanity at the same strength; keep fragments and stammers ("I--", "Dive--focus--")
+  reading_conditions: subtitles timed to voice, auto-dismiss; level lines and barks during combat; long sentences split over consecutive entries, each piece translated so it still reads on its own
+  tags: 'speaker tags translated: [Past James]/[Past Draculae] = [Dawny James]/[Dawna Draculae], [Hostage] = [Zakładnik], [Radio Cop] = [Radiowy glina], [???] kept; sound tags as nouns or 3rd person ([Chichot], [Wzdycha], [Cisza])'
+  source: decision
+  note: starting point from the direction sample (docs/decisions.md); topics 1–3 settled by the user 2026-09-28
+
+characters:
+  - id: james
+    name: James Savage
+    gender: m
+    key: ' - James$'
+    addresses_player: '-'
+    register: noir narrator, plain words, swears hard when it breaks through ("Fuck. FUCK."), jokes at his own expense
+    examples:
+      - {key: 'EPE Cutscene Subtitles/02_BelieveMe - 17 - James', en: "I'm the addict, by the way. Hi.", pl: 'Ten uzależniony to ja, tak przy okazji. Cześć.'}
+      - {key: 'EPE Cutscene Subtitles/02_BelieveMe - 5 - James', en: 'Fuck. FUCK.', pl: 'Kurwa. KURWA.'}
+      - {key: 'EPE Cutscene Subtitles/20_WhyAreYouHere - 42 - James', en: 'still remembering that one. Good. Fucking. Day.', pl: 'wciąż pamiętając ten jeden. Dobry. Pierdolony. Dzień.'}
+    source: [keys, credits]
+  - id: draculae
+    name: Draculae (Janet Drake)
+    gender: f
+    key: ' - Draculae$|DraculaeJames$'
+    addresses_player: '-'
+    register: James' ex; "ty" with him; controlled, precise, cruel under warmth; as young Janet (1800s) formal, period diction
+    declension: indeclinable ("z Draculae"); Janet declines ("Janet" indeclinable feminine)
+    examples:
+      - {key: 'EPE Cutscene Subtitles/35_EndingBad - 23 - Draculae', en: 'You are a fucking poor excuse for a saint, James Savage.', pl: 'Jesteś żałosną, kurwa, podróbką świętego, Jamesie Savage.'}
+    source: [keys, credits, wiki]
+  - id: elevator
+    name: Winda (Zimforth, Siła Szczeliny)
+    gender: m
+    key: ' - Elevator$'
+    register: ALL CAPS, mocking, patient; a Force Beyond speaking through the elevator
+    source: [keys, story]
+  - id: pharaoh
+    name: Djedefre ([???] until named)
+    gender: m
+    key: ' - Pharaoh$'
+    register: ancient king, archaic solemn Polish ("mego daru", "Lecz jeśli jesteś")
+    source: [keys, story]
+  - id: hostage
+    name: zakładnicy
+    gender: '?'
+    key: ' - Hostage$'
+    register: frightened pleas; 12 people, men and women (keys _FH/_MH and initials)
+    note: 'lines are shared across hostages → gender-neutral Polish ("Wolność!" for "I''m free!")'
+    source: [keys]
+  - id: pillcop
+    name: Glina na Prochach (Gordon/Gordy)
+    gender: m
+    key: 'Radio_PillCop'
+    register: parody noir radio drama; purple metaphors that collapse into nonsense
+    source: [keys]
+  - id: luis
+    name: Luis
+    gender: m
+    key: '^VOSub_Luis|Radio_Luis'
+    register: nervous everyman from El Paso, Nightmare; clean euphemisms ("motherfricking" → "cholernym")
+    source: [keys]
+
+terms:
+  - en: stakes?
+    pl: kołek
+    forms: [kołk, kołek, kołe]
+    source: decision
+  - en: '\bvoid\b'
+    pl: pustka
+    forms: [pust]
+    source: decision
+    note: ABYSS = otchłań, keep them apart
+  - en: '\bpills?\b'
+    pl: prochy
+    forms: [proch]
+    source: user
+    note: everywhere, barks and UI; rejected "tabletki" (everywhere or UI only)
+  - en: painkillers?
+    pl: prochy
+    forms: [proch]
+    source: user
+    note: same word as the barks ("even as tablets, they're still prochy")
+  - en: one-way trip
+    pl: odlot bez powrotu
+    forms: [odlot]
+    source: user
+    note: keeps the drug double meaning; rejected "podróż w jedną stronę"
+  - en: Max Plank
+    pl: Max Plank
+    source: user
+    note: kept for now; "Nakołkowany" proposed, not taken
+  - en: Forces? Beyond
+    pl: Siła z Zaświatów
+    forms: [Sił, Siła, Siło]
+    source: decision
+  - en: soulsblood
+    pl: krew duszy
+    forms: [krew duszy, krwi duszy]
+    source: decision
+  - en: meat locker
+    pl: chłodnia
+    forms: [chłodni]
+    source: decision
+  - en: Burned Men|burned man
+    pl: Spaleni / spalony
+    forms: [Spalon, spalon]
+    source: decision
+  - en: tether
+    pl: uwięź
+    forms: [uwięz, uwięź]
+    source: decision
+  - en: good boy
+    pl: grzeczny chłopiec
+    forms: [grzeczny chłopiec, Grzeczny chłopiec]
+    source: decision
+    note: Draculae's words, repeated in 20 and 29
+  - en: Pill Cop
+    pl: Glina na Prochach
+    forms: [Glin]
+    source: decision
+    note: follows the user's "prochy" ruling
+
+keep_english: [Max Plank, ESC, TAA, SSAO, Bloom, FPS, System, INFERNO, IN MEMORIAM, Xalavier Nelson Jr., Draculae, Djedefre, James Savage, DM11, DM11s, Strikebreaker, Gullstock, Cavalry, Uzi, El Paso, PURGATORIO, OUROBOROS, VESPER, SENSORIUM, Tab, DING, DJEDE, Florence, Janet, James, JustFeelBetter, QRTXY, Plinkbyte]
+
+settings:
+  dialog_key: 'Subtitles'
+
+ignore:
+  - {check: terms, key: 'Tutorial', reason: '"stake" as a verb ("So I can stake--") is „wbijać”, not the noun „kołek”'}
+  - {check: consistency, key: 'Ticker Message - EPN Tutorial 10', reason: 'tutorial alarm "RUN." = „UCIEKAJ.”; James to a hostage "Run." = „Biegnij.”'}
+  - {check: consistency, key: 'Bark_Rescued', reason: 'see Ticker Message - EPN Tutorial 10'}
+  - {check: capitals, key: 'Subtitles/|Xalavier', reason: 'speaker tags, names, Niebo/Piekło as places'}
+  - {check: gender, key: '20_WhyAreYouHere - 14 - James', reason: 'James quotes Janet („Zapomniałam…”)'}
+  - {check: gender, key: '34_FinalBoss - 11 - Draculae', reason: '„Nie jestem Diabłem”: noun, not a verb form'}
+  - {check: typography, key: 'Credits|DIRECTOR', reason: 'straight quotes belong to nicknames in names'}
+  - {check: english, key: 'Credits|DIRECTOR|JAMES SAVAGE', reason: 'names and asset titles stay'}

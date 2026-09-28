@@ -1,0 +1,50 @@
+EL PASO, ELSEWHERE — Not Geese PL {version} (WERSJA TESTOWA)
+
+Przetłumaczone są wszystkie teksty gry: menu, ustawienia, modyfikatory, HUD,
+samouczek, napisy przerywników i poziomów, zakładnicy, radio, projektory,
+telefony, tryb Koszmar i napisy końcowe (nazwiska bez zmian).
+Dubbing zostaje angielski: napisy muszą być włączone.
+Tłumaczenie maszynowe po przeglądzie; czeka na ogranie i korektę.
+
+INSTALACJA
+1. Zamknij grę.
+2. Wypakuj CAŁĄ zawartość ZIP do katalogu z El Paso Elsewhere.exe.
+   winhttp.dll i doorstop_config.ini mają leżeć obok pliku EXE, nie w *_Data.
+3. Uruchom grę zwykłym skrótem. Pierwszy start z BepInEx trwa dłużej (nawet
+   kilka minut): loader pobiera biblioteki Unity i tworzy lokalne pliki interop.
+   Przy pierwszym starcie potrzebne jest połączenie z internetem.
+4. Gra od razu jest po polsku. Nie ma przełącznika języka.
+
+Jeśli masz już inne mody BepInEx, zachowaj ich konfigurację i kopię loadera
+przed rozpakowaniem. Paczka zawiera BepInEx Unity.IL2CPP x64 6.0.0-pre.2.
+Nie wymaga instalowania osobnego .NET — runtime jest w paczce.
+
+Jeśli gra jest po angielsku, zajrzyj do BepInEx/LogOutput.log.
+Konsola BepInEx jest domyślnie ukryta, log do pliku pozostaje włączony.
+Przy zgłoszeniu dołącz log oraz zrzut problematycznego ekranu.
+
+WYŁĄCZENIE I USUNIĘCIE
+Zamknij grę i usuń folder BepInEx/plugins/notgeeseElPasoElsewhere.
+Gra wraca do angielskiego. Oryginalne pliki gry nie są podmieniane,
+tłumaczenie nie zapisuje się w ustawieniach ani zapisach gry.
+Jeśli był to jedyny mod, można też usunąć DODANE przez tę paczkę:
+BepInEx/, dotnet/, winhttp.dll, doorstop_config.ini, .doorstop_version,
+changelog.txt, BepInEx-LICENSE.txt i READ-ME.txt.
+Nie usuwaj wspólnego loadera ani konfiguracji używanej przez inne mody.
+
+ZGODNOŚĆ I ZAWARTOŚĆ
+Zbudowano na metadanych kopii GOG, buildId 59616601088709653,
+Unity 2021.3.21f1, IL2CPP x64. Wersja Steam nie była sprawdzana.
+Plugin nie wymusza wersji ani sum kontrolnych. W razie niezgodności wyłącza
+własne poprawki z wpisem w logu. Nowe, nieprzetłumaczone wpisy zostają po angielsku.
+Paczka zawiera nasz plugin, polskie teksty i kompletny oficjalny loader.
+Nie zawiera zasobów gry, gotowych interop DLL ani fontów.
+Polskie litery dorysowywane są w pamięci z fontów zainstalowanej gry.
+
+LICENCJE
+Plugin i tłumaczenie: LICENSE-notgeese.txt w katalogu pluginu.
+BepInEx: LGPL-2.1, BepInEx-LICENSE.txt; kod loadera nie jest modyfikowany.
+Źródła dokładnie tej wersji: BepInEx-source-6.0.0-pre.2.zip obok paczki.
+Wydanie: https://github.com/BepInEx/BepInEx/releases/tag/v6.0.0-pre.2
+Źródła: https://github.com/BepInEx/BepInEx/archive/refs/tags/v6.0.0-pre.2.zip
+Pozostałe licencje i informacje o komponentach .NET są w pełnym katalogu dotnet/.

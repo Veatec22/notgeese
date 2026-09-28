@@ -1,0 +1,26 @@
+slug: el-paso-elsewhere
+title: El Paso, Elsewhere
+version: "0.1"
+entries: { done: 2910, total: 2910 }
+tested: partial
+engine: Unity 2021.3.21f1 IL2CPP x64
+approach: Plugin BepInEx IL2CPP podmieniający w pamięci teksty gry na polskie. Polskie litery dorysowywane z fontów gry, bez podmiany zasobów.
+scope: Całość — menu, ustawienia i modyfikatory, HUD, samouczek, napisy przerywników i poziomów, zakładnicy, radio, projektory, telefony, tryb Koszmar i napisy końcowe (nazwiska bez zmian).
+steam_appid: 1546310
+stores:
+  steam: https://store.steampowered.com/app/1546310/
+  gog: https://www.gog.com/en/game/el_paso_elsewhere
+download:
+  kind: zip
+  file: El-Paso-Elsewhere-PL-0.1.zip
+  bytes: 34252044
+tested_on:
+  - store: gog
+    version: "rl1"
+test_notes: Vertical (menus, settings, first cutscenes and tutorial) confirmed by the user. Full translation built and installed locally; the rest of the campaign awaits the in-game test.
+build_input:
+  store: gog
+  build_id: '59616601088709653'
+  unity: 2021.3.21f1
+year: 2023
+gallery: [1, 2, 3, 4, 5]
