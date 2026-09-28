@@ -67,7 +67,7 @@
   {
     "key": "pSpeech0",
     "english": "Shotgun Cop Man is I. Justice or die!",
-    "polish": "Jam jest Shotgun Cop Man! Sprawiedliwość albo śmierć!"
+    "polish": "Shotgun Cop Man imieniem mym! Sprawiedliwość to mój hymn!"
   },
   {
     "key": "pSpeech1",
@@ -92,7 +92,7 @@
   {
     "key": "pSpeech5",
     "english": "You can't escape the long arm of the law!",
-    "polish": "Nie uciekniesz przed długim ramieniem prawa!"
+    "polish": "Przed sprawiedliwością nie uciekniesz!"
   },
   {
     "key": "pSpeech6",
@@ -107,7 +107,7 @@
   {
     "key": "pSpeech8",
     "english": "Go ahead, see if I won't catch up!",
-    "polish": "No dalej, sprawdź, czy cię nie dogonię!"
+    "polish": "Jasne, próbuj dalej – i tak cię złapię!"
   },
   {
     "key": "pSpeech9",
@@ -752,7 +752,7 @@
   {
     "key": "gIntro4",
     "english": "Go to hell.",
-    "polish": "Idź do diabła."
+    "polish": "Idź do piekła."
   },
   {
     "key": "gIntro5",
@@ -1707,7 +1707,7 @@
   {
     "key": "epExploder",
     "english": "Exploder",
-    "polish": "Rozsadzacz"
+    "polish": "Eksploder"
   },
   {
     "key": "epSplinterGun",
@@ -1737,12 +1737,12 @@
   {
     "key": "epTroubleSeeker",
     "english": "Trouble Seeker",
-    "polish": "Szukacz kłopotów"
+    "polish": "Zadymiarz"
   },
   {
     "key": "epZigZag",
     "english": "Zig Zag Zapper",
-    "polish": "Zygzakowy rażacz"
+    "polish": "Piorunujący zygzak"
   },
   {
     "key": "epNoCheckpoint",
@@ -2272,7 +2272,7 @@
   {
     "key": "bcPromoLand",
     "english": "Promo-Land",
-    "polish": "Kraina promocyjna"
+    "polish": "Promolandia"
   },
   {
     "key": "bcPromoLandInfo",
@@ -2377,7 +2377,7 @@
   {
     "key": "PedroDLCSpeech11",
     "english": "Smell that? It's the smell of the portal out of hell.",
-    "polish": "Czujesz to? Tak pachnie portal prowadzący z piekła."
+    "polish": "Czujesz to? To zapach wyjścia z piekła."
   },
   {
     "key": "PedroDLCSpeech12",

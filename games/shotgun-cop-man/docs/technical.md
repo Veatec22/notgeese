@@ -41,7 +41,7 @@ Output: `dist/Shotgun-Cop-Man-PL-<version>.zip` (BepInEx 5.4.23.5 + LICENSE, plu
 ## Tests
 
 - Steam 1.0.4 (`bundleVersion`, build 20572164): language selection and texts confirmed in game.
-  Full playthrough pending.
+  Full playthrough done; user moved the game to `ready` on 2026-09-28 (version 1.0).
 - Out of scope: recorded voices; achievement descriptions shown by the Steam client (not in I2).
 
 ## Game material

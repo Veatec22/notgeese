@@ -1,6 +1,6 @@
 slug: shotgun-cop-man
 title: Shotgun Cop Man
-version: "0.1"
+version: "1.0"
 entries: { done: 485, total: 485 }
 tested: confirmed
 engine: Unity 2022.3.47f1
@@ -18,7 +18,7 @@ quote:
   source:
 download:
   kind: zip
-  file: Shotgun-Cop-Man-PL-0.1.zip
-  bytes: 653748
+  file: Shotgun-Cop-Man-PL-1.0.zip
+  bytes: 653750
 gallery: [1, 2, 3, 4, 5]
-test_notes: Language selection and texts confirmed in game (Steam 1.0.4). Full playthrough pending.
+test_notes: Full playthrough on Steam 1.0.4; moved to ready by the user 2026-09-28.
