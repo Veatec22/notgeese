@@ -1,4 +1,4 @@
-SHOTGUN COP MAN PL 0.1 - PELNE TLUMACZENIE
+SHOTGUN COP MAN PL 1.0 - PELNE TLUMACZENIE
 
 485 wpisow tabeli lokalizacji: menu, sterowanie, samouczek, dialogi, edytor poziomow,
 osiagniecia w grze i odzywki Pedra. Polski jest jedenastym jezykiem, wszystkie

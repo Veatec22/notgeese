@@ -9,6 +9,8 @@ sources:
     description: Our My Friend Pedro PL (games/my-friend-pedro); names from the Pedro DLC
   - id: text
     description: Original game text
+  - id: user
+    description: User rulings from the review workspace (export 2026-09-28); override other sources
 
 characters:
   - id: hero
@@ -16,6 +18,10 @@ characters:
     gender: m
     key: '^pSpeech'
     register: pompous B-movie cop; police formulas, pathos
+    examples:
+      - {key: "pSpeech0", en: "Shotgun Cop Man is I. Justice or die!", pl: "Shotgun Cop Man imieniem mym! Sprawiedliwość to mój hymn!", note: "user ruling: rhymed archaic pathos for the clumsy \"is I\""}
+      - {key: "pSpeech1", en: "Freeze Satan! You're under arrest!", pl: "Stój, Szatanie! Jesteś aresztowany!"}
+      - {key: "pSpeech8", en: "Go ahead, see if I won't catch up!", pl: "Jasne, próbuj dalej – i tak cię złapię!", note: "user ruling"}
     declension: indeclinable ("Jesteś Shotgun Cop Man")
     source: [text, ru]
     note: ru "Ты зашёл" in his lines to Satan; "Freeze, Satan! You're under arrest!".
@@ -44,7 +50,8 @@ terms:
   - en: Ophelia
     pl: Ofelia
     forms: [ofeli]
-    source: pedro
+    source: user
+    note: user briefly set "Ophelia" (2026-09-28), then chose to match My Friend Pedro PL, where "Ofelia" appears in every line.
   - en: Mitch the Butcher
     pl: Mitch Rzeźnik
     forms: [rzeźnik]

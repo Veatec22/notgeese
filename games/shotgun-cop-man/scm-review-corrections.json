@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "game": "shotgun-cop-man",
+  "main_sha": "e57651ee679a8d4cd1f011683c301baaf9ab3de3",
+  "exported_at": "2026-09-28T12:00:00.000Z",
+  "comment": "Workspace export 2026-09-28 (9) + review: pSpeech8 typo, epZigZag sentence case, bcPromoLand; PedroDLCBoss3 back to Ofelia = unchanged vs main.",
+  "corrections": [
+    {
+      "namespace": "",
+      "key": "epExploder",
+      "english": "Exploder",
+      "before": "Rozsadzacz",
+      "after": "Eksploder"
+    },
+    {
+      "namespace": "",
+      "key": "epTroubleSeeker",
+      "english": "Trouble Seeker",
+      "before": "Szukacz kłopotów",
+      "after": "Zadymiarz"
+    },
+    {
+      "namespace": "",
+      "key": "epZigZag",
+      "english": "Zig Zag Zapper",
+      "before": "Zygzakowy rażacz",
+      "after": "Piorunujący zygzak"
+    },
+    {
+      "namespace": "",
+      "key": "gIntro4",
+      "english": "Go to hell.",
+      "before": "Idź do diabła.",
+      "after": "Idź do piekła."
+    },
+    {
+      "namespace": "",
+      "key": "PedroDLCSpeech11",
+      "english": "Smell that? It's the smell of the portal out of hell.",
+      "before": "Czujesz to? Tak pachnie portal prowadzący z piekła.",
+      "after": "Czujesz to? To zapach wyjścia z piekła."
+    },
+    {
+      "namespace": "",
+      "key": "pSpeech0",
+      "english": "Shotgun Cop Man is I. Justice or die!",
+      "before": "Jam jest Shotgun Cop Man! Sprawiedliwość albo śmierć!",
+      "after": "Shotgun Cop Man imieniem mym! Sprawiedliwość to mój hymn!"
+    },
+    {
+      "namespace": "",
+      "key": "pSpeech5",
+      "english": "You can't escape the long arm of the law!",
+      "before": "Nie uciekniesz przed długim ramieniem prawa!",
+      "after": "Przed sprawiedliwością nie uciekniesz!"
+    },
+    {
+      "namespace": "",
+      "key": "pSpeech8",
+      "english": "Go ahead, see if I won't catch up!",
+      "before": "No dalej, sprawdź, czy cię nie dogonię!",
+      "after": "Jasne, próbuj dalej – i tak cię złapię!"
+    },
+    {
+      "namespace": "",
+      "key": "bcPromoLand",
+      "english": "Promo-Land",
+      "before": "Kraina promocyjna",
+      "after": "Promolandia"
+    }
+  ],
+  "conflicts": []
+}
