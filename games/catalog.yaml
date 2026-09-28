@@ -14,14 +14,14 @@ ready:
   label: gotowe
   description: Cała gra przetłumaczona i sprawdzona w grze od początku do końca.
   tone: accent
-  games: {}
+  games:
+    shotgun-cop-man: 2026-09-19
 
 testing:
   label: wersja testowa
   description: Cały tekst przetłumaczony, ale w grze sprawdzony tylko częściowo, bez przejścia od początku do końca. Mogą się trafić usterki.
   tone: ink
   games:
-    shotgun-cop-man: 2026-09-19
     anger-foot: 2026-09-19
     dread-templar: 2026-09-19
     sprawl: 2026-09-19

@@ -23,7 +23,7 @@ sys.path.insert(0, str(REPO / 'tools'))
 
 from translations import polish_by_key  # noqa: E402
 
-VERSION = '0.1'
+VERSION = '1.0'
 DATA = 'Shotgun Cop Man_Data'
 PLUGIN_FOLDER = 'notgeeseShotgunCopMan'
 
