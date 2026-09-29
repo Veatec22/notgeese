@@ -1,0 +1,1783 @@
+[
+  {
+    "key": "Cutscene.Ending.1",
+    "english": "And so, thanks to the awesomeness of the Lovers, the Ardor Reactor was rebuilt and peace returned to the galaxy.",
+    "polish": "I tak, dzięki niesamowitym Lovers, Reaktor Żaru odbudowano, a do galaktyki wrócił pokój."
+  },
+  {
+    "key": "Cutscene.Ending.2",
+    "english": "Songs of the heroes' adventures were sung (and danced) on all the worlds of the cosmos.",
+    "polish": "Na wszystkich światach kosmosu śpiewano (i tańczono) pieśni o przygodach bohaterów."
+  },
+  {
+    "key": "Cutscene.Ending.3",
+    "english": "And even the stars themselves, restored to their twinkling glory, made sure the Lovers would be remembered forever.",
+    "polish": "A nawet same gwiazdy, którym przywrócono migotliwy blask, zadbały o to, by Lovers zostali zapamiętani na zawsze."
+  },
+  {
+    "key": "Cutscene.Intro.1",
+    "english": "Long ago in a faraway future, super smart scientists built a machine to harness the most awesome force in the universe—Love.",
+    "polish": "Dawno, dawno temu, w odległej przyszłości, superbystrzy naukowcy zbudowali maszynę, która ujarzmiła najwspanialszą siłę we wszechświecie – Miłość."
+  },
+  {
+    "key": "Cutscene.Intro.2",
+    "english": "With the power of the Ardor Reactor, explorers took to the stars, uniting all the peoples of the galaxy.",
+    "polish": "Dzięki mocy Reaktora Żaru odkrywcy ruszyli ku gwiazdom i zjednoczyli wszystkie ludy galaktyki."
+  },
+  {
+    "key": "Cutscene.Intro.3",
+    "english": "All were protected by the League Of Very Empathetic Rescue Spacenauts—The Lovers—who guarded the Reactor.",
+    "polish": "Wszystkich chroniła Liga Opiekuńczych, Wielce Empatycznych Ratowników-Spacenautów – czyli Lovers – strzegąca Reaktora."
+  },
+  {
+    "key": "Cutscene.Intro.4",
+    "english": "But disaster was brewing!",
+    "polish": "Lecz nadciągała katastrofa!"
+  },
+  {
+    "key": "Cutscene.Intro.5",
+    "english": "An error in the XOXO matrix allowed the dark force of Anti-Love to seep into our reality.",
+    "polish": "Błąd w macierzy XOXO pozwolił mrocznej sile Antymiłości przeniknąć do naszej rzeczywistości."
+  },
+  {
+    "key": "Cutscene.Intro.6",
+    "english": "The explosion ripped a hole in spacetime itself, and the Ardor Reactor was blasted to pieces.",
+    "polish": "Wybuch rozdarł samą czasoprzestrzeń, a Reaktor Żaru rozleciał się na kawałki."
+  },
+  {
+    "key": "Cutscene.Intro.7",
+    "english": "Now, with Anti-Love spreading across the galaxy, the fate of our spacetime seems decidedly unlovely...",
+    "polish": "Teraz, gdy Antymiłość rozlewa się po galaktyce, los naszej czasoprzestrzeni rysuje się w wyjątkowo niemiłych barwach..."
+  },
+  {
+    "key": "Dialog.Boss.Intro",
+    "english": "Look, a piece of the Ardor Reactor! But it's releasing gigabuckets of Anti-Love into the constellation. What's going on?",
+    "polish": "Patrzcie, kawałek Reaktora Żaru! Ale wylewa z siebie gigawiadra Antymiłości na całą konstelację. Co tu się dzieje?"
+  },
+  {
+    "key": "Dialog.Cetus1.Intro",
+    "english": "I'm detecting liquid water in this region. Good thing I sprayed some waterproofing on that ship before you left!",
+    "polish": "Wykrywam w tym rejonie wodę w stanie ciekłym. Dobrze, że przed waszym wylotem spryskałem statek impregnatem!"
+  },
+  {
+    "key": "Dialog.IntroCutscene.SystemsFailing",
+    "english": "Oh no! Systems failing, main fleet gone... But the prototype ship! It might still have power!",
+    "polish": "O nie! Systemy wysiadają, głównej floty nie ma... Ale jest prototypowy statek! Może wciąż ma zasilanie!"
+  },
+  {
+    "key": "Dialog.IntroCutscene.TheyreCutOff",
+    "english": "The prototype ship is cut off in the West Ventricle, but if I can just get a signal through...",
+    "polish": "Prototypowy statek jest odcięty w Zachodniej Komorze, ale gdyby tylko udało mi się przebić z sygnałem..."
+  },
+  {
+    "key": "Dialog.KingCepheusBoss.Intro",
+    "english": "This is it—the Anti-Love nexus! Believe in the power of love... and the power of upgraded weapons!",
+    "polish": "To tutaj – węzeł Antymiłości! Wierzcie w moc miłości... i w moc ulepszonej broni!"
+  },
+  {
+    "key": "Dialog.Level1.Intro",
+    "english": "I'm picking up distress signals throughout this sector. It must be space-bunnies in need of rescuing!",
+    "polish": "Odbieram sygnały SOS z całego sektora. To na pewno kosmiczne króliczki, które trzeba ratować!"
+  },
+  {
+    "key": "Dialog.Level1.RememberMap",
+    "english": "Lovers, do you copy? Remember to check your map for clues to space-bunny locations!",
+    "polish": "Lovers, słyszycie mnie? Pamiętajcie, żeby szukać na mapie wskazówek, gdzie są kosmiczne króliczki!"
+  },
+  {
+    "key": "Dialog.LevelSelect.Intro1",
+    "english": "You made it! Thank goodness. The universe has become unstable—the fabric of spacetime is shifting!",
+    "polish": "Udało wam się! Co za ulga. Wszechświat stracił stabilność – tkanka czasoprzestrzeni się przesuwa!"
+  },
+  {
+    "key": "Dialog.LevelSelect.Intro2",
+    "english": "Our only hope is to recover the four Ardor Reactor pieces. I think one of them is in Ursa Major—can you investigate?",
+    "polish": "Jedyna nadzieja w odzyskaniu czterech części Reaktora Żaru. Jedna chyba jest w Wielkiej Niedźwiedzicy – sprawdzicie to?"
+  },
+  {
+    "key": "Dialog.Maelstrom.Intro",
+    "english": "The Anti-Love readings here are off the charts. You must be getting close to the nexus!",
+    "polish": "Odczyty Antymiłości wychodzą tu poza skalę. Musicie być blisko węzła!"
+  },
+  {
+    "key": "Dialog.Miniboss.ExitOpen",
+    "english": "Uh oh, it seems like the whole hive has been alerted now!",
+    "polish": "Oj, chyba cały rój podniósł alarm!"
+  },
+  {
+    "key": "Dialog.Miniboss.Intro",
+    "english": "Gah, it looks like some prisoners have been swallowed alive here! See what you can do!",
+    "polish": "Fuj, wygląda na to, że coś tu połknęło żywcem jakichś więźniów! Zobaczcie, co da się zrobić!"
+  },
+  {
+    "key": "Dialog.Orion1.Intro",
+    "english": "The temperature in this region is approaching absolute zero. Stay frosty!",
+    "polish": "Temperatura w tym rejonie zbliża się do zera absolutnego. Zachowajcie zimną krew!"
+  },
+  {
+    "key": "Dialog.Suns.Intro",
+    "english": "Looks like there's solar activity nearby. But don't worry, I applied some SPF 1000 to the ship, just in case!",
+    "polish": "W pobliżu widać aktywność słoneczną. Spokojnie, na wszelki wypadek posmarowałem statek filtrem SPF 1000!"
+  },
+  {
+    "key": "Dialog.Supernova.Intro",
+    "english": "Uh oh, that white dwarf is about to go supernova! GET RESCUING!",
+    "polish": "Oj, ten biały karzeł zaraz wybuchnie jako supernowa! RATUJCIE, KOGO SIĘ DA!"
+  },
+  {
+    "key": "Dialog.Tutorial.1PCallToAction",
+    "english": "Your furry friend just woke up and they're a bit rusty, so let's give them some practice. Order them to shoot the targets.",
+    "polish": "Twój futrzasty przyjaciel dopiero się obudził i wyszedł z wprawy. Niech poćwiczy: każ mu strzelać do celów."
+  },
+  {
+    "key": "Dialog.Tutorial.1PEnemies",
+    "english": "Oh no, I'm detecting enemies coming your way!",
+    "polish": "O nie, wykrywam wrogów, lecą w twoją stronę!"
+  },
+  {
+    "key": "Dialog.Tutorial.1PIntro",
+    "english": "Good news, your loyal space-pet is reporting for duty! Stand by to receive teleport.",
+    "polish": "Dobra wiadomość: twój wierny kosmopupil melduje się na służbie! Przygotuj się do odbioru teleportu."
+  },
+  {
+    "key": "Dialog.Tutorial.1PWellDone",
+    "english": "Well done! You and your space-pet will have to work together if you want to escape.",
+    "polish": "Brawo! Żeby uciec, ty i twój kosmopupil musicie działać razem."
+  },
+  {
+    "key": "Dialog.Tutorial.AfterYamato",
+    "english": "The Yamato Cannon is very powerful, but you have to time it just right.",
+    "polish": "Działo Yamato ma ogromną moc, ale trzeba idealnie wyczuć moment."
+  },
+  {
+    "key": "Dialog.Tutorial.ExplainFriends",
+    "english": "Looks like the tunnel to your right is sealed. Some cosmic space-bunnies could bust through it, if they weren't all captured.",
+    "polish": "Tunel po prawej chyba jest zamknięty. Kosmiczne króliczki mogłyby się przez niego przebić, gdyby nie to, że wszystkie są w niewoli."
+  },
+  {
+    "key": "Dialog.Tutorial.FindWarpExit",
+    "english": "There’s the escape portal! Looks like you'll need more space-bunnies to open it, though.",
+    "polish": "Jest portal ucieczki! Ale żeby go otworzyć, chyba potrzeba więcej kosmicznych króliczków."
+  },
+  {
+    "key": "Dialog.Tutorial.GetMap",
+    "english": "That's your map station! Use it to... map.",
+    "polish": "To wasze stanowisko mapy! Służy do... mapowania."
+  },
+  {
+    "key": "Dialog.Tutorial.GetMap1Player",
+    "english": "That's your map station! Use it to... map. Did I mention that your space-pet loves maps too?",
+    "polish": "To twoje stanowisko mapy! Służy do... mapowania. Czy wspominałem, że twój kosmopupil też uwielbia mapy?"
+  },
+  {
+    "key": "Dialog.Tutorial.GetShield",
+    "english": "That ship's not ready to fly just yet. Work together to open your Shield and Engine pods... here they come!",
+    "polish": "Ten statek jeszcze nie jest gotowy do lotu. Współpracujcie, żeby otworzyć kapsuły tarczy i silnika... o, już lecą!"
+  },
+  {
+    "key": "Dialog.Tutorial.GetYamato",
+    "english": "That’s the Yamato Cannon prototype! It's not actually approved for field use yet, but... uh...",
+    "polish": "To prototyp działa Yamato! Właściwie nie ma jeszcze dopuszczenia do użytku bojowego, ale... yyy..."
+  },
+  {
+    "key": "Dialog.Tutorial.Intro",
+    "english": "Hey, can you hear me? It's Dr. Hopsy-Flopsy. HQ's been breached. Get that ship out of there!",
+    "polish": "Hej, słyszycie mnie? Tu dr Hopsa-Siupsa. Wróg wdarł się do kwatery! Wyprowadźcie stamtąd statek!"
+  },
+  {
+    "key": "Dialog.Tutorial.LaserHalls",
+    "english": "The security system's gone haywire. Remember, your shield can block bullets!",
+    "polish": "System ochrony zwariował. Pamiętajcie, tarcza zatrzymuje pociski!"
+  },
+  {
+    "key": "Dialog.Tutorial.MapMarker",
+    "english": "Ah, some map data. Now you can pinpoint a space-bunny location.",
+    "polish": "O, dane do mapy. Teraz można namierzyć, gdzie jest kosmiczny króliczek."
+  },
+  {
+    "key": "Dialog.WarpSafeRoom.Intro",
+    "english": "The next area is coming up. When you're ready, activate the two Warp Triggers to start the mission.",
+    "polish": "Zbliża się kolejny obszar. Kiedy będziecie gotowi, włączcie oba przełączniki warpu, żeby rozpocząć misję."
+  },
+  {
+    "key": "Dialog.WhiteDwarfs.Intro",
+    "english": "Be careful around white dwarf stars—their gravitational fields are very strong.",
+    "polish": "Uważajcie przy białych karłach – mają bardzo silne pola grawitacyjne."
+  },
+  {
+    "key": "Dialog.Wormhole.WarpDriveDiscovery",
+    "english": "Hey, it's my old Wormhole Engine prototype! You can use it to get to the next area.",
+    "polish": "Hej, to mój stary prototyp silnika tunelowego! Dzięki niemu dostaniecie się do następnego obszaru."
+  },
+  {
+    "key": "Dialog.Wormhole.WarpDriveWarning",
+    "english": "I neglected to mention that the engine is very fragile. Make sure to move it out of harm's way!",
+    "polish": "Zapomniałem wspomnieć, że ten silnik jest bardzo delikatny. Trzymajcie go z dala od niebezpieczeństw!"
+  },
+  {
+    "key": "Dialog.Wormhole.WarpDriveWarningOrion",
+    "english": "This wormhole will bring you closer to Orion. You know the drill—keep the Wormhole Engine out of harm's way!",
+    "polish": "Ten tunel czasoprzestrzenny zbliży was do Oriona. Znacie procedurę – trzymajcie silnik tunelowy z dala od niebezpieczeństw!"
+  },
+  {
+    "key": "Enemy.DisplayName.KingCepheusEyes",
+    "english": "Royal Pupils",
+    "polish": "Królewskie Źrenice"
+  },
+  {
+    "key": "Error.Save.PS4AccessBusy",
+    "english": "Save access busy",
+    "polish": "Dostęp do zapisu jest zajęty"
+  },
+  {
+    "key": "Error.Save.PS4Corrupted",
+    "english": "The save data cannot be loaded because it has become corrupted.",
+    "polish": "Nie można wczytać zapisu, ponieważ jest uszkodzony."
+  },
+  {
+    "key": "Error.Save.PS4CorruptedSettings",
+    "english": "The settings save data cannot be loaded because it has become corrupted.",
+    "polish": "Nie można wczytać zapisanych ustawień, ponieważ są uszkodzone."
+  },
+  {
+    "key": "Error.Save.PS4Deserialize",
+    "english": "Unable to deserialize save data",
+    "polish": "Nie można odczytać danych zapisu"
+  },
+  {
+    "key": "Error.Save.PS4DeserializeException",
+    "english": "Exception deserializing save data: ",
+    "polish": "Wyjątek podczas odczytu danych zapisu: "
+  },
+  {
+    "key": "Error.Save.PS4DeserializeSettings",
+    "english": "Unable to deserialize settings data",
+    "polish": "Nie można odczytać danych ustawień"
+  },
+  {
+    "key": "Error.Save.PS4Loading",
+    "english": "Error loading save data",
+    "polish": "Błąd wczytywania zapisu"
+  },
+  {
+    "key": "Error.Save.PS4LoadingSettings",
+    "english": "Error loading settings data",
+    "polish": "Błąd wczytywania ustawień"
+  },
+  {
+    "key": "Error.Save.PS4Missing",
+    "english": "Unable to find save data",
+    "polish": "Nie znaleziono zapisu"
+  },
+  {
+    "key": "Error.Save.PS4MissingSettings",
+    "english": "Unable to find settings data",
+    "polish": "Nie znaleziono danych ustawień"
+  },
+  {
+    "key": "Error.Save.PS4NoDataSettings",
+    "english": "No settings data provided",
+    "polish": "Brak danych ustawień"
+  },
+  {
+    "key": "Error.Save.PS4NoOneSignedIn",
+    "english": "No one is signed in",
+    "polish": "Nikt nie jest zalogowany"
+  },
+  {
+    "key": "Error.Save.PS4NotLoaded",
+    "english": "No save data loaded",
+    "polish": "Nie wczytano zapisu"
+  },
+  {
+    "key": "Error.Save.PS4Serialize",
+    "english": "Unable to serialize save data",
+    "polish": "Nie można przygotować danych zapisu"
+  },
+  {
+    "key": "Error.Save.PS4SerializeSettings",
+    "english": "Unable to serialize settings data",
+    "polish": "Nie można przygotować danych ustawień"
+  },
+  {
+    "key": "Error.Save.PS4Write",
+    "english": "Unable to write save data",
+    "polish": "Nie można zapisać danych gry"
+  },
+  {
+    "key": "Error.Save.PS4WriteSettings",
+    "english": "Unable to write settings data",
+    "polish": "Nie można zapisać ustawień"
+  },
+  {
+    "key": "GUI.CampaignComplete.BossTime",
+    "english": "Boss Time",
+    "polish": "Czas walki z bossem"
+  },
+  {
+    "key": "GUI.CampaignComplete.CampaignComplete",
+    "english": "Campaign Complete",
+    "polish": "Kampania ukończona"
+  },
+  {
+    "key": "GUI.CampaignComplete.CampaignTime",
+    "english": "Total Time",
+    "polish": "Łączny czas"
+  },
+  {
+    "key": "GUI.CampaignComplete.EnemiesDestroyed",
+    "english": "Enemies Destroyed",
+    "polish": "Zniszczeni wrogowie"
+  },
+  {
+    "key": "GUI.CampaignComplete.FriendsRescued",
+    "english": "Total Friends",
+    "polish": "Łącznie przyjaciół"
+  },
+  {
+    "key": "GUI.CampaignComplete.ReactorPieces",
+    "english": "Ardor Reactor Pieces",
+    "polish": "Części Reaktora Żaru"
+  },
+  {
+    "key": "GUI.ChangeDifficulty.ApplyConfirm",
+    "english": "OK",
+    "polish": "OK"
+  },
+  {
+    "key": "GUI.ChangeDifficulty.ApplyMessage",
+    "english": "Are you sure you want to change difficulty? This will restart the current level.",
+    "polish": "Czy na pewno zmienić poziom trudności? Bieżący poziom zacznie się od nowa."
+  },
+  {
+    "key": "GUI.ChangeDifficulty.DiscardConfirm",
+    "english": "Discard",
+    "polish": "Odrzuć"
+  },
+  {
+    "key": "GUI.ChangeDifficulty.DiscardMessage",
+    "english": "Difficulty change has not been applied. Do you want to discard your difficulty change?",
+    "polish": "Zmiana poziomu trudności nie została zastosowana. Odrzucić ją?"
+  },
+  {
+    "key": "GUI.CharacterUnlock.Confirm",
+    "english": "Yay!",
+    "polish": "Hura!"
+  },
+  {
+    "key": "GUI.CharacterUnlock.Description",
+    "english": "Now available in the Select Character screen.",
+    "polish": "Już dostępny na ekranie wyboru postaci."
+  },
+  {
+    "key": "GUI.CharacterUnlock.Title",
+    "english": "New Space-Friend Unlocked!",
+    "polish": "Odblokowano nowego kosmoprzyjaciela!"
+  },
+  {
+    "key": "GUI.ControlBubble.Hold",
+    "english": "HOLD",
+    "polish": "TRZYMAJ"
+  },
+  {
+    "key": "GUI.ControlBubble.Jump",
+    "english": "JUMP",
+    "polish": "SKOK"
+  },
+  {
+    "key": "GUI.ControllerDisconnected.AnyPrompt",
+    "english": "Press any button",
+    "polish": "Naciśnij dowolny przycisk"
+  },
+  {
+    "key": "GUI.ControllerDisconnected.Message",
+    "english": "Please reconnect controller.",
+    "polish": "Podłącz ponownie kontroler."
+  },
+  {
+    "key": "GUI.ControllerDisconnected.MessagePS4",
+    "english": "Please reconnect wireless controller.",
+    "polish": "Podłącz ponownie kontroler bezprzewodowy."
+  },
+  {
+    "key": "GUI.ControllerDisconnected.Title",
+    "english": "Player {0}'s controller is disconnected!",
+    "polish": "Kontroler gracza {0} jest odłączony!"
+  },
+  {
+    "key": "GUI.ControllerDisconnected.TitlePS4",
+    "english": "Player {0}'s wireless controller is disconnected!",
+    "polish": "Kontroler bezprzewodowy gracza {0} jest odłączony!"
+  },
+  {
+    "key": "GUI.ControlsMenu.AssignGamepads",
+    "english": "Assign Gamepads",
+    "polish": "Przypisz gamepady"
+  },
+  {
+    "key": "GUI.ControlsMenu.Back",
+    "english": "Back / Cancel",
+    "polish": "Wstecz / Anuluj"
+  },
+  {
+    "key": "GUI.ControlsMenu.ChooseGamepad",
+    "english": "Choose Gamepad",
+    "polish": "Wybierz gamepad"
+  },
+  {
+    "key": "GUI.ControlsMenu.ConnectedGamepads",
+    "english": "Connected Gamepads:",
+    "polish": "Podłączone gamepady:"
+  },
+  {
+    "key": "GUI.ControlsMenu.Down",
+    "english": "Down",
+    "polish": "W dół"
+  },
+  {
+    "key": "GUI.ControlsMenu.Fire",
+    "english": "Fire / Use",
+    "polish": "Strzał / użycie"
+  },
+  {
+    "key": "GUI.ControlsMenu.Gamepad",
+    "english": "Gamepad",
+    "polish": "Gamepad"
+  },
+  {
+    "key": "GUI.ControlsMenu.Jump",
+    "english": "Jump / Select",
+    "polish": "Skok / wybór"
+  },
+  {
+    "key": "GUI.ControlsMenu.Keyboard",
+    "english": "Keyboard",
+    "polish": "Klawiatura"
+  },
+  {
+    "key": "GUI.ControlsMenu.Left",
+    "english": "Left",
+    "polish": "W lewo"
+  },
+  {
+    "key": "GUI.ControlsMenu.Move",
+    "english": "Move",
+    "polish": "Ruch"
+  },
+  {
+    "key": "GUI.ControlsMenu.OnePlayerOnly",
+    "english": "(1P Only)",
+    "polish": "(tylko 1 gracz)"
+  },
+  {
+    "key": "GUI.ControlsMenu.Pause",
+    "english": "Pause",
+    "polish": "Pauza"
+  },
+  {
+    "key": "GUI.ControlsMenu.PlayerMode",
+    "english": "Player {0} Controls",
+    "polish": "Sterowanie – gracz {0}"
+  },
+  {
+    "key": "GUI.ControlsMenu.PressButton",
+    "english": "Press a button",
+    "polish": "Naciśnij przycisk"
+  },
+  {
+    "key": "GUI.ControlsMenu.RemapWarning",
+    "english": "You are assigning a button for {0} to a button on controller {1}. Are you sure you want to continue?",
+    "polish": "Przypisujesz przycisk dla: {0} do przycisku na kontrolerze {1}. Czy na pewno chcesz kontynuować?"
+  },
+  {
+    "key": "GUI.ControlsMenu.Reset",
+    "english": "Reset to default",
+    "polish": "Przywróć domyślne"
+  },
+  {
+    "key": "GUI.ControlsMenu.Right",
+    "english": "Right",
+    "polish": "W prawo"
+  },
+  {
+    "key": "GUI.ControlsMenu.SavantMode",
+    "english": "Duality Mode Controls",
+    "polish": "Sterowanie w trybie podwójnym"
+  },
+  {
+    "key": "GUI.ControlsMenu.Switch",
+    "english": "Space-pet",
+    "polish": "Kosmopupil"
+  },
+  {
+    "key": "GUI.ControlsMenu.Up",
+    "english": "Up",
+    "polish": "W górę"
+  },
+  {
+    "key": "GUI.Default.Back",
+    "english": "Back",
+    "polish": "Wstecz"
+  },
+  {
+    "key": "GUI.Default.Cancel",
+    "english": "Cancel",
+    "polish": "Anuluj"
+  },
+  {
+    "key": "GUI.Default.Confirm",
+    "english": "Confirm",
+    "polish": "Potwierdź"
+  },
+  {
+    "key": "GUI.Default.CPU",
+    "english": "CPU",
+    "polish": "Komputer"
+  },
+  {
+    "key": "GUI.Default.Duality",
+    "english": "Duality Mode",
+    "polish": "Tryb podwójny"
+  },
+  {
+    "key": "GUI.Default.Level",
+    "english": "Level",
+    "polish": "Poziom"
+  },
+  {
+    "key": "GUI.Default.None",
+    "english": "None",
+    "polish": "Brak"
+  },
+  {
+    "key": "GUI.Default.OK",
+    "english": "OK",
+    "polish": "OK"
+  },
+  {
+    "key": "GUI.Default.Player",
+    "english": "Player {0}",
+    "polish": "Gracz {0}"
+  },
+  {
+    "key": "GUI.Default.Select",
+    "english": "Select",
+    "polish": "Wybierz"
+  },
+  {
+    "key": "GUI.Default.SwitchProfile",
+    "english": "Switch Profile",
+    "polish": "Zmień profil"
+  },
+  {
+    "key": "GUI.Default.Version",
+    "english": "Version: {0}",
+    "polish": "Wersja: {0}"
+  },
+  {
+    "key": "GUI.Default.World",
+    "english": "Campaign",
+    "polish": "Kampania"
+  },
+  {
+    "key": "GUI.Difficulty.Easy",
+    "english": "Casual",
+    "polish": "Swobodny"
+  },
+  {
+    "key": "GUI.Difficulty.Hard",
+    "english": "Veteran",
+    "polish": "Weteran"
+  },
+  {
+    "key": "GUI.Difficulty.Normal",
+    "english": "Normal",
+    "polish": "Normalny"
+  },
+  {
+    "key": "GUI.Difficulty.SuperEasy",
+    "english": "Beginner",
+    "polish": "Początkujący"
+  },
+  {
+    "key": "GUI.GamepadRecommended",
+    "english": "Gamepad Recommended",
+    "polish": "Zalecany gamepad"
+  },
+  {
+    "key": "GUI.HubScreen.All",
+    "english": "All",
+    "polish": "Wszystkie"
+  },
+  {
+    "key": "GUI.HubScreen.Any",
+    "english": "Any",
+    "polish": "Dowolne"
+  },
+  {
+    "key": "GUI.HubScreen.BestTime",
+    "english": "Best Time",
+    "polish": "Najlepszy czas"
+  },
+  {
+    "key": "GUI.HubScreen.CampaignCompleted",
+    "english": "Completed",
+    "polish": "Ukończona"
+  },
+  {
+    "key": "GUI.HubScreen.CannotUseSameProfileXbox",
+    "english": "Sorry, {0} is already being used by another player. Please choose a different profile or sign in as a guest.",
+    "polish": "Niestety, profil {0} jest już używany przez innego gracza. Wybierz inny profil lub zaloguj się jako gość."
+  },
+  {
+    "key": "GUI.HubScreen.FriendRescued",
+    "english": "Friends Rescued",
+    "polish": "Uratowani przyjaciele"
+  },
+  {
+    "key": "GUI.HubScreen.LevelSelectWarning",
+    "english": "Ship Badges are only awarded if you start from Level 1.",
+    "polish": "Odznaki statku zdobywa się tylko po rozpoczęciu od poziomu 1."
+  },
+  {
+    "key": "GUI.HubScreen.PlayCampaign",
+    "english": "Play Campaign",
+    "polish": "Graj w kampanię"
+  },
+  {
+    "key": "GUI.HubScreen.PressButtonToContinueLHS",
+    "english": "Press",
+    "polish": "Naciśnij"
+  },
+  {
+    "key": "GUI.HubScreen.PressButtonToContinueRHS",
+    "english": "to continue",
+    "polish": "aby kontynuować"
+  },
+  {
+    "key": "GUI.HubScreen.PressButtonToSelectOnePlayerLHS",
+    "english": "Press",
+    "polish": "Naciśnij"
+  },
+  {
+    "key": "GUI.HubScreen.PressButtonToSelectOnePlayerRHS",
+    "english": "to select 1 Player mode",
+    "polish": "aby wybrać grę jednoosobową"
+  },
+  {
+    "key": "GUI.HubScreen.ResumeCampaignCancel",
+    "english": "Select Another Campaign",
+    "polish": "Wybierz inną kampanię"
+  },
+  {
+    "key": "GUI.HubScreen.ResumeCampaignConfirm",
+    "english": "Resume Campaign",
+    "polish": "Wznów kampanię"
+  },
+  {
+    "key": "GUI.HubScreen.ResumeCampaignTitle",
+    "english": "Resume Campaign in Progress?",
+    "polish": "Wznowić rozpoczętą kampanię?"
+  },
+  {
+    "key": "GUI.HubScreen.SelectCharacter",
+    "english": "Select Character",
+    "polish": "Wybierz postać"
+  },
+  {
+    "key": "GUI.HubScreen.SelectDestination",
+    "english": "Select Campaign",
+    "polish": "Wybierz kampanię"
+  },
+  {
+    "key": "GUI.HubScreen.SelectShip",
+    "english": "Select Ship",
+    "polish": "Wybierz statek"
+  },
+  {
+    "key": "GUI.HubScreen.Ship",
+    "english": "Ship: {0}",
+    "polish": "Statek: {0}"
+  },
+  {
+    "key": "GUI.HubScreen.ShipBadges",
+    "english": "Ship Badges:",
+    "polish": "Odznaki statku:"
+  },
+  {
+    "key": "GUI.HubScreen.ShipLockedDescription",
+    "english": "Increase your Rank to access this ship.",
+    "polish": "Zdobądź wyższą rangę, aby odblokować ten statek."
+  },
+  {
+    "key": "GUI.HubScreen.ShipSelectWarning",
+    "english": "Ship Badges will not be awarded for this ship.",
+    "polish": "Ten statek nie otrzyma odznak."
+  },
+  {
+    "key": "GUI.HubScreen.StartFromLevel",
+    "english": "Start From Level...",
+    "polish": "Zacznij od poziomu..."
+  },
+  {
+    "key": "GUI.Loading.GeneratingSector",
+    "english": "Generating Sector...",
+    "polish": "Generowanie sektora..."
+  },
+  {
+    "key": "GUI.Loading.Loading",
+    "english": "Loading",
+    "polish": "Wczytywanie"
+  },
+  {
+    "key": "GUI.MissionComplete.BonusFriends",
+    "english": "Bonus Friends",
+    "polish": "Dodatkowi przyjaciele"
+  },
+  {
+    "key": "GUI.MissionComplete.FriendsRescued",
+    "english": "Friends Rescued",
+    "polish": "Uratowani przyjaciele"
+  },
+  {
+    "key": "GUI.MissionComplete.MissionComplete",
+    "english": "Mission Complete",
+    "polish": "Misja wykonana"
+  },
+  {
+    "key": "GUI.MissionComplete.NewRecord",
+    "english": "New Record!",
+    "polish": "Nowy rekord!"
+  },
+  {
+    "key": "GUI.MissionComplete.NextUpgrade",
+    "english": "Next Upgrade:",
+    "polish": "Następne ulepszenie:"
+  },
+  {
+    "key": "GUI.MissionComplete.PressToContinueLHS",
+    "english": "Press",
+    "polish": "Naciśnij"
+  },
+  {
+    "key": "GUI.MissionComplete.PressToContinueRHS",
+    "english": "to continue",
+    "polish": "aby kontynuować"
+  },
+  {
+    "key": "GUI.MissionComplete.Rank",
+    "english": "Rank {0}",
+    "polish": "Ranga {0}"
+  },
+  {
+    "key": "GUI.MissionComplete.Time",
+    "english": "Time",
+    "polish": "Czas"
+  },
+  {
+    "key": "GUI.MissionComplete.Total",
+    "english": "Total",
+    "polish": "Razem"
+  },
+  {
+    "key": "GUI.Options.Controls",
+    "english": "Controls",
+    "polish": "Sterowanie"
+  },
+  {
+    "key": "GUI.Options.Credits",
+    "english": "Credits",
+    "polish": "Twórcy"
+  },
+  {
+    "key": "GUI.Options.Help",
+    "english": "Help",
+    "polish": "Pomoc"
+  },
+  {
+    "key": "GUI.Options.Language",
+    "english": "Language",
+    "polish": "Język"
+  },
+  {
+    "key": "GUI.Options.Settings",
+    "english": "Settings",
+    "polish": "Ustawienia"
+  },
+  {
+    "key": "GUI.PauseMenu.ChangeDifficulty",
+    "english": "Change Difficulty",
+    "polish": "Zmień poziom trudności"
+  },
+  {
+    "key": "GUI.PauseMenu.Paused",
+    "english": "Game Paused",
+    "polish": "Pauza"
+  },
+  {
+    "key": "GUI.PauseMenu.ProgressWarningMessage",
+    "english": "You will lose all progress since the beginning of the current level.",
+    "polish": "Stracisz cały postęp od początku bieżącego poziomu."
+  },
+  {
+    "key": "GUI.PauseMenu.QuitToCampaign",
+    "english": "Quit to Campaign Select",
+    "polish": "Wyjdź do wyboru kampanii"
+  },
+  {
+    "key": "GUI.PauseMenu.QuitToTitle",
+    "english": "Quit to Title",
+    "polish": "Wyjdź do menu"
+  },
+  {
+    "key": "GUI.PauseMenu.QuitToTitleConfirm",
+    "english": "Quit",
+    "polish": "Wyjdź"
+  },
+  {
+    "key": "GUI.PauseMenu.QuitToTitleMessage",
+    "english": "Are you sure you want to quit?",
+    "polish": "Czy na pewno chcesz wyjść?"
+  },
+  {
+    "key": "GUI.PauseMenu.RestartLevel",
+    "english": "Restart Level",
+    "polish": "Zacznij poziom od nowa"
+  },
+  {
+    "key": "GUI.PauseMenu.RestartLevelConfirm",
+    "english": "Restart",
+    "polish": "Od nowa"
+  },
+  {
+    "key": "GUI.PauseMenu.RestartLevelMessage",
+    "english": "Are you sure you want to restart?",
+    "polish": "Czy na pewno chcesz zacząć od nowa?"
+  },
+  {
+    "key": "GUI.PauseMenu.Resume",
+    "english": "Resume",
+    "polish": "Wznów"
+  },
+  {
+    "key": "GUI.PauseMenu.SkipTutorial",
+    "english": "Skip Tutorial",
+    "polish": "Pomiń samouczek"
+  },
+  {
+    "key": "GUI.PauseMenu.SkipTutorialConfirm",
+    "english": "Skip",
+    "polish": "Pomiń"
+  },
+  {
+    "key": "GUI.PauseMenu.SkipTutorialMessage",
+    "english": "Are you sure you want to skip the tutorial?",
+    "polish": "Czy na pewno chcesz pominąć samouczek?"
+  },
+  {
+    "key": "GUI.SaveScreen.CreatingSlotMessage",
+    "english": "Creating save slot",
+    "polish": "Tworzenie zapisu"
+  },
+  {
+    "key": "GUI.SaveScreen.Delete",
+    "english": "Delete",
+    "polish": "Usuń"
+  },
+  {
+    "key": "GUI.SaveScreen.DeleteChooseSlot",
+    "english": "Choose slot to delete",
+    "polish": "Wybierz zapis do usunięcia"
+  },
+  {
+    "key": "GUI.SaveScreen.DeleteMessage",
+    "english": "Are you sure you want to delete Slot {0}?",
+    "polish": "Czy na pewno usunąć zapis {0}?"
+  },
+  {
+    "key": "GUI.SaveScreen.DeletingMessage",
+    "english": "Deleting save slot",
+    "polish": "Usuwanie zapisu"
+  },
+  {
+    "key": "GUI.SaveScreen.Empty",
+    "english": "Empty",
+    "polish": "Pusty"
+  },
+  {
+    "key": "GUI.SaveScreen.LoadingMessage",
+    "english": "Loading save data",
+    "polish": "Wczytywanie zapisu"
+  },
+  {
+    "key": "GUI.SaveScreen.ManageSaves",
+    "english": "Manage Saves",
+    "polish": "Zarządzaj zapisami"
+  },
+  {
+    "key": "GUI.SaveScreen.Slot",
+    "english": "Slot {0}",
+    "polish": "Zapis {0}"
+  },
+  {
+    "key": "GUI.SelectDifficulty.Easy",
+    "english": "Difficulty: Casual",
+    "polish": "Poziom trudności: Swobodny"
+  },
+  {
+    "key": "GUI.SelectDifficulty.EasyMessage",
+    "english": "More health, less dangerous enemies. Time records are not saved.",
+    "polish": "Więcej zdrowia, mniej groźni wrogowie. Rekordy czasu nie są zapisywane."
+  },
+  {
+    "key": "GUI.SelectDifficulty.Hard",
+    "english": "Difficulty: Veteran",
+    "polish": "Poziom trudności: Weteran"
+  },
+  {
+    "key": "GUI.SelectDifficulty.HardMessage",
+    "english": "More enemies, more damage, more danger.",
+    "polish": "Więcej wrogów, więcej obrażeń, więcej niebezpieczeństw."
+  },
+  {
+    "key": "GUI.SelectDifficulty.Normal",
+    "english": "Difficulty: Normal",
+    "polish": "Poziom trudności: Normalny"
+  },
+  {
+    "key": "GUI.SelectDifficulty.NormalMessage",
+    "english": "For those seeking some challenge.",
+    "polish": "Dla tych, którzy szukają wyzwania."
+  },
+  {
+    "key": "GUI.SelectDifficulty.SuperEasy",
+    "english": "Difficulty: Beginner",
+    "polish": "Poziom trudności: Początkujący"
+  },
+  {
+    "key": "GUI.SelectDifficulty.SuperEasyMessage",
+    "english": "Much more health, much easier enemies. Time records are not saved.",
+    "polish": "Dużo więcej zdrowia, dużo słabsi wrogowie. Rekordy czasu nie są zapisywane."
+  },
+  {
+    "key": "GUI.Settings.AntiAliasing",
+    "english": "Fullscreen Anti-Aliasing",
+    "polish": "Pełnoekranowe wygładzanie krawędzi"
+  },
+  {
+    "key": "GUI.Settings.Apply",
+    "english": "Apply",
+    "polish": "Zastosuj"
+  },
+  {
+    "key": "GUI.Settings.ApplyingMessage",
+    "english": "Applying changes",
+    "polish": "Stosowanie zmian"
+  },
+  {
+    "key": "GUI.Settings.ApplyTextureNote",
+    "english": "(Changes to texture quality may take some time)",
+    "polish": "(Zmiana jakości tekstur może chwilę potrwać)"
+  },
+  {
+    "key": "GUI.Settings.ConfirmApply",
+    "english": "Would you like to keep these settings?",
+    "polish": "Zachować te ustawienia?"
+  },
+  {
+    "key": "GUI.Settings.DiscardConfirm",
+    "english": "Discard",
+    "polish": "Odrzuć"
+  },
+  {
+    "key": "GUI.Settings.DiscardMessage",
+    "english": "Do you want to discard your changes?",
+    "polish": "Odrzucić wprowadzone zmiany?"
+  },
+  {
+    "key": "GUI.Settings.DontSync",
+    "english": "VSync Off",
+    "polish": "VSync wyłączony"
+  },
+  {
+    "key": "GUI.Settings.EverySecondVBlank",
+    "english": "VSync Triple Buffer",
+    "polish": "VSync – potrójne buforowanie"
+  },
+  {
+    "key": "GUI.Settings.EveryVBlank",
+    "english": "VSync Double Buffer",
+    "polish": "VSync – podwójne buforowanie"
+  },
+  {
+    "key": "GUI.Settings.Fullscreen",
+    "english": "Fullscreen",
+    "polish": "Pełny ekran"
+  },
+  {
+    "key": "GUI.Settings.High",
+    "english": "High Texture Quality",
+    "polish": "Wysoka jakość tekstur"
+  },
+  {
+    "key": "GUI.Settings.Loading",
+    "english": "Loading settings",
+    "polish": "Wczytywanie ustawień"
+  },
+  {
+    "key": "GUI.Settings.Low",
+    "english": "Low Texture Quality",
+    "polish": "Niska jakość tekstur"
+  },
+  {
+    "key": "GUI.Settings.Med",
+    "english": "Medium Texture Quality",
+    "polish": "Średnia jakość tekstur"
+  },
+  {
+    "key": "GUI.Settings.MusicLevel",
+    "english": "Music Volume",
+    "polish": "Głośność muzyki"
+  },
+  {
+    "key": "GUI.Settings.Saving",
+    "english": "Saving settings",
+    "polish": "Zapisywanie ustawień"
+  },
+  {
+    "key": "GUI.Settings.SFXLevel",
+    "english": "SFX Volume",
+    "polish": "Głośność efektów"
+  },
+  {
+    "key": "GUI.Settings.TargetFrameRate",
+    "english": "Maximum Frame Rate: {0}",
+    "polish": "Limit klatek na sekundę: {0}"
+  },
+  {
+    "key": "GUI.Settings.Vibration",
+    "english": "Controller Vibration",
+    "polish": "Wibracje kontrolera"
+  },
+  {
+    "key": "GUI.Settings.VibrationPS4",
+    "english": "Vibration",
+    "polish": "Wibracje"
+  },
+  {
+    "key": "GUI.Settings.VibrationXInput",
+    "english": "Vibration (requires XInput)",
+    "polish": "Wibracje (wymaga XInput)"
+  },
+  {
+    "key": "GUI.Settings.VideoSettings",
+    "english": "Video Settings",
+    "polish": "Ustawienia obrazu"
+  },
+  {
+    "key": "GUI.Settings.XInput",
+    "english": "Enable XInput (restart required)",
+    "polish": "Włącz XInput (wymaga restartu gry)"
+  },
+  {
+    "key": "GUI.SigninChange.Message",
+    "english": "Returning to title screen",
+    "polish": "Powrót do ekranu tytułowego"
+  },
+  {
+    "key": "GUI.SigninChange.Title",
+    "english": "Sign-in Change Detected",
+    "polish": "Wykryto zmianę zalogowanego użytkownika"
+  },
+  {
+    "key": "GUI.StoreMenu.CommandPromptLS",
+    "english": "Press",
+    "polish": "Naciśnij"
+  },
+  {
+    "key": "GUI.StoreMenu.CommandPromptRS",
+    "english": "to choose this upgrade",
+    "polish": "aby wybrać to ulepszenie"
+  },
+  {
+    "key": "GUI.StoreMenu.RankMessage",
+    "english": "You've rescued enough friends to go up a rank! You can now choose a new upgrade.",
+    "polish": "Uratowaliście dość przyjaciół, żeby awansować! Możecie teraz wybrać nowe ulepszenie."
+  },
+  {
+    "key": "GUI.StoreMenu.RankRequired",
+    "english": "Rank {0} Required",
+    "polish": "Wymagana ranga {0}"
+  },
+  {
+    "key": "GUI.StoreMenu.RankTitle",
+    "english": "Rank {0} Upgrade Unlocked",
+    "polish": "Odblokowano ulepszenie rangi {0}"
+  },
+  {
+    "key": "GUI.TitleScreen.Achievements",
+    "english": "Achievements",
+    "polish": "Osiągnięcia"
+  },
+  {
+    "key": "GUI.TitleScreen.Exit",
+    "english": "Exit",
+    "polish": "Wyjdź"
+  },
+  {
+    "key": "GUI.TitleScreen.ExitConfirm",
+    "english": "Exit Game",
+    "polish": "Wyjdź z gry"
+  },
+  {
+    "key": "GUI.TitleScreen.ExitMessage",
+    "english": "Are you sure you want to exit?",
+    "polish": "Czy na pewno chcesz wyjść?"
+  },
+  {
+    "key": "GUI.TitleScreen.HelpAndOptions",
+    "english": "Help & Options",
+    "polish": "Pomoc i opcje"
+  },
+  {
+    "key": "GUI.TitleScreen.PlayGame",
+    "english": "Play Game",
+    "polish": "Graj"
+  },
+  {
+    "key": "GUI.TitleScreen.PleaseSignIn",
+    "english": "Please sign in to proceed",
+    "polish": "Zaloguj się, aby kontynuować"
+  },
+  {
+    "key": "GUI.TitleScreen.PressButton",
+    "english": "Press",
+    "polish": "Naciśnij"
+  },
+  {
+    "key": "GUI.Upgrade.ChooseUpgradeMessage",
+    "english": "Choose the {0} upgrade?",
+    "polish": "Wybrać ulepszenie: {0}?"
+  },
+  {
+    "key": "GUI.Upgrade.EngineTitle",
+    "english": "Engine Station Mk II",
+    "polish": "Stanowisko silnika Mk II"
+  },
+  {
+    "key": "GUI.Upgrade.ShieldTitle",
+    "english": "Shield Station Mk II",
+    "polish": "Stanowisko tarczy Mk II"
+  },
+  {
+    "key": "GUI.Upgrade.ShipUpgradeMessage",
+    "english": "The {0} will be available to use from the ship hangar.",
+    "polish": "Statek {0} będzie dostępny w hangarze."
+  },
+  {
+    "key": "GUI.Upgrade.StationDescription",
+    "english": "This station can hold 2 gems at a time, enabling powerup combinations. Applies to all ships.",
+    "polish": "To stanowisko mieści naraz 2 klejnoty, co pozwala łączyć wzmocnienia. Dotyczy wszystkich statków."
+  },
+  {
+    "key": "GUI.Upgrade.TurretTitle",
+    "english": "Turret Station Mk II",
+    "polish": "Stanowisko działka Mk II"
+  },
+  {
+    "key": "GUI.Upgrade.YamatoTitle",
+    "english": "Yamato Station Mk II",
+    "polish": "Stanowisko Yamato Mk II"
+  },
+  {
+    "key": "GUI.WriteDataError.Title",
+    "english": "There was an error saving your data. Sorry!",
+    "polish": "Podczas zapisywania danych wystąpił błąd. Przepraszamy!"
+  },
+  {
+    "key": "HUD.WaveProgress.FormattedProgress",
+    "english": "Wave {0} of {1}",
+    "polish": "Fala {0} z {1}"
+  },
+  {
+    "key": "Item.Crowbar",
+    "english": "CROWBAR",
+    "polish": "ŁOM"
+  },
+  {
+    "key": "Item.Crystal.Beam",
+    "english": "BEAM GEM",
+    "polish": "KLEJNOT PROMIENIA"
+  },
+  {
+    "key": "Item.Crystal.BeamLarge",
+    "english": "SUPER BEAM GEM",
+    "polish": "SUPERKLEJNOT PROMIENIA"
+  },
+  {
+    "key": "Item.Crystal.Metal",
+    "english": "METAL GEM",
+    "polish": "KLEJNOT METALU"
+  },
+  {
+    "key": "Item.Crystal.MetalLarge",
+    "english": "SUPER METAL GEM",
+    "polish": "SUPERKLEJNOT METALU"
+  },
+  {
+    "key": "Item.Crystal.Power",
+    "english": "POWER GEM",
+    "polish": "KLEJNOT MOCY"
+  },
+  {
+    "key": "Item.Crystal.PowerLarge",
+    "english": "SUPER POWER GEM",
+    "polish": "SUPERKLEJNOT MOCY"
+  },
+  {
+    "key": "Item.GemRemover",
+    "english": "GEM REMOVER",
+    "polish": "ŚCIĄGACZ KLEJNOTÓW"
+  },
+  {
+    "key": "Item.Remover",
+    "english": "REMOVER",
+    "polish": "ŚCIĄGACZ"
+  },
+  {
+    "key": "Item.Wrench",
+    "english": "WRENCH",
+    "polish": "KLUCZ"
+  },
+  {
+    "key": "MissionText.AllFriendsRescuedLine1",
+    "english": "All Friends Rescued",
+    "polish": "Wszyscy przyjaciele uratowani"
+  },
+  {
+    "key": "MissionText.AllFriendsRescuedLine2",
+    "english": "So Much Love!",
+    "polish": "Tyle miłości!"
+  },
+  {
+    "key": "MissionText.Boss.OutroLine1",
+    "english": "Campaign Complete",
+    "polish": "Kampania ukończona"
+  },
+  {
+    "key": "MissionText.Boss.OutroLine2",
+    "english": "Love has prevailed!",
+    "polish": "Miłość zwyciężyła!"
+  },
+  {
+    "key": "MissionText.Tutorial.IntroLine1",
+    "english": "Alert! Alert!",
+    "polish": "Alarm! Alarm!"
+  },
+  {
+    "key": "MissionText.Tutorial.IntroLine2",
+    "english": "Lovers HQ is under attack!",
+    "polish": "Atak na kwaterę Lovers!"
+  },
+  {
+    "key": "Player.SkinName.Bird",
+    "english": "Flapper",
+    "polish": "Flapper"
+  },
+  {
+    "key": "Player.SkinName.Bunny",
+    "english": "Hopper",
+    "polish": "Hopper"
+  },
+  {
+    "key": "Player.SkinName.Cat",
+    "english": "Kepler",
+    "polish": "Kepler"
+  },
+  {
+    "key": "Player.SkinName.Dog",
+    "english": "Doppler",
+    "polish": "Doppler"
+  },
+  {
+    "key": "Player.SkinName.Fox",
+    "english": "Whisker",
+    "polish": "Whisker"
+  },
+  {
+    "key": "Player.SkinName.Frog",
+    "english": "Webber",
+    "polish": "Webber"
+  },
+  {
+    "key": "Player.SkinName.Lover",
+    "english": "Lover Mu",
+    "polish": "Lover Mu"
+  },
+  {
+    "key": "Player.SkinName.Onion",
+    "english": "Lover Rho",
+    "polish": "Lover Rho"
+  },
+  {
+    "key": "Player.SkinName.Pig",
+    "english": "Pythagoras",
+    "polish": "Pitagoras"
+  },
+  {
+    "key": "Player.SkinName.Raccoon",
+    "english": "Riemann",
+    "polish": "Riemann"
+  },
+  {
+    "key": "Player.SkinName.Robot",
+    "english": "Euler",
+    "polish": "Euler"
+  },
+  {
+    "key": "Player.SkinName.Round",
+    "english": "Lover Pi",
+    "polish": "Lover Pi"
+  },
+  {
+    "key": "Player.SkinName.Short",
+    "english": "Lover Nu",
+    "polish": "Lover Nu"
+  },
+  {
+    "key": "Player.SkinName.Tall",
+    "english": "Lover Upsilon",
+    "polish": "Lover Upsilon"
+  },
+  {
+    "key": "Ship.Description.Beam",
+    "english": "A variant of the Gumball design, with each station coming equipped with Beam Gems.",
+    "polish": "Odmiana Balonówki, w której każde stanowisko ma klejnot promienia."
+  },
+  {
+    "key": "Ship.Description.Divorced",
+    "english": "An advanced ship with +20% health. But due to a strict ID card policy, spacenauts cannot access each other's rooms.",
+    "polish": "Zaawansowany statek z +20% zdrowia. Ale przez surowe przepisy o kartach dostępu spacenauci nie mają wstępu do cudzych pomieszczeń."
+  },
+  {
+    "key": "Ship.Description.Engine",
+    "english": "This advanced ship has an engine that rolls the entire vessel 360°. It also has a jelly coating which prevents terrain damage.",
+    "polish": "Ten zaawansowany statek ma silnik, który obraca cały pojazd o 360°. Galaretkowa powłoka chroni go przed uszkodzeniami przy zderzeniach z terenem."
+  },
+  {
+    "key": "Ship.Description.Metal",
+    "english": "A variant of the Gumball design, with each station coming equipped with Metal Gems.",
+    "polish": "Odmiana Balonówki, w której każde stanowisko ma klejnot metalu."
+  },
+  {
+    "key": "Ship.Description.Power",
+    "english": "A variant of the Gumball design, with each station coming equipped with Power Gems.",
+    "polish": "Odmiana Balonówki, w której każde stanowisko ma klejnot mocy."
+  },
+  {
+    "key": "Ship.Description.StoreSuffix",
+    "english": "Available from Ship Select.",
+    "polish": "Dostępny w wyborze statku."
+  },
+  {
+    "key": "Ship.Description.Third",
+    "english": "A sturdy, lovely prototype battleship containing the first portable Ardor Reactor.",
+    "polish": "Solidny, uroczy prototyp okrętu z pierwszym przenośnym Reaktorem Żaru."
+  },
+  {
+    "key": "Ship.DisplayName.Beam",
+    "english": "Gumball B",
+    "polish": "Balonówka B"
+  },
+  {
+    "key": "Ship.DisplayName.Divorced",
+    "english": "Banana Split",
+    "polish": "Banana Split"
+  },
+  {
+    "key": "Ship.DisplayName.Engine",
+    "english": "Jelly Roll",
+    "polish": "Rolada"
+  },
+  {
+    "key": "Ship.DisplayName.Metal",
+    "english": "Gumball M",
+    "polish": "Balonówka M"
+  },
+  {
+    "key": "Ship.DisplayName.Power",
+    "english": "Gumball P",
+    "polish": "Balonówka P"
+  },
+  {
+    "key": "Ship.DisplayName.Third",
+    "english": "Gumball Zero",
+    "polish": "Balonówka Zero"
+  },
+  {
+    "key": "Ship.DisplayName.UnlockShip",
+    "english": "Unlock Ship:",
+    "polish": "Odblokuj statek:"
+  },
+  {
+    "key": "World.DisplayName.AttractMode",
+    "english": "Attract Mode",
+    "polish": "Tryb pokazowy"
+  },
+  {
+    "key": "World.DisplayName.Cetus",
+    "english": "Cetus",
+    "polish": "Wieloryb"
+  },
+  {
+    "key": "World.DisplayName.DemoCaves",
+    "english": "Cavernous Core",
+    "polish": "Jaskiniowy rdzeń"
+  },
+  {
+    "key": "World.DisplayName.DemoCetus",
+    "english": "Cetus",
+    "polish": "Wieloryb"
+  },
+  {
+    "key": "World.DisplayName.DemoOrionCaverns",
+    "english": "Orion Caverns",
+    "polish": "Jaskinie Oriona"
+  },
+  {
+    "key": "World.DisplayName.DemoOrionSnowfields",
+    "english": "Orion Snowfields",
+    "polish": "Śnieżne pola Oriona"
+  },
+  {
+    "key": "World.DisplayName.DemoUrsaMajor",
+    "english": "Ursa Major",
+    "polish": "Wielka Niedźwiedzica"
+  },
+  {
+    "key": "World.DisplayName.KingCepheus",
+    "english": "King Cepheus",
+    "polish": "Król Cefeusz"
+  },
+  {
+    "key": "World.DisplayName.Orion",
+    "english": "Orion",
+    "polish": "Orion"
+  },
+  {
+    "key": "World.DisplayName.Tutorial",
+    "english": "Tutorial",
+    "polish": "Samouczek"
+  },
+  {
+    "key": "World.DisplayName.UrsaMajor",
+    "english": "Ursa Major",
+    "polish": "Wielka Niedźwiedzica"
+  },
+  {
+    "key": "World.Subtitle.Cetus1",
+    "english": "Skybeach",
+    "polish": "Podniebna plaża"
+  },
+  {
+    "key": "World.Subtitle.Cetus2",
+    "english": "The Four Queens",
+    "polish": "Cztery królowe"
+  },
+  {
+    "key": "World.Subtitle.Cetus3",
+    "english": "Big Seas",
+    "polish": "Wielkie morza"
+  },
+  {
+    "key": "World.Subtitle.Cetus4",
+    "english": "The Sea Monster",
+    "polish": "Morski potwór"
+  },
+  {
+    "key": "World.Subtitle.CetusX",
+    "english": "Undercaves",
+    "polish": "Podwodne groty"
+  },
+  {
+    "key": "World.Subtitle.DemoCaves1",
+    "english": "The Hive",
+    "polish": "Rój"
+  },
+  {
+    "key": "World.Subtitle.DemoCaves2",
+    "english": "Wormhole Outpost",
+    "polish": "Placówka przy tunelu"
+  },
+  {
+    "key": "World.Subtitle.DemoCetus1",
+    "english": "Ocean Cluster",
+    "polish": "Oceaniczna gromada"
+  },
+  {
+    "key": "World.Subtitle.DemoCetus2",
+    "english": "The Sea Monster",
+    "polish": "Morski potwór"
+  },
+  {
+    "key": "World.Subtitle.DemoOrionCaverns1",
+    "english": "Solar Vents",
+    "polish": "Słoneczne kominy"
+  },
+  {
+    "key": "World.Subtitle.DemoOrionCaverns2",
+    "english": "Winter Wormhole",
+    "polish": "Zimowy tunel"
+  },
+  {
+    "key": "World.Subtitle.DemoOrionSnowfields1",
+    "english": "Cosmic Flurries",
+    "polish": "Kosmiczna zamieć"
+  },
+  {
+    "key": "World.Subtitle.DemoUrsaMajor1",
+    "english": "Forest Cluster",
+    "polish": "Leśna gromada"
+  },
+  {
+    "key": "World.Subtitle.DemoUrsaMajor2",
+    "english": "The Great Bear",
+    "polish": "Wielki Niedźwiedź"
+  },
+  {
+    "key": "World.Subtitle.KingCepheus1",
+    "english": "Lost Gates",
+    "polish": "Zaginione wrota"
+  },
+  {
+    "key": "World.Subtitle.KingCepheus2",
+    "english": "Stellar Collapse",
+    "polish": "Gwiezdny kolaps"
+  },
+  {
+    "key": "World.Subtitle.KingCepheus3",
+    "english": "Flooded Ruins",
+    "polish": "Zatopione ruiny"
+  },
+  {
+    "key": "World.Subtitle.KingCepheus4",
+    "english": "The Star King",
+    "polish": "Gwiezdny Król"
+  },
+  {
+    "key": "World.Subtitle.KingCepheusX",
+    "english": "Maelstrom Core",
+    "polish": "Jądro wiru"
+  },
+  {
+    "key": "World.Subtitle.Orion1",
+    "english": "Celestial Snowfields",
+    "polish": "Niebiańskie śniegi"
+  },
+  {
+    "key": "World.Subtitle.Orion2",
+    "english": "Solar Vents",
+    "polish": "Słoneczne kominy"
+  },
+  {
+    "key": "World.Subtitle.Orion3",
+    "english": "Winter Wormhole",
+    "polish": "Zimowy tunel"
+  },
+  {
+    "key": "World.Subtitle.Orion4",
+    "english": "The Hunter",
+    "polish": "Myśliwy"
+  },
+  {
+    "key": "World.Subtitle.OrionX",
+    "english": "Melt Zone",
+    "polish": "Strefa odwilży"
+  },
+  {
+    "key": "World.Subtitle.Tutorial",
+    "english": "Tutorial",
+    "polish": "Samouczek"
+  },
+  {
+    "key": "World.Subtitle.UrsaMajor1",
+    "english": "Forest Cluster",
+    "polish": "Leśna gromada"
+  },
+  {
+    "key": "World.Subtitle.UrsaMajor2",
+    "english": "Wormhole Outpost",
+    "polish": "Placówka przy tunelu"
+  },
+  {
+    "key": "World.Subtitle.UrsaMajor3",
+    "english": "Cavernous Core",
+    "polish": "Jaskiniowy rdzeń"
+  },
+  {
+    "key": "World.Subtitle.UrsaMajor4",
+    "english": "The Great Bear",
+    "polish": "Wielki Niedźwiedź"
+  },
+  {
+    "key": "World.Subtitle.UrsaMajorX",
+    "english": "Planetoidia",
+    "polish": "Planetoidia"
+  },
+  {
+    "key": "Static.Ending.GameOver",
+    "english": "♥ GAME OVER ♥",
+    "polish": "♥ KONIEC GRY ♥",
+    "context": "ThanksForPlayingController (level10), set in code; matched by exact English text"
+  },
+  {
+    "key": "Static.Ending.BetterLove",
+    "english": "Better love next time!",
+    "polish": "Więcej miłości następnym razem!",
+    "context": "ThanksForPlayingController (level10), set in code; matched by exact English text"
+  },
+  {
+    "key": "Static.Ending.LoveHasPrevailed",
+    "english": "♥ LOVE HAS PREVAILED ♥",
+    "polish": "♥ MIŁOŚĆ ZWYCIĘŻYŁA ♥",
+    "context": "ThanksForPlayingController (level10), set in code; matched by exact English text"
+  },
+  {
+    "key": "Static.Ending.ThanksForPlaying",
+    "english": "Thanks for playing!",
+    "polish": "Dzięki za grę!",
+    "context": "ThanksForPlayingController (level10), set in code; matched by exact English text; also the last line of the credits"
+  },
+  {
+    "key": "Static.Credits.GameBy",
+    "english": "Lovers in a Dangerous Spacetime\nA game by Asteroid Base Inc.",
+    "polish": "Lovers in a Dangerous Spacetime\nGra studia Asteroid Base Inc.",
+    "context": "Credits screen (level13, CreditsController); matched by exact English text"
+  },
+  {
+    "key": "Static.Credits.LeadProgrammer",
+    "english": "Lead Programmer / Design",
+    "polish": "Główny programista / projektant",
+    "context": "Credits screen (level13, CreditsController); matched by exact English text"
+  },
+  {
+    "key": "Static.Credits.LeadDesign",
+    "english": "Lead Design / Art / Animation",
+    "polish": "Główny projektant / grafik / animator",
+    "context": "Credits screen (level13, CreditsController); matched by exact English text"
+  },
+  {
+    "key": "Static.Credits.Producer",
+    "english": "Producer / Programmer / Design",
+    "polish": "Producent / programista / projektant",
+    "context": "Credits screen (level13, CreditsController); matched by exact English text"
+  },
+  {
+    "key": "Static.Credits.Sound",
+    "english": "Sound and Music",
+    "polish": "Dźwięk i muzyka",
+    "context": "Credits screen (level13, CreditsController); matched by exact English text"
+  },
+  {
+    "key": "Static.Credits.Localization",
+    "english": "Localization",
+    "polish": "Lokalizacja",
+    "context": "Credits screen (level13, CreditsController); matched by exact English text"
+  },
+  {
+    "key": "Static.Credits.UxQa",
+    "english": "User Experience and QA Testing",
+    "polish": "Badania UX i testy QA",
+    "context": "Credits screen (level13, CreditsController); matched by exact English text"
+  },
+  {
+    "key": "Static.Credits.QaTesters",
+    "english": "QA Testers",
+    "polish": "Testerzy QA",
+    "context": "Credits screen (level13, CreditsController); matched by exact English text"
+  },
+  {
+    "key": "Static.Credits.QaLead",
+    "english": "QA Lead",
+    "polish": "Kierownik QA",
+    "context": "Credits screen (level13, CreditsController); matched by exact English text"
+  },
+  {
+    "key": "Static.Credits.QaCompliance",
+    "english": "QA - Compliance",
+    "polish": "QA – zgodność z wymaganiami",
+    "context": "Credits screen (level13, CreditsController); matched by exact English text"
+  },
+  {
+    "key": "Static.Credits.UiDesign",
+    "english": "UI Design",
+    "polish": "Projekt interfejsu",
+    "context": "Credits screen (level13, CreditsController); matched by exact English text"
+  },
+  {
+    "key": "Static.Credits.UserResearcher",
+    "english": "User Researcher",
+    "polish": "Badania użytkowników",
+    "context": "Credits screen (level13, CreditsController); matched by exact English text"
+  },
+  {
+    "key": "Static.Credits.UxCoordinator",
+    "english": "UX Test Coordinator",
+    "polish": "Koordynacja testów UX",
+    "context": "Credits screen (level13, CreditsController); matched by exact English text"
+  },
+  {
+    "key": "Static.Credits.UxLab",
+    "english": "UX Lab Technician",
+    "polish": "Technik laboratorium UX",
+    "context": "Credits screen (level13, CreditsController); matched by exact English text"
+  },
+  {
+    "key": "Static.Credits.CoverArt",
+    "english": "Cover Art",
+    "polish": "Ilustracja na okładce",
+    "context": "Credits screen (level13, CreditsController); matched by exact English text"
+  },
+  {
+    "key": "Static.Credits.Sony",
+    "english": "Sony Publishing Support",
+    "polish": "Wsparcie wydawnicze Sony",
+    "context": "Credits screen (level13, CreditsController); matched by exact English text"
+  },
+  {
+    "key": "Static.Credits.Xbox",
+    "english": "Xbox One Support",
+    "polish": "Wsparcie Xbox One",
+    "context": "Credits screen (level13, CreditsController); matched by exact English text"
+  },
+  {
+    "key": "Static.Credits.SpecialThanks",
+    "english": "Special Thanks",
+    "polish": "Szczególne podziękowania",
+    "context": "Credits screen (level13, CreditsController); matched by exact English text"
+  },
+  {
+    "key": "Static.Credits.MassiveThanks",
+    "english": "Massive thanks to",
+    "polish": "Ogromne podziękowania dla",
+    "context": "Credits screen (level13, CreditsController); matched by exact English text"
+  },
+  {
+    "key": "Static.Credits.ForMaking",
+    "english": "for making this game possible",
+    "polish": "za to, że ta gra mogła powstać",
+    "context": "Credits screen (level13, CreditsController); matched by exact English text"
+  },
+  {
+    "key": "Static.Credits.Support",
+    "english": "Made possible with the support of the",
+    "polish": "Gra powstała dzięki wsparciu",
+    "context": "Credits screen (level13, CreditsController); matched by exact English text; next line: Ontario Media Development Corporation"
+  },
+  {
+    "key": "Static.Credits.Everyone",
+    "english": "And thanks to everyone who\nsupported us along the way!",
+    "polish": "I dziękujemy wszystkim, którzy\nwspierali nas po drodze!",
+    "context": "Credits screen (level13, CreditsController); matched by exact English text"
+  }
+]

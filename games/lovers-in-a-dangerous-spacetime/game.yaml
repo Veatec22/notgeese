@@ -1,0 +1,22 @@
+slug: lovers-in-a-dangerous-spacetime
+title: Lovers in a Dangerous Spacetime
+version: "0.1"
+entries: { done: 351, total: 351 }
+tested: partial
+test_notes: Vertical (menus, settings, tutorial, hub) confirmed in game on GOG 1.4.5 by the user, 2026-09-29, before the full translation. Full text, credits and end screen not played yet.
+engine: Unity 5.0.2 (Mono), x86
+approach: Plugin BepInEx dokłada dwunasty język, „Polski”, do listy języków gry i podmienia teksty w pamięci. Napisy końcowe i ekran końca gry tłumaczy przy ich otwarciu. Żaden plik gry nie jest podmieniany.
+scope: Pełne – intro i zakończenie, samouczek, wszystkie kwestie dr. Hopsy-Siupsy, menu, ustawienia, sterowanie, wybór kampanii, postaci i statku, podsumowania misji, ulepszenia, nazwy kampanii i poziomów, nagłówki napisów końcowych. 351 wpisów. Po angielsku zostają nazwiska i nazwy firm w napisach końcowych oraz logo gry.
+tested_on:
+  - store: gog
+    version: "1.4.5"
+stores:
+  steam: https://store.steampowered.com/app/252110/
+  gog: https://www.gog.com/en/game/lovers_in_a_dangerous_spacetime
+download:
+  kind: zip
+  file: Lovers-in-a-Dangerous-Spacetime-PL-0.1.zip
+  bytes: 655902
+steam_appid: 252110
+year: 2015
+gallery: [1, 2, 3, 4, 5]

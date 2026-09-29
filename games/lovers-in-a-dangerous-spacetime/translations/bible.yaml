@@ -1,0 +1,147 @@
+# Lovers in a Dangerous Spacetime translation bible: facts with sources. Format: .claude/skills/localization/SKILL.md
+
+sources:
+  - id: keys
+    description: LocalizationSet keys; Dialog.* are Dr. Hopsy-Flopsy's lines, Dialog.Tutorial.1P* only in single-player
+  - id: ru
+    description: Russian table (work/ref-ru-ru.json); surname "Прыгской" masculine
+  - id: es
+    description: Spanish table (work/ref-es-es.json); "el Dr. Peluchín"
+  - id: wiki
+    description: Heroes Wiki, Doctor Hopsy-Flopsy ("he", anthropomorphic rabbit, guide)
+    url: https://hero.fandom.com/wiki/Doctor_Hopsy-Flopsy
+  - id: audio
+    description: 'No voice lines: one chatter loop LOV Hopsy Flopsy Initial/Loop/End_v1 (sharedassets6.assets)'
+
+style:
+  tone: cheerful sci-fi fairy tale about love; doctor is upbeat, a little scatterbrained, puns and deadpan asides
+  adaptation: text only (chatter loop, no words) → free; keep facts, mechanics hints and every joke's function; no memes, no swearing (none in EN)
+  reading_conditions: doctor's dialogue pops up during play, crew busy piloting stations; likely auto-dismiss (to test in the vertical) → concise
+  source: [audio, decision]
+  note: starting point from the direction sample (docs/decisions.md), re-check after full
+
+characters:
+  - id: doctor
+    name: dr Hopsa-Siupsa
+    gender: m
+    key: '^Dialog\.'
+    addresses_player: wy
+    register: warm, excited, quick; plural „wy” to the crew, singular „ty” in Dialog.Tutorial.1P* and GetMap1Player
+    declension: dr Hopsa-Siupsa (only nominative used)
+    examples:
+      - {key: Dialog.Tutorial.GetMap, en: "That's your map station! Use it to... map.", pl: "To wasze stanowisko mapy! Służy do... mapowania."}
+      - {key: Dialog.Orion1.Intro, en: "The temperature in this region is approaching absolute zero. Stay frosty!", pl: "Temperatura w tym rejonie zbliża się do zera absolutnego. Zachowajcie zimną krew!"}
+    source: [wiki, ru, es, user]
+    note: name agreed with user 2026-09-29 (rejected keeping „Hopsy-Flopsy”)
+
+terms:
+  - en: Lovers
+    pl: Lovers
+    forms: [lovers]
+    source: user
+    note: 'team name kept, indeclinable; Cutscene.Intro.3 backronym „Liga Opiekuńczych, Wielce Empatycznych Ratowników-Spacenautów” (L-O-W-E-R-S). Rejected: plain explanation, „Zakochani”.'
+  - en: Ardor Reactor
+    pl: Reaktor Żaru
+    forms: [reaktor żaru, reaktora żaru, reaktorem żaru, reaktorze żaru]
+    source: user
+    note: 'rejected: Reaktor Ardor'
+  - en: Anti-Love
+    pl: Antymiłość
+    forms: [antymiłoś]
+    source: decision
+  - en: XOXO matrix
+    pl: macierz XOXO
+    forms: [xoxo]
+    source: decision
+  - en: space-bunn(y|ies)
+    pl: kosmiczny króliczek
+    forms: [króliczk, króliczek]
+    source: decision
+  - en: space-pet
+    pl: kosmopupil
+    forms: [kosmopupil]
+    source: decision
+  - en: Space-Friend
+    pl: kosmoprzyjaciel
+    forms: [kosmoprzyjaci]
+    source: decision
+  - en: spacenauts?
+    pl: spacenauta
+    forms: [spacenau]
+    source: decision
+    note: coined word kept, as in EN
+  - en: gems?
+    pl: klejnot
+    forms: [klejnot]
+    source: decision
+  - en: station
+    pl: stanowisko
+    forms: [stanowisk]
+    source: decision
+  - en: Yamato Cannon
+    pl: działo Yamato
+    forms: [dział]
+    source: decision
+  - en: Gumball
+    pl: Balonówka
+    forms: [balonówk]
+    source: user
+    note: 'ship names translated; rejected: keeping English'
+  - en: Jelly Roll
+    pl: Rolada
+    forms: [rolad]
+    source: user
+  - en: Duality Mode
+    pl: tryb podwójny
+    forms: [podwójn]
+    source: decision
+    note: one player steers two characters; mechanic clarity over the name
+  - en: Ursa Major
+    pl: Wielka Niedźwiedzica
+    forms: [niedźwiedzic]
+    source: decision
+  - en: Cetus
+    pl: Wieloryb
+    forms: [wieloryb]
+    source: decision
+    note: Polish name of the constellation
+  - en: King Cepheus
+    pl: Król Cefeusz
+    forms: [cefeusz]
+    source: decision
+  - en: Wormhole Engine
+    pl: silnik tunelowy
+    forms: [silnik tunelow, silnika tunelow]
+    source: decision
+    note: wormhole alone = tunel czasoprzestrzenny
+  - en: wormhole
+    pl: tunel
+    forms: [tunel]
+    source: decision
+  - en: rank
+    pl: ranga
+    forms: [rang]
+    source: decision
+  - en: upgrade
+    pl: ulepszenie
+    forms: [ulepszen]
+    source: decision
+  - en: nexus
+    pl: węzeł
+    forms: [węz]
+    source: decision
+
+keep_english: [Lovers, Gamepad, Orion, Planetoidia, Lover, Banana Split, Yamato, XOXO, XInput, VSync, SPF, Kepler, Doppler, Riemann, Euler, Flapper, Hopper, Whisker, Webber, Mu, Rho, Pi, Nu, Upsilon, CPU, OK, Xbox, PS4]
+
+settings:
+  dialog_key: '^(Dialog|Cutscene)\.'
+
+ignore:
+  - {check: plurals, key: 'GUI.ControlsMenu.PlayerMode', reason: 'player number, nominative after "gracz"'}
+  - {check: plurals, key: 'GUI.HubScreen.CannotUseSameProfileXbox', reason: '{0} is a profile name'}
+  - {check: capitals, key: 'GUI.CampaignComplete.ReactorPieces', reason: 'Reaktor Żaru is a proper name'}
+  - {check: length, key: 'Error.Save.PS4AccessBusy', reason: 'console-only message box'}
+  - {check: length, key: 'GUI.SigninChange.Title', reason: 'console-only message box'}
+  - {check: terms, key: 'GUI.StoreMenu.RankMessage', reason: '"go up a rank" = awansować'}
+  - {check: length, key: 'Static.Credits.QaCompliance', reason: 'credits heading, full-width line'}
+  - {check: length, key: 'Static.Credits.CoverArt', reason: 'credits heading, full-width line'}

@@ -1,0 +1,92 @@
+# Lovers in a Dangerous Spacetime: groups and sequences for the review workspace.
+# Format: docs/workspace.md.
+
+format: 1
+
+# Display order in the workspace.
+groups:
+  - id: menu
+    name: Menu, pauza i zapisy
+  - id: settings
+    name: Ustawienia i sterowanie
+  - id: hub
+    name: Wybór kampanii, postaci i statku
+  - id: cutscenes
+    name: Intro i zakończenie
+  - id: tutorial
+    name: Samouczek
+  - id: dialogue
+    name: Dr Hopsa-Siupsa w kampanii
+  - id: game
+    name: Rozgrywka, podsumowania i ulepszenia
+  - id: worlds
+    name: Kampanie i poziomy
+  - id: errors
+    name: Błędy zapisu (konsole)
+  - id: credits
+    name: Napisy końcowe i ekran końca gry
+
+# Manual assignments of single entries; they beat rules.
+assign:
+  - {key: GUI.PauseMenu.SkipTutorial, group: menu}
+  - {key: GUI.PauseMenu.SkipTutorialConfirm, group: menu}
+  - {key: GUI.PauseMenu.SkipTutorialMessage, group: menu}
+  - {key: GUI.WriteDataError.Title, group: errors}
+  - {key: GUI.GamepadRecommended, group: settings}
+  - {key: Dialog.IntroCutscene.SystemsFailing, group: tutorial}
+  - {key: Dialog.IntroCutscene.TheyreCutOff, group: tutorial}
+  - {key: Enemy.DisplayName.KingCepheusEyes, group: game}
+
+# Checked in order; the first matching rule wins. The rest goes to "Do uporządkowania".
+rules:
+  - {group: credits, match: '^Static\.'}
+  - {group: cutscenes, match: '^Cutscene\.'}
+  - {group: tutorial, match: '^(Dialog\.Tutorial\.|MissionText\.Tutorial\.|GUI\.ControlBubble\.)'}
+  - {group: dialogue, match: '^Dialog\.'}
+  - {group: errors, match: '^(Error\.|GUI\.SigninChange\.)'}
+  - {group: settings, match: '^(GUI\.Settings\.|GUI\.ControlsMenu\.|GUI\.ControllerDisconnected\.|GUI\.Options\.)'}
+  - {group: hub, match: '^(GUI\.HubScreen\.|Player\.SkinName\.|Ship\.|GUI\.CharacterUnlock\.|GUI\.SelectDifficulty\.|GUI\.Difficulty\.)'}
+  - {group: worlds, match: '^World\.'}
+  - {group: game, match: '^(GUI\.(MissionComplete|CampaignComplete|StoreMenu|Upgrade)\.|MissionText\.|HUD\.|Item\.)'}
+  - {group: menu, match: '^GUI\.'}
+
+sequences:
+  - id: intro
+    name: Intro
+    group: cutscenes
+    order: {certainty: certain, source: numeracja kluczy}
+    speakers: {certainty: certain, source: plansze z narracją – bez postaci}
+    lines:
+      - {key: Cutscene.Intro.1}
+      - {key: Cutscene.Intro.2}
+      - {key: Cutscene.Intro.3}
+      - {key: Cutscene.Intro.4}
+      - {key: Cutscene.Intro.5}
+      - {key: Cutscene.Intro.6}
+      - {key: Cutscene.Intro.7}
+  - id: ending
+    name: Zakończenie
+    group: cutscenes
+    order: {certainty: certain, source: numeracja kluczy}
+    speakers: {certainty: certain, source: plansze z narracją – bez postaci}
+    lines:
+      - {key: Cutscene.Ending.1}
+      - {key: Cutscene.Ending.2}
+      - {key: Cutscene.Ending.3}
+  - id: tutorial
+    name: Ucieczka z kwatery (dwóch graczy)
+    group: tutorial
+    order: {certainty: reconstructed, source: z treści i przebiegu samouczka}
+    speakers: {certainty: certain, source: wszystkie kwestie Dialog.* mówi doktor}
+    lines:
+      - {key: Dialog.IntroCutscene.SystemsFailing, speaker: doctor}
+      - {key: Dialog.IntroCutscene.TheyreCutOff, speaker: doctor}
+      - {key: Dialog.Tutorial.Intro, speaker: doctor}
+      - {key: Dialog.Tutorial.LaserHalls, speaker: doctor}
+      - {key: Dialog.Tutorial.GetShield, speaker: doctor}
+      - {key: Dialog.Tutorial.GetMap, speaker: doctor}
+      - {key: Dialog.Tutorial.MapMarker, speaker: doctor}
+      - {key: Dialog.Tutorial.GetYamato, speaker: doctor}
+      - {key: Dialog.Tutorial.AfterYamato, speaker: doctor}
+      - {key: Dialog.Tutorial.ExplainFriends, speaker: doctor}
+      - {key: Dialog.Tutorial.FindWarpExit, speaker: doctor}
