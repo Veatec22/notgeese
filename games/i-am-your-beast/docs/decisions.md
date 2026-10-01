@@ -48,12 +48,39 @@ rakiet.", "wyjdziesz z tego cało", "czy coś"); "Złów i wypuść" (rejected "
 "GENERAŁ BURKIN!"; "Spójrz w dół" (rejected "Nie patrz w dół"). Rejected: SCENE 9/1 "Weź się ogar-"
 stays (not "Nie przesadzaj-").
 
+## In-game fixes 0.2 (2026-10-01, user screenshots)
+
+- "Try Again" → **Powtórz** ("Spróbuj ponownie" doesn't fit the retry tile).
+- Glued unlock headers rebuilt in Polish order (user: "Dalej Fabuła Odblokuj", "Fabuła
+  odblokowano" sound odd): **Do odblokowania – Fabuła**, **Odblokowano nowy poziom – Fabuła**,
+  **Odblokowano nowy przerywnik**, conditions **Obejrzyj: Fabuła – przerywnik**,
+  **Ukończ: Fabuła – poziom 17** (same "Verb: category – thing" shape as the bonus-objective glue).
+- NEW badge (TMP outside Fleece) → **NOWE**, as the user asked.
+- "a specific weapon" (code literal for unset [WEAPON]) → **określona broń** ("Zabijaj tylko:
+  określona broń"), nominative like weapon names after the colon.
+- Jodie is a man (user, in game): SCENE 6/1, 6/3, 6/6 to masculine forms. SCENE 1/7 "Dopiero
+  przyszedłem" (a man, user). The singing soldier in 7 Peekaboo is a woman: "Myślałam".
+- Settings: "Automatic" → **Auto** (didn't fit the value box); rebind tabs **Kontroler** /
+  **Klawiatura** (Fleece "Gamepad" too, was "Pad"); key names Polish or neutral: Spacja, LPM, PPM,
+  ŚPM, Lewy Shift, Ctrl, Esc…; "UNMAPPED" → BRAK.
+- Workspace export 2026-10-01: 5 corrections applied (Urwało mu łeb!, Uwaga na głowę!, Yyygh.,
+  niezłe bagno, Czeeeść.); both "Powtórz" were already in.
+
+## Release 1.0 (2026-10-01)
+
+User watched every cutscene and played through; no notes beyond the ones above. FINAL CUTSCENE/20
+("nigdy nie widziałam") stays: the user couldn't tell the speaker and saw nothing wrong. Ready.
+
 ## Open
 
 Not shown to the user and not applied: `17 Acceptance/8–9`, `SCENE 8/14`, `RELEASE/42–43`,
 `24 Goodbye/13`, minor items.
 
 ## Check in game
+
+- 0.2: unlock panel on level select (header and condition), NEW on cutscene rows,
+  retry tile "Powtórz", bonus objective with unset weapon; settings "Auto", rebind tabs and key
+  names (also in hints: "Naciśnij LPM"); FINAL CUTSCENE/20 "nigdy nie widziałam" speaker.
 
 - 6 Help Wanted #53–58 after the fix; unlock screen "Ukończ: Fabuła – cele dodatkowe x5".
 - `tmp/Base:\nReclaimed:`: what it refers to (gender of "Bazowy/Odzyskany").

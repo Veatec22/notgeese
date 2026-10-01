@@ -86,15 +86,28 @@ characters:
     note: >-
       Segment colors BOB/KYLE/MARKUS/NATHAN/STEPHEN assign the lines. Markus keeps "Weź się ogar-"
       (SCENE 9/1); the user rejected "Nie przesadzaj-".
-  - id: jodie-iris
-    name: Jodie, Iris (Grupa wsparcia)
+  - id: jodie
+    name: Jodie (Grupa wsparcia)
+    gender: m
+    register: like the rest of the group; tells of the cave (SCENE 6)
+    source: user, in game (2026-10-01)
+    note: >-
+      First taken as a woman from the name; the user heard a man in game ("Jak się stamtąd
+      wydostałeś?", "Stałem", "wyszedłem").
+  - id: iris
+    name: Iris (Grupa wsparcia)
     gender: f
-    register: like the rest of the group; Jodie tells of the cave, Iris of the rocket units
+    register: like the rest of the group; tells of the rocket units
     source: decision
     note: >-
-      Gender taken from the names ("Dopiero przyszłam", "Nigdy nie widziałam", "Jak się stamtąd
-      wydostałaś?"); no confirmation in game data. Check against voices in game. Hence the
-      group counts as "sześcioro". Burkin calls them "panowie" anyway.
+      Gender taken from the name; not confirmed in game. Unassigned feminine line:
+      FINAL CUTSCENE/20 "nigdy nie widziałam". SCENE 1/7 is a man ("Dopiero przyszedłem", user). Hence the group counts as
+      "sześcioro". Burkin calls them "panowie" anyway.
+  - id: singing-soldier
+    name: śpiewająca agentka I.T.O. (7 Peekaboo)
+    gender: f
+    register: caught singing on the radio, "szefie" to the officer
+    source: user, in game (2026-10-01)
   - id: soldiers
     name: agenci I.T.O. (wrogowie)
     gender: m

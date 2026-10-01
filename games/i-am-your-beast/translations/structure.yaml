@@ -24,7 +24,7 @@ groups:
     name: Fleece — opowieści i wspomnienia
 
 rules:
-  - {group: interface, match: '^tmp/'}
+  - {group: interface, match: '^(tmp|format|code|key)/'}
   - {group: tutorial, match: '^phrase/TUT_'}
   - {group: cutscenes, match: '^phrase/(SCENE \d+|FINAL CUTSCENE|ENDING|CATCH|RELEASE|Example Cutscene No Text)/'}
   - {group: missions, match: '^phrase/\d+[ _]'}

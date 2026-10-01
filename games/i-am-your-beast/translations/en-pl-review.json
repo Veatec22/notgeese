@@ -404,7 +404,7 @@
   {
     "key": "fleece/18584",
     "english": "Try Again",
-    "polish": "Spróbuj ponownie",
+    "polish": "Powtórz",
     "context": "Try Again"
   },
   {
@@ -674,7 +674,7 @@
   {
     "key": "fleece/24461",
     "english": "Dude's headless!",
-    "polish": "Koleś nie ma głowy!",
+    "polish": "Urwało mu łeb!",
     "context": "Dude's Headless"
   },
   {
@@ -1574,7 +1574,7 @@
   {
     "key": "fleece/43699",
     "english": "Headshot folks!",
-    "polish": "Strzały w głowę, ludzie!",
+    "polish": "Uwaga na głowę!",
     "context": "Headshot Folks"
   },
   {
@@ -1682,7 +1682,7 @@
   {
     "key": "fleece/45969",
     "english": "Automatic",
-    "polish": "Automatycznie",
+    "polish": "Auto",
     "context": "Automatic"
   },
   {
@@ -2300,7 +2300,7 @@
   {
     "key": "fleece/58287",
     "english": "Try Again",
-    "polish": "Spróbuj ponownie",
+    "polish": "Powtórz",
     "context": "Try Again"
   },
   {
@@ -4100,7 +4100,7 @@
   {
     "key": "fleece/99685",
     "english": "Gamepad",
-    "polish": "Pad",
+    "polish": "Kontroler",
     "context": "Gamepad"
   },
   {
@@ -4784,7 +4784,7 @@
   {
     "key": "phrase/16_Realization/1",
     "english": "Hgmmhmmg.",
-    "polish": "Hgmmhmmg.",
+    "polish": "Yyygh.",
     "context": "1.291-1.971s; zakres do weryfikacji"
   },
   {
@@ -4910,7 +4910,7 @@
   {
     "key": "phrase/17 Acceptance/2",
     "english": "Either way, Harding, you seem to have stumbled into a natural kill box.\r",
-    "polish": "Tak czy inaczej, Harding, chyba wpakowałeś się w naturalny kocioł.",
+    "polish": "Tak czy inaczej, Harding, chyba wpakowałeś się w niezłe bagno.",
     "context": "4.945-9.664s; zakres do weryfikacji"
   },
   {
@@ -5300,7 +5300,7 @@
   {
     "key": "phrase/20 Helper Delta/6",
     "english": "Hiiiiiii.",
-    "polish": "Cześććććć.",
+    "polish": "Czeeeść.",
     "context": "8.728-10.028s; zakres do weryfikacji"
   },
   {
@@ -6980,7 +6980,7 @@
   {
     "key": "phrase/7 Peekaboo/10",
     "english": "I figured the brass were using music to keep up morale!",
-    "polish": "Myślałem, że dowództwo puszcza muzykę dla podniesienia morale!",
+    "polish": "Myślałam, że dowództwo puszcza muzykę dla podniesienia morale!",
     "context": "8.945-10.976s; zakres do weryfikacji"
   },
   {
@@ -7556,7 +7556,7 @@
   {
     "key": "phrase/SCENE 1/7",
     "english": "I just got here.",
-    "polish": "Dopiero przyszłam.",
+    "polish": "Dopiero przyszedłem.",
     "context": "9.149-10.570s; zakres do weryfikacji"
   },
   {
@@ -8090,7 +8090,7 @@
   {
     "key": "phrase/SCENE 6/1",
     "english": "How did you get out of there?",
-    "polish": "Jak się stamtąd wydostałaś?",
+    "polish": "Jak się stamtąd wydostałeś?",
     "context": "0.590-2.000s; zakres do weryfikacji"
   },
   {
@@ -8102,7 +8102,7 @@
   {
     "key": "phrase/SCENE 6/3",
     "english": "I stood in the cave mouth for about 10 seconds...",
-    "polish": "Stałam u wejścia do jaskini jakieś 10 sekund...",
+    "polish": "Stałem u wejścia do jaskini jakieś 10 sekund...",
     "context": "3.039-5.999s; zakres do weryfikacji"
   },
   {
@@ -8120,7 +8120,7 @@
   {
     "key": "phrase/SCENE 6/6",
     "english": "...then I walked right back out.",
-    "polish": "...potem po prostu wyszłam z powrotem.",
+    "polish": "...potem po prostu wyszedłem z powrotem.",
     "context": "7.587-9.016s; zakres do weryfikacji"
   },
   {
@@ -9604,5 +9604,191 @@
     "english": "Keyboard Mapping",
     "polish": "Przypisanie klawiszy",
     "context": "napis w scenie TextMeshPro, poza bankiem Fleece"
+  },
+  {
+    "key": "tmp/NEW",
+    "english": "NEW",
+    "polish": "NOWE",
+    "context": "napis w scenie TextMeshPro, poza bankiem Fleece (znacznik nowego poziomu lub przerywnika)"
+  },
+  {
+    "key": "tmp/New",
+    "english": "New",
+    "polish": "Nowe",
+    "context": "napis w scenie TextMeshPro, poza bankiem Fleece (znacznik nowego poziomu lub przerywnika)"
+  },
+  {
+    "key": "format/next-unlock",
+    "english": "Next {0} Unlock",
+    "polish": "Do odblokowania – {0}",
+    "context": "nagłówek sklejany przez grę z pojedynczych słów; plugin składa go od nowa według wzoru; {0} = kategoria (Fabuła, Wyzwania…)"
+  },
+  {
+    "key": "format/new-level-unlocked",
+    "english": "New {0} Level Unlocked",
+    "polish": "Odblokowano nowy poziom – {0}",
+    "context": "nagłówek sklejany przez grę z pojedynczych słów; plugin składa go od nowa według wzoru; {0} = kategoria"
+  },
+  {
+    "key": "format/new-cutscene-unlocked",
+    "english": "New Cutscene Unlocked",
+    "polish": "Odblokowano nowy przerywnik",
+    "context": "nagłówek sklejany przez grę z pojedynczych słów; plugin składa go od nowa według wzoru"
+  },
+  {
+    "key": "format/watch-cutscene",
+    "english": "Watch {0} Cutscene",
+    "polish": "Obejrzyj: {0} – przerywnik",
+    "context": "warunek odblokowania; nagłówek sklejany przez grę z pojedynczych słów; plugin składa go od nowa według wzoru; {0} = kategoria"
+  },
+  {
+    "key": "format/complete-level",
+    "english": "Complete {0} Level {1}",
+    "polish": "Ukończ: {0} – poziom {1}",
+    "context": "warunek odblokowania; nagłówek sklejany przez grę z pojedynczych słów; plugin składa go od nowa według wzoru; {0} = kategoria, {1} = numer"
+  },
+  {
+    "key": "code/a specific weapon",
+    "english": "a specific weapon",
+    "polish": "określona broń",
+    "context": "wstawiane za [WEAPON] w celach dodatkowych na wyborze poziomu, gdy broń nie jest ustawiona (\"Zabijaj tylko: [WEAPON]\")"
+  },
+  {
+    "key": "tmp/Gamepad",
+    "english": "Gamepad",
+    "polish": "Kontroler",
+    "context": "napis w scenie TextMeshPro, poza bankiem Fleece (zakładka w przypisywaniu)"
+  },
+  {
+    "key": "tmp/Keyboard",
+    "english": "Keyboard",
+    "polish": "Klawiatura",
+    "context": "napis w scenie TextMeshPro, poza bankiem Fleece (zakładka w przypisywaniu)"
+  },
+  {
+    "key": "code/UNMAPPED",
+    "english": "UNMAPPED",
+    "polish": "BRAK",
+    "context": "przypisywanie klawiszy: akcja bez klawisza"
+  },
+  {
+    "key": "key/Space",
+    "english": "Space",
+    "polish": "Spacja",
+    "context": "nazwa klawisza z Unity Input System (przypisywanie, podpowiedzi [KEY])"
+  },
+  {
+    "key": "key/Left Button",
+    "english": "Left Button",
+    "polish": "LPM",
+    "context": "nazwa klawisza z Unity Input System (przypisywanie, podpowiedzi [KEY]); lewy przycisk myszy"
+  },
+  {
+    "key": "key/Right Button",
+    "english": "Right Button",
+    "polish": "PPM",
+    "context": "nazwa klawisza z Unity Input System (przypisywanie, podpowiedzi [KEY]); prawy przycisk myszy"
+  },
+  {
+    "key": "key/Middle Button",
+    "english": "Middle Button",
+    "polish": "ŚPM",
+    "context": "nazwa klawisza z Unity Input System (przypisywanie, podpowiedzi [KEY]); środkowy przycisk myszy"
+  },
+  {
+    "key": "key/Forward",
+    "english": "Forward",
+    "polish": "Mysz 5",
+    "context": "nazwa klawisza z Unity Input System (przypisywanie, podpowiedzi [KEY]); boczny przycisk myszy"
+  },
+  {
+    "key": "key/Back",
+    "english": "Back",
+    "polish": "Mysz 4",
+    "context": "nazwa klawisza z Unity Input System (przypisywanie, podpowiedzi [KEY]); boczny przycisk myszy"
+  },
+  {
+    "key": "key/Left Shift",
+    "english": "Left Shift",
+    "polish": "Lewy Shift",
+    "context": "nazwa klawisza z Unity Input System (przypisywanie, podpowiedzi [KEY])"
+  },
+  {
+    "key": "key/Right Shift",
+    "english": "Right Shift",
+    "polish": "Prawy Shift",
+    "context": "nazwa klawisza z Unity Input System (przypisywanie, podpowiedzi [KEY])"
+  },
+  {
+    "key": "key/Shift",
+    "english": "Shift",
+    "polish": "Shift",
+    "context": "nazwa klawisza z Unity Input System (przypisywanie, podpowiedzi [KEY])"
+  },
+  {
+    "key": "key/Control",
+    "english": "Control",
+    "polish": "Ctrl",
+    "context": "nazwa klawisza z Unity Input System (przypisywanie, podpowiedzi [KEY])"
+  },
+  {
+    "key": "key/Left Control",
+    "english": "Left Control",
+    "polish": "Lewy Ctrl",
+    "context": "nazwa klawisza z Unity Input System (przypisywanie, podpowiedzi [KEY])"
+  },
+  {
+    "key": "key/Right Control",
+    "english": "Right Control",
+    "polish": "Prawy Ctrl",
+    "context": "nazwa klawisza z Unity Input System (przypisywanie, podpowiedzi [KEY])"
+  },
+  {
+    "key": "key/Left Alt",
+    "english": "Left Alt",
+    "polish": "Lewy Alt",
+    "context": "nazwa klawisza z Unity Input System (przypisywanie, podpowiedzi [KEY])"
+  },
+  {
+    "key": "key/Right Alt",
+    "english": "Right Alt",
+    "polish": "Prawy Alt",
+    "context": "nazwa klawisza z Unity Input System (przypisywanie, podpowiedzi [KEY])"
+  },
+  {
+    "key": "key/Escape",
+    "english": "Escape",
+    "polish": "Esc",
+    "context": "nazwa klawisza z Unity Input System (przypisywanie, podpowiedzi [KEY])"
+  },
+  {
+    "key": "key/Left Arrow",
+    "english": "Left Arrow",
+    "polish": "Strzałka w lewo",
+    "context": "nazwa klawisza z Unity Input System (przypisywanie, podpowiedzi [KEY])"
+  },
+  {
+    "key": "key/Right Arrow",
+    "english": "Right Arrow",
+    "polish": "Strzałka w prawo",
+    "context": "nazwa klawisza z Unity Input System (przypisywanie, podpowiedzi [KEY])"
+  },
+  {
+    "key": "key/Up Arrow",
+    "english": "Up Arrow",
+    "polish": "Strzałka w górę",
+    "context": "nazwa klawisza z Unity Input System (przypisywanie, podpowiedzi [KEY])"
+  },
+  {
+    "key": "key/Down Arrow",
+    "english": "Down Arrow",
+    "polish": "Strzałka w dół",
+    "context": "nazwa klawisza z Unity Input System (przypisywanie, podpowiedzi [KEY])"
+  },
+  {
+    "key": "key/Caps Lock",
+    "english": "Caps Lock",
+    "polish": "Caps Lock",
+    "context": "nazwa klawisza z Unity Input System (przypisywanie, podpowiedzi [KEY])"
   }
 ]

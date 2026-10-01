@@ -558,6 +558,7 @@ function exportPayload(comment: string) {
 function showExport() {
   const preview = exportPayload('');
   const drafts = model!.drafts.size;
+  const empty = !preview.corrections.length && !preview.conflicts.length;
   modal(
     `Eksport korekt · ${gameMeta!.title}`,
     `<p>Korekty do wdrożenia: ${preview.corrections.length}, według stanu z main <code>${shortSha(model!.view.main_sha)}</code>. Eksport obejmuje wyłącznie zapisany wynik pracy i niczego nie zmienia.</p>
@@ -566,14 +567,29 @@ function showExport() {
     <label for="ws-comment">Komentarz dla agenta</label>
     <textarea id="ws-comment" placeholder="Co agent powinien wiedzieć przy nanoszeniu korekt?"></textarea>
     <details><summary>Pokaż JSON</summary><pre>${esc(JSON.stringify(preview, null, 2))}</pre></details>`,
-    `<button class="ws-primary" type="button" data-action="download" ${preview.corrections.length || preview.conflicts.length ? '' : 'disabled'}>${icon('download')} Pobierz JSON</button>`,
+    `<button type="button" data-action="copy-export" ${empty ? 'disabled' : ''}>${icon('copy')} Kopiuj JSON</button>
+    <button class="ws-primary" type="button" data-action="download" ${empty ? 'disabled' : ''}>${icon('download')} Pobierz JSON</button>`,
   );
 }
 
-function download() {
+function exportWithComment() {
   const comment = (document.getElementById('ws-comment') as HTMLTextAreaElement | null)?.value ?? '';
   const payload = exportPayload(comment);
-  const url = URL.createObjectURL(new Blob([`${JSON.stringify(payload, null, 2)}\n`], { type: 'application/json' }));
+  return { payload, text: `${JSON.stringify(payload, null, 2)}\n` };
+}
+
+async function copyExport() {
+  try {
+    await navigator.clipboard.writeText(exportWithComment().text);
+    toast('Skopiowano eksport do schowka. Stan wpisów nie zmienił się.');
+  } catch {
+    toast('Przeglądarka nie pozwoliła skopiować. Użyj „Pobierz JSON”.');
+  }
+}
+
+function download() {
+  const { payload, text } = exportWithComment();
+  const url = URL.createObjectURL(new Blob([text], { type: 'application/json' }));
   const link = document.createElement('a');
   link.href = url;
   link.download = `${payload.game}-korekty-${payload.exported_at.slice(0, 10)}.json`;
@@ -731,6 +747,8 @@ async function handleClick(event: Event) {
       return showExport();
     case 'download':
       return download();
+    case 'copy-export':
+      return copyExport();
     case 'search-game':
       query = (document.getElementById('ws-search') as HTMLInputElement | null)?.value ?? query;
       return searchGame();

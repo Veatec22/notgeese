@@ -5,7 +5,8 @@ Mono, x64; `bundleVersion` 0.1.0 (internal). Full `mscorlib` (`GetPEKind`, 4
 `AmbiguousMatchException` ctors). `Assembly-CSharp.dll` and `AudioTextSynchronizer.dll` readable
 with Cecil. Search for existing translations skipped at the user's request.
 
-1581 entries: 684 Fleece, 853 scene segments, 44 TMP labels.
+1612 entries: 684 Fleece, 853 scene segments, 48 TMP labels, 5 glued-header patterns, 2 code literals,
+20 key names.
 
 ## Where texts live
 
@@ -43,6 +44,20 @@ BepInEx 5 + Harmony, `plugin/Plugin.cs`. Three layers:
 - **Fixed TMP labels**: exact match in `TMP_Text.set_text` prefix, in both TMP classes' `Awake`
   (`m_text`) and after scene load.
 
+- **Glued headers** (`format/`): the level-select unlock panel concatenates single Fleece words
+  in English order: `UIContentUnlockIndicator.DisplayNextUnlock` (Next + category + Unlock),
+  `DisplayNewUnlock` (New + cutscene | category + level + Unlocked),
+  `LevelUnlockCondition.GetUnlockConditionDisplayStrings` (Watch + category + cutscene; Complete +
+  category + level + N). Postfixes recognize the result by the (already Polish) words read from
+  the same `Jumper` fields and rebuild it from a Polish pattern; no match → left as built.
+  Bonus-objective and grade conditions keep the earlier word glue ("Ukończ:", "– cele dodatkowe").
+- **Code literals** (`code/`): a transpiler swaps `ldstr` operands found in `code/` in
+  `UILevelSelectFeature.Refresh` ("a specific weapon" for unset `[WEAPON]`) and
+  `UISettingsOptionRebind.RefreshText` ("UNMAPPED").
+- **Key names** (`key/`): rebind screen and hints take names from
+  `InputControlPath.ToHumanReadableString` (Unity.InputSystem); a postfix swaps exact names
+  ("Space", "Left Button"). Single letters and combos built from them stay.
+
 Each Fleece entry and segment carries an FNV-1a fingerprint of the English letters/digits in
 `pl.tsv`; a mismatch after a game update keeps English and is counted in the log. The plugin logs
 game and Unity version and Polish-letter status per `TMP_FontAsset`
@@ -69,3 +84,10 @@ build refuses archives with game files.
 
 - Vertical confirmed in game by the user (2026-09-25): "świetny efekt"; one note, I.T.O. with dots.
 - Full translation after independent review, built and installed; full game not played.
+- 0.2 (2026-10-01): fixes from user screenshots (Try Again too long, glued unlock headers, NEW
+  badge on cutscene rows, "a specific weapon"), workspace export (5 corrections), Auto, Kontroler /
+  Klawiatura tabs, key names, two speaker-gender fixes.
+- 1.0 (2026-10-01): the user watched all cutscenes and played through; no further notes. Moved to
+  `ready` by the user.
+- Local install gotcha: a leftover pre-rename `BepInEx/plugins/NieGesiIAmYourBeast` makes the new
+  plugin refuse to load (`BepInIncompatibility`); moved to `backups/` on 2026-10-01.

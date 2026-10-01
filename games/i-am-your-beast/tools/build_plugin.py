@@ -26,7 +26,7 @@ sys.path.insert(0, str(REPO / 'tools'))
 
 from translations import polish_by_key  # noqa: E402
 
-VERSION = '0.1'
+VERSION = '1.0'
 DATA = 'I Am Your Beast_Data'
 PLUGIN = 'notgeeseIAmYourBeast'
 PACKAGE = 'I-Am-Your-Beast-PL'
@@ -53,6 +53,7 @@ GAME_REFERENCES = [
     'UnityEngine.TextCoreFontEngineModule.dll',
     'UnityEngine.UI.dll',                 # TMP_Text inherits Graphic
     'Unity.TextMeshPro.dll',
+    'Unity.InputSystem.dll',              # key names on the rebind screen
     'AudioTextSynchronizer.dll',          # PhraseAsset, TextSynchronizer
     'Assembly-CSharp.dll',                # Fleece
 ]

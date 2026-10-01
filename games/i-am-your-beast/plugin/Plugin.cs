@@ -4,7 +4,9 @@
 // without touching game files:
 //   1. Fleece bank (menus, HUD, tutorial, enemy barks): Passage.text field by ID;
 //   2. AudioTextSynchronizer dialogue scenes: text of each PhraseAsset segment;
-//   3. text hard-coded into TextMeshPro scenes: exact text match.
+//   3. text hard-coded into TextMeshPro scenes: exact text match;
+//   4. headers the game glues from single words in English order: rebuilt from a Polish
+//      pattern; a few English string literals in code; key names from the Input System.
 //
 // Every Fleece entry and scene segment carries a fingerprint of the English original.
 // When a game update puts different text under the same key it stays English and the
@@ -14,6 +16,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
+using System.Reflection.Emit;
 using System.Text;
 using AudioTextSynchronizer;
 using AudioTextSynchronizer.Core;
@@ -25,6 +28,7 @@ using Fleece;
 using HarmonyLib;
 using TMPro;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 namespace notgeese.IAmYourBeast
@@ -36,7 +40,7 @@ namespace notgeese.IAmYourBeast
     public class Plugin : BaseUnityPlugin
     {
         public const string Id = "cc.notgeese.iamyourbeast";
-        public const string Version = "0.1";
+        public const string Version = "1.0";
 
         internal const string TermsFile = "pl.tsv";
         internal const string PolishLetters = "ąćęłńóśźżĄĆĘŁŃÓŚŹŻ";
@@ -58,6 +62,9 @@ namespace notgeese.IAmYourBeast
             Patch(harmony, typeof(FleecePatch), "bank Fleece");
             Patch(harmony, typeof(PhrasePatch), "dialogue scenes");
             Patch(harmony, typeof(TmpPatch), "TextMeshPro labels");
+            Patch(harmony, typeof(UnlockPatch), "unlock headers");
+            Patch(harmony, typeof(CodePatch), "texts in code");
+            Patch(harmony, typeof(KeyPatch), "key names");
 
             SceneManager.sceneLoaded += OnSceneLoaded;
         }
@@ -103,13 +110,17 @@ namespace notgeese.IAmYourBeast
         private static readonly Dictionary<string, Dictionary<int, Entry>> Phrases =
             new Dictionary<string, Dictionary<int, Entry>>(StringComparer.Ordinal);
         internal static readonly Dictionary<string, string> Fixed = new Dictionary<string, string>(StringComparer.Ordinal);
+        internal static readonly Dictionary<string, string> Formats = new Dictionary<string, string>(StringComparer.Ordinal);
+        internal static readonly Dictionary<string, string> Code = new Dictionary<string, string>(StringComparer.Ordinal);
+        internal static readonly Dictionary<string, string> Keys = new Dictionary<string, string>(StringComparer.Ordinal);
 
         private static readonly HashSet<int> Done = new HashSet<int>();
         private static int translated, changed;
         private static bool reported;
 
         /// File next to the library: key, tab, English fingerprint, tab, text.
-        /// Keys: fleece/<ID>, phrase/<asset>/<segment>, tmp/<English text>.
+        /// Keys: fleece/<ID>, phrase/<asset>/<segment>, tmp/<English text>,
+        /// format/<glued header>, code/<English string literal>, key/<Input System key name>.
         internal static bool Load(string path)
         {
             if (!File.Exists(path))
@@ -147,6 +158,18 @@ namespace notgeese.IAmYourBeast
                 else if (key.StartsWith("tmp/", StringComparison.Ordinal))
                 {
                     Fixed[key.Substring(4)] = text;
+                }
+                else if (key.StartsWith("format/", StringComparison.Ordinal))
+                {
+                    Formats[key.Substring(7)] = text;
+                }
+                else if (key.StartsWith("code/", StringComparison.Ordinal))
+                {
+                    Code[key.Substring(5)] = text;
+                }
+                else if (key.StartsWith("key/", StringComparison.Ordinal))
+                {
+                    Keys[key.Substring(4)] = text;
                 }
             }
 
@@ -345,6 +368,181 @@ namespace notgeese.IAmYourBeast
             if (value == null || !Texts.Fixed.TryGetValue(value, out polish)) return;
             if (text.gameObject.scene.IsValid()) text.text = polish;
             else Text(text) = polish;
+        }
+    }
+
+    /// The level-select unlock panel glues headers from single Fleece words in English order
+    /// ("Next" + category + "Unlock", "Watch" + category + "cutscene"). The words are already
+    /// Polish by then; the glued result is recognized by them and rebuilt from a Polish pattern.
+    /// Anything that doesn't match stays as the game built it.
+    [HarmonyPatch]
+    internal static class UnlockPatch
+    {
+        private static readonly AccessTools.FieldRef<UIContentUnlockIndicator, TMP_Text> Header =
+            AccessTools.FieldRefAccess<UIContentUnlockIndicator, TMP_Text>("headerText");
+        private static readonly AccessTools.FieldRef<UIContentUnlockIndicator, Jumper> Next =
+            AccessTools.FieldRefAccess<UIContentUnlockIndicator, Jumper>("passageNext");
+        private static readonly AccessTools.FieldRef<UIContentUnlockIndicator, Jumper> Unlock =
+            AccessTools.FieldRefAccess<UIContentUnlockIndicator, Jumper>("passageUnlock");
+        private static readonly AccessTools.FieldRef<UIContentUnlockIndicator, Jumper> New =
+            AccessTools.FieldRefAccess<UIContentUnlockIndicator, Jumper>("passageNew");
+        private static readonly AccessTools.FieldRef<UIContentUnlockIndicator, Jumper> Unlocked =
+            AccessTools.FieldRefAccess<UIContentUnlockIndicator, Jumper>("passageUnlocked");
+
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(UIContentUnlockIndicator), "DisplayNextUnlock")]
+        private static void AfterNext(UIContentUnlockIndicator __instance)
+        {
+            var header = Header(__instance);
+            string category;
+            if (header != null && Between(header.text, Read(Next(__instance)), Read(Unlock(__instance)), out category))
+            {
+                Apply(header, "next-unlock", category);
+            }
+        }
+
+        /// "New" + (cutscene | category + " " + level) + "Unlocked".
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(UIContentUnlockIndicator), "DisplayNewUnlock")]
+        private static void AfterNew(UIContentUnlockIndicator __instance)
+        {
+            var header = Header(__instance);
+            var storer = Storer();
+            string middle;
+            if (header == null || storer == null ||
+                !Between(header.text, Read(New(__instance)), Read(Unlocked(__instance)), out middle)) return;
+            var level = Read(storer.passageLevel);
+            if (middle == Read(storer.passageCutscene))
+            {
+                Apply(header, "new-cutscene-unlocked");
+            }
+            else if (!string.IsNullOrEmpty(level) && middle.EndsWith(" " + level, StringComparison.Ordinal))
+            {
+                Apply(header, "new-level-unlocked", middle.Substring(0, middle.Length - level.Length - 1));
+            }
+        }
+
+        /// "Watch" + category + "cutscene"; "Complete" + category + level + number.
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(LevelUnlockCondition), "GetUnlockConditionDisplayStrings")]
+        private static void AfterConditions(string[] __result)
+        {
+            var storer = Storer();
+            if (__result == null || storer == null) return;
+            var level = Read(storer.passageLevel);
+            for (var i = 0; i < __result.Length; i++)
+            {
+                string middle;
+                if (Between(__result[i], Read(storer.passageWatch), Read(storer.passageCutscene), out middle))
+                {
+                    __result[i] = Format("watch-cutscene", __result[i], middle);
+                }
+                else if (!string.IsNullOrEmpty(level) && Between(__result[i], Read(storer.passageComplete), null, out middle))
+                {
+                    var at = middle.LastIndexOf(" " + level + " ", StringComparison.Ordinal);
+                    if (at > 0)
+                    {
+                        __result[i] = Format("complete-level", __result[i],
+                            middle.Substring(0, at), middle.Substring(at + level.Length + 2));
+                    }
+                }
+            }
+        }
+
+        private static TextStorerManager Storer()
+        {
+            return GameManager.instance != null ? GameManager.instance.textStorerManager : null;
+        }
+
+        private static string Read(Jumper jumper)
+        {
+            return jumper != null && jumper.passage != null ? jumper.passage.parsedText : null;
+        }
+
+        /// value = head + " " + middle + " " + tail (tail null: anything after head).
+        private static bool Between(string value, string head, string tail, out string middle)
+        {
+            middle = null;
+            if (string.IsNullOrEmpty(value) || string.IsNullOrEmpty(head)) return false;
+            if (!value.StartsWith(head + " ", StringComparison.Ordinal)) return false;
+            var end = value.Length;
+            if (tail != null)
+            {
+                if (tail.Length == 0 || !value.EndsWith(" " + tail, StringComparison.Ordinal)) return false;
+                end -= tail.Length + 1;
+            }
+            var start = head.Length + 1;
+            if (end <= start) return false;
+            middle = value.Substring(start, end - start);
+            return true;
+        }
+
+        private static void Apply(TMP_Text header, string name, params object[] args)
+        {
+            header.text = Format(name, header.text, args);
+        }
+
+        private static string Format(string name, string fallback, params object[] args)
+        {
+            string pattern;
+            if (!Texts.Formats.TryGetValue(name, out pattern)) return fallback;
+            try
+            {
+                return string.Format(pattern, args);
+            }
+            catch (FormatException)
+            {
+                return fallback;
+            }
+        }
+    }
+
+    /// English string literals in game code, swapped in the IL. A literal that is gone after
+    /// an update just isn't found.
+    [HarmonyPatch]
+    internal static class CodePatch
+    {
+        private static IEnumerable<MethodBase> TargetMethods()
+        {
+            foreach (var method in new[]
+            {
+                AccessTools.Method(typeof(UILevelSelectFeature), "Refresh"),
+                AccessTools.Method(typeof(UISettingsOptionRebind), "RefreshText"),
+            })
+            {
+                if (method != null) yield return method;
+            }
+        }
+
+        [HarmonyTranspiler]
+        private static IEnumerable<CodeInstruction> Literals(IEnumerable<CodeInstruction> code)
+        {
+            foreach (var instruction in code)
+            {
+                string polish;
+                var literal = instruction.operand as string;
+                if (instruction.opcode == OpCodes.Ldstr && literal != null && Texts.Code.TryGetValue(literal, out polish))
+                {
+                    instruction.operand = polish;
+                }
+                yield return instruction;
+            }
+        }
+    }
+
+    /// Key names on the rebind screen and in hints ("Space", "Left Button") come from the
+    /// Input System's readable path; exact names in key/ are swapped, combos ("W/S/A/D") and
+    /// single letters stay.
+    [HarmonyPatch]
+    internal static class KeyPatch
+    {
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(InputControlPath), "ToHumanReadableString",
+            new[] { typeof(string), typeof(InputControlPath.HumanReadableStringOptions), typeof(InputControl) })]
+        private static void AfterReadable(ref string __result)
+        {
+            string polish;
+            if (__result != null && Texts.Keys.TryGetValue(__result, out polish)) __result = polish;
         }
     }
 
