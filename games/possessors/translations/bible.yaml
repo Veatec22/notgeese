@@ -1,0 +1,151 @@
+sources:
+  - id: keys
+    description: 'Articy keys DFr_<SCENE>_<NNNN>_0x<id>.Text: scene and line order; no speaker in the key'
+  - id: ru
+    description: Russian table of the game (work/loc/ru), past-tense and adjective gender
+  - id: ui-names
+    description: Speaker name list in UI.locres (Luca, Rhem, Kaz, Tens, Dessa, Mom, Grandpa...), with RU gender for job titles
+  - id: store
+    description: Steam/GOG description (Luca and Rhem, quarantined flooded city, interdimensional catastrophe)
+
+style:
+  tone: >-
+    Coming-of-age story in a ruined city. Luca is a sarcastic, scared, stubborn teenager;
+    Rhem is a cold, condescending demon who slowly softens. Humor comes from their bickering.
+    Natural spoken Polish, short lines; no modern memes, no added lore.
+  adaptation: >-
+    Text only (characters speak in gibberish barks, no English voice lines found), so free with
+    idioms and rhythm. Keep facts, hints and who knows what; keep profanity at the original strength.
+  profanity: >-
+    shit -> cholera / szlag (Luca), "Oh shit!" -> "O kurde!"/"Cholera!"; fuck -> kurwa (only where EN has it);
+    dick -> dupek; crap -> syf / badziewie; heck/hell -> do diabła / kurde; "get bent" -> "wal się".
+  reading_conditions: dialogue boxes, assumed click-through (to test); tutorial hints and pursuit popups on screen during play
+  ui: imperative 2nd person singular ("Naciśnij", "Pokonaj"); sentence case; Polish quotes „…”, inner ‚…’
+  source: decision
+  note: decided without a direction session (user asked to go straight to full); revisit at review
+
+characters:
+  - id: luca
+    name: Luca
+    gender: f
+    addresses_player: '-'
+    register: 16 years old (DOCK_01_SURVIVOR_02_0600); slangy ("stary", "serio", "kurde", "no"), blunt, swears at EN strength; calls Rhem "ty" and "stary" (EN "man", "dude"); "pan/pani" to unfamiliar adults
+    declension: >-
+      Luca, Luki, Luce, Lukę, Luką, Luce; vocative "Luca" (spoken). Prefer phrasing that keeps the
+      nominative; oblique forms per PWN rule for foreign -ca read [ka]
+    examples:
+      - {key: DFr_STREETS_05_LUCA_GOAL_1300, en: "You know what? You're a <i>dick.</>", pl: 'Wiesz co? Jesteś <i>dupkiem.</>'}
+      - {key: DFr_POCKET_SEALED_IN_0600, en: "Well, I'm not staying in Sanzu. I'm taking these bad boys <i>outside.</>", pl: 'Ja tam nie zostaję w Sanzu. Wynoszę te cudeńka <i>na zewnątrz.</>'}
+    source: [ru, keys]
+  - id: rhem
+    name: Rhem
+    gender: m
+    addresses_player: ty
+    register: formal, cold, precise, condescending; full sentences, no slang, no swearing; calls humans "wy, ludzie"
+    declension: Rhem, Rhema, Rhemowi, Rhemem, Rhemie
+    examples:
+      - {key: DFr_INTRO_WAKE_UP_1200, en: 'But I possessed you, and made you stronger. Now we share a mind.', pl: 'Ale opętałem cię i uczyniłem silniejszą. Teraz dzielimy jeden umysł.'}
+      - {key: DFr_STREETS_01_ASLEEP_0600, en: 'I fixed your legless husk. Do not bother me with your complaints.', pl: 'Naprawiłem twoją beznogą skorupę. Nie zawracaj mi głowy skargami.'}
+    source: [ru, keys]
+  - id: kaz
+    name: Kaz
+    gender: m
+    declension: Kaz, Kaza, Kazowi
+    note: Luca's friend killed in the intro
+    source: [ru]
+  - id: cheekers
+    name: Cheekers
+    gender: m
+    register: rat-like merchant, speaks of himself in 3rd person, broken grammar
+    declension: Cheekers, Cheekersa, Cheekersowi
+    source: [ru]
+  - id: tens
+    name: Tens
+    gender: f
+    declension: indeclinable
+    note: the Hunter (łowczyni), host with a truce with her demon, like Vanth
+    source: [ru]
+  - id: moja
+    name: Moja
+    gender: f
+    declension: Moja, Moi, Moję, Moją (demonica)
+    source: [ru]
+  - id: dessa
+    name: Dessa
+    gender: m
+    declension: Dessa, Dessy, Dessie, Dessę, Dessą (like "Kuba")
+    note: Rhem's former partner, freed demons in the uprising ("Dessa paru stracił"); also spelled Dehsa in two EN pursuits; PL always Dessa
+    source: [ru]
+  - id: foss
+    name: Profesor Foss
+    gender: m
+    addresses_player: ty
+    register: rambling, feverish scientist; Luca's physics teacher. Luca addresses him "pan" / "panie profesorze"
+    declension: Foss, Fossa, Fossowi
+    source: [ru, keys]
+  - id: harlan
+    name: Harlan
+    gender: m
+    note: Foss's colleague; Foss mistakes Luca for him
+    source: [ru]
+  - id: luca-background
+    name: Luca (family)
+    note: >-
+      Kaz is the rich kid (dad a corporate "stiff", mom goes to fundraisers, parents exec level). Luca and her mom
+      lived in a colony outside Sanzu until mom got an Agradyne job; Luca lives in Blue Pass housing and has a
+      sister. Russian genders settle it in flashback B (8, 15, 17 masculine = Kaz). Flashback F (CampusHill): Kaz
+      complains first, Luca answers "your dad sucks"; the "my parents are nice to you" speech is Kaz's (RU
+      "единственный" there is taken as an RU slip). Mom: Bonnie (Kaz calls her so); "Mary" on the helipad list is
+      read by Luca as her mom.
+    source: [ru]
+  - id: agradyne
+    name: Agradyne
+    gender: n
+    note: company name, indeclinable, neuter singular like "Google" ("Agradyne objęło kwarantanną"); people of the company in plural ("okłamywali cię")
+    source: decision
+
+terms:
+  - {en: chroma, pl: chroma, forms: [chrom], source: decision, note: 'feminine, declines like "chroma, chromy, chromę"; demon essence and currency'}
+  - {en: demon, pl: demon, forms: [demon], source: decision}
+  - {en: 'possess(ed|ion|ing)?', pl: opętać / opętanie / opętany, forms: [opęta, opętu, opętan, opętyw], source: decision}
+  - {en: Dark Cyclopean Dynasty, pl: Mroczna dynastia cyklopów, forms: [Mroczn], source: decision, note: 'TV series; Polish title case (first word only); fans = Nocni Wojownicy'}
+  - {en: Venderpup, pl: Handlopies, forms: [Handlop], source: decision, note: 'dog-like vendors; mirrors vendor+pup'}
+  - {en: Chroma Trader, pl: handlarz / handlarka chromą, forms: [chromą], source: decision}
+  - {en: Freedlander colon(y|ies), pl: wolne kolonie, forms: [woln], source: decision}
+  - {en: '(blue|pink|silver) pass', pl: niebieska / różowa / srebrna przepustka, forms: [przepust], source: decision, note: lowercase everywhere}
+  - {en: host, pl: nosiciel, forms: [nosiciel], source: decision, note: 'body or object a demon possesses'}
+  - {en: feral, pl: zdziczały, forms: [zdziczał, zdzicz, dzicz], source: decision}
+  - {en: Rift, pl: Wyrwa, forms: [wyrw], source: decision}
+  - {en: pocket, pl: kieszeń, forms: [kiesze], source: decision, note: 'pocket between worlds'}
+  - {en: affix, pl: wszczep, forms: [wszczep], source: decision, note: 'demon organs slotted into weapons'}
+  - {en: gear, pl: ekwipunek, forms: [ekwipun], source: decision}
+  - {en: pursuit, pl: zadanie, forms: [zada], source: decision}
+  - {en: whip, pl: bicz, forms: [bicz], source: decision}
+  - {en: painkiller, pl: lek przeciwbólowy, forms: [przeciwból], source: decision}
+  - {en: poise, pl: równowaga, forms: [równowag], source: decision}
+  - {en: vault, pl: skarbiec, forms: [skarbc, skarbiec], source: decision}
+  - {en: Sunken City, pl: Zatopione Miasto, forms: [Zatopion], source: decision}
+  - {en: Fluorescent Park, pl: Park Jarzeniowy, forms: [Jarzeniow], source: decision}
+  - {en: Campus Hill, pl: Wzgórze Kampusowe, forms: [Wzgórz], source: decision}
+  - {en: 'Dead Mall', pl: Martwa Galeria, forms: [Martw], source: decision}
+  - {en: 'Rusted Dockyard', pl: Zardzewiałe Doki, forms: [Zardzewiał], source: decision}
+  - {en: 'Inverted Plaza', pl: Odwrócona Plaza, forms: [Odwrócon], source: decision}
+  - {en: 'Skyscraper Remnants', pl: Ruiny Wieżowca, forms: [Wieżow], source: decision}
+  - {en: Hunter, pl: łowczyni, forms: [łowczyni], source: [ru]}
+  - {en: Luminous Garden, pl: Lśniący Ogród, forms: [Lśniąc], source: decision}
+
+keep_english: [Agradyne, Sanzu, SanZooQuarium, ZooQuarium, Zooquarium, Infinergy, InfinergyTM, Aquamax, Centrallia, Rancho Mirage Flats, Cheekers, Rhem, Luca, Kaz, Tens, Dessa, Dau, Renzo, Tygo, Moja, Vanth, Orren, Tesca, Bort, Vern, Lustro, Clara, Rutto, Mulciber, Beverly, Bonnie, Callie, Jordan, Frankle, Wexy, Foss, Demars, PlayStation, Xbox, DualSense, FPS, SFX, Hardcore]
+
+settings:
+  dialog_key: '^Articy_'
+
+ignore:
+  - {check: typography, key: '^(UI|Game)/', reason: 'straight quotes are inside input-icon markup id="…", not prose'}
+  - {check: english, key: '\.(Text|MenuText)$', reason: 'BLANK, >>BLANK, CUT, debug lines, interjections (Heh, Hmm, Wow, Rrrgh, HAHAHAHA) kept as in the game'}
+  - {check: english, key: '^(UI|Game)//', reason: 'Demon, System, Katana are the same word in Polish'}
+  - {check: plurals, key: '19A62B914FFBA03F3A8328A63138AF22', reason: 'counter after a colon, no inflection needed'}
+  - {check: terms, key: 'INSPECTABLE_CHILD_SUNKENCITY', reason: 'Hunter is the child''s name in this email, not the hunter'}
+  - {check: terms, key: 'DEMON_BEAR_ABOUT_1200', reason: 'possessing rendered as being in the teddy bear'}
+  - {check: consistency, key: '(Leave|MenuText|Survivor)', reason: 'menu Leave (Wyjdź) vs dialogue choice (Odejdź); gendered job titles; pan/pani by addressee'}
+  - {check: consistency, key: '.', reason: 'same EN with different PL checked by hand: addressee gender/formality, case of echoed names, tense by situation'}
+  - {check: capitals, key: '.', reason: 'proper names of places, gangs, departments and bosses are capitalized in Polish too'}

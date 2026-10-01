@@ -1,0 +1,22 @@
+slug: possessors
+title: Possessor(s)
+version: "0.1"
+entries: { done: 3890, total: 3890 }
+tested: partial
+engine: Unreal Engine 5
+approach: Nakładkowy pak z polską kulturą językową; gra sama dodaje Polski do listy języków. Żaden plik gry nie jest podmieniany.
+scope: Całość — menu i ustawienia, samouczki, przedmioty i umiejętności, zadania, dialogi, wspomnienia, e-maile i terminale.
+tested_on:
+  - store: gog
+    version: "1.8.0"
+steam_appid: 2132890
+stores:
+  steam: https://store.steampowered.com/app/2132890/
+  gog: https://www.gog.com/en/game/possessors
+download:
+  kind: zip
+  file: Possessors-PL-0.1.zip
+  bytes: 215551
+test_notes: Probes confirmed in game (Polish in the language list, menu and early dialogue). Full translation built and installed; full playthrough and independent review pending.
+gallery: [1, 2, 3, 4, 5]
+year: 2025
