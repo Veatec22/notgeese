@@ -2,12 +2,14 @@ slug: hong-kong-massacre
 title: The Hong Kong Massacre
 version: "0.1"
 entries: { done: 429, total: 429 }
-tested: structural
-test_notes: Full translation after independent review, 429/429 entries; built, hook targets verified in the game assemblies, installed locally on GOG (Steam 1.04 content). Not played in game yet; the user publishes it as a test version. The game's own UI scaling breaks outside 1920x1080.
+tested: partial
+test_notes: Full translation after independent review, 429/429 entries; built, hook targets verified in the game assemblies, installed locally on GOG (Steam 1.04 content). The game's own UI scaling breaks outside 1920x1080. Tested in game by the user (reported 2026-10-02); full playthrough pending.
 engine: Unity 2017.4.17 (Mono), x64
 approach: Plugin BepInEx podmienia teksty w pamięci gry – dialogi w bazie Dialogue System, napisy interfejsu i ustawienia sterowania. Brakujące polskie litery dwóch fontów gry rysuje font systemowy. Żaden plik gry nie jest podmieniany.
 scope: Pełne – przesłuchania i rozmowy w barze, groźby bossów, zaczepki przechodniów, menu, ustawienia i sterowanie, HUD, wyniki i wyzwania, broń i ulepszenia, tytuły poziomów, plansze z datami, porady. 429 wpisów. Po angielsku zostają napisy końcowe z licencjami oraz logo w filmach.
-tested_on: []
+tested_on:
+  - store: gog
+    version: "1.0.3"
 stores:
   steam: https://store.steampowered.com/app/741510/
   gog: https://www.gog.com/en/game/the_hong_kong_massacre

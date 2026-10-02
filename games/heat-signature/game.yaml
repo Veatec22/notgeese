@@ -2,11 +2,11 @@ slug: heat-signature
 title: Heat Signature
 version: "0.1"
 entries: { done: 2590, total: 2590 }
-tested: structural
+tested: partial
 engine: GameMaker Studio 1.4 / YYC, x86
 approach: Własny plugin D3D9 tłumaczy tekst przed łamaniem wierszy (wpisy dokładne, szablony zdań składanych przez grę, nazwy przedmiotów z polską odmianą) i podaje grze przetłumaczone kopie plików dialogów przy ich wczytaniu. Fonty sprite z otwartego Xolonium. Funkcje odkrywane po nazwach i instrukcjach, bez stałych adresów.
 scope: Pełne — menu, ustawienia, samouczek, HUD, przedmioty, cechy, misje i klauzule, wyzwalanie, podpowiedzi, dziennik zdarzeń, rankingi i wszystkie 13 plików dialogów. Pominięto komunikaty diagnostyczne i tekst minigry naprawy (oProblem). 2536 wpisów plus 54 wiersze słownika nazw przedmiotów.
-test_notes: Fonts, spacing and menus confirmed in game on the vertical (user screenshot 2026-09-25). Full translation after the independent language review installed; in-game test pending. Checked without the game - engine test on strings from the game log, 661 of 662 dialogue lines translate at load. EXE and original dialogue files unchanged.
+test_notes: Fonts, spacing and menus confirmed in game on the vertical (user screenshot 2026-09-25). Full translation after the independent language review installed. Checked without the game - engine test on strings from the game log, 661 of 662 dialogue lines translate at load. EXE and original dialogue files unchanged. Tested in game by the user (reported 2026-10-02); full playthrough pending.
 steam_appid: 268130
 stores:
   steam: https://store.steampowered.com/app/268130/
