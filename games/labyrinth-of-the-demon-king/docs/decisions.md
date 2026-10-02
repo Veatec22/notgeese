@@ -1,7 +1,8 @@
 # Labyrinth of the Demon King: translation decisions
 
-No bible, structure or independent review yet. Locres has no speakers; uncertain speaker genders are
-noted per entry.
+Locres has no speakers. Bible and `structure.yaml` (2026-10-02) take speakers from the dialogue
+DataTable that defines each key (`tools/key_sources.py`); hero lines inside NPC tables are read from
+the text. No independent review yet.
 
 ## Voices
 
@@ -37,6 +38,13 @@ noted per entry.
 - Eight source texts repeat the locked-door sentence twice; Polish has it once.
 - "Cons." → "Zużyw." provisionally; needs UI context.
 - Some achievement jokes adapted freely; judge with the achievement image.
+
+## Review
+
+No independent full review yet. Check report (2026-10-02): missing 0, tokens 0, plurals 0; terms 8,
+consistency 6, English 16, length 8, capitals 19, typography 8: hints, not reviewed one by one.
+Speaker check against `structure.yaml` found two masculine forms in the merchant's lines
+(„Tak jak obiecałem”, „co mówiłem?”; she is feminine, RU agrees): not fixed yet, needs a 0.2 build.
 
 ## Check in game
 

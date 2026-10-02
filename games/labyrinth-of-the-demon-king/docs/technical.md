@@ -50,6 +50,10 @@ shipped; confirmed in game.
 .venv\Scripts\python.exe games\labyrinth-of-the-demon-king\tools\test_overlay.py
 ```
 
+`tools/key_sources.py --game <dir>` finds the asset defining each key (all 1120 located) →
+`work/key-sources.json`; `context` in the review file and the groups/sequences in
+`translations/structure.yaml` come from it.
+
 `tools/analyze.py` re-extracts texts into `translations/en-pl-review.json` and writes
 `work/analysis.json`; `tools/inspect_iostore.py` dumps chosen IoStore chunks to `work/`.
 

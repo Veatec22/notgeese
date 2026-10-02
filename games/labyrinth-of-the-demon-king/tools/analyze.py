@@ -13,7 +13,7 @@ import pak
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT.parents[1] / 'tools'))
 
-from translations import polish_by_key, review_path, write_entries  # noqa: E402
+from translations import load_entries, polish_by_key, review_path, write_entries  # noqa: E402
 PAK_SHA = 'e2be58acee1ecdbe04b3147612b298a2112791b98a2fc2d80658433bc91f3d48'
 EN_SHA = 'a21b8c409d78fd066ef0a5cd9f4e41efc11dccf6bea74a321ec7d35387cad846'
 
@@ -65,8 +65,11 @@ def main():
     assert len(english.texts()) == 1120
     polish = polish_by_key(ROOT) if review_path(ROOT).exists() else {}
     assert polish.keys() <= {e.key for _, e in english.entries()}
+    # context comes from tools/key_sources.py; keep it across re-extraction
+    context = {x['key']: x['context'] for x in load_entries(ROOT) if x.get('context')} if review_path(ROOT).exists() else {}
     review = [{'key': e.key, 'english': e.text, 'polish': polish.get(e.key, ''),
-               'namespace': ns, 'status': 'translated' if e.key in polish else 'untranslated'}
+               'namespace': ns, 'status': 'translated' if e.key in polish else 'untranslated',
+               **({'context': context[e.key]} if e.key in context else {})}
               for ns,e in english.entries()]
     write_entries(ROOT, review)
     cultures = {}

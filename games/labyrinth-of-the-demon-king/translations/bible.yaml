@@ -1,0 +1,85 @@
+sources:
+  - id: tables
+    description: 'Source asset of each key (tools/key_sources.py → context): one dialogue DataTable per NPC, rows in play order'
+  - id: ru
+    description: Russian table of the game (work/cultures/ru-RU), past-tense gender
+  - id: text
+    description: The English text itself (self-descriptions, how others address the character)
+
+style:
+  tone: >-
+    Grim Japanese folk-horror dungeon; short, quiet NPC exchanges. NPCs are weary, sly or casual,
+    never modern-slangy except the kappa.
+  adaptation: >-
+    Text only, no voice. Puzzles first: meaning, directions, numbers and order beat rhyme and style.
+    Japanese names of weapons, creatures and objects stay recognizable.
+  reading_conditions: dialogue boxes wait for a click; notes and item descriptions in menus
+  ui: imperative 2nd person singular; sentence case; Polish quotes „…”
+  source: decision
+  note: written after the full translation from docs/decisions.md; no direction session was held
+
+characters:
+  - id: hero
+    name: bohater
+    gender: m
+    addresses_player: '-'
+    register: >-
+      Silent-type avenger; short questions and dialogue choices in square brackets ("[Zachowaj
+      milczenie]"). NPCs address him "ty"; the merchant calls him „wędrowcze”, the kappa „kolego”,
+      the priest „przyjacielu”, the Demon King „szczeniaku”.
+    examples:
+      - {key: 6985FD624E7CA541171F35B2D65695D6, en: "I'm not lost. I'm here to avenge my lord.", pl: 'Nie zabłądziłem. Przybyłem pomścić mojego pana.'}
+    source: [ru, text]
+  - id: servant
+    name: służąca
+    gender: f
+    addresses_player: ty
+    register: frightened, hesitant, many ellipses; formal-plain, no slang
+    examples:
+      - {key: C46A7B694E8F63675995A6B4809B206C, en: 'I... I am just a servant.', pl: 'Ja... Jestem tylko służącą.'}
+    source: [tables, text]
+  - id: merchant
+    name: handlarka
+    gender: f
+    addresses_player: ty
+    register: >-
+      Nekomata cat who runs the teahouse; sly, purring, morbid jokes about meat and ramen;
+      „wędrowcze”, „hehehe”. Also teaches combat in the tutorial.
+    examples:
+      - {key: 41E4221C4E40CF837C12BDADB29863F4, en: 'Mrrp. I found it earlier.', pl: 'Mrr. Znalazłam go wcześniej.'}
+    source: [tables, ru, text]
+  - id: kappa
+    name: kappa
+    gender: m
+    addresses_player: ty
+    register: casual blacksmith, „kolego”, mild swearing („cholernie”, „robisz sobie jaja”); has a wife and a sister
+    note: the noun „kappa” is grammatically feminine („tę małą kappę”), the character is a man („Znalazłem”)
+    source: [tables, ru, text]
+  - id: priest
+    name: kapłan
+    gender: m
+    addresses_player: ty
+    register: calm, forgetful, a little vain; „przyjacielu”
+    source: [tables, text]
+  - id: demon-king
+    name: Król Demonów
+    gender: m
+    addresses_player: ty
+    register: mocking, theatrical, „HAHAHA”, „szczeniaku”
+    declension: Król Demonów, Króla Demonów, Królowi Demonów
+    source: [tables, text]
+
+terms:
+  - {en: Demon King, pl: Król Demonów, forms: [Król Demonów, Króla Demonów, Królowi Demonów, Królem Demonów], source: decision}
+  - {en: Labyrinth, pl: Labirynt, forms: [Labirynt], source: decision}
+  - {en: Warden, pl: Strażnik, forms: [Strażnik, strażnik], source: decision}
+  - {en: Jailer, pl: Dozorca, forms: [Dozorc, dozorc], source: decision}
+  - {en: King's Court, pl: Królewski Sąd, forms: [Królewski Sąd, Królewskiego Sądu, Królewskim Sądzie], source: decision}
+  - {en: parry, pl: parowanie, forms: [parow, sparow, parad], source: decision}
+  - {en: Bloodletter, pl: Krwawnik, forms: [Krwawnik], source: decision}
+  - {en: Chrysanthemum Blade, pl: Ostrze Chryzantemy, forms: [Ostrz, Chryzantem], source: decision}
+  - {en: Ritual Incense, pl: kadzidło rytualne, forms: [kadzid], source: decision}
+  - {en: Purifying Incense, pl: kadzidło oczyszczające, forms: [kadzid], source: decision}
+  - {en: teahouse, pl: herbaciarnia, forms: [herbaciarn], source: decision}
+
+keep_english: [butsudan, shirikodama, mon, kodoku, tsuchigumo, chawan, matcha, sake, ramen, naginata, katana, sashimi]

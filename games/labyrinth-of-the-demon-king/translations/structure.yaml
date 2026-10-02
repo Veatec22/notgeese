@@ -1,0 +1,403 @@
+# Labyrinth of the Demon King: groups and sequences for the review workspace.
+# Format: docs/workspace.md. Groups by the asset that defines each key (`context`,
+# tools/key_sources.py). Sequences: one per dialogue DataTable, rows in asset order.
+
+format: 1
+
+groups:
+  - {id: menu, name: 'Menu, zapis i ekrany'}
+  - {id: settings, name: 'Ustawienia i sterowanie'}
+  - {id: tutorial, name: 'Samouczek i podpowiedzi'}
+  - {id: hud, name: 'HUD, ekwipunek, mapa i sklepy'}
+  - {id: servant, name: 'Dialogi: służąca'}
+  - {id: merchant, name: 'Dialogi: handlarka'}
+  - {id: kappa, name: 'Dialogi: kappa'}
+  - {id: priest, name: 'Dialogi: kapłan'}
+  - {id: demon-king, name: 'Dialogi: Król Demonów'}
+  - {id: notes, name: 'Notatki'}
+  - {id: items, name: 'Przedmioty, mapy i poziomy'}
+  - {id: achievements, name: 'Osiągnięcia'}
+  - {id: world, name: 'Świat: drzwi, zagadki i komunikaty'}
+
+rules:
+  - {group: settings, context: '^(Blueprints/Widgets/Settings/|Blueprints/Widgets/PauseMenu/ControlLayoutWidgets/|AssetPacks/AutoSettings/)'}
+  - {group: tutorial, context: '(UI_HowToPlay|_Tutorial)'}
+  - {group: menu, context: '^Blueprints/(Widgets/(MainMenu|PauseMenu|SaveMenu|LanguageSelectScreen|GameOver|AchievementMenu)/|Widgets/UI_YesNoWidget|Misc/BP_(MainMenuPortal|NewGamePortal))'}
+  - {group: hud, context: '^Blueprints/Widgets/'}
+  - {group: servant, context: '^DataTables/dialogue/Servant_001/'}
+  - {group: merchant, context: '^DataTables/dialogue/Merchant_001/'}
+  - {group: kappa, context: '^DataTables/dialogue/Kappa_001/'}
+  - {group: priest, context: '^DataTables/dialogue/Priest_001/'}
+  - {group: demon-king, context: '^DataTables/dialogue/DemonKing/'}
+  - {group: notes, context: '^DataTables/DT_NoteData'}
+  - {group: items, context: '^DataTables/(ItemList|MapDataList|LevelDataList)'}
+  - {group: achievements, context: '^DataTables/AchievementData'}
+  - {group: world, context: '^(Blueprints|Maps|Cinematics)/'}
+
+sequences:
+  - id: servant-dialogue
+    name: 'Służąca: rozmowa w wieży i czyszczenie broni'
+    group: servant
+    order: {certainty: reconstructed, source: 'kolejność wierszy w tabeli DataTable (z rozgałęzieniami)'}
+    speakers: {certainty: reconstructed, source: 'tabela należy do jednej postaci; kwestie bohatera z treści'}
+    lines:
+      - {key: 165EA817443DA2557B0E62922CD873B8, speaker: servant}
+      - {key: 9D81D5A0459E3B25C6FA518EE821D957, speaker: hero}
+      - {key: C46A7B694E8F63675995A6B4809B206C, speaker: servant}
+      - {key: 364FA3C64A2C30E30A2D3FBBDED34E5B, speaker: hero}
+      - {key: 45EEBFC344FA55248D9E6A9E7B39B1A0, speaker: servant}
+      - {key: 6985FD624E7CA541171F35B2D65695D6, speaker: hero}
+      - {key: 5C2CD8134B95BBC8315AF382D6125E39, speaker: servant}
+      - {key: 6218CAFA4F633F9C2B75F58BB05A2FC3, speaker: servant}
+      - {key: CD1BD69F4B9D457452B938BABA2C2D8B, speaker: servant}
+      - {key: 2236D0DE44C7F249004247B716B5F79A, speaker: hero}
+      - {key: E67B99054B9B4CBB1BA947AB1486BE97, speaker: servant}
+      - {key: 25757CB2411FB171F0D4128227CF4457, speaker: hero}
+      - {key: 1161A6E7431125BA09158097828D2298, speaker: servant}
+      - {key: B073016342F7AD136E32A6979376F059, speaker: hero}
+      - {key: 1FE260E4420D7853972526BCEEC14EA6, speaker: servant}
+      - {key: 916F5F0B436C7C3AF8D8979E817840FF, speaker: servant}
+      - {key: 14D19CF24E411FC00EC763BFEAF7829C, speaker: servant}
+      - {key: 9F6DC26A4992F07CDF7C5184C8C51D4D, speaker: servant}
+      - {key: DEE7E5574C4AC1AEE48081B1200923B5, speaker: servant}
+      - {key: 2E6088A346DF314CF0C338B87DB71BAB, speaker: servant}
+      - {key: BDBF0EE243FCE490F254778730670B3D, speaker: servant}
+      - {key: 79AFB95241C7744CB3DDEFA203003D4D, speaker: hero}
+      - {key: 99829357446864450D65248CE832CE9A, speaker: servant}
+      - {key: 9A0F3EF9450C7E64E5CBC8885390DC75, speaker: servant}
+      - {key: 81BF01634A50C14C129C3E94CA7B784A, speaker: servant}
+      - {key: C6F168B94C4EF1C1DB422D88232F775D, speaker: hero}
+      - {key: FB2ACDC34A51BE11FDFD29BE76399529, speaker: servant}
+      - {key: 2F8567D24B755EA22B3D88A971CD2C22, speaker: hero}
+      - {key: 618DEBED4798A5421763D2BA7681FB51, speaker: servant}
+      - {key: 3DE0EA4A4B4E746A0994A592333D63BA, speaker: hero}
+      - {key: 21E30EB9484FEEDFD87D409FDD2E97C4, speaker: hero}
+      - {key: D5D2D2FB4E7BD3DCD71EC3B0812C6324, speaker: servant}
+      - {key: B77D3FA64777E53E26EAE3BB62FDC36F, speaker: servant}
+      - {key: F6493ED74A9AE20BEC6EE8A48312BAA3, speaker: hero}
+      - {key: D45DA2C14EFCA82BD998949EB4B04BFD, speaker: servant}
+      - {key: AD1AF58949785BB74CAB7A871BFF8B13, speaker: servant}
+      - {key: D69B9A1C481D5E40C4B91FB2093177C3, speaker: servant}
+      - {key: A8DE32A54DABEA01102C5CAC70FD538E, speaker: servant}
+      - {key: 42F5878048CCCCBE1136FAAE426787AA, speaker: servant}
+      - {key: 8D34042D4D96E9829DD142903A1A1C0C, speaker: hero}
+      - {key: 8A35B8444B91E7F41F0759BBCD9803DC, speaker: servant}
+      - {key: 65221734423B959AA02E58919F4C2F75, speaker: servant}
+      - {key: 08C195C94B1B74E6809F14874F1F68C1, speaker: servant}
+  - id: servant-greetings
+    name: 'Służąca: powitania i kolejne spotkania'
+    group: servant
+    order: {certainty: reconstructed, source: 'kolejność wierszy w tabeli DataTable (z rozgałęzieniami)'}
+    speakers: {certainty: reconstructed, source: 'tabela należy do jednej postaci; kwestie bohatera z treści'}
+    lines:
+      - {key: 4A44405C466DB9DDAE35CD9B7ED62713, speaker: servant}
+      - {key: 0284538D4C3792FBCEB4E0825AED34B0, speaker: servant}
+      - {key: 46AAA56441F85FCA563A8BA6BC1BD70D, speaker: servant}
+      - {key: 5F9B4AD0494B2B1545CA6CB229727677, speaker: servant}
+      - {key: 622902EC43903D46359CB084D3AD149F, speaker: servant}
+      - {key: 07FC42624B574CE3E73FC38D6100B1C1, speaker: servant}
+      - {key: 49AD71954F359DE070157ABEF210A94A, speaker: servant}
+      - {key: B21A97E347DB2BFD91C6E5AAEA27DC53, speaker: servant}
+      - {key: 67348B3A42D3EFFC8B793198A282450D, speaker: servant}
+      - {key: B48012F240DC4F6EA4A83094FB3A7DC5, speaker: servant}
+      - {key: E80FB13947400A1ACF3FCF93AC62AD5A, speaker: servant}
+      - {key: 37ED7B974414792F5480CCBC6F617F85, speaker: servant}
+      - {key: 57F5255F4DF886600658C0B045BFED5B, speaker: servant}
+      - {key: C0DF0AF64CA0BF7EA6537EAEF51FD120, speaker: servant}
+      - {key: BF3737C54FF7702D35B9A1982427B28A, speaker: servant}
+      - {key: FEAB7D864F91AFD9B38B498521E5CEBE, speaker: servant}
+      - {key: 2EED2B5643F9172B631A4BA0AAB77EE6, speaker: servant}
+      - {key: B7B1D02A4CED3048F02104B6694B9D08, speaker: servant}
+      - {key: CDE7F39A4A68920EF232F1978B09E905, speaker: servant}
+      - {key: 136F381F445D806B95CB63836A7B0039, speaker: servant}
+      - {key: 9B65221B4160F55A13E2F5819366267B, speaker: servant}
+      - {key: 4CA407C6476518338197A58ED4CB910F, speaker: servant}
+      - {key: 2E54112B427AEB10960D028F0F3FD562, speaker: servant}
+      - {key: DC41293440DCB3FA92C0DEA0FE2B3449, speaker: servant}
+  - id: merchant-t001
+    name: 'Handlarka: klucz do spiżarni i butsudan'
+    group: merchant
+    order: {certainty: reconstructed, source: 'kolejność wierszy w tabeli DataTable (z rozgałęzieniami)'}
+    speakers: {certainty: reconstructed, source: 'tabela należy do jednej postaci; kwestie bohatera z treści'}
+    lines:
+      - {key: C9C715164E7FE9B52F1B7B88A27D8468, speaker: hero}
+      - {key: 7F442D4C40EBE1B328941AAD6752D20E, speaker: merchant}
+      - {key: D2F4575047D57112A3AEEB82BB585256, speaker: hero}
+      - {key: 41E4221C4E40CF837C12BDADB29863F4, speaker: merchant}
+      - {key: 030F691B49450EC3CC5F91BD8DFB9138, speaker: hero}
+      - {key: 29774A9F4CA76FFB44093394436F2891, speaker: merchant}
+      - {key: BD17406C4B89FE9B23397E9F38C1F1C9, speaker: merchant}
+      - {key: 34C3CBA54802687AC3CE1B9E1C3E9F48, speaker: merchant}
+      - {key: BE72F4514B7CCB491CE63DAF633E4438, speaker: hero}
+      - {key: D83AB9DD4E5934EF7B5D85B8F7F18D3F, speaker: merchant}
+      - {key: 6CEACB6E476100D3E1B56680A4911913, speaker: merchant}
+      - {key: 44C2FEC14ED41B5FDAFC998424EE212D, speaker: merchant}
+      - {key: 25EC3CA24079213499DFF782AA6E2A28, speaker: merchant}
+      - {key: FB7C55454BCB5075761AA5B310FFD8EF, speaker: hero}
+      - {key: B48D6C22489BEB0CE3C8F790FB38979B, speaker: merchant}
+      - {key: 6D11ABFD4187F28AD8D6AAAFF4B7E99C, speaker: merchant}
+      - {key: 2258174248B53A63622B289183752615, speaker: merchant}
+      - {key: B7FF8EC74938005787D755BA681FFD9D, speaker: merchant}
+      - {key: 68D7D75B45E18C7653DB9295F59F946B, speaker: hero}
+      - {key: D8E0401B4EB185D0D7ED6CAFD6F21985, speaker: merchant}
+      - {key: 2ECA7BA7474C718344B027B094B7FA78, speaker: merchant}
+      - {key: 74AEBEBA4F4EFA76AC320A83251CA6C8, speaker: hero}
+      - {key: 173BD61647F5B95338DF57A3803C685F, speaker: merchant}
+      - {key: 9DC76D9C4C628F7F038978A6B7689E19, speaker: hero}
+      - {key: B21B31E845343AFBF22872803AC51752, speaker: merchant}
+      - {key: 7213DDF049FF95FC5A1E1FAB4819B95B, speaker: hero}
+      - {key: 390C025A45C5E843272844960C4C6471, speaker: merchant}
+      - {key: A73CED12470E7A6B1541728B3B9F6D8C, speaker: merchant}
+      - {key: 6CB5912946FE3F6648C85BB84F983F83, speaker: hero}
+      - {key: C8023D51415025F0445139B07314BD23, speaker: merchant}
+      - {key: 91EF50224E28C32C221E398627D8FC01, speaker: merchant}
+      - {key: 816BFFBF42A7B4148950EA819ADFCDC9, speaker: hero}
+      - {key: 50AE40F24B5714F2BE6B97A1892FD53B, speaker: merchant}
+      - {key: 08D2D6E14D7BBE55D4023C9EBE5D43E4, speaker: merchant}
+      - {key: A85036A7475BFC014FD1F48285408D17, speaker: merchant}
+      - {key: F564214448EB57CE779556A14CE7ABF3, speaker: merchant}
+  - id: merchant-saferoom
+    name: 'Handlarka: herbaciarnia'
+    group: merchant
+    order: {certainty: reconstructed, source: 'kolejność wierszy w tabeli DataTable (z rozgałęzieniami)'}
+    speakers: {certainty: reconstructed, source: 'tabela należy do jednej postaci; kwestie bohatera z treści'}
+    lines:
+      - {key: BDD3A89E4E6EC383087C09A47D407CD3, speaker: merchant}
+      - {key: AFFCC3E04E1612B5ED7DD7951308E973, speaker: merchant}
+      - {key: 3399C32045D0C099F84DA6BA35687C9F, speaker: hero}
+      - {key: C98521C34D430C70C2AD509C5AB0ADCF, speaker: merchant}
+      - {key: 8C39BA6941288F05995624805E269C23, speaker: merchant}
+      - {key: 632A212946E13FBE1990B988C307692C, speaker: merchant}
+  - id: merchant-greetings
+    name: 'Handlarka: powitania i samouczek walki'
+    group: merchant
+    order: {certainty: reconstructed, source: 'kolejność wierszy w tabeli DataTable (z rozgałęzieniami)'}
+    speakers: {certainty: reconstructed, source: 'tabela należy do jednej postaci; kwestie bohatera z treści'}
+    lines:
+      - {key: 02BCAF45457DFAF327815CBBA3E40507, speaker: merchant}
+      - {key: 568628AE447162F0BF09EEB0F14118B5, speaker: merchant}
+      - {key: 7F45F0EC4AB996886C4DE4A63C4BDCE1, speaker: merchant}
+      - {key: 9A249C3E489CEE8FDA3757A9A763464F, speaker: merchant}
+      - {key: FA5E669546358D43EA64E58A7BB23B55, speaker: merchant}
+      - {key: 5740C3704688A9DB54396EB89A4DF8C8, speaker: merchant}
+      - {key: 6505BB5A4B1707EEB3015BB55E10F039, speaker: merchant}
+      - {key: 938B8F6B4C7BEE727997069DABA9AF42, speaker: merchant}
+      - {key: F2587CDA457AB1542EF1DB8B9CC1DDD0, speaker: merchant}
+      - {key: B72DBD9743C85B3E9A2B3EB85880ED0F, speaker: merchant}
+      - {key: 738D4DDD4C4EBE30957F3693A9DF7AF4, speaker: merchant}
+      - {key: 9A6B4198494EA8C7271E458211990AC2, speaker: merchant}
+      - {key: 3BD49BEE45CDAE33371741BF28BDFDC5, speaker: merchant}
+      - {key: 3690F3174EB5CA6CAF25CEA4FB276D8E, speaker: merchant}
+      - {key: 3AA1D7984648A3296E992BBDAFA626FF, speaker: merchant}
+      - {key: 9C6EBE694DF0EB84DD70098541AF393C, speaker: merchant}
+      - {key: D34FA9914200CB1DC1FB90A1334676E5, speaker: merchant}
+      - {key: 11B4AC8541A9F9A79217D298E6E0436C, speaker: merchant}
+      - {key: 0D441D2643DEB4FF15B3F98C1A1CF065, speaker: merchant}
+      - {key: F93C04F04AE44D4E4367FA966EFAA8CE, speaker: merchant}
+      - {key: FB7628E24DEEE72D6A5EF5B877269E8E, speaker: merchant}
+      - {key: 0837D0CF4277E66989CEB6BD21844E31, speaker: merchant}
+      - {key: 2149873742A631B546160D8751CA438F, speaker: merchant}
+      - {key: E218EA7641FB350A32BA36BAD66DB869, speaker: merchant}
+      - {key: FA3F1D5B456A13B580A31D9AA3D76EB4, speaker: merchant}
+      - {key: 344B9DAC4CA330AEB02092994723412C, speaker: merchant}
+      - {key: 24C4BD97412C53B7AE800EA64B09610C, speaker: merchant}
+      - {key: 784D07F64B739EBDD64FCBA70D0E65C9, speaker: merchant}
+      - {key: 28DAAA0443FDC1CF6E29CB8A2E71BDAF, speaker: merchant}
+      - {key: 6082DC494C2DAEA5549DBD9496DCE04D, speaker: merchant}
+      - {key: F1FA11A045A938F7C40FBA9097F678B1, speaker: merchant}
+      - {key: 4E4D2536470F8F6FF57169818021B396, speaker: merchant}
+      - {key: F4210FD8471A1F656D0E12910B25CD81, speaker: merchant}
+      - {key: E07B0B4F4FFC86C4D76815A88D952755, speaker: merchant}
+      - {key: 24978AC242688F0FDB348FA526CC7183, speaker: merchant}
+      - {key: 6E1A08A44DE9933024F69891BD8A0BA3, speaker: merchant}
+      - {key: 251523A04C35C86806EC32ACCC75164C, speaker: merchant}
+      - {key: 2BC9826A4ADD4C5C4D2294B672DE1528, speaker: merchant}
+      - {key: 9305BCC24082F1825D06B7BD51E9201C, speaker: merchant}
+      - {key: A9B1750848C4A33578927F85F5B8B871, speaker: merchant}
+      - {key: FFA114A84047A4D19ED6C8BCA134D85A, speaker: merchant}
+      - {key: E84A7DEE43EC08020DF4EE8B1B383AFC, speaker: merchant}
+      - {key: C58788C94C5E4261092743BD59575927, speaker: merchant}
+      - {key: 3F1B2B5940D6E0ABB047EC8A5EE44EBE, speaker: merchant}
+      - {key: BB5CD9FB4E7691F458C52DB3B136D989, speaker: merchant}
+      - {key: E1E5EA2C4E7AB0EF4401F9958A4E2E34, speaker: merchant}
+      - {key: 11E1C0894B7DA7ED64B9BDB93338122E, speaker: merchant}
+      - {key: 976D511E40D27F2B47EDE3AF611B4446, speaker: merchant}
+      - {key: ACA5A4E54425D04F94FFE68BCC5C9FAD, speaker: merchant}
+      - {key: 1586DC4E451115D757CC63B513C4F67C, speaker: merchant}
+      - {key: C225F42C4038FF9FFDF5298AB6DDD561, speaker: merchant}
+      - {key: 4779A90543EB562E371AA6B061211D27, speaker: merchant}
+      - {key: 5ACBAB414887F6524E4906A16B004CB2, speaker: merchant}
+      - {key: EBD309F849FBF4438AAB8D85543A9322, speaker: merchant}
+      - {key: EA7104A34F6465EB34907F9274FFDC28, speaker: merchant}
+      - {key: BC8B3B064FF95B52E9BEF6BBBA7CC14B, speaker: merchant}
+      - {key: A69EA080400126361219318ADFA96584, speaker: merchant}
+      - {key: 470A59AA439E9607BAD466B594CEECB1, speaker: merchant}
+      - {key: E0DD07A24CCD472950A561B20681BAB0, speaker: merchant}
+      - {key: 73AE3272424072064A977FA598CCCA76, speaker: merchant}
+      - {key: 8EF752C44E8E206663447BBC20E862A0, speaker: merchant}
+      - {key: D1DF87EE4B6A82C879C847846BE3AA75, speaker: merchant}
+      - {key: 0A56DFD14EB7FB0047900D8A45109F80, speaker: merchant}
+      - {key: E2E8602B4C01C70E685CC4A46C4082F6, speaker: merchant}
+      - {key: CC4DAEB145413BFA0AAB8DB6CF313A4B, speaker: merchant}
+  - id: kappa-tower
+    name: 'Kappa: uwięziony w spiżarni'
+    group: kappa
+    order: {certainty: reconstructed, source: 'kolejność wierszy w tabeli DataTable (z rozgałęzieniami)'}
+    speakers: {certainty: reconstructed, source: 'tabela należy do jednej postaci; kwestie bohatera z treści'}
+    lines:
+      - {key: 192B49A54BE8598F87B9EBB17B601F1B, speaker: kappa}
+      - {key: 1B51311240BBEB997D152C9DD49F212F, speaker: hero}
+      - {key: AF9CF70448783D5C8F300F9F77F4F960, speaker: kappa}
+      - {key: 854B93474214AA8EEC943BB55DB98895, speaker: kappa}
+      - {key: 0D94B04949D1A07E44B35BAAE4D19580, speaker: kappa}
+      - {key: FB3103034E2C4972AD0C2DBD3B99D247, speaker: hero}
+      - {key: 1F6E33684374011E12EC54A2EE5A92B3, speaker: kappa}
+      - {key: 43BBD2604D9C690E43E41DB99FCDDE05, speaker: kappa}
+      - {key: 894EF85F4C83C378800367863EE0584D, speaker: hero}
+      - {key: DCE83F7A4F7264AA1D6953BA0426B63E, speaker: kappa}
+      - {key: AD619BD64AF092F34183C99BEC1FB607, speaker: hero}
+      - {key: 74D3EC294472901334231C986E322D63, speaker: kappa}
+      - {key: B50A3DA0438E01B6037B8F919CA79D6C, speaker: hero}
+      - {key: 9B82BE14415C6725072691B595B39FFB, speaker: hero}
+      - {key: 0672669A4B427702907D5FA0FCC42DB0, speaker: kappa}
+      - {key: 5321704E4D1C3F942209DC8F54685407, speaker: hero}
+      - {key: 1D33998546A844A21B5E3A95B6DE4B67, speaker: kappa}
+      - {key: 1AF6FEA3444B0AEF9FB1DABD1326C331, speaker: kappa}
+      - {key: 958C769E4E2319C289314C9AFDB4FFA3, speaker: kappa}
+      - {key: 818AD82442584DC382E862A2C52922A7, speaker: kappa}
+      - {key: D146603544D3B4C12FE3868A374053D3, speaker: kappa}
+      - {key: 595CF34C4FE6735D831184A2B6B7B093, speaker: kappa}
+      - {key: 72F7071144A63DBCF6AF0FB1A2F313C2, speaker: kappa}
+  - id: kappa-greetings-tower
+    name: 'Kappa: powitania w wieży'
+    group: kappa
+    order: {certainty: reconstructed, source: 'kolejność wierszy w tabeli DataTable (z rozgałęzieniami)'}
+    speakers: {certainty: reconstructed, source: 'tabela należy do jednej postaci; kwestie bohatera z treści'}
+    lines:
+      - {key: E450ED71400E7FDBEDAE0FA9C5126453, speaker: kappa}
+      - {key: 3EBAC086420EC57A8ED109B49F2E89B8, speaker: kappa}
+      - {key: 80CCBE444161FF4A476F21863FDB804B, speaker: kappa}
+      - {key: 85824724421F46AE57AB48816721F21E, speaker: kappa}
+      - {key: 7A3CE8444F569D03ABDC5B8C49414BBA, speaker: kappa}
+      - {key: 3D4AAB624171418A154EEB93D53E39C2, speaker: kappa}
+      - {key: 97C90A684095E98EF4A41A8D389590C8, speaker: kappa}
+      - {key: 0A1A90C44D7566D67AFED6ADA9318237, speaker: kappa}
+  - id: kappa-saferoom
+    name: 'Kappa: kuźnia i naprawa katany'
+    group: kappa
+    order: {certainty: reconstructed, source: 'kolejność wierszy w tabeli DataTable (z rozgałęzieniami)'}
+    speakers: {certainty: reconstructed, source: 'tabela należy do jednej postaci; kwestie bohatera z treści'}
+    lines:
+      - {key: 856CE11744C2B90A929D489157E2E042, speaker: hero}
+      - {key: 935FB7094730C50CF06571AF94E5DAA7, speaker: kappa}
+      - {key: 66E1A4434625E41A0703E686B6944E47, speaker: kappa}
+      - {key: A1C5302B49861DA990D693B97FBF0E5C, speaker: hero}
+      - {key: 5AEB12D540CFE8106ED5CCBF36ECFE9D, speaker: kappa}
+      - {key: 7C0348164EDAC9A118E9D990CBE2B98A, speaker: kappa}
+      - {key: D06066BF49C19F31FFFFA2BE83E4860F, speaker: kappa}
+      - {key: CF4DD6664CED4D619B52DDA5B761D2F6, speaker: kappa}
+      - {key: 15FF884B4C11BC730100158B4EDE3F14, speaker: hero}
+      - {key: 8E513F0F44A493099ABC3288AA2B36FE, speaker: kappa}
+      - {key: B4852FE04FB0F5CFC5B61FBC3247FF8A, speaker: hero}
+      - {key: 0F017066418C14509EB1CDB296844E9A, speaker: kappa}
+      - {key: 8097D19740CBE8BD99D1C7860DDB1F29, speaker: hero}
+      - {key: EAE83F5E408DCB624FA0EA9C65E0C7B3, speaker: kappa}
+      - {key: 88DAD5B44D90D5829DC82C85B7B68C20, speaker: kappa}
+      - {key: 02EF6A624C7EB1F1D63536BBE06342E4, speaker: hero}
+      - {key: 6DEA386E4367AF1BA30EC8BD475699E7, speaker: kappa}
+      - {key: 9841D9C84B42C76FA6EC268AA413A07D, speaker: kappa}
+      - {key: D5628FD44CF7EB372146D7861098239F, speaker: hero}
+      - {key: BB41366445780C565C56D0B1A0543F6B, speaker: kappa}
+      - {key: 9C74D4FD458B8E524045108D40848836, speaker: kappa}
+      - {key: 248B4BF2469834BD0CBA80B23BA5FA86, speaker: hero}
+      - {key: FE7727F94C77DED76525A78BCB8A9517, speaker: kappa}
+      - {key: 56EF85074AF7C9C2F4864ABB95283265, speaker: kappa}
+      - {key: 8DF433654C9273DDCFD51FA3BC7B8842, speaker: kappa}
+      - {key: BBEA030E482BC63E00FEE29FDD3BCD88, speaker: hero}
+      - {key: 3B934562499D65D89FE29E8309779EF6, speaker: kappa}
+      - {key: 53B0BB2F4A7C8BABBA91BB87B381B5EB, speaker: kappa}
+      - {key: DA7881C14A9263409644F5BBAFF73C7A, speaker: kappa}
+      - {key: 5765A73C42DD7F45C8DE46A982520C1D, speaker: kappa}
+      - {key: E4F631DA424B699BF0417E8B5A87C51E, speaker: hero}
+      - {key: 57AB85ED47B58E5C9318BAA97355DB02, speaker: kappa}
+      - {key: 5E0920FA4BE1D8D2B84918A7BC8C430D, speaker: kappa}
+  - id: kappa-greetings-saferoom
+    name: 'Kappa: powitania w herbaciarni'
+    group: kappa
+    order: {certainty: reconstructed, source: 'kolejność wierszy w tabeli DataTable (z rozgałęzieniami)'}
+    speakers: {certainty: reconstructed, source: 'tabela należy do jednej postaci; kwestie bohatera z treści'}
+    lines:
+      - {key: 81A5253A4F1C34207AC3A3BA1CE83669, speaker: kappa}
+      - {key: 2F74A7974AA6D9DF9E643ABA8846F40E, speaker: kappa}
+      - {key: 28DA15964744243BB47D4BAA98FEB3E8, speaker: kappa}
+      - {key: D14354F8410D67CBF53DACBB7DDA9E49, speaker: kappa}
+      - {key: 4B6913434549498FF9D00492092769F2, speaker: kappa}
+      - {key: FD3CC98B472CB5DCB0F66EAB7980A1C0, speaker: kappa}
+  - id: priest-saferoom
+    name: 'Kapłan: rozmowa i kadzidło'
+    group: priest
+    order: {certainty: reconstructed, source: 'kolejność wierszy w tabeli DataTable (z rozgałęzieniami)'}
+    speakers: {certainty: reconstructed, source: 'tabela należy do jednej postaci; kwestie bohatera z treści'}
+    lines:
+      - {key: 644427FC41688728297A32AC6D8C34EA, speaker: hero}
+      - {key: 5E2094AE4746B1F94AF225AF20A1599A, speaker: priest}
+      - {key: 83AEF0A5405C68E862DE318D06C42DC4, speaker: hero}
+      - {key: 93765E8D4FF2844BD98F6D8E59E1E5D4, speaker: priest}
+      - {key: 8BB41B4B420B3CB9923E84801C921CB3, speaker: hero}
+      - {key: DC6709AF49ADEE5C7BFDCC84A7105C7B, speaker: priest}
+      - {key: 53C5C690419E21A12CD6CEA2372600F7, speaker: priest}
+      - {key: 719C218D43869F6230B1F38C5ABCC511, speaker: priest}
+      - {key: 25950E264B7DCE102525D08B229F2EC9, speaker: priest}
+      - {key: 478FCA474AB5B9B8C6258381C51FE0FE, speaker: priest}
+      - {key: 6381835C439FA88A3896269CF257A895, speaker: priest}
+      - {key: 393B69494DC98BEBE9BAC4BCD4F1901B, speaker: priest}
+      - {key: 840EE7C6428A26E101E8C0A0EAE8B21C, speaker: hero}
+      - {key: 9D200F584CDA5920CBE9B9BBD08C0C73, speaker: priest}
+      - {key: BB8948D847513FCA28C4E2AE45C2F5ED, speaker: priest}
+      - {key: 54AD6E894E77FC3BB29275B18A8940BE, speaker: priest}
+      - {key: FEA01FBD424E1F7CA0B558B42311EA43, speaker: hero}
+      - {key: 509162D84CC77676A60BF499A71779E5, speaker: priest}
+      - {key: 4FD3887048E11A44308871AE8861F654, speaker: priest}
+      - {key: 5E0D713744C2D13AF669F9A7BAE56101}
+      - {key: 0175193C4F49E893688B01B4684232C6, speaker: hero}
+      - {key: CBC9FF7B4BD1ECA909529EA6D0D063B5, speaker: priest}
+      - {key: 7690944848D2A298FC2F88B649A9441B, speaker: hero}
+      - {key: 4AFD280849F8EE0786D2F69D109CBE52, speaker: priest}
+      - {key: 90C3A25E433EC983B88910933DB91D8C, speaker: hero}
+      - {key: 00F2F423436A16D699CE7EADC2EA6D6D, speaker: priest}
+  - id: priest-greetings
+    name: 'Kapłan: powitania'
+    group: priest
+    order: {certainty: reconstructed, source: 'kolejność wierszy w tabeli DataTable (z rozgałęzieniami)'}
+    speakers: {certainty: reconstructed, source: 'tabela należy do jednej postaci; kwestie bohatera z treści'}
+    lines:
+      - {key: C721440D4027C4C0BA6B6EA80321BCBB, speaker: priest}
+      - {key: F456EC7742F0138B3ED210AB77CF35D9, speaker: priest}
+      - {key: 38E3133A42188776C0591FA90D37B411, speaker: priest}
+      - {key: C491004B475DDE10296136871EE8F2F7, speaker: priest}
+      - {key: 3A35B7D84E070FF1AF81929FA9F67F84, speaker: priest}
+      - {key: 008D2C1849B061A6137A1ABFEBC3B7EF, speaker: priest}
+      - {key: 907ADEB14365184D1B29E29272B42555, speaker: priest}
+      - {key: 9ED79D6249DC12882D2613B447FADD8E, speaker: priest}
+      - {key: 039BC8C749CA4C21E7A689BC68401DBB, speaker: priest}
+      - {key: A4C37DD0427D5CAE6BA88190CAF27185, speaker: priest}
+      - {key: B6C0BBA54F6D431128E39797BD8A2F3B, speaker: priest}
+  - id: demon-king
+    name: 'Król Demonów: przed walką'
+    group: demon-king
+    order: {certainty: reconstructed, source: 'kolejność wierszy w tabeli DataTable (z rozgałęzieniami)'}
+    speakers: {certainty: reconstructed, source: 'tabela należy do jednej postaci; kwestie bohatera z treści'}
+    lines:
+      - {key: 5645485244752CC93B06FAB5AC2CFF0E, speaker: demon-king}
+      - {key: BD94D4494982517ED45DFA95593C5AA6, speaker: demon-king}
+      - {key: 691230714D3C214F7FAA9198384D1DEE, speaker: demon-king}
+      - {key: 34B6EC9845516861AD09DD89956A2A47, speaker: demon-king}
+      - {key: 7720540E4BE6EC202E2A84B209F78FBE, speaker: demon-king}
+      - {key: 72BDEC4C42CA61527D065BA68601D6F7, speaker: demon-king}
+      - {key: 68F1A105452405616656E893257B3B1C, speaker: demon-king}
+      - {key: 0A18CA3644D128F04CC2379E8D4D333B, speaker: demon-king}
+      - {key: FE3540074C7C1C2781CFFAAA4FADC4A8, speaker: demon-king}
+      - {key: 24C5BAE941063E8E4D0680BFCF8C46EE, speaker: demon-king}
+      - {key: 5B12E2CE4854BA3DCD803F897613280E, speaker: demon-king}
+      - {key: 360BD15A4E072FF1AAC872A9B889A62E, speaker: demon-king}
+      - {key: D96281DF4F33E55F5C1E0F919E7A944E, speaker: demon-king}
