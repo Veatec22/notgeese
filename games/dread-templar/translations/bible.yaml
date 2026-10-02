@@ -1,0 +1,77 @@
+sources:
+  - id: text
+    description: The English text itself (who speaks, how others address the hero)
+  - id: pl
+    description: The existing Polish translation (written before the bible); facts below describe it
+
+style:
+  tone: >-
+    Retro boomer shooter with a grim revenge story told in short cutscene narration; the hero's
+    one-liners swear and joke in between.
+  adaptation: >-
+    Text only, no voice. Profanity at the original strength ("Fuck!" → „Kurwa!”, "Shit!" → „Cholera!”).
+    Lore texts and prophecies in a solemn, slightly archaic register; the original's archaic
+    spellings (slumb'rs, beest) are not imitated letter by letter.
+  reading_conditions: cutscene narration on screen; hero lines and pickups as short HUD messages during play
+  ui: imperative 2nd person singular („Naciśnij 'E', aby…”); key names kept in the game's 'E' quotes
+  source: decision
+  note: written after the fact from the existing translation (2026-10-02); no direction session was held
+
+characters:
+  - id: templar
+    name: templariusz
+    gender: m
+    addresses_player: '-'
+    register: >-
+      The player; narrates cutscenes in the first person past tense and comments in HUD messages;
+      swears („Kurwa! Jestem templariuszem, nie olimpijskim sprinterem.”), dry humor.
+    examples:
+      - {key: Igt_0043/text, en: "Fuck! I'm a Templar, not an Olympic sprinter.", pl: 'Kurwa! Jestem templariuszem, nie olimpijskim sprinterem.'}
+      - {key: Igt_0007/text, en: 'I found a secret.', pl: 'Znalazłem sekret.'}
+    source: [text, pl]
+  - id: beelsebur
+    name: Beelsebur
+    gender: m
+    addresses_player: ty
+    register: Demonic Idol of the Dark Realms; taunting, calls the hero „templariuszu”
+    declension: Beelsebur, Beelsebura, Beelseburowi
+    examples:
+      - {key: cst_0003/text, en: 'We will meet again soon, Templar.', pl: 'Wkrótce znów się spotkamy, templariuszu.'}
+    source: [text, pl]
+  - id: captain
+    name: kapitan
+    gender: m
+    addresses_player: ty
+    register: gruff ship captain, calls the hero „nieznajomy” (nominative used as vocative in the current text)
+    source: [text, pl]
+  - id: girl
+    name: dziewczynka
+    gender: f
+    addresses_player: pan
+    register: scared child looking for her doll Eva; „dobry panie”
+    source: [text, pl]
+
+terms:
+  - {en: Dread Templar, pl: Dread Templar, forms: [Dread Templar], source: pl, note: 'the title the hero becomes stays English and declines (Dread Templara, Dread Templarem)'}
+  - {en: '(?<!Dread )Templar', pl: templariusz, forms: [templariusz, Templariusz], source: decision}
+  - {en: Dread Force, pl: Moc Trwogi, forms: [Moc Trwogi, Mocy Trwogi, Mocą Trwogi], source: decision}
+  - {en: King of Dread, pl: Król Trwogi, forms: [Król Trwogi, Króla Trwogi], source: decision}
+  - {en: Dark Realms, pl: Mroczne Krainy, forms: [Mroczn], source: decision}
+  - {en: Hektor, pl: ród Hektorów, forms: [Hektor], source: decision}
+  - {en: rune, pl: runa, forms: [run], source: decision}
+  - {en: Golden Runes, pl: Złote Runy, forms: [Złot], source: decision}
+  - {en: Silver Runes, pl: Srebrne Runy, forms: [Srebrn], source: decision}
+  - {en: Slow Motion Time, pl: Spowolniony Czas, forms: [Spowolnion], source: decision}
+  - {en: Dash, pl: Doskok, forms: [Doskok, doskok], source: decision}
+  - {en: Black Bow, pl: Czarny Łuk, forms: [Czarn], source: decision}
+  - {en: Trap Launcher, pl: Miotacz Pułapek, forms: [Miotacz], source: decision}
+  - {en: Inferno, pl: Inferno, forms: [Inferno], source: decision}
+  - {en: Double-Barrel Shotgun, pl: dubeltówka, forms: [ubeltów], source: decision}
+  - {en: SMG, pl: PM, forms: [PM], source: decision}
+  - {en: key card, pl: karta, forms: [kart], source: decision}
+  - {en: Stranger, pl: nieznajomy, forms: [nieznajom], source: decision}
+
+keep_english: [Berserker, Neo, R.I.P, Inferno, Combo, SP, Eva, Intro, Menu, Start, Djookholu, Annorbysis, Beelsebur, "Kuu'wakh"]
+
+ignore:
+  - {check: terms, key: E3M2/name, reason: 'level title "Stranger" → „Obcy”; the captain''s address „nieznajomy” is a different use'}
