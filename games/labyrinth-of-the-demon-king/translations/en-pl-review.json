@@ -1217,7 +1217,7 @@
   {
     "key": "9C6EBE694DF0EB84DD70098541AF393C",
     "english": "As promised earlier, here is a bowl of kappa ramen. Made fresh, just for you...",
-    "polish": "Tak jak obiecałem, oto miska ramenu kappy. Świeżo przyrządzony, tylko dla ciebie...",
+    "polish": "Tak jak obiecałam, oto miska ramenu kappy. Świeżo przyrządzony, tylko dla ciebie...",
     "namespace": "",
     "status": "translated",
     "context": "DataTables/dialogue/Merchant_001/DT_Greetings_Merchant"
@@ -3241,7 +3241,7 @@
   {
     "key": "2149873742A631B546160D8751CA438F",
     "english": "Hmmm? Have you forgotten what I said already?",
-    "polish": "Hmm? Już zapomniałeś, co mówiłem?",
+    "polish": "Hmm? Już zapomniałeś, co mówiłam?",
     "namespace": "",
     "status": "translated",
     "context": "DataTables/dialogue/Merchant_001/DT_Greetings_Merchant"

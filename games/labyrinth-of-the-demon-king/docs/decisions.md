@@ -44,7 +44,8 @@ the text. No independent review yet.
 No independent full review yet. Check report (2026-10-02): missing 0, tokens 0, plurals 0; terms 8,
 consistency 6, English 16, length 8, capitals 19, typography 8: hints, not reviewed one by one.
 Speaker check against `structure.yaml` found two masculine forms in the merchant's lines
-(„Tak jak obiecałem”, „co mówiłem?”; she is feminine, RU agrees): not fixed yet, needs a 0.2 build.
+(„Tak jak obiecałem”, „co mówiłem?”; she is feminine, RU agrees): fixed to „obiecałam”, „mówiłam”
+in 0.2.
 
 ## Check in game
 

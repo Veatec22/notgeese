@@ -1,4 +1,4 @@
-LABYRINTH OF THE DEMON KING PL 0.1 — WERSJA TESTOWA
+LABYRINTH OF THE DEMON KING PL 0.2 — WERSJA TESTOWA
 
 1120 z 1120 wpisów lokalizacji: menu, ustawienia, sterowanie, dialogi,
 samouczki, notatki, opisy przedmiotów, mapy, osiągnięcia i komunikaty.
