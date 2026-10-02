@@ -65,3 +65,17 @@ shipped; confirmed in game.
   and after); full campaign not played. Check long dialogue, notes, puzzle hints, map names and item
   messages.
 - Unknown: whether the widget survives game updates.
+
+## Review integration (2026-10-02)
+
+Fresh-context independent review read all 1120 entries. The source key set and full EN text match
+`work/en.locres` without drift. Applied 18 certain language, meaning, gender and typography fixes;
+see `docs/decisions.md` for evidence and unresolved topics. No source keys or engine serialization
+changed. Version 0.3 ZIP built from the local GOG installation and copied to
+`site/public/pobierz/`; download metadata updated. Original game files were only read.
+
+Post-fix report: missing/tokens/gender/address/plurals/typography 0. Build verifies live EN identity,
+locres round-trip, tags, CRLF and localization-only containers. `test_overlay.py` passed;
+`tools/check_games.ts` and site build passed. These are file checks; no game was launched or
+installed and no new in-game result is claimed. Next: user campaign/layout checks and unresolved
+editorial choices listed in decisions; keep current text until those are settled.

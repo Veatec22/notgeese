@@ -1,6 +1,6 @@
 slug: labyrinth-of-the-demon-king
 title: Labyrinth of the Demon King
-version: "0.2"
+version: "0.3"
 entries:
   done: 1120
   total: 1120
@@ -18,9 +18,9 @@ stores:
   gog: https://www.gog.com/en/game/labyrinth_of_the_demon_king
 download:
   kind: zip
-  file: Labyrinth-of-the-Demon-King-PL-0.2.zip
-  bytes: 83620
-test_notes: Vertical confirmed in game by the user (separate Polski, switching, saved choice, fonts, samples). Full translation checked from files; campaign and long-text layout not played.
+  file: Labyrinth-of-the-Demon-King-PL-0.3.zip
+  bytes: 83683
+test_notes: Vertical confirmed in game by the user (separate Polski, switching, saved choice, fonts, samples). Full translation independently reviewed (1120/1120); 18 corrections applied in 0.3; overlay and archive tests passed. Campaign and long-text layout not played.
 gallery:
 - 10
 - 1

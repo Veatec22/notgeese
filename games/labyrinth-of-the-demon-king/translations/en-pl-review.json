@@ -2,7 +2,7 @@
   {
     "key": "33E446D944A4BEE81F0289B12145F58E",
     "english": "\"I hate this place. We have no food left. Little to drink. My skin itches constantly. No one is coming to save us. I can't stand it anymore. I'm going to try leave.\r\n\r\nI don't know where we even are now, but surely there's something out there better than here\" ",
-    "polish": "\"Nienawidzę tego miejsca. Skończyło się jedzenie. Do picia też niewiele zostało. Skóra ciągle mnie swędzi. Nikt nie przyjdzie nas uratować. Dłużej tego nie zniosę. Spróbuję stąd odejść.\r\n\r\nNawet nie wiem, gdzie teraz jesteśmy, ale gdzieś tam musi być coś lepszego niż tutaj\" ",
+    "polish": "„Nienawidzę tego miejsca. Skończyło się jedzenie. Do picia też niewiele zostało. Skóra ciągle mnie swędzi. Nikt nie przyjdzie nas uratować. Dłużej tego nie zniosę. Spróbuję stąd odejść.\r\n\r\nNawet nie wiem, gdzie teraz jesteśmy, ale gdzieś tam musi być coś lepszego niż tutaj” ",
     "namespace": "",
     "status": "vertical-confirmed",
     "context": "DataTables/DT_NoteData"
@@ -10,7 +10,7 @@
   {
     "key": "76E9A1334D6D529F6D00EE8B23AF13D4",
     "english": "\"I made it to the gatehouse, but someone has boarded up the exit. I tried to pry off the boards, but I have no strength left. I can't even remove my katana from the wall. Something moving upstairs. Need to be quiet. So hungry. Weak. Can barely move. I don't know what to do...\r\n\r\nIf you're reading this, there is no hope for me and there is no hope for you. Give up. It's not worth the struggle.\"  ",
-    "polish": "\"Dotarłem do budynku bramnego, ale ktoś zabił wyjście deskami. Próbowałem je oderwać, lecz nie mam już siły. Nie potrafię nawet wyciągnąć katany ze ściany. Coś porusza się na górze. Muszę być cicho. Taki głód. Słabość. Ledwo się ruszam. Nie wiem, co robić...\r\n\r\nJeśli to czytasz, dla mnie nie ma już nadziei. Dla ciebie też. Poddaj się. Nie warto walczyć.\"  ",
+    "polish": "„Dotarłem do budynku bramnego, ale ktoś zabił wyjście deskami. Próbowałem je oderwać, lecz nie mam już siły. Nie potrafię nawet wyciągnąć katany ze ściany. Coś porusza się na górze. Muszę być cicho. Taki głód. Słabość. Ledwo się ruszam. Nie wiem, co robić...\r\n\r\nJeśli to czytasz, dla mnie nie ma już nadziei. Dla ciebie też. Poddaj się. Nie warto walczyć.”  ",
     "namespace": "",
     "status": "vertical-confirmed",
     "context": "DataTables/DT_NoteData"
@@ -18,7 +18,7 @@
   {
     "key": "8037FCAF4604889047AF98AB8DDA8ED8",
     "english": "\"If someone poisons the castle food, then he'll take the blame. \r\n\r\nI just need to get the pantry key, then he'll get what he deserves...\"",
-    "polish": "\"Jeśli ktoś zatruje zamkowe jedzenie, wina spadnie na niego. \r\n\r\nMuszę tylko zdobyć klucz do spiżarni. Wtedy dostanie za swoje...\"",
+    "polish": "„Jeśli ktoś zatruje zamkowe jedzenie, wina spadnie na niego. \r\n\r\nMuszę tylko zdobyć klucz do spiżarni. Wtedy dostanie za swoje...”",
     "namespace": "",
     "status": "vertical-confirmed",
     "context": "DataTables/DT_NoteData"
@@ -26,7 +26,7 @@
   {
     "key": "B416DE354489C74CE8A2F892F9AEC92E",
     "english": "\"Tamonten stands in the north with his black armour, pagoda in hand full of wealth for the worthy.\r\n\r\nKōmokuten waits in the west. Wearing his white robes he commands the Naga, the serpent-like creatures of old.\r\n\r\nIn the south stands Zōchōten, his red aura burning bright. He augments the wisdom and moderation of the princess and uses his spear to pierce the hearts of evil-doers.\r\n\r\nAnd in the east is Jikokuten, playing his blue biwa to entertain the princess while his trident stands ready.\"",
-    "polish": "\"Tamonten stoi na północy w czarnej zbroi, trzymając pagodę pełną bogactw dla godnych.\r\n\r\nKōmokuten czeka na zachodzie. Odziany w białe szaty włada nagami, pradawnymi istotami o wężowych ciałach.\r\n\r\nNa południu stoi Zōchōten, a jego czerwona aura płonie jasnym blaskiem. Pomnaża mądrość i umiar księżniczki, a włócznią przeszywa serca złoczyńców.\r\n\r\nNa wschodzie zaś jest Jikokuten. Gra na niebieskiej biwie, by zabawiać księżniczkę, a jego trójząb czeka w pogotowiu.\"",
+    "polish": "„Tamonten stoi na północy w czarnej zbroi, trzymając pagodę pełną bogactw dla godnych.\r\n\r\nKōmokuten czeka na zachodzie. Odziany w białe szaty włada nagami, pradawnymi istotami o wężowych ciałach.\r\n\r\nNa południu stoi Zōchōten, a jego czerwona aura płonie jasnym blaskiem. Pomnaża mądrość i umiar księżniczki, a włócznią przeszywa serca złoczyńców.\r\n\r\nNa wschodzie zaś jest Jikokuten. Gra na niebieskiej biwie, by zabawiać księżniczkę, a jego trójząb czeka w pogotowiu.”",
     "namespace": "",
     "status": "vertical-confirmed",
     "notes": "Wskazówka zagadki: sprawdź zgodność kierunków, kolorów, kolejności i nazw z obiektami w grze.",
@@ -35,7 +35,7 @@
   {
     "key": "D9634BA340F615C7838E18BB40722943",
     "english": "\"That bastard cook is trying to steal my room again. \r\n\r\nHe believes my room should be his because it's right next to the kitchen and he thinks it's unfair he has to sleep on the second floor.\r\n\r\nBut this is my room. It's mine and I won't let anyone else take it.\"",
-    "polish": "\"Ten drań kucharz znów próbuje zabrać mi pokój. \r\n\r\nUważa, że powinien należeć do niego, bo leży tuż przy kuchni. Twierdzi, że to niesprawiedliwe, że musi spać na drugim piętrze.\r\n\r\nAle to mój pokój. Mój. Nikomu nie pozwolę go sobie odebrać.\"",
+    "polish": "„Ten drań kucharz znów próbuje zabrać mi pokój. \r\n\r\nUważa, że powinien należeć do niego, bo leży tuż przy kuchni. Twierdzi, że to niesprawiedliwe, że musi spać na drugim piętrze.\r\n\r\nAle to mój pokój. Mój. Nikomu nie pozwolę go sobie odebrać.”",
     "namespace": "",
     "status": "vertical-confirmed",
     "context": "DataTables/DT_NoteData"
@@ -43,7 +43,7 @@
   {
     "key": "308B1AC74C1D0E2319D4B1B538BBCDC7",
     "english": "\"That weird fungus is now growing down the hall.\r\n\r\nNo matter what we do, there doesn't seem to be any way to get rid of it.\r\n\r\nIt grows so quickly and we find it everywhere. I swear I can see it moving and it's constantly making that weird sound. It creeps me out so much.\"",
-    "polish": "\"Ten dziwny grzyb rośnie już dalej w korytarzu.\r\n\r\nCokolwiek robimy, nie potrafimy się go pozbyć.\r\n\r\nRozrasta się błyskawicznie. Znajdujemy go wszędzie. Przysięgam, że widzę, jak się porusza. Wciąż wydaje ten dziwny dźwięk. Przeraża mnie.\"",
+    "polish": "„Ten dziwny grzyb rośnie już dalej w korytarzu.\r\n\r\nCokolwiek robimy, nie potrafimy się go pozbyć.\r\n\r\nRozrasta się błyskawicznie. Znajdujemy go wszędzie. Przysięgam, że widzę, jak się porusza. Wciąż wydaje ten dziwny dźwięk. Przeraża mnie.”",
     "namespace": "",
     "status": "vertical-confirmed",
     "context": "DataTables/DT_NoteData"
@@ -51,7 +51,7 @@
   {
     "key": "4D16AA104D8E067CECA0E384538E25A1",
     "english": "\"The four heavenly kings keep the princess from further harm, and with her safety ensured, the pillar of this keep shall never fall, thus keeping the castle, everlasting.\"",
-    "polish": "\"Czterej Niebiańscy Królowie chronią księżniczkę przed dalszą krzywdą. Dopóki pozostaje bezpieczna, filar tej wieży nie runie, a zamek będzie trwał wiecznie.\"",
+    "polish": "„Czterej Niebiańscy Królowie chronią księżniczkę przed dalszą krzywdą. Dopóki pozostaje bezpieczna, filar tej wieży nie runie, a zamek będzie trwał wiecznie.”",
     "namespace": "",
     "status": "vertical-confirmed",
     "context": "DataTables/DT_NoteData"
@@ -59,7 +59,7 @@
   {
     "key": "EBC92F4D4D117B4009008ABB95EABDE1",
     "english": "\"We've tried using water, fire, alcohol - we've even tried hacking the thing up using an axe, but almost nothing seems to hurt it.\r\n\r\nI've heard rumours that salt can cause the fungus to shrivel and die. But we don't have any salt. We can't get in to the pantry. The key is lost. Too weak to break the door down.\"",
-    "polish": "\"Próbowaliśmy wody, ognia, alkoholu. Nawet rąbaliśmy to siekierą, lecz niemal nic mu nie szkodzi.\r\n\r\nSłyszałem pogłoski, że od soli grzyb usycha i ginie. Ale nie mamy soli. Nie możemy dostać się do spiżarni. Klucz zaginął. Jesteśmy za słabi, żeby wyważyć drzwi.\"",
+    "polish": "„Próbowaliśmy wody, ognia, alkoholu. Nawet rąbaliśmy to siekierą, lecz niemal nic mu nie szkodzi.\r\n\r\nSłyszałem pogłoski, że od soli grzyb usycha i ginie. Ale nie mamy soli. Nie możemy dostać się do spiżarni. Klucz zaginął. Jesteśmy za słabi, żeby wyważyć drzwi.”",
     "namespace": "",
     "status": "vertical-confirmed",
     "context": "DataTables/DT_NoteData"
@@ -928,7 +928,7 @@
   {
     "key": "50AE40F24B5714F2BE6B97A1892FD53B",
     "english": "Ah, the demon king's latest game?\r\n\r\nWell, it wouldn't be very fun if I told you the answer, but maybe I could give you a little bit of advice.",
-    "polish": "A, najnowsza zabawa Króla Demonów?\r\n\r\nCóż, nie byłoby zabawy, gdybym podał ci odpowiedź. Ale mogę dać ci małą wskazówkę.",
+    "polish": "A, najnowsza zabawa Króla Demonów?\r\n\r\nCóż, nie byłoby zabawy, gdybym podała ci odpowiedź. Ale mogę dać ci małą wskazówkę.",
     "namespace": "",
     "status": "translated",
     "context": "DataTables/dialogue/Merchant_001/DT_Dialogue_Merchant_T001"
@@ -2399,7 +2399,7 @@
   {
     "key": "BFB38F5B423C59F9391872A0931F6F43",
     "english": "FOURTH, the Crone turns from them all, crying in shame. \r\n\r\nLASTLY the blind mute stands silent. With what has been stolen, he can’t attest to the claims.\r\n\r\nThree crimes had been wrought; the confessions laid out the thread\r\nThe King, angered by all, ordered them hung until dead.\r\n",
-    "polish": "Jako CZWARTA Starucha odwraca się od wszystkich, płacząc ze wstydu. \r\n\r\nNa KONIEC ślepy niemowa stoi w milczeniu. Pozbawiony tak wiele, nie może potwierdzić oskarżeń.\r\n\r\nPopełniono trzy zbrodnie; zeznania odsłoniły ich nić.\r\nKról, rozgniewany na wszystkich, kazał powiesić ich aż do śmierci.\r\n",
+    "polish": "Jako CZWARTA Starucha odwraca się od wszystkich, płacząc ze wstydu. \r\n\r\nNa KONIEC ślepy niemowa stoi w milczeniu. Tak wiele mu odebrano, że nie może potwierdzić oskarżeń.\r\n\r\nPopełniono trzy zbrodnie; zeznania odsłoniły ich nić.\r\nKról, rozgniewany na wszystkich, kazał powiesić ich aż do śmierci.\r\n",
     "namespace": "",
     "status": "translated",
     "notes": "Zagadka Królewskiego Sądu: zachowano kolejność, wyróżnienia i sens zeznań; priorytetem jest rozwiązanie, nie rymy. Sprawdź z układem posągów.",
@@ -2893,7 +2893,7 @@
   {
     "key": "D2F4575047D57112A3AEEB82BB585256",
     "english": "Have you seen the key for the kitchen pantry?",
-    "polish": "Widziałeś klucz do kuchennej spiżarni?",
+    "polish": "Widziałaś klucz do kuchennej spiżarni?",
     "namespace": "",
     "status": "translated",
     "context": "DataTables/dialogue/Merchant_001/DT_Dialogue_Merchant_T001"
@@ -3056,7 +3056,7 @@
   {
     "key": "B851203F4EE41911DCB7E0A64F71CAFE",
     "english": "Here we find murderers, thieves, adulterers, drunkards and those who use evil language. \r\n\r\nThe sinners mouths and tongues are nailed together with hot iron nails. Their eyes are pulled out and their body’s slashed with great knives, knives so sharp they can cut iron and stone. Evil beasts such as wolves, lions and rats gnaw at their feet while crows and eagles pick at their eyes and tongues. \r\nEvery day the sinners find their bodies have been healed, only for the tortures to begin again.",
-    "polish": "Trafiają tu mordercy, złodzieje, cudzołożnicy, pijacy i ci, którzy posługują się niegodziwą mową. \r\n\r\nUsta i języki grzeszników przebija się rozpalonymi żelaznymi gwoździami. Wydziera się im oczy, a ciała tnie wielkimi nożami, tak ostrymi, że przecinają żelazo i kamień. Złe bestie — wilki, lwy i szczury — obgryzają ich stopy, a wrony i orły wydziobują oczy i języki. \r\nKażdego dnia ciała grzeszników się goją, tylko po to, by tortury mogły zacząć się od nowa.",
+    "polish": "Trafiają tu mordercy, złodzieje, cudzołożnicy, pijacy i ci, którzy posługują się niegodziwą mową. \r\n\r\nUsta i języki grzeszników spaja się rozpalonymi żelaznymi gwoździami. Wydziera się im oczy, a ciała tnie wielkimi nożami, tak ostrymi, że przecinają żelazo i kamień. Złe bestie — wilki, lwy i szczury — obgryzają ich stopy, a wrony i orły wydziobują oczy i języki. \r\nKażdego dnia ciała grzeszników się goją, tylko po to, by tortury mogły zacząć się od nowa.",
     "namespace": "",
     "status": "translated",
     "context": "DataTables/DT_NoteData"
@@ -3570,7 +3570,7 @@
   {
     "key": "FB7C55454BCB5075761AA5B310FFD8EF",
     "english": "I'll leave them locked in there.",
-    "polish": "Zostawię ich w zamknięciu.",
+    "polish": "Zostawię go w zamknięciu.",
     "namespace": "",
     "status": "translated",
     "context": "DataTables/dialogue/Merchant_001/DT_Dialogue_Merchant_T001"
@@ -4918,7 +4918,7 @@
   {
     "key": "68D7D75B45E18C7653DB9295F59F946B",
     "english": "No. I'm going to free them.",
-    "polish": "Nie. Uwolnię ich.",
+    "polish": "Nie. Uwolnię go.",
     "namespace": "",
     "status": "translated",
     "context": "DataTables/dialogue/Merchant_001/DT_Dialogue_Merchant_T001"
@@ -5330,7 +5330,7 @@
   {
     "key": "4977DB944DFE21FEF33C0AB91BAAA086",
     "english": "Open Inventory to equip and use items",
-    "polish": "Otwórz ekwipunek, aby wyposażyć i używać przedmiotów",
+    "polish": "Otwórz ekwipunek, aby się wyposażyć i używać przedmiotów",
     "namespace": "",
     "status": "translated",
     "context": "Blueprints/Interactables/PickupActors/Tutorial/BP_PickupActor_Sake_001_Tutorial"
@@ -5338,7 +5338,7 @@
   {
     "key": "6F6041FA4E267AFC1E3C5EBDDD77C481",
     "english": "Open Inventory to equip and use items",
-    "polish": "Otwórz ekwipunek, aby wyposażyć i używać przedmiotów",
+    "polish": "Otwórz ekwipunek, aby się wyposażyć i używać przedmiotów",
     "namespace": "",
     "status": "translated",
     "context": "Blueprints/Interactables/PickupActors/Tutorial/BP_PickupActor_Mushroom_001_Tutorial"
@@ -5346,7 +5346,7 @@
   {
     "key": "971FD3714BDEF99B5E9D37B8F160EBE7",
     "english": "Open Inventory to equip and use items",
-    "polish": "Otwórz ekwipunek, aby wyposażyć i używać przedmiotów",
+    "polish": "Otwórz ekwipunek, aby się wyposażyć i używać przedmiotów",
     "namespace": "",
     "status": "translated",
     "context": "Blueprints/Interactables/PickupActors/Tutorial/BP_PickupActor_Katana_001_Tutorial"
@@ -5362,7 +5362,7 @@
   {
     "key": "B7D711F843FB4991B65486BB9ED9FD61",
     "english": "Open inventory to equip talismans",
-    "polish": "Otwórz ekwipunek, aby wyposażyć talizmany",
+    "polish": "Otwórz ekwipunek, aby założyć talizmany",
     "namespace": "",
     "status": "vertical-confirmed",
     "context": "Blueprints/AI/Actors/Priest/BP_Priest_001"

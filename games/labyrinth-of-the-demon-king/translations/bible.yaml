@@ -52,7 +52,8 @@ characters:
     name: kappa
     gender: m
     addresses_player: ty
-    register: casual blacksmith, „kolego”, mild swearing („cholernie”, „robisz sobie jaja”); has a wife and a sister
+    register: casual blacksmith, „kolego”, mild swearing („cholernie”, „robisz sobie jaja”) with occasional explicit vulgar/anatomical jokes
+      (source crap/prick → „gówno”/„kutas”); has a wife and a sister
     note: the noun „kappa” is grammatically feminine („tę małą kappę”), the character is a man („Znalazłem”)
     source: [tables, ru, text]
   - id: priest
@@ -72,7 +73,14 @@ characters:
 terms:
   - {en: Demon King, pl: Król Demonów, forms: [Król Demonów, Króla Demonów, Królowi Demonów, Królem Demonów], source: decision}
   - {en: Labyrinth, pl: Labirynt, forms: [Labirynt], source: decision}
-  - {en: Warden, pl: Strażnik, forms: [Strażnik, strażnik], source: decision}
+  - en: Warden
+    pl: Strażnik
+    forms: [Strażnik, strażnik]
+    source: decision
+    note: >-
+      Tower role/title. Generic prison warden may be dozorca (key EA0EF56342776ABE337FAC89DDC88ED5
+      and description 007D19BC4A49B90FBD2F3BBD11560A45); priest explains Jailer is one tower's Warden
+      in 25950E264B7DCE102525D08B229F2EC9. Key drop needs in-game confirmation.
   - {en: Jailer, pl: Dozorca, forms: [Dozorc, dozorc], source: decision}
   - {en: King's Court, pl: Królewski Sąd, forms: [Królewski Sąd, Królewskiego Sądu, Królewskim Sądzie], source: decision}
   - {en: parry, pl: parowanie, forms: [parow, sparow, parad], source: decision}
@@ -82,4 +90,8 @@ terms:
   - {en: Purifying Incense, pl: kadzidło oczyszczające, forms: [kadzid], source: decision}
   - {en: teahouse, pl: herbaciarnia, forms: [herbaciarn], source: decision}
 
-keep_english: [butsudan, shirikodama, mon, kodoku, tsuchigumo, chawan, matcha, sake, ramen, naginata, katana, sashimi]
+keep_english: [butsudan, shirikodama, mon, kodoku, Chajin, dojo, Fugen, Jitte, Monju, NSW, Tanegashima, Tekkō, Tekkō-kagi, XBOX, Yari, Yawara, tsuchigumo, chawan, matcha, sake, ramen, naginata, katana, sashimi]
+
+# Review disposition (2026-10-02): names above intentionally retained; unchanged laughter is
+# vocalization, not untranslated English. Whole-text review kept the documented voices/terms.
+# No direction session or new user ruling is inferred from the independent review.

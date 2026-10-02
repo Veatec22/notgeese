@@ -1,4 +1,4 @@
-LABYRINTH OF THE DEMON KING PL 0.2 — WERSJA TESTOWA
+LABYRINTH OF THE DEMON KING PL 0.3 — WERSJA TESTOWA
 
 1120 z 1120 wpisów lokalizacji: menu, ustawienia, sterowanie, dialogi,
 samouczki, notatki, opisy przedmiotów, mapy, osiągnięcia i komunikaty.
@@ -37,7 +37,8 @@ Nowe wpisy, których nie ma w locres, pozostają w języku źródłowym.
 Zwykły PAK nie implementuje logowania braków znanego z pluginów BepInEx.
 Użytkownik potwierdził działanie verticala: Polski w selektorze, przełączanie,
 zapamiętanie wyboru, polskie znaki i teksty w grze. Sprawdzono pliki i archiwum
-pełnego przekładu; nie wykonano pełnego przejścia kampanii po polsku.
+pełnego przekładu. Niezależna recenzja objęła wszystkie 1120 wpisów; w wersji
+0.3 poprawiono 18 wpisów. Nie wykonano pełnego przejścia kampanii po polsku.
 
 POZOSTAŁY PRZEGLĄD W GRZE
 Sprawdź dłuższe dialogi, opisy piekieł, wskazówki zagadek i nazwy na mapach.

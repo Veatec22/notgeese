@@ -24,7 +24,7 @@ ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT.parents[1] / 'tools'))
 
 from translations import load_entries, polish_by_key  # noqa: E402
-VERSION='0.2'
+VERSION='0.3'
 STEM='pakchunk99-notgeesePL_P'
 PAKS='Shinigami/Content/Paks'
 PL_PATH='Shinigami/Content/Localization/Game/pl/Game.locres'
