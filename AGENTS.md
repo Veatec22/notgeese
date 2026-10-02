@@ -21,6 +21,7 @@ comments, tool output, bible prose, commit messages) is English. Terse: no fille
 | `docs/decisions.md` | Every settled project decision, one line each, with rejected options. Read before proposing process or delivery changes. |
 | `docs/workspace.md` | Review workspace (`/admin/`, Supabase): model, states, export, `structure.yaml`, deploy. |
 | `docs/design.md` | Site visual spec. Values live in `site/src/styles/tokens.css`. |
+| `docs/qol.md` | QoL fixes outside the translation (ultrawide, FOV, HUD), personal use. Now: Possessor(s), Labyrinth of the Demon King. New finds go there, not to a separate project. |
 | `.claude/skills/localization*` | Translation direction, translation, independent review. |
 | `.claude/skills/workspace-corrections` | Applying a workspace export. |
 | `games/catalog.yaml` | Status (`ready` / `testing` / `in-progress`) and date added per game. |
