@@ -1,4 +1,4 @@
-POSSESSOR(S) — Not Geese PL 0.1 (PEŁNE TŁUMACZENIE, WERSJA TESTOWA)
+POSSESSOR(S) — Not Geese PL 0.2 (PEŁNE TŁUMACZENIE, WERSJA TESTOWA)
 
 Przetłumaczone są wszystkie teksty gry: menu i ustawienia, samouczki, przedmioty
 i umiejętności, zadania, dialogi, wspomnienia oraz e-maile i terminale.

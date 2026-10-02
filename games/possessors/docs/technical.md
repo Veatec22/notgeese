@@ -51,6 +51,7 @@ in-world names (`<Agradyne Executive Board Room>`), not tags; keep as written.
 cmap check (fontTools on `.ufont`): CormorantGaramond, Gloock, NotoSans, Raleway (all weights) have
 the full Polish alphabet. `PSE-Regular` has only ASCII (95 glyphs); used by `<DLang.Pose>`
 (1 entry: "Promises - Fear - Blame - Kindness", likely an in-world script). Keep that span ASCII.
+This is a cmap finding, not a user report or an in-game test of fallback/rendering.
 
 ## Delivery
 
@@ -83,5 +84,16 @@ Keys in `translations/en-pl-review.json`: `<Table>/<namespace>/<key>`.
   the user (2026-10-01): dialogue and pursuits from the overlay show up beyond the menu.
 - Full translation 0.1 (3890/3890) built and copied over the probe files (2026-10-01). Check
   report clean except 14 length hints. Published as 0.1 `testing` at the user's request before
-  review. In-game test of the full text pending; independent review
-  (step 7) not started.
+  review. In-game test of the full text pending.
+- Independent fresh-context review (2026-10-02): all 3890 entries read; extracted English
+  matches exactly. Lead applied 17 certain corrections, aligned the workspace district label,
+  refined Rhem's voice rule and corroborated flashback F with FR/DE/ES. Four editorial proposals accepted by the user and applied; five
+  remain open in `docs/decisions.md`. No new in-game evidence.
+- Post-review local build: 3890/3890 entries, 16 tables; source, tokens/newlines, locres, pak,
+  empty IoStore and ZIP read-back pass. Check report: only the unchanged 14 length hints.
+  Local `dist/Possessors-PL-0.1.zip` contains the corrections; the published 0.1 package is
+  unchanged. Next: settle open wording choices, check listed scenes/layout in game, then bump
+  the package version on the next release. No install or launch during review.
+- Follow-up (2026-10-02): four user-approved wording changes built and verified; length hints
+  now 15 (`POCKET_KILLRHEM_0500` adds a hint). All other l10n checks remain at zero.
+- Released 0.2 (2026-10-02) with the review corrections; the in-game copy is still 0.1.

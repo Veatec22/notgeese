@@ -15,7 +15,7 @@ groups:
   - {id: d-intro, name: 'Dialogi: początek (wieżowiec Agradyne i ulice)'}
   - {id: d-campus, name: 'Dialogi: Wzgórze Kampusowe'}
   - {id: d-park, name: 'Dialogi: Park Jarzeniowy'}
-  - {id: d-mall, name: 'Dialogi: Opuszczona Galeria'}
+  - {id: d-mall, name: 'Dialogi: Martwa Galeria'}
   - {id: d-zoo, name: 'Dialogi: SanZooQuarium'}
   - {id: d-sunken, name: 'Dialogi: Zatopione Miasto'}
   - {id: d-dock, name: 'Dialogi: Zardzewiałe Doki'}

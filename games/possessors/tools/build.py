@@ -11,7 +11,7 @@ import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = '0.1'
+VERSION = '0.2'
 PACKAGE = f'Possessors-PL-{VERSION}.zip'
 PAK_STEM = 'pakchunk99-notgeesePL_P'
 PAK_DIR = 'Pose/Content/Paks/'
@@ -82,6 +82,6 @@ for path, body in payload.items():
 translated = sum(len(t) for t in grouped.values())
 report = {'version': VERSION, 'translated': translated, 'total': len(entries), 'tables': len(files),
           'files': {p: hashlib.sha256(b).hexdigest() for p, b in payload.items()},
-          'zip_bytes': release.stat().st_size, 'in_game_test': 'probes confirmed; full playthrough and review pending'}
+          'zip_bytes': release.stat().st_size, 'in_game_test': 'probes confirmed; full playthrough pending'}
 (out / 'build-report.json').write_text(json.dumps(report, indent=2) + '\n', encoding='utf-8')
 print(f'{translated}/{len(entries)} entries in {len(files)} tables; locres, pak, IoStore and ZIP verified: {release}')

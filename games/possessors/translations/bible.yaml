@@ -3,6 +3,8 @@ sources:
     description: 'Articy keys DFr_<SCENE>_<NNNN>_0x<id>.Text: scene and line order; no speaker in the key'
   - id: ru
     description: Russian table of the game (work/loc/ru), past-tense and adjective gender
+  - id: flashback-f-languages
+    description: French, German and Spanish game tables (work/loc/fr, de, es); LUCA_FLASHBACK_F_0900 and FR F1700 identify Luca as Kaz's female addressee
   - id: ui-names
     description: Speaker name list in UI.locres (Luca, Rhem, Kaz, Tens, Dessa, Mom, Grandpa...), with RU gender for job titles
   - id: store
@@ -16,13 +18,18 @@ style:
   adaptation: >-
     Text only (characters speak in gibberish barks, no English voice lines found), so free with
     idioms and rhythm. Keep facts, hints and who knows what; keep profanity at the original strength.
+  review_choices: >-
+    User approved 2026-10-02: own person -> żyć własnym życiem (ending autonomy);
+    demon person -> osoba (personhood); okay with -> nie mieć nic przeciwko (acceptance);
+    it sucks -> to do bani (natural teen speech). Exact scene keys in docs/decisions.md;
+    these choices do not require replacing contextually different uses mechanically.
   profanity: >-
     shit -> cholera / szlag (Luca), "Oh shit!" -> "O kurde!"/"Cholera!"; fuck -> kurwa (only where EN has it);
     dick -> dupek; crap -> syf / badziewie; heck/hell -> do diabła / kurde; "get bent" -> "wal się".
   reading_conditions: dialogue boxes, assumed click-through (to test); tutorial hints and pursuit popups on screen during play
   ui: imperative 2nd person singular ("Naciśnij", "Pokonaj"); sentence case; Polish quotes „…”, inner ‚…’
   source: decision
-  note: decided without a direction session (user asked to go straight to full); revisit at review
+  note: decided without a direction session (user asked to go straight to full); full independent review completed 2026-10-02, editorial choices in docs/decisions.md remain open
 
 characters:
   - id: luca
@@ -41,7 +48,7 @@ characters:
     name: Rhem
     gender: m
     addresses_player: ty
-    register: formal, cold, precise, condescending; full sentences, no slang, no swearing; calls humans "wy, ludzie"
+    register: formal, cold, precise, condescending; full sentences, normally no slang or swearing; emotional exceptions at EN strength (RHEM_FLASHBACK_6_1000, DREAM_07_KILLRHEM_02_1100); calls humans "wy, ludzie"
     declension: Rhem, Rhema, Rhemowi, Rhemem, Rhemie
     examples:
       - {key: DFr_INTRO_WAKE_UP_1200, en: 'But I possessed you, and made you stronger. Now we share a mind.', pl: 'Ale opętałem cię i uczyniłem silniejszą. Teraz dzielimy jeden umysł.'}
@@ -95,9 +102,10 @@ characters:
       lived in a colony outside Sanzu until mom got an Agradyne job; Luca lives in Blue Pass housing and has a
       sister. Russian genders settle it in flashback B (8, 15, 17 masculine = Kaz). Flashback F (CampusHill): Kaz
       complains first, Luca answers "your dad sucks"; the "my parents are nice to you" speech is Kaz's (RU
-      "единственный" there is taken as an RU slip). Mom: Bonnie (Kaz calls her so); "Mary" on the helipad list is
+      "единственный" there is taken as an RU slip; FR "ma pote"/"meuf", DE "meine Freundin" and ES "amiga mía"
+      independently confirm Luca as the addressee at F0900/F1700). Mom: Bonnie (Kaz calls her so); "Mary" on the helipad list is
       read by Luca as her mom.
-    source: [ru]
+    source: [ru, flashback-f-languages]
   - id: agradyne
     name: Agradyne
     gender: n
