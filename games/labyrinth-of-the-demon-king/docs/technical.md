@@ -66,6 +66,26 @@ shipped; confirmed in game.
   messages.
 - Unknown: whether the widget survives game updates.
 
+## Intro movie subtitles (0.4)
+
+The lore intro text is burned into Bink 2 movies, one per culture (`Movies/OpeningText_<culture>.bk2`,
+1080x818, 68.8 s; English `OpeningText_001.bk2`). `BP_MasterCinematicTrigger_NewGame` maps the culture
+through `FL_BlueprintGeneral.ReturnLangaugeEnum` to a fixed `E_SupportedLanguages` list, so `pl` plays
+English. The game plays only Bink (no WMF/Electra). Other movies (boss intros/deaths, loading screens,
+credits) have no culture variants, so no text to translate (inferred from names, not decoded).
+Rejected: a Polish Bink (needs RAD/UE 4.27 encoder; re-encoded publisher footage would ship game
+content; blueprint routing change) and a plate covering the English text (user prefers PL below EN).
+
+Delivery: UE4SS v3.0.1-1140-gf58e8f84 (same runtime and SHA-256 as Holy Shoot, loader `dwmapi.dll`,
+imported by the game) + `plugin/main.lua`. Each 50 ms it finds `UI_PrerenderedCutscene_C`, checks
+`CutsceneToPlay.FilePath` contains `OpeningText` and culture `pl`, builds its own
+UserWidget/CanvasPanel/TextBlock (game font `EBGaramond-VariableFont_wght_Font`, size 26, wrap 1250,
+bottom centre) at viewport Z 1000, and fades lines by `/Game/Movies/BinkMyPlayer` `GetTime()` (Ticks).
+The cutscene widget's root is a ScaleBox (no extra children), hence the own widget. Lines and cues
+live in the review file (namespace `OpeningText`, `context` = movie and seconds, measured on the
+user's recording); the build generates `subtitles.lua`. Confirmed in game by the user (2026-10-02):
+correct movie only, timing, layout, Polish letters.
+
 ## Review integration (2026-10-02)
 
 Fresh-context independent review read all 1120 entries. The source key set and full EN text match

@@ -126,6 +126,17 @@ All proposals remain open; current text kept. Evidence is the source entry and l
 - Workspace validation and site build passed.
 - ZIP prepared in `dist/` and copied byte-identically to `site/public/pobierz/`; game not launched or installed during this review. No new in-game evidence.
 
+## Intro movie subtitles (0.4)
+
+- **Form (user):** Polish line under the burned-in English panel, English stays visible; rejected:
+  a plate covering the English text.
+- **Terms (agent):** "The Latter Age Of The Dharma" → „Epokę Schyłku Dharmy”, as the same line in the locres; „ashigaru”
+  lowercase as in item texts; „pana Takedy Nobumitsu” (surname declined, given name not); „klan
+  Takeda” elsewhere unchanged.
+- **Logo panel:** panel 06 ends „…by wejść do…”, the logo panel gets „…Labiryntu Króla Demonów”, so
+  the sentence closes on the title as in English.
+- Seven lines added after the independent review: checked in game by the user, not by a reviewer.
+
 ## Check in game
 
 No new screenshots or playthrough evidence. Test with 0.3:

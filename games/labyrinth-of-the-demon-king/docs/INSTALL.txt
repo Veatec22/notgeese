@@ -1,22 +1,29 @@
-LABYRINTH OF THE DEMON KING PL 0.3 — WERSJA TESTOWA
+LABYRINTH OF THE DEMON KING PL 0.4 — WERSJA TESTOWA
 
 1120 z 1120 wpisów lokalizacji: menu, ustawienia, sterowanie, dialogi,
 samouczki, notatki, opisy przedmiotów, mapy, osiągnięcia i komunikaty.
+Do tego polskie napisy pod angielskim tekstem filmu wprowadzającego (tekst jest
+wtopiony w obraz, więc polski pojawia się pod nim, plansza po planszy).
 Nazwy własne, oznaczenia kontrolerów i część odgłosów celowo pozostają bez zmian.
 Zakres nie obejmuje napisów w teksturach, nagrań głosowych ani tekstów sklepu.
 
 INSTALACJA
 Przy zamkniętej grze wypakuj zawartość ZIP do katalogu z Shinigami.exe.
 W Shinigami/Content/Paks pojawią się trzy pliki pakchunk99-notgeesePL_P:
-.pak, .utoc i .ucas. Wszystkie trzy są potrzebne.
+.pak, .utoc i .ucas. Wszystkie trzy są potrzebne. W Shinigami/Binaries/Win64
+pojawią się dwmapi.dll i folder ue4ss (napisy do filmu wprowadzającego).
 Uruchom grę normalnie i wybierz Polski na ekranie wyboru języka.
 Nie trzeba ustawiać parametru Culture ani zastępować angielskiego.
-Aktualizacja: zastąp te same trzy pliki. Własne zapisy gry zostają bez zmian.
+Aktualizacja: wypakuj nową paczkę i pozwól nadpisać pliki. Zapisy gry zostają.
 
 USUNIĘCIE
-Przy zamkniętej grze usuń wyłącznie te trzy pliki pakchunk99-notgeesePL_P.
+Przy zamkniętej grze usuń:
+- Shinigami/Content/Paks/pakchunk99-notgeesePL_P.pak, .utoc i .ucas
+- Shinigami/Binaries/Win64/dwmapi.dll
+- Shinigami/Binaries/Win64/ue4ss (folder dodany przez tę paczkę)
+Jeśli używasz innych modów UE4SS, zachowaj wspólny loader i usuń tylko
+ue4ss/Mods/notgeesePL oraz jego wpisy w mods.txt i mods.json.
 Nie usuwaj oryginalnych pakchunk0 ani global. Oryginały nie są podmieniane.
-Jeżeli używasz innych modów, pozostaw ich pliki na miejscu.
 
 CO ZAWIERA PACZKA
 PAK: nasz plik Localization/Game/pl/Game.locres, tylko przetłumaczone wpisy.
@@ -27,6 +34,10 @@ Ten istniejący widżet jest wymaganym nośnikiem osobnego języka, nie naszym
 autorskim zasobem. Paczka nie zawiera innych blueprintów, scen, modeli,
 tekstur, dźwięków, fontów, plików wykonywalnych ani bibliotek gry.
 Wykorzystuje fonty już zainstalowane z grą.
+UE4SS v3.0.1-1140-gf58e8f84 (MIT, ue4ss/LICENSE; źródło:
+https://github.com/UE4SS-RE/RE-UE4SS/tree/f58e8f84) i nasz skrypt Lua, który
+w trakcie filmu wprowadzającego wyświetla polskie napisy, tylko gdy wybrany
+jest Polski. Film ani żaden plik gry nie są zmieniane.
 
 ZGODNOŚĆ I STAN TESTÓW
 Zbudowane z kopii GOG, buildId 59111742023178281, Unreal Engine 4.27.
@@ -38,7 +49,9 @@ Zwykły PAK nie implementuje logowania braków znanego z pluginów BepInEx.
 Użytkownik potwierdził działanie verticala: Polski w selektorze, przełączanie,
 zapamiętanie wyboru, polskie znaki i teksty w grze. Sprawdzono pliki i archiwum
 pełnego przekładu. Niezależna recenzja objęła wszystkie 1120 wpisów; w wersji
-0.3 poprawiono 18 wpisów. Nie wykonano pełnego przejścia kampanii po polsku.
+0.3 poprawiono 18 wpisów. Napisy do filmu wprowadzającego (0.4) sprawdzone
+w grze przez użytkownika. Nie wykonano pełnego przejścia kampanii po polsku.
+Log napisów: Shinigami/Binaries/Win64/ue4ss/UE4SS.log (linie [notgeesePL 0.4]).
 
 POZOSTAŁY PRZEGLĄD W GRZE
 Sprawdź dłuższe dialogi, opisy piekieł, wskazówki zagadek i nazwy na mapach.

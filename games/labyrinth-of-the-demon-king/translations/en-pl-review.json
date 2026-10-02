@@ -9034,5 +9034,62 @@
     "namespace": "",
     "status": "translated",
     "context": "DataTables/DT_NoteData"
+  },
+  {
+    "key": "01",
+    "namespace": "OpeningText",
+    "english": "The World has entered The Latter Age Of The Dharma.",
+    "polish": "Świat wkroczył w Epokę Schyłku Dharmy.",
+    "context": "Movies/OpeningText_001.bk2 4.3-8.5 s",
+    "status": "vertical-confirmed"
+  },
+  {
+    "key": "02",
+    "namespace": "OpeningText",
+    "english": "Society is crumbling. War has spread throughout the country. Disease and famine have killed thousands, and demons walk the very earth itself.",
+    "polish": "Ład społeczny się rozpada. Wojna ogarnęła cały kraj. Zaraza i głód zabiły tysiące, a po samej ziemi chodzą demony.",
+    "context": "Movies/OpeningText_001.bk2 11.4-17.3 s",
+    "status": "vertical-confirmed"
+  },
+  {
+    "key": "03",
+    "namespace": "OpeningText",
+    "english": "You are an Ashigaru, a footsoldier in the service of Lord Takeda Nobumitsu.",
+    "polish": "Jesteś ashigaru, piechurem w służbie pana Takedy Nobumitsu.",
+    "context": "Movies/OpeningText_001.bk2 20.0-25.0 s",
+    "status": "vertical-confirmed"
+  },
+  {
+    "key": "04",
+    "namespace": "OpeningText",
+    "english": "Deceived by a powerful demon , your lord led his army into an ambush. All perished except for you. Against your wishes your lord sacrificed his life to aid your escape from the battle.",
+    "polish": "Zwiedziony przez potężnego demona twój pan wprowadził armię w zasadzkę. Zginęli wszyscy prócz ciebie. Wbrew twojej woli pan poświęcił życie, abyś mógł ujść z pola bitwy.",
+    "context": "Movies/OpeningText_001.bk2 27.6-33.1 s",
+    "status": "vertical-confirmed"
+  },
+  {
+    "key": "05",
+    "namespace": "OpeningText",
+    "english": "You have made a vow to track down the demon who betrayed your lord and end its life.",
+    "polish": "Poprzysiągłeś odnaleźć demona, który zdradził twojego pana, i odebrać mu życie.",
+    "context": "Movies/OpeningText_001.bk2 35.7-40.2 s",
+    "status": "vertical-confirmed"
+  },
+  {
+    "key": "06",
+    "namespace": "OpeningText",
+    "english": "Following rumours of an entrance to the demon's stronghold, you find yourself standing on a lonely road deep in some long forgotten forest. You take what could possibly be your final breaths on this mortal plane, and prepare yourself to enter…",
+    "polish": "Idąc za pogłoskami o wejściu do twierdzy demona, stajesz na samotnej drodze w głębi dawno zapomnianego lasu. Być może bierzesz ostatnie oddechy na tym śmiertelnym padole. Szykujesz się, by wejść do…",
+    "context": "Movies/OpeningText_001.bk2 42.8-52.6 s",
+    "status": "vertical-confirmed"
+  },
+  {
+    "key": "07",
+    "namespace": "OpeningText",
+    "english": "LABYRINTH OF THE DEMON KING",
+    "polish": "…Labiryntu Króla Demonów",
+    "context": "Movies/OpeningText_001.bk2 54.8-60.4 s",
+    "status": "vertical-confirmed",
+    "notes": "Pod logo z filmu; dopełnia zdanie z planszy 06 („by wejść do…”)."
   }
 ]

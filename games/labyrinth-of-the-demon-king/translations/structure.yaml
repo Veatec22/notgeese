@@ -5,6 +5,7 @@
 format: 1
 
 groups:
+  - {id: intro, name: 'Wstęp: napisy do filmu'}
   - {id: menu, name: 'Menu, zapis i ekrany'}
   - {id: settings, name: 'Ustawienia i sterowanie'}
   - {id: tutorial, name: 'Samouczek i podpowiedzi'}
@@ -20,6 +21,7 @@ groups:
   - {id: world, name: 'Świat: drzwi, zagadki i komunikaty'}
 
 rules:
+  - {group: intro, context: '^Movies/OpeningText_'}
   - {group: settings, context: '^(Blueprints/Widgets/Settings/|Blueprints/Widgets/PauseMenu/ControlLayoutWidgets/|AssetPacks/AutoSettings/)'}
   - {group: tutorial, context: '(UI_HowToPlay|_Tutorial)'}
   - {group: menu, context: '^Blueprints/(Widgets/(MainMenu|PauseMenu|SaveMenu|LanguageSelectScreen|GameOver|AchievementMenu)/|Widgets/UI_YesNoWidget|Misc/BP_(MainMenuPortal|NewGamePortal))'}
