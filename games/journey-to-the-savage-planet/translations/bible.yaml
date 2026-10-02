@@ -1,0 +1,269 @@
+# Journey to the Savage Planet bible, created 2026-09-29 after the direction sample
+# (docs/decisions.md, "Direction"). Re-check after the full translation.
+
+sources:
+  - id: keys
+    description: >-
+      VoiceOverDataTable keys carry the speaker: VO_EKO_ (EKO), VO_OGM_ (EKO in the one-goo
+      mode), VO_VYPER_, VO_MARTIN_TWEED_ / SUB_MARTIN_TWEED_ (Tweed), SUB_ADVERTISEMENT_ (ads),
+      VO_ALIEN_ (seed vault). Scanner entries: ScannableInfoDataTable <Thing>Name / SubName /
+      ShortDescription / Description.
+  - id: ru
+    description: Russian table of the game (work/ref-ru.json), past-tense gender
+  - id: fr
+    description: French table of the game (work/ref-fr-CA.json), adjective gender
+  - id: de
+    description: German table of the game (work/ref-de-DE.json), term choices
+  - id: credits
+    description: CreditsDataTable, Cast rows (EKO, Martin Tweed, Pufferbird, Astronaut Vocal Emotes)
+
+style:
+  tone: >-
+    Corporate satire and absurd humor. A cheerful, fussy, passive-aggressive company AI, a
+    startup CEO with fake warmth, parody ads, a rude rival AI. Jokes land in Polish; no modern
+    memes, no added profanity.
+  adaptation: >-
+    All dialogue is voiced in English (credits, VoiceOverDataTable); Polish players hear
+    English. Stay close to content, facts and bluntness; transcreate a joke only when the literal
+    one dies, keep its target. Telling names of creatures, plants and items translated (user);
+    brands and proper names kept. Scanner, emails, achievements: text only, freer style.
+  reading_conditions: >-
+    EKO/Vyper subtitles auto-dismiss during exploration and combat: keep them tight. Video and ad
+    subtitles run on timecodes in the text: keep every timecode line and the segmentation.
+    Scanner, journal, emails, achievements, item descriptions: read at leisure in menus.
+    Actual subtitle width and timing: to test in game.
+  source: user
+  note: >-
+    EKO sample and tone approved by the user 2026-09-29; rest decision. Full-text rules
+    (decision): Kindred weather email converted to °C and cm (Montreal, Polish reader); fake
+    phishing email written in broken Polish; debug, test-quest (QUs*/QUt*/QUx*), dev and
+    company-name strings kept English (polish = english); full creature/plant/place list in
+    work/glossary.md, key ones under terms.
+
+characters:
+  - id: eko
+    name: EKO
+    gender: f
+    key: '^VO_(EKO|OGM)_'
+    addresses_player: ty
+    register: >-
+      Bright, fussy, deadpan asides, corporate politeness with a passive-aggressive edge; talks
+      about her own programming. Hesitations ("eee", "yyy") kept.
+    declension: EKO indeclinable ("dla EKO", "z EKO")
+    examples:
+      - key: VO_EKO_IntroSequence_EkoToggleTip_01
+        en: And, uh, I've been told my simulated personality can be abrasive, so you can choose how much you want to hear me talk. I won't take it personally.
+        pl: I, eee… podobno moja symulowana osobowość bywa męcząca, więc możesz ustawić, ile chcesz mnie słuchać. Nie obrażę się.
+        source: user
+      - key: VO_EKO_1ST_PufferAlpha_Scan_01
+        en: It's cute and explodes. Relatable.
+        pl: Słodkie i wybucha. Skąd ja to znam.
+        source: user
+    source: [keys, ru, fr, credits]
+    note: RU "я поняла", "хотела"; FR "contente", "obligée". Player addressed without gender.
+  - id: vyper
+    name: Vyper
+    gender: m
+    key: '^VO_VYPER_'
+    addresses_player: ty
+    register: grumpy, rude, whiny rants; insults ("worku mięsa"); "Goddamnit" → "Cholera jasna"
+    declension: Vyper, Vypera (company AI; the company itself "korporacja Vyper")
+    examples:
+      - key: VO_VYPER_BackOff_B_01
+        en: Seriously, don't touch that, meatbag.
+        pl: Serio, nie dotykaj tego, worku mięsa.
+        source: decision
+    source: [keys, ru]
+    note: RU "я видел", "непобедим"
+  - id: tweed
+    name: Martin Tweed
+    gender: m
+    key: 'MARTIN_TWEED'
+    addresses_player: ty
+    register: startup CEO, buzzwords, fake warmth, slogans
+    declension: Martin Tweed, Martina Tweeda
+    source: [keys, credits]
+    note: formal "Pan/Pani" would need the player's gender; "ty" fits the chummy corporate tone
+  - id: aliens
+    name: obcy (krypta nasion)
+    gender: n
+    key: '^VO_ALIEN_'
+    addresses_player: '-'
+    register: solemn collective "my", no jokes
+    source: [keys]
+  - id: player
+    name: gracz / odkrywca
+    gender: '?'
+    addresses_player: '-'
+    register: silent
+    source: [ru, fr]
+    note: >-
+      Avatar choice, co-op; never "zrobiłeś/zrobiłaś", "jesteś gotowy". Use "udało ci się",
+      "masz", impersonal forms. Journal quest texts are the player's first-person notes
+      ("I'll feel safer", "I have seen") → present tense or impersonal ("będzie tu bezpieczniej",
+      "jest ich więcej"). Partner/other player: avoid gendered forms ("osoba, która ci towarzyszy").
+
+terms:
+  - en: Javelin
+    pl: Javelin
+    forms: [Javelin]
+    source: user
+    note: ship name, declined (Javelina, na Javelinie); rejected "Oszczep"
+  - en: Kindred
+    pl: Kindred
+    forms: [Kindred]
+    source: decision
+    note: company, indeclinable, neuter in verbs ("Kindred zobowiązało się"); "Kindred Aerospace" in full
+  - en: Pufferbird
+    pl: puchoptak
+    forms: [puchopta]
+    source: user
+    note: translated per user ruling on creature names; puch + puchnąć; rejected keeping English
+  - en: Pikemander
+    pl: pikamandra
+    forms: [pikamandr]
+    source: decision
+    note: pika + salamandra (it's a spiky lizard)
+  - en: Survey
+    pl: rozpoznanie
+    forms: [rozpozna, ankiet, bada]
+    source: decision
+    note: mechanic that shows objective and nearby items; verb "rozpoznać teren"; rejected "zwiad". Kindred questionnaire = ankieta; "Survey the Planet" = "Zbadaj planetę"
+  - en: Explorer
+    pl: odkrywca
+    forms: [odkryw]
+    source: decision
+    note: vocative "explorer!" in EKO greetings dropped on purpose ("odkrywco" is masculine; player gender unknown)
+  - en: Alien Alloy
+    pl: stop obcych
+    forms: [stop]
+    source: decision
+    note: '"obcy stop" reads as "foreign stop"; HUD caps STOP OBCYCH'
+  - en: Orange Goo
+    pl: pomarańczowa maź
+    forms: [pomarańczow]
+    source: decision
+  - en: Grapple
+    pl: zaczep
+    forms: [zaczep, zaczepi]
+    source: decision
+    note: 'action and the Proton Tether use (RU "Зацеп"); Grapple Seed = nasiono zaczepowe, grapple point = punkt zaczepienia; rejected "hak"'
+  - en: Journal
+    pl: Dziennik
+    forms: [dzienni]
+    source: decision
+  - en: Proton Tether
+    pl: linka protonowa
+    forms: [protonow]
+    source: decision
+  - en: Jump Thrusters
+    pl: dysze skokowe
+    forms: [dysz]
+    source: decision
+    note: 'Triple/Quadruple Thrusters = potrójne/poczwórne dysze; Hovering Jets = dysze zawisu; Launch Boosters = dopalacze wybicia'
+  - en: Stomp
+    pl: tupnięcie
+    forms: [tup]
+    source: decision
+  - en: Bombegranate
+    pl: bombogranat
+    forms: [bombogranat]
+    source: decision
+    note: granat = pomegranate and grenade in Polish; the pun survives
+  - en: Shock Fruit
+    pl: szokowoc
+    forms: [szokowoc]
+    source: decision
+  - en: Blight Bomb
+    pl: bomba zarazy
+    forms: [zarazy]
+    source: decision
+  - en: Binding Bile
+    pl: klejąca żółć
+    forms: [żółc, żółć]
+    source: decision
+  - en: Cartographer
+    pl: Kartograf
+    forms: [Kartograf]
+    source: decision
+    note: drones; plural "Kartografy znalazły" (non-personal)
+  - en: Old Game Minus
+    pl: Stara gra minus
+    forms: [stara gra minus, starą grę minus, starej gry minus, sgm]
+    source: decision
+    note: 'parody of "New Game Plus" = "Nowa gra plus"; OGM → SGM'
+  - en: Cragclaw
+    pl: Skałoszpon
+    forms: [skałoszpon]
+    source: decision
+    note: boss, capitalized as a name; "Skałoszpona"
+  - en: Floopsnoot
+    pl: chlupnos
+    forms: [chlupnos]
+    source: decision
+    note: Floopsnoot Matriarch = Matka Chlupnosów (boss)
+  - en: Jellywaft
+    pl: meduzolot
+    forms: [meduzolot]
+    source: decision
+    note: Inferior lichy, Prime przedni
+  - en: Kapyena
+    pl: kapiena
+    forms: [kapien]
+    source: decision
+  - en: Slamphibian
+    pl: grzmotopłaz
+    forms: [grzmotopła]
+    source: decision
+  - en: Schnozo
+    pl: nochalec
+    forms: [nochal]
+    source: decision
+  - en: Skipper
+    pl: powszelatek
+    forms: [powszelat]
+    source: decision
+  - en: Baboushka
+    pl: babuszka
+    forms: [babusz]
+    source: decision
+  - en: Meat Vortex
+    pl: mięsny wir
+    forms: [mięsn]
+    source: decision
+  - en: Shrine
+    pl: kapliczka
+    forms: [kapliczk, kapliczc]
+    source: decision
+  - en: Spire
+    pl: Iglica
+    forms: [iglic]
+    source: decision
+  - en: Boomerdale
+    pl: Boomerowo
+    forms: [boomerow]
+    source: decision
+    note: DLC resort; Polish place-name suffix keeps the boomer joke
+  - en: Cartographer
+    pl: Kartograf
+    forms: [kartograf]
+    source: decision
+    note: drones; plural "Kartografy" (machines), capitalized as in EN
+  - en: Utility Belt
+    pl: pas narzędziowy
+    forms: [narzędziow]
+    source: decision
+  - en: blueprint
+    pl: schemat
+    forms: [schemat]
+    source: decision
+
+keep_english: [Kindred, Kindred Aerospace, Vyper, GROB, AR-Y 26, Hot Garbage, Javelin, EKO, Martin Tweed, Kindex, KARDZ, Nomad, Teratomo, Kronus, Alienware]
+
+settings:
+  dialog_key: '^(VO|SUB)_'
+
+ignore:
+  - {check: gender, key: '^VO_EKO_RefuelJavelin_Start_01$', reason: '"tytułem" is a noun'}
+  - {check: gender, key: '^VO_EKO_OBJ_SurveyPlanet_Start_01$', reason: '"rozdziałem" is a noun'}
+  - {check: terms, key: '^VO_EKO_(Report1_Greeting|B5_CallToAdventure)_01$', reason: 'vocative "explorer" dropped (gendered in Polish)'}

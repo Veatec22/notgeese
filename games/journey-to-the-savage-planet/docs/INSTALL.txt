@@ -1,0 +1,41 @@
+JOURNEY TO THE SAVAGE PLANET PL 0.1 - WERSJA TESTOWA
+
+Polskie napisy i interfejs do Journey to the Savage Planet (wersja GOG, z dodatkiem
+Hot Garbage). Tlumaczenie maszynowe, poprawiane recznie. Glosy zostaja angielskie.
+Wersja 0.1 obejmuje caly tekst gry: menu, podpowiedzi, napisy do dialogow i filmow,
+zadania, skaner, przedmioty, e-maile, osiagniecia i dodatek Hot Garbage. To wersja
+testowa - nie przeszlismy jeszcze calej gry po polsku; bledy prosimy zglaszac.
+
+JAK TO DZIALA
+Polski jest osobnym, dwunastym jezykiem gry - wszystkie jezyki gry zostaja.
+Paczka ma dwie czesci:
+- Towers\Content\Paks\Towers-WindowsNoEditor_pl_P.pak - same polskie teksty,
+  nowy plik obok pakow gry; zadnego pliku gry nie podmienia.
+- latka pliku Towers-Win64-Shipping.exe (kilkaset bajtow). Gra ma liste jezykow
+  wpisana na sztywno w kod; latka dopisuje do niej "Polski". Nie zawiera nic
+  z samej gry, tylko roznice.
+
+INSTALACJA (przy zamknietej grze)
+1. Wypakuj cala paczke do katalogu gry - tam, gdzie lezy Towers.exe.
+   Pak trafi sam do Towers\Content\Paks.
+2. Uruchom Journey-to-the-Savage-Planet-PL-0.1.exe dwuklikiem.
+
+   Program sprawdza sume kontrolna pliku Towers\Binaries\Win64\Towers-Win64-Shipping.exe
+   i odmawia pracy, jesli gra jest w innej wersji (np. ze Steama) albo latka jest juz
+   wgrana. Przed zmiana odklada oryginal obok, z dopiskiem ".przed-spolszczeniem".
+   Windows moze ostrzec przed nieznanym programem ("Wiecej informacji" ->
+   "Uruchom mimo to") - program nie ma podpisu cyfrowego.
+3. Uruchom gre. Na polskim Windowsie nowa gra sama wlaczy polski; jesli nie,
+   wejdz w Options -> Gameplay -> Subtitles Language i wybierz "Polski".
+   Wybor zostaje zapamietany.
+
+Testowane na: GOG, wersja z dodatkiem Hot Garbage (Towers-Win64-Shipping.exe
+SHA-256 b0ee2d93...bc1a).
+
+USUWANIE
+Uruchom Journey-to-the-Savage-Planet-PL-0.1.exe jeszcze raz - zapyta, czy przywrocic
+oryginalny plik .exe. Potem usun Towers\Content\Paks\Towers-WindowsNoEditor_pl_P.pak.
+Mozna tez zweryfikowac pliki gry w GOG Galaxy i usunac pak recznie.
+Przed usunieciem przelacz jezyk na inny, np. English.
+
+Projekt Not Geese: https://notgeese.cc

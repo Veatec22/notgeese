@@ -1,0 +1,28 @@
+slug: journey-to-the-savage-planet
+title: Journey to the Savage Planet
+version: "0.1"
+entries: { done: 5374, total: 5374 }
+tested: partial
+engine: Unreal Engine 4.21 (pak v7)
+approach: Polski to osobny, dwunasty język gry, z nazwą „Polski” w menu; teksty w dodatkowym paku Unreala. Gra ma listę języków zapisaną w kodzie, więc paczka zawiera też małą łatkę pliku exe, która dopisuje do niej polski. Głosy zostają angielskie.
+scope: menu i ustawienia, HUD i podpowiedzi, napisy do dialogów EKO, Vypera i filmów Kindred, zadania i dziennik, skaner i Kindeks, przedmioty i ulepszenia, e-maile, osiągnięcia, zakończenia, napisy końcowe, dodatek Hot Garbage
+tested_on:
+  - store: gog
+    version: "build 54102244257232737 (z Hot Garbage)"
+year: 2021
+steam_appid: 973810
+stores:
+  steam: https://store.steampowered.com/app/973810/
+  gog: https://www.gog.com/en/game/journey_to_the_savage_planet
+quote:
+  text:
+  source:
+download:
+  kind: patch
+  file: Journey-to-the-Savage-Planet-PL-0.1.zip
+  bytes: 359235
+build_input:
+  store: gog
+  build_id: '54102244257232737'
+test_notes: Language slot, exe patch and vertical (menu, settings, start of play) confirmed in game by the user 2026-09-29; full text not tested in game yet.
+gallery: [1, 2, 3, 4, 5]

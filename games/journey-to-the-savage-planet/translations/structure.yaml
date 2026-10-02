@@ -1,0 +1,79 @@
+# Journey to the Savage Planet: groups for the review workspace.
+# Format: docs/workspace.md.
+#
+# Keys in the empty namespace are mostly GUIDs; groups follow the asset in `context`
+# (work/key-sources.json). Voiced lines carry the speaker in the key (VO_EKO_, VO_VYPER_, ...).
+# Debug and test strings are kept English (polish = english) and grouped last.
+
+format: 1
+
+groups:
+  - id: menu
+    name: Menu, HUD i ustawienia
+  - id: tutorial
+    name: Podpowiedzi i samouczek
+  - id: eko
+    name: EKO
+  - id: vyper
+    name: Vyper
+  - id: tweed
+    name: Filmy Martina Tweeda
+  - id: ads
+    name: Reklamy
+  - id: aliens
+    name: Obcy (krypta nasion)
+  - id: quests
+    name: Zadania i dziennik
+  - id: scanner
+    name: Skaner i Kindeks
+  - id: items
+    name: Przedmioty, ulepszenia i łupy
+  - id: emails
+    name: E-maile i dzienniki wyprawy
+  - id: places
+    name: Miejsca i punkty odrodzenia
+  - id: achievements
+    name: Osiągnięcia i zakończenia
+  - id: credits
+    name: Napisy końcowe
+  - id: system
+    name: Komunikaty sieciowe i systemowe
+  - id: dev
+    name: Teksty deweloperskie (po angielsku)
+
+rules:
+  - {group: eko, namespace: VoiceOverDataTable, match: '^VO_(EKO|OGM)_'}
+  - {group: vyper, namespace: VoiceOverDataTable, match: '^VO_VYPER_'}
+  - {group: tweed, namespace: VoiceOverDataTable, match: 'MARTIN_TWEED'}
+  - {group: ads, namespace: VoiceOverDataTable, match: '^SUB_ADVERTISEMENT_'}
+  - {group: aliens, namespace: VoiceOverDataTable, match: '^VO_ALIEN_'}
+  - {group: scanner, namespace: ScannableInfoDataTable, match: '.'}
+  - {group: quests, namespace: QuestInfosDataTable, match: '.'}
+  - {group: achievements, namespace: AchievementsDataTable, match: '.'}
+  - {group: achievements, namespace: PS4Trophy, match: '.'}
+  - {group: credits, namespace: CreditsDataTable, match: '.'}
+  - {group: places, namespace: PlayerSpawnPointsDataTable, match: '.'}
+  - {group: dev, namespace: PlayerSpawnPointsDataTable_StreamingTestMap, match: '.'}
+  - {group: system, namespace: NetworkErrors, match: '.'}
+  - {group: system, namespace: NetworkFailures, match: '.'}
+  - {group: system, namespace: OnlinePrivilegeResult, match: '.'}
+  - {group: system, namespace: PrivilegeFailures, match: '.'}
+  - {group: system, namespace: ProfileMessages, match: '.'}
+  - {group: system, namespace: SaveGameStrings, match: '.'}
+  - {group: menu, namespace: DialogButtons, match: '.'}
+  - {group: menu, namespace: Towers, match: '.'}
+  - {group: dev, namespace: EnvQueryGenerator, match: '.'}
+  - {group: dev, namespace: '[/Script/EngineSettings]', match: '.'}
+  - {group: dev, namespace: MovieSceneSequenceEditor, match: '.'}
+  - {group: dev, namespace: TowersBlueprintFunctionLibrary, match: '.'}
+  - {group: dev, namespace: TowersScienceEncyclopediaDebug, match: '.'}
+  - {group: dev, context: '^Quests/_QuestsSubstates/QUEST_U[stx]'}
+  - {group: quests, context: '^Quests/'}
+  - {group: scanner, context: '^DataTables/(ScannableInfo|CreatureInfo)'}
+  - {group: items, context: '^DataTables/(CraftableItems|LootItems|Interactables)'}
+  - {group: emails, context: '^DataTables/KindredComputerEntries'}
+  - {group: achievements, context: '^(Achievements/|DataTables/EndSequence)'}
+  - {group: places, context: '^DataTables/PlayerSpawnPoints'}
+  - {group: tutorial, context: '^Maps/'}
+  - {group: menu, context: '^(UI/|DataTables/(KeyIcon|PlayerActions|Notifications|NameToText)|DesignTweaks/PhotoMode|Blueprints/UI)'}
+  - {group: dev, match: '.'}
