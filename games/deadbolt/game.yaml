@@ -10,12 +10,9 @@ test_notes: Vertical confirmed in game by the user (2026-09-25). Full translatio
 steam_appid: 394970
 stores:
   steam: https://store.steampowered.com/app/394970/
-build_input:
-  store: steam
-  build_id: "22449372"
-  exe_version: "1.0.0.87"
-  gen8_version: "1.0.0.1749"
-tested_on: []
+tested_on:
+  - store: steam
+    version: "build 22449372"
 download:
   kind: zip
   file: Deadbolt-PL-0.1.zip

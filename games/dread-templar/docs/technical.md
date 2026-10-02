@@ -1,6 +1,6 @@
 # Dread Templar: technical
 
-GOG 1.0.2b fix, Unity 2019.4.40f1, x64. 636/636 text entries: menus, settings, controls,
+GOG 1.0.2b fix, Unity 2019.4.40f1, x64. 636 text entries, 791 translated fields (`name`/`text`; 6 empty names skipped): menus, settings, controls,
 tutorial, in-game messages, dialogue, cutscenes, level and boss names, weapons, runes.
 
 ## How the game stores text

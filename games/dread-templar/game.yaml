@@ -1,7 +1,7 @@
 slug: dread-templar
 title: Dread Templar
 version: "0.1"
-entries: { done: 636, total: 636 }
+entries: { done: 791, total: 791 }
 tested: partial
 engine: Unity 2019.4.40f1
 approach: Plugin wypełnia pusty slot „pol” zostawiony przez twórców i ożywia wyłączony przycisk w menu, w czasie działania gry. Żaden plik gry nie jest podmieniany.

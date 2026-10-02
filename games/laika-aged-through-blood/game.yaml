@@ -13,10 +13,6 @@ download:
   kind: zip
   file: Laika-Aged-Through-Blood-PL-0.1.zip
   bytes: 745084
-build_input:
-  store: gog
-  gog_build_id: '57119379309637473'
-  unity: 2021.3.29
 tested_on:
   - store: gog
     version: '1.0.13'

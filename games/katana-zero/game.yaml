@@ -10,9 +10,6 @@ steam_appid: 460950
 stores:
   steam: https://store.steampowered.com/app/460950/
   gog: https://www.gog.com/en/game/katana_zero
-build_input:
-  store: gog
-  version: '1.0.5'
 tested_on:
   - store: gog
     version: "1.0.5"

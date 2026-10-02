@@ -1,7 +1,7 @@
 slug: turbo-overkill
 title: Turbo Overkill
 version: "0.1"
-entries: { done: 2316, total: 2333 }
+entries: { done: 2316, total: 2316 }
 tested: partial
 engine: Unity 2021.3.11f1 IL2CPP x64
 approach: Plugin BepInEx IL2CPP dodający osobny język Polski i flagę. Tabele powstają w pamięci, bez podmiany zasobów gry.
@@ -18,9 +18,5 @@ tested_on:
   - store: gog
     version: "1.0"
 test_notes: Selector, Polish menu and fonts confirmed by the user on the vertical. Full translation built and installed locally; dialogue, infodex and shop await the in-game test.
-build_input:
-  store: gog
-  build_id: '58328218944594138'
-  unity: 2021.3.11f1
 gallery: [1, 2, 3, 4, 5]
 year: 2023

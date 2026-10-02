@@ -13,11 +13,6 @@ download:
   kind: zip
   file: Cyber-Hook-PL-0.1.zip
   bytes: 667026
-build_input:
-  store: gog
-  gog_build_id: '55931336877424935'
-  version: 1.2.1
-  unity: 2019.4.28f1
 tested_on:
   - store: gog
     version: "1.2.1"

@@ -1,6 +1,6 @@
 # Hyper Light Drifter: technical
 
-GOG `C:\Games\Hyper Light Drifter`, build 52291896322577314 (release version: read it in GOG
+GOG `C:\Games\Hyper Light Drifter`, build 52291896322577314, exe FileVersion 1.0.0.1 (release version: read it in GOG
 Galaxy). 126/126 entries (110 `MenuText.txt`, 16 `Phrases.txt`). Steam lists EN, FR, IT, DE,
 ES, JA (files also have RU); no available Polish translation or fan tools found (a
 spolszczeniepl.com "RePack" is a game repack).

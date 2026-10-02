@@ -1,19 +1,16 @@
 slug: not-a-hero
 title: NOT A HERO
 version: "0.1"
-entries: { done: 2750, total: 2750 }
+entries: { done: 2751, total: 2751 }
 tested: partial
 engine: Clickteam Fusion / Chowdren
 approach: Łatki różnicowe EXE (tylko napisy interfejsu w miejscu), Assets.dat (grafiki menu i 21 fontów z polskimi literami) oraz czterech plików INI; polski zastępuje angielski.
 scope: Całość — odprawy i omówienia BunnyLorda z losowanymi słowami, kwestie w poziomach, nazwy misji, cele i wyzwania, podpowiedzi, menu (wybór misji, karty postaci, postęp wyborów, reset, pauza), tablice samouczka i napisy HUD. Tabliczki EXIT zostają.
 steam_appid: 274270
+tested_on: []
 stores:
   steam: https://store.steampowered.com/app/274270/
   gog: https://www.gog.com/en/game/not_a_hero
-build_input:
-  store: gog
-  exe_file_version: '1.0.0.0'
-  release_version: null
 test_notes: 'Vertical partly confirmed in game: Polish letters in dialogue after the font fix; missing sound is a game bug (volume 0 in a fresh profile). Full translation built, verified from files and installed; playthrough pending.'
 download:
   kind: patch

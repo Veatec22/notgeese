@@ -1,7 +1,7 @@
 # Turbo Overkill: technical
 
-GOG buildId 58328218944594138 (menu 1.0), Unity 2021.3.11f1 **IL2CPP x64**. 2316/2333 entries
-translated (all non-empty; 17 have an empty original and are skipped, the game shows empty text as in
+GOG buildId 58328218944594138 (menu 1.0), Unity 2021.3.11f1 **IL2CPP x64**. 2316/2316 entries
+translated (17 more of the game's 2333 have an empty original and are skipped, the game shows empty text as in
 EN). Delivered as a **BepInEx 6.0.0-pre.2 Unity.IL2CPP plugin** adding a separate "Polski" language
 and flag; tables are built in memory, no game asset replaced.
 

@@ -1,7 +1,7 @@
 # Rain World: technical
 
 GOG v1.11.8 (build 59599002084023645), Downpour 1.9.16, The Watcher; Unity 2020.3.45 Mono x64.
-4913/4913 entries (+ `POLISH` for the language button): 2473 `strings.txt` entries, 1654 lines of
+4914/4914 entries (incl. `POLISH` for the language button): 2473 `strings.txt` entries, 1654 lines of
 conversations, pearl readings, echoes, chatlogs and broadcasts, 787 lines of Downpour developer
 commentary; ~62k words, 401 conversation files in `text_pol`. Delivered as a **Remix mod with a
 plugin** adding a separate language "POLSKI"; no game file replaced; no BepInEx shipped (the game

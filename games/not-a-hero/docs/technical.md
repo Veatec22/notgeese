@@ -1,7 +1,7 @@
 # NOT A HERO: technical
 
 GOG (exe FileVersion 1.0.0.0, a resource version, not the release), Clickteam Fusion compiled to
-C++ by Chowdren (SDL2, OpenAL). 2750/2750 entries. Delivered as **delta patches** (`tools/patch.py`)
+C++ by Chowdren (SDL2, OpenAL). 2751/2751 entries. Delivered as **delta patches** (`tools/patch.py`)
 of `NOT A HERO.exe` (UI strings only), `Assets.dat`, `Src/talk.ini`, `Src/ENDS.ini`,
 `Src/chat.ini`, `Src/LEVELS/SETTINGS.ini`. No plugin: native Chowdren runtime, no code loading
 point. **Polish replaces English**; the language screen's British flag (image 6170) becomes a Polish

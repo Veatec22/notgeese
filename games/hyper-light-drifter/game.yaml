@@ -10,11 +10,6 @@ steam_appid: 257850
 stores:
   steam: https://store.steampowered.com/app/257850/
   gog: https://www.gog.com/en/game/hyper_light_drifter
-build_input:
-  store: gog
-  gog_build_id: '52291896322577314'
-  exe_file_version: '1.0.0.1'
-  release_version: null
 tested_on: []
 test_notes: Full translation built, verified from files and installed for testing; in-game test pending.
 download:

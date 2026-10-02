@@ -21,8 +21,5 @@ download:
   kind: patch
   file: BPM-PL-0.1-latka.zip
   bytes: 116124
-build_input:
-  store: gog
-  build_id: '55844760674411649'
 test_notes: Vertical (menu, settings, HUD, start) and Polish letters confirmed by the user; full translation installed with the applier, items and later realms not tested in game yet.
 year: 2020

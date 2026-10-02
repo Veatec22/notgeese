@@ -1,6 +1,6 @@
 # Journey to the Savage Planet: technical
 
-GOG build with the Hot Garbage DLC (`C:\Games\Journey to the Savage Planet`). No official or
+GOG build 54102244257232737 with the Hot Garbage DLC (`C:\Games\Journey to the Savage Planet`). No official or
 available fan translation found (Steam language table: 12 languages, no Polish; GrajPoPolsku
 has only a 2025 request thread).
 

@@ -21,8 +21,5 @@ download:
   kind: patch
   file: Journey-to-the-Savage-Planet-PL-0.1.zip
   bytes: 359235
-build_input:
-  store: gog
-  build_id: '54102244257232737'
 test_notes: Language slot, exe patch and vertical (menu, settings, start of play) confirmed in game by the user 2026-09-29; full text not tested in game yet.
 gallery: [1, 2, 3, 4, 5]

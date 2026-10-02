@@ -1,7 +1,7 @@
 slug: rain-world
 title: Rain World
 version: "0.1"
-entries: { done: 4913, total: 4913 }
+entries: { done: 4914, total: 4914 }
 tested: partial
 engine: Unity 2020.3.45 (Mono), wbudowany BepInEx 5.4.17 i system modów Remix
 approach: Mod Remix z pluginem, który dodaje do gry osobny język „POLSKI”. Polskie teksty leżą w folderze moda w formacie samej gry; fonty gry mają polskie litery. Żaden plik gry nie jest podmieniany, a paczka nie niesie BepInEksa — gra ma własny.
@@ -13,11 +13,6 @@ download:
   kind: zip
   file: Rain-World-PL-0.1.zip
   bytes: 357243
-build_input:
-  store: gog
-  gog_build_id: '59599002084023645'
-  version: v1.11.8
-  unity: 2020.3.45
 tested_on:
   - store: gog
     version: v1.11.8

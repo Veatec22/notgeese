@@ -9,9 +9,6 @@ scope: Całość — menu, opcje i sterowanie, mapa świata z opisami regionów 
 stores:
   steam: https://store.steampowered.com/app/274190/
   gog: https://www.gog.com/en/game/broforce
-build_input:
-  store: gog
-  gog_build_id: '57322835742607320'
 tested_on:
   - store: gog
     version: '1.0.3148'

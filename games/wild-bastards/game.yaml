@@ -17,10 +17,5 @@ tested_on:
   - store: steam
     version: "1.0.0.26658"
 test_notes: Vertical confirmed in game (Polski button, menus, fonts). Full translation built and installed; full playthrough pending.
-build_input:
-  store: steam
-  build_id: '16213058'
-  version: 1.0.0.26658
-  unity: 2021.3.32f1
 year: 2024
 gallery: [1, 2, 3, 4, 5]
