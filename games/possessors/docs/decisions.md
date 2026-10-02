@@ -75,6 +75,15 @@ translation). To revisit with the user at review.
 - Luca's declension (Luki, Luce, Lukę) vs leaving the name undeclined.
 - Flashback F speaker assignment (see Characters).
 
+## Review
+
+No independent full review yet. Check report (2026-10-02, with speakers from `structure.yaml`):
+missing 0, tokens 0, gender 0, address 0, terms 0, consistency 0, English 0, plurals 0,
+typography 0; length 14 (settings labels, to check in game).
+
+Speakers in `structure.yaml` are reconstructed from the text (the game data has none) and checked
+against Polish gender forms; flashbacks A1/A2/B/E/F/G/K follow the Kaz/Luca reading above.
+
 ## Check in game
 
 - Lines in demon style `<DLang>` / `<DLang.italic>` / `<DLang.Bold>` (Cheekers' „chromę”, Dessa's
