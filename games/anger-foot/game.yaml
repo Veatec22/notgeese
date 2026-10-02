@@ -1,6 +1,6 @@
 slug: anger-foot
 title: Anger Foot
-version: "0.1"
+version: "0.2"
 entries: { done: 1774, total: 1774 }
 tested: confirmed
 engine: Unity 2019.4.35f1
@@ -19,7 +19,7 @@ quote:
   source:
 download:
   kind: zip
-  file: Anger-Foot-PL-0.1.zip
-  bytes: 708500
+  file: Anger-Foot-PL-0.2.zip
+  bytes: 708475
 gallery: [1, 2, 3, 4, 5]
 test_notes: Language button and text swap confirmed in game (GOG 1.46). Full campaign pending. Two table entries are empty in the original too.

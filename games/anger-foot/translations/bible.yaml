@@ -131,7 +131,9 @@ terms:
     pl: buty (in dialogue), sneakersy (ads, dress code)
     forms: [but, sneaker, kolekcj, pary, parę, par, preemo]
     source: decision
-    note: casual speech says "buty"; "sneakersy" where fashion matters.
+    note: >
+      casual speech says "buty"; "sneakersy" where fashion matters. The equippable shoe item is
+      always plural in UI ("Odblokowano nowe buty", "Wybrać nowe buty?"); "Moc buta" stays (user, 2026-10-02).
   - en: Star Goals?
     pl: cel
     forms: [cel]

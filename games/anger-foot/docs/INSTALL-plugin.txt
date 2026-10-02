@@ -1,4 +1,4 @@
-ANGER FOOT PL 0.1 - PELNE TLUMACZENIE
+ANGER FOOT PL 0.2 - PELNE TLUMACZENIE
 
 1774 z 1776 wpisow tekstowych: menu, ustawienia, samouczki, dialogi, nazwy poziomow,
 buty, cele z gwiazdkami, osiagniecia, paski wiadomosci i napisy koncowe. Pozostale

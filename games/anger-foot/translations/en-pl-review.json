@@ -94,7 +94,7 @@
   "id": 27187,
   "key": "Dialogue/Apartments/Apartments Back Alley Story - Knife Attack Group 4 [NPC 1 (Male) > NPC 2 (Male)]",
   "english": "Best victim we've had all day!",
-  "polish": "Najlepsza ofiara dzisiejszego dnia!",
+  "polish": "Najlepsza ofiara, jaką dziś mieliśmy!",
   "context": "Two gangsters are restraining a third (who is panicking), and one of the gangsters is brandishing a knife to the held gangster, preparing to stab him. The joke here is that this is a willing initiation ceremony for the third gangster, so he can join the gang. Also, the initiation is incredibly severe, and involves being stabbed, which is unusual."
  },
  {
@@ -619,7 +619,7 @@
   "id": 27262,
   "key": "Dialogue/Apartments/Apartments Homecoming Story - Cutscene D 5 [Anger Girl (Female) > Player]",
   "english": "Movie night is on hold. Let's go!",
-  "polish": "Wieczór filmowy odwołany. Ruszamy!",
+  "polish": "Wieczór filmowy musi poczekać. Ruszamy!",
   "context": "Anger Foot's girlfriend is providing a call to action for the player to get going. Anger Foot's sneakers have been stolen, and she's getting ready for the two of them to go after Goo Cop."
  },
  {
@@ -1004,7 +1004,7 @@
   "id": 27317,
   "key": "Dialogue/Apartments/Chopper Boss Aftermath A 3 [Goo Cop (Male) > Other (Male)]",
   "english": "We still have our whole lives ahead of us!",
-  "polish": "Mieliśmy przed sobą całe życie!",
+  "polish": "Mamy jeszcze przed sobą całe życie!",
   "context": "Goo Cop is cradling his partner, Bag Cop (male), in his arms. Bag Cop is dying, and Goo Cop is urging him to stay alive."
  },
  {
@@ -1620,7 +1620,7 @@
   "id": 27405,
   "key": "Dialogue/Dungeons/Dungeon Club Story - Endless Pole watcher 1 [NPC (Female) > Player]",
   "english": "I'm not leaving until I've seen every dancer.",
-  "polish": "Nie wyjdę, dopóki nie zobaczę każdej tancerki.",
+  "polish": "Nie wyjdę, dopóki nie zobaczę wszystkich tancerzy.",
   "context": "This character is sitting down watching a series of dancers sliding down a dancer pole. These dancers slide from top to bottom endless, and are a variety of the enemies the player faces in the game."
  },
  {
@@ -2215,7 +2215,7 @@
   "id": 27490,
   "key": "Dialogue/Dungeons/Dungeon Cult Story - Preacher 6 [NPC (Male) > Player]",
   "english": "Carol and Mike will now lead us in hymn.",
-  "polish": "Karolina i Michał poprowadzą teraz pieśń.",
+  "polish": "Carol i Mike poprowadzą teraz pieśń.",
   "context": "A man is standing at the altar preaching a sermon. The joke is that the sermon is both absurd and culty, but also very similar to a standard american christian church service."
  },
  {
@@ -2817,7 +2817,7 @@
   "id": 27576,
   "key": "Dialogue/Dungeons/Dungeon Get Hecked Story - Trash Mouse 2 [NPC (Male) > Player]",
   "english": "Well, look at me now!",
-  "polish": "No to spójrzcie na mnie teraz!",
+  "polish": "No to spójrz na mnie teraz!",
   "context": "A man is lying down amongst the trash behind a restaurant. The joke is that his mom was right all along, but we expect him to disagree. Also she's ugly."
  },
  {
@@ -2866,7 +2866,7 @@
   "id": 27583,
   "key": "Dialogue/Dungeons/Dungeon Pizza Story - Debauchery Fans 4 [NPC 2 (Female) > Player]",
   "english": "And we have the most fun!",
-  "polish": "I mamy najlepszą zabawę!",
+  "polish": "I najlepiej się bawimy!",
   "context": "A man and a woman are sitting in the corner."
  },
  {
@@ -3692,7 +3692,7 @@
   "id": 27701,
   "key": "Dialogue/Offices/Offices Cubicles Story - Family 1 [NPC 1 (Male) > Player]",
   "english": "It's bring your child and make them work day.",
-  "polish": "Dziś jest dzień przyprowadź dziecko i daj mu robotę.",
+  "polish": "Dziś jest dzień „Przyprowadź dziecko i daj mu robotę”.",
   "context": "A man and his child son are sitting working at identical desks. Everything about the childs desk is the same except smaller. There are three jokes. 1) \"Bring your child to work day\" is an event where parents bring their kids to their workplace, but in the business gang, they are made to work too. 2) It's implied that there's some potential for a 9 year old to be promoted. 3) He yearns for retirement even though he's only 9."
  },
  {
@@ -3916,7 +3916,7 @@
   "id": 27733,
   "key": "Dialogue/Offices/Offices Cubicles Story - Milton 5 [NPC (Male) > Player]",
   "english": "I'm gonna burn this whole place to the ground!",
-  "polish": "spalę to miejsce do gołej ziemi!",
+  "polish": "puszczę z dymem całe to miejsce!",
   "context": "A man is sitting at his terrible desk in the basement. This character is a reference to Milton Waddams from the film Office Space. In the film his desk is moved to a worse location, his paycheck stops arriving, his stapler is stolen, and eventually he burns the office down."
  },
  {
@@ -4126,7 +4126,7 @@
   "id": 27763,
   "key": "Dialogue/Offices/Offices Cubicles Story - Tester 4 [NPC (Female) > Player]",
   "english": "Yes....",
-  "polish": "Tak....",
+  "polish": "Tak...",
   "context": "A female scientist is staring at a giant coffee pot. The joke is that she's observing something that is clearly obvious."
  },
  {
@@ -4273,7 +4273,7 @@
   "id": 27784,
   "key": "Dialogue/Offices/Offices Cubicles Story - Upside Down Reader 2 [NPC (Male) > Player]",
   "english": "Seven out of ten successful CEOs are doing it.",
-  "polish": "Siedmiu na dziesięciu skutecznych prezesów tak robi.",
+  "polish": "Tak robi siedmiu na dziesięciu prezesów, którzy odnieśli sukces.",
   "context": "A man is hanging upside down reading a book. The joke is that he's just following a trend in an attempt to emmulate success. Also that corporate self help books are a grift."
  },
  {
@@ -4679,7 +4679,7 @@
   "id": 27842,
   "key": "Dialogue/Offices/Offices StockMarket Story - Popcorn Eater 2 [NPC (Female) > Player]",
   "english": "Drones. Slaves to the system...",
-  "polish": "Trutnie. Niewolnicy systemu...",
+  "polish": "Trybiki. Niewolnicy systemu...",
   "context": "A woman is eating popcorn looking at the screens in the surveillance room. The joke is that we assume shes talking about the workers at the company. But it turns out to be ants in her popcorn."
  },
  {
@@ -4721,7 +4721,7 @@
   "id": 27848,
   "key": "Dialogue/Offices/Offices StockMarket Story - Sculptor 2 [NPC (Female) > Player]",
   "english": "I have no idea where the budget went.",
-  "polish": "Nie mam pojęcia, gdzie poszedł budżet.",
+  "polish": "Nie mam pojęcia, gdzie się podział budżet.",
   "context": "A woman is in a room full of golden sculptures. She is carving a new sculpture out of a block of solid gold with a knife and a piece of pipe. The joke is that the gang can't afford tools because they spend so much money on gold sculptures."
  },
  {
@@ -4805,7 +4805,7 @@
   "id": 27860,
   "key": "Dialogue/Offices/Offices StockMarket Story - Table Mouse 2 [NPC 1 (Male) > NPC 2 (Male)]",
   "english": "As an intern myself, I'm prohibited from saying anything other than \"Yes\".",
-  "polish": "Sam będąc stażystą, mam zakaz mówienia czegokolwiek poza „Tak”.",
+  "polish": "Jako że sam jestem stażystą, nie wolno mi mówić nic poza „Tak”.",
   "context": "Two interns are hiding under a table. The joke is that interns are treated terribly and the mistreatment is being passed even further down the food chain."
  },
  {
@@ -5694,7 +5694,7 @@
   "id": 27987,
   "key": "Dialogue/Offices/Offices Wellness Story - Toilet Pooper 1 [NPC (Male) > Player]",
   "english": "I'm not a corporate drone.",
-  "polish": "Nie jestem korporacyjnym trutniem.",
+  "polish": "Nie jestem korposzczurem.",
   "context": "A man is sitting on a toilet. The joke is that  you should never poop during your free time. Part of a pair of toilet poopers that juxtapose each other."
  },
  {
@@ -5925,7 +5925,7 @@
   "id": 28020,
   "key": "Dialogue/Sewers/Labs Story - Big Shoe Researcher 2 [NPC (Female) > Player]",
   "english": "Now that's what I call science!",
-  "polish": "To ja nazywam nauką!",
+  "polish": "To się nazywa nauka!",
   "context": "A scientist observes a vat of ooze in which a giant shoe is floating."
  },
  {
@@ -5960,7 +5960,7 @@
   "id": 28025,
   "key": "Dialogue/Sewers/Labs Story - Dirty Scientists 1 [NPC 1 (Male) > Player]",
   "english": "The Dirty Energy department is behind on its targets.",
-  "polish": "Dział Brudnej Energii nie wyrabia celów.",
+  "polish": "Dział Brudnej Energii nie wyrabia normy.",
   "context": "The joke is that the fashion industry is the second biggest polluter. Here the goons are aiming to be a worse global polluter than the fashion industry."
  },
  {
@@ -6471,7 +6471,7 @@
   "id": 28098,
   "key": "Dialogue/Sewers/Sewer Slime Shanty Town Story - Lovers 1 [NPC 1 (Male) > Player]",
   "english": "Can you give us some privacy?",
-  "polish": "Dasz nam trochę prywatności?",
+  "polish": "Możesz zostawić nas samych?",
   "context": "Two characters are busy kissing passionately in a very unromantic corner of the shanty town. The joke is that the place they are is not very romantic nor very private in the first place."
  },
  {
@@ -7444,7 +7444,7 @@
   "id": 28237,
   "key": "UI/Achievements/Blow Up Barrels/Display Name",
   "english": "Couldn't Resist",
-  "polish": "Nie mogłem się powstrzymać",
+  "polish": "Pokusa zwyciężyła",
   "context": ""
  },
  {
@@ -7556,7 +7556,7 @@
   "id": 28253,
   "key": "UI/Achievements/Drain Water/Display Name",
   "english": "Unplugged",
-  "polish": "Wyciągnięta wtyczka",
+  "polish": "Wyjęty korek",
   "context": ""
  },
  {
@@ -9341,7 +9341,7 @@
   "id": 28510,
   "key": "UI/Game Settings/Gameplay/Crosshair Opacity",
   "english": "Crosshair Opacity",
-  "polish": "Przezroczystość celownika",
+  "polish": "Krycie celownika",
   "context": ""
  },
  {
@@ -10013,7 +10013,7 @@
   "id": 28606,
   "key": "UI/Level Names/Apartments/Stairwell Here We Go Again Name",
   "english": "Going Up",
-  "polish": "Jedziemy w górę",
+  "polish": "Coraz wyżej",
   "context": ""
  },
  {
@@ -10475,7 +10475,7 @@
   "id": 28672,
   "key": "UI/Level Names/Story/Crime Tower Driving Story Name",
   "english": "Put Foot",
-  "polish": "Daj gazu",
+  "polish": "Gaz do dechy",
   "context": "This is a South African expression that means to hurry or drive fast."
  },
  {
@@ -10552,7 +10552,7 @@
   "id": 28683,
   "key": "UI/Level Names/Story/Pizza Pig Aftermath Name",
   "english": "Pork Braai",
-  "polish": "Wieprzowe braai",
+  "polish": "Świniobicie",
   "context": ""
  },
  {
@@ -10825,7 +10825,7 @@
   "id": 28722,
   "key": "UI/Shoe Collection/New Unlock",
   "english": "New shoe unlocked",
-  "polish": "Odblokowano nowy but",
+  "polish": "Odblokowano nowe buty",
   "context": "This message appears over the shoe unlock progress bar, when a new shoe gets unlocked."
  },
  {
@@ -10839,7 +10839,7 @@
   "id": 28724,
   "key": "UI/Shoe Collection/Random Option Description",
   "english": "Picks a random shoe every time you die",
-  "polish": "Losuje but za każdym razem, gdy zginiesz",
+  "polish": "Losuje buty po każdej śmierci",
   "context": "This is the description for the random shoe option in the shoe selection screen."
  },
  {
@@ -10860,7 +10860,7 @@
   "id": 28727,
   "key": "UI/Shoe Unlock Screen/Shoe Unlocked",
   "english": "Shoe Unlocked!",
-  "polish": "But odblokowany!",
+  "polish": "Buty odblokowane!",
   "context": ""
  },
  {
@@ -10958,7 +10958,7 @@
   "id": 28741,
   "key": "UI/Shoes/Big Heads Shoe/Description",
   "english": "Big Brain Booties",
-  "polish": "Wielkomózgie Kapcie",
+  "polish": "Wielkomózgie kapcie",
   "context": ""
  },
  {
@@ -11273,7 +11273,7 @@
   "id": 28786,
   "key": "UI/Shoes/Lethal Throws Shoe/Description",
   "english": "Leave onlookers stunned",
-  "polish": "Zostaw gapiów oszołomionych",
+  "polish": "Oszołom gapiów",
   "context": ""
  },
  {
@@ -11364,7 +11364,7 @@
   "id": 28799,
   "key": "UI/Shoes/Randomizer Shoe/Name",
   "english": "Randomizer Shoe",
-  "polish": "But losowy",
+  "polish": "Losowe buty",
   "context": ""
  },
  {
@@ -11476,7 +11476,7 @@
   "id": 28815,
   "key": "UI/Star Goals/All Goons Speedrun/Description",
   "english": "Complete the level in {0} leaving no survivors",
-  "polish": "Ukończ poziom w {0}, nie zostawiając nikogo żywego",
+  "polish": "Ukończ poziom w czasie {0}, nie zostawiając nikogo żywego",
   "context": "This is a description that tells the player how to complete a star goal (challenge in a level).\nThe {0} variable is a time in seconds (stop watch format, eg 01:25)."
  },
  {
@@ -11588,7 +11588,7 @@
   "id": 28831,
   "key": "UI/Star Goals/Get High and Destroy Toilet/Description",
   "english": "Go on a trip and destroy a toilet",
-  "polish": "Wybierz się w podróż i zniszcz kibel",
+  "polish": "Zniszcz kibel na haju",
   "context": "This is a description that tells the player how to complete a star goal (challenge in a level).\nThe \"trip\" here is a trip in the sense of getting high on drugs."
  },
  {
@@ -11952,7 +11952,7 @@
   "id": 28883,
   "key": "UI/Star Goals/No Specimen Tanks Broken/Description",
   "english": "Complete the level without any tanks breaking",
-  "polish": "Ukończ poziom, nie rozbijając żadnej butli",
+  "polish": "Ukończ poziom bez rozbicia żadnego zbiornika",
   "context": "This is a description that tells the player how to complete a star goal (challenge in a level)."
  },
  {
@@ -12008,7 +12008,7 @@
   "id": 28891,
   "key": "UI/Star Goals/Speed Run No Jumping/Description",
   "english": "Complete the level in {0} without jumping",
-  "polish": "Ukończ poziom w {0} bez skakania",
+  "polish": "Ukończ poziom w czasie {0} bez skakania",
   "context": "This is a description that tells the player how to complete a star goal (challenge in a level).\nThe {0} variable is a time in seconds (stop watch format, eg 01:25)."
  },
  {
@@ -12022,7 +12022,7 @@
   "id": 28893,
   "key": "UI/Star Goals/Speed Run/Description",
   "english": "Complete the level in {0}",
-  "polish": "Ukończ poziom w {0}",
+  "polish": "Ukończ poziom w czasie {0}",
   "context": "This is a description that tells the player how to complete a star goal (challenge in a level).\nThe {0} variable is a time in seconds (stop watch format, eg 01:25)."
  },
  {
@@ -12036,7 +12036,7 @@
   "id": 28895,
   "key": "UI/Star Goals/Super Speed Run/Description",
   "english": "Complete the level in {0}",
-  "polish": "Ukończ poziom w {0}",
+  "polish": "Ukończ poziom w czasie {0}",
   "context": "This is a description that tells the player how to complete a star goal (challenge in a level).\nThe {0} variable is a time in seconds (stop watch format, eg 01:25)."
  },
  {
@@ -12225,7 +12225,7 @@
   "id": 28922,
   "key": "UI/Tutorials/Place Shoe",
   "english": "{action:interact} COMPLETE COLLECTION",
-  "polish": "{action:interact} UKOŃCZ KOLEKCJĘ",
+  "polish": "{action:interact} SKOMPLETUJ KOLEKCJĘ",
   "context": "A message displayed on the screen, along with a button/key prompt, to tell the player how to do something. The { } variables set which button icon is shown. Note that the max character limit here applies only to the words for the tutorial message (exclude the variable's characters).\nContext: the player is placing a pair of sneakers into a special glass case, and being told this action will complete their shoe collection."
  },
  {
@@ -12323,7 +12323,7 @@
   "id": 28936,
   "key": "UI/World Map/Choose New Shoe Heading",
   "english": "Choose New Shoe?",
-  "polish": "Wybrać nowy but?",
+  "polish": "Wybrać nowe buty?",
   "context": ""
  },
  {

@@ -30,7 +30,7 @@ from translations import polish_by_field  # noqa: E402
 sys.path.insert(0, str(TOOLS))
 from assets import SLOT, parse_entry, rd  # noqa: E402
 
-VERSION = '0.1'
+VERSION = '0.2'
 DATA = 'Anger Foot_Data'
 PLUGIN_FOLDER = 'notgeeseAngerFoot'
 
