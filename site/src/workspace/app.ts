@@ -361,6 +361,18 @@ function changesNotice() {
   }</ul></details>`;
 }
 
+function fitTranslation(field: HTMLTextAreaElement) {
+  field.style.height = 'auto';
+  const border = field.offsetHeight - field.clientHeight;
+  field.style.height = `${field.scrollHeight + border}px`;
+}
+
+function fitTranslations() {
+  for (const field of root.querySelectorAll<HTMLTextAreaElement>('textarea[data-edit]')) {
+    fitTranslation(field);
+  }
+}
+
 function renderGame() {
   const m = model!;
   const game = gameMeta!;
@@ -402,6 +414,7 @@ function renderGame() {
     ${blockers.unconfirmed ? notice(`Edycje czekające na „Akceptuj” blokują zapis (${blockers.unconfirmed}).`, 'warn') : ''}
     ${changesNotice()}${stats()}
     <div class="ws-shell">${sidebar()}<section class="ws-content">${toolbar}<div>${content}</div></section></div>`;
+  fitTranslations();
   if (focusId) {
     const target = root.querySelector(`[data-id="${CSS.escape(focusId)}"]`);
     target?.scrollIntoView({ block: 'center' });
@@ -786,6 +799,7 @@ function handleInput(event: Event) {
   // Update in place so the cursor is not lost; other occurrences of this entry too.
   for (const field of root.querySelectorAll<HTMLTextAreaElement>(`textarea[data-edit="${CSS.escape(id)}"]`)) {
     if (field !== target) field.value = value;
+    fitTranslation(field);
   }
   for (const card of root.querySelectorAll<HTMLElement>(`article[data-id="${CSS.escape(id)}"]`)) {
     const badges = card.querySelector('.ws-badges');
@@ -913,4 +927,6 @@ api?.client.auth.onAuthStateChange((event) => {
   }
 });
 
+window.addEventListener('resize', fitTranslations);
+void document.fonts.ready.then(fitTranslations);
 void start();

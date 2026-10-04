@@ -75,7 +75,11 @@ max_length?}`; `(namespace, key)` unique; key as the game uses it. Empty `polish
 9. **Close the game.** Done only when the build leaves a ZIP in `dist/` (everything to extract into
    the game dir + `READ-ME.txt`), the ZIP is copied to `site/public/pobierz/` and referenced in
    `game.yaml` (`download`), `game.yaml` is current, and cover/gallery exist
-   (`tools/keyart.py --game <game>`). New games go to `testing` or `in-progress` in
+   (`tools/keyart.py --game <game>`). The workspace icon must also exist in Supabase Storage
+   `game-icons/<slug>.png`: export the original game EXE icon with `tools/export_game_icons.ps1`
+   and upload it using `docs/workspace.md`; verify the public PNG is readable. Keep icons outside
+   the repo and translation ZIP. Preserve existing documented launcher-icon exceptions.
+   New games go to `testing` or `in-progress` in
    `games/catalog.yaml`; only the user moves a game to `ready`, after a full playthrough.
 10. **Workspace corrections.** User edits at `notgeese.cc/admin/`, exports one game, gives the
     file to a local session. Skill `workspace-corrections`. A game enters the workspace after

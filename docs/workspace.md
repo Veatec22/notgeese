@@ -131,9 +131,21 @@ revision 409.
 
 Icon upload:
 
+Required when releasing a game: confirm `game-icons/<slug>.png` exists and is publicly
+readable. Use the original game EXE icon; preserve the Labyrinth/SPRAWL launcher-icon
+exceptions above. PNG must be at most 256 KiB and stays outside the repo and release ZIP.
+The exporter accepts `-Game <slug>` and `-Executable <absolute-exe-path>` for games without
+a matching desktop shortcut. It never launches the executable.
+
 ```powershell
 ./tools/export_game_icons.ps1          # writes $env:TEMP/notgeese-game-icons
-npx -y supabase@2.118.0 storage cp <slug>.png ss:///game-icons/<slug>.png --experimental --project-ref kulwhymoxgaiqpipwbav --content-type image/png --cache-control max-age=3600
+./tools/export_game_icons.ps1 -Game <slug> -Executable "<absolute-exe-path>"
+Push-Location "$env:TEMP/notgeese-game-icons"
+try {
+    # CLI 2.118.0 interprets Windows drive-letter sources as URLs; use a relative path.
+    npx -y supabase@2.118.0 storage cp <slug>.png ss:///game-icons/<slug>.png --experimental --project-ref kulwhymoxgaiqpipwbav --content-type image/png --cache-control max-age=3600
+} finally { Pop-Location }
+Invoke-WebRequest "https://kulwhymoxgaiqpipwbav.supabase.co/storage/v1/object/public/game-icons/<slug>.png" -Method Head
 ```
 
 ## Tests

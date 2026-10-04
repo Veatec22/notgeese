@@ -1,8 +1,19 @@
 # Exports game icons to PNG outside the repo. For GOG picks the game EXE instead of
 # the round launcher icon; for Steam keeps the shortcut icon. Never launches games.
-param([string]$OutDir = (Join-Path $env:TEMP 'notgeese-game-icons'))
+param(
+    [string]$OutDir = (Join-Path $env:TEMP 'notgeese-game-icons'),
+    [string]$Game,
+    [string]$Executable
+)
 $ErrorActionPreference = 'Stop'
 $repoDir = Split-Path $PSScriptRoot -Parent
+if ($Executable -and !$Game) { throw 'Executable requires Game.' }
+if ($Game -and !(Test-Path -LiteralPath (Join-Path $repoDir "games/$Game/game.yaml"))) {
+    throw "Unknown game: $Game"
+}
+if ($Executable -and !(Test-Path -LiteralPath $Executable -PathType Leaf)) {
+    throw "Executable not found: $Executable"
+}
 $resolvedOutput = [IO.Path]::GetFullPath($OutDir)
 if ($resolvedOutput.StartsWith($repoDir + [IO.Path]::DirectorySeparatorChar, [StringComparison]::OrdinalIgnoreCase) -or $resolvedOutput -eq $repoDir) {
     throw 'Ikony zapisujemy poza repozytorium. Wybierz inny OutDir.'
@@ -46,8 +57,8 @@ foreach ($desktop in @([Environment]::GetFolderPath('Desktop'), [Environment]::G
                     $info = Get-Content -LiteralPath $infoPath -Raw | ConvertFrom-Json
                     $task = $info.playTasks | Where-Object { $_.isPrimary -and $_.type -eq 'FileTask' } | Select-Object -First 1
                     if ($task.path) {
-                        $executable = Join-Path (Split-Path $source -Parent) $task.path
-                        if (Test-Path -LiteralPath $executable) { $source = $executable; $index = 0 }
+                        $gameExecutable = Join-Path (Split-Path $source -Parent) $task.path
+                        if (Test-Path -LiteralPath $gameExecutable) { $source = $gameExecutable; $index = 0 }
                     }
                 }
             }
@@ -55,22 +66,25 @@ foreach ($desktop in @([Environment]::GetFolderPath('Desktop'), [Environment]::G
         }
     }
 }
-foreach ($game in Get-ChildItem (Join-Path $repoDir 'games') -Directory) {
-    if (!(Test-Path (Join-Path $game.FullName 'game.yaml'))) { continue }
-    $name = Normalize-GameName $game.Name
-    if ($game.Name -eq 'bpm') { $name = 'bpmbulletsperminute' }
+foreach ($gameDir in Get-ChildItem (Join-Path $repoDir 'games') -Directory) {
+    if ($Game -and $gameDir.Name -ne $Game) { continue }
+    if (!(Test-Path (Join-Path $gameDir.FullName 'game.yaml'))) { continue }
+    $name = Normalize-GameName $gameDir.Name
+    if ($gameDir.Name -eq 'bpm') { $name = 'bpmbulletsperminute' }
+    if ($gameDir.Name -eq 'hong-kong-massacre') { $name = 'thehongkongmassacre' }
     $source = $shortcuts[$name]
-    if (!$source) { Write-Warning "No shortcut: $($game.Name)"; continue }
+    if ($Executable) { $source = @{ Source = (Resolve-Path -LiteralPath $Executable).Path; Index = 0 } }
+    if (!$source) { Write-Warning "No shortcut: $($gameDir.Name)"; continue }
     $handles = New-Object IntPtr[] 1
     $ids = New-Object uint32[] 1
     $result = [GameIconNative]::PrivateExtractIcons($source.Source, $source.Index, 128, 128, $handles, $ids, 1, 0)
-    if ($result -ne 1 -or $handles[0] -eq [IntPtr]::Zero) { throw "Could not extract icon: $($game.Name)" }
+    if ($result -ne 1 -or $handles[0] -eq [IntPtr]::Zero) { throw "Could not extract icon: $($gameDir.Name)" }
     $image = $null; $bitmap = $null
     try {
         $image = [Drawing.Icon]::FromHandle($handles[0])
         $bitmap = $image.ToBitmap()
-        $bitmap.Save((Join-Path $resolvedOutput ($game.Name + '.png')), [Drawing.Imaging.ImageFormat]::Png)
-        Write-Output "$($game.Name): $($bitmap.Width)x$($bitmap.Height) — $($source.Source)"
+        $bitmap.Save((Join-Path $resolvedOutput ($gameDir.Name + '.png')), [Drawing.Imaging.ImageFormat]::Png)
+        Write-Output "$($gameDir.Name): $($bitmap.Width)x$($bitmap.Height) — $($source.Source)"
     } finally {
         if ($bitmap) { $bitmap.Dispose() }
         if ($image) { $image.Dispose() }

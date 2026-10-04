@@ -119,3 +119,4 @@ Details and formats in `docs/workspace.md`.
 - **Drafts live in localStorage per account, game and origin** (localhost ≠ notgeese.cc).
 - **Prototype stays** in `site/src/prototype/` (dev-only route), user's call.
 - **Game icons: public Storage bucket `game-icons`, PNG ≤ 256 KiB, not in the repo.**
+- **A release requires a readable workspace icon in `game-icons/<slug>.png`, extracted from the original game EXE.** Preserve documented launcher-icon exceptions; verify public retrieval before handoff. *Rejected:* optional later upload (new games appeared without icons). (2026-10-04)
