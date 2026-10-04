@@ -170,7 +170,7 @@ function renderList() {
       const drafts = counts.get(game.slug) ?? 0;
       const last = opened.get(game.slug);
       const majorVersion = game.version.split('.')[0];
-      return `<a class="ws-game ng-card" href="?gra=${encodeURIComponent(game.slug)}" data-action="open" data-game="${esc(game.slug)}" data-version-major="${esc(majorVersion)}"><div class="ws-overline">${esc(game.version)} · ${game.entries} wpisów${majorVersion === '1' ? ' · gotowe' : ''}</div>
+      return `<a class="ws-game ng-card" href="?gra=${encodeURIComponent(game.slug)}" data-action="open" data-game="${esc(game.slug)}" data-version-major="${esc(majorVersion)}"><div class="ws-overline">${esc(game.version)} · ${game.entries} wpisów${majorVersion === '1' ? '<span class="ng-badge" data-tone="accent">gotowe</span>' : ''}</div>
         <div class="ws-game-heading"><img class="ws-game-icon" src="${esc(SUPABASE_URL)}/storage/v1/object/public/game-icons/${encodeURIComponent(game.slug)}.png?v=3" width="48" height="48" alt="" loading="lazy" decoding="async"><h2>${esc(game.title)}</h2></div>
         ${drafts ? `<span class="ws-draft-badge">Niezapisane szkice: ${drafts}</span>` : ''}
         <p class="ws-muted">${last ? `Ostatnio otwarta ${esc(formatDate(last))}` : 'Jeszcze nie otwierana'}</p></a>`;
