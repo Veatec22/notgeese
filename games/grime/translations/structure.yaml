@@ -1,0 +1,2893 @@
+format: 1
+groups:
+- id: menu
+  name: Menu
+- id: settings
+  name: Ustawienia
+- id: tutorial
+  name: Samouczki
+- id: traits
+  name: Cechy i rozwój
+- id: ui
+  name: Pozostały interfejs
+- id: areas
+  name: Obszary
+- id: bestiary
+  name: Bestiariusz
+- id: items
+  name: Przedmioty i wyposażenie
+- id: dlc
+  name: Dodatki
+- id: dialogue
+  name: Rozmowy
+- id: memories
+  name: Wspomnienia
+- id: world
+  name: Komunikaty i głosy świata
+rules:
+- group: menu
+  match: ^UI/MainMenu/
+- group: settings
+  match: ^UI/Settings/
+- group: tutorial
+  match: ^UI/TutorialMessages/
+- group: traits
+  match: ^UI/Talents/
+- group: ui
+  match: ^(UI|General)/
+- group: areas
+  match: ^AreaTitle/
+- group: bestiary
+  match: ^Bestiary/
+- group: items
+  match: ^Item/
+- group: dlc
+  match: ^DLC/
+- group: dialogue
+  match: ^WorldText/NPC/
+- group: memories
+  match: ^WorldText/MemoryDroplet/
+- group: world
+  match: ^WorldText/
+sequences:
+- id: scene-000
+  name: Ambitny rzeźbiarz — rozmowa 1
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Ambitious Scultptor/Dialog Term: NPC - Depressed ambitious sculptor: PostCPTalk:0'
+  - key: 'WorldText/NPC/Ambitious Scultptor/Dialog Term: NPC - Depressed ambitious sculptor: PostCPTalk:1'
+  - key: 'WorldText/NPC/Ambitious Scultptor/Dialog Term: NPC - Depressed ambitious sculptor: PostCPTalk:2'
+  - key: 'WorldText/NPC/Ambitious Scultptor/Dialog Term: NPC - Depressed ambitious sculptor: PostCPTalk:3'
+  - key: 'WorldText/NPC/Ambitious Scultptor/Dialog Term: NPC - Depressed ambitious sculptor: PostCPTalk:4'
+- id: scene-002
+  name: Pomocnik — rozmowa 3
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Assistant/Dialog Term: NPC Root puppet - trader PostShidra: Puppet Post Shidra:0'
+    speaker: assistant
+  - key: 'WorldText/NPC/Assistant/Dialog Term: NPC Root puppet - trader PostShidra: Puppet Post Shidra:1'
+    speaker: assistant
+  - key: 'WorldText/NPC/Assistant/Dialog Term: NPC Root puppet - trader PostShidra: Puppet Post Shidra:2'
+    speaker: assistant
+  - key: 'WorldText/NPC/Assistant/Dialog Term: NPC Root puppet - trader PostShidra: Puppet Post Shidra:3'
+    speaker: assistant
+- id: scene-005
+  name: Pomocnik — rozmowa 6
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Assistant/Dialog Term: NPC_Assistant Elevator DLC1: Converting assistant:0'
+    speaker: assistant
+  - key: 'WorldText/NPC/Assistant/Dialog Term: NPC_Assistant Elevator DLC1: Converting assistant:1'
+    speaker: assistant
+  - key: 'WorldText/NPC/Assistant/Dialog Term: NPC_Assistant Elevator DLC1: Converting assistant:2'
+    speaker: assistant
+  - key: 'WorldText/NPC/Assistant/Dialog Term: NPC_Assistant Elevator DLC1: Converting assistant:3'
+    speaker: assistant
+  - key: 'WorldText/NPC/Assistant/Dialog Term: NPC_Assistant Elevator DLC1: Converting assistant:4'
+    speaker: assistant
+  - key: 'WorldText/NPC/Assistant/Dialog Term: NPC_Assistant Elevator DLC1: Converting assistant:5'
+    speaker: assistant
+  - key: 'WorldText/NPC/Assistant/Dialog Term: NPC_Assistant Elevator DLC1: Converting assistant:6'
+    speaker: assistant
+  - key: 'WorldText/NPC/Assistant/Dialog Term: NPC_Assistant Elevator DLC1: Converting assistant:7'
+    speaker: assistant
+- id: scene-006
+  name: Pomocnik — rozmowa 7
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Assistant/Dialog Term: NPC_Assistant host 1 flower vulture: Assistant Flower Vulture:0'
+    speaker: assistant
+  - key: 'WorldText/NPC/Assistant/Dialog Term: NPC_Assistant host 1 flower vulture: Assistant Flower Vulture:1'
+    speaker: assistant
+  - key: 'WorldText/NPC/Assistant/Dialog Term: NPC_Assistant host 1 flower vulture: Assistant Flower Vulture:2'
+    speaker: assistant
+  - key: 'WorldText/NPC/Assistant/Dialog Term: NPC_Assistant host 1 flower vulture: Assistant Flower Vulture:3'
+    speaker: assistant
+- id: scene-008
+  name: Pomocnik — rozmowa 9
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Assistant/Dialog Term: NPC_Assistant host 1 flowergiant: NPC Host Flowergiant:0'
+    speaker: assistant
+  - key: 'WorldText/NPC/Assistant/Dialog Term: NPC_Assistant host 1 flowergiant: NPC Host Flowergiant:1'
+    speaker: assistant
+  - key: 'WorldText/NPC/Assistant/Dialog Term: NPC_Assistant host 1 flowergiant: NPC Host Flowergiant:2'
+    speaker: assistant
+  - key: 'WorldText/NPC/Assistant/Dialog Term: NPC_Assistant host 1 flowergiant: NPC Host Flowergiant:3'
+    speaker: assistant
+- id: scene-009
+  name: Pomocnik — rozmowa 10
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Assistant/Dialog Term: NPC_Assistant host 1 if reached early from the left: NPC Host 1:0'
+    speaker: assistant
+  - key: 'WorldText/NPC/Assistant/Dialog Term: NPC_Assistant host 1 if reached early from the left: NPC Host 1:1'
+    speaker: assistant
+  - key: 'WorldText/NPC/Assistant/Dialog Term: NPC_Assistant host 1 if reached early from the left: NPC Host 1:2'
+    speaker: assistant
+  - key: 'WorldText/NPC/Assistant/Dialog Term: NPC_Assistant host 1 if reached early from the left: NPC Host 1:3'
+    speaker: assistant
+- id: scene-010
+  name: Pomocnik — rozmowa 11
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Assistant/Dialog Term: NPC_Assistant host 2: Assistant Host 2:0'
+    speaker: assistant
+  - key: 'WorldText/NPC/Assistant/Dialog Term: NPC_Assistant host 2: Assistant Host 2:1'
+    speaker: assistant
+  - key: 'WorldText/NPC/Assistant/Dialog Term: NPC_Assistant host 2: Assistant Host 2:2'
+    speaker: assistant
+  - key: 'WorldText/NPC/Assistant/Dialog Term: NPC_Assistant host 2: Assistant Host 2:3'
+    speaker: assistant
+  - key: 'WorldText/NPC/Assistant/Dialog Term: NPC_Assistant host 2: Assistant Host 2:4'
+    speaker: assistant
+  - key: 'WorldText/NPC/Assistant/Dialog Term: NPC_Assistant host 2: Assistant Host 2:5'
+    speaker: assistant
+- id: scene-011
+  name: Pomocnik — rozmowa 12
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Assistant/Dialog Term: NPC_Collector2_PostShidra: GSF_Hub_Collector_PostShidra_Listen: 1:0'
+    speaker: heod
+  - key: 'WorldText/NPC/Assistant/Dialog Term: NPC_Collector2_PostShidra: GSF_Hub_Collector_PostShidra_Listen: 1:1'
+    speaker: heod
+  - key: 'WorldText/NPC/Assistant/Dialog Term: NPC_Collector2_PostShidra: GSF_Hub_Collector_PostShidra_Listen: 1:2'
+    speaker: heod
+- id: scene-013
+  name: Cherub Envooi — rozmowa 14
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Cherub Envooi/Dialog Term: NPC_Cherub Envoy (Post Vulture): Post Vulture 1:0'
+  - key: 'WorldText/NPC/Cherub Envooi/Dialog Term: NPC_Cherub Envoy (Post Vulture): Post Vulture 1:1'
+- id: scene-015
+  name: Cherub Envooi — rozmowa 16
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Cherub Envooi/Dialog Term: NPC_Cherub Envoy (acolyte + servants): HUB Dialogue Repeat:0'
+  - key: 'WorldText/NPC/Cherub Envooi/Dialog Term: NPC_Cherub Envoy (acolyte + servants): HUB Dialogue Repeat:1'
+- id: scene-016
+  name: Cherub Envooi — rozmowa 17
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Cherub Envooi/Dialog Term: NPC_Cherub Envoy (acolyte + servants): HUB Dialogue:0'
+  - key: 'WorldText/NPC/Cherub Envooi/Dialog Term: NPC_Cherub Envoy (acolyte + servants): HUB Dialogue:1'
+  - key: 'WorldText/NPC/Cherub Envooi/Dialog Term: NPC_Cherub Envoy (acolyte + servants): HUB Dialogue:2'
+- id: scene-017
+  name: Dziecko — rozmowa 18
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Child/Dialog Term: NPC_Child_After Host Kills: After Cinematic:0'
+    speaker: child
+  - key: 'WorldText/NPC/Child/Dialog Term: NPC_Child_After Host Kills: After Cinematic:1'
+    speaker: child
+  - key: 'WorldText/NPC/Child/Dialog Term: NPC_Child_After Host Kills: After Cinematic:2'
+    speaker: child
+  - key: 'WorldText/NPC/Child/Dialog Term: NPC_Child_After Host Kills: After Cinematic:3'
+    speaker: child
+  - key: 'WorldText/NPC/Child/Dialog Term: NPC_Child_After Host Kills: After Cinematic:4'
+    speaker: child
+  - key: 'WorldText/NPC/Child/Dialog Term: NPC_Child_After Host Kills: After Cinematic:5'
+    speaker: child
+- id: scene-018
+  name: Dziecko — rozmowa 19
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Child/Dialog Term: NPC_Child_After Host Kills: Before Cinematic:0'
+    speaker: child
+  - key: 'WorldText/NPC/Child/Dialog Term: NPC_Child_After Host Kills: Before Cinematic:1'
+    speaker: child
+  - key: 'WorldText/NPC/Child/Dialog Term: NPC_Child_After Host Kills: Before Cinematic:2'
+    speaker: child
+  - key: 'WorldText/NPC/Child/Dialog Term: NPC_Child_After Host Kills: Before Cinematic:3'
+    speaker: child
+  - key: 'WorldText/NPC/Child/Dialog Term: NPC_Child_After Host Kills: Before Cinematic:4'
+    speaker: child
+  - key: 'WorldText/NPC/Child/Dialog Term: NPC_Child_After Host Kills: Before Cinematic:5'
+    speaker: child
+  - key: 'WorldText/NPC/Child/Dialog Term: NPC_Child_After Host Kills: Before Cinematic:6'
+    speaker: child
+  - key: 'WorldText/NPC/Child/Dialog Term: NPC_Child_After Host Kills: Before Cinematic:7'
+    speaker: child
+  - key: 'WorldText/NPC/Child/Dialog Term: NPC_Child_After Host Kills: Before Cinematic:8'
+    speaker: child
+  - key: 'WorldText/NPC/Child/Dialog Term: NPC_Child_After Host Kills: Before Cinematic:9'
+    speaker: child
+- id: scene-020
+  name: Rzeźbiarz Kodów — rozmowa 21
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Coda Carvemaker/Dialog Term: NPC_Coda_Internal Sculptor: Internal Sculptor:0'
+  - key: 'WorldText/NPC/Coda Carvemaker/Dialog Term: NPC_Coda_Internal Sculptor: Internal Sculptor:1'
+  - key: 'WorldText/NPC/Coda Carvemaker/Dialog Term: NPC_Coda_Internal Sculptor: Internal Sculptor:2'
+  - key: 'WorldText/NPC/Coda Carvemaker/Dialog Term: NPC_Coda_Internal Sculptor: Internal Sculptor:3'
+  - key: 'WorldText/NPC/Coda Carvemaker/Dialog Term: NPC_Coda_Internal Sculptor: Internal Sculptor:4'
+- id: scene-021
+  name: Rzeźbiarz Kodów — rozmowa 22
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Coda Carvemaker/Dialog Term: NPC_Coda_Internal Sculptor: Repeat Happy:0'
+  - key: 'WorldText/NPC/Coda Carvemaker/Dialog Term: NPC_Coda_Internal Sculptor: Repeat Happy:1'
+- id: scene-023
+  name: Rozmówca Kodów — rozmowa 24
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Coda Convomaker/Dialog Term: NPC_Coda_BrokenSideLore: Broken Side Lore 2:0'
+  - key: 'WorldText/NPC/Coda Convomaker/Dialog Term: NPC_Coda_BrokenSideLore: Broken Side Lore 2:1'
+  - key: 'WorldText/NPC/Coda Convomaker/Dialog Term: NPC_Coda_BrokenSideLore: Broken Side Lore 2:2'
+  - key: 'WorldText/NPC/Coda Convomaker/Dialog Term: NPC_Coda_BrokenSideLore: Broken Side Lore 2:3'
+- id: scene-025
+  name: Rozmówca Kodów — rozmowa 26
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Coda Convomaker/Dialog Term: NPC_Coda_BrokenSideLore: Broken Side Lore:0'
+  - key: 'WorldText/NPC/Coda Convomaker/Dialog Term: NPC_Coda_BrokenSideLore: Broken Side Lore:1'
+  - key: 'WorldText/NPC/Coda Convomaker/Dialog Term: NPC_Coda_BrokenSideLore: Broken Side Lore:2'
+  - key: 'WorldText/NPC/Coda Convomaker/Dialog Term: NPC_Coda_BrokenSideLore: Broken Side Lore:3'
+  - key: 'WorldText/NPC/Coda Convomaker/Dialog Term: NPC_Coda_BrokenSideLore: Broken Side Lore:4'
+- id: scene-026
+  name: Twórca do zgniatania Kodów — rozmowa 27
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Coda Crushmaker/Dialog Term: NPC_Coda_Crushing craftman: Intro 1:0'
+  - key: 'WorldText/NPC/Coda Crushmaker/Dialog Term: NPC_Coda_Crushing craftman: Intro 1:1'
+  - key: 'WorldText/NPC/Coda Crushmaker/Dialog Term: NPC_Coda_Crushing craftman: Intro 1:2'
+- id: scene-030
+  name: Tancerz Kodów — rozmowa 31
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Coda Dancemaker /Dialog Term: NPC_Coda_Dancer practice: Dancer Dialogue 2:0'
+  - key: 'WorldText/NPC/Coda Dancemaker /Dialog Term: NPC_Coda_Dancer practice: Dancer Dialogue 2:1'
+  - key: 'WorldText/NPC/Coda Dancemaker /Dialog Term: NPC_Coda_Dancer practice: Dancer Dialogue 2:2'
+- id: scene-032
+  name: Tancerz Kodów — rozmowa 33
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Coda Dancemaker /Dialog Term: NPC_Coda_Dancer practice: Dancer Dialogue:0'
+  - key: 'WorldText/NPC/Coda Dancemaker /Dialog Term: NPC_Coda_Dancer practice: Dancer Dialogue:1'
+  - key: 'WorldText/NPC/Coda Dancemaker /Dialog Term: NPC_Coda_Dancer practice: Dancer Dialogue:2'
+  - key: 'WorldText/NPC/Coda Dancemaker /Dialog Term: NPC_Coda_Dancer practice: Dancer Dialogue:3'
+- id: scene-034
+  name: Budowniczy domów Kodów — rozmowa 35
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Coda Housemaker/Dialog Term: NPC_Coda_Mountain sculptors group: Mountain Sculptors:0'
+  - key: 'WorldText/NPC/Coda Housemaker/Dialog Term: NPC_Coda_Mountain sculptors group: Mountain Sculptors:1'
+  - key: 'WorldText/NPC/Coda Housemaker/Dialog Term: NPC_Coda_Mountain sculptors group: Mountain Sculptors:2'
+  - key: 'WorldText/NPC/Coda Housemaker/Dialog Term: NPC_Coda_Mountain sculptors group: Mountain Sculptors:3'
+  - key: 'WorldText/NPC/Coda Housemaker/Dialog Term: NPC_Coda_Mountain sculptors group: Mountain Sculptors:4'
+- id: scene-035
+  name: Twórca obrazów Kodów — rozmowa 36
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Coda Paintmaker/Dialog Term: NPC_Coda_Painter: Coda Painter Happy Repeat:0'
+  - key: 'WorldText/NPC/Coda Paintmaker/Dialog Term: NPC_Coda_Painter: Coda Painter Happy Repeat:1'
+- id: scene-037
+  name: Twórca obrazów Kodów — rozmowa 38
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Coda Paintmaker/Dialog Term: NPC_Coda_Painter: Coda Painter:0'
+  - key: 'WorldText/NPC/Coda Paintmaker/Dialog Term: NPC_Coda_Painter: Coda Painter:1'
+  - key: 'WorldText/NPC/Coda Paintmaker/Dialog Term: NPC_Coda_Painter: Coda Painter:2'
+  - key: 'WorldText/NPC/Coda Paintmaker/Dialog Term: NPC_Coda_Painter: Coda Painter:3'
+  - key: 'WorldText/NPC/Coda Paintmaker/Dialog Term: NPC_Coda_Painter: Coda Painter:4'
+  - key: 'WorldText/NPC/Coda Paintmaker/Dialog Term: NPC_Coda_Painter: Coda Painter:5'
+- id: scene-039
+  name: Artysta — rozmowa 40
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Coda Performer/Dialog Term: NPC_Coda_Performer welcome: Welcome:0'
+  - key: 'WorldText/NPC/Coda Performer/Dialog Term: NPC_Coda_Performer welcome: Welcome:1'
+  - key: 'WorldText/NPC/Coda Performer/Dialog Term: NPC_Coda_Performer welcome: Welcome:2'
+  - key: 'WorldText/NPC/Coda Performer/Dialog Term: NPC_Coda_Performer welcome: Welcome:3'
+  - key: 'WorldText/NPC/Coda Performer/Dialog Term: NPC_Coda_Performer welcome: Welcome:4'
+  - key: 'WorldText/NPC/Coda Performer/Dialog Term: NPC_Coda_Performer welcome: Welcome:5'
+  - key: 'WorldText/NPC/Coda Performer/Dialog Term: NPC_Coda_Performer welcome: Welcome:6'
+- id: scene-040
+  name: Artysta — rozmowa 41
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Coda Performer/Dialog Term: Performer Npc Defeat Dialog: Defeat:0'
+  - key: 'WorldText/NPC/Coda Performer/Dialog Term: Performer Npc Defeat Dialog: Defeat:1'
+  - key: 'WorldText/NPC/Coda Performer/Dialog Term: Performer Npc Defeat Dialog: Defeat:2'
+- id: scene-042
+  name: Strażnik pieczęci Kodów — rozmowa 43
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Coda Sealguard/Dialog Term: NPC_Coda_Sealguard: Beacon Presenter 2:0'
+  - key: 'WorldText/NPC/Coda Sealguard/Dialog Term: NPC_Coda_Sealguard: Beacon Presenter 2:1'
+  - key: 'WorldText/NPC/Coda Sealguard/Dialog Term: NPC_Coda_Sealguard: Beacon Presenter 2:2'
+- id: scene-044
+  name: Strażnik pieczęci Kodów — rozmowa 45
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Coda Sealguard/Dialog Term: NPC_Coda_Sealguard: Beacon Presenter:0'
+  - key: 'WorldText/NPC/Coda Sealguard/Dialog Term: NPC_Coda_Sealguard: Beacon Presenter:1'
+  - key: 'WorldText/NPC/Coda Sealguard/Dialog Term: NPC_Coda_Sealguard: Beacon Presenter:2'
+  - key: 'WorldText/NPC/Coda Sealguard/Dialog Term: NPC_Coda_Sealguard: Beacon Presenter:3'
+  - key: 'WorldText/NPC/Coda Sealguard/Dialog Term: NPC_Coda_Sealguard: Beacon Presenter:4'
+  - key: 'WorldText/NPC/Coda Sealguard/Dialog Term: NPC_Coda_Sealguard: Beacon Presenter:5'
+  - key: 'WorldText/NPC/Coda Sealguard/Dialog Term: NPC_Coda_Sealguard: Beacon Presenter:6'
+- id: scene-046
+  name: Twórca sekretów Kodów — rozmowa 47
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Coda Secretmaker/Dialog Term: NPC_Coda_Secret 2: Coda Secret:0'
+  - key: 'WorldText/NPC/Coda Secretmaker/Dialog Term: NPC_Coda_Secret 2: Coda Secret:1'
+  - key: 'WorldText/NPC/Coda Secretmaker/Dialog Term: NPC_Coda_Secret 2: Coda Secret:2'
+  - key: 'WorldText/NPC/Coda Secretmaker/Dialog Term: NPC_Coda_Secret 2: Coda Secret:3'
+- id: scene-049
+  name: Twórca sekretów Kodów — rozmowa 50
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Coda Secretmaker/Dialog Term: NPC_Coda_Secret: Coda Secret:0'
+  - key: 'WorldText/NPC/Coda Secretmaker/Dialog Term: NPC_Coda_Secret: Coda Secret:1'
+  - key: 'WorldText/NPC/Coda Secretmaker/Dialog Term: NPC_Coda_Secret: Coda Secret:2'
+  - key: 'WorldText/NPC/Coda Secretmaker/Dialog Term: NPC_Coda_Secret: Coda Secret:3'
+- id: scene-052
+  name: Strażnik odłamków Kodów — rozmowa 53
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Coda Shardkeepr/Dialog Term: NPC_Coda_Beacon presenter: Beacon Presenter:0'
+  - key: 'WorldText/NPC/Coda Shardkeepr/Dialog Term: NPC_Coda_Beacon presenter: Beacon Presenter:1'
+  - key: 'WorldText/NPC/Coda Shardkeepr/Dialog Term: NPC_Coda_Beacon presenter: Beacon Presenter:2'
+  - key: 'WorldText/NPC/Coda Shardkeepr/Dialog Term: NPC_Coda_Beacon presenter: Beacon Presenter:3'
+- id: scene-053
+  name: Strażnik kapliczki Kodów — rozmowa 54
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Coda Shrinekeeper/Dialog Term: NPC_Coda_Checkpoint presenter: Checkpoint Dialogue 2:0'
+  - key: 'WorldText/NPC/Coda Shrinekeeper/Dialog Term: NPC_Coda_Checkpoint presenter: Checkpoint Dialogue 2:1'
+  - key: 'WorldText/NPC/Coda Shrinekeeper/Dialog Term: NPC_Coda_Checkpoint presenter: Checkpoint Dialogue 2:2'
+- id: scene-054
+  name: Strażnik kapliczki Kodów — rozmowa 55
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Coda Shrinekeeper/Dialog Term: NPC_Coda_Checkpoint presenter: Checkpoint Dialogue 3:0'
+  - key: 'WorldText/NPC/Coda Shrinekeeper/Dialog Term: NPC_Coda_Checkpoint presenter: Checkpoint Dialogue 3:1'
+  - key: 'WorldText/NPC/Coda Shrinekeeper/Dialog Term: NPC_Coda_Checkpoint presenter: Checkpoint Dialogue 3:2'
+- id: scene-056
+  name: Strażnik kapliczki Kodów — rozmowa 57
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Coda Shrinekeeper/Dialog Term: NPC_Coda_Checkpoint presenter: Checkpoint Dialogue:0'
+  - key: 'WorldText/NPC/Coda Shrinekeeper/Dialog Term: NPC_Coda_Checkpoint presenter: Checkpoint Dialogue:1'
+  - key: 'WorldText/NPC/Coda Shrinekeeper/Dialog Term: NPC_Coda_Checkpoint presenter: Checkpoint Dialogue:2'
+  - key: 'WorldText/NPC/Coda Shrinekeeper/Dialog Term: NPC_Coda_Checkpoint presenter: Checkpoint Dialogue:3'
+- id: scene-058
+  name: Strażnik przekąsek Kodów — rozmowa 59
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Coda Snackkeeper/Dialog Term: NPC_Coda_CRUSH ME NOW: Crush Me:0'
+  - key: 'WorldText/NPC/Coda Snackkeeper/Dialog Term: NPC_Coda_CRUSH ME NOW: Crush Me:1'
+  - key: 'WorldText/NPC/Coda Snackkeeper/Dialog Term: NPC_Coda_CRUSH ME NOW: Crush Me:2'
+  - key: 'WorldText/NPC/Coda Snackkeeper/Dialog Term: NPC_Coda_CRUSH ME NOW: Crush Me:3'
+  - key: 'WorldText/NPC/Coda Snackkeeper/Dialog Term: NPC_Coda_CRUSH ME NOW: Crush Me:4'
+  - key: 'WorldText/NPC/Coda Snackkeeper/Dialog Term: NPC_Coda_CRUSH ME NOW: Crush Me:5'
+  - key: 'WorldText/NPC/Coda Snackkeeper/Dialog Term: NPC_Coda_CRUSH ME NOW: Crush Me:6'
+  - key: 'WorldText/NPC/Coda Snackkeeper/Dialog Term: NPC_Coda_CRUSH ME NOW: Crush Me:7'
+- id: scene-059
+  name: Surrealista Kodów — rozmowa 60
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Coda Surrealistmaker/Dialog Term: NPC_Coda_Hidden bad art: Bad Art Coda 2:0'
+  - key: 'WorldText/NPC/Coda Surrealistmaker/Dialog Term: NPC_Coda_Hidden bad art: Bad Art Coda 2:1'
+  - key: 'WorldText/NPC/Coda Surrealistmaker/Dialog Term: NPC_Coda_Hidden bad art: Bad Art Coda 2:2'
+- id: scene-061
+  name: Surrealista Kodów — rozmowa 62
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Coda Surrealistmaker/Dialog Term: NPC_Coda_Hidden bad art: Bad Art Coda:0'
+  - key: 'WorldText/NPC/Coda Surrealistmaker/Dialog Term: NPC_Coda_Hidden bad art: Bad Art Coda:1'
+  - key: 'WorldText/NPC/Coda Surrealistmaker/Dialog Term: NPC_Coda_Hidden bad art: Bad Art Coda:2'
+- id: scene-062
+  name: Słudzy drogi — rozmowa 63
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Collector Servants/Dialog Term: NPC_Servant Collectors: Collectors 1 Followup:0'
+  - key: 'WorldText/NPC/Collector Servants/Dialog Term: NPC_Servant Collectors: Collectors 1 Followup:1'
+  - key: 'WorldText/NPC/Collector Servants/Dialog Term: NPC_Servant Collectors: Collectors 1 Followup:2'
+  - key: 'WorldText/NPC/Collector Servants/Dialog Term: NPC_Servant Collectors: Collectors 1 Followup:4'
+  - key: 'WorldText/NPC/Collector Servants/Dialog Term: NPC_Servant Collectors: Collectors 1 Followup:5'
+  - key: 'WorldText/NPC/Collector Servants/Dialog Term: NPC_Servant Collectors: Collectors 1 Followup:6'
+  - key: 'WorldText/NPC/Collector Servants/Dialog Term: NPC_Servant Collectors: Collectors 1 Followup:7'
+  - key: 'WorldText/NPC/Collector Servants/Dialog Term: NPC_Servant Collectors: Collectors 1 Followup:8'
+  - key: 'WorldText/NPC/Collector Servants/Dialog Term: NPC_Servant Collectors: Collectors 1 Followup:9'
+  - key: 'WorldText/NPC/Collector Servants/Dialog Term: NPC_Servant Collectors: Collectors 1 Followup:10'
+  - key: 'WorldText/NPC/Collector Servants/Dialog Term: NPC_Servant Collectors: Collectors 1 Followup:11'
+- id: scene-064
+  name: Słudzy drogi — rozmowa 65
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Collector Servants/Dialog Term: NPC_Servant Collectors: Collectors 1:0'
+  - key: 'WorldText/NPC/Collector Servants/Dialog Term: NPC_Servant Collectors: Collectors 1:1'
+  - key: 'WorldText/NPC/Collector Servants/Dialog Term: NPC_Servant Collectors: Collectors 1:2'
+  - key: 'WorldText/NPC/Collector Servants/Dialog Term: NPC_Servant Collectors: Collectors 1:3'
+  - key: 'WorldText/NPC/Collector Servants/Dialog Term: NPC_Servant Collectors: Collectors 1:4'
+  - key: 'WorldText/NPC/Collector Servants/Dialog Term: NPC_Servant Collectors: Collectors 1:5'
+  - key: 'WorldText/NPC/Collector Servants/Dialog Term: NPC_Servant Collectors: Collectors 1:6'
+- id: scene-065
+  name: Słudzy drogi — rozmowa 66
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Collector Servants/Dialog Term: NPC_Servant RootCollector POSTVUL: RootCollectorsPostVulture:0'
+  - key: 'WorldText/NPC/Collector Servants/Dialog Term: NPC_Servant RootCollector POSTVUL: RootCollectorsPostVulture:1'
+  - key: 'WorldText/NPC/Collector Servants/Dialog Term: NPC_Servant RootCollector POSTVUL: RootCollectorsPostVulture:2'
+  - key: 'WorldText/NPC/Collector Servants/Dialog Term: NPC_Servant RootCollector POSTVUL: RootCollectorsPostVulture:3'
+- id: scene-066
+  name: Słudzy drogi — rozmowa 67
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Collector Servants/Dialog Term: NPC_Servant RootCollector PREVUL: RootCollectors:0'
+  - key: 'WorldText/NPC/Collector Servants/Dialog Term: NPC_Servant RootCollector PREVUL: RootCollectors:1'
+  - key: 'WorldText/NPC/Collector Servants/Dialog Term: NPC_Servant RootCollector PREVUL: RootCollectors:2'
+- id: scene-067
+  name: Obserwator pustyni — rozmowa 68
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Desert Disciple/Dialog Term: NPC Disciple: Disciple:0'
+  - key: 'WorldText/NPC/Desert Disciple/Dialog Term: NPC Disciple: Disciple:1'
+  - key: 'WorldText/NPC/Desert Disciple/Dialog Term: NPC Disciple: Disciple:2'
+  - key: 'WorldText/NPC/Desert Disciple/Dialog Term: NPC Disciple: Disciple:3'
+  - key: 'WorldText/NPC/Desert Disciple/Dialog Term: NPC Disciple: Disciple:4'
+  - key: 'WorldText/NPC/Desert Disciple/Dialog Term: NPC Disciple: Disciple:5'
+  - key: 'WorldText/NPC/Desert Disciple/Dialog Term: NPC Disciple: Disciple:6'
+- id: scene-068
+  name: Dream Thoughts — rozmowa 69
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Dream Thoughts/Dialog Term: NPC_Child_Before Host Kills: Child1:0'
+  - key: 'WorldText/NPC/Dream Thoughts/Dialog Term: NPC_Child_Before Host Kills: Child1:1'
+- id: scene-070
+  name: Kształtny Fidus — rozmowa 71
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Fidus/Dialog Term: NPC - Fidus Opening: Fidus Opening:0'
+    speaker: fidus
+  - key: 'WorldText/NPC/Fidus/Dialog Term: NPC - Fidus Opening: Fidus Opening:1'
+    speaker: fidus
+  - key: 'WorldText/NPC/Fidus/Dialog Term: NPC - Fidus Opening: Fidus Opening:2'
+    speaker: fidus
+  - key: 'WorldText/NPC/Fidus/Dialog Term: NPC - Fidus Opening: Fidus Opening:3'
+    speaker: fidus
+- id: scene-071
+  name: Krewniak — rozmowa 72
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Kin/Dialog Term: Kin - epliogue1: Absorb:0'
+  - key: 'WorldText/NPC/Kin/Dialog Term: Kin - epliogue1: Absorb:1'
+- id: scene-072
+  name: Krewniak — rozmowa 73
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Kin/Dialog Term: Kin - epliogue2: Absorb:0'
+  - key: 'WorldText/NPC/Kin/Dialog Term: Kin - epliogue2: Absorb:1'
+- id: scene-073
+  name: Krewniak — rozmowa 74
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Kin/Dialog Term: Kin - epliogue3: Absorb:0'
+  - key: 'WorldText/NPC/Kin/Dialog Term: Kin - epliogue3: Absorb:1'
+- id: scene-074
+  name: Krewniak — rozmowa 75
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Kin/Dialog Term: Kin - epliogue4: Absorb:0'
+  - key: 'WorldText/NPC/Kin/Dialog Term: Kin - epliogue4: Absorb:1'
+- id: scene-075
+  name: Heod — rozmowa 76
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Collector2: Collector Lair Intro:0'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Collector2: Collector Lair Intro:1'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Collector2: Collector Lair Intro:2'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Collector2: Collector Lair Intro:3'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Collector2: Collector Lair Intro:4'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Collector2: Collector Lair Intro:5'
+    speaker: heod
+- id: scene-078
+  name: Heod — rozmowa 79
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Collector2: Listen:0'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Collector2: Listen:1'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Collector2: Listen:2'
+    speaker: heod
+- id: scene-082
+  name: Heod — rozmowa 83
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Collector2_PostShidra: CollectorAtShidra 2:0'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Collector2_PostShidra: CollectorAtShidra 2:1'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Collector2_PostShidra: CollectorAtShidra 2:2'
+    speaker: heod
+- id: scene-083
+  name: Heod — rozmowa 84
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Collector2_PostShidra: Listen:0'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Collector2_PostShidra: Listen:1'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Collector2_PostShidra: Listen:2'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Collector2_PostShidra: Listen:3'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Collector2_PostShidra: Listen:4'
+    speaker: heod
+- id: scene-087
+  name: Heod — rozmowa 88
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Collector2_PreShidra: CollectorAtShidra 1:0'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Collector2_PreShidra: CollectorAtShidra 1:1'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Collector2_PreShidra: CollectorAtShidra 1:2'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Collector2_PreShidra: CollectorAtShidra 1:3'
+    speaker: heod
+- id: scene-088
+  name: Heod — rozmowa 89
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Collector4_Palace: Collector Palace:0'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Collector4_Palace: Collector Palace:1'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Collector4_Palace: Collector Palace:2'
+    speaker: heod
+- id: scene-089
+  name: Heod — rozmowa 90
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Collector4_Palace: GSF_Collecter_PalaceListen: 1:0'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Collector4_Palace: GSF_Collecter_PalaceListen: 1:1'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Collector4_Palace: GSF_Collecter_PalaceListen: 1:2'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Collector4_Palace: GSF_Collecter_PalaceListen: 1:3'
+    speaker: heod
+- id: scene-092
+  name: Heod — rozmowa 93
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Collector4_Palace: Listen:0'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Collector4_Palace: Listen:1'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Collector4_Palace: Listen:2'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Collector4_Palace: Listen:3'
+    speaker: heod
+- id: scene-095
+  name: Heod — rozmowa 96
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Collector_Final: CollectorAtShidra 2:0'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Collector_Final: CollectorAtShidra 2:1'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Collector_Final: CollectorAtShidra 2:2'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Collector_Final: CollectorAtShidra 2:3'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Collector_Final: CollectorAtShidra 2:4'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Collector_Final: CollectorAtShidra 2:5'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Collector_Final: CollectorAtShidra 2:6'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Collector_Final: CollectorAtShidra 2:7'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Collector_Final: CollectorAtShidra 2:8'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Collector_Final: CollectorAtShidra 2:9'
+    speaker: heod
+- id: scene-099
+  name: Heod — rozmowa 100
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Heod_NGP: GSF Has Met Heod NGP: 1:0'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Heod_NGP: GSF Has Met Heod NGP: 1:1'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Heod_NGP: GSF Has Met Heod NGP: 1:2'
+    speaker: heod
+- id: scene-100
+  name: Heod — rozmowa 101
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Heod_NGP: Intro Both:0'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Heod_NGP: Intro Both:1'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Heod_NGP: Intro Both:2'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Heod_NGP: Intro Both:3'
+    speaker: heod
+- id: scene-101
+  name: Heod — rozmowa 102
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Heod_NGP: Intro No Items:0'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Heod_NGP: Intro No Items:1'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Heod_NGP: Intro No Items:2'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Heod_NGP: Intro No Items:3'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Heod_NGP: Intro No Items:4'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Heod_NGP: Intro No Items:5'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Heod_NGP: Intro No Items:6'
+    speaker: heod
+- id: scene-103
+  name: Heod — rozmowa 104
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Heod_NGP: Listen:0'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Heod_NGP: Listen:1'
+    speaker: heod
+- id: scene-105
+  name: Heod — rozmowa 106
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Lackey: GSF Desert Trader Convo: 1:0'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Lackey: GSF Desert Trader Convo: 1:1'
+    speaker: heod
+- id: scene-106
+  name: Heod — rozmowa 107
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Lackey: Introduction:0'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Lackey: Introduction:1'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Lackey: Introduction:2'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Lackey: Introduction:3'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Lackey: Introduction:4'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Lackey: Introduction:5'
+    speaker: heod
+- id: scene-108
+  name: Heod — rozmowa 109
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Lackey: Talk:0'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Lackey: Talk:1'
+    speaker: heod
+  - key: 'WorldText/NPC/Lackey/Dialog Term: NPC_Lackey: Talk:2'
+    speaker: heod
+- id: scene-112
+  name: Zniekształcony — rozmowa 113
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Malformed Madness/Dialog Term: NPC - Malformed Madness1: Malformed Madness:0'
+  - key: 'WorldText/NPC/Malformed Madness/Dialog Term: NPC - Malformed Madness1: Malformed Madness:1'
+  - key: 'WorldText/NPC/Malformed Madness/Dialog Term: NPC - Malformed Madness1: Malformed Madness:2'
+  - key: 'WorldText/NPC/Malformed Madness/Dialog Term: NPC - Malformed Madness1: Malformed Madness:3'
+- id: scene-113
+  name: Zniekształcony — rozmowa 114
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Malformed Madness/Dialog Term: NPC - Malformed Madness1: Stand Up:0'
+  - key: 'WorldText/NPC/Malformed Madness/Dialog Term: NPC - Malformed Madness1: Stand Up:1'
+  - key: 'WorldText/NPC/Malformed Madness/Dialog Term: NPC - Malformed Madness1: Stand Up:2'
+- id: scene-114
+  name: Messengers Plea — rozmowa 115
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Messengers Plea/Dialog Term: NPC - Thread trade: TEMP:0'
+  - key: 'WorldText/NPC/Messengers Plea/Dialog Term: NPC - Thread trade: TEMP:1'
+  - key: 'WorldText/NPC/Messengers Plea/Dialog Term: NPC - Thread trade: TEMP:2'
+  - key: 'WorldText/NPC/Messengers Plea/Dialog Term: NPC - Thread trade: TEMP:3'
+  - key: 'WorldText/NPC/Messengers Plea/Dialog Term: NPC - Thread trade: TEMP:4'
+  - key: 'WorldText/NPC/Messengers Plea/Dialog Term: NPC - Thread trade: TEMP:5'
+- id: scene-115
+  name: Messengers Plea — rozmowa 116
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Messengers Plea/Dialog Term: NPC/note - Plea: TEMP:0'
+  - key: 'WorldText/NPC/Messengers Plea/Dialog Term: NPC/note - Plea: TEMP:1'
+- id: scene-117
+  name: Messengers Plea — rozmowa 118
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Messengers Plea/Dialog Term: NPC_Cherub Envoy Servant: HUB Dialogue:0'
+  - key: 'WorldText/NPC/Messengers Plea/Dialog Term: NPC_Cherub Envoy Servant: HUB Dialogue:1'
+  - key: 'WorldText/NPC/Messengers Plea/Dialog Term: NPC_Cherub Envoy Servant: HUB Dialogue:2'
+- id: scene-118
+  name: Messengers Plea — rozmowa 119
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Messengers Plea/Dialog Term: NPC_Servant RockCollector: Path Rock Collector:0'
+  - key: 'WorldText/NPC/Messengers Plea/Dialog Term: NPC_Servant RockCollector: Path Rock Collector:1'
+  - key: 'WorldText/NPC/Messengers Plea/Dialog Term: NPC_Servant RockCollector: Path Rock Collector:2'
+- id: scene-119
+  name: Messengers Plea — rozmowa 120
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Messengers Plea/Dialog Term: NPC_Servant RockCollector: post vulture:0'
+  - key: 'WorldText/NPC/Messengers Plea/Dialog Term: NPC_Servant RockCollector: post vulture:1'
+- id: scene-120
+  name: Messengers Plea — rozmowa 121
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Messengers Plea/Dialog Term: Painter Rockhead 1: TEMP:0'
+  - key: 'WorldText/NPC/Messengers Plea/Dialog Term: Painter Rockhead 1: TEMP:1'
+- id: scene-121
+  name: Messengers Plea — rozmowa 122
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Messengers Plea/Dialog Term: Painter Rockhead 2: TEMP:0'
+  - key: 'WorldText/NPC/Messengers Plea/Dialog Term: Painter Rockhead 2: TEMP:1'
+- id: scene-122
+  name: Messengers Plea — rozmowa 123
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Messengers Plea/Dialog Term: Painter Rockhead 3: TEMP:0'
+  - key: 'WorldText/NPC/Messengers Plea/Dialog Term: Painter Rockhead 3: TEMP:1'
+- id: scene-123
+  name: Kukła — rozmowa 124
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Nervepass Craver/Dialog Term: NPC - Nervepass Craver Lair: Dialog Lair:0'
+  - key: 'WorldText/NPC/Nervepass Craver/Dialog Term: NPC - Nervepass Craver Lair: Dialog Lair:1'
+- id: scene-124
+  name: Kukła — rozmowa 125
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Nervepass Craver/Dialog Term: NPC - Nervepass Craver: Dialog:0'
+  - key: 'WorldText/NPC/Nervepass Craver/Dialog Term: NPC - Nervepass Craver: Dialog:1'
+- id: scene-126
+  name: Sowa — rozmowa 127
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Owl/Dialog Term: NPC_Owl: GSF Is NGP: 1:0'
+  - key: 'WorldText/NPC/Owl/Dialog Term: NPC_Owl: GSF Is NGP: 1:1'
+- id: scene-129
+  name: Sowa — rozmowa 130
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Owl/Dialog Term: NPC_Owl: ListenNGP:0'
+  - key: 'WorldText/NPC/Owl/Dialog Term: NPC_Owl: ListenNGP:1'
+- id: scene-130
+  name: Sowa — rozmowa 131
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Owl/Dialog Term: NPC_Owl: Owl Intro:0'
+  - key: 'WorldText/NPC/Owl/Dialog Term: NPC_Owl: Owl Intro:1'
+- id: scene-133
+  name: Kupiec z kamiennego łoża — rozmowa 134
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Rockbed Trader/Dialog Term: NPC_Rockbed Lithic trader: GSF Rockbed Trader Convo: 1:0'
+  - key: 'WorldText/NPC/Rockbed Trader/Dialog Term: NPC_Rockbed Lithic trader: GSF Rockbed Trader Convo: 1:1'
+- id: scene-135
+  name: Kupiec z kamiennego łoża — rozmowa 136
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Rockbed Trader/Dialog Term: NPC_Rockbed Lithic trader: Intro:0'
+  - key: 'WorldText/NPC/Rockbed Trader/Dialog Term: NPC_Rockbed Lithic trader: Intro:1'
+  - key: 'WorldText/NPC/Rockbed Trader/Dialog Term: NPC_Rockbed Lithic trader: Intro:2'
+- id: scene-137
+  name: Kupiec z kamiennego łoża — rozmowa 138
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Rockbed Trader/Dialog Term: NPC_Rockbed Lithic trader: Listen:0'
+  - key: 'WorldText/NPC/Rockbed Trader/Dialog Term: NPC_Rockbed Lithic trader: Listen:1'
+  - key: 'WorldText/NPC/Rockbed Trader/Dialog Term: NPC_Rockbed Lithic trader: Listen:2'
+- id: scene-139
+  name: Kupiec z kamiennego łoża — rozmowa 140
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Rockbed Trader/Dialog Term: NPC_Rockbed Lithic trader: Trade:0'
+  - key: 'WorldText/NPC/Rockbed Trader/Dialog Term: NPC_Rockbed Lithic trader: Trade:1'
+- id: scene-141
+  name: Nieruchomy Kamienny Olbrzym — rozmowa 142
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Rockgiant (In Wall)/Dialog Term: NPC Rockgiant Stuck: Stuck Rockgiant:0'
+  - key: 'WorldText/NPC/Rockgiant (In Wall)/Dialog Term: NPC Rockgiant Stuck: Stuck Rockgiant:1'
+  - key: 'WorldText/NPC/Rockgiant (In Wall)/Dialog Term: NPC Rockgiant Stuck: Stuck Rockgiant:2'
+- id: scene-142
+  name: Handlarz sztuką — rozmowa 143
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Rockhead Art Trader/Dialog Term: NPC Art_ Trader : GSF Is NGP: 0:4'
+  - key: 'WorldText/NPC/Rockhead Art Trader/Dialog Term: NPC Art_ Trader : GSF Is NGP: 0:5'
+- id: scene-143
+  name: Handlarz sztuką — rozmowa 144
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Rockhead Art Trader/Dialog Term: NPC Art_ Trader : GSF Is NGP: 1:5'
+  - key: 'WorldText/NPC/Rockhead Art Trader/Dialog Term: NPC Art_ Trader : GSF Is NGP: 1:6'
+- id: scene-145
+  name: Handlarz sztuką — rozmowa 146
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Rockhead Art Trader/Dialog Term: NPC Art_ Trader : Listen:0'
+  - key: 'WorldText/NPC/Rockhead Art Trader/Dialog Term: NPC Art_ Trader : Listen:1'
+  - key: 'WorldText/NPC/Rockhead Art Trader/Dialog Term: NPC Art_ Trader : Listen:2'
+  - key: 'WorldText/NPC/Rockhead Art Trader/Dialog Term: NPC Art_ Trader : Listen:3'
+  - key: 'WorldText/NPC/Rockhead Art Trader/Dialog Term: NPC Art_ Trader : Listen:4'
+- id: scene-148
+  name: Handlarz sztuką — rozmowa 149
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Rockhead Art Trader/Dialog Term: NPC Art_ Trader : UnderLithic Checkpoint trader:0'
+  - key: 'WorldText/NPC/Rockhead Art Trader/Dialog Term: NPC Art_ Trader : UnderLithic Checkpoint trader:1'
+  - key: 'WorldText/NPC/Rockhead Art Trader/Dialog Term: NPC Art_ Trader : UnderLithic Checkpoint trader:2'
+  - key: 'WorldText/NPC/Rockhead Art Trader/Dialog Term: NPC Art_ Trader : UnderLithic Checkpoint trader:3'
+- id: scene-149
+  name: Kamiennogłowy — rozmowa 150
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Rockhead/Dialog Term: NPC Lithic Welcome: Lithic Welcoming:0'
+  - key: 'WorldText/NPC/Rockhead/Dialog Term: NPC Lithic Welcome: Lithic Welcoming:1'
+  - key: 'WorldText/NPC/Rockhead/Dialog Term: NPC Lithic Welcome: Lithic Welcoming:2'
+  - key: 'WorldText/NPC/Rockhead/Dialog Term: NPC Lithic Welcome: Lithic Welcoming:3'
+  - key: 'WorldText/NPC/Rockhead/Dialog Term: NPC Lithic Welcome: Lithic Welcoming:4'
+  - key: 'WorldText/NPC/Rockhead/Dialog Term: NPC Lithic Welcome: Lithic Welcoming:5'
+- id: scene-150
+  name: Kamiennogłowy — rozmowa 151
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Rockhead/Dialog Term: NPC Mining siblings: Mining Siblings:0'
+  - key: 'WorldText/NPC/Rockhead/Dialog Term: NPC Mining siblings: Mining Siblings:1'
+- id: scene-151
+  name: Kamiennogłowy — rozmowa 152
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Rockhead/Dialog Term: NPC Rockhead resistance: Rockhead resistance:0'
+  - key: 'WorldText/NPC/Rockhead/Dialog Term: NPC Rockhead resistance: Rockhead resistance:1'
+  - key: 'WorldText/NPC/Rockhead/Dialog Term: NPC Rockhead resistance: Rockhead resistance:2'
+  - key: 'WorldText/NPC/Rockhead/Dialog Term: NPC Rockhead resistance: Rockhead resistance:3'
+- id: scene-153
+  name: Kamiennogłowy — rozmowa 154
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Rockhead/Dialog Term: NPC Scared rockhead 2: Scared Rockhead 2:0'
+  - key: 'WorldText/NPC/Rockhead/Dialog Term: NPC Scared rockhead 2: Scared Rockhead 2:1'
+  - key: 'WorldText/NPC/Rockhead/Dialog Term: NPC Scared rockhead 2: Scared Rockhead 2:2'
+  - key: 'WorldText/NPC/Rockhead/Dialog Term: NPC Scared rockhead 2: Scared Rockhead 2:3'
+- id: scene-155
+  name: Kamiennogłowy — rozmowa 156
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Rockhead/Dialog Term: NPC Scared rockhead: Scared Rockhead:0'
+  - key: 'WorldText/NPC/Rockhead/Dialog Term: NPC Scared rockhead: Scared Rockhead:1'
+  - key: 'WorldText/NPC/Rockhead/Dialog Term: NPC Scared rockhead: Scared Rockhead:2'
+  - key: 'WorldText/NPC/Rockhead/Dialog Term: NPC Scared rockhead: Scared Rockhead:3'
+- id: scene-156
+  name: Kamiennogłowy — rozmowa 157
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Rockhead/Dialog Term: NPC_Lithic survivor: Lithic Survivor:0'
+  - key: 'WorldText/NPC/Rockhead/Dialog Term: NPC_Lithic survivor: Lithic Survivor:1'
+  - key: 'WorldText/NPC/Rockhead/Dialog Term: NPC_Lithic survivor: Lithic Survivor:2'
+  - key: 'WorldText/NPC/Rockhead/Dialog Term: NPC_Lithic survivor: Lithic Survivor:3'
+  - key: 'WorldText/NPC/Rockhead/Dialog Term: NPC_Lithic survivor: Lithic Survivor:4'
+  - key: 'WorldText/NPC/Rockhead/Dialog Term: NPC_Lithic survivor: Lithic Survivor:5'
+  - key: 'WorldText/NPC/Rockhead/Dialog Term: NPC_Lithic survivor: Lithic Survivor:6'
+  - key: 'WorldText/NPC/Rockhead/Dialog Term: NPC_Lithic survivor: Lithic Survivor:7'
+  - key: 'WorldText/NPC/Rockhead/Dialog Term: NPC_Lithic survivor: Lithic Survivor:8'
+- id: scene-158
+  name: Kukła — rozmowa 159
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Root Puppet/Dialog Term: NPC Root puppet - Lower elevator (1): Lower Elevator B:0'
+    speaker: root-puppet
+  - key: 'WorldText/NPC/Root Puppet/Dialog Term: NPC Root puppet - Lower elevator (1): Lower Elevator B:1'
+    speaker: root-puppet
+  - key: 'WorldText/NPC/Root Puppet/Dialog Term: NPC Root puppet - Lower elevator (1): Lower Elevator B:2'
+    speaker: root-puppet
+- id: scene-160
+  name: Kukła — rozmowa 161
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Root Puppet/Dialog Term: NPC Root puppet - Lower elevator: Lower Elevator A:0'
+    speaker: root-puppet
+  - key: 'WorldText/NPC/Root Puppet/Dialog Term: NPC Root puppet - Lower elevator: Lower Elevator A:1'
+    speaker: root-puppet
+- id: scene-162
+  name: Kukła — rozmowa 163
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Root Puppet/Dialog Term: NPC Root puppet - elevator: Elevator To Hub:0'
+    speaker: root-puppet
+  - key: 'WorldText/NPC/Root Puppet/Dialog Term: NPC Root puppet - elevator: Elevator To Hub:1'
+    speaker: root-puppet
+  - key: 'WorldText/NPC/Root Puppet/Dialog Term: NPC Root puppet - elevator: Elevator To Hub:2'
+    speaker: root-puppet
+  - key: 'WorldText/NPC/Root Puppet/Dialog Term: NPC Root puppet - elevator: Elevator To Hub:3'
+    speaker: root-puppet
+- id: scene-164
+  name: Kukła — rozmowa 165
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Root Puppet/Dialog Term: NPC Root puppet - path: Path:0'
+    speaker: root-puppet
+  - key: 'WorldText/NPC/Root Puppet/Dialog Term: NPC Root puppet - path: Path:1'
+    speaker: root-puppet
+  - key: 'WorldText/NPC/Root Puppet/Dialog Term: NPC Root puppet - path: Path:2'
+    speaker: root-puppet
+  - key: 'WorldText/NPC/Root Puppet/Dialog Term: NPC Root puppet - path: Path:3'
+    speaker: root-puppet
+  - key: 'WorldText/NPC/Root Puppet/Dialog Term: NPC Root puppet - path: Path:4'
+    speaker: root-puppet
+- id: scene-165
+  name: Słuchacz — rozmowa 166
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC Sad: Sorrowful listener Desert 1:0'
+    speaker: listener
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC Sad: Sorrowful listener Desert 1:1'
+    speaker: listener
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC Sad: Sorrowful listener Desert 1:2'
+    speaker: listener
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC Sad: Sorrowful listener Desert 1:3'
+    speaker: listener
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC Sad: Sorrowful listener Desert 1:4'
+    speaker: listener
+- id: scene-167
+  name: Słuchacz — rozmowa 168
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener (1): Sadrock - Lair 1:0'
+    speaker: listener
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener (1): Sadrock - Lair 1:1'
+    speaker: listener
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener (1): Sadrock - Lair 1:2'
+    speaker: listener
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener (1): Sadrock - Lair 1:3'
+    speaker: listener
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener (1): Sadrock - Lair 1:4'
+    speaker: listener
+- id: scene-169
+  name: Słuchacz — rozmowa 170
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener Pre fight: Sadrock - Lair 2 Pre Amal:0'
+    speaker: listener
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener Pre fight: Sadrock - Lair 2 Pre Amal:1'
+    speaker: listener
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener Pre fight: Sadrock - Lair 2 Pre Amal:2'
+    speaker: listener
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener Pre fight: Sadrock - Lair 2 Pre Amal:3'
+    speaker: listener
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener Pre fight: Sadrock - Lair 2 Pre Amal:4'
+    speaker: listener
+- id: scene-170
+  name: Słuchacz — rozmowa 171
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener2_Nest: Musing Listener Nest p1:0'
+    speaker: listener
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener2_Nest: Musing Listener Nest p1:1'
+    speaker: listener
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener2_Nest: Musing Listener Nest p1:2'
+    speaker: listener
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener2_Nest: Musing Listener Nest p1:3'
+    speaker: listener
+- id: scene-171
+  name: Słuchacz — rozmowa 172
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener2_Nest: Musing Listener Nest p2:0'
+    speaker: listener
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener2_Nest: Musing Listener Nest p2:1'
+    speaker: listener
+- id: scene-173
+  name: Słuchacz — rozmowa 174
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener_PostAmal2_Phase1: Phase 1:0'
+    speaker: listener
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener_PostAmal2_Phase1: Phase 1:1'
+    speaker: listener
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener_PostAmal2_Phase1: Phase 1:2'
+    speaker: listener
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener_PostAmal2_Phase1: Phase 1:3'
+    speaker: listener
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener_PostAmal2_Phase1: Phase 1:4'
+    speaker: listener
+- id: scene-174
+  name: Słuchacz — rozmowa 175
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener_PostAmal2_Phase2: Phase 2:0'
+    speaker: listener
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener_PostAmal2_Phase2: Phase 2:1'
+    speaker: listener
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener_PostAmal2_Phase2: Phase 2:2'
+    speaker: listener
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener_PostAmal2_Phase2: Phase 2:3'
+    speaker: listener
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener_PostAmal2_Phase2: Phase 2:4'
+    speaker: listener
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener_PostAmal2_Phase2: Phase 2:5'
+    speaker: listener
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener_PostAmal2_Phase2: Phase 2:6'
+    speaker: listener
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener_PostAmal2_Phase2: Phase 2:7'
+    speaker: listener
+- id: scene-175
+  name: Słuchacz — rozmowa 176
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener_PostAmal2_Phase3: Phase 3:0'
+    speaker: listener
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener_PostAmal2_Phase3: Phase 3:1'
+    speaker: listener
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener_PostAmal2_Phase3: Phase 3:2'
+    speaker: listener
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener_PostAmal2_Phase3: Phase 3:3'
+    speaker: listener
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener_PostAmal2_Phase3: Phase 3:4'
+    speaker: listener
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener_PostAmal2_Phase3: Phase 3:5'
+    speaker: listener
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener_PostAmal2_Phase3: Phase 3:6'
+    speaker: listener
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener_PostAmal2_Phase3: Phase 3:7'
+    speaker: listener
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener_PostAmal2_Phase3: Phase 3:8'
+    speaker: listener
+- id: scene-177
+  name: Słuchacz — rozmowa 178
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener_PostAmal2_Phase4: Phase 4:0'
+    speaker: listener
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener_PostAmal2_Phase4: Phase 4:1'
+    speaker: listener
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener_PostAmal2_Phase4: Phase 4:2'
+    speaker: listener
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener_PostAmal2_Phase4: Phase 4:3'
+    speaker: listener
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener_PostAmal2_Phase4: Phase 4:4'
+    speaker: listener
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener_PostAmal2_Phase4: Phase 4:5'
+    speaker: listener
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener_PostAmal2_Phase4: Phase 4:6'
+    speaker: listener
+- id: scene-178
+  name: Słuchacz — rozmowa 179
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener_PostAmal2_Phase4: Post Fight:0'
+    speaker: listener
+  - key: 'WorldText/NPC/Sad/Dialog Term: NPC_Musing Listener_PostAmal2_Phase4: Post Fight:1'
+    speaker: listener
+- id: scene-181
+  name: Shidra — rozmowa 182
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Garden Quest item: : GSF Shidra Convo 3 (GlobalSyncerFlag):
+      1:0'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Garden Quest item: : GSF Shidra Convo 3 (GlobalSyncerFlag):
+      1:1'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Garden Quest item: : GSF Shidra Convo 3 (GlobalSyncerFlag):
+      1:2'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Garden Quest item: : GSF Shidra Convo 3 (GlobalSyncerFlag):
+      1:3'
+    speaker: shidra
+- id: scene-182
+  name: Shidra — rozmowa 183
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Garden Quest item: : GSF Shidra Convo 3 (GlobalSyncerFlag):
+      2:0'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Garden Quest item: : GSF Shidra Convo 3 (GlobalSyncerFlag):
+      2:1'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Garden Quest item: : GSF Shidra Convo 3 (GlobalSyncerFlag):
+      2:2'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Garden Quest item: : GSF Shidra Convo 3 (GlobalSyncerFlag):
+      2:3'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Garden Quest item: : GSF Shidra Convo 3 (GlobalSyncerFlag):
+      2:4'
+    speaker: shidra
+- id: scene-184
+  name: Shidra — rozmowa 185
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Garden Quest item: : Initial:0'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Garden Quest item: : Initial:1'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Garden Quest item: : Initial:2'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Garden Quest item: : Initial:3'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Garden Quest item: : Initial:4'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Garden Quest item: : Initial:5'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Garden Quest item: : Initial:6'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Garden Quest item: : Initial:7'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Garden Quest item: : Initial:8'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Garden Quest item: : Initial:9'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Garden Quest item: : Initial:10'
+    speaker: shidra
+- id: scene-185
+  name: Shidra — rozmowa 186
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Garden Quest item: : Listen:0'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Garden Quest item: : Listen:1'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Garden Quest item: : Listen:2'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Garden Quest item: : Listen:3'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Garden Quest item: : Listen:4'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Garden Quest item: : Listen:5'
+    speaker: shidra
+- id: scene-187
+  name: Shidra — rozmowa 188
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Introduction: : GSF Shidra Convo 1 (GlobalSyncerFlag): 1:0'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Introduction: : GSF Shidra Convo 1 (GlobalSyncerFlag): 1:1'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Introduction: : GSF Shidra Convo 1 (GlobalSyncerFlag): 1:2'
+    speaker: shidra
+- id: scene-188
+  name: Shidra — rozmowa 189
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Introduction: : GSF Shidra Convo 1 (GlobalSyncerFlag): 2:0'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Introduction: : GSF Shidra Convo 1 (GlobalSyncerFlag): 2:1'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Introduction: : GSF Shidra Convo 1 (GlobalSyncerFlag): 2:2'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Introduction: : GSF Shidra Convo 1 (GlobalSyncerFlag): 2:3'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Introduction: : GSF Shidra Convo 1 (GlobalSyncerFlag): 2:4'
+    speaker: shidra
+- id: scene-189
+  name: Shidra — rozmowa 190
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Introduction: : Initial:0'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Introduction: : Initial:1'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Introduction: : Initial:2'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Introduction: : Initial:3'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Introduction: : Initial:4'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Introduction: : Initial:5'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Introduction: : Initial:6'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Introduction: : Initial:7'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Introduction: : Initial:8'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Introduction: : Initial:9'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Introduction: : Initial:10'
+    speaker: shidra
+- id: scene-190
+  name: Shidra — rozmowa 191
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Introduction: : Listen 1:0'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Introduction: : Listen 1:1'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Introduction: : Listen 1:2'
+    speaker: shidra
+- id: scene-192
+  name: Shidra — rozmowa 193
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Vulture dead: : GSF Shidra Convo 2 (GlobalSyncerFlag): 1:0'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Vulture dead: : GSF Shidra Convo 2 (GlobalSyncerFlag): 1:1'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Vulture dead: : GSF Shidra Convo 2 (GlobalSyncerFlag): 1:2'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Vulture dead: : GSF Shidra Convo 2 (GlobalSyncerFlag): 1:3'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Vulture dead: : GSF Shidra Convo 2 (GlobalSyncerFlag): 1:4'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Vulture dead: : GSF Shidra Convo 2 (GlobalSyncerFlag): 1:5'
+    speaker: shidra
+- id: scene-193
+  name: Shidra — rozmowa 194
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Vulture dead: : Initial:0'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Vulture dead: : Initial:1'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Vulture dead: : Initial:2'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Vulture dead: : Initial:3'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Vulture dead: : Initial:4'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Vulture dead: : Initial:5'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Vulture dead: : Initial:6'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Vulture dead: : Initial:7'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Vulture dead: : Initial:8'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Vulture dead: : Initial:9'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Vulture dead: : Initial:10'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Vulture dead: : Initial:11'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Vulture dead: : Initial:12'
+    speaker: shidra
+- id: scene-194
+  name: Shidra — rozmowa 195
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Vulture dead: : Listen 2:0'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Vulture dead: : Listen 2:1'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Vulture dead: : Listen 2:2'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Vulture dead: : Listen 2:3'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: Npc Shidra Vulture dead: : Listen 2:4'
+    speaker: shidra
+- id: scene-196
+  name: Shidra — rozmowa 197
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Shidra/Dialog Term: NpcMechanism - Shidra Intro: Break Dialog:0'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: NpcMechanism - Shidra Intro: Break Dialog:1'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: NpcMechanism - Shidra Intro: Break Dialog:2'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: NpcMechanism - Shidra Intro: Break Dialog:3'
+    speaker: shidra
+- id: scene-197
+  name: Shidra — rozmowa 198
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Shidra/Dialog Term: NpcMechanism - Shidra Intro: First Dialog:0'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: NpcMechanism - Shidra Intro: First Dialog:1'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: NpcMechanism - Shidra Intro: First Dialog:2'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: NpcMechanism - Shidra Intro: First Dialog:3'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: NpcMechanism - Shidra Intro: First Dialog:4'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: NpcMechanism - Shidra Intro: First Dialog:5'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: NpcMechanism - Shidra Intro: First Dialog:6'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: NpcMechanism - Shidra Intro: First Dialog:7'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: NpcMechanism - Shidra Intro: First Dialog:8'
+    speaker: shidra
+- id: scene-198
+  name: Shidra — rozmowa 199
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Shidra/Dialog Term: NpcMechanism - Shidra Intro: Surrender Dialog:0'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: NpcMechanism - Shidra Intro: Surrender Dialog:1'
+    speaker: shidra
+- id: scene-200
+  name: Shidra — rozmowa 201
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Shidra/Dialog Term: NpcMechanism - Shidra Last Stand: Exausted:0'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: NpcMechanism - Shidra Last Stand: Exausted:1'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: NpcMechanism - Shidra Last Stand: Exausted:2'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: NpcMechanism - Shidra Last Stand: Exausted:3'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: NpcMechanism - Shidra Last Stand: Exausted:4'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: NpcMechanism - Shidra Last Stand: Exausted:5'
+    speaker: shidra
+- id: scene-201
+  name: Shidra — rozmowa 202
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Shidra/Dialog Term: NpcMechanism - Shidra Last Stand: GSF Is NGP: 1:0'
+    speaker: shidra
+  - key: 'WorldText/NPC/Shidra/Dialog Term: NpcMechanism - Shidra Last Stand: GSF Is NGP: 1:1'
+    speaker: shidra
+- id: scene-208
+  name: Yon — rozmowa 209
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Servant yon pre final: Path Yon:0'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Servant yon pre final: Path Yon:1'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Servant yon pre final: Path Yon:2'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Servant yon pre final: Path Yon:3'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Servant yon pre final: Path Yon:4'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Servant yon pre final: Path Yon:5'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Servant yon pre final: Path Yon:6'
+- id: scene-210
+  name: Yon — rozmowa 211
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - TED Ritual: Ted Ritual:0'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - TED Ritual: Ted Ritual:1'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - TED Ritual: Ted Ritual:2'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - TED Ritual: Ted Ritual:3'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - TED Ritual: Ted Ritual:4'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - TED Ritual: Ted Ritual:5'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - TED Ritual: Ted Ritual:6'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - TED Ritual: Ted Ritual:7'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - TED Ritual: Ted Ritual:8'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - TED Ritual: Ted Ritual:9'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - TED Ritual: Ted Ritual:10'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - TED Ritual: Ted Ritual:11'
+- id: scene-211
+  name: Yon — rozmowa 212
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Yon fight1: Final Yon:0'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Yon fight1: Final Yon:1'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Yon fight1: Final Yon:2'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Yon fight1: Final Yon:3'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Yon fight1: Final Yon:4'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Yon fight1: Final Yon:5'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Yon fight1: Final Yon:6'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Yon fight1: Final Yon:7'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Yon fight1: Final Yon:8'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Yon fight1: Final Yon:9'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Yon fight1: Final Yon:10'
+- id: scene-212
+  name: Yon — rozmowa 213
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Yon fight2: Final Yon:0'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Yon fight2: Final Yon:1'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Yon fight2: Final Yon:2'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Yon fight2: Final Yon:3'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Yon fight2: Final Yon:4'
+- id: scene-213
+  name: Yon — rozmowa 214
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Yon fight3: Final Yon:0'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Yon fight3: Final Yon:1'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Yon fight3: Final Yon:2'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Yon fight3: Final Yon:3'
+- id: scene-214
+  name: Yon — rozmowa 215
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Yon fight: Final Yon 2:1'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Yon fight: Final Yon 2:3'
+- id: scene-216
+  name: Yon — rozmowa 217
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Yon final (Post Key): Final Yon:1'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Yon final (Post Key): Final Yon:2'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Yon final (Post Key): Final Yon:3'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Yon final (Post Key): Final Yon:4'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Yon final (Post Key): Final Yon:5'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Yon final (Post Key): Final Yon:6'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Yon final (Post Key): Final Yon:7'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Yon final (Post Key): Final Yon:8'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Yon final (Post Key): Final Yon:10'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Yon final (Post Key): Final Yon:11'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Yon final (Post Key): Final Yon:12'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Yon final (Post Key): Final Yon:13'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Yon final (Post Key): Final Yon:14'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Yon final (Post Key): Final Yon:16'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Yon final (Post Key): Final Yon:17'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Yon final (Post Key): Final Yon:18'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Yon final (Post Key): Final Yon:19'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC - Yon final (Post Key): Final Yon:20'
+- id: scene-218
+  name: Yon — rozmowa 219
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC Cherub prisoner - : Elevator To Hub:0'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC Cherub prisoner - : Elevator To Hub:1'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC Cherub prisoner - : Elevator To Hub:2'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC Cherub prisoner - : Elevator To Hub:3'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC Cherub prisoner - : Elevator To Hub:4'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC Cherub prisoner - : Elevator To Hub:5'
+- id: scene-219
+  name: Yon — rozmowa 220
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC Ted Gone, needs new npc and other stuff: Ted HUB rock 1:0'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC Ted Gone, needs new npc and other stuff: Ted HUB rock 1:1'
+- id: scene-220
+  name: Yon — rozmowa 221
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC Ted HUB - sell mass? living rock? unique materials?: GSF Is NGP: 1:0'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC Ted HUB - sell mass? living rock? unique materials?: GSF Is NGP: 1:1'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC Ted HUB - sell mass? living rock? unique materials?: GSF Is NGP: 1:2'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC Ted HUB - sell mass? living rock? unique materials?: GSF Is NGP: 1:3'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC Ted HUB - sell mass? living rock? unique materials?: GSF Is NGP: 1:4'
+- id: scene-221
+  name: Yon — rozmowa 222
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC Ted HUB - sell mass? living rock? unique materials?: Ted HUB 1:0'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC Ted HUB - sell mass? living rock? unique materials?: Ted HUB 1:1'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC Ted HUB - sell mass? living rock? unique materials?: Ted HUB 1:2'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC Ted HUB - sell mass? living rock? unique materials?: Ted HUB 1:3'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC Ted HUB - sell mass? living rock? unique materials?: Ted HUB 1:4'
+- id: scene-222
+  name: Yon — rozmowa 223
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC Ted HUB - sell mass? living rock? unique materials?: Ted HUB 2:0'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC Ted HUB - sell mass? living rock? unique materials?: Ted HUB 2:1'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC Ted HUB - sell mass? living rock? unique materials?: Ted HUB 2:2'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC Ted HUB - sell mass? living rock? unique materials?: Ted HUB 2:3'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC Ted HUB - sell mass? living rock? unique materials?: Ted HUB 2:4'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC Ted HUB - sell mass? living rock? unique materials?: Ted HUB 2:5'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC Ted HUB - sell mass? living rock? unique materials?: Ted HUB 2:6'
+- id: scene-223
+  name: Yon — rozmowa 224
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC Ted HUB - sell mass? living rock? unique materials?: Ted HUB 3:0'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC Ted HUB - sell mass? living rock? unique materials?: Ted HUB 3:1'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC Ted HUB - sell mass? living rock? unique materials?: Ted HUB 3:2'
+- id: scene-226
+  name: Yon — rozmowa 227
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC Ted gathering : Ted lithic 1:0'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC Ted gathering : Ted lithic 1:1'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC Ted gathering : Ted lithic 1:2'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC Ted gathering : Ted lithic 1:3'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC Ted gathering : Ted lithic 1:4'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC Ted gathering : Ted lithic 1:5'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC Ted gathering : Ted lithic 1:6'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC Ted gathering : Ted lithic 1:7'
+- id: scene-227
+  name: Yon — rozmowa 228
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC Ted lift: Elevator To Hub:0'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC Ted lift: Elevator To Hub:1'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NPC Ted lift: Elevator To Hub:2'
+- id: scene-229
+  name: Yon — rozmowa 230
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Ted/Dialog Term: NpcMechanism (1): Give Item:0'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NpcMechanism (1): Give Item:1'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NpcMechanism (1): Give Item:2'
+- id: scene-231
+  name: Yon — rozmowa 232
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Ted/Dialog Term: NpcMechanism: Introduction:0'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NpcMechanism: Introduction:1'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NpcMechanism: Introduction:2'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NpcMechanism: Introduction:3'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NpcMechanism: Introduction:4'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NpcMechanism: Introduction:5'
+  - key: 'WorldText/NPC/Ted/Dialog Term: NpcMechanism: Introduction:6'
+- id: scene-233
+  name: Yon — rozmowa 234
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Ted/Dialog Term: Ted 5 - followers: Cavity Exit:0'
+  - key: 'WorldText/NPC/Ted/Dialog Term: Ted 5 - followers: Cavity Exit:1'
+  - key: 'WorldText/NPC/Ted/Dialog Term: Ted 5 - followers: Cavity Exit:2'
+  - key: 'WorldText/NPC/Ted/Dialog Term: Ted 5 - followers: Cavity Exit:3'
+  - key: 'WorldText/NPC/Ted/Dialog Term: Ted 5 - followers: Cavity Exit:4'
+  - key: 'WorldText/NPC/Ted/Dialog Term: Ted 5 - followers: Cavity Exit:5'
+  - key: 'WorldText/NPC/Ted/Dialog Term: Ted 5 - followers: Cavity Exit:6'
+  - key: 'WorldText/NPC/Ted/Dialog Term: Ted 5 - followers: Cavity Exit:7'
+- id: scene-237
+  name: Yon — rozmowa 238
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Ted/Dialog Term: ted4 preboss - NpcMechanism: Amal introduction:0'
+  - key: 'WorldText/NPC/Ted/Dialog Term: ted4 preboss - NpcMechanism: Amal introduction:1'
+  - key: 'WorldText/NPC/Ted/Dialog Term: ted4 preboss - NpcMechanism: Amal introduction:2'
+  - key: 'WorldText/NPC/Ted/Dialog Term: ted4 preboss - NpcMechanism: Amal introduction:3'
+- id: scene-238
+  name: Myśl — rozmowa 239
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Thoughts/Dialog Term: NPC_Child Crystal 1: Elevator assistant 2:0'
+  - key: 'WorldText/NPC/Thoughts/Dialog Term: NPC_Child Crystal 1: Elevator assistant 2:1'
+- id: scene-239
+  name: Myśl — rozmowa 240
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Thoughts/Dialog Term: NPC_Child Thought1: Dream1:0'
+  - key: 'WorldText/NPC/Thoughts/Dialog Term: NPC_Child Thought1: Dream1:1'
+  - key: 'WorldText/NPC/Thoughts/Dialog Term: NPC_Child Thought1: Dream1:2'
+- id: scene-240
+  name: Myśl — rozmowa 241
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Thoughts/Dialog Term: NPC_Child Thought2: Dream2:0'
+  - key: 'WorldText/NPC/Thoughts/Dialog Term: NPC_Child Thought2: Dream2:1'
+  - key: 'WorldText/NPC/Thoughts/Dialog Term: NPC_Child Thought2: Dream2:2'
+- id: scene-241
+  name: Myśl — rozmowa 242
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Thoughts/Dialog Term: NPC_Child Thought3: Dream3:0'
+  - key: 'WorldText/NPC/Thoughts/Dialog Term: NPC_Child Thought3: Dream3:1'
+  - key: 'WorldText/NPC/Thoughts/Dialog Term: NPC_Child Thought3: Dream3:2'
+- id: scene-242
+  name: Myśl — rozmowa 243
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Thoughts/Dialog Term: NPC_Child Thought4: Dream4:0'
+  - key: 'WorldText/NPC/Thoughts/Dialog Term: NPC_Child Thought4: Dream4:1'
+- id: scene-243
+  name: Myśl — rozmowa 244
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Thoughts/Dialog Term: NPC_Child_Before Host Kills: Child1:0'
+  - key: 'WorldText/NPC/Thoughts/Dialog Term: NPC_Child_Before Host Kills: Child1:1'
+- id: scene-245
+  name: '  — rozmowa 246'
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Undefined/Dialog Term: NPC - Thread trade: TEMP:0'
+  - key: 'WorldText/NPC/Undefined/Dialog Term: NPC - Thread trade: TEMP:1'
+  - key: 'WorldText/NPC/Undefined/Dialog Term: NPC - Thread trade: TEMP:2'
+  - key: 'WorldText/NPC/Undefined/Dialog Term: NPC - Thread trade: TEMP:3'
+  - key: 'WorldText/NPC/Undefined/Dialog Term: NPC - Thread trade: TEMP:4'
+  - key: 'WorldText/NPC/Undefined/Dialog Term: NPC - Thread trade: TEMP:5'
+- id: scene-246
+  name: Złotogłowy — rozmowa 247
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold helmet Warrior_Childbed NG have him face the orb and ponder
+      throughout: Goldhead - Nerveroot 2:0'
+    speaker: goldhead
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold helmet Warrior_Childbed NG have him face the orb and ponder
+      throughout: Goldhead - Nerveroot 2:1'
+    speaker: goldhead
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold helmet Warrior_Childbed NG have him face the orb and ponder
+      throughout: Goldhead - Nerveroot 2:2'
+    speaker: goldhead
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold helmet Warrior_Childbed NG have him face the orb and ponder
+      throughout: Goldhead - Nerveroot 2:3'
+    speaker: goldhead
+- id: scene-247
+  name: Złotogłowy — rozmowa 248
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold helmet Warrior_Childbed NG have him face the orb and ponder
+      throughout: Goldhead - Nerveroot 3:0'
+    speaker: goldhead
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold helmet Warrior_Childbed NG have him face the orb and ponder
+      throughout: Goldhead - Nerveroot 3:1'
+    speaker: goldhead
+- id: scene-248
+  name: Złotogłowy — rozmowa 249
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold helmet Warrior_Childbed NG have him face the orb and ponder
+      throughout: Goldhead - childbed:0'
+    speaker: goldhead
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold helmet Warrior_Childbed NG have him face the orb and ponder
+      throughout: Goldhead - childbed:1'
+    speaker: goldhead
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold helmet Warrior_Childbed NG have him face the orb and ponder
+      throughout: Goldhead - childbed:2'
+    speaker: goldhead
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold helmet Warrior_Childbed NG have him face the orb and ponder
+      throughout: Goldhead - childbed:3'
+    speaker: goldhead
+- id: scene-250
+  name: Złotogłowy — rozmowa 251
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold helmet Warrior_Childbed NG: Goldhead - childbed 2:0'
+    speaker: goldhead
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold helmet Warrior_Childbed NG: Goldhead - childbed 2:1'
+    speaker: goldhead
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold helmet Warrior_Childbed NG: Goldhead - childbed 2:2'
+    speaker: goldhead
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold helmet Warrior_Childbed NG: Goldhead - childbed 2:3'
+    speaker: goldhead
+- id: scene-251
+  name: Złotogłowy — rozmowa 252
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold helmet Warrior_Childbed NG: Goldhead - childbed 3:0'
+    speaker: goldhead
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold helmet Warrior_Childbed NG: Goldhead - childbed 3:1'
+    speaker: goldhead
+- id: scene-252
+  name: Złotogłowy — rozmowa 253
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold helmet Warrior_Childbed NG: Goldhead - childbed:0'
+    speaker: goldhead
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold helmet Warrior_Childbed NG: Goldhead - childbed:1'
+    speaker: goldhead
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold helmet Warrior_Childbed NG: Goldhead - childbed:2'
+    speaker: goldhead
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold helmet Warrior_Childbed NG: Goldhead - childbed:3'
+    speaker: goldhead
+- id: scene-254
+  name: Złotogłowy — rozmowa 255
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold helmet Warrior_Nerveroot: Goldhead - Nerveroot 1:0'
+    speaker: goldhead
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold helmet Warrior_Nerveroot: Goldhead - Nerveroot 1:1'
+    speaker: goldhead
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold helmet Warrior_Nerveroot: Goldhead - Nerveroot 1:2'
+    speaker: goldhead
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold helmet Warrior_Nerveroot: Goldhead - Nerveroot 1:3'
+    speaker: goldhead
+- id: scene-255
+  name: Złotogłowy — rozmowa 256
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold helmet Warrior_Nerveroot: Goldhead - Nerveroot 2:0'
+    speaker: goldhead
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold helmet Warrior_Nerveroot: Goldhead - Nerveroot 2:1'
+    speaker: goldhead
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold helmet Warrior_Nerveroot: Goldhead - Nerveroot 2:2'
+    speaker: goldhead
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold helmet Warrior_Nerveroot: Goldhead - Nerveroot 2:3'
+    speaker: goldhead
+- id: scene-256
+  name: Złotogłowy — rozmowa 257
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold helmet Warrior_Nerveroot: Goldhead - Nerveroot 3:0'
+    speaker: goldhead
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold helmet Warrior_Nerveroot: Goldhead - Nerveroot 3:1'
+    speaker: goldhead
+- id: scene-258
+  name: Złotogłowy — rozmowa 259
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold mask 2 After Nerveroot interaction: Goldhead - Nest 1:0'
+    speaker: goldhead
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold mask 2 After Nerveroot interaction: Goldhead - Nest 1:1'
+    speaker: goldhead
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold mask 2 After Nerveroot interaction: Goldhead - Nest 1:2'
+    speaker: goldhead
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold mask 2 After Nerveroot interaction: Goldhead - Nest 1:3'
+    speaker: goldhead
+- id: scene-259
+  name: Złotogłowy — rozmowa 260
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold mask 2 After Nerveroot interaction: Goldhead - Nest 2:0'
+    speaker: goldhead
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold mask 2 After Nerveroot interaction: Goldhead - Nest 2:1'
+    speaker: goldhead
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold mask 2 After Nerveroot interaction: Goldhead - Nest 2:2'
+    speaker: goldhead
+- id: scene-261
+  name: Złotogłowy — rozmowa 262
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold mask 4 After Lair: Goldhead - Den 1:0'
+    speaker: goldhead
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold mask 4 After Lair: Goldhead - Den 1:1'
+    speaker: goldhead
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold mask 4 After Lair: Goldhead - Den 1:2'
+    speaker: goldhead
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold mask 4 After Lair: Goldhead - Den 1:3'
+    speaker: goldhead
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold mask 4 After Lair: Goldhead - Den 1:4'
+    speaker: goldhead
+- id: scene-262
+  name: Złotogłowy — rozmowa 263
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: certain
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold mask 4 After Lair: Goldhead - Den 2:0'
+    speaker: goldhead
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold mask 4 After Lair: Goldhead - Den 2:1'
+    speaker: goldhead
+  - key: 'WorldText/NPC/Vagabond/Dialog Term: NPC_Gold mask 4 After Lair: Goldhead - Den 2:2'
+    speaker: goldhead
+- id: scene-264
+  name: Waza — rozmowa 265
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Vase/Dialog Term: NPC_Vasehead Checkpoint: Vasehead Checkpoint 1:0'
+  - key: 'WorldText/NPC/Vase/Dialog Term: NPC_Vasehead Checkpoint: Vasehead Checkpoint 1:1'
+  - key: 'WorldText/NPC/Vase/Dialog Term: NPC_Vasehead Checkpoint: Vasehead Checkpoint 1:2'
+  - key: 'WorldText/NPC/Vase/Dialog Term: NPC_Vasehead Checkpoint: Vasehead Checkpoint 1:3'
+  - key: 'WorldText/NPC/Vase/Dialog Term: NPC_Vasehead Checkpoint: Vasehead Checkpoint 1:4'
+  - key: 'WorldText/NPC/Vase/Dialog Term: NPC_Vasehead Checkpoint: Vasehead Checkpoint 1:5'
+  - key: 'WorldText/NPC/Vase/Dialog Term: NPC_Vasehead Checkpoint: Vasehead Checkpoint 1:6'
+- id: scene-265
+  name: Waza — rozmowa 266
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Vase/Dialog Term: NPC_Vasehead Checkpoint: Vasehead Checkpoint 2:0'
+  - key: 'WorldText/NPC/Vase/Dialog Term: NPC_Vasehead Checkpoint: Vasehead Checkpoint 2:1'
+  - key: 'WorldText/NPC/Vase/Dialog Term: NPC_Vasehead Checkpoint: Vasehead Checkpoint 2:2'
+- id: scene-268
+  name: Waza — rozmowa 269
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Vase/Dialog Term: NPC_Vasehead First Finish : First Finish:0'
+  - key: 'WorldText/NPC/Vase/Dialog Term: NPC_Vasehead First Finish : First Finish:1'
+  - key: 'WorldText/NPC/Vase/Dialog Term: NPC_Vasehead First Finish : First Finish:2'
+  - key: 'WorldText/NPC/Vase/Dialog Term: NPC_Vasehead First Finish : First Finish:3'
+  - key: 'WorldText/NPC/Vase/Dialog Term: NPC_Vasehead First Finish : First Finish:4'
+  - key: 'WorldText/NPC/Vase/Dialog Term: NPC_Vasehead First Finish : First Finish:5'
+  - key: 'WorldText/NPC/Vase/Dialog Term: NPC_Vasehead First Finish : First Finish:6'
+- id: scene-272
+  name: Waza — rozmowa 273
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Vase/Dialog Term: NPC_Vasehead Mended: Vasehead Mended:0'
+  - key: 'WorldText/NPC/Vase/Dialog Term: NPC_Vasehead Mended: Vasehead Mended:1'
+  - key: 'WorldText/NPC/Vase/Dialog Term: NPC_Vasehead Mended: Vasehead Mended:2'
+  - key: 'WorldText/NPC/Vase/Dialog Term: NPC_Vasehead Mended: Vasehead Mended:3'
+- id: scene-274
+  name: Waza — rozmowa 275
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Vase/Dialog Term: NPC_Vasehead Second Finish: Second Finish:0'
+  - key: 'WorldText/NPC/Vase/Dialog Term: NPC_Vasehead Second Finish: Second Finish:1'
+- id: scene-275
+  name: Waza — rozmowa 276
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Vase/Dialog Term: NPC_Vasehead lithic: Vasehead Lithic:0'
+  - key: 'WorldText/NPC/Vase/Dialog Term: NPC_Vasehead lithic: Vasehead Lithic:1'
+  - key: 'WorldText/NPC/Vase/Dialog Term: NPC_Vasehead lithic: Vasehead Lithic:2'
+  - key: 'WorldText/NPC/Vase/Dialog Term: NPC_Vasehead lithic: Vasehead Lithic:3'
+  - key: 'WorldText/NPC/Vase/Dialog Term: NPC_Vasehead lithic: Vasehead Lithic:4'
+  - key: 'WorldText/NPC/Vase/Dialog Term: NPC_Vasehead lithic: Vasehead Lithic:5'
+  - key: 'WorldText/NPC/Vase/Dialog Term: NPC_Vasehead lithic: Vasehead Lithic:6'
+- id: scene-276
+  name: Rzemieślnik — rozmowa 277
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Wax Acolyte/Dialog Term: NPC_Wax Acolyte: Followup:0'
+  - key: 'WorldText/NPC/Wax Acolyte/Dialog Term: NPC_Wax Acolyte: Followup:1'
+  - key: 'WorldText/NPC/Wax Acolyte/Dialog Term: NPC_Wax Acolyte: Followup:2'
+  - key: 'WorldText/NPC/Wax Acolyte/Dialog Term: NPC_Wax Acolyte: Followup:3'
+- id: scene-277
+  name: Rzemieślnik — rozmowa 278
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Wax Acolyte/Dialog Term: NPC_Wax Acolyte: Wax Acolyte:0'
+  - key: 'WorldText/NPC/Wax Acolyte/Dialog Term: NPC_Wax Acolyte: Wax Acolyte:1'
+  - key: 'WorldText/NPC/Wax Acolyte/Dialog Term: NPC_Wax Acolyte: Wax Acolyte:2'
+  - key: 'WorldText/NPC/Wax Acolyte/Dialog Term: NPC_Wax Acolyte: Wax Acolyte:3'
+  - key: 'WorldText/NPC/Wax Acolyte/Dialog Term: NPC_Wax Acolyte: Wax Acolyte:4'
+- id: scene-278
+  name: Zbieracz wosku — rozmowa 279
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Wax Collector/Dialog Term: NPC_Apprentice Wall : Repeat:0'
+  - key: 'WorldText/NPC/Wax Collector/Dialog Term: NPC_Apprentice Wall : Repeat:1'
+  - key: 'WorldText/NPC/Wax Collector/Dialog Term: NPC_Apprentice Wall : Repeat:2'
+- id: scene-279
+  name: Zbieracz wosku — rozmowa 280
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Wax Collector/Dialog Term: NPC_Apprentice Wall : Wax collector:0'
+  - key: 'WorldText/NPC/Wax Collector/Dialog Term: NPC_Apprentice Wall : Wax collector:1'
+  - key: 'WorldText/NPC/Wax Collector/Dialog Term: NPC_Apprentice Wall : Wax collector:2'
+  - key: 'WorldText/NPC/Wax Collector/Dialog Term: NPC_Apprentice Wall : Wax collector:3'
+- id: scene-280
+  name: Szept — rozmowa 281
+  group: dialogue
+  order:
+    certainty: certain
+    source: Numeracja wpisów w tej samej gałęzi dialogu I2
+  speakers:
+    certainty: reconstructed
+    source: Rodzina kluczy NPC; w rozmowach kilku postaci nie przypisano niepewnych kwestii
+  lines:
+  - key: 'WorldText/NPC/Whisper Elite/Dialog Term: NPC_Whisperer - talk before fighting, like watcher: Whisper Elite:0'
+  - key: 'WorldText/NPC/Whisper Elite/Dialog Term: NPC_Whisperer - talk before fighting, like watcher: Whisper Elite:1'
+  - key: 'WorldText/NPC/Whisper Elite/Dialog Term: NPC_Whisperer - talk before fighting, like watcher: Whisper Elite:2'
+  - key: 'WorldText/NPC/Whisper Elite/Dialog Term: NPC_Whisperer - talk before fighting, like watcher: Whisper Elite:3'
+  - key: 'WorldText/NPC/Whisper Elite/Dialog Term: NPC_Whisperer - talk before fighting, like watcher: Whisper Elite:4'
+  - key: 'WorldText/NPC/Whisper Elite/Dialog Term: NPC_Whisperer - talk before fighting, like watcher: Whisper Elite:5'

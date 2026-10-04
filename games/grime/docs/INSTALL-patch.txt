@@ -1,0 +1,30 @@
+GRIME PL 0.2
+Wersja gry: GOG 1.3.5, Unity 2021.3.30f1.
+
+Pełny tekst: interfejs, wyposażenie, bestiariusz, rozmowy, samouczki,
+dodatki i Nowa gra+. Tabela zawiera 2648 wpisów, w tym 2643 z treścią.
+Nazwy własne, podpisy autorów i techniczne identyfikatory pozostały w oryginale.
+Początek gry przeszedł test gracza. Reszta wymaga sprawdzenia w rozgrywce.
+
+INSTALACJA
+1. Zamknij grę. Jeśli masz próbkę 0.1, przywróć oryginał jej instalatorem.
+2. Wypakuj cały ZIP do folderu z GRIME.exe.
+3. Uruchom GRIME-PL-0.2.exe. Program sprawdzi plik i zrobi kopię zapasową.
+4. Włącz grę samodzielnie. W ustawieniach wybierz język „Polski”.
+
+USUNIĘCIE
+Uruchom ponownie GRIME-PL-0.2.exe i wybierz przywrócenie oryginału.
+Po przywróceniu wybierz dostępny język, np. English.
+Nie usuwaj pliku data.unity3d.przed-spolszczeniem przed przywróceniem gry.
+
+DO SPRAWDZENIA W GRZE
+- Długie opisy broni i pancerzy: pełny tekst, poprawne przewijanie.
+- Cechy i ulepszanie: wartości, warunki, Wigor i Siła jako osobne parametry.
+- Rozmowy z Shidrą, Heodem i Yonem: całe linie, animacja i polskie litery.
+- Kody i wybór zakończenia: zrozumiałe komunikaty i brak obciętych kwestii.
+- Nowa gra+ i dodatki: samouczki, opisy, nowe rozmowy.
+Zrób zrzut każdego problemu wraz z miejscem i okolicznościami.
+
+Paczka zawiera wyłącznie łatkę różnicową, program nakładający i tę instrukcję.
+Nie zawiera plików ani innych zasobów gry. Łatka odtwarza zmieniony plik z twojego
+oryginału. Nie pasuje do innej wersji pliku ani do już zmodyfikowanej gry.

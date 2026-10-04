@@ -1,0 +1,1143 @@
+sources:
+- id: keys
+  description: GOG 1.3.5 I2 table; NPC/scene names and numeric line suffixes in keys.
+- id: code
+  description: GameOptions IL in AD_Scripts.dll; I2 metadata in AD_Localization.dll.
+- id: opening
+  description: Opening NPC identified as Yon; original lines come from the game's
+    Ted keys.
+  url: https://grime1.wiki.gg/wiki/Yon
+- id: original-languages
+  description: 'Original I2 FR/IT/RU columns in work/source.json. Yon Ted HUB 2:2:
+    arrivé/venuto/попал; Listener Desert1:2: perdu/perso/растворился; Shidra EN Heod
+    Palace:1 his, RU Initial:1 надеялся; Art Trader RU Listen:3 спросил, FR Vendeur
+    role name.'
+style:
+  tone: Precise UI; restrained ritual and body imagery; spontaneous, childish NPCs
+    remain distinct.
+  adaptation: Text-first adaptation; user confirmed opening vertical works on 2026-10-04.
+    No performance/audio verification claimed.
+  reading_conditions: Menu and descriptions can be inspected; dialogue advancement
+    and speech-bubble timing need an in-game check. Movement hints appear during play,
+    so keep them short.
+  source: user
+  note: User accepted all recommended direction choices on 2026-10-04. No added archaism,
+    jokes or lore explanations.
+  player_agreement: Prefer natural gender-free wording for the silent player. Local
+    nouns govern agreement (Naczynie neuter, Rzeźbiony masculine, podróbka feminine).
+    No global player gender inferred.
+characters:
+- id: ambitious-scultptor
+  name: Ambitny rzeźbiarz
+  gender: '?'
+  key: ^WorldText/NPC/Ambitious\ Scultptor/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: apprentice
+  name: Uczeń
+  gender: '?'
+  key: ^WorldText/NPC/Apprentice/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: assistant
+  name: Pomocnik
+  gender: '?'
+  key: ^WorldText/NPC/Assistant/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+  register: Mechanical pauses and collective perspective; conversion disrupts the
+    voice.
+- id: bird
+  name: Sowa
+  gender: '?'
+  key: ^WorldText/NPC/Bird/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: carven-envoi
+  name: Posłaniec Rzeźbionych
+  gender: '?'
+  key: ^WorldText/NPC/Carven\ Envoi/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: carven-envooi
+  name: Posłaniec Rzeźbionych
+  gender: '?'
+  key: ^WorldText/NPC/Carven\ Envooi/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: child
+  name: Dziecko
+  gender: n
+  key: ^WorldText/NPC/Child/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: coda-bellkeeper
+  name: Dzwonnik Kodów
+  gender: '?'
+  key: ^WorldText/NPC/Coda\ Bellkeeper/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: coda-bustmaker
+  name: Twórca popiersi Kodów
+  gender: '?'
+  key: ^WorldText/NPC/Coda\ Bustmaker/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: coda-carvemaker
+  name: Rzeźbiarz Kodów
+  gender: '?'
+  key: ^WorldText/NPC/Coda\ Carvemaker/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: coda-convomaker
+  name: Rozmówca Kodów
+  gender: '?'
+  key: ^WorldText/NPC/Coda\ Convomaker/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: coda-crushkeeper
+  name: Strażnik zgniatania Kodów
+  gender: '?'
+  key: ^WorldText/NPC/Coda\ Crushkeeper/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: coda-crushmaker
+  name: Twórca do zgniatania Kodów
+  gender: '?'
+  key: ^WorldText/NPC/Coda\ Crushmaker/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: coda-dancemaker
+  name: Tancerz Kodów
+  gender: '?'
+  key: ^WorldText/NPC/Coda\ Dancemaker\ /
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: coda-feastmaker
+  name: Twórca uczty Kodów
+  gender: '?'
+  key: ^WorldText/NPC/Coda\ Feastmaker/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: coda-gossipmaker
+  name: Plotkarz Kodów
+  gender: '?'
+  key: ^WorldText/NPC/Coda\ Gossipmaker/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: coda-housemaker
+  name: Budowniczy domów Kodów
+  gender: '?'
+  key: ^WorldText/NPC/Coda\ Housemaker/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: coda-objectmaker
+  name: Twórca przedmiotów Kodów
+  gender: '?'
+  key: ^WorldText/NPC/Coda\ Objectmaker/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: coda-painter
+  name: Malarz Kodów
+  gender: '?'
+  key: ^WorldText/NPC/Coda\ Painter/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: coda-paintmaker
+  name: Twórca obrazów Kodów
+  gender: '?'
+  key: ^WorldText/NPC/Coda\ Paintmaker/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: coda-performer
+  name: Artysta
+  gender: '?'
+  key: ^WorldText/NPC/Coda\ Performer/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: coda-presentor
+  name: Prezenter Kodów
+  gender: '?'
+  key: ^WorldText/NPC/Coda\ Presentor/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: coda-sculptor
+  name: Rzeźbiarz Kodów
+  gender: '?'
+  key: ^WorldText/NPC/Coda\ Sculptor/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: coda-sealguard
+  name: Strażnik pieczęci Kodów
+  gender: '?'
+  key: ^WorldText/NPC/Coda\ Sealguard/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: coda-secretmaker
+  name: Twórca sekretów Kodów
+  gender: '?'
+  key: ^WorldText/NPC/Coda\ Secretmaker/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: coda-shardkeepr
+  name: Strażnik odłamków Kodów
+  gender: '?'
+  key: ^WorldText/NPC/Coda\ Shardkeepr/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: coda-shrinekeeper
+  name: Strażnik kapliczki Kodów
+  gender: '?'
+  key: ^WorldText/NPC/Coda\ Shrinekeeper/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: coda-shrinemaker
+  name: Twórca kapliczek Kodów
+  gender: '?'
+  key: ^WorldText/NPC/Coda\ Shrinemaker/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: coda-snackkeeper
+  name: Strażnik przekąsek Kodów
+  gender: '?'
+  key: ^WorldText/NPC/Coda\ Snackkeeper/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: coda-snackmaker
+  name: Twórca przekąsek Kodów
+  gender: '?'
+  key: ^WorldText/NPC/Coda\ Snackmaker/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: coda-surrealistmaker
+  name: Surrealista Kodów
+  gender: '?'
+  key: ^WorldText/NPC/Coda\ Surrealistmaker/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: coda
+  name: Koda
+  gender: '?'
+  key: ^WorldText/NPC/Coda/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: codaer
+  name: Koda
+  gender: '?'
+  key: ^WorldText/NPC/Codaer/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: collector-servants
+  name: Słudzy drogi
+  gender: '?'
+  key: ^WorldText/NPC/Collector\ Servants/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: desert-disciple
+  name: Obserwator pustyni
+  gender: '?'
+  key: ^WorldText/NPC/Desert\ Disciple/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: fidus
+  name: Kształtny Fidus
+  gender: '?'
+  key: ^WorldText/NPC/Fidus/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: formbringers-plea
+  name: Błaganie
+  gender: '?'
+  key: ^WorldText/NPC/Formbringers\ Plea/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: kin
+  name: Krewniak
+  gender: '?'
+  key: ^WorldText/NPC/Kin/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: heod
+  name: Heod
+  gender: '?'
+  key: ^WorldText/NPC/Lackey/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: livestone-collector
+  name: Zbieracz żywoskały
+  gender: '?'
+  key: ^WorldText/NPC/Livestone\ Collector/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: malformed-madness
+  name: Zniekształcony
+  gender: '?'
+  key: ^WorldText/NPC/Malformed\ Madness/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: nervepass-craver
+  name: Kukła
+  gender: '?'
+  key: ^WorldText/NPC/Nervepass\ Craver/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: nervepass
+  name: Nerwoprzejście
+  gender: '?'
+  key: ^WorldText/NPC/Nervepass/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: offering-handler
+  name: Opiekun darów
+  gender: '?'
+  key: ^WorldText/NPC/Offering\ Handler/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: owl
+  name: Sowa
+  gender: '?'
+  key: ^WorldText/NPC/Owl/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+  register: Rhyming couplets; preserve trade terms and the bitter/sweet ambiguity.
+- id: pathkeeper
+  name: Strażnik drogi
+  gender: '?'
+  key: ^WorldText/NPC/Pathkeeper/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: plea
+  name: Błaganie
+  gender: '?'
+  key: ^WorldText/NPC/Plea/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: rockbed-trader
+  name: Kupiec z kamiennego łoża
+  gender: '?'
+  key: ^WorldText/NPC/Rockbed\ Trader/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: rockgiant-in-wall
+  name: Nieruchomy Kamienny Olbrzym
+  gender: '?'
+  key: ^WorldText/NPC/Rockgiant\ \(In\ Wall\)/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: rockhead-art-trader
+  name: Handlarz sztuką
+  gender: m
+  key: ^WorldText/NPC/Rockhead\ Art\ Trader/
+  source:
+  - keys
+  - original-languages
+  note: Grammatical masculine supported by original language agreement; not a biological
+    assertion. NPC family keys may contain other speakers.
+- id: rockhead
+  name: Kamiennogłowy
+  gender: '?'
+  key: ^WorldText/NPC/Rockhead/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: root-puppet
+  name: Kukła
+  gender: '?'
+  key: ^WorldText/NPC/Root\ Puppet/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: listener
+  name: Słuchacz
+  gender: m
+  key: ^WorldText/NPC/Sad/
+  source:
+  - keys
+  - original-languages
+  note: Grammatical masculine supported by original language agreement; not a biological
+    assertion. NPC family keys may contain other speakers.
+- id: servant-lender
+  name: Pożyczkodawca
+  gender: '?'
+  key: ^WorldText/NPC/Servant\ Lender/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: servant-thread-weaver
+  name: Zszywacz
+  gender: '?'
+  key: ^WorldText/NPC/Servant\ Thread\ Weaver/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: servant
+  name: Sługa
+  gender: '?'
+  key: ^WorldText/NPC/Servant/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: shidra
+  name: Shidra
+  gender: m
+  key: ^WorldText/NPC/Shidra/
+  source:
+  - keys
+  - original-languages
+  note: Grammatical masculine supported by original language agreement; not a biological
+    assertion. NPC family keys may contain other speakers.
+  register: 'Measured protector and maker; morally defensive, then desperate. Male
+    grammatical agreement supported by Heod line: the maker needs his materials.'
+- id: sign
+  name: Malowana płyta
+  gender: '?'
+  key: ^WorldText/NPC/Sign/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: stuck-rockhead
+  name: Uwięziony Kamiennogłowy
+  gender: '?'
+  key: ^WorldText/NPC/Stuck\ Rockhead/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: ted-friends
+  name: Kamiennogłowi
+  gender: '?'
+  key: ^WorldText/NPC/Ted\ Friends/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: yon
+  name: Yon
+  gender: m
+  key: ^WorldText/NPC/Ted/
+  source:
+  - keys
+  - original-languages
+  note: Grammatical masculine supported by original language agreement; not a biological
+    assertion. NPC family keys may contain other speakers.
+  register: Excitable, contemptuous of ugliness; hihi. Later disillusionment does
+    not erase earlier cruelty.
+- id: thoughts
+  name: Myśl
+  gender: n
+  key: ^WorldText/NPC/Thoughts/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: tool-handler
+  name: Opiekun narzędzi
+  gender: '?'
+  key: ^WorldText/NPC/Tool\ Handler/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: undefined
+  name: ' '
+  gender: '?'
+  key: ^WorldText/NPC/Undefined/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: goldhead
+  name: Złotogłowy
+  gender: '?'
+  key: ^WorldText/NPC/Vagabond/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: vase
+  name: Waza
+  gender: '?'
+  key: ^WorldText/NPC/Vase/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: wax-acolyte
+  name: Rzemieślnik
+  gender: '?'
+  key: ^WorldText/NPC/Wax\ Acolyte/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: wax-collector
+  name: Zbieracz wosku
+  gender: '?'
+  key: ^WorldText/NPC/Wax\ Collector/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+- id: whisper-elite
+  name: Szept
+  gender: '?'
+  key: ^WorldText/NPC/Whisper\ Elite/
+  source:
+  - keys
+  note: Speaker family from I2 key; individual scenes can contain other speakers.
+    Grammatical gender is provisional.
+terms:
+- en: Breath
+  pl: Tchnienie
+  forms:
+  - tchnien
+  source: user
+  note: Life principle and healing resource. Rejected Oddech, which is more physiological.
+- en: Vessel
+  pl: Naczynie
+  forms:
+  - naczyn
+  - naczyń
+  source: user
+  note: Preserve the container image. Rejected Powłoka, which loses it.
+- en: Surrogate
+  pl: Surogat
+  forms:
+  - surogat
+  - surogac
+  source: user
+  note: Preserve the unfamiliar world vocabulary. Rejected Zastępca, which sounds
+    like a person/role.
+- en: Force
+  pl: Wigor
+  forms:
+  - wigor
+  source: user
+  note: Stamina resource, distinct from Strength. Literal force in lore can be siła.
+- en: Strength
+  pl: Siła
+  forms:
+  - sił
+  - sile
+  source: decision
+  note: Weapon-scaling attribute; do not conflate with Wigor.
+- en: Mass
+  pl: Masa
+  forms:
+  - mas
+  source: user
+  note: Currency and body matter; literal term accepted with the proposed direction.
+- en: Ardor
+  pl: Żar
+  forms:
+  - żar
+  source: user
+  note: Mass reward multiplier; certain traits also use Ardor thresholds to modify
+    damage (UI/Talents/Ardor damage bonus).
+- en: Hunt Points?
+  pl: Punkty łowów
+  forms:
+  - łow
+  source: user
+  note: Resource spent on traits; accepted as part of the proposed direction.
+- en: Traits?
+  pl: Cechy
+  forms:
+  - cech
+  source: user
+  note: Separate from attributes; some source UI calls them talents.
+- en: Absorb(?:ing)?
+  pl: Pochłoń
+  forms:
+  - pochł
+  source: user
+  note: Timed defensive action; accepted in the direction.
+- en: Dash
+  pl: Zryw
+  forms:
+  - zryw
+  source: decision
+  note: Movement action, distinct from backstep and sprint.
+- en: Carven
+  pl: Rzeźbieni
+  forms:
+  - rzeźb
+  source: decision
+  note: Named group; preserve sculpted-body association. Revisit with full context.
+- en: Worldpillar
+  pl: Filar świata
+  source: keys
+  note: Agent decision from the complete I2 text; creature names and inflected forms
+    follow context.
+  forms:
+  - filar
+- en: Nerveroot
+  pl: Nerwokorzeń
+  source: keys
+  note: Agent decision from the complete I2 text; creature names and inflected forms
+    follow context.
+  forms:
+  - nerwokorz
+- en: Nervepass
+  pl: Nerwoprzejście
+  source: keys
+  note: Agent decision from the complete I2 text; creature names and inflected forms
+    follow context.
+  forms:
+  - nerwoprzej
+- en: Stoneborn
+  pl: Zrodzeni z kamienia
+  source: keys
+  note: Agent decision from the complete I2 text; creature names and inflected forms
+    follow context.
+  forms:
+  - zrodzen
+  - zrodzon
+- en: Formbringers
+  pl: Nadawcy formy
+  source: keys
+  note: Agent decision from the complete I2 text; creature names and inflected forms
+    follow context.
+  forms:
+  - nadawc
+- en: Shapely
+  pl: Kształtny
+  source: keys
+  note: Singular title of Fidus (Sole Shapely prayers); not a people or caste. Corrected
+    after full review.
+  forms:
+  - kształtn
+- en: Otherwhere
+  pl: Innogdzie
+  source: keys
+  note: Agent decision from the complete I2 text; creature names and inflected forms
+    follow context.
+  forms:
+  - innogdzie
+- en: Other
+  pl: Inny
+  source: keys
+  note: Agent decision from the complete I2 text; creature names and inflected forms
+    follow context.
+  forms:
+  - inny
+  - inneg
+  - innem
+  - innym
+  - inną
+  - innym
+  - inne
+  - innej
+  - innymi
+- en: Otherborn
+  pl: Innozrodzeni
+  source: keys
+  note: Agent decision from the complete I2 text; creature names and inflected forms
+    follow context.
+  forms:
+  - innozrodz
+- en: Bondling
+  pl: Więziątko
+  source: keys
+  note: Agent decision from the complete I2 text; creature names and inflected forms
+    follow context.
+  forms:
+  - więziąt
+- en: Bloodmetal
+  pl: krwometal
+  source: keys
+  note: Agent decision from the complete I2 text; creature names and inflected forms
+    follow context.
+  forms:
+  - krwometal
+- en: Stillrock
+  pl: martwoskała
+  source: keys
+  note: Agent decision from the complete I2 text; creature names and inflected forms
+    follow context.
+  forms:
+  - martwoska
+- en: Liverock
+  pl: żywoskała
+  source: keys
+  note: Agent decision from the complete I2 text; creature names and inflected forms
+    follow context.
+  forms:
+  - żywoska
+- en: Endgiver
+  pl: Dawca kresu
+  source: keys
+  note: Agent decision from the complete I2 text; creature names and inflected forms
+    follow context.
+  forms:
+  - dawc
+  - dawco
+- en: Coda
+  pl: Koda
+  source: keys
+  note: 'Grammatical masculine creature name: ten Koda, tego Kody, temu Kodzie; plural
+    Kody, tych Kodów. No biological assertion. Armor set uses Odświętny Koda.'
+  forms:
+  - koda
+  - kody
+  - kodom
+  - kodów
+  - kodzie
+  - kodę
+  - kodą
+- en: Old Pain
+  pl: dawny ból
+  source: keys
+  note: Agent decision from the complete I2 text; creature names and inflected forms
+    follow context.
+  forms:
+  - dawn
+- en: Tarbile
+  pl: smołożółć
+  source: keys
+  note: Agent decision from the complete I2 text; creature names and inflected forms
+    follow context.
+  forms:
+  - smołożół
+- en: Nacre
+  pl: masa perłowa
+  source: keys
+  note: Agent decision from the complete I2 text; creature names and inflected forms
+    follow context.
+  forms:
+  - perłow
+- en: Resonance
+  pl: Rezonans
+  source: keys
+  note: Agent decision from the complete I2 text; creature names and inflected forms
+    follow context.
+  forms:
+  - rezonans
+keep_english:
+- GRIME
+- Yon
+- Levolam
+- Gamma
+- Ultra
+- Lithic
+- Shidra
+- Fidus
+- Heod
+- Vered
+- Vohuw
+- Tehom
+- Akhlan
+- Yonatan
+- Saddenly
+- SkillUp
+- Nick Pochtariov
+- Theodore Kovalev
+- Yonatan Tepperberg
+- Adva Shamo
+- ZzzZggGGzzzz
+- Hmm
+- Bilti-nitan leazira
+- Tivrekhu
+- La'azazel
+- Hihi
+- Hihihihihihihihihi
+settings:
+  dialog_key: ^WorldText/(NPC|SpeechVolume)/
+ignore:
+- check: terms
+  key: UI/TutorialMessages/StaminaText
+  reason: The final quotation uses force literally as siła; the resource itself remains
+    Wigor.
+- check: typography
+  key: ^UI/TutorialMessages/
+  reason: Straight quotes belong to immutable TMP style/sprite attributes; visible
+    quotations use Polish quotes.
+- check: english
+  key: '^WorldText/NPC/Ted/Dialog Term: (NpcMechanism \(1\): Give Item:2|NpcMechanism:
+    Introduction:6)$'
+  reason: Hihi is the same laugh in Polish; markup stays unchanged.
+- check: english
+  key: ^Item/$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: capitals
+  key: ^Item/$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: english
+  key: ^Item/Data_Item_Consumable_Simple/Item_Consumable_Vortex\ Coil\ Name$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: capitals
+  key: ^Item/Data_Item_Consumable_Simple/Item_Consumable_Vortex\ Coil\ Name$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: english
+  key: ^Item/Data_Item_Consumable_Simple/Item_Consumable_Vortex\ Coil\ Short\ Desc$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: capitals
+  key: ^Item/Data_Item_Consumable_Simple/Item_Consumable_Vortex\ Coil\ Short\ Desc$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: english
+  key: ^Item/Data_Item_Consumable_Simple/Item_OLD_Consumable_Checkpoint\ Portal\ Desc$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: capitals
+  key: ^Item/Data_Item_Consumable_Simple/Item_OLD_Consumable_Checkpoint\ Portal\ Desc$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: english
+  key: ^Item/Data_Item_Consumable_Simple/Item_OLD_Consumable_Checkpoint\ Portal\ Name$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: capitals
+  key: ^Item/Data_Item_Consumable_Simple/Item_OLD_Consumable_Checkpoint\ Portal\ Name$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: english
+  key: ^Item/Data_Item_Consumable_Simple/Item_OLD_Consumable_Enchant\ Weapon_Fiery\
+    Desc$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: capitals
+  key: ^Item/Data_Item_Consumable_Simple/Item_OLD_Consumable_Enchant\ Weapon_Fiery\
+    Desc$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: english
+  key: ^Item/Data_Item_Consumable_Simple/Item_OLD_Consumable_Large\ Cluster\ Desc$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: capitals
+  key: ^Item/Data_Item_Consumable_Simple/Item_OLD_Consumable_Large\ Cluster\ Desc$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: english
+  key: ^Item/Data_Item_Consumable_Simple/Item_OLD_Consumable_Large\ Cluster\ Name$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: capitals
+  key: ^Item/Data_Item_Consumable_Simple/Item_OLD_Consumable_Large\ Cluster\ Name$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: english
+  key: ^Item/Data_Item_Consumable_Simple/Item_OLD_Consumable_Medium\ Cluster\ Desc$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: capitals
+  key: ^Item/Data_Item_Consumable_Simple/Item_OLD_Consumable_Medium\ Cluster\ Desc$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: english
+  key: ^Item/Data_Item_Consumable_Simple/Item_OLD_Consumable_Medium\ Cluster\ Name$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: capitals
+  key: ^Item/Data_Item_Consumable_Simple/Item_OLD_Consumable_Medium\ Cluster\ Name$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: english
+  key: ^Item/Data_Item_Consumable_Simple/Item_OLD_Consumable_Protection\ Desc$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: capitals
+  key: ^Item/Data_Item_Consumable_Simple/Item_OLD_Consumable_Protection\ Desc$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: english
+  key: ^Item/Data_Item_Consumable_Simple/Item_OLD_Consumable_Protection\ Name$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: capitals
+  key: ^Item/Data_Item_Consumable_Simple/Item_OLD_Consumable_Protection\ Name$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: english
+  key: ^Item/Data_Item_Consumable_Simple/Item_OLD_Consumable_Reform\ Desc$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: capitals
+  key: ^Item/Data_Item_Consumable_Simple/Item_OLD_Consumable_Reform\ Desc$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: english
+  key: ^Item/Data_Item_Consumable_Simple/Item_OLD_Consumable_Reform\ Name$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: capitals
+  key: ^Item/Data_Item_Consumable_Simple/Item_OLD_Consumable_Reform\ Name$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: english
+  key: ^Item/Data_Item_Consumable_Simple/Item_OLD_Consumable_Small\ Cluster\ Desc$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: capitals
+  key: ^Item/Data_Item_Consumable_Simple/Item_OLD_Consumable_Small\ Cluster\ Desc$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: english
+  key: ^Item/Data_Item_Consumable_Simple/Item_OLD_Consumable_Small\ Cluster\ Name$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: capitals
+  key: ^Item/Data_Item_Consumable_Simple/Item_OLD_Consumable_Small\ Cluster\ Name$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: english
+  key: ^Item/Data_Item_Consumable_Simple/Item_OLD_Consumable_Unformed\ Mass\ Large\
+    Desc$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: capitals
+  key: ^Item/Data_Item_Consumable_Simple/Item_OLD_Consumable_Unformed\ Mass\ Large\
+    Desc$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: english
+  key: ^Item/Data_Item_Consumable_Simple/Item_OLD_Consumable_Unformed\ Mass\ Large\
+    Name$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: capitals
+  key: ^Item/Data_Item_Consumable_Simple/Item_OLD_Consumable_Unformed\ Mass\ Large\
+    Name$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: english
+  key: ^Item/Data_Item_Consumable_Simple/Item_OLD_Consumable_Unformed\ Mass\ Medium\
+    Desc$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: capitals
+  key: ^Item/Data_Item_Consumable_Simple/Item_OLD_Consumable_Unformed\ Mass\ Medium\
+    Desc$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: english
+  key: ^Item/Data_Item_Consumable_Simple/Item_OLD_Consumable_Unformed\ Mass\ Medium\
+    Name$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: capitals
+  key: ^Item/Data_Item_Consumable_Simple/Item_OLD_Consumable_Unformed\ Mass\ Medium\
+    Name$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: english
+  key: ^Item/Data_Item_Consumable_Simple/Item_OLD_Consumable_Unformed\ Mass\ Tiny\
+    Desc$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: capitals
+  key: ^Item/Data_Item_Consumable_Simple/Item_OLD_Consumable_Unformed\ Mass\ Tiny\
+    Desc$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: english
+  key: ^Item/Data_Item_Consumable_Simple/Item_OLD_Consumable_Unformed\ Mass\ Tiny\
+    Name$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: capitals
+  key: ^Item/Data_Item_Consumable_Simple/Item_OLD_Consumable_Unformed\ Mass\ Tiny\
+    Name$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: english
+  key: ^Item/Data_Item_Consumable_Throwable/Item_Consumable_Volatile\ Egg\ Desc$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: capitals
+  key: ^Item/Data_Item_Consumable_Throwable/Item_Consumable_Volatile\ Egg\ Desc$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: english
+  key: ^Item/Data_Item_Simple_Special/Special_Estus\ Flask\ Desc$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: capitals
+  key: ^Item/Data_Item_Simple_Special/Special_Estus\ Flask\ Desc$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: english
+  key: ^UI/$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: capitals
+  key: ^UI/$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: english
+  key: ^WorldText/$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: capitals
+  key: ^WorldText/$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: english
+  key: ^WorldText/NPC/Rockbed\ Trader/Dialog\ Term:\ NPC_Rockbed\ Lithic\ trader:\
+    Trade:1$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: capitals
+  key: ^WorldText/NPC/Rockbed\ Trader/Dialog\ Term:\ NPC_Rockbed\ Lithic\ trader:\
+    Trade:1$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: english
+  key: ^WorldText/NPC/Undefined/Npc\ Name$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: capitals
+  key: ^WorldText/NPC/Undefined/Npc\ Name$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: english
+  key: ^WorldText/SpeechVolume/Speech\ Term:\ NPC_SB_BossPainter1:1$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: capitals
+  key: ^WorldText/SpeechVolume/Speech\ Term:\ NPC_SB_BossPainter1:1$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: english
+  key: ^WorldText/SpeechVolume/Speech\ Term:\ NPC_SB_BossPainter2:2$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: capitals
+  key: ^WorldText/SpeechVolume/Speech\ Term:\ NPC_SB_BossPainter2:2$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: english
+  key: ^WorldText/SpeechVolume/Speech\ Term:\ NPC_SB_BossPainter3:1$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: capitals
+  key: ^WorldText/SpeechVolume/Speech\ Term:\ NPC_SB_BossPainter3:1$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: english
+  key: ^WorldText/SpeechVolume/Speech\ Term:\ NPC_SB_Servant\ Cage\ Watcher\ \-\ sit\
+    2:2$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: capitals
+  key: ^WorldText/SpeechVolume/Speech\ Term:\ NPC_SB_Servant\ Cage\ Watcher\ \-\ sit\
+    2:2$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: english
+  key: ^WorldText/SpeechVolume/Speech\ Term:\ Painter_Speech\ Text\ 2:2$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: capitals
+  key: ^WorldText/SpeechVolume/Speech\ Term:\ Painter_Speech\ Text\ 2:2$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: english
+  key: ^WorldText/SpeechVolume/Speech\ Term:\ Volume_NPC_Speech\ Bubble\ Text\ \(1\):1$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: capitals
+  key: ^WorldText/SpeechVolume/Speech\ Term:\ Volume_NPC_Speech\ Bubble\ Text\ \(1\):1$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: english
+  key: ^WorldText/SpeechVolume/Speech\ Term:\ Volume_NPC_Speech\ Bubble\ Text\ \(2\):1$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: capitals
+  key: ^WorldText/SpeechVolume/Speech\ Term:\ Volume_NPC_Speech\ Bubble\ Text\ \(2\):1$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: english
+  key: ^WorldText/SpeechVolume/Speech\ Term:\ Volume_NPC_Speech\ Bubble\ Text:1$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: capitals
+  key: ^WorldText/SpeechVolume/Speech\ Term:\ Volume_NPC_Speech\ Bubble\ Text:1$
+  reason: Original developer identifier or empty source, deliberately retained verbatim.
+- check: terms
+  key: ^UI/TutorialMessages/FetalPearlText$
+  reason: Breath only appears in the immutable style attribute.
+- check: terms
+  key: ^UI/Talents/Ability\ to\ Sprint/Bonus\ Text$
+  reason: Dash only appears in the immutable action attribute; visible instruction
+    is sprint.
+- check: terms
+  key: ^Bestiary/Lurker\ Shell/Desc$
+  reason: Force is a verb, not the stamina resource.
+- check: terms
+  key: ^Bestiary/Spear\ Sentry/Desc$
+  reason: Force is physical impact, not the stamina resource.
+- check: terms
+  key: ^Item/Data_Item_Equipable_Weapon_Melee/Item_Weapon_Finger\ Blade\ Desc$
+  reason: A mass of fingers is ordinary quantity, not the Mass resource.
+- check: terms
+  key: ^WorldText/NPC/Root\ Puppet/Dialog\ Term:\ NPC\ Root\ puppet\ \-\ Lower\ elevator:\
+    Lower\ Elevator\ A:0$
+  reason: Lowercase breath is literal breathing in the suffocation contrast.
+- check: terms
+  key: ^WorldText/NPC/Lackey/Dialog\ Term:\ NPC_Collector2_PreShidra:\ CollectorAtShidra\
+    1:1$
+  reason: Brute force is physical force, not stamina.
+- check: terms
+  key: ^WorldText/NPC/Shidra/Dialog\ Term:\ Npc\ Shidra\ Vulture\ dead:\ :\ Initial:6$
+  reason: Force is philosophical destructive power, not stamina.
+- check: terms
+  key: ^WorldText/NPC/Vagabond/Dialog\ Term:\ NPC_Gold\ mask\ 2\ After\ Nerveroot\
+    interaction:\ Goldhead\ \-\ Nest\ 2:2$
+  reason: Force is philosophical destructive power, not stamina.
+pitfalls:
+- Force is stamina in mechanics, but literal force/siła in philosophical dialogue.
+- DLC and legacy unused terms are still included. Developer IDs and credits remain
+  verbatim with notes.
+- Hebrew/transliterated words in memories and Child/Shidra dialogue remain verbatim;
+  do not add lore explanations.
+- Source sometimes has malformed tags (<i> used as closer, <>j). Preserve exact tokens;
+  do not silently repair engine syntax.
+- Numeric suffixes must be sorted numerically, not lexically. Different branches are
+  separate sequences.
+- Characters mistake the protagonist for a Carven. Preserve mistaken identity; do
+  not explain early.
+- NPC grammatical genders are provisional editorial choices, not established biological
+  identities. Avoid past tense for the silent player where natural.
+- Unknown exact clipping limits; long descriptions need in-game checks, not automatic
+  shortening.

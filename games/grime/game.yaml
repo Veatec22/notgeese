@@ -1,0 +1,25 @@
+slug: grime
+title: GRIME
+version: "0.2"
+entries: { done: 2648, total: 2648 }
+tested: partial
+engine: Unity 2021.3.30f1
+approach: Osobny język Polski dodany do I2. Łatka różnicowa, ponieważ okrojony runtime uniemożliwia użycie BepInEx i Harmony.
+scope: Pełny tekst — menu, ustawienia, HUD, samouczki, wyposażenie, bestiariusz, dialogi i dodatki, także Nowa gra+.
+tested_on:
+  - store: gog
+    version: "1.3.5"
+year: 2021
+steam_appid: 1123050
+stores:
+  steam: https://store.steampowered.com/app/1123050/
+  gog: https://www.gog.com/en/game/grime
+quote:
+  text:
+  source:
+gallery: [1, 2, 3, 4, 5]
+download:
+  kind: zip
+  file: GRIME-PL-0.2-latka.zip
+  bytes: 1225849
+test_notes: User confirmed the opening vertical works on GOG 1.3.5 on 2026-10-04. Full text requires a playthrough; file reinjection and C# apply/restore verified.
