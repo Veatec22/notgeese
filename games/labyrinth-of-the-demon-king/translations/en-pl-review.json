@@ -9091,5 +9091,63 @@
     "context": "Movies/OpeningText_001.bk2 54.8-60.4 s",
     "status": "vertical-confirmed",
     "notes": "Pod logo z filmu; dopełnia zdanie z planszy 06 („by wejść do…”)."
+  },
+  {
+    "key": "UI_GameOverScreen/DEATH",
+    "namespace": "Hardcoded",
+    "english": "DEATH",
+    "polish": "ŚMIERĆ",
+    "context": "Blueprints/Widgets/GameOver/UI_GameOverScreen (culture-invariant text in the widget, replaced by plugin/main.lua)",
+    "status": "translated"
+  },
+  {
+    "key": "UI_GameOverScreen/REVIVE",
+    "namespace": "Hardcoded",
+    "english": "R E V I V E ",
+    "polish": "P O W S T A Ń ",
+    "context": "Blueprints/Widgets/GameOver/UI_GameOverScreen (culture-invariant text in the widget, replaced by plugin/main.lua)",
+    "status": "translated",
+    "notes": "Litery rozstrzelone spacjami jak w oryginale; tryb rozkazujący pasuje do samurajskiego tonu."
+  },
+  {
+    "key": "UI_FinalCredits/THANKS",
+    "namespace": "Hardcoded",
+    "english": "THANK YOU FOR PLAYING!",
+    "polish": "DZIĘKUJEMY ZA GRĘ!",
+    "context": "Blueprints/Widgets/UI_FinalCredits (culture-invariant text in the widget, replaced by plugin/main.lua)",
+    "status": "translated"
+  },
+  {
+    "key": "UI_MainMenuCredits/EXIT",
+    "namespace": "Hardcoded",
+    "english": "EXIT",
+    "polish": "WYJŚCIE",
+    "context": "Blueprints/Widgets/MainMenu/UI_MainMenuCredits (culture-invariant text in the widget, replaced by plugin/main.lua)",
+    "status": "translated",
+    "notes": "Jak EXIT w pozostałych menu."
+  },
+  {
+    "key": "UI_DefaultLoadingScreen/Loading",
+    "namespace": "Hardcoded",
+    "english": "Loading",
+    "polish": "Wczytywanie",
+    "context": "Blueprints/Widgets/LoadingScreen/UI_DefaultLoadingScreen (culture-invariant text in the widget, replaced by plugin/main.lua)",
+    "status": "translated"
+  },
+  {
+    "key": "BP_Puzzle_ItemSocket_SkywalkSlot_Base/InteractMessage",
+    "namespace": "Hardcoded",
+    "english": "There is an empty socket with space for a circular object.",
+    "polish": "Puste gniazdo. Jest w nim miejsce na okrągły przedmiot.",
+    "context": "Blueprints/Puzzles/T4_SkywalkPuzzle/BP_Puzzle_ItemSocket_SkywalkSlot_Base: InteractMessage; source at IoStore chunk offset 7415; user screenshot 2026-10-04",
+    "status": "translated"
+  },
+  {
+    "key": "BP_OpeningDoor_TowerCorridor_PaintedDoor_001/ReturnInteractText",
+    "namespace": "Hardcoded",
+    "english": "The painting depicts Dainichi Nyorai, one of the Five Wisdom Buddhas.",
+    "polish": "Obraz przedstawia Dainichi Nyorai, jednego z Pięciu Buddów Mądrości.",
+    "context": "Blueprints/Interactables/Doors/InteractiveDoors/Corridors/BP_OpeningDoor_TowerCorridor_PaintedDoor_001: ReturnInteractText; source at IoStore chunk offset 10143; user screenshot 2026-10-04",
+    "status": "translated"
   }
 ]

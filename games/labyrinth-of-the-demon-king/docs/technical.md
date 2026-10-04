@@ -99,3 +99,24 @@ locres round-trip, tags, CRLF and localization-only containers. `test_overlay.py
 `tools/check_games.ts` and site build passed. These are file checks; no game was launched or
 installed and no new in-game result is claimed. Next: user campaign/layout checks and unresolved
 editorial choices listed in decisions; keep current text until those are settled.
+
+## Translation release 0.5 (2026-10-04)
+
+Seven culture-invariant entries in namespace Hardcoded supplement 1120 locres entries
+and seven OpeningText subtitles: death/revive, credits exit/thanks, loading, the Skywalk
+socket and the painted corridor door. The build generates texts.lua. Exact English matches
+are replaced only while the relevant widget or actor exists; UI entries remain scoped to
+their owner, while actor messages use shared HUD TextBlocks. Reused blocks can display
+several messages or repeat one. The two interaction sources were verified in their actor
+Blueprints (chunk offsets 7415 and 10143); see decisions for Polish wording.
+
+Periodic translation polling uses LoopInGameThreadWithDelay instead of LoopAsync followed
+by ExecuteInGameThread. The installed UE4SS build exposes this scheduler. This removes
+repeated cross-thread scheduling; it is not proof of a native-crash fix. Local sessions
+with personal QoL still produced a later native UE4SS crash; the responsible property or
+mod is unresolved. The public package includes only notgeesePL and no diagnostic probes.
+
+The Lua interaction regression and archive/overlay verification pass. Release 0.5 is copied
+to site/public/pobierz; original game files are only read. Intro subtitles and the initial
+vertical were previously confirmed by the user. The latest socket/painted-door messages,
+long-session stability and the full campaign still need in-game confirmation.

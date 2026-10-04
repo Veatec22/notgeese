@@ -139,6 +139,13 @@ All proposals remain open; current text kept. Evidence is the source entry and l
 
 ## Check in game
 
+2026-10-04 screenshot corrections: culture-invariant Skywalk socket text becomes
+„Puste gniazdo. Jest w nim miejsce na okrągły przedmiot.”, consistent with the existing
+socket entry. Painted corridor door becomes „Obraz przedstawia Dainichi Nyorai, jednego
+z Pięciu Buddów Mądrości.”; retain the source name and its five-member grouping. Both
+English strings verified in their defining actor Blueprints, not inferred from screenshots
+alone. Stored in Hardcoded; confirm both shared-HUD messages in game after installation.
+
 No new screenshots or playthrough evidence. Test with 0.3:
 
 1. Merchant pantry exchange: “Widziałaś”, feminine response, both choices about one prisoner.

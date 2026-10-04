@@ -34,7 +34,7 @@
 #include <vector>
 #include "MinHook.h"
 
-static const char* kVersion = "0.1";
+static const char* kVersion = "0.2";
 
 static HMODULE selfModule;
 static std::wstring root;       // game dir (where our d3d9.dll lives)

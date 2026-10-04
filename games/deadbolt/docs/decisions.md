@@ -29,6 +29,13 @@ with a heart / ambition / desire…, cannot live with me" returns 8 times. "Knoc
 
 ## Agent decisions
 
+- Purchase notification texture: "NEW WEAPON" → "NOWA BROŃ" (2026-10-04, user report).
+  `sNewWeapon` frame 0; existing color erase/mask method, lower weapon-name plate untouched.
+
+- Charon's texture headings: "WEAPON UPGRADE" → "ULEPSZ BROŃ", "PRIMARY" → "GŁÓWNA",
+  "SECONDARY" → "DODATKOWA" (2026-10-03, reported untranslated in game). Labels patched in
+  memory with existing color erase/mask recipes; no publisher texture included in package.
+
 - UI hints imperative in caps as in EN (`&y&'E'&!&: OTWÓRZ SEJF`); menus sentence case
   ("Powrót do gry", "Wyjdź do menu głównego"); "Wł./Wył."; "Diegetic Music" → "Muzyka z otoczenia".
 - Mission titles adapted where punned: "Dead Simple" → "Śmiertelnie proste", "New High" → "Nowy

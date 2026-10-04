@@ -15,7 +15,7 @@ def main():
         base=stage/PAKS/STEM
         _,files=pak.read(base.with_suffix('.pak').read_bytes());pl=files[PL_PATH]
         store=Store(base);widget=store.read(store.paths[PATH])
-        mod=mod_payload(RUNTIME,split(load_entries(ROOT))[1])
+        _,subtitles,hardcoded=split(load_entries(ROOT));mod=mod_payload(RUNTIME,subtitles,hardcoded)
         validate_payload(stage,pl,widget,mod)
         # A hidden game asset inside an otherwise correctly named PAK must fail.
         good_pak=base.with_suffix('.pak').read_bytes()

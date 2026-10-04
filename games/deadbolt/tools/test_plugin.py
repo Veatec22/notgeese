@@ -174,7 +174,7 @@ def main():
             failures += 1
         checked += 1
     print(f'Labeled graphics: {checked} frames match the recipe' if not failures else '')
-    failures += 'Labels: 15 drawn, 0 left' not in log
+    failures += f'Labels: {len(labels.LABELS)} drawn, 0 left' not in log
 
     # Dialogue through the redirect.
     redirected = WORK / 'out-dia_fp.json'

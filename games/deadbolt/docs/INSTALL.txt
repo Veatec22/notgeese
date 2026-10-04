@@ -1,10 +1,11 @@
-DEADBOLT PL 0.1 — WERSJA TESTOWA PEŁNEGO SPOLSZCZENIA
+DEADBOLT PL 0.2 — WERSJA TESTOWA PEŁNEGO SPOLSZCZENIA
 
 Po polsku jest cała gra: menu główne i pauzy, ustawienia i sterowanie, wybór
 misji i ich opisy, podpowiedzi, cele, broń i jej opisy, osiągnięcia, okrzyki
 wrogów i bossów, wszystkie rozmowy z płomieniami, notatki i sejfy, nagrania
 z kaset, porady po śmierci, napisy końcowe oraz napisy narysowane na grafikach
-(przyciski menu głównego, samouczek, przycisk "Wstecz" i teczka misji).
+(przyciski menu głównego, samouczek, przycisk "Wstecz", teczka misji,
++nagłówki sklepu Charona i powiadomienie o nowej broni).
 
 Nazwy gangów (Zombie Kingz, 1000 Year Royals, The Dredged) i imiona postaci
 zostają w oryginale. Fonty gry nie mają polskich cudzysłowów ani półpauzy,

@@ -111,3 +111,16 @@ state; `work/harness/render.png` is a render from dumped structures, not proof o
   one candidate, buffer 0x30 after region start, only CODE differs.
 - Full translation: `review.py` 0 problems, plugin test OK (460 STRG strings, all dialogue, 253 ms);
   installed locally. Full playthrough pending (see `docs/decisions.md`, Check in game).
+
+## Translation release 0.2 (2026-10-04)
+
+Added texture-label recipes for Charon's sUpgradeWeapon frames 0/1/2:
+ULEPSZ BROŃ, GŁÓWNA, DODATKOWA; sNewWeapon frame 0: NOWA BROŃ.
+The lower dynamic weapon-name plate is unchanged. Recipes erase matching colors and
+draw our masks in memory; no publisher textures are shipped. Source frames and previews
+were inspected during local correction work. The release contains translation only.
+Build and no-game harness verification cover all 19 label recipes and 11 sprite frames,
+STRG, Polish glyphs and redirected dialogue. ZIP published in site/public/pobierz.
+These are file/memory checks; purchase notification rendering and full playthrough remain
+pending. Next: buy a weapon, confirm NOWA BROŃ and the weapon name below; check Charon's
+three headings. No game was launched or installed for this release.

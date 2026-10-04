@@ -1,14 +1,14 @@
 slug: labyrinth-of-the-demon-king
 title: Labyrinth of the Demon King
-version: "0.4"
+version: '0.5'
 entries:
   done: 1120
   total: 1120
 tested: partial
 engine: Unreal Engine 4.27 (PAK v11 + IoStore v3)
-approach: Nakładkowy PAK z tekstami PL, minimalny IoStore selektora oraz UE4SS ze skryptem
-  wyświetlającym polskie napisy pod tekstem filmu wprowadzającego; oryginalne pliki gry
-  pozostają nietknięte.
+approach: Nakładkowy PAK z tekstami PL, minimalny IoStore selektora oraz UE4SS ze
+  skryptem wyświetlającym polskie napisy pod tekstem filmu wprowadzającego; oryginalne
+  pliki gry pozostają nietknięte.
 scope: menu, sterowanie, dialogi, opisy przedmiotów, notatki i napisy do filmu wprowadzającego
 tested_on:
 - store: gog
@@ -19,9 +19,16 @@ stores:
   gog: https://www.gog.com/en/game/labyrinth_of_the_demon_king
 download:
   kind: zip
-  file: Labyrinth-of-the-Demon-King-PL-0.4.zip
-  bytes: 8784637
-test_notes: Vertical confirmed in game by the user (separate Polski, switching, saved choice, fonts, samples). Full translation independently reviewed (1120/1120); 18 corrections applied in 0.3; overlay and archive tests passed. 0.4 adds Polish subtitles under the burned-in intro movie text (UE4SS + Lua), confirmed in game by the user. Campaign and long-text layout not played.
+  file: Labyrinth-of-the-Demon-King-PL-0.5.zip
+  bytes: 8786113
+test_notes: Vertical confirmed in game by the user (separate Polski, switching, saved
+  choice, fonts, samples). Full translation independently reviewed (1120/1120); 18
+  corrections applied in 0.3; overlay and archive tests passed. 0.4 adds Polish subtitles
+  under the burned-in intro movie text (UE4SS + Lua), confirmed in game by the user.
+  Campaign and long-text layout not played. 0.5 adds seven culture-invariant UI/interaction
+  messages; latest two screenshot corrections are installed but await in-game confirmation.
+  Periodic translation polling now runs directly on the game thread; crash stability
+  remains under investigation.
 gallery:
 - 10
 - 1

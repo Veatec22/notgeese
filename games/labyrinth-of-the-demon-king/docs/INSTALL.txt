@@ -1,8 +1,10 @@
-LABYRINTH OF THE DEMON KING PL 0.4 — WERSJA TESTOWA
+LABYRINTH OF THE DEMON KING PL 0.5 — WERSJA TESTOWA
 
 1120 z 1120 wpisów lokalizacji: menu, ustawienia, sterowanie, dialogi,
 samouczki, notatki, opisy przedmiotów, mapy, osiągnięcia i komunikaty.
-Do tego polskie napisy pod angielskim tekstem filmu wprowadzającego (tekst jest
+Do tego siedem komunikatów i napisów pomijanych przez standardową lokalizację
++(ekran śmierci, wczytywanie, napisy końcowe i dwie interakcje w świecie)
++oraz polskie napisy pod angielskim tekstem filmu wprowadzającego (tekst jest
 wtopiony w obraz, więc polski pojawia się pod nim, plansza po planszy).
 Nazwy własne, oznaczenia kontrolerów i część odgłosów celowo pozostają bez zmian.
 Zakres nie obejmuje napisów w teksturach, nagrań głosowych ani tekstów sklepu.
@@ -51,7 +53,7 @@ zapamiętanie wyboru, polskie znaki i teksty w grze. Sprawdzono pliki i archiwum
 pełnego przekładu. Niezależna recenzja objęła wszystkie 1120 wpisów; w wersji
 0.3 poprawiono 18 wpisów. Napisy do filmu wprowadzającego (0.4) sprawdzone
 w grze przez użytkownika. Nie wykonano pełnego przejścia kampanii po polsku.
-Log napisów: Shinigami/Binaries/Win64/ue4ss/UE4SS.log (linie [notgeesePL 0.4]).
+Log skryptu: Shinigami/Binaries/Win64/ue4ss/UE4SS.log (linie [notgeesePL 0.5]).
 
 POZOSTAŁY PRZEGLĄD W GRZE
 Sprawdź dłuższe dialogi, opisy piekieł, wskazówki zagadek i nazwy na mapach.

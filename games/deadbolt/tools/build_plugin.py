@@ -22,7 +22,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT.parents[1] / 'tools'))
 
 from translations import load_entries  # noqa: E402
-VERSION = '0.1'
+VERSION = '0.2'
 PACKAGE = f'Deadbolt-PL-{VERSION}.zip'
 FILES = ['d3d9.dll', 'notgeese/pl.tsv', 'notgeese/fonts.txt', 'notgeese/labels.txt', 'notgeese/LICENSE-MINHOOK.txt',
          'READ-ME.txt']

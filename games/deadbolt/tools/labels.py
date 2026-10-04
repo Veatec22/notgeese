@@ -44,6 +44,20 @@ def rgba(h: str):
 # (or `fill`), the area the new text may occupy, PL text, style, cap height,
 # text center (or `left`), letter spacing, color.
 LABELS = [
+    # Purchase notification header; the lower plate is populated by the game.
+    dict(sprite='sNewWeapon', frame=0, rect=(50, 12, 122, 20), bg='e1e1d7', inks=['777573'],
+         area=(37, 10, 131, 23), text='NOWA BROŃ', style=SERIF, cap=9,
+         center=(84, 16.5), spacing=0, color='777573'),
+    # Charon's weapon shop: three headers are texture text, not STRG entries.
+    dict(sprite='sUpgradeWeapon', frame=0, rect=(9, 10, 115, 21), bg='e1e1d7', inks=['777573'],
+         area=(9, 9, 115, 22), text='ULEPSZ BROŃ', style=SERIF, cap=9,
+         center=(62, 15.5), spacing=0, color='777573'),
+    dict(sprite='sUpgradeWeapon', frame=1, rect=(16, 10, 68, 21), bg='e1e1d7', inks=['777573'],
+         area=(9, 9, 79, 22), text='GŁÓWNA', style=SERIF, cap=10,
+         center=(44, 15.5), spacing=0, color='777573'),
+    dict(sprite='sUpgradeWeapon', frame=2, rect=(9, 10, 78, 21), bg='e1e1d7', inks=['777573'],
+         area=(9, 9, 79, 22), text='DODATKOWA', style=SERIF, cap=7,
+         center=(44, 15.5), spacing=-0.5, color='777573'),
     # Main menu: one 960×540 image, every button in a different style.
     dict(sprite='sMain', frame=0, rect=(146, 108, 277, 125), bg='dcd2b4', inks=['5b4444', '9e7c7c', 'baa69e'],
          area=(120, 106, 298, 127), text='NOWA GRA', style=TYPEWRITER, cap=12, center=(211, 116.5), spacing=5,
