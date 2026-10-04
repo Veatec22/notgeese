@@ -151,7 +151,9 @@ Invoke-WebRequest "https://kulwhymoxgaiqpipwbav.supabase.co/storage/v1/object/pu
 ## Tests
 
 The game picker supports grid/list layouts (browser preference `game-layout`) and live
-filtering by title or slug. The filter stays in the tab while opening games and returning
+filtering by title or slug and major version (all, ready 1.x, working 0.x). Version 1.x
+cards have a distinct background and a ready label; this uses game.yaml version, not catalog
+status. Filters stay in the tab while opening games and returning
 to the picker. Polish translation fields fit their full text on render, edit and window resize.
 
 - `npx -y deno test --allow-read --allow-env=NOTGEESE_GITHUB_TOKEN supabase/functions/tests/`:

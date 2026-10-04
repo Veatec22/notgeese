@@ -51,6 +51,7 @@ let mode = preference<Mode>('mode', ['A', 'B', 'C'], 'A');
 let onlyPl = preference('only-pl', ['1', '0'], '0') === '1';
 let gameLayout = preference('game-layout', ['grid', 'list'], 'grid');
 let gameQuery = '';
+let gameVersionFilter = 'all';
 let busy = false;
 let pendingSave: { requestId: string; fingerprint: string } | null = null;
 let toastTimer: number | undefined;
@@ -156,6 +157,9 @@ function renderList() {
     ${store && !store.working ? notice('Przeglądarka nie pozwala zapisać szkiców. Będą tylko w pamięci karty.', 'warn') : ''}
     <div class="ws-game-controls"><label class="ws-game-search">${icon('search')}<span class="ng-visually-hidden">Szukaj gry</span>
       <input id="ws-game-search" type="search" placeholder="Szukaj gry…" value="${esc(gameQuery)}"></label>
+      <label><span class="ng-visually-hidden">Filtr wersji</span><select id="ws-game-version">
+        ${[['all', 'Wszystkie wersje'], ['1', 'Gotowe (1.x)'], ['0', 'Robocze (0.x)']].map(([value, label]) => `<option value="${value}" ${gameVersionFilter === value ? 'selected' : ''}>${label}</option>`).join('')}
+      </select></label>
       <span id="ws-game-count" class="ws-muted" role="status"></span>
       <div class="ws-actions" role="group" aria-label="Układ gier">
         <button type="button" data-action="game-layout" data-layout="grid" aria-pressed="${gameLayout === 'grid'}">${icon('grid')} Kafelki</button>
@@ -165,7 +169,8 @@ function renderList() {
     games.map((game) => {
       const drafts = counts.get(game.slug) ?? 0;
       const last = opened.get(game.slug);
-      return `<a class="ws-game ng-card" href="?gra=${encodeURIComponent(game.slug)}" data-action="open" data-game="${esc(game.slug)}"><div class="ws-overline">${esc(game.version)} · ${game.entries} wpisów</div>
+      const majorVersion = game.version.split('.')[0];
+      return `<a class="ws-game ng-card" href="?gra=${encodeURIComponent(game.slug)}" data-action="open" data-game="${esc(game.slug)}" data-version-major="${esc(majorVersion)}"><div class="ws-overline">${esc(game.version)} · ${game.entries} wpisów${majorVersion === '1' ? ' · gotowe' : ''}</div>
         <div class="ws-game-heading"><img class="ws-game-icon" src="${esc(SUPABASE_URL)}/storage/v1/object/public/game-icons/${encodeURIComponent(game.slug)}.png?v=3" width="48" height="48" alt="" loading="lazy" decoding="async"><h2>${esc(game.title)}</h2></div>
         ${drafts ? `<span class="ws-draft-badge">Niezapisane szkice: ${drafts}</span>` : ''}
         <p class="ws-muted">${last ? `Ostatnio otwarta ${esc(formatDate(last))}` : 'Jeszcze nie otwierana'}</p></a>`;
@@ -179,7 +184,8 @@ function filterGames() {
   let count = 0;
   for (const card of root.querySelectorAll<HTMLElement>('.ws-game')) {
     const title = card.querySelector('h2')?.textContent ?? '';
-    card.hidden = !`${title} ${card.dataset.game}`.toLocaleLowerCase('pl').includes(search);
+    card.hidden = !`${title} ${card.dataset.game}`.toLocaleLowerCase('pl').includes(search) ||
+      (gameVersionFilter !== 'all' && card.dataset.versionMajor !== gameVersionFilter);
     if (!card.hidden) count++;
   }
   const summary = root.querySelector('#ws-game-count');
@@ -858,6 +864,11 @@ function handleInput(event: Event) {
 
 function handleChange(event: Event) {
   const target = event.target as HTMLSelectElement;
+  if (target.id === 'ws-game-version') {
+    gameVersionFilter = target.value;
+    filterGames();
+    return;
+  }
   if (target.id === 'ws-page-size') {
     pageSize = Number(target.value) as (typeof PAGE_SIZES)[number];
     setPreference('page-size', pageSize);
