@@ -49,6 +49,8 @@ let focusId: string | null = null;
 let pageSize = preference('page-size', PAGE_SIZES, 50);
 let mode = preference<Mode>('mode', ['A', 'B', 'C'], 'A');
 let onlyPl = preference('only-pl', ['1', '0'], '0') === '1';
+let gameLayout = preference('game-layout', ['grid', 'list'], 'grid');
+let gameQuery = '';
 let busy = false;
 let pendingSave: { requestId: string; fingerprint: string } | null = null;
 let toastTimer: number | undefined;
@@ -152,7 +154,14 @@ function renderList() {
   root.innerHTML = `<div class="ws-top"><div><h1>Pracownia</h1></div>
     <div class="ws-actions"><span class="ws-muted">${esc(email)}</span><button type="button" data-action="sign-out">${icon('logout')} Wyloguj</button></div></div>
     ${store && !store.working ? notice('Przeglądarka nie pozwala zapisać szkiców. Będą tylko w pamięci karty.', 'warn') : ''}
-    <div class="ws-game-list">${
+    <div class="ws-game-controls"><label class="ws-game-search">${icon('search')}<span class="ng-visually-hidden">Szukaj gry</span>
+      <input id="ws-game-search" type="search" placeholder="Szukaj gry…" value="${esc(gameQuery)}"></label>
+      <span id="ws-game-count" class="ws-muted" role="status"></span>
+      <div class="ws-actions" role="group" aria-label="Układ gier">
+        <button type="button" data-action="game-layout" data-layout="grid" aria-pressed="${gameLayout === 'grid'}">${icon('grid')} Kafelki</button>
+        <button type="button" data-action="game-layout" data-layout="list" aria-pressed="${gameLayout === 'list'}">${icon('list')} Lista</button>
+      </div></div>
+    <div class="ws-game-list" data-layout="${gameLayout}">${
     games.map((game) => {
       const drafts = counts.get(game.slug) ?? 0;
       const last = opened.get(game.slug);
@@ -161,7 +170,22 @@ function renderList() {
         ${drafts ? `<span class="ws-draft-badge">Niezapisane szkice: ${drafts}</span>` : ''}
         <p class="ws-muted">${last ? `Ostatnio otwarta ${esc(formatDate(last))}` : 'Jeszcze nie otwierana'}</p></a>`;
     }).join('')
-  }</div>`;
+  }</div><p class="ws-empty" id="ws-game-empty" hidden>Brak gier pasujących do wyszukiwania.</p>`;
+  filterGames();
+}
+
+function filterGames() {
+  const search = gameQuery.trim().toLocaleLowerCase('pl');
+  let count = 0;
+  for (const card of root.querySelectorAll<HTMLElement>('.ws-game')) {
+    const title = card.querySelector('h2')?.textContent ?? '';
+    card.hidden = !`${title} ${card.dataset.game}`.toLocaleLowerCase('pl').includes(search);
+    if (!card.hidden) count++;
+  }
+  const summary = root.querySelector('#ws-game-count');
+  if (summary) summary.textContent = `${count} z ${games.length} gier`;
+  const empty = root.querySelector<HTMLElement>('#ws-game-empty');
+  if (empty) empty.hidden = count > 0;
 }
 
 function renderLoading(title: string) {
@@ -683,6 +707,10 @@ async function handleClick(event: Event) {
   }
   const { action, id } = button.dataset;
   switch (action) {
+    case 'game-layout':
+      gameLayout = button.dataset.layout === 'list' ? 'list' : 'grid';
+      setPreference('game-layout', gameLayout);
+      return renderList();
     case 'close':
       return dialog.close();
     case 'sign-out':
@@ -779,6 +807,11 @@ async function handleClick(event: Event) {
 
 function handleInput(event: Event) {
   const target = event.target as HTMLTextAreaElement | HTMLInputElement;
+  if (target.id === 'ws-game-search') {
+    gameQuery = target.value;
+    filterGames();
+    return;
+  }
   if (target.id === 'ws-search') {
     query = target.value;
     return;
@@ -903,6 +936,10 @@ root.addEventListener('keydown', (event) => {
   }
 });
 root.addEventListener('search', (event) => {
+  if ((event.target as HTMLElement).id === 'ws-game-search') {
+    handleInput(event);
+    return;
+  }
   if ((event.target as HTMLElement).id === 'ws-search' && !(event.target as HTMLInputElement).value) {
     query = '';
     page = 0;
