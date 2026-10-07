@@ -114,27 +114,31 @@ a { color: inherit; }
 
 /* --- Hero --------------------------------------------------------- */
 
-.ng-hero { padding-block: var(--ng-space-16) var(--ng-space-18); }
-
-.ng-hero-eyebrow {
-  display: flex;
+.ng-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  gap: var(--ng-space-20);
   align-items: center;
-  gap: var(--ng-space-3);
-  margin-bottom: var(--ng-space-6);
+  padding-block: var(--ng-space-16) var(--ng-space-18);
 }
 
-.ng-hero-eyebrow::before {
-  content: "";
-  width: 12px;
-  height: 12px;
-  background: var(--ng-accent);
-  flex: none;
+@media (max-width: 1099px) {
+  .ng-hero { grid-template-columns: minmax(0, 1fr); gap: var(--ng-space-12); }
 }
+
+/* The title scales with its column so the longest word ("NIEOFICJALNE") never overflows. */
+.ng-hero-text { container-type: inline-size; }
 
 .ng-hero-title {
-  font-size: var(--ng-size-hero);
+  color: var(--ng-accent);
+  font-size: min(var(--ng-size-hero), 10.5cqi);
   line-height: var(--ng-leading-hero);
   letter-spacing: var(--ng-tracking-hero);
+}
+
+.ng-hero-secondary {
+  margin-top: var(--ng-space-3);
+  font-size: var(--ng-size-hero-secondary);
 }
 
 .ng-hero-underline {
@@ -146,21 +150,73 @@ a { color: inherit; }
 
 .ng-hero-lead { max-width: 58ch; font-size: 17px; margin: 0; }
 
-.ng-hero-quote {
-  max-width: 58ch;
-  margin: var(--ng-space-8) 0 0;
-  color: var(--ng-muted);
-  font-size: 15px;
-  font-style: italic;
+/* Decoration: every cover drifting down in two columns (script in Home.astro). */
+.ng-hero-art {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  aspect-ratio: 5 / 4;
+  justify-self: end;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--ng-grid-gap);
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(transparent, #000 14%, #000 86%, transparent);
+  mask-image: linear-gradient(transparent, #000 14%, #000 86%, transparent);
 }
 
-.ng-hero-quote cite {
+@media (max-width: 1099px) {
+  .ng-hero-art { justify-self: start; }
+}
+
+.ng-hero-fall-track {
+  padding-right: 8px;
+  animation: ng-hero-fall var(--fall-duration, 40s) linear infinite;
+}
+
+.ng-hero-fall-track:last-child { margin-top: -18%; }
+.ng-hero-fall-track:has(.ng-hero-card:hover) { animation-play-state: paused; }
+
+@keyframes ng-hero-fall {
+  from { transform: translateY(-50%); }
+  to { transform: translateY(0); }
+}
+
+.ng-hero-card {
+  position: relative;
   display: block;
-  margin-top: var(--ng-space-2);
-  font-style: normal;
-  font-family: var(--ng-font-mono);
-  font-size: var(--ng-size-meta);
-  letter-spacing: var(--ng-tracking-meta);
+  aspect-ratio: var(--ng-keyart-ratio);
+  margin-bottom: var(--ng-grid-gap);
+  overflow: hidden;
+  background: var(--ng-art-ink);
+  border: var(--ng-border);
+  box-shadow: var(--ng-shadow);
+  transition: transform var(--ng-duration) var(--ng-ease), box-shadow var(--ng-duration) var(--ng-ease);
+}
+
+.ng-hero-card:hover { transform: translate(4px, 4px); box-shadow: var(--ng-shadow-pressed); }
+
+.ng-hero-card img { display: block; width: 100%; height: 100%; object-fit: cover; }
+
+.ng-hero-card-title {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  max-width: 100%;
+  padding: var(--ng-space-1) var(--ng-space-3);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  background: var(--ng-art-ink);
+  color: var(--ng-art-bone);
+  opacity: 0;
+  transition: opacity var(--ng-duration) var(--ng-ease);
+}
+
+.ng-hero-card:hover .ng-hero-card-title { opacity: 1; }
+
+@media (prefers-reduced-motion: reduce) {
+  .ng-hero-fall-track { animation: none; }
 }
 
 /* --- Stats bar ---------------------------------------------------- */
@@ -200,6 +256,176 @@ a { color: inherit; }
   .ng-stat:nth-child(3), .ng-stat:nth-child(4) { border-top: var(--ng-border-width) solid var(--ng-bone); }
   .ng-stat:nth-child(3) { border-left: 0; padding-left: var(--ng-gutter); }
 }
+
+/* --- Flow: how a translation is made (Process.astro) -------------- */
+
+.ng-flow {
+  border-bottom: var(--ng-border);
+  padding-block: var(--ng-space-16) var(--ng-space-20);
+}
+
+.ng-flow-heading { margin-bottom: var(--ng-space-10); }
+
+/* Pipeline: eight clickable blocks joined by bars; bars before the chosen step fill crimson. */
+.ng-flow-track {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ng-flow-node {
+  display: flex;
+  align-items: center;
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.ng-flow-node:last-child { flex: 0.85 1 0; }
+
+.ng-flow-button {
+  position: relative;
+  flex: 1 1 auto;
+  min-width: 0;
+  min-height: 104px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: var(--ng-space-3);
+  padding: var(--ng-space-4);
+  overflow: hidden;
+  background: var(--ng-paper);
+  color: var(--ng-ink);
+  border: var(--ng-border);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition: transform var(--ng-duration) var(--ng-ease), box-shadow var(--ng-duration) var(--ng-ease),
+    background var(--ng-duration) var(--ng-ease);
+}
+
+.ng-flow-button:hover { box-shadow: var(--ng-shadow-pressed); }
+
+.ng-flow-number { color: var(--ng-accent); }
+
+.ng-flow-name { font-size: 14px; line-height: 1.1; letter-spacing: 0; overflow-wrap: anywhere; }
+
+.ng-flow-node[data-state="done"] .ng-flow-button { background: var(--ng-bone); }
+
+.ng-flow-node[data-state="active"] .ng-flow-button {
+  background: var(--ng-accent);
+  color: #fff;
+  box-shadow: var(--ng-shadow);
+  transform: translate(-4px, -4px);
+}
+
+.ng-flow-node[data-state="active"] .ng-flow-number { color: #fff; }
+
+.ng-flow-link {
+  position: relative;
+  flex: 0 0 var(--ng-space-5);
+  height: 6px;
+  background: var(--ng-ink);
+}
+
+.ng-flow-link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--ng-accent);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 400ms var(--ng-ease);
+}
+
+.ng-flow-node[data-state="done"] .ng-flow-link::after { transform: scaleX(1); }
+
+/* Detail: the chosen step in words. */
+.ng-flow-detail { margin-top: var(--ng-space-12); }
+
+.ng-flow-count { margin: 0; color: var(--ng-muted); }
+
+.ng-flow-title { margin-top: var(--ng-space-3); font-size: var(--ng-size-panel-title); line-height: 0.98; }
+
+.ng-flow-text { max-width: 64ch; margin: var(--ng-space-4) 0 0; font-size: 17px; }
+
+/* Narrow: blocks shrink to their numbers; the title is in the detail below. */
+@media (max-width: 1199px) {
+  .ng-flow-name { display: none; }
+  .ng-flow-button { min-height: 0; align-items: center; padding: var(--ng-space-3) 0 var(--ng-space-4); }
+  .ng-flow-link { flex-basis: var(--ng-space-4); }
+}
+
+/* --- Workshop: intro and a read-only copy of /admin/ (Workshop.astro) */
+
+.ng-workshop {
+  border-bottom: var(--ng-border);
+  padding-block: var(--ng-space-16) var(--ng-space-20);
+}
+
+.ng-workshop-intro {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--ng-space-4) var(--ng-space-10);
+  max-width: 1100px;
+  margin: var(--ng-space-6) 0 var(--ng-space-12);
+  font-size: 17px;
+}
+
+.ng-workshop-intro p { margin: 0; }
+
+@media (max-width: 899px) {
+  .ng-workshop-intro { grid-template-columns: minmax(0, 1fr); }
+}
+
+.ng-workshop-window {
+  position: relative;
+  background: var(--ng-bone);
+  border: var(--ng-border);
+  box-shadow: var(--ng-shadow);
+}
+
+.ng-workshop-bar {
+  display: flex;
+  align-items: center;
+  gap: var(--ng-space-4);
+  padding: var(--ng-space-2) var(--ng-space-4);
+  border-bottom: var(--ng-border);
+  background: var(--ng-paper);
+  color: var(--ng-muted);
+}
+
+.ng-workshop-dots { display: flex; gap: 6px; }
+.ng-workshop-dots i { width: 10px; height: 10px; border: 2px solid var(--ng-ink); }
+.ng-workshop-dots i:first-child { background: var(--ng-accent); border-color: var(--ng-accent); }
+
+/* The app fills the page; here it scrolls inside a fixed-height window. */
+.ws-demo {
+  height: 640px;
+  overflow: auto;
+  padding: var(--ng-space-6) var(--ng-space-8) var(--ng-space-10);
+  font-family: var(--ng-font-body);
+  overscroll-behavior: contain;
+}
+
+@media (max-width: 699px) {
+  .ws-demo { height: 560px; padding: var(--ng-space-4); }
+}
+
+/* Same look as the app's #ws-toast, pinned to the window instead of the page. */
+.ng-workshop-toast {
+  position: absolute;
+  right: var(--ng-space-4);
+  bottom: var(--ng-space-4);
+  max-width: min(420px, calc(100% - 32px));
+  padding: 12px 18px;
+  background: var(--ng-ink);
+  color: var(--ng-bone);
+  font: 13px var(--ng-font-body);
+  z-index: 2;
+}
+
+.ng-workshop-toast:empty { display: none; }
 
 /* --- Grid section ------------------------------------------------- */
 

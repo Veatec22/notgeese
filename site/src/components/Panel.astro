@@ -143,6 +143,16 @@ const docs = await getCollection('gameDocs');
       });
     });
 
+    // Hero covers (Home.astro) are added by script, so they are caught by delegation.
+    document.addEventListener('click', (event) => {
+      if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || event.button !== 0) return;
+      const link = (event.target as Element).closest<HTMLElement>('[data-open-game]');
+      const slug = link?.dataset.openGame;
+      if (!slug || !bodies.some((body) => body.dataset.game === slug)) return;
+      event.preventDefault();
+      open(slug, true);
+    });
+
     closeButton.addEventListener('click', () => close(false));
     scrim.addEventListener('click', () => close(false));
 

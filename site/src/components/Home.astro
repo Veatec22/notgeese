@@ -3,6 +3,8 @@ import Base from '../layouts/Base.astro';
 import GameCard from './GameCard.astro';
 import Icon from './Icon.astro';
 import Faq from './Faq.astro';
+import Process from './Process.astro';
+import Workshop from './Workshop.astro';
 import Panel from './Panel.astro';
 import Search from './Search.astro';
 import { getGames, getStatuses, stats, type Game } from '../lib/games';
@@ -24,6 +26,15 @@ const statuses = (await getStatuses())
 const title = active ? gameTitle(active.title) : HOME_TITLE;
 const description = active ? gameDescription(active) : HOME_DESCRIPTION;
 const image = active ? keyartFor(active.slug, active.gallery)?.cover?.src : undefined;
+// Hero decoration: two columns of every game cover drifting down. The script shuffles them from
+// the JSON below at each visit; a cover opens its game panel, hovering one stops its column.
+// Mouse-only extra: the grid below is the real navigation, so the art stays out of tab order
+// and of the accessibility tree. Without JS it stays empty.
+const heroCovers = games.flatMap((game) => {
+  const cover = keyartFor(game.slug, game.gallery)?.cover;
+  return cover ? [{ slug: game.slug, href: game.href, title: game.title, ...cover }] : [];
+});
+
 // On a game page the page heading is the game title in the panel; the intro tagline moves lower.
 const Hero = active ? 'p' : 'h1';
 ---
@@ -31,16 +42,24 @@ const Hero = active ? 'p' : 'h1';
 <Base title={title} description={description} image={image}>
   <div class="ng-shell">
     <section class="ng-hero">
-      <p class="ng-label ng-hero-eyebrow">Nieoficjalne spolszczenia gier</p>
-      <Hero class="ng-display ng-hero-title">Not<br />Geese</Hero>
-      <div class="ng-hero-underline"></div>
-      <p class="ng-hero-lead">
-        Gry, które polskiej wersji nigdy nie dostały, dostają ją tutaj. Każde tłumaczenie jest
-        zrobione od zera z plików gry: cały tekst, polskie znaki, działający wybór języka w menu.
-      </p>
-      <blockquote class="ng-hero-quote">
-        Gry niezależne. Po polsku.
-      </blockquote>
+      <div class="ng-hero-text">
+        <Hero class="ng-display ng-hero-title">Nieoficjalne polskie lokalizacje</Hero>
+        <p class="ng-display ng-hero-secondary">i nie tylko</p>
+        <div class="ng-hero-underline"></div>
+        <p class="ng-hero-lead">
+          Polskie wersje gier, które oficjalnie ich nie dostały: przetłumaczony tekst, polskie znaki,
+          instalacja w kilku krokach. Do tego czasem drobne modyfikacje, które poprawiają samą grę.
+        </p>
+      </div>
+      {
+        heroCovers.length > 0 && (
+          <div class="ng-hero-art" aria-hidden="true" data-hero-art>
+            <script type="application/json" data-hero-covers set:html={JSON.stringify(heroCovers)} />
+            <div class="ng-hero-fall-track" />
+            <div class="ng-hero-fall-track" />
+          </div>
+        )
+      }
     </section>
   </div>
 
@@ -56,6 +75,10 @@ const Hero = active ? 'p' : 'h1';
       }
     </div>
   </div>
+
+  <Process />
+
+  <Workshop />
 
   <section class="ng-section" id="gry">
     <div class="ng-shell">
@@ -85,3 +108,48 @@ const Hero = active ? 'p' : 'h1';
 
   <Panel games={games} active={active?.slug} />
 </Base>
+
+<script>
+  interface HeroCover { slug: string; href: string; title: string; avif: string; webp: string; src: string }
+
+  // Fills the hero columns: every cover shuffled, split in two, each run twice so the track
+  // moves by exactly one run and loops seamlessly.
+  const SIZES = '(max-width: 699px) 45vw, 300px';
+  const art = document.querySelector<HTMLElement>('[data-hero-art]');
+  const data = art?.querySelector<HTMLScriptElement>('[data-hero-covers]');
+  if (art && data) {
+    const covers = JSON.parse(data.textContent ?? '[]') as HeroCover[];
+    for (let i = covers.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [covers[i], covers[j]] = [covers[j]!, covers[i]!];
+    }
+
+    const card = (cover: HeroCover) => {
+      const link = document.createElement('a');
+      link.className = 'ng-hero-card';
+      link.href = cover.href;
+      link.tabIndex = -1;
+      link.dataset.openGame = cover.slug;
+      link.innerHTML = `<picture>
+          <source type="image/avif" sizes="${SIZES}">
+          <source type="image/webp" sizes="${SIZES}">
+          <img alt="" loading="lazy" decoding="async">
+        </picture>
+        <span class="ng-label ng-hero-card-title"></span>`;
+      const [avif, webp] = link.querySelectorAll('source');
+      avif!.srcset = cover.avif;
+      webp!.srcset = cover.webp;
+      link.querySelector('img')!.src = cover.src;
+      link.querySelector('span')!.textContent = cover.title;
+      return link;
+    };
+
+    const half = Math.ceil(covers.length / 2);
+    const tracks = Array.from(art.querySelectorAll<HTMLElement>('.ng-hero-fall-track'));
+    [covers.slice(0, half), covers.slice(half)].forEach((run, index) => {
+      const track = tracks[index]!;
+      for (let copy = 0; copy < 2; copy++) run.forEach((cover) => track.append(card(cover)));
+      track.style.setProperty('--fall-duration', `${run.length * (index ? 5.5 : 4.5)}s`);
+    });
+  }
+</script>

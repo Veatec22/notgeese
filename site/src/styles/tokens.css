@@ -24,7 +24,8 @@
   --ng-font-body: 'Space Grotesk', sans-serif;
   --ng-font-mono: 'JetBrains Mono', monospace;
 
-  --ng-size-hero: 118px;
+  --ng-size-hero: 80px;
+  --ng-size-hero-secondary: 40px;
   --ng-size-section: 56px;
   --ng-size-panel-title: 40px;
   --ng-size-card-title: 22px;
@@ -34,7 +35,7 @@
   --ng-size-label: 12px;
   --ng-size-meta: 11px;
 
-  --ng-leading-hero: 0.88;
+  --ng-leading-hero: 0.92;
   --ng-leading-display: 1;
   --ng-leading-quote: 1.45;
   --ng-leading-body: 1.6;
@@ -114,7 +115,8 @@
 
 @media (max-width: 699px) {
   :root {
-    --ng-size-hero: 46px;
+    --ng-size-hero: 34px;
+    --ng-size-hero-secondary: 22px;
     --ng-size-section: 30px;
     --ng-size-panel-title: 28px;
     --ng-size-card-title: 20px;
@@ -123,7 +125,7 @@
     --ng-size-body: 14px;
     --ng-size-label: 10px;
     --ng-size-meta: 10px;
-    --ng-leading-hero: 0.9;
+    --ng-leading-hero: 0.95;
     --ng-shadow: 7px 7px 0 var(--ng-shadow-color);
     --ng-gutter: var(--ng-gutter-mobile);
     --ng-grid-gap: 20px;

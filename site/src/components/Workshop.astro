@@ -1,0 +1,410 @@
+---
+// "Pracownia" on the home page: what the review workspace (/admin/, docs/workspace.md) is for,
+// plus a read-only copy of its game view. Same markup and CSS as the app; the whole of
+// Shotgun Cop Man laid out by the shared workspace code (pages/pracownia-demo.json.ts), with
+// random review states. Actions only change the copy in the browser, nothing is sent anywhere.
+import '../workspace/workspace.css';
+import { withBase } from '../lib/url';
+---
+
+<section class="ng-workshop" aria-labelledby="workshop-title">
+  <div class="ng-shell">
+    <h2 class="ng-display ng-section-title" id="workshop-title">Pracownia</h2>
+    <div class="ng-workshop-intro">
+      <p>
+        Plik z tłumaczeniem to kilka tysięcy linijek bez kontekstu. Żeby je porządnie przeczytać, zbudowałem sobie
+        pracownię: prywatny panel, w którym tekst gry jest ułożony tak, jak widzi go gracz. Osobno menu, osobno
+        ustawienia, rozmowy po kolei i z podziałem na postacie.
+      </p>
+      <p>
+        Dobre kwestie akceptuję, słabe poprawiam od ręki. Poprawki eksportuję jednym plikiem, wracają do
+        tłumaczenia i trafiają do kolejnej wersji paczki. Poniżej kopia pracowni na niby: można klikać i
+        poprawiać, ale nic się nie zapisuje.
+      </p>
+    </div>
+
+    <div class="ng-workshop-window">
+      <div class="ng-workshop-bar" aria-hidden="true">
+        <span class="ng-workshop-dots"><i></i><i></i><i></i></span>
+        <span class="ng-label">Pracownia</span>
+      </div>
+      <div class="ws-demo" data-ws-demo data-src={withBase('/pracownia-demo.json')}>
+        <p class="ws-muted">Wczytywanie pracowni…</p>
+      </div>
+      <div class="ng-workshop-toast" data-ws-demo-toast role="status" aria-live="polite"></div>
+    </div>
+  </div>
+</section>
+
+<script>
+  import { icon } from '../workspace/icons';
+
+  type State = 'review' | 'accepted' | 'pending' | 'conflict';
+  type Mode = 'A' | 'B' | 'C';
+  type Certainty = 'certain' | 'reconstructed';
+  interface Entry {
+    id: string;
+    key: string;
+    english: string;
+    polish: string;
+    max_length?: number;
+  }
+  interface Data {
+    title: string;
+    entries: Entry[];
+    groups: { id: string; name: string; entries: string[] }[];
+    sequences: {
+      id: string;
+      name: string;
+      order: { certainty: Certainty; source: string };
+      speakers: { certainty: Certainty; source: string };
+      lines: { id: string; speaker?: string }[];
+    }[];
+  }
+  // Draft as in the app: an edit waits for "Akceptuj" (confirmed).
+  interface Draft {
+    text: string;
+    confirmed: boolean;
+  }
+  interface Item {
+    id: string;
+    speaker?: string;
+  }
+
+  // Copied from the app (workspace/app.ts, model.ts) so the copy reads the same.
+  const LABELS: Record<State, string> = {
+    review: 'Do przejrzenia',
+    accepted: 'Zaakceptowane',
+    pending: 'Do wdrożenia',
+    conflict: 'Konflikt',
+  };
+  const STATES: State[] = ['review', 'accepted', 'pending', 'conflict'];
+  const MODES: Record<Mode, string> = { A: 'EN i PL obok siebie', B: 'Czytanie rozmowy', C: 'Jedna kwestia' };
+  const PAGE_SIZES = [50, 100, 200] as const;
+  const ALL_SCOPE = '_all';
+  const CERTAINTY_LABEL: Record<Certainty, string> = { certain: 'pewna', reconstructed: 'odtworzona' };
+
+  const root = document.querySelector<HTMLElement>('[data-ws-demo]');
+  const toastBox = document.querySelector<HTMLElement>('[data-ws-demo-toast]');
+
+  if (root && toastBox) {
+    let data: Data;
+    let entries = new Map<string, Entry>();
+    const states = new Map<string, State>();
+    const drafts = new Map<string, Draft>();
+    let scope = ALL_SCOPE;
+    let query = '';
+    let stateFilter: State | '' = '';
+    let onlyDrafts = false;
+    let onlyPl = false;
+    let mode: Mode = 'A';
+    let pageSize: (typeof PAGE_SIZES)[number] = 50;
+    let page = 0;
+    let toastTimer: number | undefined;
+
+    const esc = (value = '') =>
+      value.replace(/[&<>"']/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[char]!);
+    const stateIcon = (state: State) => icon(state === 'accepted' ? 'check' : state === 'review' ? 'search' : state);
+    const keyOf = (id: string) => entries.get(id)!.key;
+    const text = (id: string) => drafts.get(id)?.text ?? entries.get(id)!.polish;
+
+    function toast(message: string) {
+      toastBox!.textContent = message;
+      window.clearTimeout(toastTimer);
+      toastTimer = window.setTimeout(() => (toastBox!.textContent = ''), 3200);
+    }
+
+    // Random review progress: about half accepted, a few corrections waiting, the rest to review.
+    function shuffleStates() {
+      for (const id of entries.keys()) {
+        const roll = Math.random();
+        states.set(id, roll < 0.5 ? 'accepted' : roll < 0.58 ? 'pending' : 'review');
+      }
+    }
+
+    // A confirmed draft already shows its outcome, like the app's shownState.
+    function shownState(id: string): State {
+      const draft = drafts.get(id);
+      if (draft?.confirmed) return draft.text === entries.get(id)!.polish ? 'accepted' : 'pending';
+      return states.get(id)!;
+    }
+
+    function flag(language: 'en' | 'pl') {
+      const label = language === 'en' ? 'Oryginał angielski' : 'Polskie tłumaczenie';
+      const shapes = language === 'en'
+        ? '<path fill="#012169" d="M0 0h60v30H0z"/><path stroke="#fff" stroke-width="6" d="m0 0 60 30M60 0 0 30"/><path stroke="#c8102e" stroke-width="2" d="m0 0 60 30M60 0 0 30"/><path stroke="#fff" stroke-width="10" d="M30 0v30M0 15h60"/><path stroke="#c8102e" stroke-width="6" d="M30 0v30M0 15h60"/>'
+        : '<path fill="#fff" d="M0 0h60v30H0z"/><path fill="#dc143c" d="M0 15h60v15H0z"/>';
+      return `<svg class="ws-flag" viewBox="0 0 60 30" role="img" aria-label="${label}"><title>${label}</title>${shapes}</svg>`;
+    }
+
+    const stateBadge = (state: State, count?: number) =>
+      `<span class="ws-status" data-state="${state}">${stateIcon(state)} ${LABELS[state]}${count === undefined ? '' : ` <b>${count}</b>`}</span>`;
+
+    function draftBadge(draft?: Draft) {
+      if (!draft) return '';
+      return `<span class="ws-draft-badge">${icon('draft')} ${draft.confirmed ? 'Niezapisane' : 'Szkic'}</span>`;
+    }
+
+    function counts(ids: string[]) {
+      const result: Record<State, number> = { accepted: 0, pending: 0, review: 0, conflict: 0 };
+      for (const id of ids) result[shownState(id)]++;
+      return result;
+    }
+
+    function scopeCounts(ids: string[]) {
+      const c = counts(ids);
+      return `<span class="ws-scope-counts">${(['accepted', 'pending', 'review', 'conflict'] as const)
+        .filter((state) => state !== 'conflict' || c.conflict > 0)
+        .map((state) => `<span class="ws-count" data-state="${state}" title="${LABELS[state]}: ${c[state]}" aria-label="${LABELS[state]}: ${c[state]}">${stateIcon(state)}${c[state]}</span>`)
+        .join('')}</span>`;
+    }
+
+    function scopeName() {
+      if (scope === ALL_SCOPE) return 'Wszystkie';
+      const sequence = data.sequences.find((item) => `seq:${item.id}` === scope);
+      return sequence?.name ?? data.groups.find((group) => group.id === scope)?.name ?? '';
+    }
+
+    function scopeItems(): Item[] {
+      if (scope === ALL_SCOPE) return [...entries.keys()].map((id) => ({ id }));
+      const sequence = data.sequences.find((item) => `seq:${item.id}` === scope);
+      if (sequence) return sequence.lines;
+      return (data.groups.find((group) => group.id === scope)?.entries ?? []).map((id) => ({ id }));
+    }
+
+    function matches(id: string) {
+      if (onlyDrafts && !drafts.has(id)) return false;
+      if (stateFilter && shownState(id) !== stateFilter) return false;
+      if (!query) return true;
+      const q = query.toLocaleLowerCase('pl');
+      return `${keyOf(id)} ${entries.get(id)!.english} ${text(id)}`.toLocaleLowerCase('pl').includes(q);
+    }
+
+    function pageItems() {
+      const items = scopeItems().filter((item) => matches(item.id));
+      const size = mode === 'C' ? 1 : pageSize;
+      const pages = Math.max(1, Math.ceil(items.length / size));
+      page = Math.max(0, Math.min(page, pages - 1));
+      return { items, size, visible: items.slice(page * size, page * size + size) };
+    }
+
+    function entryActions(id: string) {
+      const draft = drafts.get(id);
+      const state = shownState(id);
+      const editing = draft?.confirmed === false;
+      const settled = state === 'accepted' || state === 'pending';
+      return `${editing || !settled ? `<button type="button" data-action="approve" data-id="${esc(id)}">${icon('check')} Akceptuj</button>` : ''}
+        ${draft || settled ? `<button type="button" data-action="undo" data-id="${esc(id)}">${icon('undo')} Cofnij</button>` : ''}`;
+    }
+
+    function entryCard(item: Item, index: number) {
+      const { id } = item;
+      const entry = entries.get(id)!;
+      const draft = drafts.get(id);
+      const value = text(id);
+      const field = `ws-demo-${page}-${index}`;
+      return `<article class="ws-entry" data-id="${esc(id)}">
+        <div class="ws-meta"><div><h3 class="ws-key">${esc(entry.key)}</h3>
+          ${item.speaker !== undefined || scope.startsWith('seq:') ? `<span class="ws-speaker">${esc(item.speaker ?? 'Mówca nieustalony')}</span>` : ''}</div>
+          <span class="ws-badges">${stateBadge(shownState(id))}${draftBadge(draft)}</span></div>
+        <div class="ws-pair"><div class="ws-source"><div class="ws-language">${flag('en')}</div><div class="ws-en">${esc(entry.english)}</div></div>
+          <div><label class="ws-language" for="${field}">${flag('pl')}<span class="ng-visually-hidden">Polskie tłumaczenie — ${esc(entry.key)}</span></label>
+          <textarea id="${field}" data-edit="${esc(id)}">${esc(value)}</textarea>
+          ${entry.max_length ? `<small class="ws-muted" data-length="${esc(id)}">${[...value].length}/${entry.max_length}</small>` : ''}</div></div>
+        <div class="ws-actions" data-entry-actions>${entryActions(id)}</div></article>`;
+    }
+
+    function stateDropdown() {
+      return `<details class="ws-filter"><summary aria-label="Filtr stanu">${stateFilter ? stateBadge(stateFilter) : `${icon('filter')} Wszystkie stany`} ▾</summary>
+        <div class="ws-filter-options"><button type="button" data-action="filter" data-state="">Wszystkie stany</button>${
+        STATES.map((state) => `<button type="button" data-action="filter" data-state="${state}" aria-pressed="${stateFilter === state}">${stateBadge(state)}</button>`).join('')
+      }</div></details>`;
+    }
+
+    function sidebar() {
+      const button = (id: string, name: string, ids: string[]) =>
+        `<button type="button" data-action="scope" data-scope="${esc(id)}" aria-current="${scope === id}"><span>${name}</span>${scopeCounts(ids)}</button>`;
+      const groups = data.groups.map((group) => button(group.id, esc(group.name), group.entries)).join('');
+      const sequences = data.sequences
+        .map((sequence) => button(`seq:${sequence.id}`, esc(sequence.name), sequence.lines.map((line) => line.id)))
+        .join('');
+      return `<aside class="ws-sidebar">${button(ALL_SCOPE, `${icon('all')} Wszystkie`, [...entries.keys()])}<h3>Grupy</h3>${groups}
+        ${sequences ? `<hr><h3>Sekwencje</h3>${sequences}` : ''}
+        <hr><button type="button" data-action="inactive">${icon('journal')} Dziennik gry</button></aside>`;
+    }
+
+    function sequenceNotice() {
+      const sequence = data.sequences.find((item) => `seq:${item.id}` === scope)!;
+      const { order, speakers } = sequence;
+      return `<div class="ws-callout" data-tone="info"><p>${esc(
+        `Kolejność: ${CERTAINTY_LABEL[order.certainty]} (${order.source}). Mówcy: ${CERTAINTY_LABEL[speakers.certainty]} (${speakers.source}).`,
+      )}</p></div>`;
+    }
+
+    function fit(field: HTMLTextAreaElement) {
+      field.style.height = 'auto';
+      const border = field.offsetHeight - field.clientHeight;
+      field.style.height = `${field.scrollHeight + border}px`;
+    }
+
+    function render() {
+      const { items, size, visible } = pageItems();
+      const eligible = visible.filter((item) => shownState(item.id) === 'review' && !drafts.has(item.id));
+      const c = counts([...entries.keys()]);
+      root!.className = `ws-demo ws-layout-${mode}${onlyPl ? ' ws-only-pl' : ''}`;
+      root!.innerHTML = `<div class="ws-top"><div><button class="ws-link" type="button" data-action="inactive">${icon('back')} Wszystkie gry</button><h1>${esc(data.title)}</h1>
+          <p class="ws-muted">${entries.size} wpisów</p></div></div>
+        <div class="ws-stats">${(['accepted', 'pending', 'review', 'conflict'] as const).map((state) => stateBadge(state, c[state])).join('')}
+          <span class="ws-draft-badge">${icon('draft')} Szkice <b>${drafts.size}</b></span></div>
+        <div class="ws-shell">${sidebar()}<section class="ws-content">
+          <div class="ws-toolbar"><div class="ws-top"><div><h2>${esc(scopeName())}</h2><p class="ws-muted">Widoczne: ${items.length} z ${scopeItems().length}</p></div>
+            <label>Tryb redakcji <select data-demo="mode">${Object.entries(MODES).map(([id, name]) => `<option value="${id}" ${id === mode ? 'selected' : ''}>${name}</option>`).join('')}</select></label>
+            <button type="button" data-action="only-pl" aria-pressed="${onlyPl}">${icon('languages')} ${onlyPl ? 'Pokaż EN i PL' : 'Czytaj tylko PL'}</button></div>
+            ${scope.startsWith('seq:') ? sequenceNotice() : ''}
+            <div class="ws-actions"><input data-demo="search" type="search" value="${esc(query)}" aria-label="Szukaj w grupie" placeholder="Szukaj: tekst lub klucz, Enter">${stateDropdown()}
+              <button type="button" data-action="only-drafts" aria-pressed="${onlyDrafts}">${icon('draft')} Tylko szkice</button></div>
+            <div class="ws-actions"><button type="button" data-action="accept-page" ${eligible.length ? '' : 'disabled'}>${icon('check')} Zaakceptuj na stronie (${eligible.length})</button>
+              <small class="ws-muted">Tylko widoczne wpisy do przejrzenia, bez szkiców.</small></div></div>
+          <div>${visible.map(entryCard).join('') || '<p class="ws-empty">Brak wpisów w tym widoku.</p>'}
+            <div class="ws-pagination"><label>Wpisów na stronie <select data-demo="page-size" ${mode === 'C' ? 'disabled' : ''}>${
+              PAGE_SIZES.map((n) => `<option ${n === pageSize ? 'selected' : ''}>${n}</option>`).join('')
+            }</select></label>
+            <button type="button" data-action="page" data-delta="-1" ${page === 0 ? 'disabled' : ''}>${icon('back')} Poprzednie</button>
+            <span class="ws-muted">${items.length ? page * size + 1 : 0}–${Math.min((page + 1) * size, items.length)} / ${items.length}</span>
+            <button type="button" data-action="page" data-delta="1" ${(page + 1) * size >= items.length ? 'disabled' : ''}>${icon('next')} Następne</button></div></div>
+        </section></div>`;
+      root!.querySelectorAll<HTMLTextAreaElement>('textarea[data-edit]').forEach(fit);
+    }
+
+    // Typing updates only that entry and the counters, so focus stays in the field.
+    function refreshEntry(id: string) {
+      const card = root!.querySelector<HTMLElement>(`.ws-entry[data-id="${CSS.escape(id)}"]`);
+      if (!card) return;
+      card.querySelector('.ws-badges')!.innerHTML = stateBadge(shownState(id)) + draftBadge(drafts.get(id));
+      card.querySelector('[data-entry-actions]')!.innerHTML = entryActions(id);
+      const length = card.querySelector<HTMLElement>('[data-length]');
+      if (length) length.textContent = `${[...text(id)].length}/${entries.get(id)!.max_length}`;
+      const draftsCount = root!.querySelector('.ws-stats .ws-draft-badge b');
+      if (draftsCount) draftsCount.textContent = String(drafts.size);
+    }
+
+    function scrollToContent() {
+      root!.scrollTop = 0;
+    }
+
+    root.addEventListener('input', (event) => {
+      const field = event.target as HTMLTextAreaElement;
+      if (field.dataset.demo === 'search') {
+        query = field.value;
+        return;
+      }
+      const id = field.dataset.edit;
+      if (!id) return;
+      fit(field);
+      if (field.value === entries.get(id)!.polish) drafts.delete(id);
+      else drafts.set(id, { text: field.value, confirmed: false });
+      refreshEntry(id);
+    });
+
+    root.addEventListener('keydown', (event) => {
+      const field = event.target as HTMLInputElement;
+      if (field.dataset.demo === 'search' && event.key === 'Enter') {
+        page = 0;
+        render();
+        root!.querySelector<HTMLInputElement>('[data-demo="search"]')?.focus();
+      }
+    });
+
+    root.addEventListener('search', (event) => {
+      const field = event.target as HTMLInputElement;
+      if (field.dataset.demo === 'search' && !field.value) {
+        query = '';
+        page = 0;
+        render();
+      }
+    });
+
+    root.addEventListener('change', (event) => {
+      const field = event.target as HTMLSelectElement;
+      if (field.dataset.demo === 'mode') {
+        const first = pageItems().visible[0]?.id;
+        mode = field.value as Mode;
+        if (first) {
+          const index = scopeItems().filter((item) => matches(item.id)).findIndex((item) => item.id === first);
+          page = Math.floor(index / (mode === 'C' ? 1 : pageSize));
+        }
+      } else if (field.dataset.demo === 'page-size') {
+        pageSize = Number(field.value) as (typeof PAGE_SIZES)[number];
+        page = 0;
+      } else {
+        return;
+      }
+      render();
+    });
+
+    root.addEventListener('click', (event) => {
+      const button = (event.target as Element).closest<HTMLButtonElement>('button[data-action]');
+      if (!button) return;
+      const id = button.dataset.id ?? '';
+      switch (button.dataset.action) {
+        case 'scope':
+          scope = button.dataset.scope!;
+          page = 0;
+          query = '';
+          scrollToContent();
+          break;
+        case 'filter':
+          stateFilter = (button.dataset.state ?? '') as State | '';
+          page = 0;
+          break;
+        case 'only-drafts':
+          onlyDrafts = !onlyDrafts;
+          page = 0;
+          break;
+        case 'only-pl':
+          onlyPl = !onlyPl;
+          break;
+        case 'page':
+          page += Number(button.dataset.delta);
+          scrollToContent();
+          break;
+        case 'approve':
+          drafts.set(id, { text: text(id), confirmed: true });
+          break;
+        case 'undo':
+          if (drafts.has(id)) drafts.delete(id);
+          else states.set(id, 'review');
+          break;
+        case 'accept-page':
+          for (const item of pageItems().visible) {
+            if (shownState(item.id) === 'review' && !drafts.has(item.id)) drafts.set(item.id, { text: text(item.id), confirmed: true });
+          }
+          break;
+        default:
+          toast('Ta funkcja działa tylko w prawdziwej pracowni.');
+          return;
+      }
+      render();
+    });
+
+    async function load() {
+      try {
+        const response = await fetch(root!.dataset.src!);
+        if (!response.ok) throw new Error(String(response.status));
+        data = (await response.json()) as Data;
+        entries = new Map(data.entries.map((entry) => [entry.id, entry]));
+        shuffleStates();
+        render();
+      } catch {
+        root!.innerHTML = '<p class="ws-muted">Nie udało się wczytać pokazu pracowni.</p>';
+      }
+    }
+
+    // The data (a whole game) is fetched only when the section comes near.
+    new IntersectionObserver((records, observer) => {
+      if (!records.some((record) => record.isIntersecting)) return;
+      observer.disconnect();
+      void load();
+    }, { rootMargin: '800px 0px' }).observe(root);
+  }
+</script>

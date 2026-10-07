@@ -1,0 +1,104 @@
+---
+// How a translation gets made: the repo workflow (AGENTS.md) told to players, as a clickable
+// pipeline; the chosen step's text shows below.
+const steps: { title: string; text: string }[] = [
+  {
+    title: 'Inspiracje',
+    text: 'Szukam gry, która nie ma polskiej wersji (oficjalnej ani fanowskiej) i która trafia w moje gusta. Jeśli tłumaczenie już istnieje, nie ma sensu robić drugiego.',
+  },
+  {
+    title: 'Analiza techniczna',
+    text: 'Sprawdzam skąd gra bierze teksty, jak je wyciągnąć i włożyć z powrotem, oraz czy pokaże polskie znaki. W zależności od silnika dobieram odpowiednie narzędzia modderskie (BepInEx, UE4SS).',
+  },
+  {
+    title: 'Ustalanie tonu',
+    text: 'Obieram kierunek tłumaczenia na próbce oryginalnych tekstów - w jakim stylu mówią postacie, jak brzmią nazwy własne, ile zostaje z oryginału. Te ustalenia obowiązują w całym tłumaczeniu.',
+  },
+  {
+    title: 'Pionowy wycinek',
+    text: 'Tłumaczę menu, ustawienia i pierwsze minuty gry. Następnie sprawdzam, czy na ten moment wszystko wyświetla się poprawnie.',
+  },
+  {
+    title: 'Pierwszy przekład',
+    text: 'Tłumaczę cały tekst z pomocą LLM, według ustalonych zasad: wszędzie te same nazwy, zachowany klimat gry i nietknięte formatowanie.',
+  },
+  {
+    title: 'Recenzja',
+    text: 'Kolejny, niezależny agent czyta całość od nowa: porównuje z oryginałem, wyłapuje błędy i niespójności, ocenia wcześniejsze decyzje. Pewne poprawki wchodzą od razu, resztę rozstrzygam sam. Na tym etapie udostępniam wersję testową.',
+  },
+  {
+    title: 'Testowanie i korekty',
+    text: 'Przechodzę całą grę i sprawdzam tekst na ekranie - ucięte napisy, tekst wystający za ramkę, tudzież zdania, które brzmią drewnianie.',
+  },
+  {
+    title: 'Gotowe tłumaczenie',
+    text: 'Po ukończeniu gry i poprawkach spolszczenie dostaje status „gotowe”.',
+  },
+];
+
+const pad = (index: number) => String(index + 1).padStart(2, '0');
+---
+
+<section class="ng-flow" aria-labelledby="flow-title" data-flow>
+  <div class="ng-shell">
+    <h2 class="ng-display ng-section-title ng-flow-heading" id="flow-title">Proces</h2>
+
+    <ol class="ng-flow-track">
+      {
+        steps.map((step, index) => (
+          <li class="ng-flow-node" data-flow-node data-state={index === 0 ? 'active' : 'todo'}>
+            <button type="button" class="ng-flow-button" data-flow-go={index} aria-label={`Krok ${index + 1}: ${step.title}`}>
+              <span class="ng-label ng-flow-number">{pad(index)}</span>
+              <span class="ng-display ng-flow-name">{step.title}</span>
+            </button>
+            {index < steps.length - 1 && <span class="ng-flow-link" aria-hidden="true" />}
+          </li>
+        ))
+      }
+    </ol>
+
+    <div class="ng-flow-detail">
+      <div class="ng-flow-copy">
+        <p class="ng-label ng-flow-count" data-flow-count>Krok 01 / {pad(steps.length - 1)}</p>
+        <h3 class="ng-display ng-flow-title" data-flow-title>{steps[0]!.title}</h3>
+        <p class="ng-flow-text" data-flow-text>{steps[0]!.text}</p>
+      </div>
+    </div>
+
+    <script type="application/json" data-flow-data set:html={JSON.stringify(steps)} />
+  </div>
+</section>
+
+<script>
+  interface Step {
+    title: string;
+    text: string;
+  }
+
+  const root = document.querySelector<HTMLElement>('[data-flow]');
+  const dataEl = root?.querySelector<HTMLScriptElement>('[data-flow-data]');
+
+  if (root && dataEl) {
+    const steps = JSON.parse(dataEl.textContent ?? '[]') as Step[];
+    const nodes = Array.from(root.querySelectorAll<HTMLElement>('[data-flow-node]'));
+    const count = root.querySelector<HTMLElement>('[data-flow-count]')!;
+    const title = root.querySelector<HTMLElement>('[data-flow-title]')!;
+    const text = root.querySelector<HTMLElement>('[data-flow-text]')!;
+    const pad = (index: number) => String(index + 1).padStart(2, '0');
+
+    function show(step: number) {
+      nodes.forEach((node, i) => {
+        node.dataset.state = i < step ? 'done' : i === step ? 'active' : 'todo';
+        node.querySelector('button')!.setAttribute('aria-current', i === step ? 'step' : 'false');
+      });
+      count.textContent = `Krok ${pad(step)} / ${pad(steps.length - 1)}`;
+      title.textContent = steps[step]!.title;
+      text.textContent = steps[step]!.text;
+    }
+
+    root.querySelectorAll<HTMLButtonElement>('[data-flow-go]').forEach((button) =>
+      button.addEventListener('click', () => show(Number(button.dataset.flowGo))),
+    );
+    show(0);
+  }
+</script>

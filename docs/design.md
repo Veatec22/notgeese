@@ -31,7 +31,8 @@ JetBrains Mono 400/700 (metadata, labels always caps, nav, UI).
 
 | Level | Desktop / mobile | Line height | Tracking | Face |
 | --- | --- | --- | --- | --- |
-| Hero | 118 / 46 px | 0.88–0.90 | −0.035em | Archivo Black |
+| Hero | 80 / 34 px | 0.92–0.95 | −0.035em | Archivo Black |
+| Hero secondary | 40 / 22 px | 1.0 | −0.03em | Archivo Black |
 | Section heading | 56 / 30 px | 1.0 | −0.03em | Archivo Black |
 | Panel heading | 40–44 / 28 px | 0.98 | −0.03em | Archivo Black |
 | Tile title | 22 / 20 px | 1.05 | 0 | Archivo Black |
@@ -51,6 +52,20 @@ JetBrains Mono 400/700 (metadata, labels always caps, nav, UI).
 
 ## Components
 
+- **Hero:** two columns from 1100 px, one below. Left: crimson title (scales with its column), ink
+  secondary line, 148×10 crimson rule, lead. Right: every game cover, shuffled per visit, in two
+  columns drifting down at different speeds, faded at top and bottom. A cover opens its panel;
+  hovering one stops its column and shows the title. Mouse-only (`aria-hidden`, out of tab order),
+  still under `prefers-reduced-motion`.
+- **Process ("Proces"):** between stats bar and game list. Eight clickable step blocks joined by
+  6 px ink bars, no autoplay: chosen block crimson and lifted, earlier blocks bone, bars before it
+  crimson. Below: number, title and text of the chosen step. Under 1200 px blocks show numbers only.
+- **Workshop ("Pracownia"):** after Process. Two-column intro, then a window (3 px border, hard
+  shadow, bar labelled "Pracownia") holding a read-only copy of the /admin/ game view: same markup and
+  `workspace.css` (rules apply to `#workspace` and `.ws-demo`). Whole Shotgun Cop Man, laid out by the
+  shared workspace code into `/pracownia-demo.json` (fetched when the section comes near), states
+  drawn at random per visit. Groups, sequences, search, state filter, drafts-only, view modes,
+  PL-only, paging, accept/edit/undo work in the browser only; no save, refresh or export buttons.
 - **Game tile:** Steam capsule on top (616:353), fixed-height description below a 3 px rule.
   Placeholder: `[KEYART]` label top-left + title initial at `rgba(255,255,255,0.13)` bottom-right.
   The whole tile is one `<a>`.
