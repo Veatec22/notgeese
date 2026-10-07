@@ -1,0 +1,34 @@
+format: 1
+groups:
+- {id: menu, name: Menu i pauza}
+- {id: options, name: Opcje}
+- {id: scores, name: Wyniki i rankingi}
+- {id: tutorial, name: Samouczek}
+- {id: fails, name: Porażki}
+- {id: levels, name: Tytuły poziomów}
+- {id: challenges, name: Wyzwania}
+- {id: dream, name: Wiersz ze snu}
+- {id: arcade, name: Minigra}
+- {id: endless, name: Paraliż senny}
+- {id: other, name: Pozostałe}
+assign:
+- {key: LV_Endless, group: endless}
+- {key: gameplay_dead, group: fails}
+- {key: failed, group: fails}
+- {key: interact, group: tutorial}
+- {key: replayTutorial, group: menu}
+- {key: menu_credits, group: menu}
+- {key: mouse_sensitivity, group: options}
+- {key: settings_endless_unlock, group: endless}
+rules:
+- {group: menu, match: '^(menu|pause)_'}
+- {group: options, match: '^options_'}
+- {group: endless, match: '^(endless|settings_endless)_'}
+- {group: scores, match: '^(steam_|leaderboard_|score_|win_|winscreen_|hit_|aroundUser$|friends$|global$|distance$|multikill$|leveltime$|hug$|shotsFired$|ricochet$|challenge_level$)'}
+- {group: tutorial, match: '^tutorial_'}
+- {group: fails, match: '^fail_'}
+- {group: levels, match: '^LV_'}
+- {group: challenges, match: '^challenge_'}
+- {group: dream, match: '^dream_poem_'}
+- {group: arcade, match: '^pacman_'}
+- {group: other, match: '^(demo_|button_|photowarning_)'}

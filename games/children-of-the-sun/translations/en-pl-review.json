@@ -1,0 +1,852 @@
+[
+  {
+    "key": "menu_newgame",
+    "english": "Go Hunting",
+    "polish": "Na łowy"
+  },
+  {
+    "key": "menu_continue",
+    "english": "Continue",
+    "polish": "Kontynuuj"
+  },
+  {
+    "key": "menu_options",
+    "english": "Options",
+    "polish": "Opcje"
+  },
+  {
+    "key": "menu_quit",
+    "english": "Quit",
+    "polish": "Wyjdź"
+  },
+  {
+    "key": "menu_return",
+    "english": "Return",
+    "polish": "Wróć"
+  },
+  {
+    "key": "menu_overwrite",
+    "english": "Your current progress will be overwritten",
+    "polish": "Obecny postęp zostanie nadpisany"
+  },
+  {
+    "key": "menu_holdToSkip",
+    "english": "Hold to skip",
+    "polish": "Przytrzymaj, aby pominąć"
+  },
+  {
+    "key": "pause_title",
+    "english": "Paused",
+    "polish": "Pauza"
+  },
+  {
+    "key": "pause_continue",
+    "english": "Continue",
+    "polish": "Kontynuuj"
+  },
+  {
+    "key": "pause_restart",
+    "english": "Restart",
+    "polish": "Od nowa"
+  },
+  {
+    "key": "pause_quit",
+    "english": "Return to Menu",
+    "polish": "Wróć do menu"
+  },
+  {
+    "key": "pause_returnToMap",
+    "english": "Return To Map",
+    "polish": "Wróć do mapy"
+  },
+  {
+    "key": "replayTutorial",
+    "english": "Replay Tutorial",
+    "polish": "Powtórz samouczek"
+  },
+  {
+    "key": "options_title",
+    "english": "Options",
+    "polish": "Opcje"
+  },
+  {
+    "key": "mouse_sensitivity",
+    "english": "Aim Sensitivity",
+    "polish": "Czułość celowania"
+  },
+  {
+    "key": "options_musicVolume",
+    "english": "Music Volume",
+    "polish": "Głośność muzyki"
+  },
+  {
+    "key": "options_sfxVolume",
+    "english": "SFX Volume",
+    "polish": "Głośność efektów"
+  },
+  {
+    "key": "options_resolution",
+    "english": "Resolution",
+    "polish": "Rozdzielczość"
+  },
+  {
+    "key": "options_fullscreen",
+    "english": "Fullscreen",
+    "polish": "Pełny ekran"
+  },
+  {
+    "key": "options_language",
+    "english": "Language",
+    "polish": "Język"
+  },
+  {
+    "key": "options_aa",
+    "english": "Anti Aliasing",
+    "polish": "Wygładzanie krawędzi"
+  },
+  {
+    "key": "options_ssao",
+    "english": "Ambient Occlusion",
+    "polish": "Okluzja otoczenia"
+  },
+  {
+    "key": "options_vsync",
+    "english": "VSync",
+    "polish": "Synchronizacja pionowa"
+  },
+  {
+    "key": "options_motionBlur",
+    "english": "Motion Blur",
+    "polish": "Rozmycie ruchu"
+  },
+  {
+    "key": "options_vlight",
+    "english": "Volumetric Light",
+    "polish": "Światło wolumetryczne"
+  },
+  {
+    "key": "options_done",
+    "english": "Done",
+    "polish": "Gotowe"
+  },
+  {
+    "key": "steam_loading",
+    "english": "Loading Scores",
+    "polish": "Wczytywanie wyników"
+  },
+  {
+    "key": "steam_notconnected",
+    "english": "Not connected to Steam",
+    "polish": "Brak połączenia ze Steamem"
+  },
+  {
+    "key": "steam_switchLeaderboard",
+    "english": "Switch Leaderboard",
+    "polish": "Zmień ranking"
+  },
+  {
+    "key": "leaderboard_title",
+    "english": "Leaderboard",
+    "polish": "Ranking"
+  },
+  {
+    "key": "aroundUser",
+    "english": "Scores around yours",
+    "polish": "Wyniki zbliżone do twojego"
+  },
+  {
+    "key": "friends",
+    "english": "Scores of your friends",
+    "polish": "Wyniki znajomych"
+  },
+  {
+    "key": "global",
+    "english": "Global Score",
+    "polish": "Wyniki globalne"
+  },
+  {
+    "key": "score_newBest",
+    "english": "New Best",
+    "polish": "Nowy rekord"
+  },
+  {
+    "key": "score_local",
+    "english": "Local score",
+    "polish": "Wynik lokalny"
+  },
+  {
+    "key": "score_localNone",
+    "english": "No local score yet",
+    "polish": "Brak wyniku lokalnego"
+  },
+  {
+    "key": "win_capturePath",
+    "english": "Capture Path",
+    "polish": "Zapisz tor lotu"
+  },
+  {
+    "key": "win_capturePathStored",
+    "english": "Screenshot Saved to Desktop",
+    "polish": "Zrzut ekranu zapisany na pulpicie"
+  },
+  {
+    "key": "gameplay_dead",
+    "english": "Dead",
+    "polish": "Trup"
+  },
+  {
+    "key": "challenge_shed",
+    "english": "The Virus is in their heads",
+    "polish": "Wirus siedzi im w głowach"
+  },
+  {
+    "key": "challenge_downhillA",
+    "english": "When it moves, it spreads",
+    "polish": "Gdy się rusza, to się rozprzestrzenia"
+  },
+  {
+    "key": "challenge_swamp",
+    "english": "Gas Tanks make the World burn brighter",
+    "polish": "Od baków z paliwem świat płonie jaśniej"
+  },
+  {
+    "key": "challenge_burningVillage",
+    "english": "Bullets that burn, are Bullets that hurt",
+    "polish": "Kula, która płonie, boli mocniej"
+  },
+  {
+    "key": "challenge_fieldB",
+    "english": "Appealing views from the top",
+    "polish": "Piękne widoki z góry"
+  },
+  {
+    "key": "challenge_theBarn",
+    "english": "Open Gates through their Hearts",
+    "polish": "Otwórz bramy przez ich serca"
+  },
+  {
+    "key": "challenge_huntingStand",
+    "english": "Two in One",
+    "polish": "Dwa w jednym"
+  },
+  {
+    "key": "challenge_occupiedVillage",
+    "english": "You can see them all",
+    "polish": "Widać ich wszystkich"
+  },
+  {
+    "key": "challenge_riverA",
+    "english": "The Sun shines through",
+    "polish": "Słońce prześwieca na wskroś"
+  },
+  {
+    "key": "challenge_deepForest",
+    "english": "Drifting into their conclusion",
+    "polish": "Dryfując ku ich kresowi"
+  },
+  {
+    "key": "challenge_factory",
+    "english": "Some are on the run",
+    "polish": "Niektórzy uciekają"
+  },
+  {
+    "key": "challenge_highwayBridge",
+    "english": "Just passing through",
+    "polish": "Tylko przelotem"
+  },
+  {
+    "key": "challenge_level",
+    "english": "Challenge Complete",
+    "polish": "Wyzwanie ukończone"
+  },
+  {
+    "key": "tutorial_movement",
+    "english": "Move around the environment and find the <color=#ff0000>Targets</color>.",
+    "polish": "Poruszaj się po okolicy i znajdź <color=#ff0000>cele</color>."
+  },
+  {
+    "key": "tutorial_aim",
+    "english": "When you have a clear shot, aim.",
+    "polish": "Gdy masz czysty strzał, wyceluj."
+  },
+  {
+    "key": "tutorial_aim_cancel",
+    "english": "Cancel.",
+    "polish": "Anuluj."
+  },
+  {
+    "key": "tutorial_aim_zoom",
+    "english": "Zoom.",
+    "polish": "Przybliż."
+  },
+  {
+    "key": "tutorial_aim_mark",
+    "english": "Mark <color=#ff0000>them</color>.",
+    "polish": "Oznacz <color=#ff0000>ich</color>."
+  },
+  {
+    "key": "tutorial_aim_shoot",
+    "english": "Shoot.",
+    "polish": "Strzel."
+  },
+  {
+    "key": "tutorial_firstHit",
+    "english": "Now shoot the <color=#ff0000>other</color>.",
+    "polish": "Teraz zastrzel <color=#ff0000>drugiego</color>."
+  },
+  {
+    "key": "tutorial_killAll",
+    "english": "Kill <color=#ff0000>them</color> all!",
+    "polish": "Zabij <color=#ff0000>ich</color> wszystkich!"
+  },
+  {
+    "key": "tutorial_preTrajectory",
+    "english": "Shoot towards the left Trees.",
+    "polish": "Strzel w stronę drzew po lewej."
+  },
+  {
+    "key": "tutorial_trajectory",
+    "english": "<color=#FF551E>Hold</color> the Button and move to change trajectory.",
+    "polish": "<color=#FF551E>Przytrzymaj</color> przycisk i steruj, aby zmienić tor lotu."
+  },
+  {
+    "key": "tutorial_trajectoryTwo",
+    "english": "Now aim to find the hidden <color=#ff0000>enemy</color>.",
+    "polish": "Teraz wyceluj tak, by znaleźć ukrytego <color=#ff0000>wroga</color>."
+  },
+  {
+    "key": "tutorial_preReAim",
+    "english": "Shoot TWO <color=#ff0000>Enemies</color> in their glowing <color=#aaaaff>Weakpoints</color> to be able to Re-Aim freely while the Bullet is flying.",
+    "polish": "Traf DWÓCH <color=#ff0000>wrogów</color> w świecące <color=#aaaaff>słabe punkty</color>, aby móc swobodnie przecelować w trakcie lotu kuli."
+  },
+  {
+    "key": "tutorial_preReAimTwo",
+    "english": "The Re-Aim Indicator turned <color=#ffffff>white</color>. You need to hit TWO <color=#aaaaff>Weakpoints</color> to fully charge a Re-Aim.",
+    "polish": "Wskaźnik przecelowania zmienił kolor na <color=#ffffff>biały</color>. Aby w pełni naładować przecelowanie, traf DWA <color=#aaaaff>słabe punkty</color>."
+  },
+  {
+    "key": "tutorial_reAim",
+    "english": "The Re-Aim Indicator turned <color=#ffff00>yellow</color>. You can Re-Aim now!\n\nShoot towards one of the arrows in the distance and <color=#FF551E>press once</color> during flight to activate.",
+    "polish": "Wskaźnik przecelowania zmienił kolor na <color=#ffff00>żółty</color>. Możesz już przecelować!\n\nStrzel w stronę jednej ze strzałek w oddali i w trakcie lotu <color=#FF551E>naciśnij raz</color>, aby przecelować."
+  },
+  {
+    "key": "tutorial_postReAim",
+    "english": "Now shoot the last two <color=#ff0000>Enemies</color>.",
+    "polish": "Teraz zastrzel dwóch ostatnich <color=#ff0000>wrogów</color>."
+  },
+  {
+    "key": "fail_bullettime",
+    "english": "You ran out of Bullet Time",
+    "polish": "Skończył ci się czas lotu"
+  },
+  {
+    "key": "fail_geometry",
+    "english": "You hit something solid",
+    "polish": "Trafiłaś w coś twardego"
+  },
+  {
+    "key": "fail_outoflevel",
+    "english": "You went too far",
+    "polish": "Posunęłaś się za daleko"
+  },
+  {
+    "key": "fail_armor",
+    "english": "Not enough Speed to penetrate Armor",
+    "polish": "Za mała prędkość, by przebić pancerz"
+  },
+  {
+    "key": "fail_priest",
+    "english": "Got hit by a priest bullet",
+    "polish": "Trafiła cię kula kapłana"
+  },
+  {
+    "key": "hit_head",
+    "english": "Head",
+    "polish": "Głowa"
+  },
+  {
+    "key": "hit_chest",
+    "english": "Chest",
+    "polish": "Tułów"
+  },
+  {
+    "key": "hit_arm",
+    "english": "Arm",
+    "polish": "Ręka"
+  },
+  {
+    "key": "hit_dick",
+    "english": "Dick",
+    "polish": "Fiut"
+  },
+  {
+    "key": "hit_leg",
+    "english": "Leg",
+    "polish": "Noga"
+  },
+  {
+    "key": "hit_civilian",
+    "english": "Civilian",
+    "polish": "Cywil"
+  },
+  {
+    "key": "hit_bird",
+    "english": "Bird",
+    "polish": "Ptak"
+  },
+  {
+    "key": "hit_fish",
+    "english": "Fish",
+    "polish": "Ryba"
+  },
+  {
+    "key": "hit_explosion",
+    "english": "Explosion",
+    "polish": "Eksplozja"
+  },
+  {
+    "key": "hit_powerExplosion",
+    "english": "Power Explosion",
+    "polish": "Silna eksplozja"
+  },
+  {
+    "key": "hit_tree",
+    "english": "Tree",
+    "polish": "Drzewo"
+  },
+  {
+    "key": "hit_friendlyfire",
+    "english": "Friendly Fire",
+    "polish": "Bratobójczy ogień"
+  },
+  {
+    "key": "hit_moving",
+    "english": "Moving Target",
+    "polish": "Ruchomy cel"
+  },
+  {
+    "key": "distance",
+    "english": "Distance",
+    "polish": "Dystans"
+  },
+  {
+    "key": "multikill",
+    "english": "Multikill",
+    "polish": "Kilku naraz"
+  },
+  {
+    "key": "leveltime",
+    "english": "Time in Level",
+    "polish": "Czas na poziomie"
+  },
+  {
+    "key": "hug",
+    "english": "Hug",
+    "polish": "Uścisk"
+  },
+  {
+    "key": "shotsFired",
+    "english": "Shots Fired",
+    "polish": "Oddane strzały"
+  },
+  {
+    "key": "ricochet",
+    "english": "Ricochet",
+    "polish": "Rykoszet"
+  },
+  {
+    "key": "interact",
+    "english": "Press to interact",
+    "polish": "Naciśnij, by użyć"
+  },
+  {
+    "key": "dream_poem_01a",
+    "english": "You drugged me with kindness",
+    "polish": "Odurzyłeś mnie dobrocią"
+  },
+  {
+    "key": "dream_poem_01b",
+    "english": "So I can pretend I exist",
+    "polish": "Bym mogła udawać, że istnieję"
+  },
+  {
+    "key": "dream_poem_02a",
+    "english": "You were my father",
+    "polish": "Byłeś moim ojcem"
+  },
+  {
+    "key": "dream_poem_02b",
+    "english": "And I was your fool",
+    "polish": "A ja – twoim błaznem"
+  },
+  {
+    "key": "dream_poem_03a",
+    "english": "Now look at the mirror",
+    "polish": "Teraz spójrz w lustro"
+  },
+  {
+    "key": "dream_poem_03b",
+    "english": "Your face is not distorted anymore",
+    "polish": "Twoja twarz nie jest już wykrzywiona"
+  },
+  {
+    "key": "dream_poem_04a",
+    "english": "So you became a stranger",
+    "polish": "I tak stałeś się obcy"
+  },
+  {
+    "key": "dream_poem_04b",
+    "english": "You will be an only child",
+    "polish": "Będziesz jedynym dzieckiem"
+  },
+  {
+    "key": "dream_poem_05a",
+    "english": "Soon the sun will start shining",
+    "polish": "Wkrótce zaświeci słońce"
+  },
+  {
+    "key": "dream_poem_05b",
+    "english": "Through a bullet shaped hole in your head",
+    "polish": "Przez dziurę po kuli w twojej głowie"
+  },
+  {
+    "key": "pacman_title",
+    "english": "I Just Killed a Man\nNow I'm Horny",
+    "polish": "Właśnie zabiłam człowieka\nI jestem napalona"
+  },
+  {
+    "key": "pacman_instructions_rotate",
+    "english": "ROTATE",
+    "polish": "OBRACAJ"
+  },
+  {
+    "key": "pacman_instructions_collect",
+    "english": "COLLECT BULLETS",
+    "polish": "ZBIERAJ KULE"
+  },
+  {
+    "key": "pacman_instructions_kill",
+    "english": "!! KILL !!",
+    "polish": "!! ZABIJAJ !!"
+  },
+  {
+    "key": "pacman_time",
+    "english": "Time",
+    "polish": "Czas"
+  },
+  {
+    "key": "pacman_wallhit",
+    "english": "Walls Hit",
+    "polish": "Uderzenia w ściany"
+  },
+  {
+    "key": "LV_Shed",
+    "english": "Broken Home",
+    "polish": "Rozbity dom"
+  },
+  {
+    "key": "LV_DownHillA",
+    "english": "A Vulture",
+    "polish": "Sęp"
+  },
+  {
+    "key": "LV_Swamp",
+    "english": "Being Stuck",
+    "polish": "W potrzasku"
+  },
+  {
+    "key": "LV_BurningVillage",
+    "english": "Removing Evidence",
+    "polish": "Zacieranie śladów"
+  },
+  {
+    "key": "LV_FishingA",
+    "english": "Breakfast Time",
+    "polish": "Pora śniadania"
+  },
+  {
+    "key": "LV_FieldB",
+    "english": "Hiding Bodies",
+    "polish": "Ukrywanie ciał"
+  },
+  {
+    "key": "LV_TheBarn",
+    "english": "Old Home",
+    "polish": "Stary dom"
+  },
+  {
+    "key": "LV_HuntingStand",
+    "english": "Gallery of Heads",
+    "polish": "Galeria głów"
+  },
+  {
+    "key": "LV_OccupiedVillage",
+    "english": "Occupied Village",
+    "polish": "Okupowana wioska"
+  },
+  {
+    "key": "LV_VillageCarnage",
+    "english": "X",
+    "polish": "X"
+  },
+  {
+    "key": "LV_River A",
+    "english": "Breaking Contact",
+    "polish": "Zerwanie kontaktu"
+  },
+  {
+    "key": "LV_DeepForest",
+    "english": "Filled with Blood",
+    "polish": "Pełen krwi"
+  },
+  {
+    "key": "LV_Factory",
+    "english": "Manufacturing Lies",
+    "polish": "Fabryka kłamstw"
+  },
+  {
+    "key": "LV_HighwayBridge",
+    "english": "Losing Track",
+    "polish": "Zgubiony trop"
+  },
+  {
+    "key": "LV_DreamSequence",
+    "english": "Dreaming of Redemption",
+    "polish": "Sen o odkupieniu"
+  },
+  {
+    "key": "LV_GasStation",
+    "english": "Gas Station",
+    "polish": "Stacja benzynowa"
+  },
+  {
+    "key": "LV_MainStreet",
+    "english": "Main Street",
+    "polish": "Główna ulica"
+  },
+  {
+    "key": "LV_Marketplace",
+    "english": "Open Mic Night in Hell",
+    "polish": "Wieczór otwartego mikrofonu w piekle"
+  },
+  {
+    "key": "LV_Motel",
+    "english": "This is no Paradise",
+    "polish": "To nie jest raj"
+  },
+  {
+    "key": "LV_CarChase",
+    "english": "Chasing Lies",
+    "polish": "W pogoni za kłamstwami"
+  },
+  {
+    "key": "LV_ChurchAttack",
+    "english": "Idolatry",
+    "polish": "Bałwochwalstwo"
+  },
+  {
+    "key": "LV_Cemetery",
+    "english": "Bury your Past",
+    "polish": "Pogrzeb przeszłość"
+  },
+  {
+    "key": "LV_Bunker",
+    "english": "Surveil the Dead",
+    "polish": "Obserwuj umarłych"
+  },
+  {
+    "key": "LV_RiverB",
+    "english": "Enter the Heart",
+    "polish": "W głąb serca"
+  },
+  {
+    "key": "LV_ValleyPath",
+    "english": "Valley Path",
+    "polish": "Ścieżka w dolinie"
+  },
+  {
+    "key": "LV_Temple",
+    "english": "The Temple",
+    "polish": "Świątynia"
+  },
+  {
+    "key": "demo_thanks",
+    "english": "Thank you for playing the Demo",
+    "polish": "Dziękujemy za zagranie w demo"
+  },
+  {
+    "key": "demo_wishlist",
+    "english": "If you enjoyed the game so far, please consider to wishlist it",
+    "polish": "Jeśli gra ci się spodobała, dodaj ją do listy życzeń"
+  },
+  {
+    "key": "failed",
+    "english": "Failed",
+    "polish": "Porażka"
+  },
+  {
+    "key": "options_invertY",
+    "english": "Invert Aim Y Axis",
+    "polish": "Odwróć oś Y celowania"
+  },
+  {
+    "key": "button_wishlist",
+    "english": "Wishlist",
+    "polish": "Lista życzeń"
+  },
+  {
+    "key": "menu_credits",
+    "english": "Credits",
+    "polish": "Twórcy"
+  },
+  {
+    "key": "options_fpslimit",
+    "english": "Limit FPS",
+    "polish": "Limit FPS"
+  },
+  {
+    "key": "winscreen_score",
+    "english": "Score",
+    "polish": "Wynik"
+  },
+  {
+    "key": "challenge_gasstation",
+    "english": "Most can burn, but inside they can't",
+    "polish": "Większość może płonąć, ale nie w środku"
+  },
+  {
+    "key": "challenge_mainstreet",
+    "english": "350 meters are a long way",
+    "polish": "350 metrów to długa droga"
+  },
+  {
+    "key": "challenge_marketplace",
+    "english": "He is blocking the entrance",
+    "polish": "On blokuje wejście"
+  },
+  {
+    "key": "challenge_motel",
+    "english": "Through their homes",
+    "polish": "Przez ich domy"
+  },
+  {
+    "key": "challenge_bunker",
+    "english": "It's been a long time",
+    "polish": "Minęło sporo czasu"
+  },
+  {
+    "key": "challenge_cemetery",
+    "english": "Avoid the Debris",
+    "polish": "Omijaj gruz"
+  },
+  {
+    "key": "challenge_riverb",
+    "english": "Consecutive prayers kill",
+    "polish": "Modlitwa za modlitwą zabija"
+  },
+  {
+    "key": "challenge_valleypath",
+    "english": "Direct hits hit the hardest",
+    "polish": "Trafienie wprost boli najmocniej"
+  },
+  {
+    "key": "photowarning_head",
+    "english": "warning",
+    "polish": "ostrzeżenie"
+  },
+  {
+    "key": "photowarning_body",
+    "english": "This Game contains flashing images that may make it unsuitable for people with photosensitive conditions.",
+    "polish": "Ta gra zawiera migające obrazy, przez które może nie nadawać się dla osób z nadwrażliwością na światło."
+  },
+  {
+    "key": "tutorial_prePowershot",
+    "english": "Some <color=#ff0000>enemies</color> wear armor. You can only penetrate it with a Powershot. Aim at the <color=#ff0000>enemy</color>.",
+    "polish": "Niektórzy <color=#ff0000>wrogowie</color> noszą pancerz. Przebije go tylko silny strzał. Wyceluj we <color=#ff0000>wroga</color>."
+  },
+  {
+    "key": "tutorial_powershot",
+    "english": "<color=#FF551E>HOLD</color> the Button to pick up speed. If you reach the maximum speed you can penetrate armor.",
+    "polish": "<color=#FF551E>PRZYTRZYMAJ</color> przycisk, aby nabrać prędkości. Przy maksymalnej prędkości przebijesz pancerz."
+  },
+  {
+    "key": "challenge_churchattack",
+    "english": "Precise deviation might gets things on fire",
+    "polish": "Precyzyjne odchylenie może coś podpalić"
+  },
+  {
+    "key": "options_rumble",
+    "english": "Rumble",
+    "polish": "Wibracje"
+  },
+  {
+    "key": "options_reset",
+    "english": "Reset",
+    "polish": "Resetuj"
+  },
+  {
+    "key": "endless_intro_01",
+    "english": "Kill",
+    "polish": "Zabijaj"
+  },
+  {
+    "key": "endless_intro_02",
+    "english": "Collect the bullet",
+    "polish": "Zbierz kulę"
+  },
+  {
+    "key": "endless_intro_03",
+    "english": "It never stops",
+    "polish": "To się nigdy nie kończy"
+  },
+  {
+    "key": "LV_Endless",
+    "english": "Nightmare Paralysis",
+    "polish": "Paraliż senny"
+  },
+  {
+    "key": "endless_tutorial_01",
+    "english": "There is no end. They are everywhere. Forever.",
+    "polish": "Nie ma końca. Są wszędzie. Na zawsze."
+  },
+  {
+    "key": "endless_tutorial_02",
+    "english": "The world is changing. Some children have so as well. ",
+    "polish": "Świat się zmienia. Niektóre dzieci też. "
+  },
+  {
+    "key": "endless_tutorial_03",
+    "english": "Press on the altar to summon more of them.",
+    "polish": "Użyj ołtarza, by przyzwać ich więcej."
+  },
+  {
+    "key": "endless_tutorial_04",
+    "english": "Sacrifice yourself with your own bullet to reap the spirits of theirs and secure your score.",
+    "polish": "Poświęć się, trafiając samą siebie własną kulą, by zebrać ich dusze i zachować wynik."
+  },
+  {
+    "key": "endless_tutorial_05",
+    "english": "Don’t wake up.",
+    "polish": "Nie budź się."
+  },
+  {
+    "key": "settings_endless_prompt_01",
+    "english": "This mode otherwise unlocks after finishing the game. It requires you to know all the mechanics of the game.",
+    "polish": "Ten tryb odblokowuje się zwykle po ukończeniu gry. Wymaga znajomości wszystkich jej mechanik."
+  },
+  {
+    "key": "settings_endless_prompt_02",
+    "english": "Do you want to unlock it?",
+    "polish": "Czy chcesz go odblokować?"
+  },
+  {
+    "key": "settings_endless_unlock",
+    "english": "Unlock Nightmare Paralysis",
+    "polish": "Odblokuj Paraliż senny"
+  },
+  {
+    "key": "options_endless_showInstructions",
+    "english": "Show Instructions",
+    "polish": "Pokaż instrukcje"
+  }
+]

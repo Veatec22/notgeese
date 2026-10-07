@@ -1,0 +1,40 @@
+CHILDREN OF THE SUN — Not Geese PL 0.1 (WERSJA TESTOWA)
+
+Przetłumaczone są wszystkie teksty gry: menu i opcje, samouczek, przyczyny
+porażki, wyniki, tytuły poziomów, podpowiedzi wyzwań, wiersz ze snu, minigra
+i tryb nieskończony (Paraliż senny). Napisy końcowe zostają w oryginale.
+
+Paczka NIE PODMIENIA żadnego pliku gry. Polski pojawia się jako osobna pozycja
+na liście języków, obok angielskiego i pozostałych.
+
+INSTALACJA (przy zamkniętej grze)
+1. Wypakuj całą zawartość archiwum do katalogu gry — tego, w którym leży
+   „ChildrenOfTheSun.exe”. W Steamie: Zarządzaj > Przeglądaj pliki lokalne.
+2. Uruchom grę normalnie. Pierwsze uruchomienie trwa dłużej.
+3. Wejdź w Options > Language i wybierz „Polski” (ostatnia pozycja).
+   Wybór zostaje zapamiętany.
+
+USUNIĘCIE
+Skasuj z katalogu gry: winhttp.dll, doorstop_config.ini, .doorstop_version,
+BepInEx-LICENSE.txt, READ-ME.txt oraz cały katalog BepInEx. Gra wróci do
+angielskiego. Plików gry nie ruszamy, więc nie ma czego przywracać.
+
+WERSJE GRY
+Sprawdzane na wydaniu ze Steama (Unity 2021.3.20, 64-bit). Spolszczenie nie
+jest przypięte do wersji gry — wpina się w system języków po nazwach. Nowe
+teksty po aktualizacji zostaną po angielsku, a log poda, których brakuje.
+
+JEŚLI COŚ NIE DZIAŁA
+Log leży w BepInEx/LogOutput.log. Powinny w nim być linie „Loaded … entries”
+i „Polish on.”. Prześlij ten plik razem ze zrzutem ekranu.
+
+CO JEST W PACZCE
+BepInEx 5.4.23.5 — otwarta dokładka uruchamiająca modyfikacje w grach Unity.
+BepInEx/plugins/notgeeseChildrenOfTheSun — nasz plugin i pl.tsv z tekstami.
+Polskie litery dorysowujemy w czasie gry z czcionek samej gry; paczka nie
+zawiera żadnej czcionki.
+
+LICENCJE
+Spolszczenie i plugin: MIT, BepInEx/plugins/notgeeseChildrenOfTheSun/LICENSE-notgeese.txt
+BepInEx: LGPL-2.1, BepInEx-LICENSE.txt. Źródła tej wersji leżą obok paczki
+i na https://github.com/BepInEx/BepInEx/releases/tag/v5.4.23.5

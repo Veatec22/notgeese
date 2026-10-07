@@ -1,0 +1,75 @@
+sources:
+  - id: table
+    description: String table LOL, keys from shared data (work/source/en.json from tools/extract.py)
+  - id: wiki
+    description: Wikipedia, protagonist is a girl hunting a cult
+    url: https://en.wikipedia.org/wiki/Children_of_the_Sun_(video_game)
+  - id: ru
+    description: Russian table of the game, used for meaning of riddles
+
+style:
+  tone: terse and dark; titles, challenge hints and the dream poem slightly poetic; a crude streak in a few jokes
+  adaptation: >-
+    Text only, no voice or dialogue; story told in wordless cutscene art (table, scene survey).
+    Free form where poetic, precise in tutorial and UI. Crude words at the original strength
+    ("Dick" → "Fiut"). Challenge hints stay riddles: keep the condition recoverable, never spell it out.
+  reading_conditions: >-
+    Menus, map and level info wait for the player. Tutorial prompts show during aiming and bullet
+    flight; death reasons and score lines right after a shot (short, glanceable; to test).
+  source: user
+  note: direction agreed with the user before the vertical (docs/decisions.md)
+
+characters:
+  - id: girl
+    name: (unnamed protagonist)
+    gender: f
+    addresses_player: ty
+    register: the player is the girl; game speaks to her in 2nd person singular
+    examples:
+      - {key: fail_geometry, en: You hit something solid, pl: Trafiłaś w coś twardego}
+      - {key: pacman_title, en: "I Just Killed a Man\nNow I'm Horny", pl: "Właśnie zabiłam człowieka\nI jestem napalona"}
+      - {key: fail_outoflevel, en: You went too far, pl: Posunęłaś się za daleko, note: 'user after review; literal + moral'}
+    source: [wiki, user]
+  - id: poem_addressee
+    name: (the "you" of the dream poem)
+    gender: '?'
+    register: 'masculine in 01–04a (father figure: "Byłeś moim ojcem"); 04b neutral "Będziesz jedynym dzieckiem" by user ruling, because "you" may be the girl herself'
+    source: user
+
+terms:
+  - en: Re-Aim
+    pl: przecelowanie
+    forms: [przecelow]
+    source: user
+  - en: Bullet Time
+    pl: czas lotu
+    forms: [czas lotu, czasu lotu]
+    source: user
+    note: proposed "czas kuli" rejected
+  - en: Powershot
+    pl: silny strzał
+    forms: [siln]
+    source: user
+  - en: 'Weakpoints?'
+    note: regex, matches Weakpoint and Weakpoints
+    pl: słabe punkty
+    forms: [słab]
+    source: decision
+  - en: Nightmare Paralysis
+    pl: Paraliż senny
+    forms: [Paraliż senny, Paraliżu sennego]
+    source: user
+  - en: priest
+    pl: kapłan
+    forms: [kapłan]
+    source: decision
+  - en: armor
+    pl: pancerz
+    forms: [pancerz]
+    source: decision
+
+settings:
+  dialog_key: '^dream_poem'
+
+ignore:
+  - {check: english, key: options_fpslimit, reason: '"Limit FPS" is the Polish term too'}
