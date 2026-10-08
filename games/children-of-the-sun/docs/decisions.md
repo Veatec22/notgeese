@@ -129,6 +129,13 @@ Death reasons in 2nd person past are feminine: `fail_geometry` "Trafiłaś w co�
   - `aroundUser` → "Wyniki zbliżone do twojego".
   - Open: `multikill` (after seeing its trigger), `pacman_title` line 2 unchanged.
 
+## Splash screens (0.2, agent decision)
+
+The warning, publisher and author screens are baked images (see technical.md). Redrawn in Polish:
+"ostrzeżenie" + `photowarning_body`; "presented by" → "wydawca" (Polish word order can't put
+"przedstawia" before the name); "a game by" → "gra autorstwa". Names DEVOLVER DIGITAL and
+RENÉ ROTHER unchanged. Confirmed in game by the user.
+
 ## Check in game
 
 - Options: "Polski" at the end of the language list; switching to it and back to English.

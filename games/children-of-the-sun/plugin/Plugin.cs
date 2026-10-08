@@ -27,7 +27,7 @@ namespace notgeese.ChildrenOfTheSun
     public class Plugin : BaseUnityPlugin
     {
         public const string Id = "cc.notgeese.childrenofthesun";
-        public const string Version = "0.1";
+        public const string Version = "0.2";
 
         internal const string MenuName = "Polski";
         internal const string EnglishCode = "en";
@@ -56,6 +56,13 @@ namespace notgeese.ChildrenOfTheSun
             }
             try { Chosen = PlayerPrefs.GetInt(PolishKey, 0) == 1; }
             catch (Exception) { Chosen = false; }
+
+            // The splash screen runs before any scene: swap its logos as early as we can.
+            if (Chosen)
+            {
+                try { SplashLogos.Replace(); }
+                catch (Exception error) { Logger.LogWarning("Splash logos: " + error.Message); }
+            }
 
             try
             {
@@ -181,7 +188,8 @@ namespace notgeese.ChildrenOfTheSun
         private static readonly AccessTools.FieldRef<OptionsMenu, TMP_Dropdown> Dropdown =
             AccessTools.FieldRefAccess<OptionsMenu, TMP_Dropdown>("languageDropdown");
 
-        private static bool loading;
+        /// Above zero while the game itself sets the language (menu start, saved settings).
+        private static int loading;
 
         private static int PolishIndex()
         {
@@ -208,6 +216,23 @@ namespace notgeese.ChildrenOfTheSun
             dropdown.RefreshShownValue();
         }
 
+        // Start fills the list and sets its value (set_value notifies: ChangeLanguage with the
+        // current locale), then loads saved settings (ChangeLanguage with the saved locale).
+        // Neither is the player leaving Polish. Counted, because Start calls the loader.
+        [HarmonyPrefix]
+        [HarmonyPatch(typeof(OptionsMenu), "Start")]
+        private static void Starting()
+        {
+            loading++;
+        }
+
+        [HarmonyFinalizer]
+        [HarmonyPatch(typeof(OptionsMenu), "Start")]
+        private static void StartEnds()
+        {
+            loading--;
+        }
+
         [HarmonyPostfix]
         [HarmonyPatch(typeof(OptionsMenu), "Start")]
         private static void Started(OptionsMenu __instance)
@@ -223,20 +248,18 @@ namespace notgeese.ChildrenOfTheSun
             }
         }
 
-        // Loading saved settings calls ChangeLanguage with the saved locale; that is not the
-        // player leaving Polish.
         [HarmonyPrefix]
         [HarmonyPatch(typeof(OptionsMenu), "LoadAndSetPlayerPrefs")]
         private static void LoadingStarts()
         {
-            loading = true;
+            loading++;
         }
 
         [HarmonyFinalizer]
         [HarmonyPatch(typeof(OptionsMenu), "LoadAndSetPlayerPrefs")]
         private static void LoadingEnds(OptionsMenu __instance)
         {
-            loading = false;
+            loading--;
             try { ShowChoice(__instance); }
             catch (Exception error) { Plugin.Log.LogWarning("Language list: " + error.Message); }
         }
@@ -257,7 +280,7 @@ namespace notgeese.ChildrenOfTheSun
                 Plugin.Choose(true);
                 __0 = english;
             }
-            else if (!loading)
+            else if (loading == 0)
             {
                 Plugin.Choose(false);
             }
@@ -267,7 +290,7 @@ namespace notgeese.ChildrenOfTheSun
         [HarmonyPatch(typeof(OptionsMenu), "ChangeLanguage")]
         private static void Changed()
         {
-            if (!loading) Plugin.RefreshTexts();
+            if (loading == 0) Plugin.RefreshTexts();
         }
     }
 

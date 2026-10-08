@@ -1,21 +1,21 @@
 slug: children-of-the-sun
 title: Children of the Sun
-version: "0.1"
+version: "0.2"
 entries: { done: 170, total: 170 }
 tested: partial
 engine: Unity 2021.3.20 (Mono)
 approach: Plugin BepInEx 5 dodaje na liście języków pozycję „Polski” i podaje polskie teksty w miejsce angielskich w czasie działania gry. Brakujące w fontach polskie litery składa z liter tych samych fontów. Żaden plik gry nie jest podmieniany.
-scope: Cały tekst gry — menu i opcje, samouczek, przyczyny porażki, wyniki, tytuły poziomów, podpowiedzi wyzwań, wiersz ze snu, minigra i tryb Paraliż senny. Napisy końcowe zostają w oryginale.
+scope: Cały tekst gry — plansze startowe (ostrzeżenie, wydawca, autor), menu i opcje, samouczek, przyczyny porażki, wyniki, tytuły poziomów, podpowiedzi wyzwań, wiersz ze snu, minigra i tryb Paraliż senny. Napisy końcowe zostają w oryginale.
 stores:
   steam: https://store.steampowered.com/app/1309950/
 download:
   kind: zip
-  file: Children-of-the-Sun-PL-0.1.zip
-  bytes: 658075
+  file: Children-of-the-Sun-PL-0.2.zip
+  bytes: 704609
 tested_on:
   - store: steam
     version: "2024 11 25 (build 16524106)"
-test_notes: Vertical confirmed in game on Steam build 16524106 (language list, menus, options, Polish letters). Full translation with independent review built and installed; later levels, poem, minigame and endless mode not yet tested.
+test_notes: Vertical confirmed in game on Steam build 16524106 (language list, menus, options, Polish letters); 0.2 confirmed that the language choice persists and the splash screens (warning, publisher, author) show in Polish. Full translation with independent review; later levels, poem, minigame and endless mode not yet tested.
 quote:
   text:
   source:

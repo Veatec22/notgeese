@@ -26,7 +26,10 @@ sys.path.insert(0, str(REPO / 'tools'))
 
 from translations import polish_by_key  # noqa: E402
 
-VERSION = '0.1'
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import splash  # noqa: E402
+
+VERSION = '0.2'
 DATA = 'ChildrenOfTheSun_Data'
 PLUGIN = 'notgeeseChildrenOfTheSun'
 PACKAGE = 'Children-of-the-Sun-PL'
@@ -52,6 +55,7 @@ GAME_REFERENCES = [
     'UnityEngine.CoreModule.dll',
     'UnityEngine.TextCoreFontEngineModule.dll',  # Glyph, GlyphRect, FaceInfo
     'UnityEngine.TextRenderingModule.dll',       # Font, source of dynamic fonts
+    'UnityEngine.ImageConversionModule.dll',     # LoadImage for the splash logos
     'UnityEngine.UI.dll',                        # TMP_Text inherits Graphic
     'Unity.TextMeshPro.dll',
     'Unity.Localization.dll',                    # LocalizationSettings
@@ -157,6 +161,8 @@ def package(work: Path) -> Path:
 
         archive.write(work / f'{PLUGIN}.dll', f'BepInEx/plugins/{PLUGIN}/{PLUGIN}.dll')
         archive.write(work / 'pl.tsv', f'BepInEx/plugins/{PLUGIN}/pl.tsv')
+        for logo in sorted((ROOT / 'work' / 'splash').glob('*.png')):
+            archive.write(logo, f'BepInEx/plugins/{PLUGIN}/splash/{logo.name}')
         archive.write(ROOT / 'docs/INSTALL-plugin.txt', 'READ-ME.txt')
         archive.write(REPO / 'LICENSE', f'BepInEx/plugins/{PLUGIN}/LICENSE-notgeese.txt')
 
@@ -167,6 +173,7 @@ def package(work: Path) -> Path:
         names = set(archive.namelist())
         assert 'winhttp.dll' in names, 'BepInEx loader missing'
         assert 'BepInEx-LICENSE.txt' in names, 'BepInEx license missing'
+        assert sum(1 for n in names if '/splash/' in n) == 3, 'splash logos missing'
         assert not any(name.endswith(('.assets', '.resS', '.resource', '.unity3d', '.bank')) for name in names), \
             'the package must not contain game files'
         assert not any(name.startswith(DATA) for name in names), 'the package must not contain game files'
@@ -188,6 +195,7 @@ def main() -> int:
     work.mkdir(parents=True)
 
     entries = write_terms(terms, work / 'pl.tsv')
+    splash.render()  # our redrawn splash logos -> work/splash
     compile_plugin(args.game.resolve(), work / f'{PLUGIN}.dll')
     archive = package(work)
 

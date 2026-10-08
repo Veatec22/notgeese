@@ -1,4 +1,4 @@
-CHILDREN OF THE SUN — Not Geese PL 0.1 (WERSJA TESTOWA)
+CHILDREN OF THE SUN — Not Geese PL 0.2 (WERSJA TESTOWA)
 
 Przetłumaczone są wszystkie teksty gry: menu i opcje, samouczek, przyczyny
 porażki, wyniki, tytuły poziomów, podpowiedzi wyzwań, wiersz ze snu, minigra
@@ -32,7 +32,9 @@ CO JEST W PACZCE
 BepInEx 5.4.23.5 — otwarta dokładka uruchamiająca modyfikacje w grach Unity.
 BepInEx/plugins/notgeeseChildrenOfTheSun — nasz plugin i pl.tsv z tekstami.
 Polskie litery dorysowujemy w czasie gry z czcionek samej gry; paczka nie
-zawiera żadnej czcionki.
+zawiera żadnej czcionki. W katalogu splash są trzy nasze obrazki z polskim
+tekstem planszy startowej (ostrzeżenie o migających obrazach, wydawca, autor),
+narysowane od nowa wolnymi czcionkami UnifrakturMaguntia i Vollkorn (OFL).
 
 LICENCJE
 Spolszczenie i plugin: MIT, BepInEx/plugins/notgeeseChildrenOfTheSun/LICENSE-notgeese.txt
