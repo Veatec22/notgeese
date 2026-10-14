@@ -1,4 +1,4 @@
-DEADBOLT PL 0.2 — WERSJA TESTOWA PEŁNEGO SPOLSZCZENIA
+DEADBOLT PL 0.3 — WERSJA TESTOWA PEŁNEGO SPOLSZCZENIA
 
 Po polsku jest cała gra: menu główne i pauzy, ustawienia i sterowanie, wybór
 misji i ich opisy, podpowiedzi, cele, broń i jej opisy, osiągnięcia, okrzyki
@@ -22,6 +22,10 @@ Plugin nie zmienia żadnego pliku gry. Poprawia dane gry w pamięci przy starcie
 (polskie litery w fontach, polskie napisy i grafiki), a polskie dialogi zapisuje
 do notgeese/cache. Jeżeli masz już d3d9.dll od innego moda, zachowaj jego kopię
 i wyłącz tamten mod — dwa pliki proxy o tej nazwie nie działają razem.
+
+Wyjątek: nasz mod Ultrawide (szeroki ekran 21:9 i 32:9) ma ten sam d3d9.dll.
+Obie paczki możesz wypakować w dowolnej kolejności; wtedy masz i spolszczenie,
+i szeroki ekran. Używaj najnowszych wersji obu.
 
 JEŚLI COŚ NIE DZIAŁA
 Gdy plugin czegoś nie rozpozna, dana część zostaje po angielsku, a powód trafia

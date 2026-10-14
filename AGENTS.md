@@ -45,7 +45,7 @@ Game layout:
 | `translations/bible.yaml` | Characters, terms, style; format in the localization skill. |
 | `translations/structure.yaml` | Groups and sequences for the workspace; format in `docs/workspace.md`. |
 | `tools/`, `plugin/` | Game-specific extract/build tools, plugin source. |
-| `mods/<mod>/` | One published mod: `plugin/`, `tools/` (build, release), `README.md` (Polish guide for the panel), `docs/` (English readme, Nexus text). |
+| `mods/<mod>/` | One published mod: `plugin/` (unless it shares the translation plugin, e.g. DEADBOLT), `tools/` (build, release), `README.md` (Polish guide for the panel), `docs/` (English readme, Nexus text). |
 | `work/` | Local scratch, git-ignored: extracted game data, reports, build dirs. |
 
 `translations/en-pl-review.json`: list of `{key, namespace?, english, polish, context?, note?,
@@ -104,6 +104,8 @@ when the user approves it in game. Then:
 1. Move it to `games/<game>/mods/<mod>/`; release script builds `<Game>-<Mod>-<version>.zip` in
    `dist/` and copies it, plus bundled third-party source archives, to `site/public/pobierz/`.
    Same rules as translations: runtime plugin, no game files, version-agnostic, logs versions.
+   A mod that extends the translation plugin ships the same binary with its own switch file, so
+   both packages work alone and together; one release script builds both (DEADBOLT).
 2. Add the mod to `mods:` in the game's `game.yaml` (`summary`, `approach`, `download`, `nexus`)
    and write the Polish `README.md` guide. A game we don't translate gets `game.yaml` without
    translation fields, status `mods` in `catalog.yaml` and keyart (`tools/keyart.py`).

@@ -16,6 +16,26 @@ static const uint8_t* At(const uint8_t* base, uint32_t off) {
 }
 static uint32_t U32(const uint8_t* p) { uint32_t v; memcpy(&v, p, 4); return v; }
 
+static uint32_t cachedWidth, cachedHeight, cachedFlags, surfaceWidth, surfaceHeight;
+// Replay the real runner's GEN8 pre-scan: dimensions are cached before the DLL loads.
+// This instruction sequence is captured from the installed runner, with relocated globals.
+__declspec(naked) static void SeedDimensions(const uint8_t*) {
+    __asm {
+        push esi
+        mov esi, [esp+8]
+        mov eax, [esi+3ch]
+        mov cachedWidth, eax
+        mov ecx, [esi+40h]
+        mov cachedHeight, ecx
+        mov edx, [esi+44h]
+        mov cachedFlags, edx
+        mov surfaceWidth, eax
+        mov surfaceHeight, ecx
+        pop esi
+        ret
+    }
+}
+
 int wmain(int argc, wchar_t** argv) {
     if (argc < 2) return 2;
     SetCurrentDirectoryW(argv[1]);
@@ -24,6 +44,7 @@ int wmain(int argc, wchar_t** argv) {
     fseek(f, 0, SEEK_END); long size = ftell(f); fseek(f, 0, SEEK_SET);
     auto base = static_cast<uint8_t*>(malloc(size));
     fread(base, 1, size, f); fclose(f);
+    SeedDimensions(base + 16); // GEN8 is the first chunk in this fixture.
 
     HMODULE plugin = LoadLibraryW(L"d3d9.dll");
     if (!plugin) return 4;
@@ -31,6 +52,9 @@ int wmain(int argc, wchar_t** argv) {
     auto create = reinterpret_cast<Create>(GetProcAddress(plugin, "Direct3DCreate9"));
     void* d3d = create ? create(32) : nullptr;
     if (d3d) (*reinterpret_cast<ULONG(__stdcall***)(void*)>(d3d))[2](d3d);   // Release
+    FILE* dimensions = _wfopen(L"out-runner-size.txt", L"w");
+    fprintf(dimensions, "%u %u %u %u\n", cachedWidth, cachedHeight, surfaceWidth, surfaceHeight);
+    fclose(dimensions);
 
     // Chunki
     uint32_t strg = 0, font = 0, txtr = 0;

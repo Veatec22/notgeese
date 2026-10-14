@@ -34,7 +34,7 @@
 #include <vector>
 #include "MinHook.h"
 
-static const char* kVersion = "0.2";
+static const char* kVersion = "0.3";
 
 static HMODULE selfModule;
 static std::wstring root;       // game dir (where our d3d9.dll lives)
@@ -579,6 +579,8 @@ template <class F> static void ForEachPushString(Form& form, const CodeEntry& e,
     }
 }
 
+#include "Ultrawide.h"
+
 // ---------------------------------------------------------------- JSON
 
 static std::unordered_map<std::string, std::string> jsonRows;
@@ -713,14 +715,24 @@ static void Init() {
     wchar_t path[MAX_PATH] = {};
     GetModuleFileNameW(selfModule, path, MAX_PATH);
     root = path; root.resize(root.find_last_of(L"\\/") + 1);
-    CreateDirectoryW((root + L"notgeese").c_str(), nullptr);
-    logfile = _wfsopen((root + L"notgeese\\LogOutput.log").c_str(), L"w", _SH_DENYNO);
-    Log("notgeese DEADBOLT PL %s; GameMaker Studio 1.4 VM; data.win patched in memory", kVersion);
+    // Two independent features of one DLL, switched on by their files: the PL package ships
+    // notgeese\pl.tsv + fonts.txt, the ultrawide mod ships ultrawide\settings.ini. Either works
+    // alone; the log goes to the folder of the package that is installed (PL first).
+    const auto has = [](const std::wstring& p) { return GetFileAttributesW(p.c_str()) != INVALID_FILE_ATTRIBUTES; };
+    const bool translationFiles = has(root + L"notgeese\\pl.tsv") && has(root + L"notgeese\\fonts.txt");
+    const bool ultrawide = GetPrivateProfileIntW(L"Ultrawide", L"Enabled", 0, UltrawideIni().c_str()) != 0;
+    if (!translationFiles && !ultrawide) return;
+    const std::wstring folder = root + (translationFiles ? L"notgeese" : L"ultrawide");
+    CreateDirectoryW(folder.c_str(), nullptr);
+    logfile = _wfsopen((folder + L"\\LogOutput.log").c_str(), L"w", _SH_DENYNO);
+    Log("DEADBOLT plugin %s by Not Geese (PL translation, ultrawide); GameMaker Studio 1.4 VM; data.win patched in memory", kVersion);
     auto started = std::chrono::steady_clock::now();
 
-    auto rows = LoadRows(root + L"notgeese\\pl.tsv");
-    auto recipes = LoadRecipes(root + L"notgeese\\fonts.txt");
-    if (rows.empty() || recipes.empty()) { LogVersions(nullptr); Log("Missing pl.tsv or fonts.txt: disabled"); return; }
+    auto rows = translationFiles ? LoadRows(root + L"notgeese\\pl.tsv") : decltype(LoadRows(root)){};
+    auto recipes = translationFiles ? LoadRecipes(root + L"notgeese\\fonts.txt") : decltype(LoadRecipes(root)){};
+    const bool translation = !rows.empty() && !recipes.empty();
+    if (!translation && !ultrawide) { LogVersions(nullptr); Log("pl.tsv or fonts.txt unreadable and ultrawide off: nothing to do"); return; }
+    if (!translation) Log("No Polish translation files: translation off, ultrawide only");
 
     std::vector<uint8_t> file;
     if (!ReadFileBytes(root + L"data.win", file) || file.size() < 16) {
@@ -733,6 +745,12 @@ static void Init() {
     // (70 616 bytes differ in game), and instruction offsets are the same in both copies.
     Form disk = form;
     disk.base = file.data();
+    ApplyUltrawide(form, disk);
+    if (!translation) {
+        auto ms = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::steady_clock::now() - started).count();
+        Log("Ready in %lld ms (ultrawide only).", static_cast<long long>(ms));
+        return;
+    }
 
     // 1. Fonts: preparation (no write).
     HRESULT com = CoInitializeEx(nullptr, COINIT_APARTMENTTHREADED);

@@ -15,7 +15,7 @@ mods:
     download:
       file: SilverPines-Minimap-1.0.0.zip
       bytes: 34363440
-    nexus:
+    nexus: https://www.nexusmods.com/silverpines/mods/11
 test_notes: Minimap 1.0.0 tested in game by the user (corner map, fades, hiding in dialogue and cutscenes, quick map restore); release ZIP clean install pending.
 steam_appid: 2333000
 year: 2026

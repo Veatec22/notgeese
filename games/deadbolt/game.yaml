@@ -1,12 +1,12 @@
 slug: deadbolt
 title: DEADBOLT
-version: "0.2"
+version: "0.3"
 entries: { done: 619, total: 619 }
 tested: partial
 engine: GameMaker Studio 1.4 (VM, bytecode 15), x86
 approach: Własny plugin d3d9.dll poprawia dane gry w pamięci przy starcie, zanim silnik je rozbierze — polskie napisy w tabeli STRG, polskie litery dołożone do trzech fontów gry, dialogi dia_*.json tłumaczone do notgeese/cache. Żaden plik gry nie jest podmieniany; bez stałych adresów i sum kontrolnych.
 scope: Pełne — menu główne i pauzy, ustawienia i sterowanie, wybór i opisy misji, podpowiedzi, cele, broń, osiągnięcia, okrzyki wrogów i bossów, wszystkie rozmowy z płomieniami (wiersze), notatki i sejfy, nagrania z kaset, porady po śmierci, napisy końcowe oraz napisy na grafikach (menu główne, samouczek, teczka misji, sklep Charona, powiadomienie o nowej broni). 619 wpisów; nazwy gangów i imiona w oryginale. Poza zakresem edytor map.
-test_notes: Vertical confirmed in game by the user (2026-09-25). Full translation after the independent language review and verse rewrite, checked with the no-game plugin test and installed locally; full playthrough pending. 0.2 adds four texture headings (Charon shop and new-weapon notification); translation-only build and no-game harness passed, 19 labels across 11 sprite frames. Purchase notification rendering awaits user confirmation.
+test_notes: Vertical confirmed in game by the user (2026-09-25). Full translation after the independent language review and verse rewrite, checked with the no-game plugin test and installed locally; full playthrough pending. 0.2 adds four texture headings (Charon shop and new-weapon notification); translation-only build and no-game harness passed, 19 labels across 11 sprite frames. Purchase notification rendering awaits user confirmation. 0.3 keeps the translation; DLL shared with the Ultrawide mod (features switched on by their files); harness passes PL, PL+ultrawide and ultrawide-only.
 steam_appid: 394970
 stores:
   steam: https://store.steampowered.com/app/394970/
@@ -15,7 +15,20 @@ tested_on:
     version: "build 22449372"
 download:
   kind: zip
-  file: Deadbolt-PL-0.2.zip
-  bytes: 211159
+  file: Deadbolt-PL-0.3.zip
+  bytes: 216330
 gallery: [1, 2, 3, 4, 5]
 year: 2016
+mods:
+  - slug: ultrawide
+    title: Szeroki ekran
+    version: "1.0.0"
+    summary: Gra wypełnia ekrany 21:9 i 32:9 zamiast czarnych pasów — szerszy widok w misjach, w doku i w mieszkaniu, wyśrodkowane menu z działającą myszą. Działa razem ze spolszczeniem albo bez niego.
+    approach: Ten sam plugin d3d9.dll co spolszczenie poszerza widok gry w pamięci przy starcie; każdą zmianę najpierw sprawdza. Żaden plik gry nie jest podmieniany.
+    tested_on:
+      - store: steam
+        version: "build 22449372, 32:9"
+    download:
+      file: Deadbolt-Ultrawide-1.0.0.zip
+      bytes: 181385
+    nexus:

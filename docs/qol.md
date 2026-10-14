@@ -140,7 +140,7 @@ Local opt-in extension to the PL d3d9 proxy; widens camera/viewport and scaling 
 to 1920x540 for 5120x1440. Twelve static room views and the dynamic mission camera are patched
 in memory; publisher files stay unchanged. No available online fix found.
 Details: `games/deadbolt/docs/technical.md`; source `games/deadbolt/plugin/Ultrawide.h`.
-Build `games/deadbolt/tools/build_qol.py`; local ZIP in `games/deadbolt/dist/`.
+Build (now) `games/deadbolt/mods/ultrawide/tools/release.py`; ZIPs in `games/deadbolt/dist/`.
 Installed via `games/deadbolt/tools/install_qol.py`; previous PL plugin saved in
 `backups/deadbolt-qol/ultrawide-v1/`. Restore with that tool's `--restore`.
 Set `Enabled=0` in the game's `notgeese/ultrawide.ini` and restart to disable only ultrawide.
@@ -177,9 +177,9 @@ files verified byte-identical to ZIP. Preserve this checkpoint before later chan
 Full playthrough, other UI states and unusual maps remain open; no site release or ready-status
 change. Earlier failures above are history, not the current checkpoint state.
 
-Side findings outside the translation: ultrawide, FOV, UI. Personal use, tested by the user in
-game; not part of any PL package or the site unless the user decides otherwise. Anything that
-carries a game asset stays local (see Delivery in `AGENTS.md`).
+Published 2026-10-14 as the Ultrawide mod 1.0.0 (`games/deadbolt/mods/ultrawide/`), sharing
+the PL 0.3 d3d9.dll; details in `games/deadbolt/docs/technical.md`. Anything that carries a game
+asset stays local (see Delivery in `AGENTS.md`).
 
 ## Possessor(s): ultrawide (confirmed 32:9, GOG 1.8.0)
 

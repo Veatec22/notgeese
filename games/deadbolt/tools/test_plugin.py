@@ -44,26 +44,127 @@ def unescape(s):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--game', type=Path, required=True)
-    game = ap.parse_args().game
+    ap.add_argument('--ultrawide-width', type=int, default=0)
+    ap.add_argument('--no-translation', action='store_true',
+                    help='ultrawide mod package alone: no pl.tsv/fonts.txt/labels.txt next to the DLL')
+    ap.add_argument('--dist', type=Path, default=ROOT / 'dist')
+    args = ap.parse_args()
+    game = args.game
     if WORK.exists():
         shutil.rmtree(WORK)
     (WORK / 'notgeese').mkdir(parents=True)
     shutil.copyfile(game / 'data.win', WORK / 'data.win')
     for f in game.glob('dia_*.json'):
         shutil.copyfile(f, WORK / f.name)
-    dist = ROOT / 'dist'
+    dist = args.dist
     shutil.copyfile(dist / 'd3d9.dll', WORK / 'd3d9.dll')
-    for name in ('pl.tsv', 'fonts.txt', 'labels.txt'):
+    if args.no_translation and not args.ultrawide_width:
+        raise SystemExit('--no-translation needs --ultrawide-width')
+    for name in () if args.no_translation else ('pl.tsv', 'fonts.txt', 'labels.txt'):
         shutil.copyfile(dist / 'notgeese' / name, WORK / 'notgeese' / name)
+    if args.ultrawide_width:
+        (WORK / 'ultrawide').mkdir()
+        (WORK / 'ultrawide/settings.ini').write_text(
+            f'[Ultrawide]\nEnabled=1\nVirtualWidth={args.ultrawide_width}\n', encoding='ascii')
 
     env = compiler_environment()
     cl = shutil.which('cl.exe', path=next(v for k, v in env.items() if k.lower() == 'path'))
     subprocess.run([cl, '/nologo', '/O2', '/EHsc', '/utf-8', str(ROOT / 'tools/harness.cpp'), '/Fe:' + str(WORK / 'harness.exe')],
                    cwd=WORK, env=env, check=True, stdout=subprocess.DEVNULL)
     subprocess.run([str(WORK / 'harness.exe'), str(WORK)], cwd=WORK, check=True)
-    log = (WORK / 'notgeese/LogOutput.log').read_text(encoding='utf-8')
+    # The log sits in the folder of the installed package: notgeese\ with PL, ultrawide\ alone.
+    log = (WORK / ('ultrawide' if args.no_translation else 'notgeese') / 'LogOutput.log').read_text(encoding='utf-8')
+    if args.no_translation:
+        assert not (WORK / 'notgeese/LogOutput.log').exists() and not (WORK / 'notgeese/cache').exists()
     print(log)
     assert 'Ready in' in log, 'plugin did not finish'
+    want_width = args.ultrawide_width or 960
+    cached = list(map(int, (WORK / 'out-runner-size.txt').read_text().split()))
+    assert cached == [want_width, 540, want_width, 540], f'Runner output still has old aspect: {cached}'
+    # Inspect the actual DLL's memory writes, including the dynamically created mission camera.
+    source = Data(game / 'data.win')
+    patched_buffer = (WORK / 'out-buffer.bin').read_bytes()
+    import struct
+    camera_changes = set()
+    rs, _ = source.chunks['ROOM']
+    for i in range(source.u32(rs)):
+        p = source.u32(rs + 4 + 4 * i)
+        vl = source.u32(p + 44)
+        for j in range(source.u32(vl)):
+            view = source.u32(vl + 4 + 4 * j)
+            if not source.u32(view):
+                continue
+            for off in (view + 12, view + 28):
+                want = args.ultrawide_width or 960
+                assert struct.unpack_from('<I', patched_buffer, off)[0] == want
+                if args.ultrawide_width:
+                    camera_changes.update(range(off, off + 4))
+            assert struct.unpack_from('<I', patched_buffer, view + 20)[0] == 0
+    # Read the DLL's actual replacement instructions. Both draw origin and main-menu
+    # hit rectangles derive from the same tx; load's fixed hit center follows the list.
+    variables = source.chains('VARI', 3, 20, 0, 12, 16)
+    from strings_usage import disasm
+    main_reads, load_centers = 0, 0
+    for name, start, length in source.code_entries():
+        if name == 'gml_Object_oMain_Draw_0':
+            for off, op, arg in disasm(source, start, length, {}, variables):
+                if not arg or arg[1] not in ('view_xview', 'view_wview'):
+                    continue
+                if args.ultrawide_width:
+                    assert struct.unpack_from('<I', patched_buffer, off - 8)[0] == 0xc0000000
+                    value = struct.unpack_from('<d', patched_buffer, off - 4)[0]
+                    expected = (args.ultrawide_width - 960) / 2 if arg[1] == 'view_xview' else 960
+                    assert value == expected
+                    assert struct.unpack_from('<I', patched_buffer, off + 4)[0] == 0x07500000
+                else:
+                    assert patched_buffer[off - 8:off + 8] == source.d[off - 8:off + 8]
+                main_reads += 1
+        elif name == 'gml_Object_oLoadGame_Draw_0':
+            for off, op, arg in disasm(source, start, length, {}, variables):
+                if source.u32(off) == 0x840f0212:
+                    center = 530 + (args.ultrawide_width - 960) // 2 if args.ultrawide_width else 530
+                    assert struct.unpack_from('<I', patched_buffer, off)[0] == 0x840f0000 | center
+                    # List is drawn at view_wview/2 - 130; hit test permits +/-180
+                    # around the original center 530. Preserve their relative geometry.
+                    list_left = (args.ultrawide_width or 960) / 2 - 130
+                    assert center - list_left == 180
+                    load_centers += 1
+    assert (main_reads, load_centers) == (9, 1)
+    for name, start, length in source.code_entries():
+        if name not in ('gml_Script_init_screen', 'gml_Object_oLoadRoom_Other_10'):
+            continue
+        hits = 0
+        from strings_usage import disasm
+        for off, op, _ in disasm(source, start, length, {}, {}):
+            if source.u32(off) == 0x840f03c0:
+                want = 0x840f0000 | (args.ultrawide_width or 960)
+                assert struct.unpack_from('<I', patched_buffer, off)[0] == want
+                hits += 1
+                if args.ultrawide_width:
+                    camera_changes.update(range(off, off + 4))
+        assert hits == (1 if name == 'gml_Script_init_screen' else 2)
+    # Nothing else in ROOM may change; lighting and mouse code stay byte-identical.
+    for off in range(rs, rs + source.chunks['ROOM'][1]):
+        if off not in camera_changes:
+            assert patched_buffer[off] == source.d[off]
+    for name, start, length in source.code_entries():
+        if name in ('gml_Object_oLighting_Create_0', 'gml_Object_oLighting_Step_2', 'gml_Script_move_mouse'):
+            assert patched_buffer[start:start + length] == source.d[start:start + length]
+    if args.ultrawide_width:
+        assert f'Ultrawide: {args.ultrawide_width}x540, 12 room views, 3 code constants' in log
+    else:
+        assert 'Ultrawide:' not in log
+    print('Camera memory verification: OK')
+
+    if args.no_translation:
+        # Mod alone: wide cameras, every string and font exactly as in the game.
+        assert 'translation off, ultrawide only' in log and 'Ready in' in log
+        seen = dict(l.split('	', 1) for l in (WORK / 'out-strings.txt').read_text(encoding='utf-8').splitlines())
+        original = Data(game / 'data.win').strings()
+        assert all(unescape(seen[str(i)]) == t for i, t in enumerate(original)), 'ultrawide-only mode changed strings'
+        assert 'Strings:' not in log and 'Polish glyphs' not in log and 'Labels:' not in log
+        print('Ultrawide-only verification: OK (no text, font or label changes)')
+        return
 
     failures = 0
     strings = {}
