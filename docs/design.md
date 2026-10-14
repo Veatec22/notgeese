@@ -52,6 +52,9 @@ JetBrains Mono 400/700 (metadata, labels always caps, nav, UI).
 
 ## Components
 
+- **Header:** three columns: brand; mono text shortcuts Gry · Proces · Pracownia · FAQ centred;
+  icon buttons theme and GitHub. Under 700 px the shortcuts hide and a FAQ icon button takes their
+  place. Shortcuts scroll without changing the URL; off the home page they link to `/#id`.
 - **Hero:** two columns from 1100 px, one below. Left: crimson title (scales with its column), ink
   secondary line, 148×10 crimson rule, lead. Right: every game cover, shuffled per visit, in two
   columns drifting down at different speeds, faded at top and bottom. A cover opens its panel;
@@ -66,16 +69,22 @@ JetBrains Mono 400/700 (metadata, labels always caps, nav, UI).
   shared workspace code into `/pracownia-demo.json` (fetched when the section comes near), states
   drawn at random per visit. Groups, sequences, search, state filter, drafts-only, view modes,
   PL-only, paging, accept/edit/undo work in the browser only; no save, refresh or export buttons.
+- **Stats bar:** one column per figure: four translation figures, a fifth "mody" once any mod is
+  published (mobile: two columns, the odd last figure takes the full row).
 - **Game tile:** Steam capsule on top (616:353), fixed-height description below a 3 px rule.
+  A translated game with a mod gets a "+ mod" note next to the version.
   Placeholder: `[KEYART]` label top-left + title initial at `rgba(255,255,255,0.13)` bottom-right.
   The whole tile is one `<a>`.
 - **Detail panel:** ≥ 700 px right overlay `min(800px, 92vw)`; < 700 px bottom drawer (max 88%,
   scrim `rgba(20,20,20,0.58)`). Modal: `aria-modal`, focus trap, background scroll lock; 240 ms
   `cubic-bezier(0.2,0,0,1)`, honors `prefers-reduced-motion`. Own URL `/<slug>/`; closes on
   Escape, backdrop, 44×44 close button. Order: media carousel (16:9) → title → status and meta
-  → game quote → description → download CTA → store links → metadata table.
+  → game quote → description → download CTA → store links → metadata table → install guide →
+  mods. Each mod: "Mod" label, title (Archivo Black 28 px), version note, summary, download
+  button (secondary under a translation, primary crimson on a mods-only game), Nexus Mods link,
+  GitHub square, metadata table, its install guide.
 - **Status badges** (`games/catalog.yaml` tone): `ready` accent fill; `testing` ink fill; `in-progress`
-  2 px ink outline. No progress percentages.
+  and `mods` 2 px ink outline. No progress percentages.
 - **Controls:** hit area ≥ 44×44; `:focus-visible` 3 px accent outline, 3 px offset (ink on red
   surfaces). Main CTA: accent background, Archivo Black ink text, 3 px border, 8 px shadow; hover
   shifts 4 px and shrinks shadow to 4 px. Filters/sort: custom `Dropdown.astro` (paper, 3 px

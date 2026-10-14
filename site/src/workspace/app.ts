@@ -9,7 +9,7 @@ import {
   type WorkRow,
   type WorkState,
 } from '../../../supabase/functions/_shared/workspace/mod.ts';
-import { Api, ApiError, type JournalRow, NetworkError, SUPABASE_PUBLISHABLE_KEY, SUPABASE_URL } from './api.ts';
+import { Api, ApiError, type GameRequestRow, type JournalRow, NetworkError, SUPABASE_PUBLISHABLE_KEY, SUPABASE_URL } from './api.ts';
 import { DraftStore, preference, setPreference } from './drafts.ts';
 import { type Draft, GameModel, STATE_LABELS } from './model.ts';
 import { icon } from './icons.ts';
@@ -108,10 +108,12 @@ function persistDrafts() {
   if (!store.working) toast('Nie udało się utrwalić szkiców w przeglądarce. Są tylko w pamięci tej karty.');
 }
 
-function setUrl(slug: string | null) {
+function setUrl(slug: string | null, requests = false) {
   const url = new URL(location.href);
   if (slug) url.searchParams.set('gra', slug);
   else url.searchParams.delete('gra');
+  if (requests) url.searchParams.set('zgloszenia', '');
+  else url.searchParams.delete('zgloszenia');
   history.pushState({}, '', url);
 }
 
@@ -153,7 +155,7 @@ function renderList() {
   const counts = store?.counts() ?? new Map<string, number>();
   root.className = '';
   root.innerHTML = `<div class="ws-top"><div><h1>Pracownia</h1></div>
-    <div class="ws-actions"><span class="ws-muted">${esc(email)}</span><button type="button" data-action="sign-out">${icon('logout')} Wyloguj</button></div></div>
+    <div class="ws-actions"><span class="ws-muted">${esc(email)}</span><button type="button" data-action="requests">${icon('inbox')} Zgłoszenia gier</button><button type="button" data-action="sign-out">${icon('logout')} Wyloguj</button></div></div>
     ${store && !store.working ? notice('Przeglądarka nie pozwala zapisać szkiców. Będą tylko w pamięci karty.', 'warn') : ''}
     <div class="ws-game-controls"><label class="ws-game-search">${icon('search')}<span class="ng-visually-hidden">Szukaj gry</span>
       <input id="ws-game-search" type="search" placeholder="Szukaj gry…" value="${esc(gameQuery)}"></label>
@@ -192,6 +194,64 @@ function filterGames() {
   if (summary) summary.textContent = `${count} z ${games.length} gier`;
   const empty = root.querySelector<HTMLElement>('#ws-game-empty');
   if (empty) empty.hidden = count > 0;
+}
+
+// --- game requests (site form, docs/workspace.md) -------------------------------------
+
+interface RequestGroup {
+  key: string;
+  title: string;
+  url: string | null;
+  polish: boolean | null;
+  count: number;
+  last: string;
+  comments: { at: string; text: string }[];
+}
+
+/** Submissions grouped by game key, most requested first; title and link from the newest. */
+function groupRequests(rows: GameRequestRow[]): RequestGroup[] {
+  const groups = new Map<string, RequestGroup>();
+  for (const row of rows) {
+    let group = groups.get(row.game_key);
+    if (!group) {
+      group = { key: row.game_key, title: row.title, url: row.url, polish: row.polish, count: 0, last: row.created_at, comments: [] };
+      groups.set(row.game_key, group);
+    }
+    group.count++;
+    group.polish ??= row.polish;
+    if (row.comment) group.comments.push({ at: row.created_at, text: row.comment });
+  }
+  return [...groups.values()].sort((a, b) => b.count - a.count || b.last.localeCompare(a.last));
+}
+
+const STORE_LABEL: Record<string, string> = { steam: 'Steam', gog: 'GOG', title: 'tytuł' };
+
+async function renderRequests() {
+  root.className = '';
+  const back = `<button class="ws-link" type="button" data-action="home">${icon('back')} Wszystkie gry</button>`;
+  root.innerHTML = `<div class="ws-narrow">${back}<h1>Zgłoszenia gier</h1><p class="ws-muted" role="status">Wczytywanie…</p></div>`;
+  let rows: GameRequestRow[];
+  try {
+    rows = await api!.gameRequests();
+  } catch (error) {
+    root.innerHTML = `<div class="ws-narrow">${back}<h1>Zgłoszenia gier</h1>${notice(error instanceof Error ? error.message : String(error), 'warn')}
+      <button type="button" data-action="requests">Spróbuj ponownie</button></div>`;
+    return;
+  }
+  const groups = groupRequests(rows);
+  root.innerHTML = `<div class="ws-top"><div>${back}<h1>Zgłoszenia gier</h1>
+      <p class="ws-muted">Zgłoszeń: ${rows.length}, gier: ${groups.length}. Formularz jest na stronie głównej w sekcji „Zgłoś grę”.${rows.length >= 1000 ? ' Pokazuję najnowsze 1000.' : ''}</p></div>
+    <div class="ws-actions"><button type="button" data-action="requests">${icon('refresh')} Odśwież</button></div></div>
+    ${groups.length ? `<div class="ws-requests">${groups.map((group) => {
+      const store = STORE_LABEL[group.key.split(':')[0]!] ?? '';
+      return `<article class="ws-request">
+        <div class="ws-request-count" aria-label="Zgłoszeń: ${group.count}">${group.count}</div>
+        <div class="ws-request-main"><h2>${group.url ? `<a href="${esc(group.url)}" target="_blank" rel="noopener noreferrer">${esc(group.title)}</a>` : esc(group.title)}</h2>
+          <div class="ws-overline">${esc(store)} · ostatnio ${esc(formatDate(group.last))}${group.polish ? ' · <span class="ws-request-polish">sklep: ma polski</span>' : ''}</div>
+          ${group.comments.length ? `<ul class="ws-request-comments">${group.comments.slice(0, 20).map((comment) => `<li><span class="ws-muted">${esc(formatDate(comment.at))}</span> ${esc(comment.text)}</li>`).join('')}</ul>` : ''}</div>
+        <div class="ws-actions"><button type="button" data-action="request-delete" data-key="${esc(group.key)}" data-title="${esc(group.title)}" data-count="${group.count}">${icon('trash')} Usuń</button></div>
+      </article>`;
+    }).join('')}</div>` : '<p class="ws-empty">Na razie brak zgłoszeń.</p>'}`;
 }
 
 function renderLoading(title: string) {
@@ -733,6 +793,24 @@ async function handleClick(event: Event) {
       return start();
     case 'retry-open':
       return gameMeta && openGame(gameMeta.slug, false);
+    case 'requests':
+      if (!new URL(location.href).searchParams.has('zgloszenia')) setUrl(null, true);
+      return renderRequests();
+    case 'request-delete':
+      return modal(
+        'Usunąć zgłoszenia tej gry?',
+        `<p>„${esc(button.dataset.title)}”, zgłoszeń: ${esc(button.dataset.count)}, razem z komentarzami. Tego nie da się cofnąć.</p>`,
+        `<button class="ws-primary" type="button" data-action="request-delete-confirm" data-key="${esc(button.dataset.key)}">${icon('trash')} Usuń</button>`,
+      );
+    case 'request-delete-confirm':
+      try {
+        await api!.deleteGameRequests(button.dataset.key!);
+        toast('Usunięto zgłoszenia tej gry.');
+      } catch (error) {
+        toast(error instanceof Error ? error.message : 'Nie udało się usunąć zgłoszeń.');
+      }
+      dialog.close();
+      return renderRequests();
     case 'home':
       setUrl(null);
       gameMeta = null;
@@ -924,8 +1002,10 @@ async function boot() {
   } catch (error) {
     return renderMessage('Nie udało się połączyć', `<p>${esc(error instanceof Error ? error.message : String(error))}</p><button type="button" data-action="restart">Spróbuj ponownie</button>`);
   }
-  const slug = new URL(location.href).searchParams.get('gra');
+  const params = new URL(location.href).searchParams;
+  const slug = params.get('gra');
   if (slug && games.some((g) => g.slug === slug)) return openGame(slug, false);
+  if (params.has('zgloszenia')) return renderRequests();
   renderList();
 }
 
@@ -958,9 +1038,14 @@ root.addEventListener('search', (event) => {
   }
 });
 window.addEventListener('popstate', () => {
-  const slug = new URL(location.href).searchParams.get('gra');
+  const params = new URL(location.href).searchParams;
+  const slug = params.get('gra');
   if (slug) openGame(slug, false);
-  else {
+  else if (params.has('zgloszenia')) {
+    gameMeta = null;
+    model = null;
+    void renderRequests();
+  } else {
     gameMeta = null;
     model = null;
     root.className = '';

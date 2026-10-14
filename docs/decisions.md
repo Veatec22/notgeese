@@ -46,6 +46,28 @@ Per-game translation decisions live in `games/<game>/docs/decisions.md`.
 - **Stripped Unity runtime → delta patch.** Own BepInEx entry point (`tools/loader/`) tried and
   exhausted: the whole runtime is cut, not one method. Details in `AGENTS.md`.
 
+## Mods
+
+- **Translations first, mods second, both public** (user, 2026-10-14). The site is "polskie
+  lokalizacje i nie tylko": mods we make along the way (QoL, HUD, minimap) are published, not
+  personal-only any more. Tiles, filters and stats stay about translations; a mod adds a "+ mod"
+  note on the tile, its own block under the translation in the panel and one stats figure.
+  *Rejected:* separate mods section/page (mods would read as a second product); mods hidden in
+  game READMEs (invisible).
+- **Catalog status `mods` for games we don't translate** (a Polish version exists) but made mods
+  for; last in `catalog.yaml`. Its `game.yaml` has `mods` and no translation fields; the site
+  build enforces both ways. Skipped by the workspace and `check_games.ts`. First: Silver Pines.
+- **Mod = `games/<game>/mods/<mod>/`** (plugin source, tools, `README.md` Polish install guide
+  shown in the panel, `docs/` English readme + Nexus page text) and an entry in the game's
+  `mods:` list. Same delivery rules as translations: runtime plugin, no game files in the ZIP,
+  bundled BepInEx whole with LICENSE and its source archive next to the package.
+- **Mod ZIP on our site and on Nexus Mods** (user, 2026-10-14). Own download in
+  `site/public/pobierz/` keeps the site independent; Nexus is where modders look. Mod pages and
+  readmes on Nexus are English. Versions: semver from `1.0.0` (Nexus compares them), not the
+  translation `0.N` rule. *Rejected:* Nexus link only (needs an account to download).
+- **No Nexus MCP for now** (user, 2026-10-14). Nexus has no upload API; community servers only
+  read (search, stats) and need the user's API key. Publishing stays manual in the browser.
+
 ## Translation process
 
 - **Direction before vertical, independent review after full** (2026-09-24). Regex report can't
@@ -120,3 +142,23 @@ Details and formats in `docs/workspace.md`.
 - **Prototype stays** in `site/src/prototype/` (dev-only route), user's call.
 - **Game icons: public Storage bucket `game-icons`, PNG ≤ 256 KiB, not in the repo.**
 - **A release requires a readable workspace icon in `game-icons/<slug>.png`, extracted from the original game EXE.** Preserve documented launcher-icon exceptions; verify public retrieval before handoff. *Rejected:* optional later upload (new games appeared without icons). (2026-10-04)
+
+## Game requests
+
+Details in `docs/workspace.md` ("Game requests").
+
+- **Write-only request form on the home page, between games and FAQ; requests read in `/admin/`.**
+  Title or Steam/GOG link plus optional comment. (2026-10-13) *Rejected:* public list with votes
+  (moderation, vote stuffing; maybe later); Tally/Google Forms/GitHub Issues (data outside the
+  panel, GitHub needs an account).
+- **One key per game: `steam:<appid>`, `gog:<slug>`, `title:<normalized>`;** one row per
+  submission, the panel sums them. Steam and GOG of the same game stay separate keys.
+  Games already on the site are answered in the browser with a link, never stored.
+- **Store lookup on submit:** Steam appdetails and GOG products API give the title and whether
+  Polish is listed; a link the store doesn't know is refused, a failed lookup is stored anyway.
+- **No email or other personal data.** Daily limit per HMAC(IP, UTC day), plus a global daily
+  cap and a honeypot. *Rejected:* email notification when a game ships (consent, mailing);
+  Turnstile from the start (third-party script; add if spam appears).
+- **`game-request` writes with the admin client** (table closed to anon/authenticated writes),
+  unlike the workspace functions that run inside RLS. *Rejected:* insert RPC granted to anon
+  (callable directly, bypassing the store check and the limit).

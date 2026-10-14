@@ -3,6 +3,7 @@ import Base from '../layouts/Base.astro';
 import GameCard from './GameCard.astro';
 import Icon from './Icon.astro';
 import Faq from './Faq.astro';
+import GameRequest from './GameRequest.astro';
 import Process from './Process.astro';
 import Workshop from './Workshop.astro';
 import Panel from './Panel.astro';
@@ -23,7 +24,7 @@ const statuses = (await getStatuses())
   .map((status) => ({ ...status, count: games.filter((game) => game.status.id === status.id).length }))
   .filter((status) => status.count > 0);
 
-const title = active ? gameTitle(active.title) : HOME_TITLE;
+const title = active ? gameTitle(active) : HOME_TITLE;
 const description = active ? gameDescription(active) : HOME_DESCRIPTION;
 const image = active ? keyartFor(active.slug, active.gallery)?.cover?.src : undefined;
 // Hero decoration: two columns of every game cover drifting down. The script shuffles them from
@@ -47,8 +48,8 @@ const Hero = active ? 'p' : 'h1';
         <p class="ng-display ng-hero-secondary">i nie tylko</p>
         <div class="ng-hero-underline"></div>
         <p class="ng-hero-lead">
-          Polskie wersje gier, które oficjalnie ich nie dostały: przetłumaczony tekst, polskie znaki,
-          instalacja w kilku krokach. Do tego czasem drobne modyfikacje, które poprawiają samą grę.
+          Darmowe spolszczenia gier, które nie dostały polskiej wersji językowej: polskie napisy,
+          polskie znaki, instalacja w kilku krokach. Do tego czasem drobne modyfikacje, które poprawiają samą grę.
         </p>
       </div>
       {
@@ -83,7 +84,7 @@ const Hero = active ? 'p' : 'h1';
   <section class="ng-section" id="gry">
     <div class="ng-shell">
       <div class="ng-section-head">
-        <h2 class="ng-display ng-section-title">Spolszczenia</h2>
+        <h2 class="ng-display ng-section-title">Gry</h2>
         <Search count={games.length} statuses={statuses} />
       </div>
       <div class="ng-grid">
@@ -103,6 +104,8 @@ const Hero = active ? 'p' : 'h1';
       </p>
     </div>
   </section>
+
+  <GameRequest games={games} />
 
   <Faq />
 

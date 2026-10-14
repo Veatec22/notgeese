@@ -1,6 +1,6 @@
 import { existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
-import type { Game } from './games';
+import type { Mod, TranslatedGame } from './games';
 import { withBase } from './url';
 
 const publicDir = fileURLToPath(new URL('../../public/pobierz/', import.meta.url));
@@ -17,7 +17,7 @@ const published = (file: string | null): file is string => !!file && existsSync(
  * A package shows on the site only when the file really sits in public/pobierz,
  * so the site never promises a file that is not there.
  */
-export function downloadFor(game: Game) {
+export function downloadFor(game: TranslatedGame) {
   const { kind, file, bytes } = game.download;
   const size = humanSize(bytes);
 
@@ -42,5 +42,16 @@ export function downloadFor(game: Game) {
     available: false as const,
     href: null,
     label: 'Paczka w przygotowaniu',
+  };
+}
+
+/** A mod ZIP: same rule, the button appears only when the file is published. */
+export function modDownloadFor(mod: Mod) {
+  const { file, bytes } = mod.download;
+  if (!published(file)) return { available: false as const, href: null, label: 'Paczka w przygotowaniu' };
+  return {
+    available: true as const,
+    href: withBase(`pobierz/${file}`),
+    meta: [humanSize(bytes), 'ZIP'].filter(Boolean).join(' · '),
   };
 }

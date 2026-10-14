@@ -1,7 +1,7 @@
 ---
-import { render, type CollectionEntry } from 'astro:content';
-import { entriesLabel, type Game } from '../lib/games';
-import { downloadFor } from '../lib/download';
+import { getEntry, render, type CollectionEntry } from 'astro:content';
+import { entriesLabel, isTranslated, type Game } from '../lib/games';
+import { downloadFor, modDownloadFor } from '../lib/download';
 import { gameTitle } from '../lib/seo';
 import Keyart from './Keyart.astro';
 import Icon from './Icon.astro';
@@ -15,7 +15,8 @@ interface Props {
 
 const { game, doc, active = false } = Astro.props;
 const Title = active ? 'h1' : 'h2';
-const download = downloadFor(game);
+const translation = isTranslated(game) ? game : null;
+const download = translation ? downloadFor(translation) : null;
 const stores = Object.entries(game.stores);
 
 const REPO = 'https://github.com/Veatec22/notgeese';
@@ -24,15 +25,23 @@ const storeName = (store: string) => STORE_NAMES[store.toLowerCase()] ?? store;
 const hasLogo = (store: string) => ['steam', 'gog'].includes(store.toLowerCase());
 const rendered = doc ? await render(doc) : null;
 const Content = rendered?.Content;
+
+// Mods: secondary to the translation; the main action only on games we don't translate.
+const mods = await Promise.all(
+  game.mods.map(async (mod) => {
+    const entry = await getEntry('modDocs', `${game.slug}/${mod.slug}`);
+    return { ...mod, download: modDownloadFor(mod), Guide: entry ? (await render(entry)).Content : null };
+  }),
+);
 ---
 
-<div class="ng-panel-scroll" data-game={game.slug} data-page-title={gameTitle(game.title)} hidden={!active}>
+<div class="ng-panel-scroll" data-game={game.slug} data-page-title={gameTitle(game)} hidden={!active}>
   <Keyart game={game} variant="panel" />
 
   <div class="ng-panel-body">
     <div>
       <div class="ng-panel-head" style={`--ng-title-len: ${game.title.length}; --ng-stores: ${stores.length}`}>
-        <Title class="ng-display ng-panel-title"><span class="ng-visually-hidden">Spolszczenie </span>{game.title}</Title>
+        <Title class="ng-display ng-panel-title"><span class="ng-label ng-panel-kicker">{translation ? 'Spolszczenie ' : 'Mod '}</span>{game.title}</Title>
         {
           stores.length > 0 && (
             <div class="ng-panel-stores">
@@ -59,8 +68,22 @@ const Content = rendered?.Content;
           </button>
           <span class="ng-status-tip" role="tooltip" id={`status-${game.slug}`}>{game.status.description}</span>
         </span>
-        <span class="ng-badge-note">v{game.version}</span>
+        {translation && <span class="ng-badge-note">v{translation.version}</span>}
       </div>
+      {
+        translation ? (
+          <p class="ng-panel-lead">
+            {game.title} po polsku: nieoficjalne, darmowe spolszczenie z polskimi napisami i polskimi
+            znakami. Instrukcja instalacji jest niżej.
+            {mods.length > 0 && ' Do tej gry jest też nasz mod, na samym dole.'}
+          </p>
+        ) : (
+          <p class="ng-panel-lead">
+            {mods.length > 1 ? 'Nasze darmowe mody' : 'Nasz darmowy mod'} do {game.title}, bez podmieniania
+            plików gry. Instrukcja instalacji jest niżej.
+          </p>
+        )
+      }
     </div>
 
     {
@@ -73,61 +96,137 @@ const Content = rendered?.Content;
       )
     }
 
-    <div class="ng-panel-actions">
-      <div class="ng-panel-actions-row">
-        {
-          download.available ? (
-            <a class="ng-btn ng-btn--primary ng-btn--download ng-on-accent" href={download.href} download>
-              <Icon name="download" />
-              <span>Pobierz spolszczenie</span>
-              {download.meta && <span class="ng-btn-meta">{download.meta}</span>}
+    {translation && (
+      <>
+        <div class="ng-panel-actions">
+          <div class="ng-panel-actions-row">
+            {
+              download!.available ? (
+                <a class="ng-btn ng-btn--primary ng-btn--download ng-on-accent" href={download!.href} download>
+                  <Icon name="download" />
+                  <span>Pobierz spolszczenie</span>
+                  {download!.meta && <span class="ng-btn-meta">{download!.meta}</span>}
+                </a>
+              ) : (
+                <span class="ng-btn ng-btn--primary ng-btn--download" aria-disabled="true">
+                  {(download as { label: string }).label}
+                </span>
+              )
+            }
+            <a
+              class="ng-btn ng-btn--square"
+              href={`${REPO}/tree/main/games/${game.slug}`}
+              target="_blank"
+              rel="noopener"
+              aria-label="Pliki spolszczenia na GitHubie"
+              title="Pliki spolszczenia na GitHubie"
+            >
+              <Icon name="github" />
             </a>
-          ) : (
-            <span class="ng-btn ng-btn--primary ng-btn--download" aria-disabled="true">
-              {download.label}
-            </span>
-          )
-        }
-        <a
-          class="ng-btn ng-btn--square"
-          href={`${REPO}/tree/main/games/${game.slug}`}
-          target="_blank"
-          rel="noopener"
-          aria-label="Pliki spolszczenia na GitHubie"
-          title="Pliki spolszczenia na GitHubie"
-        >
-          <Icon name="github" />
-        </a>
-      </div>
-    </div>
+          </div>
+        </div>
 
-    <table class="ng-table">
-      <tbody>
-        <tr><th>Zakres</th><td>{entriesLabel(game)} — {game.scope}</td></tr>
-        <tr><th>Sposób</th><td>{game.approach}</td></tr>
-        {
-          game.tested_on.length > 0 && (
-            <tr>
-              <th>Przetestowana wersja</th>
-              <td>
-                {game.tested_on.map((tested, index) => (
-                  <>
-                    {index > 0 && <br />}
-                    <strong>{tested.version}</strong> · {storeName(tested.store)}
-                  </>
-                ))}
-              </td>
-            </tr>
-          )
-        }
-      </tbody>
-    </table>
+        <table class="ng-table">
+          <tbody>
+            <tr><th>Zakres</th><td>{entriesLabel(translation!)} — {translation!.scope}</td></tr>
+            <tr><th>Sposób</th><td>{translation!.approach}</td></tr>
+            {
+              game.tested_on.length > 0 && (
+                <tr>
+                  <th>Przetestowana wersja</th>
+                  <td>
+                    {game.tested_on.map((tested, index) => (
+                      <>
+                        {index > 0 && <br />}
+                        <strong>{tested.version}</strong> · {storeName(tested.store)}
+                      </>
+                    ))}
+                  </td>
+                </tr>
+              )
+            }
+          </tbody>
+        </table>
+
+      </>
+    )}
 
     {
       Content && (
         <div class="ng-prose ng-prose--panel">
           <Content />
         </div>
+      )
+    }
+
+    {
+      mods.length > 0 && (
+        <section class="ng-mods" aria-label="Mody">
+          {mods.map((mod) => (
+            <article class="ng-mod">
+              <div class="ng-mod-head">
+                <span class="ng-label">Mod</span>
+                <h3 class="ng-display ng-mod-title">{mod.title}</h3>
+                <span class="ng-badge-note">v{mod.version}</span>
+              </div>
+              <p class="ng-mod-summary">{mod.summary}</p>
+              <div class="ng-panel-actions-row">
+                {mod.download.available ? (
+                  <a
+                    class:list={['ng-btn', 'ng-btn--download', !translation && 'ng-btn--primary ng-on-accent']}
+                    href={mod.download.href}
+                    download
+                  >
+                    <Icon name="download" />
+                    <span>Pobierz mod</span>
+                    {mod.download.meta && <span class="ng-btn-meta">{mod.download.meta}</span>}
+                  </a>
+                ) : (
+                  <span class="ng-btn ng-btn--download" aria-disabled="true">{mod.download.label}</span>
+                )}
+                {mod.nexus && (
+                  <a class="ng-btn ng-btn--compact" href={mod.nexus} target="_blank" rel="noopener">
+                    <Icon name="external-link" size={20} />
+                    Nexus Mods
+                  </a>
+                )}
+                <a
+                  class="ng-btn ng-btn--square"
+                  href={`${REPO}/tree/main/games/${game.slug}/mods/${mod.slug}`}
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="Kod moda na GitHubie"
+                  title="Kod moda na GitHubie"
+                >
+                  <Icon name="github" />
+                </a>
+              </div>
+              <table class="ng-table">
+                <tbody>
+                  <tr><th>Sposób</th><td>{mod.approach}</td></tr>
+                  {mod.tested_on.length > 0 && (
+                    <tr>
+                      <th>Przetestowana wersja</th>
+                      <td>
+                        {mod.tested_on.map((tested, index) => (
+                          <>
+                            {index > 0 && <br />}
+                            <strong>{tested.version}</strong> · {storeName(tested.store)}
+                          </>
+                        ))}
+                      </td>
+                    </tr>
+                  )}
+                </tbody>
+              </table>
+              {mod.Guide && (
+                <div class="ng-prose ng-prose--panel">
+                  <mod.Guide />
+                </div>
+              )}
+            </article>
+          ))}
+        </section>
       )
     }
   </div>

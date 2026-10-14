@@ -102,7 +102,7 @@ anything else → needs a decision.
 
 | Piece | Where | Notes |
 | --- | --- | --- |
-| Panel | `site/src/pages/admin/index.astro`, `site/src/workspace/` | Shell only in HTML, `noindex`, out of sitemap. Publishable key in `api.ts` (`PROJECT_PUBLISHABLE_KEY`); refuses `sb_secret_…`. |
+| Panel | `site/src/pages/admin/index.astro`, `site/src/workspace/` | Shell only in HTML, `noindex`, out of sitemap. Publishable key in `site/src/lib/supabase.ts` (`PROJECT_PUBLISHABLE_KEY`, shared with the request form); refuses `sb_secret_…`. |
 | Shared rules | `supabase/functions/_shared/workspace/` | Pure TS (review, structure, settle, save, export), imported by functions, panel and `tools/check_games.ts`. |
 | GitHub read | `supabase/functions/_shared/github.ts` | `Veatec22/notgeese@main`, server only; optional `NOTGEESE_GITHUB_TOKEN`. |
 | Functions | `workspace-open` `POST {game}`; `workspace-save` `POST {game, expected_revision, request_id, actions}` | Run with the user JWT inside RLS; no `service_role`. Export is built in the browser (`buildExport`). |
@@ -119,7 +119,7 @@ Needs `npx supabase login` or `SUPABASE_ACCESS_TOKEN`.
 ```sh
 npx -y supabase@2.118.0 link --project-ref kulwhymoxgaiqpipwbav
 npx -y supabase@2.118.0 db push
-npx -y supabase@2.118.0 functions deploy workspace-open workspace-save
+npx -y supabase@2.118.0 functions deploy workspace-open workspace-save game-request
 ```
 
 Functions parse `structure.yaml` and `bible.yaml` from main: a schema change in those files needs a
@@ -148,6 +148,25 @@ try {
 Invoke-WebRequest "https://kulwhymoxgaiqpipwbav.supabase.co/storage/v1/object/public/game-icons/<slug>.png" -Method Head
 ```
 
+## Game requests
+
+Form "Zgłoś grę" on the home page (`site/src/components/GameRequest.astro`), between games and FAQ.
+Player gives a title or a Steam/GOG link and an optional comment; no email, no public list.
+
+- Key per game (`supabase/functions/_shared/game-request.ts`, shared by the form and the function):
+  `steam:<appid>`, `gog:<slug>`, `title:<title without case, diacritics, spaces, punctuation>`.
+  Other links are refused. A key that matches a game on the site (title, `stores` in `game.yaml`)
+  gets a link to it in the browser and is not sent.
+- Function `game-request` (`POST {target, comment?, website?}`, no login, `verify_jwt = false`):
+  `website` is a honeypot (filled = silent OK, nothing stored). Limit 5 per HMAC(IP, UTC day) and
+  500 per day overall (429). Steam appdetails / GOG products API give the store title and whether
+  Polish is listed (`polish`, shown to the player as a warning); unknown link → 404, failed lookup →
+  stored with a fallback title and `polish = null`. Writes with the admin client.
+- Table `game_requests`: one row per submission; admin-only read and delete via RLS.
+- Panel: "Zgłoszenia gier" on the game list (`/admin/?zgloszenia`): grouped by key, most
+  requested first, store link, comments, "sklep: ma polski"; "Usuń" removes every row of a key
+  (handled or junk).
+
 ## Tests
 
 The game picker supports grid/list layouts (browser preference `game-layout`) and live
@@ -159,6 +178,7 @@ to the picker. Polish translation fields fit their full text on render, edit and
 
 - `npx -y deno test --allow-read --allow-env=NOTGEESE_GITHUB_TOKEN supabase/functions/tests/`:
   rules and function orchestration (stub DB, stubbed GitHub serving SCM files).
+- `supabase/functions/tests/game_request_test.ts`: request parsing, store lookups, limits (stub fetch/DB).
 - `supabase/tests/run-local.sh` (as a normal user; needs `initdb`/`pg_ctl`): migration on a temp
   PostgreSQL: admin/foreign/anon access, revision, retries, atomicity.
 - `site/tests/admin.spec.ts` (Playwright): panel against a stub backend using the shared module.

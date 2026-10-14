@@ -29,8 +29,12 @@ type Row = { game: string; entries: string; layout: string; bible: string; decis
 const rows: Row[] = [];
 const failures: string[] = [];
 
+// Games under the catalog status `mods` are not translated (only our mods): nothing to check here.
+const catalog = parseYaml(read(new URL('catalog.yaml', root)) ?? '{}') as Record<string, { games?: Record<string, unknown> }>;
+const modsOnly = new Set(Object.keys(catalog.mods?.games ?? {}));
+
 const games = [...Deno.readDirSync(root)]
-  .filter((d) => d.isDirectory && exists(new URL(`${d.name}/game.yaml`, root)))
+  .filter((d) => d.isDirectory && exists(new URL(`${d.name}/game.yaml`, root)) && !modsOnly.has(d.name))
   .map((d) => d.name)
   .sort();
 

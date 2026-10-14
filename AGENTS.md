@@ -10,7 +10,9 @@ English everywhere, except what Polish players or the Polish editor see:
 site (`site/src` pages, components, UI strings), workspace panel UI, `games/<game>/README.md`,
 `docs/INSTALL*.txt` (ships as `READ-ME.txt`), applier/plugin messages shown to players,
 translations themselves, group/sequence names and sources in `structure.yaml`,
-`approach`/`scope` in `game.yaml`, labels in `catalog.yaml`. Everything else (docs, code,
+`approach`/`scope` and mod `title`/`summary`/`approach` in `game.yaml`, labels in `catalog.yaml`,
+`games/<game>/mods/<mod>/README.md`. Mod readmes and Nexus pages shipped to Nexus are English.
+Everything else (docs, code,
 comments, tool output, bible prose, commit messages) is English. Terse: no filler, keep facts.
 
 ## Map
@@ -21,10 +23,10 @@ comments, tool output, bible prose, commit messages) is English. Terse: no fille
 | `docs/decisions.md` | Every settled project decision, one line each, with rejected options. Read before proposing process or delivery changes. |
 | `docs/workspace.md` | Review workspace (`/admin/`, Supabase): model, states, export, `structure.yaml`, deploy. |
 | `docs/design.md` | Site visual spec. Values live in `site/src/styles/tokens.css`. |
-| `docs/qol.md` | QoL fixes outside the translation (ultrawide, FOV, HUD), personal use. Now: Possessor(s), Labyrinth of the Demon King. New finds go there, not to a separate project. |
+| `docs/qol.md` | Research log of fixes outside the translation (ultrawide, FOV, HUD, minimap). New finds go there first; a fix worth publishing becomes a mod (see Mods). |
 | `.claude/skills/localization*` | Translation direction, translation, independent review. |
 | `.claude/skills/workspace-corrections` | Applying a workspace export. |
-| `games/catalog.yaml` | Status (`ready` / `testing` / `in-progress`) and date added per game. |
+| `games/catalog.yaml` | Status (`ready` / `testing` / `in-progress`, or `mods` for games we only mod) and date added per game. |
 | `games/<game>/` | One game, layout below. |
 | `tools/` | Shared tools: `translations.py`, `patch.py` + `applier/`, `install.py`, `corrections.py`, `keyart.py`, `check_games.ts`. |
 | `site/`, `supabase/` | Site + workspace frontend; workspace backend. |
@@ -43,6 +45,7 @@ Game layout:
 | `translations/bible.yaml` | Characters, terms, style; format in the localization skill. |
 | `translations/structure.yaml` | Groups and sequences for the workspace; format in `docs/workspace.md`. |
 | `tools/`, `plugin/` | Game-specific extract/build tools, plugin source. |
+| `mods/<mod>/` | One published mod: `plugin/`, `tools/` (build, release), `README.md` (Polish guide for the panel), `docs/` (English readme, Nexus text). |
 | `work/` | Local scratch, git-ignored: extracted game data, reports, build dirs. |
 
 `translations/en-pl-review.json`: list of `{key, namespace?, english, polish, context?, note?,
@@ -90,6 +93,22 @@ max_length?}`; `(namespace, key)` unique; key as the game uses it. Empty `polish
 
 `0.N` while `testing`/`in-progress`; each package published to main bumps N. `1.0` when the user
 moves the game to `ready`. Version is in the game's build, `game.yaml`, the ZIP name and the readme.
+Mods use semver from `1.0.0` (Nexus compares versions).
+
+## Mods
+
+Translations are the core; mods are extras we make along the way, published and visible
+(`docs/decisions.md`, Mods). Research and tests go to `docs/qol.md`; a mod is ready to publish
+when the user approves it in game. Then:
+
+1. Move it to `games/<game>/mods/<mod>/`; release script builds `<Game>-<Mod>-<version>.zip` in
+   `dist/` and copies it, plus bundled third-party source archives, to `site/public/pobierz/`.
+   Same rules as translations: runtime plugin, no game files, version-agnostic, logs versions.
+2. Add the mod to `mods:` in the game's `game.yaml` (`summary`, `approach`, `download`, `nexus`)
+   and write the Polish `README.md` guide. A game we don't translate gets `game.yaml` without
+   translation fields, status `mods` in `catalog.yaml` and keyart (`tools/keyart.py`).
+3. Nexus: English `docs/README.txt` in the ZIP and `docs/nexus.txt` (BBCode) for the page; the
+   user publishes, then `nexus:` gets the page URL.
 
 ## Delivery
 

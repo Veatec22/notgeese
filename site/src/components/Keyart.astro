@@ -63,7 +63,7 @@ const slides: { art: Art; size: typeof COVER_SIZE }[] = art
               {/* All game panels are in the HTML from the start, hidden; lazy does not fetch them early. */}
               <img
                 src={slide.art.src}
-                alt={`${game.title} — ${index === 0 && art!.cover ? 'okładka' : `zrzut ekranu ${index + (art!.cover ? 0 : 1)}`}`}
+                alt={`${game.title} — ${index === 0 && art!.cover ? 'okładka gry' : `zrzut ekranu z gry ${index + (art!.cover ? 0 : 1)}`}`}
                 width={slide.size.width}
                 height={slide.size.height}
                 loading="lazy"

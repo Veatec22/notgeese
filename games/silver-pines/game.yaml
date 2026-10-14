@@ -1,0 +1,21 @@
+slug: silver-pines
+title: Silver Pines
+engine: Unity 6000.3.15f1 (IL2CPP)
+stores:
+  steam: https://store.steampowered.com/app/2333000/
+gallery: [1, 2, 3, 4, 5]
+# Catalog status `mods`: we don't translate this game (a Polish version exists), only our mods.
+mods:
+  - slug: minimap
+    title: Minimapa
+    version: "1.0.0"
+    summary: Wbudowana szybka mapa gry jako mała minimapa w rogu ekranu podczas eksploracji, walki i skradania. Znika przy rozmowach, telefonach, przerywnikach i interakcjach. F7 włącza i wyłącza.
+    approach: Plugin BepInEx 6 pokazuje wbudowaną szybką mapę gry w rogu ekranu, z ramką z grafiki samej gry. Żaden plik gry nie jest podmieniany.
+    tested_on: []
+    download:
+      file: SilverPines-Minimap-1.0.0.zip
+      bytes: 34363440
+    nexus:
+test_notes: Minimap 1.0.0 tested in game by the user (corner map, fades, hiding in dialogue and cutscenes, quick map restore); release ZIP clean install pending.
+steam_appid: 2333000
+year: 2026

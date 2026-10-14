@@ -1,0 +1,139 @@
+---
+// Game request form between the games and the FAQ. Writes only: no public list.
+// The script refuses games already on the site (same keys as the server: Steam appid,
+// GOG slug, normalized title) and sends the rest to the `game-request` function.
+import { COMMENT_MAX, normalizeTitle, parseTarget } from '../../../supabase/functions/_shared/game-request.ts';
+import type { Game } from '../lib/games';
+
+interface Props {
+  games: Game[];
+}
+
+const { games } = Astro.props;
+
+// Key -> game on the site, for a link instead of a duplicate request.
+const known: Record<string, { slug: string; title: string; href: string; translated: boolean }> = {};
+for (const game of games) {
+  const entry = { slug: game.slug, title: game.title, href: game.href, translated: game.translated };
+  known[`title:${normalizeTitle(game.title)}`] = entry;
+  for (const url of Object.values(game.stores)) {
+    try {
+      const target = parseTarget(url);
+      if (target.store) known[target.key] = entry;
+    } catch {
+      // Store outside Steam/GOG: title is enough.
+    }
+  }
+}
+const data = JSON.stringify(known).replace(/</g, '\\u003c');
+---
+
+<section class="ng-request" id="zglos" aria-labelledby="zglos-title">
+  <div class="ng-shell">
+    <h2 class="ng-display ng-section-title" id="zglos-title">Zgłoś grę</h2>
+    <div class="ng-request-body">
+      <div class="ng-request-intro">
+        <p>
+          Brakuje tu gry, która nie ma polskiej wersji? Wpisz jej tytuł albo wklej link ze Steama lub GOG-a.
+          Zgłoszenia tej samej gry się sumują, więc widzę, na co jest największa ochota.
+        </p>
+        <p>
+          To głos, nie zamówienie: wybieram sam i nie każdą grę da się technicznie spolszczyć. Nie zbieram
+          e-maili, więc nie dam znać osobno. Jeśli gra powstanie, pojawi się na liście wyżej.
+        </p>
+      </div>
+      <form class="ng-request-form" data-request-form novalidate>
+        <script type="application/json" data-request-known set:html={data} />
+        <label class="ng-label" for="zglos-gra">Tytuł albo link do Steam / GOG</label>
+        <div class="ng-search-field">
+          <input
+            id="zglos-gra"
+            name="target"
+            type="text"
+            required
+            maxlength="300"
+            autocomplete="off"
+            spellcheck="false"
+            placeholder="np. https://store.steampowered.com/app/…"
+          />
+        </div>
+        <label class="ng-label" for="zglos-komentarz">Komentarz (opcjonalnie)</label>
+        <div class="ng-search-field ng-request-comment">
+          <textarea id="zglos-komentarz" name="comment" rows="3" maxlength={COMMENT_MAX} placeholder="dlaczego ta gra?"></textarea>
+        </div>
+        <div class="ng-request-trap" aria-hidden="true">
+          <label for="zglos-www">Zostaw to pole puste</label>
+          <input id="zglos-www" name="website" type="text" tabindex="-1" autocomplete="off" />
+        </div>
+        <div class="ng-request-actions">
+          <button class="ng-btn ng-btn--primary" type="submit">Zgłoś</button>
+          <p class="ng-request-status" data-request-status role="status" aria-live="polite"></p>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<script>
+  import { parseTarget, TargetError } from '../../../supabase/functions/_shared/game-request.ts';
+  import { SUPABASE_URL } from '../lib/supabase';
+
+  interface Link { slug: string; title: string; href: string; translated: boolean }
+
+  const form = document.querySelector<HTMLFormElement>('[data-request-form]');
+  const status = form?.querySelector<HTMLElement>('[data-request-status]');
+  const known = JSON.parse(form?.querySelector('[data-request-known]')?.textContent ?? '{}') as Record<string, Link>;
+
+  function show(message: string, tone: 'ok' | 'warn' = 'ok', link?: Link) {
+    if (!status) return;
+    status.dataset.tone = tone;
+    status.textContent = message;
+    if (link) {
+      const anchor = document.createElement('a');
+      anchor.href = link.href;
+      anchor.dataset.openGame = link.slug;
+      anchor.textContent = link.title;
+      status.append(' ', anchor);
+    }
+  }
+
+  form?.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    const fields = new FormData(form);
+    const input = String(fields.get('target') ?? '');
+    let key: string;
+    try {
+      key = parseTarget(input).key;
+    } catch (error) {
+      return show(error instanceof TargetError ? error.message : 'Coś poszło nie tak.', 'warn');
+    }
+    const existing = known[key];
+    if (existing) {
+      // Mods-only games have a Polish version already: the request has nothing to add.
+      const message = existing.translated ? 'Ta gra już tu jest:' : 'Ta gra ma już polską wersję, mamy do niej tylko mod:';
+      return show(message, 'ok', existing);
+    }
+
+    const button = form.querySelector<HTMLButtonElement>('button[type=submit]')!;
+    button.disabled = true;
+    show('Wysyłam…');
+    try {
+      const response = await fetch(`${SUPABASE_URL}/functions/v1/game-request`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ target: input, comment: fields.get('comment') ?? '', website: fields.get('website') ?? '' }),
+      });
+      const body = await response.json().catch(() => null) as { ok?: boolean; title?: string; polish?: boolean | null; message?: string } | null;
+      if (!response.ok || !body?.ok) return show(body?.message ?? `Serwer odpowiedział błędem ${response.status}. Spróbuj później.`, 'warn');
+      form.reset();
+      const name = body.title ? `„${body.title}”` : 'Zgłoszenie';
+      show(body.polish
+        ? `Zapisane, ale według sklepu ${name} ma już oficjalną polską wersję, więc raczej się nią nie zajmę.`
+        : `Dzięki! ${name} trafia na listę zgłoszeń.`);
+    } catch {
+      show('Brak połączenia z serwerem. Spróbuj za chwilę.', 'warn');
+    } finally {
+      button.disabled = false;
+    }
+  });
+</script>

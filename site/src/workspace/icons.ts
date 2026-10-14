@@ -1,6 +1,6 @@
-import { Check, Copy, Undo2, Save, RefreshCw, Download, Search, Pencil, Clock, TriangleAlert, ListFilter, Layers, BookOpen, Languages, LogOut, ArrowLeft, ArrowRight, X, LayoutGrid, List, createElement } from 'lucide';
+import { Check, Copy, Undo2, Save, RefreshCw, Download, Search, Pencil, Clock, TriangleAlert, ListFilter, Layers, BookOpen, Languages, LogOut, ArrowLeft, ArrowRight, X, LayoutGrid, List, Inbox, Trash2, createElement } from 'lucide';
 
-const icons = { check: Check, copy: Copy, undo: Undo2, save: Save, refresh: RefreshCw, download: Download, search: Search, draft: Pencil, pending: Clock, conflict: TriangleAlert, filter: ListFilter, all: Layers, journal: BookOpen, languages: Languages, logout: LogOut, back: ArrowLeft, next: ArrowRight, close: X, grid: LayoutGrid, list: List };
+const icons = { check: Check, copy: Copy, undo: Undo2, save: Save, refresh: RefreshCw, download: Download, search: Search, draft: Pencil, pending: Clock, conflict: TriangleAlert, filter: ListFilter, all: Layers, journal: BookOpen, languages: Languages, logout: LogOut, back: ArrowLeft, next: ArrowRight, close: X, grid: LayoutGrid, list: List, inbox: Inbox, trash: Trash2 };
 const cache = new Map<string, string>();
 
 export function icon(name: keyof typeof icons): string {

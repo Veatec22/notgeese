@@ -166,11 +166,11 @@ test.describe('header and FAQ', () => {
     await expect(html).not.toHaveAttribute('data-theme');
   });
 
-  test('FAQ icon scrolls to the section without adding #faq', async ({ page }) => {
+  test('FAQ shortcut scrolls to the section without adding #faq', async ({ page }) => {
     await page.goto('/');
     await expect(page.locator('#faq')).not.toBeInViewport();
 
-    await page.locator('[data-faq-link]').click();
+    await page.locator('.ng-nav-link[href$="#faq"]').click();
     await expect(page.locator('#faq')).toBeInViewport();
     expect(new URL(page.url()).hash).toBe('');
   });
@@ -185,5 +185,71 @@ test.describe('header and FAQ', () => {
 
     await item.locator('summary').click();
     await expect(item).not.toHaveAttribute('open');
+  });
+});
+
+test.describe('game request form', () => {
+  const form = (page: Page) => page.locator('[data-request-form]');
+  const status = (page: Page) => page.locator('[data-request-status]');
+
+  test('sits between the games and the FAQ', async ({ page }) => {
+    await page.goto('/');
+    const order = await page.locator('#gry, #zglos, #faq').evaluateAll((nodes) => nodes.map((node) => node.id));
+    expect(order).toEqual(['gry', 'zglos', 'faq']);
+  });
+
+  test('a game already on the site links to it without a request', async ({ page }) => {
+    let sent = false;
+    await page.route('**/functions/v1/game-request', (route) => {
+      sent = true;
+      return route.abort();
+    });
+    await page.goto('/');
+    const title = (await page.locator('[data-card]:not([data-status="mods"]) .ng-card-title').first().textContent())!.trim();
+    await form(page).locator('[name=target]').fill(title.toUpperCase());
+    await form(page).locator('button[type=submit]').click();
+    await expect(status(page)).toContainText('Ta gra już tu jest');
+    await expect(status(page).locator('a')).toHaveText(title);
+    expect(sent).toBe(false);
+  });
+
+  test('a game with only our mods says it has a Polish version, without a request', async ({ page }) => {
+    let sent = false;
+    await page.route('**/functions/v1/game-request', (route) => {
+      sent = true;
+      return route.abort();
+    });
+    await page.goto('/');
+    const card = page.locator('[data-card][data-status="mods"] .ng-card-title').first();
+    test.skip((await card.count()) === 0, 'no mods-only game in the catalog');
+    const title = (await card.textContent())!.trim();
+    await form(page).locator('[name=target]').fill(title);
+    await form(page).locator('button[type=submit]').click();
+    await expect(status(page)).toContainText('ma już polską wersję');
+    await expect(status(page).locator('a')).toHaveText(title);
+    expect(sent).toBe(false);
+  });
+
+  test('a link outside Steam and GOG is refused in the browser', async ({ page }) => {
+    await page.goto('/');
+    await form(page).locator('[name=target]').fill('https://store.epicgames.com/p/hades');
+    await form(page).locator('button[type=submit]').click();
+    await expect(status(page)).toHaveAttribute('data-tone', 'warn');
+    await expect(status(page)).toContainText('Steam albo GOG');
+  });
+
+  test('a new game goes to the function and the form resets', async ({ page }) => {
+    let body: Record<string, unknown> | null = null;
+    await page.route('**/functions/v1/game-request', async (route) => {
+      body = route.request().postDataJSON();
+      await route.fulfill({ json: { ok: true, title: 'Gra Testowa', polish: false } });
+    });
+    await page.goto('/');
+    await form(page).locator('[name=target]').fill('https://store.steampowered.com/app/999999999/');
+    await form(page).locator('[name=comment]').fill('proszę');
+    await form(page).locator('button[type=submit]').click();
+    await expect(status(page)).toContainText('„Gra Testowa” trafia na listę');
+    expect(body).toEqual({ target: 'https://store.steampowered.com/app/999999999/', comment: 'proszę', website: '' });
+    await expect(form(page).locator('[name=target]')).toHaveValue('');
   });
 });

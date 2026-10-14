@@ -424,3 +424,8 @@ verify_jwt = true
 [functions.workspace-save]
 enabled = true
 verify_jwt = true
+
+# Public game request form (docs/workspace.md, "Game requests"): no login.
+[functions.game-request]
+enabled = true
+verify_jwt = false

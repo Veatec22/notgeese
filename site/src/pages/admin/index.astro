@@ -5,10 +5,11 @@ import Header from '../../components/Header.astro';
 import '../../styles/tokens.css';
 import '../../styles/global.css';
 import '../../workspace/workspace.css';
-import { getGames } from '../../lib/games';
+import { getGames, isTranslated } from '../../lib/games';
 import { withBase } from '../../lib/url';
 
-const games = (await getGames()).map((game) => ({
+// Only translated games have texts to review.
+const games = (await getGames()).filter(isTranslated).map((game) => ({
   slug: game.slug,
   title: game.title,
   version: game.version,

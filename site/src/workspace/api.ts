@@ -2,19 +2,9 @@
 // The browser holds only the publishable key; never a privileged key.
 import { createClient, type Session, type SupabaseClient } from '@supabase/supabase-js';
 import type { GameView, JournalItem, WorkspaceErrorBody } from '../../../supabase/functions/_shared/workspace/mod.ts';
+import { SUPABASE_PUBLISHABLE_KEY, SUPABASE_URL } from '../lib/supabase.ts';
 
-/**
- * Publishable key of the Not Geese project. Public by design (like the project URL),
- * so it lives in the repo and goes into the GitHub Actions build. Empty = the panel shows
- * missing config. Fetch: `npx supabase projects api-keys --project-ref kulwhymoxgaiqpipwbav`
- * (klucz `sb_publishable_…`, nigdy `sb_secret_…`).
- */
-const PROJECT_PUBLISHABLE_KEY = 'sb_publishable_tLou_pVQr_bzp9sJxLPoQQ_jhiy1YIS';
-
-export const SUPABASE_URL: string = import.meta.env.PUBLIC_SUPABASE_URL ?? 'https://kulwhymoxgaiqpipwbav.supabase.co';
-export const SUPABASE_PUBLISHABLE_KEY: string = import.meta.env.PUBLIC_SUPABASE_PUBLISHABLE_KEY || PROJECT_PUBLISHABLE_KEY;
-
-if (SUPABASE_PUBLISHABLE_KEY.startsWith('sb_secret_')) throw new Error('Pracownia: w przeglądarce wolno użyć tylko klucza publishable.');
+export { SUPABASE_PUBLISHABLE_KEY, SUPABASE_URL };
 
 export class ApiError extends Error {
   constructor(readonly status: number, readonly body: WorkspaceErrorBody) {
@@ -27,6 +17,17 @@ export class NetworkError extends Error {}
 
 export interface JournalRow extends JournalItem {
   at: string;
+}
+
+/** One submission from the site form (game_requests). */
+export interface GameRequestRow {
+  created_at: string;
+  game_key: string;
+  store: 'steam' | 'gog' | null;
+  title: string;
+  url: string | null;
+  comment: string | null;
+  polish: boolean | null;
 }
 
 export class Api {
@@ -78,6 +79,21 @@ export class Api {
       .limit(300);
     if (error) throw error;
     return (data ?? []) as JournalRow[];
+  }
+
+  async gameRequests(): Promise<GameRequestRow[]> {
+    const { data, error } = await this.client
+      .from('game_requests')
+      .select('created_at, game_key, store, title, url, comment, polish')
+      .order('created_at', { ascending: false })
+      .limit(1000);
+    if (error) throw error;
+    return (data ?? []) as GameRequestRow[];
+  }
+
+  async deleteGameRequests(key: string): Promise<void> {
+    const { error } = await this.client.from('game_requests').delete().eq('game_key', key);
+    if (error) throw error;
   }
 
   open(game: string): Promise<GameView> {

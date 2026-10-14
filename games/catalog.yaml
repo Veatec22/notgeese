@@ -9,6 +9,8 @@
 # `label` goes on the badge, `description` into the badge hint in the game panel,
 # `tone` is the badge look: ink (black), outline (frame only) or accent (crimson).
 # `ready` is set only by the user after a full playthrough.
+# `mods` is not a translation status: games we don't translate (a Polish version exists) but
+# made mods for. Their game.yaml has `mods` and no translation fields. Keep it last.
 
 ready:
   label: gotowe
@@ -60,3 +62,10 @@ in-progress:
   description: Tłumaczenie jeszcze powstaje. Paczka pojawi się, kiedy będzie komplet tekstu.
   tone: outline
   games: {}
+
+mods:
+  label: mody
+  description: Tej gry nie tłumaczymy, bo polska wersja już istnieje. Są do niej nasze modyfikacje, które poprawiają samą grę.
+  tone: outline
+  games:
+    silver-pines: 2026-10-14

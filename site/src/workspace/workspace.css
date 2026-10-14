@@ -95,3 +95,8 @@ details.ws-callout summary{cursor:pointer;font-size:13px}
 .ws-count[data-state=pending]{background:#171717;border-color:#777;color:#fff}
 .ws-count[data-state=review]{background:transparent;color:inherit}
 .ws-count[data-state=conflict]{background:var(--ng-paper);color:var(--ng-accent);border-color:var(--ng-accent)}
+/* Game requests: one row per game, count first. */
+.ws-requests{display:grid;gap:12px}.ws-request{display:grid;grid-template-columns:64px minmax(0,1fr) auto;gap:16px;align-items:start;border:2px solid var(--ng-ink);background:var(--ng-paper);padding:16px 20px}
+.ws-request-count{font:32px/1 var(--ng-font-display);text-align:center}.ws-request h2 a{color:inherit;text-underline-offset:3px}.ws-request h2 a:hover{color:var(--ng-accent)}.ws-request-polish{color:var(--ng-accent);font-weight:700}
+.ws-request-comments{margin:10px 0 0;padding:0;list-style:none;display:grid;gap:6px;font-size:14px;overflow-wrap:anywhere}
+@media(max-width:700px){.ws-request{grid-template-columns:48px minmax(0,1fr)}.ws-request>.ws-actions{grid-column:2}}

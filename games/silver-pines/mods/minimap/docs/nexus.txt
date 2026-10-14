@@ -1,0 +1,49 @@
+[size=5][b]Minimap[/b][/size]
+
+The game already has a great quick map, but you have to hold a key to see it. This mod keeps it on screen as a small minimap in the corner while you explore, fight and sneak, and gets out of the way whenever the game takes over.
+
+[size=4][b]Features[/b][/size]
+[list]
+[*]Uses the game's own quick map: same map, icons, markers and player arrow, centred on you.
+[*]Free play only: fades out for dialogue, phone calls, cutscenes, examining and picking up items, notes and inventory interactions, then fades back in.
+[*]Holding the quick map key still opens the full quick map; release it and the minimap returns.
+[*]Torn-paper frame made from the game's own UI art.
+[*][b]F7[/b] turns it on and off (remembered between sessions).
+[*]Corner, size, zoom, fade time and border are configurable.
+[*]No game files are changed or replaced.
+[/list]
+
+[size=4][b]Installation[/b][/size]
+[list=1]
+[*]Close the game.
+[*]Extract the whole ZIP into the game folder, the one with [b]Carpenter.exe[/b] (Steam: right-click Silver Pines > Manage > Browse local files).
+[*]Start the game. [b]The first start takes 1-3 minutes with nothing on screen[/b] while BepInEx sets itself up (needs internet once). Later starts are normal.
+[/list]
+[b]Steam Deck / Linux (Proton):[/b] add this to the game's launch options:
+[code]WINEDLLOVERRIDES="winhttp=n,b" %command%[/code]
+
+BepInEx is included. This game needs a recent BepInEx 6 bleeding-edge build (6.0.0-be.788); the stable 6.0.0-pre.2 cannot read this Unity version. If you already use BepInEx be.788 or newer, you only need [i]BepInEx\plugins\SilverPinesMinimap[/i].
+
+[size=4][b]Settings[/b][/size]
+After the first start, edit [i]BepInEx\config\pl.notgeese.silverpines.minimap.cfg[/i] and restart the game:
+[list]
+[*][b]ToggleKey[/b]: on/off key (default F7)
+[*][b]Top / Right[/b]: screen corner
+[*][b]Width, Height, MarginX, MarginY[/b]: size and position (1920x1080 UI units)
+[*][b]MapScale[/b]: lower shows more of the map (default 0.5)
+[*][b]FadeSeconds, SettleSeconds[/b]: fade time and delay after interactions
+[*][b]BorderOpacity, BorderWidth[/b]: the dark torn border
+[/list]
+
+[size=4][b]Uninstall[/b][/size]
+Delete [i]winhttp.dll, doorstop_config.ini, .doorstop_version, changelog.txt[/i] and the folders [i]BepInEx[/i] and [i]dotnet[/i] from the game folder. To remove only the minimap, delete [i]BepInEx\plugins\SilverPinesMinimap[/i].
+
+[size=4][b]Compatibility[/b][/size]
+Tested on game version 610_173504 (Windows). The mod finds the map by its class names, not by game version. If an update changes the map code, it switches itself off with a line in [i]BepInEx\LogOutput.log[/i] and the game runs normally without it.
+
+[size=4][b]Credits and licenses[/b][/size]
+[list]
+[*]Minimap plugin: MIT License.
+[*][url=https://github.com/BepInEx/BepInEx]BepInEx[/url] 6.0.0-be.788, included unmodified, LGPL-2.1. Source of this exact version: [url=https://github.com/BepInEx/BepInEx/tree/5b766a3b7f6c164d4798924a93f3acf4db769d06]commit 5b766a3[/url] (also attached under Optional files).
+[*]Silver Pines belongs to its developers and publisher. This is an unofficial fan mod.
+[/list]

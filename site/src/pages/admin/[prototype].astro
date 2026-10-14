@@ -5,13 +5,13 @@ import Header from '../../components/Header.astro';
 import '../../styles/tokens.css';
 import '../../styles/global.css';
 import '../../prototype/editorial-workspace.css';
-import { getGames } from '../../lib/games';
+import { getGames, isTranslated } from '../../lib/games';
 import rows from '../../../../games/shotgun-cop-man/translations/en-pl-review.json';
 
 export function getStaticPaths() {
   return import.meta.env.DEV ? [{ params: { prototype: 'prototype' } }] : [];
 }
-const games = (await getGames()).map(game => ({
+const games = (await getGames()).filter(isTranslated).map(game => ({
   id: game.slug, title: game.title, version: game.version, entries: game.entries.total,
 }));
 const data = JSON.stringify({ games, rows }).replace(/</g, '\\u003c');

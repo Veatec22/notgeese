@@ -6,13 +6,24 @@ export type Tone = 'ink' | 'red' | 'graphite';
 /** Status from games/catalog.yaml, with its position in the file (drives filter order). */
 export type Status = Omit<CollectionEntry<'statuses'>['data'], 'games'> & { id: string; order: number };
 
-export type Game = CollectionEntry<'games'>['data'] & {
+type Data = CollectionEntry<'games'>['data'];
+export type Mod = Data['mods'][number];
+
+export type Game = Data & {
   id: string;
   status: Status;
   added: Date;
   tone: Tone;
   href: string;
+  /** False for catalog status `mods`: we don't translate the game, the page is about our mods. */
+  translated: boolean;
 };
+
+/** Catalog status of games we don't translate (they have a Polish version) but made mods for. */
+export const MODS_STATUS = 'mods';
+const TRANSLATION_FIELDS = ['version', 'entries', 'tested', 'approach', 'scope', 'download'] as const;
+export type TranslatedGame = Game & Required<Pick<Data, (typeof TRANSLATION_FIELDS)[number]>> & { translated: true };
+export const isTranslated = (game: Game): game is TranslatedGame => game.translated;
 
 const TONES: Tone[] = ['ink', 'red', 'graphite'];
 
@@ -52,10 +63,21 @@ export async function getGames(): Promise<Game[]> {
 
   return entries
     .map((entry) => {
+      const { status, added } = catalog.get(entry.data.slug)!;
+      const translated = status.id !== MODS_STATUS;
+      // Same reasoning as the catalog check: a half-filled game.yaml must stop the build.
+      if (translated) {
+        const missing = TRANSLATION_FIELDS.filter((field) => entry.data[field] === undefined);
+        if (missing.length > 0) throw new Error(`games/${entry.data.slug}/game.yaml: brak ${missing.join(', ')} (gra ma status tłumaczenia).`);
+      } else if (entry.data.mods.length === 0) {
+        throw new Error(`games/${entry.data.slug}/game.yaml: status „${MODS_STATUS}” bez żadnego moda.`);
+      }
       return {
         ...entry.data,
         id: entry.id,
-        ...catalog.get(entry.data.slug)!,
+        status,
+        added,
+        translated,
         // The game's own page; on a page with this panel the tile opens it without reload.
         href: withBase(`/${entry.data.slug}/`),
         tone: 'ink' as Tone,
@@ -66,19 +88,30 @@ export async function getGames(): Promise<Game[]> {
     .map((game, index) => ({ ...game, tone: TONES[index % TONES.length]! }));
 }
 
+/** Polish count noun: 1 mod, 2–4 mody, 5 modów (12–14 modów). */
+function plural(n: number, one: string, few: string, many: string): string {
+  if (n === 1) return one;
+  const tens = n % 100;
+  return n % 10 >= 2 && n % 10 <= 4 && (tens < 12 || tens > 14) ? few : many;
+}
+
+/** Translations lead; mods are one extra figure. */
 export function stats(games: Game[]) {
-  const translated = games.reduce((sum, game) => sum + game.entries.done, 0);
+  const translations = games.filter(isTranslated);
+  const entries = translations.reduce((sum, game) => sum + game.entries.done, 0);
+  const mods = games.reduce((sum, game) => sum + game.mods.length, 0);
 
   return [
-    { value: String(games.length), label: 'gier' },
-    { value: translated.toLocaleString('pl-PL'), label: 'przetłumaczonych wpisów' },
-    { value: String(games.filter((game) => game.status.id === 'ready').length), label: 'gotowe' },
-    { value: String(games.filter((game) => game.tested !== 'structural').length), label: 'sprawdzonych w grze' },
+    { value: String(translations.length), label: 'gier' },
+    { value: entries.toLocaleString('pl-PL'), label: 'przetłumaczonych wpisów' },
+    { value: String(translations.filter((game) => game.status.id === 'ready').length), label: 'gotowe' },
+    { value: String(translations.filter((game) => game.tested !== 'structural').length), label: 'sprawdzonych w grze' },
+    ...(mods > 0 ? [{ value: String(mods), label: plural(mods, 'mod', 'mody', 'modów') }] : []),
   ];
 }
 
 /** "485 wpisów" or "153 z 2305 wpisów": no repeated number when complete. */
-export function entriesLabel(game: Game): string {
+export function entriesLabel(game: TranslatedGame): string {
   const { done, total } = game.entries;
   return done >= total ? `${done} wpisów` : `${done} z ${total} wpisów`;
 }

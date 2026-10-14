@@ -3,6 +3,14 @@ import GooseMark from './GooseMark.astro';
 import Icon from './Icon.astro';
 import ThemeSwitch from './ThemeSwitch.astro';
 import { withBase } from '../lib/url';
+
+// Shortcuts to home page sections, in page order.
+const sections = [
+  { id: 'gry', label: 'Gry' },
+  { id: 'proces', label: 'Proces' },
+  { id: 'pracownia', label: 'Pracownia' },
+  { id: 'faq', label: 'FAQ' },
+];
 ---
 
 <header class="ng-header">
@@ -10,8 +18,18 @@ import { withBase } from '../lib/url';
     <GooseMark class="ng-brand-mark" />
     <span class="ng-brand-name"><span class="ng-brand-not">Not</span> Geese</span>
   </a>
+  <nav class="ng-nav ng-nav-sections ng-label" aria-label="Sekcje">
+    {
+      sections.map((section) => (
+        <a class="ng-nav-link" href={withBase(`/#${section.id}`)} data-section-link>
+          {section.label}
+        </a>
+      ))
+    }
+  </nav>
   <nav class="ng-nav ng-label" aria-label="Główna">
-    <a class="ng-nav-button" href={withBase("/#faq")} data-faq-link aria-label="Częste pytania" title="Częste pytania">
+    {/* Phones hide the text shortcuts; the FAQ icon stands in for its one. */}
+    <a class="ng-nav-button ng-nav-faq" href={withBase("/#faq")} data-section-link aria-label="Częste pytania" title="Częste pytania">
       <Icon name="info" size={18} />
     </a>
     <ThemeSwitch />
@@ -22,13 +40,15 @@ import { withBase } from '../lib/url';
 </header>
 
 <script>
-  // Scrolls to the FAQ without adding #faq to the URL. The href stays for no-JS.
-  const link = document.querySelector<HTMLAnchorElement>('[data-faq-link]');
-  link?.addEventListener('click', (event) => {
-    const faq = document.getElementById('faq');
-    if (!faq) return;
-    event.preventDefault();
-    const smooth = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    faq.scrollIntoView({ behavior: smooth ? 'smooth' : 'auto' });
-  });
+  // Scrolls to a home page section without adding #id to the URL. On other pages (a game
+  // page, the workspace) the section is missing and the href goes to the home page.
+  document.querySelectorAll<HTMLAnchorElement>('[data-section-link]').forEach((link) =>
+    link.addEventListener('click', (event) => {
+      const target = document.getElementById(link.hash.slice(1));
+      if (!target) return;
+      event.preventDefault();
+      const smooth = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      target.scrollIntoView({ behavior: smooth ? 'smooth' : 'auto' });
+    }),
+  );
 </script>
