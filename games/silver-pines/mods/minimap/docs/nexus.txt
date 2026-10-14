@@ -33,6 +33,18 @@ After the first start, edit [i]BepInEx\config\pl.notgeese.silverpines.minimap.cf
 [*][b]MapScale[/b]: lower shows more of the map (default 0.5)
 [*][b]FadeSeconds, SettleSeconds[/b]: fade time and delay after interactions
 [*][b]BorderOpacity, BorderWidth[/b]: the dark torn border
+[*][b]Opacity[/b]: minimap transparency, 0.2 to 1 (default 1, solid)
+[*][b]StretchHud[/b]: on screens wider than 16:9 the game keeps its HUD in a centred 16:9 area; true (default) spreads the HUD and the minimap to the screen edges
+[*][b]MoveNotifications[/b]: item notifications and the money counter move below the minimap
+[/list]
+
+[size=4][b]Screen sizes[/b][/size]
+Sizes are in UI units of a 1920x1080 screen and scale with the resolution, so the defaults fit any 16:9 screen: on 3840x2160 the 420x300 minimap is 840x600 pixels in the top-right corner. For a bigger one, try Width=520, Height=370. On ultrawide screens (21:9, 32:9) the minimap and the game's HUD sit at the screen edges (StretchHud).
+
+[size=4][b]Changes[/b][/size]
+[list]
+[*][b]1.1.0[/b]: the map follows you all the time (it used to stay put in long corridors and after opening the main map), Opacity setting, item notifications and the money counter move below the minimap, HUD spread to the screen edges on ultrawide screens.
+[*][b]1.0.0[/b]: first release.
 [/list]
 
 [size=4][b]Uninstall[/b][/size]

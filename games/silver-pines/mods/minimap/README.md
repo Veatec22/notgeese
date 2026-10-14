@@ -18,8 +18,13 @@ telefonach, przerywnikach, oglądaniu przedmiotów i notatek. Przytrzymanie klaw
 (domyślnie Caps Lock albo RB na padzie) nadal otwiera pełną szybką mapę. **F7** włącza i wyłącza
 minimapę.
 
-Róg ekranu, rozmiar, przybliżenie, czas zanikania i ramkę zmienisz po pierwszym uruchomieniu w
+Róg ekranu, rozmiar, przybliżenie, przezroczystość (`Opacity`), czas zanikania i ramkę zmienisz po
+pierwszym uruchomieniu w
 `BepInEx\config\pl.notgeese.silverpines.minimap.cfg` (potem uruchom grę ponownie).
+
+Na ekranach szerszych niż 16:9 (21:9, 32:9) mod rozsuwa HUD gry i minimapę do krawędzi ekranu,
+zamiast trzymać je w środkowym obszarze 16:9 (`StretchHud=false` przywraca układ gry).
+Powiadomienia o przedmiotach i licznik pieniędzy zjeżdżają pod minimapę.
 
 Żeby usunąć mod, skasuj z folderu gry `winhttp.dll`, `doorstop_config.ini`, `.doorstop_version`,
 `changelog.txt` oraz foldery `BepInEx` i `dotnet`. Jeśli po aktualizacji gry mod przestanie

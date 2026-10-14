@@ -24,7 +24,7 @@ const haystack = game.title
     <div class="ng-card-status">
       <span class="ng-badge" data-tone={game.status.tone} title={game.status.description}>{game.status.label}</span>
       {game.translated && game.status.id !== 'in-progress' && <span class="ng-badge-note">v{game.version}</span>}
-      {game.translated && game.mods.length > 0 && <span class="ng-badge-note" title="Do tej gry jest też nasz mod">+ mod</span>}
+      {game.translated && game.mods.length > 0 && <span class="ng-badge-note" title={game.mods.length > 1 ? 'Do tej gry są też nasze mody' : 'Do tej gry jest też nasz mod'}>{game.mods.length > 1 ? `+ ${game.mods.length} ${game.mods.length <= 4 ? "mody" : "modów"}` : '+ mod'}</span>}
     </div>
   </div>
 </a>

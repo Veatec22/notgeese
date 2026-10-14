@@ -75,7 +75,7 @@ const mods = await Promise.all(
           <p class="ng-panel-lead">
             {game.title} po polsku: nieoficjalne, darmowe spolszczenie z polskimi napisami i polskimi
             znakami. Instrukcja instalacji jest niżej.
-            {mods.length > 0 && ' Do tej gry jest też nasz mod, na samym dole.'}
+            {mods.length > 0 && (mods.length > 1 ? ' Do tej gry są też nasze mody, na samym dole.' : ' Do tej gry jest też nasz mod, na samym dole.')}
           </p>
         ) : (
           <p class="ng-panel-lead">

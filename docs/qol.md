@@ -929,3 +929,53 @@ Site (2026-10-14): Silver Pines is the first game with catalog status `mods` (a 
 translation exists, so we don't translate it). Minimap ZIP and BepInEx be.788 source in
 `site/public/pobierz/`; mod listed in `game.yaml` `mods:`, Polish guide in
 `mods/minimap/README.md`. Nexus URL pending publication.
+
+### Published mods split (2026-10-14)
+
+User: publish ultrawide, third person, map marker and quick items as separate mods; minimap not
+yet. `mods/<mod>/plugin/main.lua` (ultrawide, third-person, map-marker, quick-items) are cut from
+`qol/main.lua` (kept as the local all-in-one with minimap, diagnostics and FP arms; never install
+it together with the mods). Each is its own UE4SS mod folder `LotDK_<Mod>` with `enabled.txt`
+(UE4SS starts it regardless of mods.txt, since 1.3.6), so packages never overwrite each other's
+or the PL package's mods.txt. `tools/release_mods.py` builds four ZIPs with the PL package's exact
+UE4SS 3.0.1 files (SHA-256 pinned). Third person: no FP arms offset; on-screen notes and quick-item
+key labels in English. Ultrawide replaces the personal HUD pak (game widgets, never shippable) and
+the hand-written ini lines with runtime work: `Visual.EnableWidescreen 1` console command once per
+session, CameraComp/AnimCamera unconstrained, UI_HUD WidgetSizeBox/SizeBox and UI_TutorialPopup
+SizeBox widened to height x screen aspect when they have an original size (1440/1920x1080,
+1280x800, 640x480); 16:9 screens untouched. Tests: `tools/test_mods.py` runs the matching
+test_qol.py cases on each mod (arms-offset assertions dropped) plus three ultrawide tests; 26 mod
++ 27 legacy pass. Local test install with backup `backups/labyrinth-of-the-demon-king-qol/mods-v1/`
+(old notgeeseQoL folder, pakchunk98, mods.txt/json, Settings.ini/Engine.ini): legacy QoL and HUD
+pak removed, the two hand-written ini lines removed, four ZIPs extracted, tps.txt carried over.
+Runtime widescreen/HUD widening untested in game.
+
+Silver Pines minimap 1.1.0 (2026-10-14), from user test and Nexus feedback:
+- Map stood still in long corridors and stopped tracking after the pause-menu map (M pauses:
+  state hidden: paused → minimap). ISIL: UIMap3DPanel.PositionPlayer focuses the map camera
+  (Map3D.FocusCameraOnMapPosition) only when its focus flag is set, i.e. when the quick map
+  opens; per frame only the player icon moves. Fine full-screen, but the player leaves a small
+  crop. Now every frame while the minimap shows: active Map3D (FindObjectsByType, cached,
+  re-searched every 0.5 s) → GetPlayerPositionData(true).m_mapWorldPosition →
+  FocusCameraOnMapPosition(pos, false), skipped while IsAnimating; failure disables only this.
+- Item notification (NotificationPopup, top-right of the HUD's 16:9 box, y -176) and money
+  counter (MoneyCountPanel, y -132) sat under the minimap (y 24-324). Both shifted down by the
+  same amount until the higher clears the minimap + 12 (top-right corner only; no position
+  tweens found in their ISIL). Config MoveNotifications.
+- Opacity (0.2-1): own CanvasGroup on the Mask (the panel's own group is tweened to 1) and
+  border alpha.
+- StretchHud (default true): the HUD lives in "16:9 Container", a centred 1920x1080 RectTransform;
+  stretched to the canvas (anchors 0-1) so HUD and minimap reach the screen edges on 21:9/32:9;
+  no change on 16:9. Answer for a 3840x2160 user: sizes are 1920x1080 UI units, 420x300 = 840x600 px.
+Compiled; in-game test pending.
+User test 1.1.0: following works; after the pause-menu map (M) the minimap froze until the native
+quick map (Caps Lock) was opened once. Hypothesis: the main map takes the map view (render scene
+/ IsAnimating) and does not hand it back, while our panel still counts as shown, so nothing
+re-activates it; the native quick map's open does. Fix: after a "hidden: paused" spell, on the
+next compact frame toggle UIMap3DPanel.MapViewActive false → true (what the panel does on open),
+reset the Map3D cache; and clear Map3D.IsAnimating if it stays set for over 1 s. Untested.
+Second test: freeze after M persists; Esc (pause → refresh) fixes it, Caps Lock too. Log shows no
+state change on M: the main map does not pause the game, so the pause-only refresh never ran.
+Now any other active UIMap3DPanel with MapViewActive (scanned every 0.25 s) gives state
+"hidden: main map open", which hides the minimap and refreshes the view on return. Untested; if
+the main map panel kept MapViewActive after closing, the minimap would stay hidden (log state).

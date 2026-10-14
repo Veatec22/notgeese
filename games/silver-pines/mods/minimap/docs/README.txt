@@ -33,6 +33,13 @@ After the first start, edit BepInEx\config\pl.notgeese.silverpines.minimap.cfg
 - MapScale       lower shows more of the map (default 0.5)
 - FadeSeconds, SettleSeconds        fade time and delay after interactions
 - BorderOpacity, BorderWidth        the dark torn border
+- Opacity        minimap transparency, 0.2 to 1 (default 1, solid)
+- StretchHud     on screens wider than 16:9, the game keeps its HUD in a centred 16:9 area;
+                 true (default) spreads the HUD and the minimap to the screen edges
+- MoveNotifications  item notifications and the money counter move below the minimap
+
+Sizes are in UI units of a 1920x1080 screen and scale with the resolution: on 3840x2160 the
+default 420x300 minimap is 840x600 pixels. For a bigger one, try Width=520 Height=370.
 
 
 UNINSTALL

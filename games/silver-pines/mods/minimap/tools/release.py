@@ -13,7 +13,7 @@ from pathlib import Path
 MOD = Path(__file__).resolve().parents[1]
 GAME = MOD.parents[1]
 REPO = GAME.parents[1]
-VERSION = '1.0.0'
+VERSION = '1.1.0'
 BEP_VERSION = '6.0.0-be.788'
 BEP_COMMIT = '5b766a3b7f6c164d4798924a93f3acf4db769d06'
 BINARY = REPO/'vendor/bepinex'/f'BepInEx-Unity.IL2CPP-win-x64-{BEP_VERSION}.zip'

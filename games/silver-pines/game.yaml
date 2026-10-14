@@ -8,14 +8,14 @@ gallery: [1, 2, 3, 4, 5]
 mods:
   - slug: minimap
     title: Minimapa
-    version: "1.0.0"
+    version: "1.1.0"
     summary: Wbudowana szybka mapa gry jako mała minimapa w rogu ekranu podczas eksploracji, walki i skradania. Znika przy rozmowach, telefonach, przerywnikach i interakcjach. F7 włącza i wyłącza.
     approach: Plugin BepInEx 6 pokazuje wbudowaną szybką mapę gry w rogu ekranu, z ramką z grafiki samej gry. Żaden plik gry nie jest podmieniany.
     tested_on: []
     download:
-      file: SilverPines-Minimap-1.0.0.zip
-      bytes: 34363440
+      file: SilverPines-Minimap-1.1.0.zip
+      bytes: 34365639
     nexus: https://www.nexusmods.com/silverpines/mods/11
-test_notes: Minimap 1.0.0 tested in game by the user (corner map, fades, hiding in dialogue and cutscenes, quick map restore); release ZIP clean install pending.
+test_notes: Minimap tested in game by the user. 1.1.0 confirmed (map follows the player, also after the main map M; notifications below the minimap; HUD stretched on 32:9); Opacity setting not tried in game.
 steam_appid: 2333000
 year: 2026

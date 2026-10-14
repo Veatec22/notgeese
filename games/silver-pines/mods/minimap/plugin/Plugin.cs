@@ -22,6 +22,8 @@ using HarmonyLib;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
+using Il2CppInterop.Runtime;
+using Object = UnityEngine.Object;
 
 namespace notgeese.SilverPinesMinimap
 {
@@ -29,7 +31,7 @@ namespace notgeese.SilverPinesMinimap
     public sealed class Plugin : BasePlugin
     {
         public const string Id = "pl.notgeese.silverpines.minimap";
-        public const string Version = "1.0.0";
+        public const string Version = "1.1.0";
         const string FrameSprite = "GrittyPanelDoubleSided";
         internal static ManualLogSource Logger;
         static Harmony harmony;
@@ -37,8 +39,8 @@ namespace notgeese.SilverPinesMinimap
 
         static ConfigEntry<bool> enabled;
         static ConfigEntry<Key> toggleKey;
-        static ConfigEntry<float> width, height, marginX, marginY, mapScale, fadeSeconds, settleSeconds, borderOpacity, borderWidth;
-        static ConfigEntry<bool> top, right;
+        static ConfigEntry<float> width, height, marginX, marginY, mapScale, fadeSeconds, settleSeconds, borderOpacity, borderWidth, opacity;
+        static ConfigEntry<bool> top, right, stretchHud, moveNotifications;
 
         static PlayerQuickMapControls controls;
         static int controlsFrame = -100;
@@ -64,6 +66,25 @@ namespace notgeese.SilverPinesMinimap
         static InventoryItemPickupPanel pickup;
         static GameNotesReaderPanel notes;
         static InventoryInteractionPanel interact;
+        static CanvasGroup maskGroup;
+        // HUD area: the game keeps it a centred 1920x1080 box; optionally stretched to the screen.
+        static RectTransform hudArea;
+        static Vector2 hudMin, hudMax, hudPos, hudSize;
+        // Top-right popups under the minimap: item/notes notification and the money counter.
+        static RectTransform notification, money;
+        static Vector2 notificationPos, moneyPos;
+        // The quick map scrolls to the player only when it opens; the minimap follows every frame.
+        static Map3D followMap;
+        static float nextMapSearch;
+        static bool followFailed;
+        // After the pause-menu map (M) the minimap kept its last frame: the main map takes the map
+        // view over and does not hand it back, while our panel still counts as shown. The native
+        // quick map (re)activates it when it opens; we do the same after every pause.
+        static bool needRefresh;
+        static float animatingSince = -1f;
+        // The main map (M) does not pause the game: it is another UIMap3DPanel taking the map view.
+        static UIMap3DPanel[] mapPanels = new UIMap3DPanel[0];
+        static float nextPanelScan;
 
         public override void Load()
         {
@@ -84,6 +105,11 @@ namespace notgeese.SilverPinesMinimap
                 mapScale = Config.Bind("Layout", "MapScale", 0.5f, "Map image scale inside the frame; lower shows more area. 1 = quick map scale.");
                 borderOpacity = Config.Bind("Layout", "BorderOpacity", 0.8f, "Opacity of the dark torn border (0 = none).");
                 borderWidth = Config.Bind("Layout", "BorderWidth", 7f, "How far the dark border reaches past the map edge, in UI units.");
+                opacity = Config.Bind("Layout", "Opacity", 1f, "Minimap opacity, 0.2 (very transparent) to 1 (solid).");
+                stretchHud = Config.Bind("Layout", "StretchHud", true,
+                    "On screens wider than 16:9, spread the game's HUD (and the minimap) to the screen edges instead of a centred 16:9 area.");
+                moveNotifications = Config.Bind("Layout", "MoveNotifications", true,
+                    "Move the top-right item notification and money counter below a top-right minimap.");
 
                 harmony = new Harmony(Id);
                 harmony.Patch(AccessTools.Method(typeof(QuickMapPanel), "Update"),
@@ -158,6 +184,7 @@ namespace notgeese.SilverPinesMinimap
                 // The map's shared RenderTexture appears a little after the level; showing earlier
                 // throws inside MapSceneManager.SetMapActive.
                 else if (MapSceneManager.RenderTexture == null) state = "hidden: map not loaded";
+                else if (OtherMapOpen(__instance)) state = "hidden: main map open";
                 else if ((why = Interaction()) != null) state = "hidden: " + why;
                 else state = "minimap";
                 // Hide at once, show only after free play held for a moment.
@@ -191,8 +218,98 @@ namespace notgeese.SilverPinesMinimap
                 __instance.m_fadeOutSpeed = compact ? speed : fadeOut;
                 // The panel compares this with m_isShowing in its own Update right after us.
                 __instance.m_shouldShow = show;
+                // The main map (M, own or inside the pause menu) takes the map view over.
+                if (state == "hidden: paused" || state == "hidden: main map open") needRefresh = true;
+                if (compact && __instance.m_isShowing)
+                {
+                    if (needRefresh) Refresh(__instance);
+                    Follow();
+                }
+                PlaceNotifications();
             }
             catch (Exception e) { SetCompact(false); Disable(e); }
+        }
+
+        static bool OtherMapOpen(QuickMapPanel panel)
+        {
+            if (Time.unscaledTime >= nextPanelScan)
+            {
+                nextPanelScan = Time.unscaledTime + 0.25f;
+                var found = Object.FindObjectsByType(Il2CppType.Of<UIMap3DPanel>(), FindObjectsSortMode.None);
+                var list = new System.Collections.Generic.List<UIMap3DPanel>();
+                foreach (var o in found)
+                {
+                    var p = o.TryCast<UIMap3DPanel>();
+                    if (p != null && p.Pointer != panel.m_mapViewer.Pointer) list.Add(p);
+                }
+                mapPanels = list.ToArray();
+            }
+            foreach (var p in mapPanels)
+                if (p != null && p.isActiveAndEnabled && p.MapViewActive) return true;
+            return false;
+        }
+
+        static void Refresh(QuickMapPanel panel)
+        {
+            needRefresh = false;
+            try
+            {
+                var viewer = panel.m_mapViewer;
+                viewer.MapViewActive = false;
+                viewer.MapViewActive = true;
+                followMap = null;
+                nextMapSearch = 0f;
+            }
+            catch (Exception e) { Logger.LogWarning("Map view refresh failed: " + e.Message); }
+        }
+
+        static void Follow()
+        {
+            if (followFailed) return;
+            try
+            {
+                if (followMap == null || !followMap.isActiveAndEnabled)
+                {
+                    followMap = null;
+                    if (Time.unscaledTime < nextMapSearch) return;
+                    nextMapSearch = Time.unscaledTime + 0.5f;
+                    foreach (var o in Object.FindObjectsByType(Il2CppType.Of<Map3D>(), FindObjectsSortMode.None))
+                    {
+                        var m = o.TryCast<Map3D>();
+                        if (m != null && m.isActiveAndEnabled) { followMap = m; break; }
+                    }
+                    if (followMap == null) return;
+                    Logger.LogInfo("Following the player on map " + followMap.name + ".");
+                }
+                if (followMap.IsAnimating)
+                {
+                    // Short game animations (e.g. a map reveal) finish on their own; a flag left on
+                    // by a closed menu would stop following for good.
+                    if (animatingSince < 0f) animatingSince = Time.unscaledTime;
+                    if (Time.unscaledTime - animatingSince < 1f) return;
+                    followMap.IsAnimating = false;
+                    Logger.LogInfo("Map animation flag left on for over 1 s; cleared.");
+                }
+                animatingSince = -1f;
+                var data = followMap.GetPlayerPositionData(true);
+                if (data.m_showPlayerPosition) followMap.FocusCameraOnMapPosition(data.m_mapWorldPosition, false);
+            }
+            catch (Exception e)
+            {
+                followFailed = true;
+                Logger.LogWarning("Map following off (the minimap stays, centred only when it opens): " + e.Message);
+            }
+        }
+
+        static void PlaceNotifications()
+        {
+            bool move = moveNotifications.Value && enabled.Value && top.Value && right.Value;
+            // Keep their order and spacing: shift both until the higher one clears the minimap.
+            float clear = marginY.Value + height.Value + 12f;
+            float highest = Mathf.Min(notification != null ? -notificationPos.y : float.MaxValue, money != null ? -moneyPos.y : float.MaxValue);
+            float shift = move && highest < clear ? clear - highest : 0f;
+            if (notification != null) notification.anchoredPosition = new Vector2(notification.anchoredPosition.x, notificationPos.y - shift);
+            if (money != null) money.anchoredPosition = new Vector2(money.anchoredPosition.x, moneyPos.y - shift);
         }
 
         static void Capture(QuickMapPanel panel)
@@ -222,6 +339,28 @@ namespace notgeese.SilverPinesMinimap
             pickup = root.GetComponentInChildren<InventoryItemPickupPanel>(true);
             notes = root.GetComponentInChildren<GameNotesReaderPanel>(true);
             interact = root.GetComponentInChildren<InventoryInteractionPanel>(true);
+            followMap = null;
+            if (mask != null)
+            {
+                maskGroup = mask.GetComponent<CanvasGroup>() ?? mask.gameObject.AddComponent<CanvasGroup>();
+                maskGroup.alpha = 1f;
+            }
+            notification = root.GetComponentInChildren<NotificationPopup>(true)?.GetComponent<RectTransform>();
+            if (notification != null) notificationPos = notification.anchoredPosition;
+            var ticker = root.GetComponentInChildren<MoneyAmountChangedPopup>(true);
+            money = ticker != null ? ticker.transform.Find("MoneyCountPanel")?.GetComponent<RectTransform>() : null;
+            if (money != null) moneyPos = money.anchoredPosition;
+            hudArea = root.GetComponentInChildren<GameplayUIContainer>(true)?.transform.parent?.GetComponent<RectTransform>();
+            if (hudArea != null)
+            {
+                hudMin = hudArea.anchorMin; hudMax = hudArea.anchorMax; hudPos = hudArea.anchoredPosition; hudSize = hudArea.sizeDelta;
+                if (stretchHud.Value)
+                {
+                    hudArea.anchorMin = Vector2.zero; hudArea.anchorMax = Vector2.one;
+                    hudArea.anchoredPosition = Vector2.zero; hudArea.sizeDelta = Vector2.zero;
+                }
+                Logger.LogInfo("HUD area " + hudArea.name + ": " + hudSize + (stretchHud.Value ? " stretched to the screen" : " left centred") + ".");
+            }
 
             Sprite gritty = null;
             foreach (var image in root.GetComponentsInChildren<Image>(true))
@@ -244,7 +383,7 @@ namespace notgeese.SilverPinesMinimap
             Logger.LogInfo("Quick map captured: anchors " + aMin + "-" + aMax + ", fade " + fadeIn + "/" + fadeOut
                 + ", cutscene hiders " + cutsceneHiders.Length + ", bars " + (bars != null) + ", dialogue " + (dialogue != null)
                 + ", examine " + (examine != null) + ", pickup " + (pickup != null) + ", notes " + (notes != null)
-                + ", interact " + (interact != null)
+                + ", interact " + (interact != null) + ", notification " + (notification != null) + ", money " + (money != null)
                 + ", mask " + (mask != null) + ", frame sprite " + (gritty != null) + ".");
         }
 
@@ -277,10 +416,13 @@ namespace notgeese.SilverPinesMinimap
                 b.anchorMin = m.anchorMin; b.anchorMax = m.anchorMax; b.pivot = m.pivot;
                 b.anchoredPosition = m.anchoredPosition;
                 b.sizeDelta = m.sizeDelta + Vector2.one * (2f * borderWidth.Value);
-                border.color = new Color(0.05f, 0.05f, 0.05f, borderOpacity.Value);
+                border.color = new Color(0.05f, 0.05f, 0.05f, borderOpacity.Value * Opacity());
                 border.gameObject.SetActive(true);
             }
+            if (maskGroup != null) maskGroup.alpha = Opacity();
         }
+
+        static float Opacity() => Mathf.Clamp(opacity.Value, 0.2f, 1f);
 
         static void Restore()
         {
@@ -293,6 +435,7 @@ namespace notgeese.SilverPinesMinimap
             if (floors != null) floors.localScale = floorsScale;
             if (mask != null) { mask.sprite = maskSprite; mask.type = maskType; mask.pixelsPerUnitMultiplier = maskPpu; }
             if (border != null) border.gameObject.SetActive(false);
+            if (maskGroup != null) maskGroup.alpha = 1f;
         }
     }
 }
